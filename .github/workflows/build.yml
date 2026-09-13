@@ -20,6 +20,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Present on this repository, absent on a fork: the R2 step keys off it.
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
@@ -29,6 +32,34 @@ jobs:
 
       - name: Verify the result the way a full check would
         run: bunx @osuki-dev/muqun-theme@1 check
+
+      - name: Mirror dist/ and index.json to R2
+        # The same files the release branch holds, at the same keys, so the
+        # `package` field in index.json is the object key. muqun.dev/api/themes/
+        # serves this bucket, and that is what the website, `muqun-theme list`
+        # and the app read. Packages go up first and the index last, so the
+        # index never names a package that is not there yet; packages whose
+        # source is gone are removed only after the new index is in place.
+        if: env.R2_ACCESS_KEY_ID != ''
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          # R2 does not implement the newer S3 checksum headers the AWS CLI
+          # sends by default; these make it send them only when asked.
+          AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+          AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: s3://muqun-themes
+        run: |
+          aws --version
+          aws s3 sync dist/ "$BUCKET/dist/" --endpoint-url "$ENDPOINT" --exclude ".gitkeep" \
+            --content-type application/zip --cache-control "public, max-age=3600"
+          aws s3 cp index.json "$BUCKET/index.json" --endpoint-url "$ENDPOINT" \
+            --content-type "application/json; charset=utf-8" --cache-control "public, max-age=60"
+          aws s3 sync dist/ "$BUCKET/dist/" --endpoint-url "$ENDPOINT" --exclude ".gitkeep" --delete \
+            --content-type application/zip --cache-control "public, max-age=3600"
+          aws s3 ls "$BUCKET/" --recursive --endpoint-url "$ENDPOINT"
 
       - name: Publish dist/ and index.json to the release branch
         run: |
