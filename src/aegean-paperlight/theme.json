@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "aegean-paperlight",
+  "name": "Aegean Paperlight",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EAF6F2",
+        "surface": "#F8FCF8",
+        "surfaceRaised": "#DCEFE9",
+        "border": "#B4CDC6",
+        "borderStrong": "#647F7B",
+        "text": "#102F36",
+        "textMuted": "#36555A",
+        "textSubtle": "#3C595D",
+        "textDisabled": "#819B97",
+        "primary": "#165C67",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#165C6712",
+        "danger": "#8F342E",
+        "dangerSubtle": "#8F342E10",
+        "success": "#245E46",
+        "warning": "#785116",
+        "info": "#264F91"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#EAF6F2",
+        "backgroundOpacity": 0.96,
+        "foreground": "#102F36",
+        "cursor": "#165C67",
+        "link": "#264F91",
+        "selection": "#165C6730",
+        "ansi": [
+          "#102F36",
+          "#A03F38",
+          "#245E46",
+          "#785116",
+          "#264F91",
+          "#79517F",
+          "#165C67",
+          "#3C595D",
+          "#456064",
+          "#A34239",
+          "#2B634C",
+          "#7C541C",
+          "#325899",
+          "#805487",
+          "#21616B",
+          "#102F36"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#092D36",
+        "surface": "#103A43",
+        "surfaceRaised": "#194750",
+        "border": "#426A71",
+        "borderStrong": "#84B0B4",
+        "text": "#F2FCF7",
+        "textMuted": "#D6EBE5",
+        "textSubtle": "#C3DDD7",
+        "textDisabled": "#86A9AA",
+        "primary": "#9FE5D8",
+        "onPrimary": "#0A3138",
+        "primarySubtle": "#9FE5D816",
+        "danger": "#FFC0AE",
+        "dangerSubtle": "#FFC0AE10",
+        "success": "#B2E4BF",
+        "warning": "#F4D099",
+        "info": "#BBD1FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#092D36",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F2FCF7",
+        "cursor": "#9FE5D8",
+        "link": "#BBD1FF",
+        "selection": "#9FE5D830",
+        "ansi": [
+          "#BDDAD3",
+          "#FFC0AE",
+          "#B2E4BF",
+          "#F4D099",
+          "#BBD1FF",
+          "#E2C3ED",
+          "#9FE5D8",
+          "#D6EBE5",
+          "#C7E4DB",
+          "#FFD1C3",
+          "#C6EFD0",
+          "#FFE0B2",
+          "#CFDFFF",
+          "#EFDAF6",
+          "#B8F1E6",
+          "#F2FCF7"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "db91e1cd47bdb5b9f590ba6d0f0b9c28777f297bfa68362a5634d89b9cd77813"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "f559678bbd0defef0e66843b57d5daf411398e9d46d683eecbea118059698efa"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "41cfb3e76a995dc18490993f86c93eca6740d79ad04d7c5a7f5f195471170e61"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "c78ac9420d75148450fc69e72dd1da08ed9ec101328f598f273e875f0a7636ed"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "cb26352e2a679a573ef6f1fff5ca4472f7f4d0b3ada7c068642dced74b8799e3"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "735aefb9f54bdd58ee26bed18bd1fb08c32fc0ef754ae2705aac8d0727c4250a"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "0e15373130c94f47a1bfa1ba12ce3b7dee9bb43e9313bbe95d3970947f7f8557"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "408a7d94d12ac022432a2962dfc827f6f0caff316756a8fbbdc96745ed33038e"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "6432c48c5bb3967b95920775649587d8e5cb43a8094b38fa1810f7bc1bba4d6d"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Greece / Cyclades. Chalk stairways, coral bougainvillea and quiet island water shaped from torn paper. Sea-glass aqua and cobalt shadows carry the sunlight into a deep marine evening.",
+  "tags": [
+    "greece",
+    "cyclades",
+    "paper-collage",
+    "sea-glass",
+    "island",
+    "bougainvillea"
+  ],
+  "preview": "preview"
+}
