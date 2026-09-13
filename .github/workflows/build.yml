@@ -70,11 +70,12 @@ jobs:
           jq -r --slurpfile old previous-index.json '
             .themes[] as $t
             | select(([$old[0].themes[] | select(.id == $t.id and .sha256 == $t.sha256)] | length) == 0)
-            | .package' index.json > changed.txt
+            | $t.package' index.json > changed.txt
           jq -r --slurpfile new index.json '
             .themes[] as $t
             | select(([$new[0].themes[] | select(.id == $t.id)] | length) == 0)
-            | .package' previous-index.json > removed.txt
+            | $t.package' previous-index.json > removed.txt
+          echo "changed:"; cat changed.txt; echo "removed:"; cat removed.txt
 
           while read -r key; do
             [ -n "$key" ] || continue
