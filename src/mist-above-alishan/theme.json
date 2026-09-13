@@ -1,0 +1,228 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "mist-above-alishan",
+  "name": "Mist above Alishan",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Alishan landscape. Layered tea terraces, cypress forests and a winding mountain railway in tea olive, mist white and apricot. Original paper-cut day and night scenes with tea-leaf and railway-ticket glyphs.",
+  "tags": [
+    "alishan",
+    "tea",
+    "forest-railway",
+    "paper-cut",
+    "olive",
+    "illustrated"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F2F2E7",
+        "surface": "#FAFAF0",
+        "surfaceRaised": "#E5E7D6",
+        "border": "#C8CBB5",
+        "borderStrong": "#82886B",
+        "text": "#272D1D",
+        "textMuted": "#444C32",
+        "textSubtle": "#4B5339",
+        "textDisabled": "#949B83",
+        "primary": "#4D5D25",
+        "onPrimary": "#FFFFEF",
+        "primarySubtle": "#4D5D2510",
+        "danger": "#8B3931",
+        "dangerSubtle": "#8B393110",
+        "success": "#3A5933",
+        "warning": "#71521D",
+        "info": "#3D5963"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F2F2E7",
+        "backgroundOpacity": 0.95,
+        "foreground": "#272D1D",
+        "cursor": "#4D5D25",
+        "link": "#3D5963",
+        "selection": "#4D5D2530",
+        "ansi": [
+          "#272D1D",
+          "#8B3931",
+          "#3A5933",
+          "#71521D",
+          "#3D5963",
+          "#715069",
+          "#386057",
+          "#4B5339",
+          "#535B40",
+          "#913B29",
+          "#415C26",
+          "#725016",
+          "#3E5A70",
+          "#7C4562",
+          "#315F54",
+          "#272D1D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#1C2216",
+        "surface": "#252D1D",
+        "surfaceRaised": "#303B25",
+        "border": "#576348",
+        "borderStrong": "#98A986",
+        "text": "#F7F7E4",
+        "textMuted": "#DEE6C7",
+        "textSubtle": "#CBD8AD",
+        "textDisabled": "#8C9C75",
+        "primary": "#DDDCA1",
+        "onPrimary": "#282E13",
+        "primarySubtle": "#DDDCA112",
+        "danger": "#FFC2A8",
+        "dangerSubtle": "#FFC2A812",
+        "success": "#C4E4A9",
+        "warning": "#F1D39C",
+        "info": "#BADCE0"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#1C2216",
+        "backgroundOpacity": 0.95,
+        "foreground": "#F7F7E4",
+        "cursor": "#DDDCA1",
+        "link": "#BADCE0",
+        "selection": "#DDDCA130",
+        "ansi": [
+          "#BCCAA6",
+          "#FFC2A8",
+          "#C4E4A9",
+          "#F1D39C",
+          "#BADCE0",
+          "#DCC2D7",
+          "#B8DBBF",
+          "#E0E8CA",
+          "#CCD8B6",
+          "#FFD4BE",
+          "#D6EBC1",
+          "#F9E1B7",
+          "#D0E8EA",
+          "#EAD6E3",
+          "#CEE9CF",
+          "#F7F7E4"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "8930b6604ba7833c885235356bf2fba8f0db4147793cc876c154111ec4f45b39"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "e3b957878b719dcc019097513a83b477181a58d98943b8e8d5fa7d1834cfc7df"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "41ea6c0f45d437305b676ed4466c1377759612be7ce50c53e07ad5e9a67aaf4d"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "cfbb4d5ca6654bbde6e36053fee6eb83cb67f521ec509a5439827151d34dce60"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "e46f46e9ec675ba88e9f85bf9cf05fc4586d10cfebf3e89a2597a1ab4789bc93"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "149221deba6c919b3899871764648856f9af5818fc85c3f1e4bffef482702df8"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "32b98f466fcf5226ef267dd0f321b67d2b361b48ca9d651fe93ddd7fc67a07aa"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "170049ce5c749ce88ff6d71be62e5990edd8863dcba0357c6cbc26fb4207379d"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "60a91ffeed78fcdfcd65db6c71cc5298d7a7e4a52bb06bc89d8949fb265e0973"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
