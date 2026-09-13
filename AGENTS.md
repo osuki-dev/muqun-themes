@@ -6,11 +6,18 @@ merge and published to the `release` branch; nobody commits them.
 
 ## Before creating or editing a theme
 
-Read `skills/muqun-theme/SKILL.md` in full, first. It is the authoring
-contract from the Muqun app: the workflow, the resource and surface rules, the
-boundaries, the complete JSON Schema, a complete starter manifest, and how to
-check the result. Follow it as written. A theme that ignores it may look right
-and still be refused by the app.
+Read the `muqun-theme` skill in full, first. It is the authoring contract from
+the Muqun app: the workflow, the resource and surface rules, the boundaries,
+the complete JSON Schema, a complete starter manifest, and how to check the
+result. If it is not installed in this checkout (`.agents/skills/muqun-theme/`
+or `.claude/skills/muqun-theme/`), install it:
+
+```sh
+bunx skills add osuki-dev/muqun-theme-cli -y
+```
+
+Follow it as written. A theme that ignores it may look right and still be
+refused by the app.
 
 ## Making a theme
 

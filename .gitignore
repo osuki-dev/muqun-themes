@@ -5,6 +5,10 @@ dist/*
 !dist/.gitkeep
 /index.json
 
+# The muqun-theme skill is installed per checkout with `bunx skills add`.
+.agents/
+.claude/skills/
+
 node_modules/
 tmp/
 *.log
