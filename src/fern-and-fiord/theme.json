@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "fern-and-fiord",
+  "name": "Fern and Fiord",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#ECF3F5",
+        "surface": "#F7FBFC",
+        "surfaceRaised": "#DCE9ED",
+        "border": "#AEC6CE",
+        "borderStrong": "#688B96",
+        "text": "#142E38",
+        "textMuted": "#36545F",
+        "textSubtle": "#3B5964",
+        "textDisabled": "#809AA3",
+        "primary": "#185764",
+        "onPrimary": "#F2FCFF",
+        "primarySubtle": "#18576412",
+        "danger": "#963C42",
+        "dangerSubtle": "#963C4210",
+        "success": "#26643D",
+        "warning": "#79501F",
+        "info": "#285C77"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#ECF3F5",
+        "backgroundOpacity": 0.96,
+        "foreground": "#142E38",
+        "cursor": "#185764",
+        "link": "#285C77",
+        "selection": "#18576430",
+        "ansi": [
+          "#142E38",
+          "#963C42",
+          "#26643D",
+          "#79501F",
+          "#345976",
+          "#70517C",
+          "#285C77",
+          "#3B5964",
+          "#466454",
+          "#A23C48",
+          "#2E653E",
+          "#785720",
+          "#385C89",
+          "#805584",
+          "#2C6474",
+          "#142E38"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0D242D",
+        "surface": "#14313A",
+        "surfaceRaised": "#1D3C45",
+        "border": "#466975",
+        "borderStrong": "#8AB4BD",
+        "text": "#EDFAFC",
+        "textMuted": "#CCE3E8",
+        "textSubtle": "#B9D5DC",
+        "textDisabled": "#7899A4",
+        "primary": "#AADEE5",
+        "onPrimary": "#142E38",
+        "primarySubtle": "#AADEE512",
+        "danger": "#FFC0C0",
+        "dangerSubtle": "#FFC0C012",
+        "success": "#AEE1A3",
+        "warning": "#EBD0A0",
+        "info": "#B5DDEF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#0D242D",
+        "backgroundOpacity": 0.96,
+        "foreground": "#EDFAFC",
+        "cursor": "#AADEE5",
+        "link": "#B5DDEF",
+        "selection": "#AADEE530",
+        "ansi": [
+          "#B9D5DC",
+          "#FFC0C0",
+          "#AEE1A3",
+          "#EBD0A0",
+          "#B7D1F1",
+          "#DDC5E8",
+          "#B5DDEF",
+          "#CCE3E8",
+          "#C1DFCC",
+          "#FFD1CE",
+          "#C5EFB5",
+          "#F7DFB1",
+          "#CDDFFA",
+          "#EDD9F4",
+          "#C8ECF6",
+          "#EDFAFC"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "6def8ad3c01487ff2775794f8b82c805ffeecc708c10c0c4de5db225f10f2e49"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "37aa3b916751f3b9eedec66fedf48f7817b9961782d5b9c1c45f9528bc214c78"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "1523b41cfcf5c7643587257cbac868d724586f2f8d93b0deccd642730dc1e5fa"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "71db211187cfaac99c3700eab655a899efd37767deddb6fa1f061e2732654282"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "a6b3abe506c8d90987007322fdf87a40ba41b85fedb5fc239e5190c0ba16875a"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "70854639626f381ab254754a22c42489e98df5ac17505987c3acb6b57edd7fdb"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "88e098fac6a5864d6fd63713ec5c5230d546d3a3ee78eaf7672d6d2ee1daa389"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f3f7380409186db6e48af84471aac20f9b19f67dea6b9749b476ef1977aae367"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "f2accf942a8bc35f7478b6ab29a3cd115ceaf2e99fa925fb81483d3125159e83"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "New Zealand / Fiordland. Rainforest ferns, sheer ice-carved cliffs and silver waterfalls in greenstone, glacier mint and cool mist. Original carved-pigment landscapes with botanical navigation and a kayak courier.",
+  "tags": [
+    "new-zealand",
+    "fiordland",
+    "fern",
+    "greenstone",
+    "landscape",
+    "illustrated"
+  ],
+  "preview": "preview"
+}
