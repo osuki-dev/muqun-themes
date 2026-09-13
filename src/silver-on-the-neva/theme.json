@@ -1,0 +1,227 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "silver-on-the-neva",
+  "name": "Silver on the Neva",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Russia / Saint Petersburg. Frosted ironwork and Neva river ice rendered in silver engraving, icy cyan and deep cobalt. Day and moonlit illustrations with crystalline navigation and wrought-iron attachment glyphs.",
+  "tags": [
+    "russia",
+    "saint-petersburg",
+    "winter",
+    "engraving",
+    "cobalt"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EDF6F8",
+        "surface": "#F8FCFD",
+        "surfaceRaised": "#DBEAF0",
+        "border": "#BDD2DE",
+        "borderStrong": "#7194A8",
+        "text": "#152B40",
+        "textMuted": "#30485B",
+        "textSubtle": "#385367",
+        "textDisabled": "#8AA1B0",
+        "primary": "#1D467D",
+        "onPrimary": "#F8FCFD",
+        "primarySubtle": "#1D467D10",
+        "danger": "#88334B",
+        "dangerSubtle": "#88334B10",
+        "success": "#29594D",
+        "warning": "#6D5125",
+        "info": "#225779"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.92
+      },
+      "terminal": {
+        "background": "#EDF6F8",
+        "backgroundOpacity": 0.94,
+        "foreground": "#152B40",
+        "cursor": "#1D467D",
+        "link": "#225779",
+        "selection": "#1D467D30",
+        "ansi": [
+          "#152B40",
+          "#88334B",
+          "#29594D",
+          "#6D5125",
+          "#1D467D",
+          "#66486E",
+          "#255961",
+          "#385367",
+          "#43576B",
+          "#8C3046",
+          "#28553F",
+          "#704B21",
+          "#244783",
+          "#6C406F",
+          "#255560",
+          "#152B40"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0B1833",
+        "surface": "#12213F",
+        "surfaceRaised": "#1B2C4B",
+        "border": "#3F577B",
+        "borderStrong": "#869DBA",
+        "text": "#F1FAFF",
+        "textMuted": "#D4E5F0",
+        "textSubtle": "#C0D5E7",
+        "textDisabled": "#829BB5",
+        "primary": "#AFDBF5",
+        "onPrimary": "#10213D",
+        "primarySubtle": "#AFDBF512",
+        "danger": "#FFC1D2",
+        "dangerSubtle": "#FFC1D212",
+        "success": "#BAE3D7",
+        "warning": "#EEDCB8",
+        "info": "#B6D8FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.92
+      },
+      "terminal": {
+        "background": "#0B1833",
+        "backgroundOpacity": 0.94,
+        "foreground": "#F1FAFF",
+        "cursor": "#AFDBF5",
+        "link": "#B6D8FF",
+        "selection": "#AFDBF530",
+        "ansi": [
+          "#B3C8DE",
+          "#FFC1D2",
+          "#BAE3D7",
+          "#EEDCB8",
+          "#B6D8FF",
+          "#D3C7F0",
+          "#B0E4EA",
+          "#D9E9F5",
+          "#BFD2E5",
+          "#FFD1DD",
+          "#D1F0E4",
+          "#F9EACE",
+          "#D0E5FF",
+          "#E4DAF8",
+          "#CDEFF2",
+          "#F1FAFF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "d10cdaa640ea2b06282fa2ea1ce09b11a61cc53aca32e778b0e24889c0309d52"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "4e9e8949696df2f7ccd531df71fc199b899f4a32f04edf95302069e64f3d4955"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "1d9b34c210d906aa135811d9303a7acbdc0907969eff0aecb3d3085f77a0e503"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "55c00a71e19a0c9928dccac9e1e588f94221ebc06d4da8206ecc87af3d6cb2b0"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "642213ec0d0a8626c2df2e7ce08fc77a5b3a0a1f375dbf998ae414b2fd0118f5"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "ec4e6e24230a99931ae53f88efa80ce217c671c9a3f1559f21bbdadc436aad61"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "a84233056b932e386d627210cbe74afd82d60ae287fdfcb5455061713bf92ee7"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "e8e0a9ca4286a4b612422140de365598660855816df681974c30d572265e2ec7"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "66807d93c5b04f3a3c052eb50b883e8311980b89265dc73f8b026bec6d5a2bf5"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
