@@ -5,8 +5,9 @@
 ## Checklist
 
 - [ ] One theme in this PR, and only its source: `src/<id>/` (no `dist/`, no `index.json`; CI builds those)
-- [ ] `bunx @osuki-dev/muqun-theme check --sources` passes with no errors
+- [ ] `bunx @osuki-dev/muqun-theme check --sources --require-preview` passes with no errors
 - [ ] Placeholder artwork from `init` is replaced or deliberately kept as flat tints
+- [ ] `assets/preview.png` is a real cover, 1024×640, light look on the left half and dark on the right
 - [ ] `name`, `author`, `license`, `description` and `tags` are set in `theme.json`
 - [ ] `version` in `theme.json` was bumped if this changes an existing theme
 

@@ -40,8 +40,8 @@ Then ask for the theme. Attach reference images if you have them, name the id,
 and say where the result goes:
 
 > Create a Muqun theme with id `grand-voyage` from the attached references.
-> Author it in `src/grand-voyage` and make
-> `bunx @osuki-dev/muqun-theme check --sources` pass.
+> Author it in `src/grand-voyage`, including the 1024×640 preview cover, and
+> make `bunx @osuki-dev/muqun-theme check --sources --require-preview` pass.
 
 Review what comes back the same way you would a human's: run the check, look at
 the artwork, read the PR. The skill makes an agent produce a valid theme; it
@@ -89,13 +89,20 @@ bunx @osuki-dev/muqun-theme validate grand-voyage  # everything the app checks o
 `validate` exits `0` when the theme is usable. Warnings are advice; errors mean
 the app would refuse it.
 
-**4. Run what CI runs.**
+**4. Make the cover.** `assets/preview.png` is what the website and the app
+show before anyone downloads the pack, so it is required: 1024×640, the light
+look on the left half and the dark look on the right, made from the theme's
+own artwork or its surfaces and palette. `init` leaves a flat placeholder
+there; replace it and keep it named in the manifest's `preview` field.
+
+**5. Run what CI runs.**
 
 ```sh
-bunx @osuki-dev/muqun-theme check --sources
+bunx @osuki-dev/muqun-theme check --sources --require-preview
 ```
 
-That validates every source and packs it in memory to prove it can be. If you
+That validates every source, packs it in memory to prove it can be, and
+refuses a theme without a cover. If you
 want to see the package itself, `bunx @osuki-dev/muqun-theme pack grand-voyage`
 writes `dist/grand-voyage.muqun-theme`; it is gitignored, so pack as much as
 you like.
@@ -110,8 +117,8 @@ Themes arrive as pull requests, one theme per PR.
 1. Branch from `main`: `git switch -c theme/grand-voyage`.
 2. Add `src/grand-voyage/`. Nothing else: `dist/` and `index.json` are built
    by CI and are ignored by git on `main`.
-3. Run `bunx @osuki-dev/muqun-theme check --sources` from the repository root.
-   It is exactly what CI runs on the PR.
+3. Run `bunx @osuki-dev/muqun-theme check --sources --require-preview` from
+   the repository root. It is exactly what CI runs on the PR.
 4. Open the pull request. The template lists what a reviewer looks for.
 
 What gets a theme merged:
@@ -119,7 +126,7 @@ What gets a theme merged:
 - The check passes with **no errors**. Warnings are discussed in the PR, not
   blocked on.
 - No placeholder artwork left from `init`, unless a slot is deliberately a flat
-  tint.
+  tint. The preview cover is never a placeholder.
 - The `id` is not already taken by another theme in `src/`.
 - `name`, `author` and `license` are set, and the rights below are in order.
 
