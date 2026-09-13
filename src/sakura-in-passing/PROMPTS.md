@@ -37,4 +37,3 @@ Use case: logo-brand. Single flat black opaque template UI glyph on true transpa
 ## icon-attach
 
 Use case: logo-brand. Single flat black opaque template UI glyph on true transparent background. Japanese mizuhiki cord inspired attachment icon: one elegant elongated looped knot resembling a paperclip, two parallel thick ribbons loop at top and intersect once at lower third with obvious open negative space. Extremely simple bold silhouette legible at 17 pixels. Centered square 1024x1024 with 15% padding. No circle, background, gray, shadow, texture, letters.
-
