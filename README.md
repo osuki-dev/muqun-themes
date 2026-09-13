@@ -139,6 +139,11 @@ a minute or two; it then appears in `list` and on the website.
 nothing: you keep the copyright, and the `license` field in `theme.json` is the
 licence you grant readers who install it. Choose one you mean.
 
+The repository itself, meaning everything that is not a theme (the workflows,
+the documentation, the templates), is under the Apache License 2.0 in
+`LICENSE`. That licence does not apply to anything under `src/<id>/`; each
+theme carries its own.
+
 **You must hold the rights to everything in `assets/`**, either because you
 made it or because its licence lets you redistribute it under yours. If any
 image is not your own work, it has to be marked:
