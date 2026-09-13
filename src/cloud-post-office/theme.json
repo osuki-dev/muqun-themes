@@ -1,0 +1,243 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "cloud-post-office",
+  "name": "Cloud Post Office",
+  "version": "1.1.0",
+  "author": "Muqun · AI-assisted original artwork",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4F6FA",
+        "surface": "#FCFAF5",
+        "surfaceRaised": "#EAF0F6",
+        "border": "#C8D4E0",
+        "borderStrong": "#71859E",
+        "text": "#14283F",
+        "textMuted": "#33465B",
+        "textSubtle": "#3D4D62",
+        "textDisabled": "#8794A4",
+        "primary": "#254C78",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#254C7814",
+        "danger": "#842F46",
+        "dangerSubtle": "#842F4614",
+        "success": "#215E4B",
+        "warning": "#715019",
+        "info": "#245877"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.88
+      },
+      "terminal": {
+        "background": "#F4F6FA",
+        "backgroundOpacity": 0.9,
+        "foreground": "#14283F",
+        "cursor": "#254C78",
+        "link": "#245877",
+        "selection": "#254C7828",
+        "ansi": [
+          "#26364A",
+          "#882F45",
+          "#245B43",
+          "#705019",
+          "#2B4E7C",
+          "#654578",
+          "#215963",
+          "#485467",
+          "#485567",
+          "#8A2B43",
+          "#225C40",
+          "#6F4A14",
+          "#244F83",
+          "#663E78",
+          "#205563",
+          "#14283F"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101A30",
+        "surface": "#162139",
+        "surfaceRaised": "#1C2B43",
+        "border": "#3B4862",
+        "borderStrong": "#8596B1",
+        "text": "#FFF6E6",
+        "textMuted": "#DCE3EE",
+        "textSubtle": "#CCD7E7",
+        "textDisabled": "#7E8BA2",
+        "primary": "#B8D8FA",
+        "onPrimary": "#14263D",
+        "primarySubtle": "#B8D8FA18",
+        "danger": "#FFC3CE",
+        "dangerSubtle": "#FFC3CE18",
+        "success": "#ACE2C4",
+        "warning": "#F8DCA6",
+        "info": "#B2DEEF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.88
+      },
+      "terminal": {
+        "background": "#101A30",
+        "backgroundOpacity": 0.9,
+        "foreground": "#FFF6E6",
+        "cursor": "#F8DCA6",
+        "link": "#B2DEEF",
+        "selection": "#B8D8FA30",
+        "ansi": [
+          "#BCC8DC",
+          "#FFC3CE",
+          "#ACE2C4",
+          "#F8DCA6",
+          "#B8D8FA",
+          "#DBCAEF",
+          "#AFE1E8",
+          "#E2E8F2",
+          "#BAC8DD",
+          "#FFD5DC",
+          "#C4EED6",
+          "#FFE8BE",
+          "#CFE5FF",
+          "#E8D9FA",
+          "#C8F0F2",
+          "#FFF6E6"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "scene-wide-light": {
+      "path": "assets/scene-wide-light.webp",
+      "sha256": "7401939d948f6b3cfc993747018c75907847bc54ab01c4b41f606b102865de48"
+    },
+    "scene-wide-dark": {
+      "path": "assets/scene-wide-dark.webp",
+      "sha256": "b5ad4e0a2041ca5dcb02f17a0fada059b41c43f8658e7bffdefb7158f3b0edc0"
+    },
+    "scene-light": {
+      "path": "assets/scene-light.webp",
+      "sha256": "eb890464c4ec2ccefdbd7c65eb73d5a824ae24e7bec7a119bcb4939c4bce422f"
+    },
+    "scene-dark": {
+      "path": "assets/scene-dark.webp",
+      "sha256": "2c81b64bf46aaa64589763fe1ccb1fb33bd954e448a28be331038279155c38d2"
+    },
+    "paper-courier": {
+      "path": "assets/paper-courier.png",
+      "sha256": "ed5ba167d7f693f60380b4eb9787a2940ff0e9d4cf6e123acb78461d7b2f7add"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "fef5461c29daf23ea018b0d8729e6d3c5658d10ce90a32c6fffa90b47e198eb1"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "de236cb2004e057e383a2703dc6141569817f9741d65d63b39ba619850ddf7b1"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3b07d0cf53d29970f8b5b4d383935e7c9d8dac813d3121d195ec75db76294e74"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "02907dc766455433f4635321556689d331ba3f04446f9bfe2742540e4b7ce6fb"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "paper-courier",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "scene-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.64,
+          "y": 0.72
+        },
+        "compact": {
+          "asset": "scene-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.64,
+            "y": 0.72
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "scene-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.64,
+          "y": 0.72
+        },
+        "compact": {
+          "asset": "scene-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.64,
+            "y": 0.72
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.67,
+            "y": 0.55
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Send your thoughts beyond the clouds. An original anime-inspired post office with cloud-sea railways by day, starlit letters by night, and a paper-bird courier. Separate artwork for phone and wide-screen layouts.",
+  "tags": [
+    "anime",
+    "fantasy",
+    "clouds",
+    "illustrated",
+    "translucent"
+  ],
+  "preview": "preview",
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
