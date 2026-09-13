@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
-      - run: bunx @osuki-dev/muqun-theme@1 check --sources
+      - run: bunx @osuki-dev/muqun-theme@1 check --sources --require-preview

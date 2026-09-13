@@ -158,6 +158,9 @@
     "empty-dark": {
       "path": "assets/empty-dark.webp",
       "sha256": "05e513c8aca4e965c348ebcb46961c29b72369b4746de343b5a90e2d6e491c27"
+    },
+    "preview": {
+      "path": "assets/preview.webp"
     }
   },
   "variantDecorations": {
@@ -274,5 +277,6 @@
     "logo": {
       "mode": "hidden"
     }
-  }
+  },
+  "preview": "preview"
 }

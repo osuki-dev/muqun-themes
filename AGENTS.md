@@ -28,7 +28,7 @@ repository root and it knows the layout, so a bare id is enough:
 bunx @osuki-dev/muqun-theme init <id>          # writes src/<id>/, a complete scaffold with placeholder art
 bunx @osuki-dev/muqun-theme contrast <id>      # opacity floor and the pairs that set it
 bunx @osuki-dev/muqun-theme validate <id>      # what the app checks on import
-bunx @osuki-dev/muqun-theme check --sources    # what CI runs on the PR; must pass before you finish
+bunx @osuki-dev/muqun-theme check --sources --require-preview   # what CI runs on the PR; must pass before you finish
 ```
 
 - `<id>` is lowercase letters, digits and dashes, starting with a letter. It is
@@ -39,6 +39,10 @@ bunx @osuki-dev/muqun-theme check --sources    # what CI runs on the PR; must pa
   package.
 - Replace every placeholder image from `init` with real artwork, or delete the
   slot. `validate` names the placeholders still in place.
+- `assets/preview.png` is required and is what galleries show before anyone
+  downloads the pack: 1024×640, the light look on the left half and the dark
+  look on the right, made from the theme's own artwork or its surfaces and
+  palette. Keep it named in the manifest's `preview` field.
 - Set `name`, `author`, `license`, `description` and `tags`. Bump `version`
   when changing an existing theme.
 - Only use artwork the submitter holds the rights to. For any image that is not
@@ -48,5 +52,5 @@ bunx @osuki-dev/muqun-theme check --sources    # what CI runs on the PR; must pa
 
 ## Before finishing
 
-`bunx @osuki-dev/muqun-theme check --sources` must pass. Submit one theme per
-pull request.
+`bunx @osuki-dev/muqun-theme check --sources --require-preview` must pass.
+Submit one theme per pull request.
