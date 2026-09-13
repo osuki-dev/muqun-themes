@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "cypress-hour",
+  "name": "Cypress Hour",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FAEEE4",
+        "surface": "#FFF6ED",
+        "surfaceRaised": "#F0E0D2",
+        "border": "#CABBAB",
+        "borderStrong": "#918473",
+        "text": "#2F261C",
+        "textMuted": "#564937",
+        "textSubtle": "#5B4F3D",
+        "textDisabled": "#A49A87",
+        "primary": "#485127",
+        "onPrimary": "#FFF7EC",
+        "primarySubtle": "#48512712",
+        "danger": "#83352D",
+        "dangerSubtle": "#83352D0D",
+        "success": "#425827",
+        "warning": "#775019",
+        "info": "#315F62"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#FAEEE4",
+        "backgroundOpacity": 0.96,
+        "foreground": "#2F261C",
+        "cursor": "#485127",
+        "link": "#315F62",
+        "selection": "#48512730",
+        "ansi": [
+          "#30271D",
+          "#943E32",
+          "#425827",
+          "#775019",
+          "#405C76",
+          "#75496D",
+          "#315F62",
+          "#5B4F3D",
+          "#61533E",
+          "#A23D35",
+          "#48632D",
+          "#795018",
+          "#4C5B7C",
+          "#7B436A",
+          "#326166",
+          "#30271D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#27271E",
+        "surface": "#303025",
+        "surfaceRaised": "#3A392B",
+        "border": "#67634E",
+        "borderStrong": "#A6A080",
+        "text": "#FFF0DE",
+        "textMuted": "#E8D6BF",
+        "textSubtle": "#D7CCAD",
+        "textDisabled": "#98957B",
+        "primary": "#D4D897",
+        "onPrimary": "#25291A",
+        "primarySubtle": "#D4D89712",
+        "danger": "#FFB9A1",
+        "dangerSubtle": "#FFB9A112",
+        "success": "#D3DEA8",
+        "warning": "#F0CF95",
+        "info": "#B6D7D1"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#27271E",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF0DE",
+        "cursor": "#D4D897",
+        "link": "#B6D7D1",
+        "selection": "#D4D89730",
+        "ansi": [
+          "#CBC7A8",
+          "#FFB9A1",
+          "#D3DEA8",
+          "#F0CF95",
+          "#C2D4EB",
+          "#E5BBD6",
+          "#B6D7D1",
+          "#E8D6BF",
+          "#D6D0B8",
+          "#FFD0BA",
+          "#E4E9BF",
+          "#F8DEAC",
+          "#D6E3F3",
+          "#F0D0E4",
+          "#D0E7DE",
+          "#FFF0DE"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "6b09dd43e70813a9ecef15cd4a11d8c07b113e968c192f99e05b0b2f7ee390cc"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "8f27033fcd37c0fe3bf118e0f37f8bb919e96d3e0601e9ad56d9f34cb9f307f4"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "885fc16f07d491f2b4d7c8c5765b27753136a4c319ad03e3073ea2c9ddbedfdc"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "2461588ab290e3c60e4b3c68cdd174a16dd7b44eea884bf3b108d05f67be260a"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "f2ec6b27b127017b2bff03d5ae82f2eb0f54f1aec54de02191362a010e0b1802"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "a56c2d33d36e5dc59d191b897accedaaf6af80a9d85a2b33bd4e3f3d315563ed"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "04ddb9c79a059123dfda25c12b5005f54b83c31285ebe1cbf80a70fe96511a50"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "b0e1b3571b052e02fb043b29a847cea49df880415229781b329b400462a93ba0"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "66f32afcd2dd04784bde326340081c0f98eb9fe2cd09fe886da497d9eb818c49"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Italy / Tuscany. Cypress avenues, olive hills and peach plaster villages in original fresco gouache. Olive dusk, sun-warmed peach and espresso frame a quiet landscape, with olive-twig, glider and cypress-loop glyphs.",
+  "tags": [
+    "italy",
+    "tuscany",
+    "cypress",
+    "fresco",
+    "olive",
+    "gouache"
+  ],
+  "preview": "preview"
+}
