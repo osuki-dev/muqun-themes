@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "gentian-above-the-clouds",
+  "name": "Gentian above the Clouds",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5F3EC",
+        "surface": "#FFFEF8",
+        "surfaceRaised": "#E8E9E8",
+        "border": "#C1C4C9",
+        "borderStrong": "#777D89",
+        "text": "#202736",
+        "textMuted": "#454B5B",
+        "textSubtle": "#505666",
+        "textDisabled": "#9296A1",
+        "primary": "#51378A",
+        "onPrimary": "#FFFEF8",
+        "primarySubtle": "#51378A10",
+        "danger": "#993D48",
+        "dangerSubtle": "#993D4810",
+        "success": "#376049",
+        "warning": "#71541D",
+        "info": "#355A7D"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F5F3EC",
+        "backgroundOpacity": 0.96,
+        "foreground": "#202736",
+        "cursor": "#51378A",
+        "link": "#355A7D",
+        "selection": "#51378A30",
+        "ansi": [
+          "#202736",
+          "#993D48",
+          "#376049",
+          "#71541D",
+          "#355A7D",
+          "#51378A",
+          "#29616B",
+          "#505666",
+          "#454B5B",
+          "#993D48",
+          "#376049",
+          "#71541D",
+          "#355A7D",
+          "#51378A",
+          "#29616B",
+          "#202736"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#171E2A",
+        "surface": "#202A38",
+        "surfaceRaised": "#2A3545",
+        "border": "#4D596C",
+        "borderStrong": "#909FB2",
+        "text": "#FBF8EE",
+        "textMuted": "#DEE2ED",
+        "textSubtle": "#C5CCDB",
+        "textDisabled": "#8995A9",
+        "primary": "#D1BFFF",
+        "onPrimary": "#251B3A",
+        "primarySubtle": "#D1BFFF12",
+        "danger": "#FFB8BB",
+        "dangerSubtle": "#FFB8BB12",
+        "success": "#B5DEC4",
+        "warning": "#EACF95",
+        "info": "#B9D5F1"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#171E2A",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FBF8EE",
+        "cursor": "#D1BFFF",
+        "link": "#B9D5F1",
+        "selection": "#D1BFFF30",
+        "ansi": [
+          "#FBF8EE",
+          "#FFB8BB",
+          "#B5DEC4",
+          "#EACF95",
+          "#B9D5F1",
+          "#D1BFFF",
+          "#B7DFE2",
+          "#C5CCDB",
+          "#DEE2ED",
+          "#FFB8BB",
+          "#B5DEC4",
+          "#EACF95",
+          "#B9D5F1",
+          "#D1BFFF",
+          "#B7DFE2",
+          "#FBF8EE"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "9fb01e4f069074bb0a2848a3fba71753f3dbd1d7d1ece60cbe46d010dc547a0a"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "9b882c6cf174126126d37afd9cb15e60feaa1c13abca5a26173cafba0e3537d3"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "5e2487222ffcf47c5d411d30293a43f27fe9826c6d90404f210a94729f8bb0bb"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f11e0d77569a36ca582ea76a5cf202a2f655da12d32589bf31dce8ebefa5895b"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "f633c54938952d2b0f2dc1c230bbbd783634a6ca1a07e75fb58fa9e0db408969"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "43ce3a59fb81cc3e481ec0fe4ba1be4bae3ea674b9c6741c3dfdc013d08d81e2"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "f9444306ce551e61ff1d5c1e360bf13133d48cf1802ddba7a072cbd5a8b4b7e0"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "2f4fc08d8db8a980be47e79c93d686a85083aa2d94df021985d0841b1c390b6a"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "d7b24e8f1d0cd819434116ccbec1e38e1195b7aaae4dfbb9ab1cd30c36d665b4"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Switzerland / Alps. Snow peaks and cable cars rise above a sea of clouds in fine cut-paper relief. Snow ivory, alpine slate and gentian violet frame original day and moonlit landscapes, with trail-sign, alpine-glider and carabiner glyphs.",
+  "tags": [
+    "switzerland",
+    "alps",
+    "gentian",
+    "cut-paper",
+    "mountains",
+    "violet"
+  ],
+  "preview": "preview"
+}
