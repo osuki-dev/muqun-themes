@@ -1,0 +1,227 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "the-last-reading-room",
+  "name": "The Last Reading Room",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "United Kingdom / London. An oak-lined reading room in tobacco, parchment and brass, with Arts and Crafts foliage, rain-lit windows and original book-inspired glyphs.",
+  "tags": [
+    "britain",
+    "london",
+    "library",
+    "arts-and-crafts",
+    "tobacco"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4EDDE",
+        "surface": "#FCF7EA",
+        "surfaceRaised": "#E6DDCA",
+        "border": "#C9B99A",
+        "borderStrong": "#8E7758",
+        "text": "#30271C",
+        "textMuted": "#4B3D2A",
+        "textSubtle": "#554733",
+        "textDisabled": "#A5967D",
+        "primary": "#69421F",
+        "onPrimary": "#FFF8E9",
+        "primarySubtle": "#69421F10",
+        "danger": "#873629",
+        "dangerSubtle": "#87362910",
+        "success": "#405233",
+        "warning": "#70501C",
+        "info": "#3B5265"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F4EDDE",
+        "backgroundOpacity": 0.95,
+        "foreground": "#30271C",
+        "cursor": "#69421F",
+        "link": "#3B5265",
+        "selection": "#69421F30",
+        "ansi": [
+          "#30271C",
+          "#873629",
+          "#405233",
+          "#70501C",
+          "#3B5265",
+          "#69465C",
+          "#355954",
+          "#554733",
+          "#5B4C38",
+          "#8A3326",
+          "#3D512D",
+          "#714B17",
+          "#374F69",
+          "#6D405D",
+          "#315650",
+          "#30271C"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#231B14",
+        "surface": "#2C2218",
+        "surfaceRaised": "#362A1D",
+        "border": "#66523A",
+        "borderStrong": "#AB926C",
+        "text": "#FBF1DA",
+        "textMuted": "#E7D8B8",
+        "textSubtle": "#D8C9AB",
+        "textDisabled": "#A59578",
+        "primary": "#EDCE91",
+        "onPrimary": "#31210E",
+        "primarySubtle": "#EDCE9112",
+        "danger": "#FFC5B1",
+        "dangerSubtle": "#FFC5B112",
+        "success": "#CFDDB0",
+        "warning": "#F4D5A1",
+        "info": "#C6D7E6"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#231B14",
+        "backgroundOpacity": 0.95,
+        "foreground": "#FBF1DA",
+        "cursor": "#EDCE91",
+        "link": "#C6D7E6",
+        "selection": "#EDCE9130",
+        "ansi": [
+          "#CAB99A",
+          "#FFC5B1",
+          "#CFDDB0",
+          "#F4D5A1",
+          "#C6D7E6",
+          "#E0C5D5",
+          "#BFDED1",
+          "#E9DFC8",
+          "#D3C3A4",
+          "#FFD5C4",
+          "#DFE9C6",
+          "#FBE6BD",
+          "#D9E4EF",
+          "#EED9E4",
+          "#D1EBDD",
+          "#FBF1DA"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "6f0371c1088384081f24841cfffc3ac80acda61c8c05e0d40ec54787dce4a1c4"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "7ee91eff13e3fd0ea36c2a58871e1b781b51904dd7eacf2ee3d1a65c8c8b6c17"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "836bb473fdfd8caec94cd452e52dfe9457770f3394f63ae4ef18dbba8862251f"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "f3425ec5f3f5a76904b9770da0266e293779a5d9881ccf237793c60deaec5adf"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "ccc0bed27cd1b0fae34161e58815e3410bedc66b613403aac5386e0338de2bef"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "3c145b19a4b52e8b3d0cc1a63609983cf47a04234acf6619c053ef7a0431c3df"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "1d0f740cb4499e58ba5e94c6049aa6bea548dcd5d24eb1875c43d404a9a8f875"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "5a88f046a6eb48c6a658511d197bc3a984e282a7c32e51a469fbbc7b0850e8c3"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "d2f263dac58047943cd6d0dbc21912033471d71abb1b5f85ecce9060c13d8b77"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
