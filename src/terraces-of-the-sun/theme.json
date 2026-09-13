@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "terraces-of-the-sun",
+  "name": "Terraces of the Sun",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F0DE",
+        "surface": "#FFF9EA",
+        "surfaceRaised": "#EBDFC9",
+        "border": "#CBB79B",
+        "borderStrong": "#917663",
+        "text": "#32191E",
+        "textMuted": "#593C3E",
+        "textSubtle": "#66494A",
+        "textDisabled": "#9E8A7D",
+        "primary": "#7C2534",
+        "onPrimary": "#FFF6E4",
+        "primarySubtle": "#7C253410",
+        "danger": "#922C21",
+        "dangerSubtle": "#922C2110",
+        "success": "#275B43",
+        "warning": "#795315",
+        "info": "#176368"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F8F0DE",
+        "backgroundOpacity": 0.96,
+        "foreground": "#32191E",
+        "cursor": "#7C2534",
+        "link": "#176368",
+        "selection": "#7C253430",
+        "ansi": [
+          "#32191E",
+          "#922C21",
+          "#275B43",
+          "#795315",
+          "#35557D",
+          "#7C2534",
+          "#176368",
+          "#66494A",
+          "#66524A",
+          "#A1362D",
+          "#33664B",
+          "#805522",
+          "#3E638A",
+          "#884054",
+          "#276C70",
+          "#32191E"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#270E16",
+        "surface": "#341721",
+        "surfaceRaised": "#43232D",
+        "border": "#78505A",
+        "borderStrong": "#BE9393",
+        "text": "#FFF3DB",
+        "textMuted": "#EAD7C3",
+        "textSubtle": "#D8BDB0",
+        "textDisabled": "#A68A87",
+        "primary": "#7FE0D0",
+        "onPrimary": "#14312C",
+        "primarySubtle": "#7FE0D012",
+        "danger": "#FFB7A2",
+        "dangerSubtle": "#FFB7A212",
+        "success": "#B9E0A8",
+        "warning": "#F1D18E",
+        "info": "#ADE3E2"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#270E16",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF3DB",
+        "cursor": "#7FE0D0",
+        "link": "#ADE3E2",
+        "selection": "#7FE0D030",
+        "ansi": [
+          "#D5BCAB",
+          "#FFB7A2",
+          "#B9E0A8",
+          "#F1D18E",
+          "#B8D1F1",
+          "#E8B3D7",
+          "#ADE3E2",
+          "#EAD7C3",
+          "#DFCABE",
+          "#FFD1BF",
+          "#CDEFBB",
+          "#FFE3AC",
+          "#D1E3FA",
+          "#F2CCE5",
+          "#C9F0EC",
+          "#FFF3DB"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "a8b6b800ef83da140e34b9c616f7419e541d52e9faef3efb6acd2d09b7c2096c"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "f6a367d4bdd1b392c630fa886dc9fa535de2ceff4145f22c80eb7f68dd3bb6ab"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "a894652844900e3991195d018b68520bdf32dc515023750695d2d8bad29f6eed"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "50cfe3232b8ee877de1edaba8bb2f70ff56a7d94ee698fe439c66ff64516867f"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "a6043f2cf6c3365e66a326b91b7ae08d7b5ba2cab9bfd1fe48f33185d4b19731"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "a2cc4287066c974e53431f986193903ad14c77b2a717b9060d79fead54c18a4c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "35dd418f5dd4770645f09bbb36f849cf264f728e6f6bf864bb719cf391ddd39e"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "6f1d4d31ed0cc56a9ddc7424721c95221ce49a364c4e7dc1b8a8cbfa328c5e77"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "866fb23a81aad07ab9aa3b6f8cde401c027b528d2ea8d97cb9ceb8ce8fabf39c"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Peru / Andes. Curving agricultural terraces and mineral rivers become a woven landscape in quinoa cream, oxblood and turquoise, with day and night mountain light and terrace-inspired glyphs.",
+  "tags": [
+    "peru",
+    "andes",
+    "terraces",
+    "woven",
+    "oxblood",
+    "turquoise"
+  ],
+  "preview": "preview"
+}
