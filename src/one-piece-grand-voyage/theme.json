@@ -1,0 +1,278 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "one-piece-grand-voyage",
+  "name": "One Piece — Grand Voyage",
+  "version": "1.0.0",
+  "author": "Muqun custom theme · AI-assisted fan art",
+  "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
+  "description": "Warm ocean-adventure fan art: a straw hat at the water line, pale turquoise seas by day and moonlit navy by night.",
+  "tags": [
+    "anime",
+    "illustrated",
+    "warm",
+    "translucent"
+  ],
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F3E7",
+        "surface": "#FFFCF4",
+        "surfaceRaised": "#F5EFDF",
+        "border": "#D2D9E9",
+        "borderStrong": "#8291B0",
+        "text": "#182F42",
+        "textMuted": "#3D4B50",
+        "textSubtle": "#454F52",
+        "textDisabled": "#9AA5BA",
+        "primary": "#822331",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#8D263518",
+        "danger": "#7F2739",
+        "dangerSubtle": "#A3334918",
+        "success": "#276346",
+        "warning": "#74511B",
+        "info": "#235A76"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.8
+      },
+      "terminal": {
+        "background": "#FAF4E8",
+        "backgroundOpacity": 0.8,
+        "foreground": "#182F42",
+        "cursor": "#8D2635",
+        "link": "#225671",
+        "selection": "#8D263530",
+        "ansi": [
+          "#26334E",
+          "#902D3F",
+          "#245B40",
+          "#6B4B19",
+          "#2F5080",
+          "#5A4877",
+          "#225764",
+          "#485063",
+          "#495164",
+          "#93283D",
+          "#205B3A",
+          "#694912",
+          "#295186",
+          "#614579",
+          "#215764",
+          "#182F42"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#081B32",
+        "surface": "#10263C",
+        "surfaceRaised": "#183149",
+        "border": "#39475F",
+        "borderStrong": "#7789AC",
+        "text": "#FFF5DF",
+        "textMuted": "#D7DFE4",
+        "textSubtle": "#C5D1DB",
+        "textDisabled": "#74829D",
+        "primary": "#F4E0AB",
+        "onPrimary": "#172A3D",
+        "primarySubtle": "#F4D48420",
+        "danger": "#FFD4D9",
+        "dangerSubtle": "#FFB6BE20",
+        "success": "#A6DDB8",
+        "warning": "#F1D6A2",
+        "info": "#A8D9F1"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.8
+      },
+      "terminal": {
+        "background": "#081B32",
+        "backgroundOpacity": 0.8,
+        "foreground": "#FFF5DF",
+        "cursor": "#F4D484",
+        "link": "#A8D9F1",
+        "selection": "#F4D48438",
+        "ansi": [
+          "#ADB5C8",
+          "#FFB6BE",
+          "#A6DDB8",
+          "#F1D6A2",
+          "#B9D0FF",
+          "#D2BFED",
+          "#A3DCE0",
+          "#E1E8F7",
+          "#AAB6D2",
+          "#FFD0D4",
+          "#C2ECCB",
+          "#FFE6B5",
+          "#D0DFFF",
+          "#E5D3FA",
+          "#BFEFF0",
+          "#FAFCFF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "scene-light": {
+      "path": "assets/scene-light.webp",
+      "sha256": "284db4c2d384a9dce5b0610fcd38098249eca1c07a791f776850450d520b658b"
+    },
+    "scene-dark": {
+      "path": "assets/scene-dark.webp",
+      "sha256": "19a068b13b9d45662eb09ae4c2e4760de299b537975c917ded68a1f55ed73ee9"
+    },
+    "scene-wide-light": {
+      "path": "assets/scene-wide-light.webp",
+      "sha256": "ac350b8515b4e52da552f4f350149e51cd38ba54649f36498872314d836c7c7a"
+    },
+    "scene-wide-dark": {
+      "path": "assets/scene-wide-dark.webp",
+      "sha256": "59066c18cd52c10c7f0202a51168aaab9f5071bf348eade33ba9a4e51d3f2a0c"
+    },
+    "panel-light": {
+      "path": "assets/panel-light.webp",
+      "sha256": "83d84db5d03ea228ac768c2fc293f0b5bdb5eafa3d6dc5e973438743fa65fedb"
+    },
+    "panel-dark": {
+      "path": "assets/panel-dark.webp",
+      "sha256": "c939c43ba5413aa3bcfad7ab20cc50016585da78e2b6523ec94e6ff0cc461524"
+    },
+    "action-light": {
+      "path": "assets/action-light.webp",
+      "sha256": "05b5ca209a2276e41348a94e1938c01b7f1df732455c5f24fa2d5fb65a3ef82c"
+    },
+    "action-dark": {
+      "path": "assets/action-dark.webp",
+      "sha256": "f22fdef89113cef62d7633bea3a6c88c3c609ece0e16a0ae38f25128fd9ce30f"
+    },
+    "empty-light": {
+      "path": "assets/empty-light.webp",
+      "sha256": "0e569d67be464385abf35a28f161b5ec7129ccbc9ef8a5e208c9176b79420019"
+    },
+    "empty-dark": {
+      "path": "assets/empty-dark.webp",
+      "sha256": "05e513c8aca4e965c348ebcb46961c29b72369b4746de343b5a90e2d6e491c27"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "scene-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.45,
+          "y": 0.78
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "navigation.background": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "composer.background": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "actions.background": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "cards.decoration": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "buttons.primary.background": {
+        "asset": "action-light",
+        "fit": "cover",
+        "opacity": 0.25
+      },
+      "tabs.background": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "emptyState.illustration": {
+        "asset": "empty-light",
+        "fit": "contain"
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "scene-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.45,
+          "y": 0.78
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "navigation.background": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "composer.background": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "actions.background": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "cards.decoration": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "buttons.primary.background": {
+        "asset": "action-dark",
+        "fit": "cover",
+        "opacity": 0.25
+      },
+      "tabs.background": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.22
+      },
+      "emptyState.illustration": {
+        "asset": "empty-dark",
+        "fit": "contain"
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "Grand Voyage"
+    },
+    "logo": {
+      "mode": "hidden"
+    }
+  }
+}
