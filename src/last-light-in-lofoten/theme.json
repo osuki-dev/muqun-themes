@@ -1,0 +1,227 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "last-light-in-lofoten",
+  "name": "Last Light in Lofoten",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Norway / Lofoten. Russet fishing cabins and storm-slate fjords in a tactile Nordic woodcut, with pale peach afterglow and nautical navigation marks.",
+  "tags": [
+    "norway",
+    "lofoten",
+    "woodcut",
+    "fjord",
+    "russet"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5EEE7",
+        "surface": "#FFF8F1",
+        "surfaceRaised": "#E9DDD3",
+        "border": "#C8B9AE",
+        "borderStrong": "#8B7365",
+        "text": "#282C30",
+        "textMuted": "#41494E",
+        "textSubtle": "#4B5358",
+        "textDisabled": "#998E87",
+        "primary": "#813E2C",
+        "onPrimary": "#FFF8F1",
+        "primarySubtle": "#813E2C12",
+        "danger": "#8D2E3F",
+        "dangerSubtle": "#8D2E3F12",
+        "success": "#365C45",
+        "warning": "#795019",
+        "info": "#365D77"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F5EEE7",
+        "backgroundOpacity": 0.96,
+        "foreground": "#282C30",
+        "cursor": "#813E2C",
+        "link": "#365D77",
+        "selection": "#813E2C30",
+        "ansi": [
+          "#282C30",
+          "#8D2E3F",
+          "#365C45",
+          "#795019",
+          "#365D77",
+          "#735173",
+          "#366568",
+          "#4B5358",
+          "#505B62",
+          "#903C2A",
+          "#3F5C37",
+          "#775320",
+          "#425C84",
+          "#7B4566",
+          "#3A626A",
+          "#282C30"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#19252D",
+        "surface": "#202F39",
+        "surfaceRaised": "#2A3A44",
+        "border": "#50616B",
+        "borderStrong": "#96A2A9",
+        "text": "#FFF1E6",
+        "textMuted": "#E3D1C5",
+        "textSubtle": "#D3C3B8",
+        "textDisabled": "#87959C",
+        "primary": "#F5BA98",
+        "onPrimary": "#30251F",
+        "primarySubtle": "#F5BA9814",
+        "danger": "#FFB3BB",
+        "dangerSubtle": "#FFB3BB14",
+        "success": "#B6D6AE",
+        "warning": "#E9CE92",
+        "info": "#B4D4EA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#19252D",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF1E6",
+        "cursor": "#F5BA98",
+        "link": "#B4D4EA",
+        "selection": "#F5BA9830",
+        "ansi": [
+          "#BAC9D0",
+          "#FFB3BB",
+          "#B6D6AE",
+          "#E9CE92",
+          "#B4D4EA",
+          "#DEC1DC",
+          "#AED9D5",
+          "#E3D1C5",
+          "#BAC9D0",
+          "#FFD1BF",
+          "#D0E8BD",
+          "#F9DFB0",
+          "#CCDEEF",
+          "#EAD3E8",
+          "#C3E9E1",
+          "#FFF1E6"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "43b3519b2a785d66dbf7d06000b370acba4e36bbaa660567a68b2eeeea5ac52e"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8a60c1a7812cbfd8785796366dbc3dfad8f7773eb895b7fce9c780a7392e528c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "60e333bdc1ab953be9f2fdcdbd52f16d08b6b034dbc25762e5dfbfc794f8aa76"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "53a1268a7869c053449566f9eab9621c46a49605ac7d9dc8aa47f451d2e8e52a"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "def4ee60975f93542466de289f49abdaf3a50582480593cb459f96146a3ee400"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "bdb024b3a01f9acb2383d107887bcaec28d5f44250a31a347fc3de46740c812c"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "fea217d6f0f964b3d01d76cb5c2eb305512e266005eff9b5e18a16a1107acd84"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "513cfd7a3afe6d9843ae93da2ecdedbad08859b5179f41066b9a470dd0b91a2c"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "6f59eb7ecaf9cefda42f2652f0f2ef2f33d4b5b99d8fbfb89f6264190e860119"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
