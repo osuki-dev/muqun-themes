@@ -1,0 +1,202 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "quiet-terminal",
+  "name": "Quiet Terminal",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Graphite, fog blue and soft white. A restrained terminal-inspired palette with precise return, prompt and bracket-paperclip glyphs, and a small folded-metal still life for empty states.",
+  "tags": [
+    "minimal",
+    "terminal",
+    "graphite",
+    "fog-blue",
+    "quiet",
+    "industrial"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F3F5F6",
+        "surface": "#FCFDFD",
+        "surfaceRaised": "#E8EDF0",
+        "border": "#CDD5DD",
+        "borderStrong": "#8C9AA8",
+        "text": "#202B36",
+        "textMuted": "#43515F",
+        "textSubtle": "#526171",
+        "textDisabled": "#92A0AB",
+        "primary": "#365571",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#36557110",
+        "danger": "#873E43",
+        "dangerSubtle": "#873E4310",
+        "success": "#365E51",
+        "warning": "#755727",
+        "info": "#385D7B"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#F3F5F6",
+        "backgroundOpacity": 1,
+        "foreground": "#202B36",
+        "cursor": "#365571",
+        "link": "#385D7B",
+        "selection": "#36557130",
+        "ansi": [
+          "#202B36",
+          "#873E43",
+          "#365E51",
+          "#755727",
+          "#385D7B",
+          "#685174",
+          "#32646B",
+          "#526171",
+          "#5B6874",
+          "#98464E",
+          "#3B685B",
+          "#81602F",
+          "#436684",
+          "#765E81",
+          "#3B6B73",
+          "#202B36"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#171C22",
+        "surface": "#20272F",
+        "surfaceRaised": "#2B333C",
+        "border": "#424F5D",
+        "borderStrong": "#8594A3",
+        "text": "#EFF3F6",
+        "textMuted": "#CBD4DC",
+        "textSubtle": "#BBC8D3",
+        "textDisabled": "#8293A1",
+        "primary": "#AEC9E1",
+        "onPrimary": "#1D2A35",
+        "primarySubtle": "#AEC9E114",
+        "danger": "#E8B6B9",
+        "dangerSubtle": "#E8B6B912",
+        "success": "#B9D6C9",
+        "warning": "#DFC99D",
+        "info": "#B3CCE2"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#171C22",
+        "backgroundOpacity": 1,
+        "foreground": "#EFF3F6",
+        "cursor": "#AEC9E1",
+        "link": "#B3CCE2",
+        "selection": "#AEC9E130",
+        "ansi": [
+          "#B8C5CF",
+          "#E8B6B9",
+          "#B9D6C9",
+          "#DFC99D",
+          "#B3CCE2",
+          "#CCBEDB",
+          "#B3D3D8",
+          "#CBD4DC",
+          "#C2CFD9",
+          "#F0C7CA",
+          "#C9E2D7",
+          "#EBD9B6",
+          "#CBDDF0",
+          "#DFD1E8",
+          "#CCE3E6",
+          "#EFF3F6"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "assets": {
+    "empty-light": {
+      "path": "assets/empty-light.png",
+      "sha256": "0e9dbd9a93df417da203c573c5820cbd3965441ac913daa0780debc869d2bd7d"
+    },
+    "empty-dark": {
+      "path": "assets/empty-dark.png",
+      "sha256": "d4642e1e9754e7aaf3fc215d8f497d3e1108989ca1bfc825714246201ba36c5c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "bc7af9783e4333af4efa59dfacaad9b5668ffcdafa698597603436a9ef771acb"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "c4605adeebf11927a99367ab4917ad65e600b7e92c5ada8888bc4ae6e6ee8dcc"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "49674a567a2ffcae19017aeae63c8719714a000de7c9674afcbb5a7411b2fd9b"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "877c8aa3da425b00c97926983a80ea52024b165b7c40728d123229c9355da1d2"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "emptyState.illustration": {
+        "asset": "empty-light",
+        "fit": "contain",
+        "compact": {
+          "asset": "empty-light",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "empty-light",
+          "fit": "contain"
+        }
+      }
+    },
+    "dark": {
+      "emptyState.illustration": {
+        "asset": "empty-dark",
+        "fit": "contain",
+        "compact": {
+          "asset": "empty-dark",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "empty-dark",
+          "fit": "contain"
+        }
+      }
+    }
+  }
+}
