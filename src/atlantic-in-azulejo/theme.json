@@ -1,0 +1,228 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "atlantic-in-azulejo",
+  "name": "Atlantic in Azulejo",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FAF7E9",
+        "surface": "#FFFCF2",
+        "surfaceRaised": "#EDEBD9",
+        "border": "#BEC9DD",
+        "borderStrong": "#647BA7",
+        "text": "#10214C",
+        "textMuted": "#30416B",
+        "textSubtle": "#394D74",
+        "textDisabled": "#8692A9",
+        "primary": "#123EA0",
+        "onPrimary": "#FFFCF2",
+        "primarySubtle": "#123EA012",
+        "danger": "#9B302B",
+        "dangerSubtle": "#9B302B12",
+        "success": "#205C45",
+        "warning": "#795200",
+        "info": "#164C94"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#FAF7E9",
+        "backgroundOpacity": 0.96,
+        "foreground": "#10214C",
+        "cursor": "#123EA0",
+        "link": "#164C94",
+        "selection": "#123EA030",
+        "ansi": [
+          "#10214C",
+          "#9B302B",
+          "#205C45",
+          "#795200",
+          "#123EA0",
+          "#71416F",
+          "#145F70",
+          "#394D74",
+          "#4A5C7B",
+          "#A03032",
+          "#1A6544",
+          "#795900",
+          "#2446A2",
+          "#784270",
+          "#1A5A70",
+          "#10214C"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#091A4B",
+        "surface": "#102356",
+        "surfaceRaised": "#1A3062",
+        "border": "#456294",
+        "borderStrong": "#97ADDD",
+        "text": "#FFFADE",
+        "textMuted": "#E1E5F5",
+        "textSubtle": "#C9D5ED",
+        "textDisabled": "#8B9DC0",
+        "primary": "#F6DF69",
+        "onPrimary": "#10214C",
+        "primarySubtle": "#F6DF6914",
+        "danger": "#FFB9A8",
+        "dangerSubtle": "#FFB9A814",
+        "success": "#A9DFC1",
+        "warning": "#F6DF69",
+        "info": "#B3CCFF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#091A4B",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFFADE",
+        "cursor": "#F6DF69",
+        "link": "#B3CCFF",
+        "selection": "#F6DF6930",
+        "ansi": [
+          "#BACAEA",
+          "#FFB9A8",
+          "#A9DFC1",
+          "#F6DF69",
+          "#B3CCFF",
+          "#E2BCED",
+          "#A4DDE9",
+          "#E1E5F5",
+          "#C0D0EF",
+          "#FFD2BC",
+          "#C0F0D3",
+          "#FFF0A1",
+          "#CCDCFF",
+          "#F0D1F7",
+          "#C0EBF2",
+          "#FFFADE"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "f55654d8c1db39a977c0cfe80f17907eee6449a70405005fe5fedc61c99c0fc8"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "1bf53c311ef8e205a9d3911b0c0082610f458d0c5508fbb1813baa7adbc22609"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "c3ec1b0a3892c51e172910ddbf6f49e80b7f27cee9a64b07c99c18892aa45795"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "c075bbbb704587cf0e245048c64c58a8ca95a9a7d18b5075ac6aa95ef35384f3"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "2cff80b2a62ba1102de80a6fedcdd3673250e16f844337007381050af7332c88"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "ccefa023c5eeff7903d04c80889baeb38535be35b6def1314442bdb1db6041df"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "c0a965b1c10c88ce5d49a0821d48bc7248ec9cd3212c518731e1825a67f82825"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "ca86e1edb460a2090ea9dfdffc0d97a10412f8b2c04b9f63528db5ac34f38037"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "50ee653c72d517374d5fd7ba2c2c7c80ea7edb08d31730777cb7f1953b4a4acc"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Portugal / Lisbon. Hand-painted azulejo tiles, sunlit yellow trams and Atlantic swallows in porcelain white, saturated cobalt and lemon. A coastal ceramic world with nautical chrome glyphs.",
+  "tags": [
+    "portugal",
+    "lisbon",
+    "azulejo",
+    "ceramic",
+    "cobalt",
+    "coastal"
+  ],
+  "preview": "preview"
+}
