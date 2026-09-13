@@ -1,0 +1,219 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "midnight-operator",
+  "name": "Midnight Operator",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EDF3EE",
+        "surface": "#F8FCF8",
+        "surfaceRaised": "#E0E9E1",
+        "border": "#BDCDC0",
+        "borderStrong": "#788F7C",
+        "text": "#102419",
+        "textMuted": "#344B3B",
+        "textSubtle": "#3B5142",
+        "textDisabled": "#899B8D",
+        "primary": "#175832",
+        "onPrimary": "#F7FFF7",
+        "primarySubtle": "#1758320C",
+        "danger": "#8A343D",
+        "dangerSubtle": "#8A343D0C",
+        "success": "#1E583A",
+        "warning": "#705014",
+        "info": "#2C5368"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#EDF3EE",
+        "backgroundOpacity": 0.97,
+        "foreground": "#102419",
+        "cursor": "#175832",
+        "link": "#2C5368",
+        "selection": "#17583230",
+        "ansi": [
+          "#102419",
+          "#8A343D",
+          "#1E583A",
+          "#705014",
+          "#2C5368",
+          "#67406D",
+          "#285D59",
+          "#3B5142",
+          "#4C6052",
+          "#8F3E46",
+          "#295D3B",
+          "#775218",
+          "#365A70",
+          "#704975",
+          "#32615C",
+          "#102419"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0A100C",
+        "surface": "#111A14",
+        "surfaceRaised": "#19251C",
+        "border": "#344B3A",
+        "borderStrong": "#7F9B86",
+        "text": "#E8F8E9",
+        "textMuted": "#C6DFC9",
+        "textSubtle": "#B2CFB7",
+        "textDisabled": "#6D8A74",
+        "primary": "#9DEAAB",
+        "onPrimary": "#092513",
+        "primarySubtle": "#9DEAAB12",
+        "danger": "#F3B9B6",
+        "dangerSubtle": "#F3B9B612",
+        "success": "#A7DFAF",
+        "warning": "#E9D198",
+        "info": "#B4D9E3"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#0A100C",
+        "backgroundOpacity": 0.97,
+        "foreground": "#E8F8E9",
+        "cursor": "#9DEAAB",
+        "link": "#B4D9E3",
+        "selection": "#9DEAAB30",
+        "ansi": [
+          "#B2CDB8",
+          "#F3B9B6",
+          "#A7DFAF",
+          "#E9D198",
+          "#B4D9E3",
+          "#D5BBE7",
+          "#ACE0CD",
+          "#C6DFC9",
+          "#B9D4BF",
+          "#FFD0C8",
+          "#BEF0C1",
+          "#F8DEAC",
+          "#C7E8F1",
+          "#E6CCF7",
+          "#C1F0DF",
+          "#E8F8E9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "ba999fea4f6fbf4458061a3745b1f1e708400c0288e56f6c9f22214c35202c01"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "7fcd82359267118333968d131bdbd997649e9327ed971e34ecab5eaa733a3c3b"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "10a5f386fb0f444da21ab22e9253de5f106729f090030266c50fba4a546a9622"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "13b59b66d19806b658900943268c3482a233410754926a7dbab706f9d3bf85db"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "c9e4ee66d5110b368d7040a0e417b09145d3bf86db2b39717fe8bdefd48b9066"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "7a59229094d8d6fce1ee92ed2671b707c04bc5c6a82dacf14886c18ef01bf563"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "d0acfc748a758371f38b8069f232d17d6f840f223cc39a9460da1414448f7a31"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "446b866dd4744238ac9290c42433ed0760733927e7c6499a85ebcbd681953421"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "d5aa859aee4bac5cdaf55cf45dda54c14777f4ef9557fc3b0b9e1cdb19a3892f"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Charcoal, pale celadon and phosphor green. Quiet etched circuit paths and a folded ceramic module bring an understated electronic atmosphere to focused conversations and terminal sessions.",
+  "tags": [
+    "charcoal",
+    "phosphor",
+    "circuits",
+    "minimal",
+    "terminal"
+  ],
+  "preview": "preview"
+}
