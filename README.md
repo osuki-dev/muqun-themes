@@ -6,7 +6,6 @@ reviewed here; packages are built here.
 ```
 main                        what people write and review
   src/<id>/theme.json         a theme as it is authored, beside its assets/
-  skills/muqun-theme/SKILL.md the authoring contract an agent reads before making one
 
 release                     what CI builds from main after every merge
   dist/<id>.muqun-theme       each theme, packed and ready to install
@@ -24,19 +23,18 @@ Most themes here will be made by an agent, and one thing decides whether it
 produces an installable theme or a plausible-looking mockup: **whether it read
 the skill first.**
 
-`skills/muqun-theme/SKILL.md` is the authoring contract from the Muqun app. It
-carries the workflow, the resource and surface rules, the boundaries, the full
-JSON Schema, a complete starter manifest, and how to check the result. It is
-generated in the app repository, shipped inside the CLI, and copied here with
-`muqun-theme skill`; `check` warns when this copy falls behind the CLI's.
+The skill is the authoring contract from the Muqun app: the workflow, the
+resource and surface rules, the boundaries, the full JSON Schema, a complete
+starter manifest, and how to check the result. It lives in the CLI repository
+and ships with every CLI version. Install it into this checkout once:
 
-The repository is arranged so the usual agents find it without being told:
+```sh
+bunx skills add osuki-dev/muqun-theme-cli
+```
 
-| Agent | How it gets the skill |
-| ----- | --------------------- |
-| Codex, and anything that reads `AGENTS.md` | `AGENTS.md` tells it to read the skill before touching a theme. |
-| Claude Code | `CLAUDE.md` is the same file, and the skill is discovered at `.claude/skills/muqun-theme`. |
-| Anything else | Put `skills/muqun-theme/SKILL.md` in its context before the request. |
+That puts it where Codex, Claude Code, Cursor and the rest look. `AGENTS.md`
+tells an agent to read it before touching a theme. Run the same command again
+to pick up a newer version.
 
 Then ask for the theme. Attach reference images if you have them, name the id,
 and say where the result goes:
@@ -164,14 +162,7 @@ Download the `.muqun-theme` file from the
 and import it in the Muqun app. The app performs the same checks `validate`
 does, so a package that passed here installs there.
 
-## Keeping the skill current
-
-The skill is not edited here; edits belong upstream in the app. When the CLI
-ships a newer one, `check` warns and names the fix:
-
-```sh
-bunx @osuki-dev/muqun-theme skill --out skills/muqun-theme/SKILL.md
-```
+## Format reference
 
 The format itself, every field and every limit, is documented in the toolchain's
 [README](https://github.com/osuki-dev/muqun-theme-cli#the-muqun-theme-format).
