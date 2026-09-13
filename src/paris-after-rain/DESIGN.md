@@ -19,7 +19,7 @@ Original French Art Nouveau lithograph: rain-washed Seine, limestone facades, ca
 
 Reserve burgundy / champagne / black-cherry for this theme. Avoid the blue/cream family of Cloud Post Office and the jade/ochre family of Lanterns on the Thu Bon.
 
-Semantic colors and all 16 ANSI entries were authored separately for this palette; native home identity and chrome icons remain default. Decorative artwork occupies the shared wallpaper and empty state. Controls use colored surfaces so text and states retain hierarchy.
+Semantic colors and all 16 ANSI entries were authored separately for this palette; native home identity and home identity remains default; chrome icons use the version 1.1.0 set. Decorative artwork occupies the shared wallpaper and empty state. Controls use colored surfaces so text and states retain hierarchy.
 
 UI opacity: 90%. Terminal opacity: 92%. Both exceed the CLI contrast floor. Shared interface floor: 84%; terminal: 83%. No full-opacity failures were reported by contrast.
 
@@ -40,11 +40,21 @@ Browser review is currently blocked: the browser tool cannot verify the admin-en
 From this worktree:
 
 ```sh
-bunx @osuki-dev/muqun-theme@1 validate paris-after-rain
-bunx @osuki-dev/muqun-theme@1 contrast paris-after-rain
-bunx @osuki-dev/muqun-theme@1 check --sources
-bunx @osuki-dev/muqun-theme@1 pack paris-after-rain --no-optimize
-bunx @osuki-dev/muqun-theme@1 preview paris-after-rain --port 4174 --no-open
+bunx @osuki-dev/muqun-theme@1.7.0 validate paris-after-rain
+bunx @osuki-dev/muqun-theme@1.7.0 contrast paris-after-rain
+bunx @osuki-dev/muqun-theme@1.7.0 check --sources
+bunx @osuki-dev/muqun-theme@1.7.0 pack paris-after-rain --no-optimize
+bunx @osuki-dev/muqun-theme@1.7.0 preview paris-after-rain --port 4174 --no-open
 ```
 
 Keep this theme in its own branch and PR. Only src/paris-after-rain/ belongs in the PR; dist/ and index.json are generated. Do not merge or publish as part of a local review.
+
+## Version 1.1.0 / CLI 1.7.0
+
+Botanical back arrow, quill send, and leaf-clipped stationery attachment.
+
+The three theme-specific generated glyphs replace the rejected generic geometric draft. Each is a 128×128 transparent PNG used in template mode. Local 17px and 34px checks cover silhouette and contrast; browser preview remains a separate gate. Palettes and home identity are unchanged.
+
+## Gallery preview
+
+A dedicated illustrated cover is referenced by `preview`. It represents the theme atmosphere and is separate from app wallpaper and UI screenshots. Validated using CLI 1.7.1.

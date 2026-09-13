@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "France / Paris. Art Nouveau ironwork, limestone facades and a rain-washed Seine in champagne, burgundy and antique gold. Original illustrated day and evening scenes, composed separately for phone and wide screens.",
@@ -15,7 +15,7 @@
     "illustrated",
     "translucent"
   ],
-  "preview": "scene-wide-light",
+  "preview": "preview",
   "variants": {
     "light": {
       "colors": {
@@ -141,6 +141,22 @@
     "vignette": {
       "path": "assets/vignette.png",
       "sha256": "5f11c9e27c3acb655d0bbedb2e4b9acdc3692b804ff6e0520e5d02b9bda84244"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "bce68b0b584993a827f099232730c6ada5ed75bfd2cecb353e466b72f6a7a402"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "84948571d91c1906a5ffce62a36c98bbf14382f1aad71b32ad616428ef43efdc"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "1b16122ab3f8cc728061d7d08c03ae5fbd848eeec07bf60911f517c46be05ba2"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "5a1fc06ba339ef536db6a913030505c74e5223455229b34bc6a5603b2555a5fa"
     }
   },
   "decoration": {
@@ -209,6 +225,20 @@
     },
     "logo": {
       "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
     }
   }
 }
