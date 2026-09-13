@@ -50,11 +50,12 @@ jobs:
         run: bunx @osuki-dev/muqun-theme@1 check
 
       - name: Mirror what changed to R2
-        # Keys match the release branch exactly, so the `package` field in
-        # index.json is the object key. The old and new index are diffed by
-        # sha256: changed and new packages go up first, then the index, and
-        # only then are packages whose source is gone removed -- so the index
-        # in the bucket never names a package that is not there.
+        # Keys match the release branch exactly, so the `package` and
+        # `preview` fields in index.json are the object keys. The old and new
+        # index are diffed by sha256: changed and new packages go up first,
+        # then the previews, then the index, and only then are packages and
+        # previews whose source is gone removed -- so the index in the bucket
+        # never names a file that is not there.
         if: env.R2_ACCESS_KEY_ID != ''
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -83,6 +84,26 @@ jobs:
               --content-type application/zip --cache-control "public, max-age=3600"
           done < changed.txt
 
+          # Preview images: `build` writes dist/previews/<id>.<ext> for every
+          # theme whose manifest declares a `preview`, and index.json names
+          # each as its `preview` field, so the same key convention holds.
+          # They are small and few, so the directory is synced whole rather
+          # than diffed -- one call per extension, because a content type is
+          # set per call and R2 serves whatever type an object was stored
+          # with. New and changed images go up before the index, like the
+          # packages; removals wait until after it, below.
+          mkdir -p dist/previews
+          for ext in webp png jpg; do
+            case "$ext" in
+              webp) type=image/webp ;;
+              png) type=image/png ;;
+              jpg) type=image/jpeg ;;
+            esac
+            aws s3 sync dist/previews "$BUCKET/dist/previews" --endpoint-url "$ENDPOINT" \
+              --exclude "*" --include "*.$ext" \
+              --content-type "$type" --cache-control "public, max-age=3600"
+          done
+
           aws s3 cp index.json "$BUCKET/index.json" --endpoint-url "$ENDPOINT" \
             --content-type "application/json; charset=utf-8" --cache-control "public, max-age=60"
 
@@ -91,7 +112,12 @@ jobs:
             aws s3 rm "$BUCKET/$key" --endpoint-url "$ENDPOINT"
           done < removed.txt
 
-          echo "uploaded $(grep -c . changed.txt || true) package(s), removed $(grep -c . removed.txt || true), index refreshed"
+          # Previews the index no longer names. Everything local is already in
+          # the bucket and newer there, so this pass only deletes.
+          aws s3 sync dist/previews "$BUCKET/dist/previews" --endpoint-url "$ENDPOINT" \
+            --delete --exclude ".gitkeep" --cache-control "public, max-age=3600"
+
+          echo "uploaded $(grep -c . changed.txt || true) package(s), removed $(grep -c . removed.txt || true), synced $(ls dist/previews | grep -c . || true) preview(s), index refreshed"
           rm -f changed.txt removed.txt previous-index.json
 
       - name: Publish dist/ and index.json to the release branch
