@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "acacia-afterglow",
+  "name": "Acacia Afterglow",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5EAD2",
+        "surface": "#FFF5DF",
+        "surfaceRaised": "#EBDDCA",
+        "border": "#C1AD8E",
+        "borderStrong": "#82684B",
+        "text": "#302015",
+        "textMuted": "#594132",
+        "textSubtle": "#604536",
+        "textDisabled": "#9C8873",
+        "primary": "#703C14",
+        "onPrimary": "#FFF6DF",
+        "primarySubtle": "#703C1410",
+        "danger": "#832C21",
+        "dangerSubtle": "#832C2110",
+        "success": "#3F592F",
+        "warning": "#785016",
+        "info": "#5C4B75"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F5EAD2",
+        "backgroundOpacity": 0.96,
+        "foreground": "#302015",
+        "cursor": "#703C14",
+        "link": "#5C4B75",
+        "selection": "#703C1430",
+        "ansi": [
+          "#302015",
+          "#832C21",
+          "#354D26",
+          "#69420F",
+          "#3E476B",
+          "#70435E",
+          "#29524F",
+          "#594132",
+          "#604732",
+          "#8B3026",
+          "#3C502A",
+          "#714814",
+          "#474F73",
+          "#75415F",
+          "#305650",
+          "#302015"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#291B20",
+        "surface": "#332329",
+        "surfaceRaised": "#402C34",
+        "border": "#765B64",
+        "borderStrong": "#B895A2",
+        "text": "#FFF0D0",
+        "textMuted": "#EAD5C2",
+        "textSubtle": "#DFC7BA",
+        "textDisabled": "#A38A86",
+        "primary": "#EDC77B",
+        "onPrimary": "#342415",
+        "primarySubtle": "#EDC77B12",
+        "danger": "#F8B5A3",
+        "dangerSubtle": "#F8B5A312",
+        "success": "#C1D6A1",
+        "warning": "#F4CE87",
+        "info": "#D8BFEC"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#291B20",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF0D0",
+        "cursor": "#EDC77B",
+        "link": "#D8BFEC",
+        "selection": "#EDC77B30",
+        "ansi": [
+          "#DBC5B2",
+          "#F8B5A3",
+          "#C1D6A1",
+          "#F4CE87",
+          "#BFCBED",
+          "#DEB6D1",
+          "#ABD6CD",
+          "#EAD5C2",
+          "#DFC7BA",
+          "#FFD0BF",
+          "#D6E5BF",
+          "#FFE0A3",
+          "#D4DDF7",
+          "#F0CEE4",
+          "#C7E8DF",
+          "#FFF0D0"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "400732f1bc3f815d5a043a28df33c490a22b2316621b8bd1cf03168604d8d0c1"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "c38a6c58d75ed02d6f8280e207500764b66a9f969bf37e1073bfeab8073fe818"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "4a4ee509e5eef1d15aa1cbe7f9c7ae442d1fa91a2101cc106c5c640779d286ab"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "206bc9fe14c0f3ecc7938eb2f0008070628bfd809ef975bdfc9e511453179d54"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "5b85882fa03a787b5595e88eedd83d1838459212a1af8d9c26e589f39d6a03da"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "c0c0775f5819f607fbb15c402b1cf083ddf4dfe13c49c36f4dc1d47358fd1690"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "a3cf0527a04163f4b21b1826a56b3c9c8c84dc006fa4f98e6567ce3b0c14c8d6"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "cf758e8ef9cb746493d55c75697011037800362b1a0df7f0f451d15cfa0d886a"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "a4e9f8e7d84cde5cc5c39ec38b8bc321341e78a6b4c5dc4dfd05a4b8502652c6"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Kenya. Umbrella acacias and open savanna in textured linocut, with acacia gold, burnt umber and dusty mauve. Golden afternoon and quiet dusk landscapes, with twig, bird and seed-pod glyphs.",
+  "tags": [
+    "kenya",
+    "savanna",
+    "acacia",
+    "linocut",
+    "gold",
+    "illustrated"
+  ],
+  "preview": "preview"
+}
