@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "papyrus-on-the-nile",
+  "name": "Papyrus on the Nile",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5ECD7",
+        "surface": "#FFF8E8",
+        "surfaceRaised": "#E8DFC9",
+        "border": "#C4B795",
+        "borderStrong": "#8D785C",
+        "text": "#182642",
+        "textMuted": "#3F4860",
+        "textSubtle": "#4B4B5A",
+        "textDisabled": "#908B83",
+        "primary": "#244884",
+        "onPrimary": "#FFF9ED",
+        "primarySubtle": "#24488412",
+        "danger": "#843226",
+        "dangerSubtle": "#84322612",
+        "success": "#315D43",
+        "warning": "#785018",
+        "info": "#24567C"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F5ECD7",
+        "backgroundOpacity": 0.96,
+        "foreground": "#182642",
+        "cursor": "#244884",
+        "link": "#24567C",
+        "selection": "#24488430",
+        "ansi": [
+          "#182642",
+          "#843226",
+          "#315D43",
+          "#785018",
+          "#244884",
+          "#75455F",
+          "#24567C",
+          "#4B4B5A",
+          "#595867",
+          "#8D382C",
+          "#39634D",
+          "#7E511C",
+          "#345084",
+          "#70415B",
+          "#30617D",
+          "#182642"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101D3E",
+        "surface": "#172648",
+        "surfaceRaised": "#213254",
+        "border": "#485472",
+        "borderStrong": "#8D94AB",
+        "text": "#FFF2D8",
+        "textMuted": "#E4D8BE",
+        "textSubtle": "#CDC6B8",
+        "textDisabled": "#9193A3",
+        "primary": "#F3CBA9",
+        "onPrimary": "#261C21",
+        "primarySubtle": "#F3CBA918",
+        "danger": "#FFB5A6",
+        "dangerSubtle": "#FFB5A618",
+        "success": "#B9D3AD",
+        "warning": "#F0D091",
+        "info": "#B4CEEE"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#101D3E",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF2D8",
+        "cursor": "#F3CBA9",
+        "link": "#B4CEEE",
+        "selection": "#F3CBA930",
+        "ansi": [
+          "#B6BCD0",
+          "#FFB5A6",
+          "#B9D3AD",
+          "#F0D091",
+          "#B4CEEE",
+          "#DAB6DC",
+          "#AFD9D9",
+          "#E4D8BE",
+          "#CAC9D4",
+          "#FFD0BC",
+          "#CBE2C0",
+          "#FFE1AC",
+          "#CEE0FA",
+          "#E8CEE8",
+          "#C3ECE5",
+          "#FFF2D8"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "1b8e19ce5afe3a93a1265a90e7a71c27aed4d603486cb241cc76a22654e2de1a"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "a2a6eb049e3e71467d515b1ca58a14a6acb1d6f6a6c3e5c851a86735d6e58aae"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "5810d16023837072de48ce90e98f3aab0a1a2f74d026bdf882b8a163f58ff8b0"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "903bda6bac57b39d140e00cfe70e7c9a9b6df1b81550fb42d5aecfa1c8604693"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "c9d0c677ee97ed3a39dfd3e041ee747c71a50bc6a7845314ac6a61eab306d789"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "54f5047bcf46b183fc0589521d4875461509571c8a00cb6e19fabea624ececd6"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "74451b8867d5c81b6cce03f33b9af8164f6d0ea9c5d960f2c903bc19bba9e6e5"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f08dde9274eb335a25b36c447006380576a5a9b0929a7f162858796924653012"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3dea869e616da506398266837e330437ef50d321a28fcc9d8a0d49fddbad5554"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Egypt / Nile Valley. Ivory felucca sails cross lapis water beneath copper desert ridges. Papyrus-inspired gouache pairs warm paper surfaces with a deep mineral night, reed arrows and scroll-shaped attachments.",
+  "tags": [
+    "egypt",
+    "nile",
+    "felucca",
+    "papyrus",
+    "gouache",
+    "lapis"
+  ],
+  "preview": "preview"
+}
