@@ -1,0 +1,227 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "rhythm-of-dessau",
+  "name": "Rhythm of Dessau",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Germany / Dessau. Glass grids and architectural rhythm in concrete white, graphite, vermilion and signal yellow. Original modernist screenprints with stepped navigation, a triangular glider and tubular-steel attachment glyphs.",
+  "tags": [
+    "germany",
+    "dessau",
+    "bauhaus",
+    "modernist",
+    "geometric"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F0EEE8",
+        "surface": "#FAF9F5",
+        "surfaceRaised": "#E4E2DB",
+        "border": "#C5C1B8",
+        "borderStrong": "#77736D",
+        "text": "#191918",
+        "textMuted": "#343431",
+        "textSubtle": "#484843",
+        "textDisabled": "#8D8981",
+        "primary": "#922615",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#92261510",
+        "danger": "#951C2D",
+        "dangerSubtle": "#951C2D12",
+        "success": "#28573C",
+        "warning": "#725400",
+        "info": "#244D77"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F0EEE8",
+        "backgroundOpacity": 0.96,
+        "foreground": "#191918",
+        "cursor": "#922615",
+        "link": "#244D77",
+        "selection": "#92261530",
+        "ansi": [
+          "#191918",
+          "#951C2D",
+          "#28573C",
+          "#725400",
+          "#244D77",
+          "#70426B",
+          "#245F62",
+          "#484843",
+          "#56574F",
+          "#A02D25",
+          "#28583C",
+          "#70510B",
+          "#28547E",
+          "#794779",
+          "#286268",
+          "#191918"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#181918",
+        "surface": "#232422",
+        "surfaceRaised": "#2D2F2B",
+        "border": "#51534B",
+        "borderStrong": "#94978C",
+        "text": "#FAF7ED",
+        "textMuted": "#DAD9CD",
+        "textSubtle": "#C3C4B6",
+        "textDisabled": "#85887B",
+        "primary": "#F3CF55",
+        "onPrimary": "#242219",
+        "primarySubtle": "#F3CF5512",
+        "danger": "#FFAEA0",
+        "dangerSubtle": "#FFAEA012",
+        "success": "#B8DCB5",
+        "warning": "#F3CF55",
+        "info": "#B5D6ED"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#181918",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FAF7ED",
+        "cursor": "#F3CF55",
+        "link": "#B5D6ED",
+        "selection": "#F3CF5530",
+        "ansi": [
+          "#BFC0B3",
+          "#FFAEA0",
+          "#B8DCB5",
+          "#F3CF55",
+          "#B5D6ED",
+          "#DEBFE3",
+          "#B4DCD5",
+          "#DAD9CD",
+          "#C6C7BC",
+          "#FFD0C4",
+          "#D1ECCB",
+          "#F8E39B",
+          "#D2E8F7",
+          "#EDD8EF",
+          "#D2EFE8",
+          "#FAF7ED"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "509675e301fbbfdfe3552a0862e759d95eff276149d0dbf3ea15e9c366c92852"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "dee8d6f07d92203ad95c4b6a3ec5911f0082fa516f7ece9fb7a6b65215f4d42e"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "fd063eb541c92c2020c1c519e6934d3c4980b9ed9ac83f2ca6f72512e8744020"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "0cebd11c81d21a4b016d56e5953f90ac7fd7140718f66f6e2d3d60e7c9e2b78e"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "3f70c36243fd5438f0ab58ece92ea495fededae2fe714ede07710947679db4a7"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "ffe967a1c397c93bf3cbde7993726b24f749c5255b53107e6c69ddc353709bb0"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "a200134349040460f7a21f5c6d657d6f7f92d29336c3978f75c4ccc1ec27284d"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "e3b0ab652cff0e697aaec215e819d4054800668d0c962631d4f4873684ea8731"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "7da5763a93ed7109b4df22f47043d3faf10a6625a779149cfa22274469b6a59f"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
