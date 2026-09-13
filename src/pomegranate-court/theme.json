@@ -1,0 +1,227 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "pomegranate-court",
+  "name": "Pomegranate Court",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Spain / Granada. Terracotta arcades, aubergine evenings and turquoise water, with pomegranate gardens, ceramic geometry and courtyard-inspired glyphs.",
+  "tags": [
+    "spain",
+    "granada",
+    "courtyard",
+    "terracotta",
+    "ceramic"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F7EDE6",
+        "surface": "#FFF7F0",
+        "surfaceRaised": "#EDDDD3",
+        "border": "#CEAEA0",
+        "borderStrong": "#986C60",
+        "text": "#321F2E",
+        "textMuted": "#573447",
+        "textSubtle": "#654456",
+        "textDisabled": "#A68996",
+        "primary": "#7D3025",
+        "onPrimary": "#FFF8F1",
+        "primarySubtle": "#7D302512",
+        "danger": "#972338",
+        "dangerSubtle": "#97233812",
+        "success": "#246052",
+        "warning": "#81501C",
+        "info": "#236273"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F7EDE6",
+        "backgroundOpacity": 0.95,
+        "foreground": "#321F2E",
+        "cursor": "#7D3025",
+        "link": "#236273",
+        "selection": "#7D302530",
+        "ansi": [
+          "#321F2E",
+          "#972338",
+          "#246052",
+          "#81501C",
+          "#236273",
+          "#713D75",
+          "#23676A",
+          "#654456",
+          "#725569",
+          "#A1303E",
+          "#265C42",
+          "#84511B",
+          "#255A7A",
+          "#773C78",
+          "#216167",
+          "#321F2E"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#241322",
+        "surface": "#301B2E",
+        "surfaceRaised": "#3C2438",
+        "border": "#684258",
+        "borderStrong": "#AC8296",
+        "text": "#FFF0E6",
+        "textMuted": "#E9CEC9",
+        "textSubtle": "#DEBDC4",
+        "textDisabled": "#A98295",
+        "primary": "#F4B39C",
+        "onPrimary": "#361C22",
+        "primarySubtle": "#F4B39C12",
+        "danger": "#FFB9C4",
+        "dangerSubtle": "#FFB9C412",
+        "success": "#B1E4CE",
+        "warning": "#F4D098",
+        "info": "#A0DFE5"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#241322",
+        "backgroundOpacity": 0.95,
+        "foreground": "#FFF0E6",
+        "cursor": "#F4B39C",
+        "link": "#A0DFE5",
+        "selection": "#F4B39C30",
+        "ansi": [
+          "#CCADB9",
+          "#FFB9C4",
+          "#B1E4CE",
+          "#F4D098",
+          "#A0DFE5",
+          "#DCBDEB",
+          "#A6E6DD",
+          "#ECD8D0",
+          "#DCBDC9",
+          "#FFD1D8",
+          "#CEF1DE",
+          "#FBE2B7",
+          "#C0EDF1",
+          "#EDD7F5",
+          "#C2EFE7",
+          "#FFF0E6"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "e156eb30cab71449cf22e0920363c3912d42d049a3282b085930556eb565852e"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "b51a8616876ae4fdbb63feb9654a5f376b963cb661b4f6bbe93bf81def8d0079"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "430530a556e24c64532abec0acf74b0592deafa5135630fb73f2703cea735332"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "75665d8734bdd205ccc04fbb07dda63063944bbf404e076ad9c8cbc0c06ecdc4"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "3c126cba922091108b9c5347bf485b6c42399d4c2edf839af7f8bb6ed9bf8fb8"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "8e5bd0aa64eb66f66ae9515b7074329a62fbf88fbc9905c385707fb7a1cc64c0"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "711631558ebe559d4e63825361919c604cee099d71190d04fdd61f408182c62f"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "4a2a03fd6a031b46b1f0872ed93490d9ded8011a7ed4b3274e3e28968e16cce7"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "013277b828a159a361d7b6db643522b66b39d656ad73089240c2d3f60c1cd3b0"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
