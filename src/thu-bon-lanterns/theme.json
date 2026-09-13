@@ -1,0 +1,214 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "thu-bon-lanterns",
+  "name": "Lanterns on the Thu Bon",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Vietnam / Hoi An. Silk lanterns, ochre shophouses and wooden river boats in jade, rice-paper ivory and cinnabar accents. Original silk-and-lacquer-inspired day and evening illustrations for phone and wide screens.",
+  "tags": [
+    "vietnam",
+    "hoi-an",
+    "lanterns",
+    "jade",
+    "illustrated",
+    "translucent"
+  ],
+  "preview": "scene-wide-light",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4F4E8",
+        "surface": "#FCF9EE",
+        "surfaceRaised": "#E7EDDF",
+        "border": "#C4D3BF",
+        "borderStrong": "#768E79",
+        "text": "#142F27",
+        "textMuted": "#2D4B3E",
+        "textSubtle": "#365043",
+        "textDisabled": "#8D9F8B",
+        "primary": "#165843",
+        "onPrimary": "#FFFCED",
+        "primarySubtle": "#16584312",
+        "danger": "#8B3324",
+        "dangerSubtle": "#8B332412",
+        "success": "#325B2C",
+        "warning": "#71520D",
+        "info": "#255C65"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.9
+      },
+      "terminal": {
+        "background": "#F4F4E8",
+        "backgroundOpacity": 0.92,
+        "foreground": "#142F27",
+        "cursor": "#165843",
+        "link": "#255C65",
+        "selection": "#16584330",
+        "ansi": [
+          "#20382C",
+          "#863A28",
+          "#355B2D",
+          "#6A510E",
+          "#35546A",
+          "#6A4466",
+          "#25595C",
+          "#42574B",
+          "#4A5C4A",
+          "#8C3022",
+          "#2D582C",
+          "#704B0B",
+          "#304F68",
+          "#704163",
+          "#1E5556",
+          "#142F27"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0B211B",
+        "surface": "#112D24",
+        "surfaceRaised": "#1A382D",
+        "border": "#3C5C4D",
+        "borderStrong": "#7EAC96",
+        "text": "#FFF5D9",
+        "textMuted": "#DCE5CE",
+        "textSubtle": "#D0DDC7",
+        "textDisabled": "#819D88",
+        "primary": "#B4E3C4",
+        "onPrimary": "#0D2C20",
+        "primarySubtle": "#B4E3C412",
+        "danger": "#FFCFAB",
+        "dangerSubtle": "#FFCFAB12",
+        "success": "#DBE9AB",
+        "warning": "#FFE1A1",
+        "info": "#BDE4DB"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.9
+      },
+      "terminal": {
+        "background": "#0B211B",
+        "backgroundOpacity": 0.92,
+        "foreground": "#FFF5D9",
+        "cursor": "#B4E3C4",
+        "link": "#BDE4DB",
+        "selection": "#B4E3C430",
+        "ansi": [
+          "#B9CEBA",
+          "#FFCBAB",
+          "#D6E8A5",
+          "#FFE1A1",
+          "#C0DCD9",
+          "#EAD1DA",
+          "#BEE8D8",
+          "#E3EBD2",
+          "#C1D2BC",
+          "#FFDCC1",
+          "#E5F1BD",
+          "#FFEDBD",
+          "#D4EBE3",
+          "#F2DEE3",
+          "#D3F2E5",
+          "#FFF5D9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "scene-wide-light": {
+      "path": "assets/scene-wide-light.webp",
+      "sha256": "cbb0db6853088e38afe72fb9104f60f44ac3fb66fcdbbb6f4313dcdfd32ada09"
+    },
+    "scene-wide-dark": {
+      "path": "assets/scene-wide-dark.webp",
+      "sha256": "f060ab0b1c83de39e6827f933b70453dac32bd4d8216b02c86b85f52eebfcfdb"
+    },
+    "scene-light": {
+      "path": "assets/scene-light.webp",
+      "sha256": "d202e8163f67e0288384f0ac15d08a77504b42a971f8d12bd3d10136a7bba16d"
+    },
+    "scene-dark": {
+      "path": "assets/scene-dark.webp",
+      "sha256": "3ee844eae3c63c5112d08b580b643de151c48185d3ae65127f6478a922cfec23"
+    },
+    "vignette": {
+      "path": "assets/vignette.png",
+      "sha256": "b93667b2bf97a28c23c7162a3b64109680dc1f847af71edc9e757ae5e01cfe36"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "vignette",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "scene-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.36,
+          "y": 0.68
+        },
+        "compact": {
+          "asset": "scene-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.36,
+            "y": 0.68
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.36,
+            "y": 0.55
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "scene-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.36,
+          "y": 0.68
+        },
+        "compact": {
+          "asset": "scene-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.36,
+            "y": 0.68
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.36,
+            "y": 0.55
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  }
+}
