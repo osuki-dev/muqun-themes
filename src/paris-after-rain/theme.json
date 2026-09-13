@@ -1,0 +1,214 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "paris-after-rain",
+  "name": "Paris, After the Rain",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "France / Paris. Art Nouveau ironwork, limestone facades and a rain-washed Seine in champagne, burgundy and antique gold. Original illustrated day and evening scenes, composed separately for phone and wide screens.",
+  "tags": [
+    "france",
+    "paris",
+    "art-nouveau",
+    "burgundy",
+    "illustrated",
+    "translucent"
+  ],
+  "preview": "scene-wide-light",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F1E7",
+        "surface": "#FFF9F0",
+        "surfaceRaised": "#EEE4DA",
+        "border": "#D7C4B6",
+        "borderStrong": "#977D7D",
+        "text": "#2B1922",
+        "textMuted": "#503640",
+        "textSubtle": "#57404A",
+        "textDisabled": "#AA9398",
+        "primary": "#70233E",
+        "onPrimary": "#FFF9F0",
+        "primarySubtle": "#70233E12",
+        "danger": "#852B25",
+        "dangerSubtle": "#852B2512",
+        "success": "#3C5B3F",
+        "warning": "#715019",
+        "info": "#4A4978"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.9
+      },
+      "terminal": {
+        "background": "#F8F1E7",
+        "backgroundOpacity": 0.92,
+        "foreground": "#2B1922",
+        "cursor": "#70233E",
+        "link": "#4A4978",
+        "selection": "#70233E30",
+        "ansi": [
+          "#33242B",
+          "#852B35",
+          "#3C593E",
+          "#6C4B1C",
+          "#474C78",
+          "#70436C",
+          "#35595E",
+          "#5B4650",
+          "#604C55",
+          "#842B3E",
+          "#32543B",
+          "#724914",
+          "#414878",
+          "#73406B",
+          "#315660",
+          "#2B1922"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#21151C",
+        "surface": "#2B1C24",
+        "surfaceRaised": "#34252D",
+        "border": "#604550",
+        "borderStrong": "#AB8A96",
+        "text": "#FFF4E8",
+        "textMuted": "#E8D9D7",
+        "textSubtle": "#DCCCD0",
+        "textDisabled": "#A48D96",
+        "primary": "#F3C0D2",
+        "onPrimary": "#301521",
+        "primarySubtle": "#F3C0D214",
+        "danger": "#FFC4AF",
+        "dangerSubtle": "#FFC4AF14",
+        "success": "#CADFB7",
+        "warning": "#F5D8A4",
+        "info": "#D7D0F4"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.9
+      },
+      "terminal": {
+        "background": "#21151C",
+        "backgroundOpacity": 0.92,
+        "foreground": "#FFF4E8",
+        "cursor": "#F3C0D2",
+        "link": "#D7D0F4",
+        "selection": "#F3C0D230",
+        "ansi": [
+          "#C8B6BE",
+          "#FFC4CC",
+          "#CADFB7",
+          "#F5D8A4",
+          "#CBD1F2",
+          "#EDC7EA",
+          "#C0DFD9",
+          "#E9DCDE",
+          "#CFBAC4",
+          "#FFD3D7",
+          "#D8EACA",
+          "#FFE8C0",
+          "#DDE1FA",
+          "#F5DBF0",
+          "#D6EFE8",
+          "#FFF4E8"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "scene-wide-light": {
+      "path": "assets/scene-wide-light.webp",
+      "sha256": "65bfa51ef555ea77ee1910c5e6bed4582c4533951ed91b9a9ab6af2d986d171c"
+    },
+    "scene-wide-dark": {
+      "path": "assets/scene-wide-dark.webp",
+      "sha256": "12984db43d5d12eaf771c7756b5cc794d424a439214bc605604ac1b75b5a96d3"
+    },
+    "scene-light": {
+      "path": "assets/scene-light.webp",
+      "sha256": "c0bc5dd0b3f794e3dd7ad44895e39db0d0e0acbe81e51483523e08be201bc7b6"
+    },
+    "scene-dark": {
+      "path": "assets/scene-dark.webp",
+      "sha256": "e3b9829d31c5115c0bb53eaf25389d5beea8470fbe43eaeb4d7003b806a068be"
+    },
+    "vignette": {
+      "path": "assets/vignette.png",
+      "sha256": "5f11c9e27c3acb655d0bbedb2e4b9acdc3692b804ff6e0520e5d02b9bda84244"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "vignette",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "scene-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.61,
+          "y": 0.68
+        },
+        "compact": {
+          "asset": "scene-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.61,
+            "y": 0.68
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.63,
+            "y": 0.55
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "scene-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.61,
+          "y": 0.68
+        },
+        "compact": {
+          "asset": "scene-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.61,
+            "y": 0.68
+          }
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.63,
+            "y": 0.55
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  }
+}
