@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "jasmine-at-dusk",
+  "name": "Jasmine at Dusk",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F5EB",
+        "surface": "#FFFCF2",
+        "surfaceRaised": "#EBE7D9",
+        "border": "#C8C5B7",
+        "borderStrong": "#828B83",
+        "text": "#12363A",
+        "textMuted": "#385054",
+        "textSubtle": "#3B5559",
+        "textDisabled": "#8C9992",
+        "primary": "#713252",
+        "onPrimary": "#FFF8EB",
+        "primarySubtle": "#71325210",
+        "danger": "#8D342A",
+        "dangerSubtle": "#8D342A10",
+        "success": "#23583B",
+        "warning": "#725115",
+        "info": "#165969"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F8F5EB",
+        "backgroundOpacity": 0.96,
+        "foreground": "#12363A",
+        "cursor": "#713252",
+        "link": "#165969",
+        "selection": "#71325230",
+        "ansi": [
+          "#12363A",
+          "#8D342A",
+          "#23583B",
+          "#725115",
+          "#285570",
+          "#713252",
+          "#165969",
+          "#3B5559",
+          "#485D5F",
+          "#973A32",
+          "#2C6042",
+          "#755019",
+          "#355276",
+          "#7D3C65",
+          "#285A63",
+          "#12363A"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#092B31",
+        "surface": "#10363D",
+        "surfaceRaised": "#19424A",
+        "border": "#456770",
+        "borderStrong": "#91B4B6",
+        "text": "#FFF8E7",
+        "textMuted": "#E4E8DA",
+        "textSubtle": "#CDDCD2",
+        "textDisabled": "#91ABA7",
+        "primary": "#F1C4D9",
+        "onPrimary": "#302036",
+        "primarySubtle": "#F1C4D912",
+        "danger": "#FFC7AE",
+        "dangerSubtle": "#FFC7AE12",
+        "success": "#C1E4B8",
+        "warning": "#EAD29A",
+        "info": "#BCE3E9"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#092B31",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF8E7",
+        "cursor": "#F1C4D9",
+        "link": "#BCE3E9",
+        "selection": "#F1C4D930",
+        "ansi": [
+          "#C2D8D1",
+          "#FFC7AE",
+          "#C1E4B8",
+          "#EAD29A",
+          "#C1D8F0",
+          "#F1C4D9",
+          "#BCE3E9",
+          "#E4E8DA",
+          "#CFDFD8",
+          "#FFD7C4",
+          "#D2EEC8",
+          "#F6E5B2",
+          "#D4E4F5",
+          "#F6D9E7",
+          "#D1EDF0",
+          "#FFF8E7"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "80ab4e26e7ff934fe09e4c1725a54c4912b43f94cbd6fdc9f9bc9cee65b7ca94"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "cae5ff43b289c7251c1e118a7eda755276e259592e991820d360f72636eb5b05"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "05841231d71c124f6d805e77838be4888682ad47c479e5c40f315f74223bc9b6"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "8d6c920dd1453f80519d0c66f8b88d42a962eb0737a4341e73cb849c34282ec7"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "2316b6a74bc1b997e52bc07c70d5062d6b7dd2af41d5ffedcbfc52cdcd3fe7fa"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "1a207eab1ebc69e3adf7a6fe865dc8df495ab6c9e7750f054d3054b5fd26d7be"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "0d421b531aae4a42b2c077d9c08db628178f417578a7ca5a9295274dc0402e94"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "01b015b7a883b79507a5ac4967814c43c9010cf41486d7a4454fc35351b9a044"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "2dfd389ded70312aa6bb6fe19e3d691e310b8a21d6377f78f9e6b56c6248959a"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Thailand / Chiang Mai. Lanna teak houses, ivory jasmine and mulberry silk woven into an embroidered garden. Peacock teal, soft ivory and old gold frame a quiet evening, with ribbon and weaving-inspired glyphs.",
+  "tags": [
+    "thailand",
+    "chiang-mai",
+    "lanna",
+    "jasmine",
+    "silk",
+    "embroidery"
+  ],
+  "preview": "preview"
+}
