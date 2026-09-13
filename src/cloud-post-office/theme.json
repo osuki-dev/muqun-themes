@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Muqun · AI-assisted original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -131,6 +131,22 @@
     "paper-courier": {
       "path": "assets/paper-courier.png",
       "sha256": "ed5ba167d7f693f60380b4eb9787a2940ff0e9d4cf6e123acb78461d7b2f7add"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "fef5461c29daf23ea018b0d8729e6d3c5658d10ce90a32c6fffa90b47e198eb1"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "de236cb2004e057e383a2703dc6141569817f9741d65d63b39ba619850ddf7b1"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3b07d0cf53d29970f8b5b4d383935e7c9d8dac813d3121d195ec75db76294e74"
+    },
+    "preview": {
+      "path": "assets/preview.webp",
+      "sha256": "02907dc766455433f4635321556689d331ba3f04446f9bfe2742540e4b7ce6fb"
     }
   },
   "decoration": {
@@ -209,5 +225,19 @@
     "illustrated",
     "translucent"
   ],
-  "preview": "scene-wide-light"
+  "preview": "preview",
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
 }
