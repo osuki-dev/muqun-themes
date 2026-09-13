@@ -1,0 +1,44 @@
+name: Build
+
+# After a merge to main: pack every source into dist/, regenerate index.json,
+# verify the result, and publish both to the `release` branch. That branch is
+# rebuilt whole and force-pushed every time, so it is always exactly what main
+# produces and binaries never accumulate in history. `muqun-theme list` and the
+# website read from it.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Pack every source and regenerate the catalogue
+        run: bunx @osuki-dev/muqun-theme@1 build
+
+      - name: Verify the result the way a full check would
+        run: bunx @osuki-dev/muqun-theme@1 check
+
+      - name: Publish dist/ and index.json to the release branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # An orphan commit holding only the build output. `-f` because both
+          # paths are gitignored on main on purpose.
+          git checkout --orphan release
+          git rm -rfq --cached .
+          git add -f dist index.json
+          git commit -qm "build: from ${GITHUB_SHA}"
+          git push --force origin release
+          echo "published $(git rev-parse --short HEAD) to release"

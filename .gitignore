@@ -1,0 +1,13 @@
+# dist/ and index.json are built by CI (see .github/workflows/build.yml) and
+# published to the `release` branch. On main they are local scratch: pack as
+# much as you like, nothing here is committed.
+dist/*
+!dist/.gitkeep
+/index.json
+
+node_modules/
+tmp/
+*.log
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,17 @@
+name: CI
+
+# A pull request carries only sources, so this checks the one thing it can:
+# every source validates and packs. dist/ and index.json are built after the
+# merge by build.yml. One command, the same one a contributor runs.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bunx @osuki-dev/muqun-theme@1 check --sources
