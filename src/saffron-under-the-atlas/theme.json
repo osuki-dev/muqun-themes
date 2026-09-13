@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "saffron-under-the-atlas",
+  "name": "Saffron under the Atlas",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FBF0D8",
+        "surface": "#FFF7E7",
+        "surfaceRaised": "#F0E2C7",
+        "border": "#CFBFA5",
+        "borderStrong": "#8F7760",
+        "text": "#29213F",
+        "textMuted": "#504157",
+        "textSubtle": "#57485C",
+        "textDisabled": "#9E8E86",
+        "primary": "#694309",
+        "onPrimary": "#FFF8E8",
+        "primarySubtle": "#6943090C",
+        "danger": "#84313F",
+        "dangerSubtle": "#84313F0C",
+        "success": "#326040",
+        "warning": "#79530B",
+        "info": "#3F5088"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#FBF0D8",
+        "backgroundOpacity": 0.96,
+        "foreground": "#29213F",
+        "cursor": "#694309",
+        "link": "#3F5088",
+        "selection": "#69430930",
+        "ansi": [
+          "#29213F",
+          "#963B4A",
+          "#326040",
+          "#79530B",
+          "#3F5088",
+          "#75456C",
+          "#286468",
+          "#57485C",
+          "#635367",
+          "#9C4050",
+          "#3D6442",
+          "#80560F",
+          "#49568B",
+          "#804E75",
+          "#34666B",
+          "#29213F"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#171A38",
+        "surface": "#202343",
+        "surfaceRaised": "#2B2D4D",
+        "border": "#565677",
+        "borderStrong": "#9991AC",
+        "text": "#FFF2D5",
+        "textMuted": "#E6D6CA",
+        "textSubtle": "#D5C4C2",
+        "textDisabled": "#8C829C",
+        "primary": "#F2CF78",
+        "onPrimary": "#282039",
+        "primarySubtle": "#F2CF7814",
+        "danger": "#FFC1BE",
+        "dangerSubtle": "#FFC1BE14",
+        "success": "#BEDBAA",
+        "warning": "#F6D084",
+        "info": "#BDD0FA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#171A38",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF2D5",
+        "cursor": "#F2CF78",
+        "link": "#BDD0FA",
+        "selection": "#F2CF7830",
+        "ansi": [
+          "#C9BBD1",
+          "#FFC1BE",
+          "#BEDBAA",
+          "#F6D084",
+          "#BDD0FA",
+          "#E6BDE4",
+          "#AEE0D8",
+          "#E6D6CA",
+          "#D5C4D8",
+          "#FFD3CB",
+          "#CDE7B9",
+          "#FFE09A",
+          "#D0DEFF",
+          "#F2D0EF",
+          "#C2EEE5",
+          "#FFF2D5"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "6237794ebacf889edab2c5bce90c21f12989c9f19aee65bce718182c536ea7e4"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "f96bb6b6d694d65d42ad88af0a18488df14463951409fd2ecc7bb5636267ba2e"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "eefb4fd8d0d1041ccf7c5f81b7d5a679309d8cd9d6f865f6b879592088fcdf74"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "c516d32ac7a848838f92e13e3d1939f95292774240d7ac0913cf8b30b42d11a1"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "0c8a9dbf73c69a8324b5f9c2b28f8539526b56a9d1c54c299acf3f2314d2d8a0"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "cba7d3c74569bad6c1ed7c9359b36795ac6d6e16185af818fb5bfc7e3eb73924"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "251de97ee3a00e30bb45ad4e1b09345f3d5b4823dbd8fb0ed351ab48a304ab63"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "6c9355536bc2361a699343755e21565ab565a0a52b8d2d5bcb7fcacb1a317e93"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "ccaf9badac536307c32a9a16e39a2ca088f06715dc468f520185065b2df8afba"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Morocco. Earthen kasbahs, palm oases and distant Atlas peaks woven in saffron, clay pink and midnight indigo. Quiet textile landscapes pair with ribbon, flying-carpet and woven-loop glyphs.",
+  "tags": [
+    "morocco",
+    "atlas",
+    "kasbah",
+    "tapestry",
+    "saffron",
+    "oasis"
+  ],
+  "preview": "preview"
+}
