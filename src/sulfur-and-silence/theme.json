@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "sulfur-and-silence",
+  "name": "Sulfur and Silence",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4F2EB",
+        "surface": "#FCFBF5",
+        "surfaceRaised": "#E8E6E0",
+        "border": "#C4C2B8",
+        "borderStrong": "#89877B",
+        "text": "#262723",
+        "textMuted": "#484943",
+        "textSubtle": "#53544D",
+        "textDisabled": "#94958C",
+        "primary": "#514F07",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#514F0712",
+        "danger": "#80322F",
+        "dangerSubtle": "#80322F12",
+        "success": "#365F45",
+        "warning": "#785114",
+        "info": "#59517F"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#F4F2EB",
+        "backgroundOpacity": 0.96,
+        "foreground": "#262723",
+        "cursor": "#514F07",
+        "link": "#59517F",
+        "selection": "#514F0730",
+        "ansi": [
+          "#262723",
+          "#80322F",
+          "#365F45",
+          "#785114",
+          "#405C83",
+          "#725184",
+          "#306569",
+          "#53544D",
+          "#606158",
+          "#A33C34",
+          "#376C48",
+          "#684C13",
+          "#395777",
+          "#694473",
+          "#285F62",
+          "#262723"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#1B1C20",
+        "surface": "#23242A",
+        "surfaceRaised": "#2D2E35",
+        "border": "#505159",
+        "borderStrong": "#8B8A97",
+        "text": "#F6F4E9",
+        "textMuted": "#D2D1CB",
+        "textSubtle": "#C0BFC6",
+        "textDisabled": "#85858E",
+        "primary": "#E4DC61",
+        "onPrimary": "#27260D",
+        "primarySubtle": "#E4DC6115",
+        "danger": "#F3AEA4",
+        "dangerSubtle": "#F3AEA415",
+        "success": "#B9D9B2",
+        "warning": "#E7C47C",
+        "info": "#CBC2EB"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#1B1C20",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F6F4E9",
+        "cursor": "#E4DC61",
+        "link": "#CBC2EB",
+        "selection": "#E4DC6130",
+        "ansi": [
+          "#BCC0BC",
+          "#F3AEA4",
+          "#B9D9B2",
+          "#E7C47C",
+          "#B3C9ED",
+          "#D5B7E1",
+          "#ACD8D7",
+          "#D2D1CB",
+          "#C2C5BD",
+          "#FFD0C8",
+          "#D4ECCB",
+          "#F5E299",
+          "#D3DFFA",
+          "#E9D3F0",
+          "#D0EDEC",
+          "#F6F4E9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "scene-wide-light": {
+      "path": "assets/scene-wide-light.webp",
+      "sha256": "cfef7157d794e36e860d959a97abfb57c735fae0b22aae389266747f816d74c7"
+    },
+    "scene-wide-dark": {
+      "path": "assets/scene-wide-dark.webp",
+      "sha256": "20b5467fb01311c9d00a051214f74b472e053832cddbabe8402c7fcd83880190"
+    },
+    "scene-portrait-light": {
+      "path": "assets/scene-portrait-light.webp",
+      "sha256": "1d9d1b49e9d722c11e264f84a954fd4cb57bd2ad45dde72452337afa3cdebc65"
+    },
+    "scene-portrait-dark": {
+      "path": "assets/scene-portrait-dark.webp",
+      "sha256": "6a5c9a9f19f0127625570bae0a5aa97432c7844bc08d718f098eaf993b72fde7"
+    },
+    "empty-geode": {
+      "path": "assets/empty-geode.png",
+      "sha256": "c6e6b72327bc2b8a7fcf26391c6c2360aa083fe222d8f4d74122973ca3345cd0"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "8218abb433912f4292c539fd2542136de0cfca581d6d6bb88d9ce9f4f680d089"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "40269918f24bfa97464317972d47215d4dd9be25a3ef134f25e5fb759488690b"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "f0acaadca645c1830dcd8864200aafff1bc90e6d47a9dae88be0d598b0ce6cb0"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "adf8cd00f05c7d66573f4b8b5a01894b24502a90408435921fad40b06a15986c"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty-geode",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "scene-portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "scene-portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "scene-portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "scene-portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Iceland imagined as a mineral monotype: basalt columns, sulfur shores and lilac geothermal steam. Chalk daylight gives way to volcanic charcoal, with faceted stone and rising-steam glyphs.",
+  "tags": [
+    "iceland",
+    "geothermal",
+    "basalt",
+    "mineral",
+    "monotype",
+    "sulfur"
+  ],
+  "preview": "preview"
+}
