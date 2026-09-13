@@ -37,4 +37,3 @@ Use case: logo-brand. Single small UI attachment icon for Egyptian papyrus theme
 ## preview
 
 Use case: ads-marketing. Create a premium landscape gallery cover for Papyrus on the Nile, 1024x640 pixels exactly. Input image1 is own light Nile gouache artwork; image2 is own dark Nile gouache artwork. Use the theme's artwork faithfully, left half sunlit pale papyrus cream with lapis river and copper desert; right half midnight lapis with copper desert and ivory sail. Distinct vertical split at exact center. Elegant balanced painterly diptych, visible felucca sails in each half and papyrus fiber texture. No typography, no text, no logos, no UI, no frames. Keep key imagery centered vertically and clear near edges.
-

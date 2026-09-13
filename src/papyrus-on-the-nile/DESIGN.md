@@ -15,4 +15,3 @@ Four independently generated wallpapers cover light/dark and phone/tablet format
 Artwork and gallery cover inspected for composition and clean rendering. Template glyphs inspected at 17 px and 34 px in both palette tints. CLI 1.8.0 validation and contrast checks passed; shared readable floors are 89% for surfaces and 90% for terminal. Authored opacity is 94% and 96%, respectively.
 
 The live CLI preview loaded its theme data and exposed the dark phone Home, Conversation and Terminal and tablet Home and Terminal views. Browser screenshot capture failed, so full visual device verification remains pending.
-
