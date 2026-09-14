@@ -1,13 +1,15 @@
 # Credits
 
-All ten images in `assets/` were generated on 2026-09-12 by the submitter, with
-a built-in image generation tool. None were taken from anyone else's work, and
-none were traced, edited or composited from official artwork. The prompt used
-for each one was kept, so every asset can be traced to what produced it.
+The ten original scene, panel, action and Chopper images were generated on
+2026-09-12 by the submitter using a built-in image generation tool. The original
+provenance states that no official artwork was traced, edited or composited.
+Those images were converted to WebP for the original release.
 
-They are then converted to WebP at quality 0.80 and otherwise unedited — the
-originals are lossless PNG, and the conversion is the only step between the
-generated image and what ships here. It takes the pack from 23.28 MB to 4.01 MB.
+Version 1.1.0 retains that artwork. Six supporting assets are resized to 768px;
+the existing split preview is converted to PNG. Three new nautical template
+glyphs were generated with OpenAI image generation on 2026-09-14. Their prompts
+are recorded in PROMPTS.md. The original release says its illustration prompts
+were retained, but they are not present in this source directory.
 
 | Asset | Source |
 | --- | --- |
@@ -15,7 +17,9 @@ generated image and what ships here. It takes the pack from 23.28 MB to 4.01 MB.
 | `scene-wide-light`, `scene-wide-dark` | generated, landscape 1536x1024 |
 | `panel-light`, `panel-dark` | generated |
 | `action-light`, `action-dark` | generated |
-| `empty-light`, `empty-dark` | generated |
+| `empty-light`, `empty-dark` | generated; reused for the Home hero |
+| `preview` | existing split preview, converted from WebP to PNG |
+| `icon-back`, `icon-send`, `icon-attach` | newly generated nautical glyphs; see PROMPTS.md |
 
 ## What this is not
 
