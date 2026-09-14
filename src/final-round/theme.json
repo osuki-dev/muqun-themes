@@ -1,0 +1,282 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "final-round",
+  "name": "Final Round",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection \u00b7 AI-assisted fan art",
+  "license": "Unofficial fan art; underlying rights remain with CAPCOM",
+  "description": "Street Fighter fan art in kinetic brushwork and screenprint: Ryu, vermilion ribbons, mustard ink and warm newsprint by day, oxblood after dark. A contained character hero anchors Home while quiet courtyard artwork frames conversations.",
+  "tags": [
+    "game",
+    "street-fighter",
+    "fan-art",
+    "screenprint",
+    "vermilion"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4EDDD",
+        "surface": "#FFF8E9",
+        "surfaceRaised": "#E8DDC8",
+        "border": "#CDBFA7",
+        "borderStrong": "#92806A",
+        "text": "#251D17",
+        "textMuted": "#49392B",
+        "textSubtle": "#574532",
+        "textDisabled": "#A39680",
+        "primary": "#8C2C17",
+        "onPrimary": "#FFF8E9",
+        "primarySubtle": "#8C2C170C",
+        "danger": "#862638",
+        "dangerSubtle": "#8626380C",
+        "success": "#3D5732",
+        "warning": "#705013",
+        "info": "#354F69"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F4EDDD",
+        "backgroundOpacity": 0.97,
+        "foreground": "#251D17",
+        "cursor": "#8C2C17",
+        "link": "#354F69",
+        "selection": "#8C2C1730",
+        "ansi": [
+          "#251D17",
+          "#862638",
+          "#3D5732",
+          "#705013",
+          "#354F69",
+          "#754454",
+          "#315A59",
+          "#574532",
+          "#49392B",
+          "#862638",
+          "#3D5732",
+          "#705013",
+          "#354F69",
+          "#754454",
+          "#315A59",
+          "#251D17"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#241716",
+        "surface": "#30201D",
+        "surfaceRaised": "#3C2A25",
+        "border": "#695046",
+        "borderStrong": "#B79A7A",
+        "text": "#FFF3D8",
+        "textMuted": "#E7D6BC",
+        "textSubtle": "#D8BFA4",
+        "textDisabled": "#A98D76",
+        "primary": "#F7B27B",
+        "onPrimary": "#32190F",
+        "primarySubtle": "#F7B27B0C",
+        "danger": "#FFB8C0",
+        "dangerSubtle": "#FFB8C00C",
+        "success": "#CEE0AA",
+        "warning": "#F6D38A",
+        "info": "#BAD6EF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#241716",
+        "backgroundOpacity": 0.97,
+        "foreground": "#FFF3D8",
+        "cursor": "#F7B27B",
+        "link": "#BAD6EF",
+        "selection": "#F7B27B30",
+        "ansi": [
+          "#C1A88F",
+          "#FFB8C0",
+          "#CEE0AA",
+          "#F6D38A",
+          "#BAD6EF",
+          "#E9BCD8",
+          "#B7DDD6",
+          "#D8BFA4",
+          "#E7D6BC",
+          "#FFB8C0",
+          "#CEE0AA",
+          "#F6D38A",
+          "#BAD6EF",
+          "#E9BCD8",
+          "#B7DDD6",
+          "#FFF3D8"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "fffc622ee8e646878355700e319b61aea747cd367dbaf270fb252d189568e78d"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "ea62e3932a843b652be46da01d249070483ff3480a5502c32a9a1a2be3324707"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "7c60375b637766f47e17fa68dbbcf536368b3887bdeb7144df891266a2840c08"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "0cfc0b0bfe53ff56f03be240d36d37d93e04b129eb69c8d903d925f5f07e7edc"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "f2eb7a4b88b5248d505062e0ca9235b009efbf98d1ef840ea075d13cd5f1bf9b"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "917c6f2deb0b2eaeea436329e841c7bf23e93bd99128a460bb4c8559e399d6b3"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "26099ac08f46d7de527434415dadddea0c4fc6f607dc65c253a71e741d216c3f"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "ad8cd199f9035246c6e23ded9d7a5e55e89bcace57f9afc1c288ee933266c467"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "c4cd532786f12db358b31531a2c9405b8007117230010446b5ea415a3073d71c"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "47ed0a31c6cf57ea63ff67d1cfd2dd39ba029103ec221e15cf60afcac8c8cbb0"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "opacity": 0.15
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.65
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.65
+        },
+        "opacity": 0.65
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "opacity": 0.15
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.65
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.65
+        },
+        "opacity": 0.65
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
