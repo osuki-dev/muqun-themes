@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC-BY-4.0; third-party marks: see CREDITS.md",
   "preview": "preview",
@@ -151,6 +151,14 @@
     "credits": {
       "path": "assets/credits.png",
       "sha256": "990d0dbae09a1cd3dcd1f40043acbb1db48471ad26004aab797b69c5a05adcba"
+    },
+    "illustration-light": {
+      "path": "assets/illustration-light.png",
+      "sha256": "33021174263c39337a82b25b4b7d743288d3e16ff0bc09b1e275cb97a59dd1f2"
+    },
+    "illustration-dark": {
+      "path": "assets/illustration-dark.png",
+      "sha256": "20ae3c8640c1860c51c5556a106abdaec69e04b4021a6ec479950888f2764411"
     }
   },
   "decoration": {},
@@ -199,6 +207,16 @@
           "fit": "cover",
           "opacity": 1
         }
+      },
+      "emptyState.illustration": {
+        "asset": "illustration-light",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "home.hero": {
+        "asset": "illustration-light",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
@@ -231,6 +249,16 @@
           "fit": "cover",
           "opacity": 1
         }
+      },
+      "emptyState.illustration": {
+        "asset": "illustration-dark",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "home.hero": {
+        "asset": "illustration-dark",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
@@ -239,6 +267,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },

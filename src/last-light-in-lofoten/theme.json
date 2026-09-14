@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Norway / Lofoten. Russet fishing cabins and storm-slate fjords in a tactile Nordic woodcut, with pale peach afterglow and nautical navigation marks.",
@@ -181,6 +181,10 @@
           "asset": "wide-light",
           "fit": "cover"
         }
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -199,6 +203,10 @@
           "asset": "wide-dark",
           "fit": "cover"
         }
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     }
   },
@@ -207,6 +215,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },

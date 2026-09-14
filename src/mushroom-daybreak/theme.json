@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "mushroom-daybreak",
   "name": "Mushroom Daybreak",
-  "version": "1.0.0",
-  "author": "Muqun Theme Collection \u00b7 AI-assisted fan art",
+  "version": "1.0.1",
+  "author": "Muqun Theme Collection · AI-assisted fan art",
   "license": "Unofficial fan art; underlying IP rights reserved",
   "variants": {
     "light": {
@@ -139,6 +139,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "208a53e95dab91c83775be7d00a4298aa28abc68cf4f5d88e7dfbe4dc727d10d"
+    },
+    "garden": {
+      "path": "assets/garden.png",
+      "sha256": "27032063087b1cb00fe1ffeca8cab86b511ef76a244d9c04a50fcba26af156f1"
     }
   },
   "decoration": {},
@@ -176,6 +180,16 @@
       "home.decoration": {
         "asset": "wide-light",
         "fit": "contain"
+      },
+      "emptyState.illustration": {
+        "asset": "garden",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "home.hero": {
+        "asset": "garden",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
@@ -201,6 +215,16 @@
       "home.decoration": {
         "asset": "wide-dark",
         "fit": "contain"
+      },
+      "emptyState.illustration": {
+        "asset": "garden",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "home.hero": {
+        "asset": "garden",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
@@ -209,6 +233,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rhythm-of-dessau",
   "name": "Rhythm of Dessau",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Germany / Dessau. Glass grids and architectural rhythm in concrete white, graphite, vermilion and signal yellow. Original modernist screenprints with stepped navigation, a triangular glider and tubular-steel attachment glyphs.",
@@ -181,6 +181,10 @@
           "asset": "wide-light",
           "fit": "cover"
         }
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -199,6 +203,10 @@
           "asset": "wide-dark",
           "fit": "cover"
         }
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     }
   },
@@ -207,6 +215,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },

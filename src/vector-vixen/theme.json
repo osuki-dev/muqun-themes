@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vector-vixen",
   "name": "Vector Vixen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -197,6 +197,10 @@
       "home.decoration": {
         "asset": "banner-light",
         "fit": "contain"
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -218,6 +222,10 @@
       "home.decoration": {
         "asset": "banner-dark",
         "fit": "contain"
+      },
+      "home.hero": {
+        "asset": "empty",
+        "fit": "contain"
       }
     }
   },
@@ -226,6 +234,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },
