@@ -1,0 +1,234 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "sugar-circuit",
+  "name": "Sugar Circuit",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF1F7",
+        "surface": "#FFFAFD",
+        "surfaceRaised": "#F4E3EF",
+        "border": "#D3B1C7",
+        "borderStrong": "#A57291",
+        "text": "#33162C",
+        "textMuted": "#633852",
+        "textSubtle": "#69425D",
+        "textDisabled": "#AA839C",
+        "primary": "#A5185A",
+        "onPrimary": "#FFF8FD",
+        "primarySubtle": "#A5185A10",
+        "danger": "#9B263E",
+        "dangerSubtle": "#9B263E10",
+        "success": "#236348",
+        "warning": "#765019",
+        "info": "#146174"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#FFF1F7",
+        "backgroundOpacity": 0.96,
+        "foreground": "#33162C",
+        "cursor": "#A5185A",
+        "link": "#146174",
+        "selection": "#A5185A30",
+        "ansi": [
+          "#33162C",
+          "#9B263E",
+          "#236348",
+          "#765019",
+          "#34577C",
+          "#754781",
+          "#146174",
+          "#69425D",
+          "#754967",
+          "#A1324F",
+          "#306449",
+          "#785529",
+          "#3C5C85",
+          "#804D8A",
+          "#246570",
+          "#33162C"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#220F25",
+        "surface": "#2D1531",
+        "surfaceRaised": "#3B1E40",
+        "border": "#744B78",
+        "borderStrong": "#B98BBB",
+        "text": "#FFF3FC",
+        "textMuted": "#F0D0EC",
+        "textSubtle": "#DFC0E3",
+        "textDisabled": "#A77AAE",
+        "primary": "#FFADD6",
+        "onPrimary": "#3B1233",
+        "primarySubtle": "#FFADD612",
+        "danger": "#FFC0C5",
+        "dangerSubtle": "#FFC0C512",
+        "success": "#ADEAC6",
+        "warning": "#F4D5A3",
+        "info": "#A8EDF1"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#220F25",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF3FC",
+        "cursor": "#FFADD6",
+        "link": "#A8EDF1",
+        "selection": "#FFADD630",
+        "ansi": [
+          "#DFC0E3",
+          "#FFC0C5",
+          "#ADEAC6",
+          "#F4D5A3",
+          "#BFCFF9",
+          "#E4BDED",
+          "#A8EDF1",
+          "#F0D0EC",
+          "#E9C9ED",
+          "#FFD3D8",
+          "#C7F2DB",
+          "#FFE6C0",
+          "#D4DFFC",
+          "#F1D3F6",
+          "#C8F6F8",
+          "#FFF3FC"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "d0069448f7a61b837564eeb13bc5741c31d57945a419fccf88004c8f3ca8d101"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "92c0db13d0bb785e9a3c29949529973270be50dc71027bc1467907d534506497"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "efab19f64c5fe0d7a138b0674820f61dbbb212bfa480514193b886a71ecb467c"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "49c534fa2a9933b290dedb1f4c26522b8c864a599650f1e2e0b00631dd6c6a5f"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "bfd3bcb45841119c906fc39968cb539f60e6a174ba876f4e901fedbfe2221268"
+    },
+    "banner": {
+      "path": "assets/banner.png",
+      "sha256": "eada06b762d4f49bb008f950f1e859fccd30e2ca5f1c1b732fbfb96f9c1ffd06"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "4221fd39a63236525650a5b980233e32217e67da5e62c2cbf0f0c6c7a72e3ee4"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "7f7accc89c828a4ca7edf6523ebf1a555f05edd6006904acefa3ae6c426dcea8"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "4fbd32c83d5baabd07d922ab8e1eb9c14182cfc5067e6d43a5ded724d345de48"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "4ffbd2b8b8c4596a0868e9405e320267be15a6bae341b6c4ad98b2d45b833682"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.decoration": {
+      "asset": "banner",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "opacity": 0.32
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "opacity": 0.32
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "An original peach-haired arcade heroine in a candy-plastic cyber world. Raspberry, ice cyan and milk-white surfaces meet bold cel shading, capsule tunnels and playful candy-shaped controls.",
+  "tags": [
+    "anime",
+    "cyber",
+    "kawaii",
+    "arcade",
+    "raspberry",
+    "illustrated"
+  ],
+  "preview": "preview"
+}

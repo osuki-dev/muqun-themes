@@ -1,0 +1,258 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "ribbon-reverie",
+  "name": "Ribbon Reverie",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF0E8",
+        "surface": "#FFF9F2",
+        "surfaceRaised": "#F1E1DA",
+        "border": "#D5B7B2",
+        "borderStrong": "#987078",
+        "text": "#3E202E",
+        "textMuted": "#66434D",
+        "textSubtle": "#694650",
+        "textDisabled": "#B69B9F",
+        "primary": "#8C3159",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#8C315910",
+        "danger": "#903C35",
+        "dangerSubtle": "#903C3510",
+        "success": "#3B6250",
+        "warning": "#79541D",
+        "info": "#486176"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#FFF0E8",
+        "backgroundOpacity": 0.96,
+        "foreground": "#3E202E",
+        "cursor": "#8C3159",
+        "link": "#486176",
+        "selection": "#8C315930",
+        "ansi": [
+          "#3E202E",
+          "#903C35",
+          "#3B6250",
+          "#79541D",
+          "#486176",
+          "#8C3159",
+          "#316569",
+          "#694650",
+          "#70555D",
+          "#98423B",
+          "#436858",
+          "#7D571F",
+          "#4C637C",
+          "#923761",
+          "#3C686B",
+          "#3E202E"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#2C1626",
+        "surface": "#3B2133",
+        "surfaceRaised": "#4A2D40",
+        "border": "#795567",
+        "borderStrong": "#BD96A7",
+        "text": "#FFF4E8",
+        "textMuted": "#EFDDDE",
+        "textSubtle": "#E0C6CD",
+        "textDisabled": "#B293A1",
+        "primary": "#F2BED0",
+        "onPrimary": "#3B2030",
+        "primarySubtle": "#F2BED010",
+        "danger": "#FFC3AD",
+        "dangerSubtle": "#FFC3AD10",
+        "success": "#C1DEC5",
+        "warning": "#F0D5A2",
+        "info": "#C7DDEE"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#2C1626",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF4E8",
+        "cursor": "#F2BED0",
+        "link": "#C7DDEE",
+        "selection": "#F2BED030",
+        "ansi": [
+          "#E0C6CD",
+          "#FFC3AD",
+          "#C1DEC5",
+          "#F0D5A2",
+          "#C7DDEE",
+          "#F2BED0",
+          "#B9DDD8",
+          "#EFDDDE",
+          "#E9D4DB",
+          "#FFD5C4",
+          "#D4EDD7",
+          "#FAE4B9",
+          "#DAE9F5",
+          "#F9D7E2",
+          "#D0EEE6",
+          "#FFF4E8"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "92065d189ca54f32c7161ec29b00bb716cb03c615d30ffc38c1d3811a4b4c3ce"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "84d3c8daf99a476e60f20ebef0b643e2c744115ff24ad9765f283744dc87e88b"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "2b78a77ec6d1bc1e85334fd61948aa0f2e3fe228b829337ac44a98f7dee59725"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "b9f3faaecf554f93840c09decebaf25e485f1a9857ee8f072470cddffcbc9013"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "1b0eb3670f009649d80434b60134cc7f52b90e6e2e69c8bd6b2f38d873a99cc0"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "e9c0298f7abea11b59e000c6766fad32ea84a31e9cb0b8fbd3813e416e7e23ff"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "42146cc1321b82315b79f96c14029534ee07892a4991d71d47c2db1061af5bfe"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "6b23171a8df1e509ae922fd164c10216daada2189497a9ace5b8483c1b45d5c0"
+    },
+    "banner": {
+      "path": "assets/banner.png",
+      "sha256": "d06d661b2ea3b732bef512de3678814eaad7281c226060ab75ea4b60e6d66d63"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "5580fa4f9b980b15be9f889353997e92d26fa2e54621350545a97695c506903b"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.decoration": {
+      "asset": "banner",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "opacity": 0.24
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.3
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.3
+        },
+        "opacity": 0.3
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "A ribbon performer invites you into a miniature fairy-tale theatre. Peach satin, raspberry curtains and champagne stars bring a graceful carnival daydream to light and mulberry-dark workspaces.",
+  "tags": [
+    "anime",
+    "ribbon",
+    "carnival",
+    "theatre",
+    "peach",
+    "raspberry"
+  ],
+  "preview": "preview"
+}

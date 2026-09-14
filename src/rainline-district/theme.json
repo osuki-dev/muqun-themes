@@ -1,0 +1,250 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "rainline-district",
+  "name": "Rainline District",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#E7EFF0",
+        "surface": "#F5F9F8",
+        "surfaceRaised": "#D6E3E4",
+        "border": "#AABFC2",
+        "borderStrong": "#637D83",
+        "text": "#122D34",
+        "textMuted": "#37535A",
+        "textSubtle": "#3B565C",
+        "textDisabled": "#80999D",
+        "primary": "#84342F",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#84342F10",
+        "danger": "#853545",
+        "dangerSubtle": "#85354510",
+        "success": "#245D4D",
+        "warning": "#705019",
+        "info": "#245B70"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#E7EFF0",
+        "backgroundOpacity": 0.96,
+        "foreground": "#122D34",
+        "cursor": "#933D38",
+        "link": "#245B70",
+        "selection": "#933D3830",
+        "ansi": [
+          "#122D34",
+          "#933D38",
+          "#245D4D",
+          "#705019",
+          "#245B70",
+          "#705070",
+          "#205D66",
+          "#3B565C",
+          "#456168",
+          "#993E38",
+          "#2C6353",
+          "#76541F",
+          "#2A6178",
+          "#795579",
+          "#28636C",
+          "#122D34"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0C252B",
+        "surface": "#143139",
+        "surfaceRaised": "#1F4048",
+        "border": "#446970",
+        "borderStrong": "#8CB3B7",
+        "text": "#EEF8F5",
+        "textMuted": "#D2E5E3",
+        "textSubtle": "#BCD8D6",
+        "textDisabled": "#7D9FA5",
+        "primary": "#FFB6A8",
+        "onPrimary": "#372421",
+        "primarySubtle": "#FFB6A810",
+        "danger": "#F5BDD0",
+        "dangerSubtle": "#F5BDD010",
+        "success": "#B0DFC7",
+        "warning": "#EDD4A0",
+        "info": "#B1DDEB"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#0C252B",
+        "backgroundOpacity": 0.96,
+        "foreground": "#EEF8F5",
+        "cursor": "#FFB6A8",
+        "link": "#B1DDEB",
+        "selection": "#FFB6A830",
+        "ansi": [
+          "#BCD8D6",
+          "#FFB6A8",
+          "#B0DFC7",
+          "#EDD4A0",
+          "#B1DDEB",
+          "#DEBFE7",
+          "#ACE0D8",
+          "#D2E5E3",
+          "#C7E0DD",
+          "#FFCCC2",
+          "#C7EDDA",
+          "#F8E5BA",
+          "#C9EAF3",
+          "#EDD7F1",
+          "#C5EDE6",
+          "#EEF8F5"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "eede332dcb6fe69ab3902186ee88148dffb59219655175169ca1e0bc180cb1b9"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "69f9022f858dd7095393c5c2f9575e0b53fc80d1ca49fec5263eca1e346a68f9"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "01564f24b8f02fff72aee0ea332dde0fef5b22964ddacd14cf9878456df17189"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "f893a5e8257dc4abcc69105b49b06a4a3ab3c99374d81b7261b20d8e19a5bf75"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "9cd6f0abba63f2a0607824b1847e2d0d839f0b98e5cdd31cd3787f90fa593b9b"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "62a1ca86d30f5cd4a700ebfbff813d879af9c0d5acc250e2d70fdfe64cb3df90"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "6577dcd557bb1ac43b0a941a0ced9e5abffedcea5441a97b42be7864e9042b3b"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "daf56d69a5bfb395aa4a738c3b20785f4a579aaaa6554e61695298673192bc96"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "9ea48ea7f1a17860d1273d8d8b288495cd01d99f65195065e641f1fe8ecd1bfd"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "opacity": 0.18
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.38
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.38
+        },
+        "opacity": 0.38
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Rain gathers on elevated tracks above a sleepless concrete city. Petrol haze, wet asphalt and coral signal lights shape a cinematic cyber-noir workspace from dawn to midnight.",
+  "tags": [
+    "cyber-noir",
+    "rain",
+    "city",
+    "brutalist",
+    "petrol",
+    "cinematic"
+  ],
+  "preview": "preview"
+}
