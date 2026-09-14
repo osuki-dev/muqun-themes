@@ -9,4 +9,3 @@ Leaf, fletched-arrow and grappling-loop glyphs replace back, send and attach as 
 ## Preview review
 
 Browser gallery screenshots were inspected in both modes for phone Home, Conversation and Terminal, and tablet Home and Terminal. Text, cards and controls were readable and the wallpaper loaded correctly. The gallery lists home.hero but does not draw it in its current device mockups, so that placement remains unverified; the asset itself was inspected. No separate tablet Conversation view is available and no physical-device import test is claimed.
-
