@@ -31,4 +31,3 @@ The generated daylight panorama was the sole image reference for the nighttime v
 ## preview
 
 An original geometric palette diagram: equal light/dark halves, actual theme surface and accent values, square brick steps and concise typography. Drawn from theme data; not a game screenshot or generated character image.
-
