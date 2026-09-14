@@ -1,0 +1,262 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "deployment-atlas",
+  "name": "Deployment Atlas",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection",
+  "license": "CC BY-SA 4.0 composition; third-party logo licenses apply",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EDF4F6",
+        "surface": "#F8FCFD",
+        "surfaceRaised": "#DFE9ED",
+        "border": "#BACCD3",
+        "borderStrong": "#627E89",
+        "text": "#102F3C",
+        "textMuted": "#35505C",
+        "textSubtle": "#405862",
+        "textDisabled": "#8699A1",
+        "primary": "#405516",
+        "onPrimary": "#F6FFDF",
+        "primarySubtle": "#40551610",
+        "danger": "#842D3B",
+        "dangerSubtle": "#842D3B10",
+        "success": "#2A5841",
+        "warning": "#6B4D0D",
+        "info": "#254F7C"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#EDF4F6",
+        "backgroundOpacity": 0.97,
+        "foreground": "#102F3C",
+        "cursor": "#405516",
+        "link": "#254F7C",
+        "selection": "#40551630",
+        "ansi": [
+          "#102F3C",
+          "#842D3B",
+          "#2A5841",
+          "#6B4D0D",
+          "#254F7C",
+          "#70446D",
+          "#245B63",
+          "#405862",
+          "#4A616C",
+          "#8B3543",
+          "#315F48",
+          "#725317",
+          "#315883",
+          "#7A4A77",
+          "#306168",
+          "#102F3C"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#092B36",
+        "surface": "#103541",
+        "surfaceRaised": "#173E4B",
+        "border": "#436672",
+        "borderStrong": "#91B2BD",
+        "text": "#EFF8FA",
+        "textMuted": "#D5E4E8",
+        "textSubtle": "#C6D9DF",
+        "textDisabled": "#829EA9",
+        "primary": "#D0E994",
+        "onPrimary": "#263510",
+        "primarySubtle": "#D0E99410",
+        "danger": "#FBBFC6",
+        "dangerSubtle": "#FBBFC610",
+        "success": "#AFE1CA",
+        "warning": "#EFD59A",
+        "info": "#B9D8F7"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#092B36",
+        "backgroundOpacity": 0.97,
+        "foreground": "#EFF8FA",
+        "cursor": "#D0E994",
+        "link": "#B9D8F7",
+        "selection": "#D0E99430",
+        "ansi": [
+          "#C6D9DF",
+          "#FBBFC6",
+          "#AFE1CA",
+          "#EFD59A",
+          "#B9D8F7",
+          "#DFBEE4",
+          "#ACE2E7",
+          "#D5E4E8",
+          "#D5E6EA",
+          "#FFD2D8",
+          "#C5EFDB",
+          "#FBE5B4",
+          "#D1E6FB",
+          "#F0D4F1",
+          "#C5F0F2",
+          "#EFF8FA"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "d405e5161e17bb94472e62f0a91a109636bd902bff2a9d52e84d1f5763bf1ac6"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "6ef32974828a22599aed8b756bc7801162e8e76d77e518618cf8fd398e2d132e"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "1742823b03f41922fff77c012b61ba372c070eeab69843f97dfd63cb0c28944f"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "25d7e3128099ca124150e1f4e36fcbff9d121113f088ebfd3145d5df7f41128a"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f9ff60a25ad9dc6366d77249069c01971ebbcafe4eaec9ba9a37dc843bef3971"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.png",
+      "sha256": "f081183799ab49a5e1ef9465a6624369276792bac4b3883d99619d229df58a55"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.png",
+      "sha256": "5c032f7ce881c318eccd6d42a6f24667877d1bcc93df83c6a0751cfc83bb333a"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "181c1b9cf5f1d39d849f374eb80a25c5df9cfc95a937d7b9e65a079db1b64ee1"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.png",
+      "sha256": "fc382bf6e1e53c9e9582cdba6e202ed126c9ee45be6bbccd42c0496fe7bdaaa2"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.png",
+      "sha256": "9425222471a3a3eeda4718f9dcb49bb960c906118705a90cc4b870c01c8ecc6b"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "opacity": 0.28
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "opacity": 0.28
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "A DevOps blueprint with official Git, Jenkins and Bash marks on sparse perimeter nodes. Pale steel, deep petrol and lime guide a clear central workspace. Independent theme; not endorsed by the featured projects.",
+  "tags": [
+    "devops",
+    "blueprint",
+    "git",
+    "jenkins",
+    "bash",
+    "petrol"
+  ],
+  "preview": "preview",
+  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/deployment-atlas/CREDITS.md"
+}
