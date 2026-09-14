@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "tiny-workshop",
+  "name": "Tiny Workshop",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EEEDE8",
+        "surface": "#FAF9F4",
+        "surfaceRaised": "#DFE3E1",
+        "border": "#B9C2C5",
+        "borderStrong": "#6F818B",
+        "text": "#152B38",
+        "textMuted": "#3D515D",
+        "textSubtle": "#405761",
+        "textDisabled": "#8A969A",
+        "primary": "#86401E",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#86401E10",
+        "danger": "#8E3535",
+        "dangerSubtle": "#8E353510",
+        "success": "#2A5F48",
+        "warning": "#725019",
+        "info": "#205677"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#EEEDE8",
+        "backgroundOpacity": 0.96,
+        "foreground": "#152B38",
+        "cursor": "#86401E",
+        "link": "#205677",
+        "selection": "#86401E30",
+        "ansi": [
+          "#152B38",
+          "#8E3535",
+          "#2A5F48",
+          "#725019",
+          "#205677",
+          "#765175",
+          "#28616A",
+          "#405761",
+          "#4D6069",
+          "#923D3A",
+          "#32634C",
+          "#795526",
+          "#2B5C81",
+          "#7B557A",
+          "#30646B",
+          "#152B38"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#172631",
+        "surface": "#1E303E",
+        "surfaceRaised": "#283D4A",
+        "border": "#496271",
+        "borderStrong": "#90A6B1",
+        "text": "#FAF5E9",
+        "textMuted": "#DFE5E2",
+        "textSubtle": "#C7D6D7",
+        "textDisabled": "#8EA3AC",
+        "primary": "#F2BE91",
+        "onPrimary": "#35251D",
+        "primarySubtle": "#F2BE9110",
+        "danger": "#FFBFBA",
+        "dangerSubtle": "#FFBFBA10",
+        "success": "#B9DFC2",
+        "warning": "#ECD59D",
+        "info": "#B6DDF2"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#172631",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FAF5E9",
+        "cursor": "#F2BE91",
+        "link": "#B6DDF2",
+        "selection": "#F2BE9130",
+        "ansi": [
+          "#C7D6D7",
+          "#FFBFBA",
+          "#B9DFC2",
+          "#ECD59D",
+          "#B6DDF2",
+          "#E2C4E0",
+          "#A9DED8",
+          "#DFE5E2",
+          "#D5E1DF",
+          "#FFD3CD",
+          "#CDECD0",
+          "#F8E5B8",
+          "#CDE9FA",
+          "#EFDAEE",
+          "#C2EDE7",
+          "#FAF5E9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "d1952c97ee3e50dcb8e6bbe5b9611cb1deef91d8c85fd5ef9f48692e09af54f7"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "6139f3b53350f3a01969c9a85613223f1b05210da6288ad144c1b8ef958f243e"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "3c5c5306dede6ff32a162801a184e4652c969b3797610739223152da355e8ba7"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "062603c9c0323ce810ade749d6538256749674aaa7bbb692489d9f72b0cab047"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "7b6604ec233904dceb4076eae19c2eca9feead00c1f9710684018557c7e7d423"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "804164c5cf37ae59572da1017b2c2f675457c6e504e55b5203309a9a6778f7ef"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "45035c922c24b8344801f9fd930ca5ca1cf60a229aeebbc75ab3c63007c58dc7"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "5a5beda5e0267dc2c5659f98db281a6e8ab808fd07a080c47e6037a116cdb57f"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "f8c7e284ade6ad5f1fc46b8d972e29454bbaad3ac89330a4e3dc55c63a1089e2"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "A miniature robot repair studio in concrete, tool blue and warm copper. Handcrafted benches, tiny drawers and patient mechanics gather at the edge of a quiet workspace.",
+  "tags": [
+    "robot",
+    "workshop",
+    "miniature",
+    "isometric",
+    "copper",
+    "tool-blue"
+  ],
+  "preview": "preview"
+}
