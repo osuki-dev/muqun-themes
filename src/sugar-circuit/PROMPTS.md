@@ -41,4 +41,3 @@ Single black template UI glyph on truly transparent square1024. Open paperclip a
 ## preview
 
 Make a premium 1024x640 theme gallery cover using these two own reference artworks. Split composition exactly equally: LEFT is milk-white daylight and ice-cyan candy arcade; RIGHT is deep berry-black raspberry neon arcade. Show same adult peach-haired heroine as a friendly bust portrait on each side, shoulders-up framing, candy headphones and varsity jacket clearly visible. Keep character identity and polished anime cel style. No legs or suggestive poses. Bold raspberry/ice-cyan candy capsules provide rhythm. Exact title 'Sugar Circuit' centered at top in rounded clean display letters, dark raspberry over white and white over dark. No other words, no UI, no logos.
-
