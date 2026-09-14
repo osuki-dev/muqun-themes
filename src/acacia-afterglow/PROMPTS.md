@@ -37,3 +37,9 @@ Use case: logo-brand. Original single black alpha silhouette UI ATTACH icon on g
 ## preview
 
 Use the two original wide wallpapers to compose a 1024 × 640 gallery diptych. Golden afternoon on the left, burnt-umber dusk on the right; a precise central split. Preserve the carved ink grain and acacia, grass and distant elephant motifs. Full bleed; no text, phone frames, UI, logos or borders.
+
+## home-hero
+
+Kenyan savanna, a graceful giraffe mother and calf walking on a low curved island of golden grass, small layered sunset sun behind. Textured hand-carved linocut pigment, acacia gold, burnt umber, dusty mauve. No tree or seed pods. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

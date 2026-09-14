@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -151,6 +151,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "4ffbd2b8b8c4596a0868e9405e320267be15a6bae341b6c4ad98b2d45b833682"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "3b6164dcc793844d82d13e3744ccb5b255eed391461c6a917877053c7686e1b0"
     }
   },
   "decoration": {
@@ -195,7 +199,7 @@
         "opacity": 0.32
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -216,7 +220,7 @@
         "opacity": 0.32
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

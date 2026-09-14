@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sulfur-and-silence",
   "name": "Sulfur and Silence",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "adf8cd00f05c7d66573f4b8b5a01894b24502a90408435921fad40b06a15986c"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "5ece7b079570f62156b7157480a787d742b95ac64fb6b76fcba62acc6d8afb5b"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-geode",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-geode",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

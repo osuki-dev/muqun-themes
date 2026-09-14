@@ -5,3 +5,5 @@ Unofficial Tetris-inspired fan art. New artwork was generated with OpenAI image 
 Rights-holder reference: https://tetris.com/news/the-tetris-company-celebrates-a-landmark-year-of-global-growth-in-2025
 
 See PROMPTS.md for generated artwork briefs.
+
+`assets/home-hero.png`: newly generated with OpenAI image generation for this theme; an architectural tetromino arch and stair pavilion. Existing franchise notices remain applicable.

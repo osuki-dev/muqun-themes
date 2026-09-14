@@ -42,3 +42,7 @@ Original black silhouette template UI glyph on genuine transparent background. A
 ## Preview
 
 Original wide light and dark artworks supplied as references. Equal left-light/right-dark cover with the same heroine, rose-gold star headphones and flowing sound ribbons. Exact title "Lucid Encore" in luminous serif; no other text, logos or device mockups. Output 1024 × 640 PNG.
+
+## Standalone Home illustration
+
+Create a NEW standalone square Home illustration for a Muqun theme. Lucid Encore: original purple-bob star DJ character and rose-gold star headphones , newly composed standing at a small floating periwinkle turntable, both hands conducting two curled holographic sound ribbons. Full body modest stage costume, both feet visible, eyes open and focused, no seated pose. Crisp delicate anime art. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration. Output a transparent PNG sticker with an actual alpha channel, not a checkerboard illustration. Do not depict transparency checker pattern.

@@ -42,3 +42,7 @@ A clean minimal black stationery paperclip icon on a transparent background. Squ
 ## Preview
 
 Create a premium theme gallery cover from the supplied original wide light and dark artworks. 1024x640 landscape, exact vertical split halfway: light artwork left half and dark artwork right half. Preserve their woven Andean terrace landscapes and cream versus oxblood palette. No text, devices, labels or border. Each half distinct day versus night.
+
+## Distinct Home hero
+
+Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. An Andean woven-textile illustration of a gentle cream alpaca standing beside a miniature sweeping stepped agricultural terrace and two turquoise mountain silhouettes, with oxblood woven saddle blanket. Quinoa cream, oxblood and mineral turquoise, tactile wool-thread geometry. No bowls, seeds or grain still life. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.

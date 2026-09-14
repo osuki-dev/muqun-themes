@@ -13,3 +13,7 @@ Use case: logo-brand. Nautical ocean-adventure UI SEND icon. Solid opaque black 
 ## icon-attach
 
 Use case: logo-brand. Nautical ocean-adventure UI ATTACH icon. Solid opaque black silhouette on genuinely transparent square. Thick diagonal paperclip formed like a single loop of sailing rope, generous clear open interior and one small simple knot at lowerleft end. Identifiablepaperclip ratherthananchor, readable17px,18% margin. No rope texture, tiny lines, text, logos, shading, background or frame.
+
+## Dedicated Home hero
+
+Original unofficial One Piece fan art, exquisite cheerful anime cel shaded watercolor illustration of Monkey D Luffy standing full body on a small ship bow, straw hat red vest blue shorts sandals, grinning holding hat brim as turquoise wave curls beneath, small cream sail behind. Distinct nautical Home scene without Chopper. Square768 actual transparent background, complete centered contained silhouette15percent margin all sides, no text logo watermark or rectangular backdrop.

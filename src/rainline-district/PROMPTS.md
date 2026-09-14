@@ -37,3 +37,7 @@ Use case: stylized-concept. Original Rainline District cinematic cyber noir them
 ## Preview
 
 Use case: compositing. Rainline District gallery cover1024x640 landscape8:5. Exactly equal vertical halves, left rainy grey dawn from reference1, right dark rainy night from reference2. Preserve cinematic painterly realistic brutalist elevated city, petrol teal haze, wet asphalt, coral signal lamps. Fullbleed no border, no words no logos no fake UI. Let railway lines visually connect across central split.
+
+## Home illustration
+
+Create a new standalone Home illustration, square 1024x1024, true transparent background. An original cyber-noir elevated rail viaduct miniature: a short curved concrete track with a compact streamlined petrol-blue train passing over two pylons, wet asphalt reflecting narrow coral signal lights, small rain-streaked glass signal tower on the right. Cinematic painterly realism, sharply contained floating city fragment. No bus shelter or bench. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.

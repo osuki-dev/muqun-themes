@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tiny-workshop",
   "name": "Tiny Workshop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "f8c7e284ade6ad5f1fc46b8d972e29454bbaad3ac89330a4e3dc55c63a1089e2"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "5084ff8206397ca358cacc9e05a5af235e228bdd4d356a5d7bdd9fe43817704c"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

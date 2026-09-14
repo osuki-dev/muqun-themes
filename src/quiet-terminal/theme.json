@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "quiet-terminal",
   "name": "Quiet Terminal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Graphite, fog blue and soft white. A restrained terminal-inspired palette with precise return, prompt and bracket-paperclip glyphs, and a small folded-metal still life for empty states.",
@@ -170,6 +170,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "877c8aa3da425b00c97926983a80ea52024b165b7c40728d123229c9355da1d2"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "e11732bf4cabcead15bacce90d991f9822656b18ad8e1ace8108bef53357d756"
     }
   },
   "variantDecorations": {
@@ -187,16 +191,8 @@
         }
       },
       "home.hero": {
-        "asset": "empty-light",
-        "fit": "contain",
-        "compact": {
-          "asset": "empty-light",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "empty-light",
-          "fit": "contain"
-        }
+        "asset": "home-hero",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -213,16 +209,8 @@
         }
       },
       "home.hero": {
-        "asset": "empty-dark",
-        "fit": "contain",
-        "compact": {
-          "asset": "empty-dark",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "empty-dark",
-          "fit": "contain"
-        }
+        "asset": "home-hero",
+        "fit": "contain"
       }
     }
   }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "spore-protocol",
   "name": "Spore Protocol",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,12 +147,31 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "271d94abdd69fd28b24dac04df3b6dbe381fdbbfc15c978d5e61e7ff1806813b"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "a365b6b767925ffc6c7033cb1c72b0ebe707a2d0d094670da5276d3f5b3af401"
     }
   },
   "decoration": {
     "emptyState.illustration": {
       "asset": "empty",
       "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "home-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "compact": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      }
     }
   },
   "icons": {
@@ -184,8 +203,19 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
-        "fit": "contain"
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     },
     "dark": {
@@ -202,8 +232,19 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
-        "fit": "contain"
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },

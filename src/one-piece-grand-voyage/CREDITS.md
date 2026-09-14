@@ -17,7 +17,7 @@ were retained, but they are not present in this source directory.
 | `scene-wide-light`, `scene-wide-dark` | generated, landscape 1536x1024 |
 | `panel-light`, `panel-dark` | generated |
 | `action-light`, `action-dark` | generated |
-| `empty-light`, `empty-dark` | generated; reused for the Home hero |
+| `empty-light`, `empty-dark` | generated; empty-state illustrations |
 | `preview` | existing split preview, converted from WebP to PNG |
 | `icon-back`, `icon-send`, `icon-attach` | newly generated nautical glyphs; see PROMPTS.md |
 
@@ -32,3 +32,5 @@ authority over this work that nobody involved has.
 
 Treat it accordingly: it is fine as a personal theme, and it is not a thing to
 redistribute commercially, ship inside a product, or present as official.
+
+`assets/home-hero.png`: newly generated with OpenAI image generation for this theme; Luffy standing on a ship bow above curling turquoise waves. Existing franchise notices remain applicable.

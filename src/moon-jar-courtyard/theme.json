@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "moon-jar-courtyard",
   "name": "Moon Jar Courtyard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Korea. A white porcelain moon jar in a quiet hanok courtyard, rendered as layered hanji paper collage in porcelain, lilac and aubergine. Day and moonlit artwork with roof-eave, folded-crane and knot-paperclip glyphs.",
@@ -156,6 +156,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "58d0d72277683ee236638d234061fe27964287f66a19c20beb47e644d67b711c"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "1013e0d5dccfbc047524e05513ac6ac22ac62db074dfe66729dc96b2dd0a368e"
     }
   },
   "decoration": {
@@ -183,7 +187,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -205,7 +209,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

@@ -41,3 +41,7 @@ Single bold cocoa-black template UI glyph on truly transparent square background
 ## preview
 
 Create original 1024x640 theme gallery cover from these two own artworks: exact equal vertical split LIGHT OAT on LEFT and DARK COCOA on RIGHT. Each half shows this charming cocoa otter with apricot scarf, tactile paper and soft pencil texture. Keep both otter faces visible near lower center of each half. Elegant quiet spaces above, light half warm cream, dark half chocolate. Add exact title 'Pocket Companion' centered across top in tasteful serif, dark cocoa letters on light side and cream on dark side for readability. No subtitle, no device UI, no frame or logos. Preserve character identity and original cozy illustration style.
+
+## Standalone Home illustration
+
+Create a NEW standalone square Home illustration for a Muqun theme. Pocket Companion: original brown otter with cream muzzle and apricot neckerchief, NEW cheerful walking pose carrying a little woven picnic basket with a folded oat blanket, tail curved behind and one paw waving. Tactile paper and soft fur illustration. No heart held at chest, no seated pose. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration. Output a transparent PNG sticker with an actual alpha channel, not a checkerboard illustration. Do not depict transparency checker pattern.

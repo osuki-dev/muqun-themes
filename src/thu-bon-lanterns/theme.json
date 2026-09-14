@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "thu-bon-lanterns",
   "name": "Lanterns on the Thu Bon",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Vietnam / Hoi An. Silk lanterns, ochre shophouses and wooden river boats in jade, rice-paper ivory and cinnabar accents. Original silk-and-lacquer-inspired day and evening illustrations for phone and wide screens.",
@@ -157,6 +157,10 @@
     "preview": {
       "path": "assets/preview.webp",
       "sha256": "367504efea75a0ac2701720e8808a63937e4b1d534a9902fc1e78df94ccda8a2"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "685b3450b92497fd08c13e1fa0f13773786a8d79491e1795223d44bb9232b12f"
     }
   },
   "decoration": {
@@ -192,7 +196,7 @@
         }
       },
       "home.hero": {
-        "asset": "vignette",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -222,7 +226,7 @@
         }
       },
       "home.hero": {
-        "asset": "vignette",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

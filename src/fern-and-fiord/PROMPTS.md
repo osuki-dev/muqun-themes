@@ -37,3 +37,9 @@ A single bold black UI send glyph on truly transparent background, square1024. A
 ## icon-attach
 
 A single bold black UI attachment glyph on truly transparent background, square1024. A recognizable open paperclip loop shaped like a long curved unfurling fern stem, one broad leaf on its outer lower bend. Clear open channel and inner loop, thick clean silhouette legible at17px, generous padding, no texture shadow text.
+
+## home-hero
+
+New Zealand Fiordland, a red-orange kayak with paddle on a glacier-mint fjord inlet beneath two sheer greenstone cliff faces and a silver waterfall; small cool-mist cloud. Original rich carved-pigment illustration. No giant fern or stream-rock stilllife. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

@@ -39,3 +39,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 `assets/illustration-light.png` and `assets/illustration-dark.png` extend the original browser-panel composition with the same three proportionally scaled official/community marks above. Their original source terms and the packaged MIT notice also apply to these two illustrations. Layout artwork remains CC BY 4.0.
+
+The dedicated `assets/home-scene-light.png` and `assets/home-scene-dark.png` use the same official marks and existing source notices above. Their new original responsive device studio composition is separate from the unchanged empty-state illustration. Marks are proportionally scaled with original colors and shapes preserved.

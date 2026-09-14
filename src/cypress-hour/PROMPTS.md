@@ -37,3 +37,9 @@ One original bold black app attachment glyph, paperclip shaped like a slender po
 ## Preview
 
 Generated from the original light and dark wide artwork: an equal left-light / right-dark Tuscan fresco cover with a cream plaster cartouche, the exact serif title "Cypress Hour" and smaller "TUSCANY". No device mockups, logos or UI. Resized to 1024 × 640 PNG.
+
+## home-hero
+
+Tuscany Italy, an arched peach-plaster farmhouse beside a small terracotta olive-oil jug and one low rolling olive hill, handmade fresco gouache with warm peach, olive dusk and espresso shadows. No potted tree or envelope. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

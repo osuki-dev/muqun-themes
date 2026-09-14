@@ -37,3 +37,7 @@ Use case: stylized-concept. One original UI glyph for a Russian winter engraving
 ## icon-attach
 
 Use case: stylized-concept. One original UI glyph for a Russian winter engraving theme. One bold paperclip shaped from an elegant wrought-iron scroll, clear returning inner loop and a single large decorative curl at top, no fine filigree. Flat BLACK silhouette with broad transparent cutouts, genuinely transparent background. Square centered with 15% margin. Readable at 17 pixels, no thin lines, text, gradient, shadow or background.
+
+## Distinct Home hero
+
+Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. A silver-engraving miniature of an elegant small arched Saint Petersburg river bridge carrying frosted balustrades over two sculptural cobalt-blue ice floes, with a tiny pale blue skiff moored beneath. Fine etched silver lines, icy cyan highlights, dark cobalt shadows. Architectural bridge composition, no streetlamp or scarf. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.

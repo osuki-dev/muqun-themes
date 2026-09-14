@@ -35,3 +35,7 @@ Original Portal inspired template UI glyph. One black attachment paperclip made 
 ## preview
 
 Create 1024x640 landscape fullbleed theme preview. Precise vertical split center: LEFT light chalk white Portal testchamber from reference1; RIGHT dark slate afterhours chamber from reference2. Both halves have blue/orange portal rim, clean modular walls and a Companion Cube toward bottom. Faithful visual language of input original fanart. No text, no logos, no UI. Show day/night theme pairing clearly with clinical concrete precision and broad calm areas.
+
+## Dedicated Home hero
+
+Original unofficial Portal fan art, pristine industrial 3D miniature: two friendly testing robots ATLAS and P-body stand together on one small broken chalk-white test-platform tile, complete bodies, blue and orange optical eyes, playful subtle greeting. Distinct Home illustration, no companion cube. Square768 transparent background, full centered silhouette with15percent clear margin every side. Elegant white ceramic, graphite joints, coldblue and restrained orange. No letters no logo no backdrop.

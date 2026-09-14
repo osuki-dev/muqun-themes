@@ -37,3 +37,7 @@ Use case: stylized-concept. Original Tiny Workshop theme artwork. Square transpa
 ## Preview
 
 Use case: compositing. Create Tiny Workshop gallery cover landscape8:5. Use first reference for exact left daylight half, second reference for exact right night half, equal split at center. Recompose miniature original robot workshops so a lovingly crafted copper/blue robot repair bench is visible in each half. Preserve handmade miniature diorama detail, concrete/toolblue/copper palette. Full bleed no text no fake UI no border. Output1024x640.
+
+## Distinct Home hero
+
+Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. Handcrafted miniature diorama of a compact repair workbench with open clockwork mechanism, copper gears, tiny vise, hanging blue wrench board and a warm copper task light. Concrete gray, tool blue and warm copper. Tilt-shift miniature sculpted clay and metal realism. No robot character or closed toolbox. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.

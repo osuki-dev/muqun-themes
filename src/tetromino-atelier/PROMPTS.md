@@ -43,3 +43,7 @@ Use case: stylized-concept. Tetromino Atelier, original Tetris-inspired unoffici
 ## Preview
 
 Use case: compositing. Tetromino Atelier gallery cover1024x640. Exactly equal vertical split warmwhite LEFT from firstreference, deepgraphite RIGHT from secondreference. Arrange tactile matte cobalt, tangerine and lemon four-square polyomino sculptures in each half with sophisticated orthographic poster balance. Preserve reference physical materials, minimalist negative space. No words no logos no scores no gamegrid no characters.
+
+## Dedicated Home hero
+
+Original Tetris-inspired sculptural art, a sophisticated miniature stepped archway pavilion constructed from several matte tetromino polycube blocks, cobaltblue pillars, tangerine arch, lemon stair blocks, one floating purple tetromino above, gallery-quality orthographic3D. Create coherent architectural Home scene, not loose threepiece pile. Square768 actual transparent background complete centered object15percent clear margin all sides, no text no grid no HUD no backdrop.

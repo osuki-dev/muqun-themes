@@ -35,3 +35,9 @@ A single solid black template UI icon on truly transparent background. Swiss alp
 ## Preview
 
 Create one polished theme cover image, 1024x640 exact 8:5 landscape composition. Use references as original art: first DAY, second NIGHT. A precise vertical split at center: left half snow ivory daytime cut-paper Swiss alpine mountains and violet gentian flowers; right half deep slate nighttime paper mountains under moon, violet cable car high right. Fill both halves, preserve fine paper relief textures. No text, no UI, no border, no logos. Visually clean pairing of same world in light and dark, full bleed. Keep each half independently coherent.
+
+## home-hero
+
+Swiss Alps, a violet-and-ivory mountain railway locomotive crossing a small curved stone viaduct above soft layered clouds, miniature alpine chalet beside one end. Fine cut-paper relief, alpine slate, snow ivory and gentian violet. No cable car, no flower bouquet, no pointed mountain centerpiece. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

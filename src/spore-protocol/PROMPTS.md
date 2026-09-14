@@ -25,3 +25,7 @@ Original square isolated sculptural ceramic biotech seed pod cutout, an ivory ho
 ## preview
 
 Theme gallery cover1024x640 ratio8:5, exact vertical center split with LIGHT porcelain/lavender world on LEFT half and DARK ultraviolet world on RIGHT half. Based on the two original reference artworks: sculptural hollow ceramic biotech arches, luminous chartreuse mycelium, tiny purple spores, refined alien macro-world. Showcase each mode equally. No text no logo no interface mockup. Precise clean split at center, elegant material diptych.
+
+## Dedicated Home hero
+
+Original biotech macro-world Home illustration, a tiny porcelain research pod sheltered under three broad sculptural mushroom caps, delicate chartreuse luminous mycelium bridges connecting pod to lavender stems, small clear spherical spore satellites, refined surreal3D botanical porcelain. New complete miniature settlement scene not an oval cocoon. Square768 actual transparent background complete centered silhouette15percent clear margin every edge, no words letters logos panel or background.

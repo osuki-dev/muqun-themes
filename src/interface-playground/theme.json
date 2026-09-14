@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC-BY-4.0; third-party marks: see CREDITS.md",
   "preview": "preview",
@@ -159,6 +159,14 @@
     "illustration-dark": {
       "path": "assets/illustration-dark.png",
       "sha256": "20ae3c8640c1860c51c5556a106abdaec69e04b4021a6ec479950888f2764411"
+    },
+    "home-scene-light": {
+      "path": "assets/home-scene-light.png",
+      "sha256": "fef1ae760190cf55c7fb0987a57e89f0cef148c84a33fbd8ed034c5711504411"
+    },
+    "home-scene-dark": {
+      "path": "assets/home-scene-dark.png",
+      "sha256": "7944cd5207c9ce0eaadf150238add1569d22a4b9fd05557aabebf34d07134224"
     }
   },
   "decoration": {},
@@ -214,7 +222,7 @@
         "opacity": 1
       },
       "home.hero": {
-        "asset": "illustration-light",
+        "asset": "home-scene-light",
         "fit": "contain",
         "opacity": 1
       }
@@ -256,7 +264,7 @@
         "opacity": 1
       },
       "home.hero": {
-        "asset": "illustration-dark",
+        "asset": "home-scene-dark",
         "fit": "contain",
         "opacity": 1
       }

@@ -7,3 +7,5 @@ All illustrations and current icons were generated for this theme with the built
 Bamboo back arrow, river-boat sail send, and bamboo-strip attachment clip. All three icons use transparent PNG alpha and template rendering; colors follow the theme.
 
 Version 1.1.0, authored for CLI 1.7.0 / skill v1.3.0.
+
+`assets/home-hero.png`: new original AI-generated Home illustration by Muqun Theme Collection, created with the built-in image generation tool. See PROMPTS.md.

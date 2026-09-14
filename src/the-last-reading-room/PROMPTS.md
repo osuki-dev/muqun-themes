@@ -37,3 +37,7 @@ Use case: stylized-concept. One original app UI glyph for British Arts and Craft
 ## icon-attach
 
 Use case: stylized-concept. One original app UI glyph for British Arts and Crafts reading-room theme. A bold antique bookbinding clasp holding two paper pages, with large plus cutout on its rectangular brass-clasp silhouette. Simple unmistakable add-document meaning. Flat BLACK silhouette, broad cutouts, genuinely transparent background, square centered 15% margin. Clear at 17 pixels. No fine texture, words, background, shadow, gradient or border.
+
+## Distinct Home hero
+
+Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. Arts-and-Crafts storybook illustration of a cozy tobacco leather reading armchair beside a tall oak bookcase with patterned book spines and a small trailing ivy plant. Parchment cream, warm oak, antique brass accents. Intricate botanical woodcut trim, warm editorial illustration. No desk lamp and no stacked-book still life. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.

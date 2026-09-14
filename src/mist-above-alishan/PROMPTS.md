@@ -37,3 +37,7 @@ Use case: logo-brand. Single tiny send UI glyph for Alishan tea theme: a bold bl
 ## icon-attach
 
 Use case: logo-brand. Single tiny attachment UI glyph for forest railway theme: bold black ticket outline tilted slightly, two broad punched notches at middle sides, a large bold plus sign in its center. Very simple thick geometry and transparent internal cutout, compact recognizable attachment/add ticket, readable at 17 pixels. Centered generous margin genuinely transparent background, no text, no gray, no white background, no shadow.
+
+## home-hero
+
+Create one original standalone app Home hero illustration. A tranquil mountain tea pavilion with a curved wooden bench, a tiny ceramic teapot on its table, stepped tea terraces and two tall ancient cypress trunks framing drifting apricot mist. No train or railway. Exquisite layered paper-cut collage, tactile cut edges, tea olive, mist white and muted apricot. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.

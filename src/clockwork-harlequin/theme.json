@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "clockwork-harlequin",
   "name": "Clockwork Harlequin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "An original chestnut-haired stage magician and his clockwork songbird welcome you to a miniature moonlit theatre. Cream, peacock blue and brass frame crisp anime illustrations, diamond ornaments and playful winding-key glyphs.",
@@ -190,6 +190,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d554516a8568ef99bb6754464660149f2bc6aad9da9a0eb2f6ac4907f3ce6593"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "720d87fc9708bb8db04883d1a1ed8647f361dc582bb36b67105472e220e884a5"
     }
   },
   "decoration": {
@@ -225,7 +229,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-bird",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -255,7 +259,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-bird",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

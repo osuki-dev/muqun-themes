@@ -19,3 +19,5 @@ All sources checked on 2026-09-14. The logos and mascot appear in `phone-light.p
 The theme refers to these technologies as developer ecosystem symbols. It does not assert that Muqun is implemented in each language. Redistribution must preserve these credits and the applicable third-party terms.
 
 `assets/credits.png` repeats attribution, source URLs and licensing information in a readable image declared in the manifest, so offline packages carry these notices even though the packer omits Markdown. It is intentionally not drawn over the interface.
+
+The dedicated `assets/home-scene-light.png` and `assets/home-scene-dark.png` use the same official marks and existing source notices above. Their new original tiered service tower composition is separate from the unchanged empty-state illustration. Marks are proportionally scaled with original colors and shapes preserved.

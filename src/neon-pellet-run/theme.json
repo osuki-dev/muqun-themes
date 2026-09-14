@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "neon-pellet-run",
   "name": "Neon Pellet Run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "Unofficial fan art; underlying game rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "cf91fe78cbf5b609c0bdf2246d01ecbb5626dbb8813be49b9613d8eb976c2b5f"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "7dbd74947d0a7f0e3f43f978c8dcc92017a28e642eda22a9664ef8b172eb42ee"
     }
   },
   "decoration": {
@@ -155,8 +159,19 @@
       "fit": "contain"
     },
     "home.hero": {
-      "asset": "hero",
-      "fit": "contain"
+      "asset": "home-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "compact": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      }
     }
   },
   "icons": {
@@ -204,6 +219,21 @@
           "opacity": 1
         },
         "opacity": 1
+      },
+      "home.hero": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     },
     "dark": {
@@ -236,6 +266,21 @@
           "opacity": 1
         },
         "opacity": 1
+      },
+      "home.hero": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },

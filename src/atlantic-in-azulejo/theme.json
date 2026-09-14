@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlantic-in-azulejo",
   "name": "Atlantic in Azulejo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "50ee653c72d517374d5fd7ba2c2c7c80ea7edb08d31730777cb7f1953b4a4acc"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "3f80f0352bb6cb928d9ac122d585f2c69c2b526b958231b5379a1343a3b45dab"
     }
   },
   "decoration": {
@@ -188,7 +192,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -210,7 +214,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

@@ -37,3 +37,9 @@ Use case: logo-brand. Single black template UI icon on genuinely transparent bac
 ## attach
 
 Use case: logo-brand. Single black template UI icon on genuinely transparent background. Nautical rope-loop paperclip, two parallel bold curved strokes form an unmistakable paperclip with one tiny broad rope wrap at lower bend. Clean geometric cut-paper silhouette; open transparent center; readable at 17 pixels. Centered square with 18 percent margin. No texture, no color, no text, no shadow, no background.
+
+## home-hero
+
+Greek Cyclades, a small traditional white windmill with complete radial wooden sails and a cobalt fishing skiff resting beside a tiny sea-glass inlet, coral buoy accents. Exquisite torn-paper collage sculptural relief. No stairs, doorway or flowers. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

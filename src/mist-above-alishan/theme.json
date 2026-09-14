@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mist-above-alishan",
   "name": "Mist above Alishan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Alishan landscape. Layered tea terraces, cypress forests and a winding mountain railway in tea olive, mist white and apricot. Original paper-cut day and night scenes with tea-leaf and railway-ticket glyphs.",
@@ -157,6 +157,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "60a91ffeed78fcdfcd65db6c71cc5298d7a7e4a52bb06bc89d8949fb265e0973"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "aaa883baaf1ac3cb5a124a6c0f2a5ab4a355ee226bf79c40eb4808c7262c901b"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -206,7 +210,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }
