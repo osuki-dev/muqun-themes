@@ -1,0 +1,250 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "interface-playground",
+  "name": "Interface Playground",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC-BY-4.0; third-party marks: see CREDITS.md",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FBF9F4",
+        "surface": "#FFFFFF",
+        "surfaceRaised": "#F0F1F7",
+        "border": "#D8DDE9",
+        "borderStrong": "#969FB5",
+        "text": "#171D31",
+        "textMuted": "#45516B",
+        "textSubtle": "#525E76",
+        "textDisabled": "#788197",
+        "primary": "#3044C3",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#3044C314",
+        "danger": "#AC302B",
+        "dangerSubtle": "#AC302B14",
+        "success": "#176746",
+        "warning": "#805007",
+        "info": "#3044C3"
+      },
+      "terminal": {
+        "background": "#FBF9F4",
+        "foreground": "#171D31",
+        "cursor": "#3044C3",
+        "link": "#3044C3",
+        "selection": "#FF5A4A24",
+        "ansi": [
+          "#171D31",
+          "#AC302B",
+          "#176746",
+          "#805007",
+          "#3044C3",
+          "#70429F",
+          "#17647A",
+          "#45516B",
+          "#525E76",
+          "#A23425",
+          "#25643F",
+          "#875005",
+          "#394ACA",
+          "#7944A0",
+          "#256779",
+          "#171D31"
+        ],
+        "backgroundOpacity": 0.97
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#171B26",
+        "surface": "#1E2432",
+        "surfaceRaised": "#283044",
+        "border": "#3A455D",
+        "borderStrong": "#65728F",
+        "text": "#F8F8FA",
+        "textMuted": "#C2CADC",
+        "textSubtle": "#B1BBD1",
+        "textDisabled": "#8390AA",
+        "primary": "#A7B6FF",
+        "onPrimary": "#182044",
+        "primarySubtle": "#A7B6FF20",
+        "danger": "#FFABA0",
+        "dangerSubtle": "#FFABA020",
+        "success": "#82DDB3",
+        "warning": "#F2CC89",
+        "info": "#A7B6FF"
+      },
+      "terminal": {
+        "background": "#171B26",
+        "foreground": "#F8F8FA",
+        "cursor": "#A7B6FF",
+        "link": "#A7B6FF",
+        "selection": "#FF5A4A3D",
+        "ansi": [
+          "#B1BBD1",
+          "#FFABA0",
+          "#82DDB3",
+          "#F2CC89",
+          "#A7B6FF",
+          "#D7AEF5",
+          "#8DD6E7",
+          "#C2CADC",
+          "#B1BBD1",
+          "#FFC5B8",
+          "#A4EDD0",
+          "#FFE1A9",
+          "#C3CDFF",
+          "#E5C6FF",
+          "#B9ECF4",
+          "#F8F8FA"
+        ],
+        "backgroundOpacity": 0.97
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      }
+    }
+  },
+  "materials": {
+    "default": "auto",
+    "navigation": "auto",
+    "composer": "auto",
+    "actions": "auto"
+  },
+  "assets": {
+    "dark-phone": {
+      "path": "assets/dark-phone.png",
+      "sha256": "225c6a5f9b17b4821191663d1b3c3605dd50127a2cdcf31f9592651b81e5686f"
+    },
+    "dark-tablet": {
+      "path": "assets/dark-tablet.png",
+      "sha256": "1ae3d223e1ec003048d2e485c06d2172eae421d4167e3ec4a6ad1069f3e5627e"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8e366fc7285192cbc473c27ab73b0a41e7bb29b5c392ff6266a83fd58a8e3085"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "a5635ba846ac926a8c8390af5bffee925bc0a6fe0133f3d2bf83a12f52b9f19a"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "50c0548d52d6f1f1440fad6d7247749cf36f2e560d7924f13600e92ca1879e75"
+    },
+    "light-phone": {
+      "path": "assets/light-phone.png",
+      "sha256": "af604669b17326d3dc997dd38ed7232c4088d0ddd5fdda2151c18325c11ff11c"
+    },
+    "light-tablet": {
+      "path": "assets/light-tablet.png",
+      "sha256": "02397ae8a5c3812fa97742a940e224c9e8bbcb6fefafa573300fa401c05f17e5"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "5d58cd8f50ffa72e8dd20fa5a0ef75409e2432c1fbd4bcc0129a02fa3f9f087f"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "light-phone",
+        "fit": "cover",
+        "opacity": 0.22,
+        "compact": {
+          "asset": "light-phone",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "light-tablet",
+          "fit": "cover",
+          "opacity": 0.22
+        }
+      },
+      "home.background": {
+        "asset": "light-phone",
+        "fit": "cover",
+        "opacity": 1,
+        "compact": {
+          "asset": "light-phone",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "light-tablet",
+          "fit": "cover",
+          "opacity": 1
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "dark-phone",
+        "fit": "cover",
+        "opacity": 0.22,
+        "compact": {
+          "asset": "dark-phone",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "dark-tablet",
+          "fit": "cover",
+          "opacity": 0.22
+        }
+      },
+      "home.background": {
+        "asset": "dark-phone",
+        "fit": "cover",
+        "opacity": 1,
+        "compact": {
+          "asset": "dark-phone",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "dark-tablet",
+          "fit": "cover",
+          "opacity": 1
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "A luminous frontend canvas with official HTML5, CSS and JSConf JavaScript marks at the perimeter, ultramarine actions and coral details.",
+  "tags": [
+    "frontend",
+    "editorial",
+    "technology",
+    "light",
+    "dark"
+  ],
+  "source": "https://github.com/osuki-dev/muqun-themes/tree/main/src/interface-playground"
+}
