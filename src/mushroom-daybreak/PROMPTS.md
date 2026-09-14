@@ -31,3 +31,7 @@ The generated daylight panorama was the sole image reference for the nighttime v
 ## preview
 
 An original geometric palette diagram: equal light/dark halves, actual theme surface and accent values, square brick steps and concise typography. Drawn from theme data; not a game screenshot or generated character image.
+
+## Garden illustration
+
+Create a single square transparent-background pixel-art illustration for Mushroom Daybreak, a warm classic platform-game inspired theme. A tiny floating grassy brick garden with two charming red-and-cream mushrooms, a small golden star hovering above, and a little blue cloud accent. Restrained 16-bit pixel art with crisp square pixels, rust red, warm cream, grass green, muted blue and honey gold. Centered complete silhouette with generous transparent margins; no text, no UI, no frame, no characters. Designed as a contained empty-state and Home illustration, readable on both cream and navy backgrounds. Save a real transparent PNG.

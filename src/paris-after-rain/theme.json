@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "France / Paris. Art Nouveau ironwork, limestone facades and a rain-washed Seine in champagne, burgundy and antique gold. Original illustrated day and evening scenes, composed separately for phone and wide screens.",
@@ -190,6 +190,10 @@
             "y": 0.55
           }
         }
+      },
+      "home.hero": {
+        "asset": "vignette",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -216,6 +220,10 @@
             "y": 0.55
           }
         }
+      },
+      "home.hero": {
+        "asset": "vignette",
+        "fit": "contain"
       }
     }
   },
@@ -224,6 +232,9 @@
       "mode": "default"
     },
     "logo": {
+      "mode": "default"
+    },
+    "hero": {
       "mode": "default"
     }
   },
