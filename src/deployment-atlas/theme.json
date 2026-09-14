@@ -151,6 +151,10 @@
     "wide-light": {
       "path": "assets/wide-light.png",
       "sha256": "9425222471a3a3eeda4718f9dcb49bb960c906118705a90cc4b870c01c8ecc6b"
+    },
+    "credits": {
+      "path": "assets/credits.png",
+      "sha256": "7ad01aade6d178df840ed9e180289d88a23e7004a2d1a2ed5781ca75edc54030"
     }
   },
   "decoration": {

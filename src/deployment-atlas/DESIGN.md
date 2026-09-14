@@ -13,3 +13,5 @@ The official SVG marks were rasterized and composed deterministically. No image 
 CLI 1.9.0 validates the source and packed round trip without warnings. The full source check with required previews passes. Shared contrast floors are 88% interface and 89% terminal; authored planes are 96% and 97%. Compositions and 17px/34px tinted control glyphs were visually inspected.
 
 The local CLI preview server starts successfully. No browser surface was available for the phone/tablet light/dark Home, Conversation and Terminal matrix. The current gallery's rendering of home.hero remains unverified.
+
+An offline credits card is deliberately declared without a decoration slot. Its 1600 × 1200 size preserves readable source and license URLs. The resulting unused-asset and size advisories are intentional; the optimized packed card was extracted and visually checked.

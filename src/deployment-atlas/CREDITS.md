@@ -19,3 +19,5 @@ These composed artwork files are distributed under [CC BY-SA 4.0](https://creati
 `assets/empty.png`, `assets/icon-back.png`, `assets/icon-send.png` and `assets/icon-attach.png` are original geometric artwork by Muqun Theme Collection, also under CC BY-SA 4.0. No generated replacement logos or third-party icon library were used.
 
 The theme manifest's `source` points to this attribution document so credits remain discoverable from a packed theme. Trademarks remain with their respective owners; the artwork license does not grant trademark rights.
+
+`assets/credits.png` is a readable attribution card declared in the manifest so it is included in offline packages (the pack optimizer may encode it as WebP). It records the attribution and license information above without changing the interface.
