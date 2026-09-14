@@ -25,4 +25,3 @@ Original square isolated sculptural ceramic biotech seed pod cutout, an ivory ho
 ## preview
 
 Theme gallery cover1024x640 ratio8:5, exact vertical center split with LIGHT porcelain/lavender world on LEFT half and DARK ultraviolet world on RIGHT half. Based on the two original reference artworks: sculptural hollow ceramic biotech arches, luminous chartreuse mycelium, tiny purple spores, refined alien macro-world. Showcase each mode equally. No text no logo no interface mockup. Precise clean split at center, elegant material diptych.
-
