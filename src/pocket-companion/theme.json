@@ -1,0 +1,228 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "pocket-companion",
+  "name": "Pocket Companion",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F7F0E5",
+        "surface": "#FFFAF1",
+        "surfaceRaised": "#EDE2D3",
+        "border": "#CABBAB",
+        "borderStrong": "#9C826C",
+        "text": "#33231D",
+        "textMuted": "#60483B",
+        "textSubtle": "#684F40",
+        "textDisabled": "#A28C78",
+        "primary": "#87462B",
+        "onPrimary": "#FFF9EE",
+        "primarySubtle": "#87462B10",
+        "danger": "#8C3440",
+        "dangerSubtle": "#8C344010",
+        "success": "#356045",
+        "warning": "#73501F",
+        "info": "#3A596E"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F7F0E5",
+        "backgroundOpacity": 0.96,
+        "foreground": "#33231D",
+        "cursor": "#87462B",
+        "link": "#3A596E",
+        "selection": "#87462B30",
+        "ansi": [
+          "#33231D",
+          "#8C3440",
+          "#356045",
+          "#73501F",
+          "#3A596E",
+          "#744B70",
+          "#326266",
+          "#684F40",
+          "#705444",
+          "#963B42",
+          "#396447",
+          "#7B5427",
+          "#465C7D",
+          "#7D5176",
+          "#38656E",
+          "#33231D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#2B211D",
+        "surface": "#362922",
+        "surfaceRaised": "#433229",
+        "border": "#745B48",
+        "borderStrong": "#BE9D7C",
+        "text": "#FFF4E2",
+        "textMuted": "#E8D5BF",
+        "textSubtle": "#DDC5A9",
+        "textDisabled": "#A78D76",
+        "primary": "#F2C295",
+        "onPrimary": "#38241B",
+        "primarySubtle": "#F2C29512",
+        "danger": "#FFC0BD",
+        "dangerSubtle": "#FFC0BD12",
+        "success": "#C5E0AE",
+        "warning": "#F1D395",
+        "info": "#BEDCEA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#2B211D",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF4E2",
+        "cursor": "#F2C295",
+        "link": "#BEDCEA",
+        "selection": "#F2C29530",
+        "ansi": [
+          "#DDC5A9",
+          "#FFC0BD",
+          "#C5E0AE",
+          "#F1D395",
+          "#BED4EF",
+          "#E4C4E6",
+          "#BEDCEA",
+          "#E8D5BF",
+          "#E4CFB7",
+          "#FFD0CA",
+          "#D7EAC5",
+          "#F7E2B0",
+          "#D3E1F7",
+          "#EFDAED",
+          "#D3EAF0",
+          "#FFF4E2"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "d7a2aa7a4dca654f1747145c67ecb0e85e0517dd916f0ab4b24ef2f80259a342"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "8404091d165165ff535337d6098ee42b31d54f9b3b43537d33a39cfe95a583c9"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "3e0cf19b5323048304d5938ddb61f6e6cfb4eb1fa2a585b74c1bda99b571cd0a"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "155caa0b86e9a5eabdbc15b9791e110f4784204953ed7d27d5c5d69ea587b59d"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "88ff2597f225d174430fb7b5eda41c7ced5f0fd965c95c30ad56114c1c0ab78e"
+    },
+    "peek": {
+      "path": "assets/peek.png",
+      "sha256": "bcbc17d24bcf52f6651989fe8f84cc2cb2ea1565d167a2c0295f291bbf1242cd"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "7a818d4979e149df81365dbf723d0d55dfa155803a37fc504878ceeeb40e6c7e"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "c0cc63f6550a876a00f4bd8eaefd9cb523cb980db30ad4a539af3158983663f2"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "86d153f1b0abd92b86abd328430cf2d1813217b19f016ada42082b72e28a4616"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "f538f8f7b5b708bc79c8764be971c08291599cc703e9bb87c71853712de825df"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.decoration": {
+      "asset": "peek",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "An original little otter companion in oat, cocoa and apricot. Tactile paper illustrations, a contained pocket greeting and soft rounded glyphs make a quiet place for everyday conversations.",
+  "tags": [
+    "otter",
+    "cozy",
+    "oat",
+    "apricot",
+    "illustrated",
+    "companion"
+  ],
+  "preview": "preview"
+}
