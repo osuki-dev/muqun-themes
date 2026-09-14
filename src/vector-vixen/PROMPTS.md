@@ -45,4 +45,3 @@ Use case: stylized-concept. Reference1 our original Vector Vixen adult silver-bo
 ## preview
 
 Use case: ads-marketing. Original Vector Vixen gallery cover, exact1024x640 landscape. Reference1 is our own silver-haired adult fox-ear titanium-helmet racing courier, preserve character identity, face, lime eyes, angular black jacket. Produce clean diptych with light variant LEFT HALF and dark variant RIGHT HALF, exact vertical midpoint split. A beautifully rendered waist-up portrait of same heroine in each half, slightly different confident friendly poses, titanium helmet fully inside, acid-lime racing geometry and compact angular messenger case. Left pale titanium white, right deep gunmetal charcoal with lime rim light. Premium original anime cel shading, sharp diagonal energetic design. No text, letters, numbers, logos, HUD or fake controls. Do not crop heads or fox ears.
-

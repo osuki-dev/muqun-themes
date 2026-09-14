@@ -11,4 +11,3 @@ The back glyph is a sharp fin arrow, send is a split courier dart and attach is 
 ## Review
 
 All artwork and alpha edges were inspected. Browser gallery screenshots were reviewed in both modes for phone Home, Conversation and Terminal, and tablet Home and Terminal. Home banners remained clearly visible, content and controls were legible, and no missing assets were observed. The gallery does not expose a separate tablet Conversation view; no physical device import test is claimed.
-
