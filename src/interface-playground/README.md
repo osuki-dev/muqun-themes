@@ -6,11 +6,11 @@ Muqun's default name and logo are preserved. Home artwork is full strength; shar
 
 ## Validation
 
-- CLI validate accepted 8 assets with computed SHA-256 hashes.
+- CLI validate accepted 9 assets with computed SHA-256 hashes.
 - Contrast: light interface 94%, terminal 87%; dark interface 95%, terminal 80%. No ANSI below 4.5:1. Shared slider floors are 95% and 87%.
-- Pack round trip passed; approximately 100 KiB optimized package.
+- Pack round trip passed; approximately 284 KiB optimized package.
 - Repository source check with required preview: `check ok 39 theme(s)`.
 - Actual gallery browser review covered phone Home, Conversation and Terminal plus tablet Home and Terminal in both modes. Phone placement was refined after review to expose CSS below server cards. Gallery review is not a native-device installation test.
 - Template glyphs inspected at 17 and 34 pixels in both theme tints. The preview is 1024 × 640, light left and dark right.
 
-See [CREDITS.md](CREDITS.md) for original source URLs and the separate mark licenses. The package source link leads to this directory and its notices; the CLI includes manifest-declared images only, not Markdown files.
+See [CREDITS.md](CREDITS.md) for original source URLs and the separate mark licenses. The package source link leads to CREDITS.md. A readable credits.png asset also carries the full JavaScript MIT notice and HTML/CSS attribution inside the package. Its unused-asset and over-1024px advisory warnings are intentional (1280 × 1382 preserves readable legal text): it is a distribution notice, not UI decoration.

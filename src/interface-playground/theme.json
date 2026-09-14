@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "5d58cd8f50ffa72e8dd20fa5a0ef75409e2432c1fbd4bcc0129a02fa3f9f087f"
+    },
+    "credits": {
+      "path": "assets/credits.png",
+      "sha256": "990d0dbae09a1cd3dcd1f40043acbb1db48471ad26004aab797b69c5a05adcba"
     }
   },
   "decoration": {},
@@ -246,5 +250,5 @@
     "light",
     "dark"
   ],
-  "source": "https://github.com/osuki-dev/muqun-themes/tree/main/src/interface-playground"
+  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/interface-playground/CREDITS.md"
 }
