@@ -1,0 +1,252 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "amber-relay",
+  "name": "Amber Relay",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "Analog signal craft in amber, bakelite brown and warm bone. Screenprinted oscilloscopes, copper coils and glass valves pair with cable, transmission and connector glyphs across daylight and late-night workspaces.",
+  "tags": [
+    "retrocyber",
+    "amber",
+    "analog",
+    "screenprint",
+    "bakelite",
+    "terminal"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F3EBDD",
+        "surface": "#FCF5E8",
+        "surfaceRaised": "#E8DCC9",
+        "border": "#C7B399",
+        "borderStrong": "#8E7357",
+        "text": "#302319",
+        "textMuted": "#58432E",
+        "textSubtle": "#5E4934",
+        "textDisabled": "#A08C77",
+        "primary": "#813A12",
+        "onPrimary": "#FFF8EB",
+        "primarySubtle": "#813A1210",
+        "danger": "#862F29",
+        "dangerSubtle": "#862F2910",
+        "success": "#405A36",
+        "warning": "#70500F",
+        "info": "#3A5667"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F3EBDD",
+        "backgroundOpacity": 0.97,
+        "foreground": "#302319",
+        "cursor": "#813A12",
+        "link": "#3A5667",
+        "selection": "#813A1230",
+        "ansi": [
+          "#302319",
+          "#862F29",
+          "#405A36",
+          "#70500F",
+          "#3A5667",
+          "#72506A",
+          "#365B59",
+          "#5E4934",
+          "#65513C",
+          "#963B30",
+          "#48633B",
+          "#795517",
+          "#425F73",
+          "#79546D",
+          "#3F6461",
+          "#302319"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#241B16",
+        "surface": "#2E231B",
+        "surfaceRaised": "#3A2C22",
+        "border": "#63503C",
+        "borderStrong": "#A28A6B",
+        "text": "#FFF0D3",
+        "textMuted": "#E6D1B2",
+        "textSubtle": "#DCC4A2",
+        "textDisabled": "#A28D72",
+        "primary": "#FFC36B",
+        "onPrimary": "#34200C",
+        "primarySubtle": "#FFC36B12",
+        "danger": "#F2B3A3",
+        "dangerSubtle": "#F2B3A312",
+        "success": "#C4D3A4",
+        "warning": "#EFD092",
+        "info": "#B9CED8"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#241B16",
+        "backgroundOpacity": 0.97,
+        "foreground": "#FFF0D3",
+        "cursor": "#FFC36B",
+        "link": "#B9CED8",
+        "selection": "#FFC36B30",
+        "ansi": [
+          "#D6C5AB",
+          "#F2B3A3",
+          "#C4D3A4",
+          "#EFD092",
+          "#B9CED8",
+          "#DABAD0",
+          "#B7D2C8",
+          "#E6D1B2",
+          "#DECDAF",
+          "#FFD0BC",
+          "#D7E4BD",
+          "#FFE0A8",
+          "#D0E0E8",
+          "#ECD1E0",
+          "#CDE5DB",
+          "#FFF0D3"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "34a0fab35416ac3bed75cb7ec91ed36aaffb6a3b990636accd2dc79c11be0edc"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "1cc10bceca7faa453594afb854dbf53b95fd3b7da6377cfdef1ccb51074931ca"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "aec2a664a108a74b31dc369a46ac95da83ed3e06a216ee262f06c09a0d65169f"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "38e4fca6e014a97ccbc4543d2abb234b746c014a9bf303737e844f5624369240"
+    },
+    "banner-light": {
+      "path": "assets/banner-light.webp",
+      "sha256": "b751d11477553536fbb185d2466d2c5bd5765dea8e41b639bfbdd4f0493be813"
+    },
+    "banner-dark": {
+      "path": "assets/banner-dark.webp",
+      "sha256": "cfd0669d92dd8b87db26870a7ae19014e85619e0423c06c528bfb7a740486bd7"
+    },
+    "empty-valve": {
+      "path": "assets/empty-valve.png",
+      "sha256": "2256f16fed07632a36154ae4e7e4fa91f938d350e47da787acc188f38973f9cb"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "b8f159e634b6cf653bf159882e2e0f1f471a3f5e82499d45da1087dfc598f765"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "02b300c8b6a1a319449dbda81e779159bb2405a662fdde4f4f28fdff35fd4059"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "93f360f7dbc19fc68f33dc939d14022d7fcb7ff4b609cf4a3dc8205fa434e912"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "d7a0fbdf4d1b35b90600b057eaf2c11714048f333f059ab5da7777f2e3be8100"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty-valve",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      },
+      "home.decoration": {
+        "asset": "banner-light",
+        "fit": "contain",
+        "compact": {
+          "asset": "banner-light",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "banner-light",
+          "fit": "contain"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      },
+      "home.decoration": {
+        "asset": "banner-dark",
+        "fit": "contain",
+        "compact": {
+          "asset": "banner-dark",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "banner-dark",
+          "fit": "contain"
+        }
+      }
+    }
+  }
+}
