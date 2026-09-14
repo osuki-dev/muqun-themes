@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "spore-protocol",
+  "name": "Spore Protocol",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4F0F8",
+        "surface": "#FCF9FF",
+        "surfaceRaised": "#EAE2F0",
+        "border": "#C9BCD5",
+        "borderStrong": "#8A729C",
+        "text": "#291338",
+        "textMuted": "#513C61",
+        "textSubtle": "#584367",
+        "textDisabled": "#9C89A8",
+        "primary": "#45561B",
+        "onPrimary": "#FFFFF3",
+        "primarySubtle": "#45561B0C",
+        "danger": "#94334F",
+        "dangerSubtle": "#94334F0C",
+        "success": "#3D5924",
+        "warning": "#715112",
+        "info": "#514B88"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F4F0F8",
+        "backgroundOpacity": 0.96,
+        "foreground": "#291338",
+        "cursor": "#45561B",
+        "link": "#514B88",
+        "selection": "#45561B30",
+        "ansi": [
+          "#291338",
+          "#94334F",
+          "#3D5924",
+          "#715112",
+          "#514B88",
+          "#78416A",
+          "#2D5D5D",
+          "#584367",
+          "#675073",
+          "#98425C",
+          "#465E2B",
+          "#79541C",
+          "#59528B",
+          "#805273",
+          "#38635F",
+          "#291338"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#190D2B",
+        "surface": "#241438",
+        "surfaceRaised": "#301E46",
+        "border": "#604875",
+        "borderStrong": "#AB91BF",
+        "text": "#FAF4FF",
+        "textMuted": "#E3D4EC",
+        "textSubtle": "#D0BDE0",
+        "textDisabled": "#957DA9",
+        "primary": "#D2EA85",
+        "onPrimary": "#27310F",
+        "primarySubtle": "#D2EA8510",
+        "danger": "#F7B8D0",
+        "dangerSubtle": "#F7B8D010",
+        "success": "#C2E497",
+        "warning": "#F0D398",
+        "info": "#CFBEFA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#190D2B",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FAF4FF",
+        "cursor": "#D2EA85",
+        "link": "#CFBEFA",
+        "selection": "#D2EA8530",
+        "ansi": [
+          "#CDB9DF",
+          "#F7B8D0",
+          "#C2E497",
+          "#F0D398",
+          "#CFBEFA",
+          "#E6B7E7",
+          "#B3E1D1",
+          "#E3D4EC",
+          "#D6C2E5",
+          "#FFCADF",
+          "#D5EFAA",
+          "#FBE1AF",
+          "#DECFFD",
+          "#F1CEF2",
+          "#CBEEE0",
+          "#FAF4FF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "7d8c4600e118c919d533b30f2477946fa0b5ae146d0f75e54c532777bcc3ac3b"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "6446b5707433f81154a68857a8c9c0a0beed615644aa7244a4f3218cecda6fd7"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "fc74f90bf320c26977d9d849d7dc9237e6767750f1632eaa0262c81fc53629c8"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "27c37ddf434855f3bb962f18ab94062bab96f61dad51f5c776e12d364056be92"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "88a6cf84a8d06b2dfb68600af19304773873c6c1c81bb0e5e4ed3fec9824954c"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "d7110582b885365d0338f41c3d0fe329c703a71664e628f3690031ce8754621e"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "ebf5f81d9fd63324f775a25faf1e7df7ca6722f5e0d188199a2134ab5ab7c642"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "3606253f3912ab04aea99a91d8bdd64e62bb99d1166e44c3c27a2091f196eb5c"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "271d94abdd69fd28b24dac04df3b6dbe381fdbbfc15c978d5e61e7ff1806813b"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Porcelain biotech and luminous mycelium form a quiet alien macro-world. Ultraviolet shadows, chartreuse spores and pale ceramic surfaces pair with organic directional glyphs.",
+  "tags": [
+    "biocyber",
+    "mycelium",
+    "ultraviolet",
+    "chartreuse",
+    "porcelain",
+    "alien"
+  ],
+  "preview": "preview"
+}
