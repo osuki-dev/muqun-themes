@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "soft-machines",
+  "name": "Soft Machines",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F2F4F2",
+        "surface": "#FAFCF9",
+        "surfaceRaised": "#E4E9E5",
+        "border": "#B9C7C1",
+        "borderStrong": "#788F87",
+        "text": "#243730",
+        "textMuted": "#425A50",
+        "textSubtle": "#41574D",
+        "textDisabled": "#92A79D",
+        "primary": "#2F5A45",
+        "onPrimary": "#F8FFF9",
+        "primarySubtle": "#2F5A450D",
+        "danger": "#8A3E59",
+        "dangerSubtle": "#8A3E590D",
+        "success": "#37604B",
+        "warning": "#72521F",
+        "info": "#465B87"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F2F4F2",
+        "backgroundOpacity": 0.96,
+        "foreground": "#243730",
+        "cursor": "#2F5A45",
+        "link": "#465B87",
+        "selection": "#2F5A4530",
+        "ansi": [
+          "#243730",
+          "#8A3E59",
+          "#37604B",
+          "#72521F",
+          "#465B87",
+          "#725283",
+          "#31636C",
+          "#496256",
+          "#4C6257",
+          "#934258",
+          "#3A644C",
+          "#74531F",
+          "#465E8B",
+          "#795087",
+          "#35666D",
+          "#243730"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#282635",
+        "surface": "#302E40",
+        "surfaceRaised": "#3A374A",
+        "border": "#655D7B",
+        "borderStrong": "#AAA1BA",
+        "text": "#F5F2FA",
+        "textMuted": "#DCD7E8",
+        "textSubtle": "#CDC5DD",
+        "textDisabled": "#91899F",
+        "primary": "#B4E3CC",
+        "onPrimary": "#1B392D",
+        "primarySubtle": "#B4E3CC0D",
+        "danger": "#F3BED1",
+        "dangerSubtle": "#F3BED10D",
+        "success": "#B8DDC5",
+        "warning": "#EDDCB0",
+        "info": "#C1D2EF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#282635",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F5F2FA",
+        "cursor": "#B4E3CC",
+        "link": "#C1D2EF",
+        "selection": "#B4E3CC30",
+        "ansi": [
+          "#CCC5DC",
+          "#F3BED1",
+          "#B8DDC5",
+          "#EDDCB0",
+          "#C1D2EF",
+          "#DEBFE9",
+          "#B5DDD9",
+          "#DCD7E8",
+          "#D9D2E5",
+          "#F9D0DE",
+          "#CEEDD5",
+          "#F8EAC7",
+          "#D4E0F5",
+          "#EDDAF4",
+          "#CDECE6",
+          "#F5F2FA"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "f31bfb8b880d6808626a537f8fc52bfc6c9404eae6755a32e887f11db6711a54"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "950e55915932dd211ad8e5d8ff30fc1e9a2df3b08d2f386de272fd580888b54b"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "845de098917f0233b20822e62ae32092e78d4edc3935c4eb7e70222062364e94"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "eeef57910f6b4ce02391e43e644d66f8266d1cda8fe252f50c96afe2765e1290"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "dd4a65bc414dae179de4117706fe9e0c317457bb1ee30ef78d8179cced1e8fcc"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "086ae2dbad4808e31838e2e67476e42b3eb89e82788ddd8e142e61e424698aa5"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "2320d74425a742487d88b930bcf6c94ac058b5abcdd3bd36d1926f6abfc3c319"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8754b3b4459f17d32ea02736483c4176bd720bc62d25c904f5575a579333876f"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "defbfaf3558cac3e5d4d6e6f2f6eea3e57f18b8f81a32c412d85d7afcfdf69d8"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Pearl resin, mint silicone and smoky lilac glass form a quiet world of rounded frosted mechanisms. Original soft 2.5D sculptures, pearl light and violet dusk palettes, and smooth capsule-shaped control glyphs.",
+  "tags": [
+    "soft",
+    "pastel",
+    "mint",
+    "lilac",
+    "sculpture",
+    "frosted"
+  ],
+  "preview": "preview"
+}
