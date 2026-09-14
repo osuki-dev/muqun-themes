@@ -1,0 +1,274 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "lanterns-in-the-overworld",
+  "name": "Lanterns in the Overworld",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying Minecraft rights reserved",
+  "description": "Unofficial Minecraft fan art. A mossy voxel forest and lantern-lit timber shelter, with warm clay, amber and smoky woodland palettes. Steve and a friendly wolf welcome you home.",
+  "tags": [
+    "minecraft",
+    "fan-art",
+    "voxel",
+    "forest",
+    "lantern"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F0ECDD",
+        "surface": "#FFF9EB",
+        "surfaceRaised": "#E2DEC8",
+        "border": "#BCB797",
+        "borderStrong": "#817E57",
+        "text": "#2D3124",
+        "textMuted": "#424832",
+        "textSubtle": "#4C5139",
+        "textDisabled": "#91917B",
+        "primary": "#43521C",
+        "onPrimary": "#FFF9EB",
+        "primarySubtle": "#43521C10",
+        "danger": "#81352C",
+        "dangerSubtle": "#81352C10",
+        "success": "#376041",
+        "warning": "#79551B",
+        "info": "#355C6C"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F0ECDD",
+        "backgroundOpacity": 0.98,
+        "foreground": "#2D3124",
+        "cursor": "#43521C",
+        "link": "#355C6C",
+        "selection": "#43521C30",
+        "ansi": [
+          "#2D3124",
+          "#81352C",
+          "#376041",
+          "#79551B",
+          "#355C6C",
+          "#744969",
+          "#3C6260",
+          "#4C5139",
+          "#53583F",
+          "#873D2B",
+          "#42603B",
+          "#735322",
+          "#465A78",
+          "#724266",
+          "#366466",
+          "#2D3124"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#23251C",
+        "surface": "#2B2E22",
+        "surfaceRaised": "#34372A",
+        "border": "#555B43",
+        "borderStrong": "#9C9F79",
+        "text": "#FFF5DD",
+        "textMuted": "#E3DBC2",
+        "textSubtle": "#D2CBAF",
+        "textDisabled": "#8F9278",
+        "primary": "#E6C47B",
+        "onPrimary": "#2B2B19",
+        "primarySubtle": "#E6C47B12",
+        "danger": "#FFC1A4",
+        "dangerSubtle": "#FFC1A412",
+        "success": "#BED99A",
+        "warning": "#F4D392",
+        "info": "#BDD9DE"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#23251C",
+        "backgroundOpacity": 0.98,
+        "foreground": "#FFF5DD",
+        "cursor": "#E6C47B",
+        "link": "#BDD9DE",
+        "selection": "#E6C47B30",
+        "ansi": [
+          "#BDC6A5",
+          "#FFC1A4",
+          "#BED99A",
+          "#F4D392",
+          "#BDD9DE",
+          "#DDC5DA",
+          "#B9DBCD",
+          "#E3DBC2",
+          "#BDC6A5",
+          "#FFD8B9",
+          "#D9ECC0",
+          "#FFE4AD",
+          "#D6E8ED",
+          "#EBD9E6",
+          "#D3EBDD",
+          "#FFF5DD"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "c3739cf1ed5e0c6fa5bcbfe18a3f0e357206e79a4dae134b3d23f383d8a160fe"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "3672eb4188292ffabac98790deb78b3bb4e1b96b89a3c3cec8784b52ea71b995"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "6df98ea4d2f7640ea6b72c01869d6b9c86196fd2ce862ef56cf3c409fb56470f"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "e1209e018d4dd26207e815220e5b83ab00d3c7eebd84b2a7d34a593df7324008"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "a204f16ad6c83864a18af11ec2bb422e7553a252365bfb61e80b65c78b06970d"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "6fc3b4f03e6ce5d4520e7aa1d68869866fb37bb157ef1eb2bc491ef122567b49"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "2e3e475de6ddff0c4b7490dd09e098c4a442d7cd331f575a012ec9a8850afdab"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "410666626417264191f75b2785b58111b584f3e530e3bc851b645fd590971435"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "d3675f79787afc7b15ab3d1c06ffa197d54d0f5797707e02d2c4df933fdf7953"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "395396754c5412e93f832038d1d705687ac5d70dc9996035ba573816dc9e49a0"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        },
+        "opacity": 0.2
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        },
+        "opacity": 0.78
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        },
+        "opacity": 0.2
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        },
+        "opacity": 0.78
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  }
+}
