@@ -1,0 +1,258 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "lucid-encore",
+  "name": "Lucid Encore",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F0EFF9",
+        "surface": "#FAF8FF",
+        "surfaceRaised": "#E3E0F1",
+        "border": "#BDB4D1",
+        "borderStrong": "#837295",
+        "text": "#2E2542",
+        "textMuted": "#514363",
+        "textSubtle": "#584A6B",
+        "textDisabled": "#A096B3",
+        "primary": "#65427D",
+        "onPrimary": "#FFF7FF",
+        "primarySubtle": "#65427D0D",
+        "danger": "#81334C",
+        "dangerSubtle": "#81334C0D",
+        "success": "#345D53",
+        "warning": "#795024",
+        "info": "#45578B"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F0EFF9",
+        "backgroundOpacity": 0.96,
+        "foreground": "#2E2542",
+        "cursor": "#65427D",
+        "link": "#45578B",
+        "selection": "#65427D30",
+        "ansi": [
+          "#2E2542",
+          "#8B3D55",
+          "#345D53",
+          "#795024",
+          "#45578B",
+          "#65427D",
+          "#365E73",
+          "#584A6B",
+          "#665173",
+          "#913E57",
+          "#3E6356",
+          "#795322",
+          "#4B5C91",
+          "#704782",
+          "#3A6576",
+          "#2E2542"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#241B36",
+        "surface": "#2D2343",
+        "surfaceRaised": "#382D50",
+        "border": "#655276",
+        "borderStrong": "#A592B8",
+        "text": "#FAEFFF",
+        "textMuted": "#E5D6EF",
+        "textSubtle": "#D6C4E2",
+        "textDisabled": "#9787A6",
+        "primary": "#C9C4FF",
+        "onPrimary": "#302347",
+        "primarySubtle": "#C9C4FF0D",
+        "danger": "#F5BCD2",
+        "dangerSubtle": "#F5BCD20D",
+        "success": "#BADECB",
+        "warning": "#EBD0AE",
+        "info": "#BDCCF4"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#241B36",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FAEFFF",
+        "cursor": "#C9C4FF",
+        "link": "#BDCCF4",
+        "selection": "#C9C4FF30",
+        "ansi": [
+          "#D2C3E1",
+          "#F5BCD2",
+          "#BADECB",
+          "#EBD0AE",
+          "#BDCCF4",
+          "#D9B8EC",
+          "#B7DDEA",
+          "#E5D6EF",
+          "#DECEE9",
+          "#FDD0E0",
+          "#D0EFDB",
+          "#F5E0C4",
+          "#D2DCFA",
+          "#ECCEF8",
+          "#CFECF5",
+          "#FAEFFF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "f88d3abb860206fc3ea8968d97c45d9b51b6a4a731d41d3ee1fba6a9c40d6fff"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "b6e635aae2247814c6d6ae9fdfaab460246b547427ef83f70ccfdba9eb5466b9"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "c6c194edc1467471399f7f530ed6db793414a116f901bb79e4f695d54a131897"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "8aeaad6198a74fa196cc10e44ff6f2cf8ad4fa1167f44fbf97f735a426937800"
+    },
+    "banner": {
+      "path": "assets/banner.png",
+      "sha256": "bfa4804c5fcebfec7f475bd5806f19615d83bd8ce3abdd6434dcd5157264e57e"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "d59dd18fd8168c76b67013d784c11d596f9cfd47b6931d4e6fd2f96d911e0b13"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "0f0876f889c88167f2ccb1d69eeb3896d2f55bbf855e07c19286923075024016"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "e80edb2783a3c9a48b4451fd12e5b20f16a8d8f56649a5bc246b4ca115efb3e4"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "fe33635dc30d81d94d622f920a1046a8a5c52b7ec849e9b1904c8747081b0a71"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "d64fba3f0dd291c2aa43c2b40dd998fcfce97aa03e7833ad0cbc49d5adc24b20"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.decoration": {
+      "asset": "banner",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "opacity": 0.18
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "opacity": 0.18
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "An original star DJ conducts holographic sound ribbons through a lucid rhythm dream. Periwinkle daylight, ink-plum night and rose-gold accents frame delicate anime artwork, with ribbon, shooting-star and music-note glyphs.",
+  "tags": [
+    "anime",
+    "cyber",
+    "rhythm",
+    "periwinkle",
+    "holographic",
+    "dream"
+  ],
+  "preview": "preview"
+}
