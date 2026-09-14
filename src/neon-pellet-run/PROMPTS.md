@@ -25,4 +25,3 @@ Original abstract retro-vector arcade still life on a genuinely transparent squa
 ## preview
 
 Create a gallery cover1024x640 ratio8:5 based on these two original arcade wallpapers. Exact center vertical split: light pale lemon half on LEFT, dark midnight ink half on RIGHT. Retain violet edge maze paths, little yellow wedge-mouth circle and cyan coral ghost motifs from each reference at bottom. Large quiet center; no text no score no HUD. Clean equal split, original composition.
-
