@@ -1,0 +1,252 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "clockwork-harlequin",
+  "name": "Clockwork Harlequin",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "description": "An original chestnut-haired stage magician and his clockwork songbird welcome you to a miniature moonlit theatre. Cream, peacock blue and brass frame crisp anime illustrations, diamond ornaments and playful winding-key glyphs.",
+  "tags": [
+    "anime",
+    "fairy-tale",
+    "carnival",
+    "clockwork",
+    "peacock-blue",
+    "magician"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4F0E4",
+        "surface": "#FCF8ED",
+        "surfaceRaised": "#E6E9DC",
+        "border": "#BCC7B8",
+        "borderStrong": "#758E88",
+        "text": "#173D42",
+        "textMuted": "#355454",
+        "textSubtle": "#3D5A59",
+        "textDisabled": "#8B9E97",
+        "primary": "#195C68",
+        "onPrimary": "#FFF9E9",
+        "primarySubtle": "#195C6810",
+        "danger": "#853A39",
+        "dangerSubtle": "#853A3910",
+        "success": "#355E3F",
+        "warning": "#74541D",
+        "info": "#385B76"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F4F0E4",
+        "backgroundOpacity": 0.97,
+        "foreground": "#173D42",
+        "cursor": "#195C68",
+        "link": "#385B76",
+        "selection": "#195C6830",
+        "ansi": [
+          "#173D42",
+          "#853A39",
+          "#355E3F",
+          "#74541D",
+          "#385B76",
+          "#6D4B70",
+          "#1E6266",
+          "#3D5A59",
+          "#4B6360",
+          "#934540",
+          "#3E6848",
+          "#7A5B25",
+          "#406582",
+          "#765479",
+          "#286D70",
+          "#173D42"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#102C34",
+        "surface": "#173842",
+        "surfaceRaised": "#20444E",
+        "border": "#496973",
+        "borderStrong": "#94B2B9",
+        "text": "#FFF4D9",
+        "textMuted": "#E1E8D6",
+        "textSubtle": "#C9DECE",
+        "textDisabled": "#8DAAA5",
+        "primary": "#EAD196",
+        "onPrimary": "#28372F",
+        "primarySubtle": "#EAD19612",
+        "danger": "#F4C0AF",
+        "dangerSubtle": "#F4C0AF12",
+        "success": "#C4E1B7",
+        "warning": "#F0D49D",
+        "info": "#BCDCEB"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#102C34",
+        "backgroundOpacity": 0.97,
+        "foreground": "#FFF4D9",
+        "cursor": "#EAD196",
+        "link": "#BCDCEB",
+        "selection": "#EAD19630",
+        "ansi": [
+          "#C6DCD0",
+          "#F4C0AF",
+          "#C4E1B7",
+          "#F0D49D",
+          "#BCDCEB",
+          "#D9C6E6",
+          "#BDE2DE",
+          "#E1E8D6",
+          "#D5E3D8",
+          "#FAD5C5",
+          "#D8EDCE",
+          "#F8E4BA",
+          "#D2E7F3",
+          "#E9DAF0",
+          "#D4EFEB",
+          "#FFF4D9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "assets": {
+    "banner-light": {
+      "path": "assets/banner-light.webp",
+      "sha256": "0b0ac24b883a6e27407cf10c712156ecfb31eeb0ae85da2acde7143c4e84eb48"
+    },
+    "banner-dark": {
+      "path": "assets/banner-dark.webp",
+      "sha256": "1c2d80846bc3035c324c3dc817af3082917386301900378a23f25e67db5c2bb6"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "7962e7527a73e2c2241fcf2c5087faa7ae9e61ade6d69b717abedc568770d66c"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "46577341b4fbcf7478593a74023d988ebc783e1930518d6c195a9aaf030b78fe"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "1f82d85e553babbe70a4aa19f5093073eb658b09696793fd7fd40b4c1d072717"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "3b5647860a5707808f4373e265ed0be9ad6e92b92e63949f0a26d7fa72a6d5b4"
+    },
+    "empty-bird": {
+      "path": "assets/empty-bird.png",
+      "sha256": "7e16fcd7cfb02b3e991cfd6b9b2a74d4dc2ebc8630c0cc87cf1a9e8ea8bc2879"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "7b2c9fe81b4b090bdcb6e687286cb6fae82ca0d2cd28724547d4bfcbd2d7defc"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "3746081c972f3951e40318aed67d3062a8a768b9f7bed42655bc42f05de777f5"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "2bc7b5ee99cc83508502d09312cb5ac9df4fa4fc5b1fc58d6350ec20372b4aee"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "d554516a8568ef99bb6754464660149f2bc6aad9da9a0eb2f6ac4907f3ce6593"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty-bird",
+      "fit": "contain"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      },
+      "home.decoration": {
+        "asset": "banner-light",
+        "fit": "contain",
+        "compact": {
+          "asset": "banner-light",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "banner-light",
+          "fit": "contain"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      },
+      "home.decoration": {
+        "asset": "banner-dark",
+        "fit": "contain",
+        "compact": {
+          "asset": "banner-dark",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "banner-dark",
+          "fit": "contain"
+        }
+      }
+    }
+  }
+}
