@@ -1,0 +1,285 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "velocity-coast",
+  "name": "Velocity Coast",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying Sonic rights belong to SEGA",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EDF4FC",
+        "surface": "#F9FCFF",
+        "surfaceRaised": "#DDE9F6",
+        "border": "#AABED6",
+        "borderStrong": "#6D87A9",
+        "text": "#102D50",
+        "textMuted": "#355271",
+        "textSubtle": "#3E5977",
+        "textDisabled": "#8CA1B9",
+        "primary": "#164B93",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#164B930D",
+        "danger": "#953B29",
+        "dangerSubtle": "#953B290D",
+        "success": "#245E49",
+        "warning": "#765016",
+        "info": "#355B83"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#EDF4FC",
+        "backgroundOpacity": 0.96,
+        "foreground": "#102D50",
+        "cursor": "#164B93",
+        "link": "#355B83",
+        "selection": "#164B9330",
+        "ansi": [
+          "#102D50",
+          "#953B29",
+          "#245E49",
+          "#765016",
+          "#164B93",
+          "#744476",
+          "#285E6C",
+          "#3E5977",
+          "#456078",
+          "#963C32",
+          "#28634B",
+          "#795322",
+          "#25539B",
+          "#7B467B",
+          "#2D6470",
+          "#102D50"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0A203A",
+        "surface": "#102D4B",
+        "surfaceRaised": "#193854",
+        "border": "#436782",
+        "borderStrong": "#91ACC5",
+        "text": "#F1F7FF",
+        "textMuted": "#D7E6F5",
+        "textSubtle": "#BDD3E7",
+        "textDisabled": "#7F9EB9",
+        "primary": "#FFA98B",
+        "onPrimary": "#3B1D19",
+        "primarySubtle": "#FFA98B0D",
+        "danger": "#FFB7AC",
+        "dangerSubtle": "#FFB7AC0D",
+        "success": "#B2DEC8",
+        "warning": "#F4D69A",
+        "info": "#AFD6FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#0A203A",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F1F7FF",
+        "cursor": "#FFA98B",
+        "link": "#AFD6FF",
+        "selection": "#FFA98B30",
+        "ansi": [
+          "#BCD2E7",
+          "#FFB7AC",
+          "#B2DEC8",
+          "#F4D69A",
+          "#AFD6FF",
+          "#DABDEB",
+          "#A8DEE9",
+          "#D7E6F5",
+          "#CDE0F0",
+          "#FFCEC4",
+          "#CEECDC",
+          "#FFE7B5",
+          "#CCE5FF",
+          "#EAD4F6",
+          "#C6EDF3",
+          "#F1F7FF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "2d40ced63c945b26b33bd46daeb9e119b33d2e633cc663f453d790758f28173d"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "9e0550db0d3a9778f2bf206e2ab53ace161fe5b17addc37901b5839c22f6fd24"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "f430dfcb67a43a4dda1a2d8995342241ebcb33f12a7ec152376280a91d485b88"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "87b8fe89d8fbda24828443f03b192bbcc37bf6295eace8062739e720ba954bdf"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "b5cf914b8565a4c16567b77ec22c77d268538e2ce094be7c5d3bce76f1f4133d"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "275b8e90f360dd263e06e22d990ef9c6313ce2b74b145b1eae4c6ab4217b6ebb"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "9b6b95fa6386ef7501dd1bf1cd27b559f9d1a93769724aadb7fc940e1eeb89bf"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "fbf2f5bf1027296a3a7fe75acadefc3db2148079da7b4e249ab3b2c7ccd3ece1"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "eb043af83ca17943bc976a5d661eb23c7894c475e35c93c8c2bc6ff7d3b5fcec"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "9e76f991c8dfe6fbf7f6ae0036a14bd9e0e3f0dd943f2b7faca2aeb2af44acb3"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.12
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.12
+        },
+        "opacity": 0.12
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 1,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 1,
+            "y": 0.5
+          }
+        },
+        "focalPoint": {
+          "x": 1,
+          "y": 0.5
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.12
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.12
+        },
+        "opacity": 0.12
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0,
+            "y": 0.5
+          }
+        },
+        "focalPoint": {
+          "x": 0,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Sonic the Hedgehog fan art. Cobalt surf, coral cliffs and sweeping coastal loops in crisp kinetic comic illustration. Bright coastal daylight and deep marine night with speed-fin and track-loop glyphs.",
+  "tags": [
+    "sonic",
+    "fan-art",
+    "comic",
+    "coastal",
+    "cobalt",
+    "speed"
+  ],
+  "preview": "preview"
+}
