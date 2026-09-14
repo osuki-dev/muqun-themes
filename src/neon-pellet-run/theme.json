@@ -1,0 +1,263 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "neon-pellet-run",
+  "name": "Neon Pellet Run",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying game rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F5DF",
+        "surface": "#FFFEF3",
+        "surfaceRaised": "#EEE9CD",
+        "border": "#D0C6A5",
+        "borderStrong": "#8C7E68",
+        "text": "#231438",
+        "textMuted": "#4C3D58",
+        "textSubtle": "#584862",
+        "textDisabled": "#9D8F9F",
+        "primary": "#593297",
+        "onPrimary": "#FFFFEC",
+        "primarySubtle": "#5932970C",
+        "danger": "#943147",
+        "dangerSubtle": "#9431470C",
+        "success": "#315D3E",
+        "warning": "#715000",
+        "info": "#365781"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#F8F5DF",
+        "backgroundOpacity": 0.97,
+        "foreground": "#231438",
+        "cursor": "#593297",
+        "link": "#365781",
+        "selection": "#59329730",
+        "ansi": [
+          "#231438",
+          "#943147",
+          "#315D3E",
+          "#715000",
+          "#365781",
+          "#713C78",
+          "#286061",
+          "#584862",
+          "#65506D",
+          "#983D51",
+          "#3B6245",
+          "#785313",
+          "#415A84",
+          "#79497E",
+          "#346567",
+          "#231438"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#100D27",
+        "surface": "#1B1637",
+        "surfaceRaised": "#282046",
+        "border": "#534877",
+        "borderStrong": "#9C8BB9",
+        "text": "#FFF9DB",
+        "textMuted": "#E5DBED",
+        "textSubtle": "#D2C4DF",
+        "textDisabled": "#9382A6",
+        "primary": "#F6E36B",
+        "onPrimary": "#26210D",
+        "primarySubtle": "#F6E36B10",
+        "danger": "#FFB9C9",
+        "dangerSubtle": "#FFB9C910",
+        "success": "#B8E8B1",
+        "warning": "#F4D994",
+        "info": "#BECFFF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#100D27",
+        "backgroundOpacity": 0.97,
+        "foreground": "#FFF9DB",
+        "cursor": "#F6E36B",
+        "link": "#BECFFF",
+        "selection": "#F6E36B30",
+        "ansi": [
+          "#CCBFDF",
+          "#FFB9C9",
+          "#B8E8B1",
+          "#F4D994",
+          "#BECFFF",
+          "#E2BDF4",
+          "#AAE4E9",
+          "#E5DBED",
+          "#D6CAE4",
+          "#FFCED9",
+          "#CDF3C4",
+          "#FBE5AD",
+          "#D0DCFF",
+          "#EED1FC",
+          "#C2F0F2",
+          "#FFF9DB"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "19c2d28c21c2a1c233ee41928abbcf27ed4cff9c35434cae8e2f8f2c66d5e96d"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "e6d133ed80bb6c523ae7efb44f21ea6c51e1c78b3f12aa693723f1e1e456a356"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8ece83c4079991e01206a145d4dd6c48f5667b75949b57f286dc9f7b457f1f94"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "c6789c28860a2617dcadb30e2cac8a998883c2e457caa0be52f75eba02853cda"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "b1ff311c13743e412672c2bcfea67f0c5da981a89a86ddff44d771bd232ed66c"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "439fcf944a7ebf9fe82f232e78abb30d97182b275ea0aa2660b2b28b5f6b54b4"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "71157fff89d8bf954026a4fda02c1343bf288c2e4683f1c4874dd64f801e6d86"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "e46d9402ec92d7185f3aef4a6f817726917c7fde80986ee5840daef8756be59b"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "cf91fe78cbf5b609c0bdf2246d01ecbb5626dbb8813be49b9613d8eb976c2b5f"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "hero",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.13
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.13
+        },
+        "opacity": 0.13
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "opacity": 1
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.13
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.13
+        },
+        "opacity": 0.13
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 1
+        },
+        "opacity": 1
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Pac-Man fan art. Electric yellow, violet maze paths and midnight ink recall the vector arcade, with a quiet pellet trail and familiar round characters.",
+  "tags": [
+    "pac-man",
+    "fan-art",
+    "arcade",
+    "vector",
+    "yellow",
+    "violet"
+  ],
+  "preview": "preview"
+}
