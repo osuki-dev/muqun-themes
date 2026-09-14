@@ -8,4 +8,4 @@ Independently composed wide and portrait artwork supports tablets and phones. Th
 
 CLI 1.8.1 source validation, contrast, package round trip and package validation passed. Shared contrast floors are 87% for interface surfaces and 88% for terminal backgrounds; authored opacity is 97%. All six illustrations were inspected locally. Template glyphs were reviewed at 17px and 34px in both palettes.
 
-The local preview server starts successfully. Device rendering remains unverified because the browser tool was unavailable.
+The browser preview was visually reviewed in both light and dark modes: Phone Home, Conversation and Terminal, plus Tablet Home and Terminal. Artwork and glyphs loaded, labels remained readable, and no clipping was observed. This is gallery rendering verification, not a native-device import test.
