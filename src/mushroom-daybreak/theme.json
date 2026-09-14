@@ -1,0 +1,225 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "mushroom-daybreak",
+  "name": "Mushroom Daybreak",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection \u00b7 AI-assisted fan art",
+  "license": "Unofficial fan art; underlying IP rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF6DF",
+        "surface": "#FFFCF0",
+        "surfaceRaised": "#EFE4C6",
+        "border": "#C9BD91",
+        "borderStrong": "#9B8355",
+        "text": "#292C3C",
+        "textMuted": "#525366",
+        "textSubtle": "#58586A",
+        "textDisabled": "#999781",
+        "primary": "#993C2D",
+        "onPrimary": "#FFF8E7",
+        "primarySubtle": "#993C2D0D",
+        "danger": "#983143",
+        "dangerSubtle": "#9831430D",
+        "success": "#32613F",
+        "warning": "#74551B",
+        "info": "#2D587D"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#FFF6DF",
+        "backgroundOpacity": 0.96,
+        "foreground": "#292C3C",
+        "cursor": "#993C2D",
+        "link": "#2D587D",
+        "selection": "#993C2D30",
+        "ansi": [
+          "#292C3C",
+          "#983143",
+          "#32613F",
+          "#74551B",
+          "#2D587D",
+          "#754C7D",
+          "#2D6269",
+          "#58586A",
+          "#5E5D6B",
+          "#A13843",
+          "#3B6644",
+          "#7C5625",
+          "#385E83",
+          "#7B5283",
+          "#34666D",
+          "#292C3C"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101D46",
+        "surface": "#172750",
+        "surfaceRaised": "#20335E",
+        "border": "#4C5F84",
+        "borderStrong": "#99ACC9",
+        "text": "#FFF7D8",
+        "textMuted": "#E4DDBC",
+        "textSubtle": "#D3D4BF",
+        "textDisabled": "#8C98AC",
+        "primary": "#FFD395",
+        "onPrimary": "#382C27",
+        "primarySubtle": "#FFD39512",
+        "danger": "#FFC2AC",
+        "dangerSubtle": "#FFC2AC12",
+        "success": "#B6E7A4",
+        "warning": "#F4DA8E",
+        "info": "#B8DDFA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#101D46",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF7D8",
+        "cursor": "#FFD395",
+        "link": "#B8DDFA",
+        "selection": "#FFD39530",
+        "ansi": [
+          "#D3D4BF",
+          "#FFC2AC",
+          "#B6E7A4",
+          "#F4DA8E",
+          "#B8D4FA",
+          "#DEC8EF",
+          "#B8DDFA",
+          "#E4DDBC",
+          "#DDDFC9",
+          "#FFD2C0",
+          "#CCEFB9",
+          "#FBE8B0",
+          "#D1E3FC",
+          "#ECDBF6",
+          "#D0EBFC",
+          "#FFF7D8"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "80a4b13572c5db4c85509a1908a1414d27e4f134bf25405d908a98ed2a2145c7"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "d941233b4a23c6be410cf4e1239c186a7ae02ad6b25d4def416036561a5c6ff6"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "cfd994b7a7193acd024a3e0a8463a69a248884e2d9c0cba3eb6dd3a6fafd6acc"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "dcaa273ec9e357fbef07ee56904b917b5c731976c4ef0b7f9e6ab8b0431d9195"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "e7b6fb17791ec7e15dae03038f74cbd91344f546eea529394ee816b46b60900a"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "6f97e391490c0e8cd2fdd54ae893871eae3e9dd90850abd9d569216196d72b6b"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "208a53e95dab91c83775be7d00a4298aa28abc68cf4f5d88e7dfbe4dc727d10d"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "opacity": 0.24
+      },
+      "home.decoration": {
+        "asset": "wide-light",
+        "fit": "contain"
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "wide-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.83,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "opacity": 0.24
+      },
+      "home.decoration": {
+        "asset": "wide-dark",
+        "fit": "contain"
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Super Mario fan art. Original pixel landscapes in brick red, sky blue and butter cream, with midnight cobalt evenings, a cheerful Mario hero illustration and chunky platform-inspired glyphs.",
+  "tags": [
+    "fan-art",
+    "super-mario",
+    "pixel-art",
+    "brick-red",
+    "platformer",
+    "illustrated"
+  ],
+  "preview": "preview"
+}
