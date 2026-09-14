@@ -163,6 +163,10 @@
     "tablet-light": {
       "path": "assets/tablet-light.png",
       "sha256": "8555180122fc78840f6a8dc8e1839a46353e01752f8b55db86eaf901618ddacf"
+    },
+    "credits": {
+      "path": "assets/credits.png",
+      "sha256": "6ee99b49e6f7c2bf1e206324c9b6d9e054d08d1f21e501c8e86748e8be45cfd2"
     }
   },
   "decoration": {},
@@ -276,5 +280,5 @@
     "aubergine",
     "copper"
   ],
-  "source": "https://github.com/osuki-dev/muqun-themes"
+  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/runtime-foundry/CREDITS.md"
 }

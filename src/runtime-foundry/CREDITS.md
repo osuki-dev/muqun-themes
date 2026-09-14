@@ -17,3 +17,5 @@ All sources checked on 2026-09-14. The logos and mascot appear in `phone-light.p
 | Rust gear logo | Rust Foundation | [Official Rust Foundation PNG](https://rustfoundation.org/wp-content/uploads/2024/07/cropped-rust-lang-logo-black.png) | [Rust trademark policy and art license](https://rustfoundation.org/policy/rust-trademark-policy/) links [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with separate trademark restrictions. Scaled and composited only, unmodified black logo on ivory. |
 
 The theme refers to these technologies as developer ecosystem symbols. It does not assert that Muqun is implemented in each language. Redistribution must preserve these credits and the applicable third-party terms.
+
+`assets/credits.png` repeats attribution, source URLs and licensing information in a readable image declared in the manifest, so offline packages carry these notices even though the packer omits Markdown. It is intentionally not drawn over the interface.
