@@ -1,0 +1,257 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "aperture-afterhours",
+  "name": "Aperture Afterhours",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F1F4F5",
+        "surface": "#FCFEFF",
+        "surfaceRaised": "#E4EBEF",
+        "border": "#BCC9D1",
+        "borderStrong": "#70828E",
+        "text": "#142532",
+        "textMuted": "#3E5260",
+        "textSubtle": "#485A68",
+        "textDisabled": "#8B9BA6",
+        "primary": "#165781",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#16578110",
+        "danger": "#93382B",
+        "dangerSubtle": "#93382B10",
+        "success": "#235D45",
+        "warning": "#825013",
+        "info": "#225A7D"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#F1F4F5",
+        "backgroundOpacity": 0.97,
+        "foreground": "#142532",
+        "cursor": "#825013",
+        "link": "#225A7D",
+        "selection": "#16578130",
+        "ansi": [
+          "#142532",
+          "#93382B",
+          "#235D45",
+          "#825013",
+          "#225A7D",
+          "#70426F",
+          "#28616C",
+          "#485A68",
+          "#3E5260",
+          "#93382B",
+          "#235D45",
+          "#825013",
+          "#225A7D",
+          "#70426F",
+          "#28616C",
+          "#142532"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101C24",
+        "surface": "#192832",
+        "surfaceRaised": "#233640",
+        "border": "#455C6C",
+        "borderStrong": "#8CA5B6",
+        "text": "#F2F8FC",
+        "textMuted": "#D5E3EC",
+        "textSubtle": "#B9CDDB",
+        "textDisabled": "#8099AA",
+        "primary": "#A4D7FF",
+        "onPrimary": "#102637",
+        "primarySubtle": "#A4D7FF12",
+        "danger": "#FFB9A6",
+        "dangerSubtle": "#FFB9A612",
+        "success": "#B5E1C9",
+        "warning": "#FFC58E",
+        "info": "#AFD9FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#101C24",
+        "backgroundOpacity": 0.97,
+        "foreground": "#F2F8FC",
+        "cursor": "#FFC58E",
+        "link": "#AFD9FF",
+        "selection": "#A4D7FF30",
+        "ansi": [
+          "#F2F8FC",
+          "#FFB9A6",
+          "#B5E1C9",
+          "#FFC58E",
+          "#AFD9FF",
+          "#DEC2EF",
+          "#ADE2E4",
+          "#B9CDDB",
+          "#D5E3EC",
+          "#FFB9A6",
+          "#B5E1C9",
+          "#FFC58E",
+          "#AFD9FF",
+          "#DEC2EF",
+          "#ADE2E4",
+          "#F2F8FC"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "8eee9e6ded6f77fde112a7b1b6868ba727d765bfee897296771977b30064c431"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "cc330f682fd85e9b40169d5b546c08c988f74ebf11788438fa230296936e3815"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "1280064f83e0031016c32601f601d199de800877e349a30ed41079d29e163a15"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "7ad1fa94a699a99b7fdda405a0e39e3ec7c4e2e0bd0574f3c30785bdb64ab3f9"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "7b676b09458981cf8ac7fb865a423235aee2966e5fb6fcb9c3edfa2ec0bd6b64"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "dec72645e184d9da23536dfb742def24c06687b607d118b9dca8e23dcf2537ac"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "61d27f179766cfab7648799353b746c37d4197c701041cc0452bce823d2928de"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "127c16e3ae5fe6c4f749629ec94211c37a8213a340b27e76f9948a5b98f24aa1"
+    },
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "4e421212e7844537272deacfaeea61b9d5e6b0417da90628856cf4b11ab5651f"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "hero",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "opacity": 0.35,
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.35
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.35
+        }
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "opacity": 0.35,
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.35
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.35
+        }
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Portal fan art. Quiet test chambers, blue and orange portals, and a Companion Cube in chalk white, chilled blue and afterhours slate. Clean spatial artwork, portal-shaped controls and a contained Home illustration.",
+  "tags": [
+    "portal",
+    "fan-art",
+    "science-fiction",
+    "industrial",
+    "blue",
+    "orange"
+  ],
+  "preview": "preview"
+}
