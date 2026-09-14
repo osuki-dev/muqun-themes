@@ -1,0 +1,242 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "vector-vixen",
+  "name": "Vector Vixen",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F1F4E9",
+        "surface": "#FCFDF6",
+        "surfaceRaised": "#E2E8D6",
+        "border": "#B7C1A8",
+        "borderStrong": "#76836A",
+        "text": "#202A25",
+        "textMuted": "#3F4C43",
+        "textSubtle": "#4A554A",
+        "textDisabled": "#8A9485",
+        "primary": "#3A5000",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#3A500012",
+        "danger": "#8B2835",
+        "dangerSubtle": "#8B283512",
+        "success": "#235842",
+        "warning": "#77500A",
+        "info": "#285269"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F1F4E9",
+        "backgroundOpacity": 0.96,
+        "foreground": "#202A25",
+        "cursor": "#3A5000",
+        "link": "#285269",
+        "selection": "#3A500030",
+        "ansi": [
+          "#202A25",
+          "#8B2835",
+          "#235842",
+          "#77500A",
+          "#285269",
+          "#694268",
+          "#245A58",
+          "#4A554A",
+          "#55604F",
+          "#973442",
+          "#2B6049",
+          "#805410",
+          "#345873",
+          "#744975",
+          "#2D6260",
+          "#202A25"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#151B19",
+        "surface": "#202825",
+        "surfaceRaised": "#2A3430",
+        "border": "#4B5B50",
+        "borderStrong": "#8C9F8A",
+        "text": "#F5F9EA",
+        "textMuted": "#D3DECE",
+        "textSubtle": "#BFCEB8",
+        "textDisabled": "#83967E",
+        "primary": "#D0F563",
+        "onPrimary": "#243000",
+        "primarySubtle": "#D0F56314",
+        "danger": "#FFBCC3",
+        "dangerSubtle": "#FFBCC314",
+        "success": "#B4E5C1",
+        "warning": "#F5D793",
+        "info": "#B4DDE7"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#151B19",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F5F9EA",
+        "cursor": "#D0F563",
+        "link": "#B4DDE7",
+        "selection": "#D0F56330",
+        "ansi": [
+          "#B6CBB0",
+          "#FFBCC3",
+          "#B4E5C1",
+          "#F5D793",
+          "#B4DDE7",
+          "#D9BEDF",
+          "#AFDFD6",
+          "#D3DECE",
+          "#C3D4BA",
+          "#FFD4D8",
+          "#CBEED3",
+          "#FCE6B3",
+          "#CEEAF0",
+          "#E8D5ED",
+          "#C9EDE6",
+          "#F5F9EA"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "42a5c669dc4c459f021c1cacc290f78e76d147044f6149a9bce01da80f963754"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "d84ea8cbc2f6dfad6ec1758f8b5b94a72581ec51bc0698340da0cf21cfdd2309"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "57333083c30009b726d035408c755fbcf502a15fdb937428f713dc7ed994b6c2"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "40ca746a0c3664720ece0370dbcc538464fcfe42357423d2c2bcc6fc9314ff95"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "f79ce96d83029c203861f4e183d56a60c6f6247f70896cbd9691378677e1efa4"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "d1f48f6d041b941bc504a58b3bd28a531794b8cf655a222a776a4c06778595b2"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "4a5395bf0e80341e43dd518d9b65f091cc5e6b11c27d4571597236548ce9615c"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "5f8a27c3d546df03fd4317933f34b3b60b6962fb2705523ccf71abef0348f20e"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "b3d6ab6f2f647dbbacdf1b68cdd05e098c4a9d6900efb42b61b0930c04431015"
+    },
+    "banner-light": {
+      "path": "assets/banner-light.webp",
+      "sha256": "262bf772adc640567d1cd1e939f017a83063791c0abcc19f9d4d5694df20c6de"
+    },
+    "banner-dark": {
+      "path": "assets/banner-dark.webp",
+      "sha256": "f6706b544bcde2266992cc71b73b462b919b35ec3654030d89bbcc3ab7ed4a6f"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "opacity": 0.32
+      },
+      "home.decoration": {
+        "asset": "banner-light",
+        "fit": "contain"
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.32
+        },
+        "opacity": 0.32
+      },
+      "home.decoration": {
+        "asset": "banner-dark",
+        "fit": "contain"
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "An original silver-haired fox-helmet courier in acid lime, gunmetal and titanium. Sharp anime cel shading and racing geometry frame focused surfaces, with character banners, mechanical glyphs and a complete day/night terminal palette.",
+  "tags": [
+    "anime",
+    "cyber-kawaii",
+    "mecha",
+    "racing",
+    "lime",
+    "courier"
+  ],
+  "preview": "preview"
+}
