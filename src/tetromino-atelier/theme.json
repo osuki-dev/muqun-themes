@@ -1,0 +1,257 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "tetromino-atelier",
+  "name": "Tetromino Atelier",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F7F4EB",
+        "surface": "#FFFCF4",
+        "surfaceRaised": "#E9E8E0",
+        "border": "#C1C3C5",
+        "borderStrong": "#75808C",
+        "text": "#152536",
+        "textMuted": "#3C4D61",
+        "textSubtle": "#425267",
+        "textDisabled": "#9199A1",
+        "primary": "#244CA0",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#244CA010",
+        "danger": "#953C28",
+        "dangerSubtle": "#953C2810",
+        "success": "#2F6248",
+        "warning": "#795716",
+        "info": "#245F71"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#F7F4EB",
+        "backgroundOpacity": 0.96,
+        "foreground": "#152536",
+        "cursor": "#244CA0",
+        "link": "#245F71",
+        "selection": "#244CA030",
+        "ansi": [
+          "#152536",
+          "#953C28",
+          "#2F6248",
+          "#795716",
+          "#244CA0",
+          "#74507E",
+          "#245F71",
+          "#425267",
+          "#4D6072",
+          "#9B432F",
+          "#37694F",
+          "#7E591C",
+          "#2E55A8",
+          "#795782",
+          "#2B6575",
+          "#152536"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#202329",
+        "surface": "#292D36",
+        "surfaceRaised": "#343A44",
+        "border": "#596573",
+        "borderStrong": "#A3ADBA",
+        "text": "#FFF8E7",
+        "textMuted": "#E5E8EA",
+        "textSubtle": "#CCD4DE",
+        "textDisabled": "#99A4B2",
+        "primary": "#B7CDFF",
+        "onPrimary": "#1A2B4D",
+        "primarySubtle": "#B7CDFF10",
+        "danger": "#FFC2A2",
+        "dangerSubtle": "#FFC2A210",
+        "success": "#BFE5C5",
+        "warning": "#F0DE95",
+        "info": "#BCE3EA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#202329",
+        "backgroundOpacity": 0.96,
+        "foreground": "#FFF8E7",
+        "cursor": "#B7CDFF",
+        "link": "#BCE3EA",
+        "selection": "#B7CDFF30",
+        "ansi": [
+          "#CCD4DE",
+          "#FFC2A2",
+          "#BFE5C5",
+          "#F0DE95",
+          "#B7CDFF",
+          "#E0C6ED",
+          "#BCE3EA",
+          "#E5E8EA",
+          "#DAE0E6",
+          "#FFD6C0",
+          "#D1EFD5",
+          "#F8ECC0",
+          "#D0DDFF",
+          "#EEDBF6",
+          "#D0EFF2",
+          "#FFF8E7"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "85eae04686e308c0ba2d000fdbc40b3c9f7f17a5751e7970738422105e9f833a"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "d727c15da176e7d374c2d5f8cc4c7e09087f43124464c02b583540e265acc527"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "9329c8bce1748da23a24789fd05e8ebac8d9b819100c855f5702a713d2e0e266"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "dad61bad7cdd6ee265a020f25fafb3e831640bbfa2112a3f81a9e873b2d5f97d"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "9f7662f75e0d0faa5d4b4cb7b2d0ce660ad256a19199bba21d2c18f23b1f0741"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "c6c0c3b48e3b18d67e7906a095b2934b70edb4cde0a3bb089296f81a9d173796"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "4ced6da057f993c39f28f6e2b87cf3533a02caad25b8137a9c41b66cd6530172"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "525e39878b12748334b706f44cc0df2258147f43db43ec27d293efd48ed1d36e"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "1fc36485b16e2e6e64d5e88b4f4ef3b15b0c969b817ccef3cfdd3eb0b4271efd"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "opacity": 0.22
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "opacity": 0.22
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "An unofficial Tetris-inspired geometric study: cobalt, tangerine and lemon blocks arranged as matte sculptures on warm white and deep graphite. Crisp stepped forms leave generous room to work.",
+  "tags": [
+    "tetris-inspired",
+    "unofficial-fan-art",
+    "geometry",
+    "blocks",
+    "cobalt",
+    "sculpture"
+  ],
+  "preview": "preview"
+}
