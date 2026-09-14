@@ -1,0 +1,259 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "echoes-of-hallownest",
+  "name": "Echoes of Hallownest",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying game rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EEEFE9",
+        "surface": "#F8F8F1",
+        "surfaceRaised": "#DDE3E3",
+        "border": "#BBC6CA",
+        "borderStrong": "#82939D",
+        "text": "#17232D",
+        "textMuted": "#3C505D",
+        "textSubtle": "#455C68",
+        "textDisabled": "#8C9BA0",
+        "primary": "#294F68",
+        "onPrimary": "#F5F7F1",
+        "primarySubtle": "#294F6810",
+        "danger": "#883E48",
+        "dangerSubtle": "#883E4810",
+        "success": "#345D52",
+        "warning": "#6C571F",
+        "info": "#285B74"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#EEEFE9",
+        "backgroundOpacity": 0.98,
+        "foreground": "#17232D",
+        "cursor": "#294F68",
+        "link": "#285B74",
+        "selection": "#294F6830",
+        "ansi": [
+          "#17232D",
+          "#883E48",
+          "#345D52",
+          "#6C571F",
+          "#294F68",
+          "#684766",
+          "#285B74",
+          "#455C68",
+          "#536471",
+          "#923D49",
+          "#356557",
+          "#775D26",
+          "#355D7D",
+          "#765173",
+          "#306779",
+          "#17232D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0B1018",
+        "surface": "#121C27",
+        "surfaceRaised": "#1B2B39",
+        "border": "#3D5261",
+        "borderStrong": "#819DAC",
+        "text": "#F2F1E6",
+        "textMuted": "#CAD6DB",
+        "textSubtle": "#B0C4CF",
+        "textDisabled": "#718B99",
+        "primary": "#B1DDE0",
+        "onPrimary": "#142A34",
+        "primarySubtle": "#B1DDE012",
+        "danger": "#F0B5B9",
+        "dangerSubtle": "#F0B5B912",
+        "success": "#B2D4C2",
+        "warning": "#E2D09F",
+        "info": "#B2D2EE"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.97
+      },
+      "terminal": {
+        "background": "#0B1018",
+        "backgroundOpacity": 0.98,
+        "foreground": "#F2F1E6",
+        "cursor": "#B1DDE0",
+        "link": "#B2D2EE",
+        "selection": "#B1DDE030",
+        "ansi": [
+          "#B0C4CF",
+          "#F0B5B9",
+          "#B2D4C2",
+          "#E2D09F",
+          "#B2D2EE",
+          "#D3BDE0",
+          "#B1DDE0",
+          "#CAD6DB",
+          "#BBCFD7",
+          "#F6C5C7",
+          "#C5E4D1",
+          "#EFE0B8",
+          "#C9DFF2",
+          "#E4D1ED",
+          "#C6EAEC",
+          "#F2F1E6"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "bdd0ba4a7b87ac64768cc445494df1bfc2d9cfe3e414139646fda73e054524b8"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "67138d946ab61859018940561c1db9b68c603dcdc74f857ffcfb9b8468abd7f5"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "068159aee152195746a8102fe64909fe573155b8799914785e06a53e5ce03201"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "0d465ae982ba0007b7148c1ce49ddc43f96e7d8b67f2000bccc023b5e9fb3ddd"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "52312bf272fdfbd070b84451a13385ba1aefb5f9a3726c046591c32067632040"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "aedfa97cd14ba2dbee62855bf50875126706a617ff32f02e7519efa05b17126f"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "788bd845614bccb091b3647c09f538b33a5cb0e1580166e994f72b1cb9b8001b"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "26c8ed9746d5951419f9dcc6290ad808bb26efef45e92bd552e4ffd2669788af"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "a99f51a43d77f3f6a4aa1b97f0217b5e9a55ec18a7e51b40be41279b0d2c66ee"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "c08150b5f4ee2bbd02441e1e245a88cb8acc498e5036e93c21d1af9fd047a9f9"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        },
+        "opacity": 0.22
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        },
+        "opacity": 0.48
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        },
+        "opacity": 0.22
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        },
+        "opacity": 0.48
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Hollow Knight fan art. A tiny Knight crosses silver mist and ink-dark caverns, with engraved arches, bone-white surfaces, cold steel blue and pale aqua light.",
+  "tags": [
+    "hollow-knight",
+    "fan-art",
+    "gothic",
+    "ink",
+    "cavern",
+    "silver"
+  ],
+  "preview": "preview"
+}
