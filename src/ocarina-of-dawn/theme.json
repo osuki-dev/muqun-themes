@@ -1,0 +1,267 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "ocarina-of-dawn",
+  "name": "Ocarina of Dawn",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "Unofficial fan art; underlying IP belongs to Nintendo",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F1F3E8",
+        "surface": "#FAFCF3",
+        "surfaceRaised": "#E1E7D9",
+        "border": "#BDC8B6",
+        "borderStrong": "#7A8D78",
+        "text": "#203A31",
+        "textMuted": "#3D5546",
+        "textSubtle": "#475C4D",
+        "textDisabled": "#8C9A85",
+        "primary": "#2E5344",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#2E534410",
+        "danger": "#882F3A",
+        "dangerSubtle": "#882F3A10",
+        "success": "#2B5941",
+        "warning": "#78531A",
+        "info": "#2F536F"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#F1F3E8",
+        "backgroundOpacity": 0.97,
+        "foreground": "#203A31",
+        "cursor": "#2E5344",
+        "link": "#2F536F",
+        "selection": "#2E534430",
+        "ansi": [
+          "#203A31",
+          "#882F3A",
+          "#2B5941",
+          "#78531A",
+          "#2F536F",
+          "#674968",
+          "#285B59",
+          "#475C4D",
+          "#53664F",
+          "#943743",
+          "#34624B",
+          "#805921",
+          "#3C5A78",
+          "#755273",
+          "#376562",
+          "#203A31"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#14271F",
+        "surface": "#1D3127",
+        "surfaceRaised": "#293E31",
+        "border": "#526750",
+        "borderStrong": "#90A48A",
+        "text": "#F6F6DE",
+        "textMuted": "#DCE3CB",
+        "textSubtle": "#C8D3B8",
+        "textDisabled": "#8FA184",
+        "primary": "#E7D7A1",
+        "onPrimary": "#2D301C",
+        "primarySubtle": "#E7D7A110",
+        "danger": "#F6BCC1",
+        "dangerSubtle": "#F6BCC110",
+        "success": "#B7DCB6",
+        "warning": "#EEDA9F",
+        "info": "#BED9DD"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.95
+      },
+      "terminal": {
+        "background": "#14271F",
+        "backgroundOpacity": 0.97,
+        "foreground": "#F6F6DE",
+        "cursor": "#E7D7A1",
+        "link": "#BED9DD",
+        "selection": "#E7D7A130",
+        "ansi": [
+          "#BED1B4",
+          "#F6BCC1",
+          "#B7DCB6",
+          "#EEDA9F",
+          "#BED9DD",
+          "#D9C3DD",
+          "#BADBD1",
+          "#DCE3CB",
+          "#CCD9BE",
+          "#FFD3D6",
+          "#CDE9C9",
+          "#F6E8BC",
+          "#D2E7E8",
+          "#E8D8E9",
+          "#D0ECE1",
+          "#F6F6DE"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "0375ceec44cfec535a08eea435365053b681c41e9f635a4105b0076cd84b440a"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "8c8870211fa272a09a9d20f69b5de4d41b86e6a85db1bdfd027a114526725431"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "520d63cd217c9debcd9ac66cd8d91e2f98337aaca6f11f0fab8852a825da3b84"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "7033bcdfd0b58e137d19364589f2cb0e54ed107ffcd3417a83e5e3ae3917f822"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "241b8bb6a0b6d0339bdafcdde97528722b41ca06cb14a13139b5ae8bf5cb3e3c"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "4c53ce23aeb87ed14527af722fc7e83050dc390f03f27d38fddf519024518ec8"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "125a084f825f58eb6db5d0dc115f576ab70692bbc5c3fe5abf37371c33416a66"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "51ab414e17b7d56b9b704bb324bd19d0d1cb4dfb99c2ae39f58a5a70952702bb"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "092f9f1f5f6128c281ac5e081db86f8728d57525efcbbefe531b9d2c1395c1d7"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "504c5b51828e16c617a714ee6f341a8d04689f3d9e7ac6bb2732cf019e83e278"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "opacity": 0.28
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.82
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.82
+        },
+        "opacity": 0.82
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.28
+        },
+        "opacity": 0.28
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.82
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.82
+        },
+        "opacity": 0.82
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Zelda-inspired fan art: a blue ocarina and mossy sword pedestal among watercolor forest ruins. Mist, sage and pale gold meet deep woodland surfaces, with leaf-and-hook glyphs and a calm day/night terminal palette.",
+  "tags": [
+    "zelda",
+    "fan-art",
+    "watercolor",
+    "forest",
+    "ocarina",
+    "sage"
+  ],
+  "preview": "preview"
+}
