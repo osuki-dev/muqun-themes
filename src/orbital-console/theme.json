@@ -1,0 +1,220 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "orbital-console",
+  "name": "Orbital Console",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted)",
+  "license": "All rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F0F4F7",
+        "surface": "#FAFCFE",
+        "surfaceRaised": "#E1E9F0",
+        "border": "#BAC7D2",
+        "borderStrong": "#73889C",
+        "text": "#10253D",
+        "textMuted": "#354A60",
+        "textSubtle": "#42556B",
+        "textDisabled": "#8799AA",
+        "primary": "#933609",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#93360910",
+        "danger": "#8D283E",
+        "dangerSubtle": "#8D283E10",
+        "success": "#1C5D49",
+        "warning": "#775100",
+        "info": "#254F89"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#F0F4F7",
+        "backgroundOpacity": 0.96,
+        "foreground": "#10253D",
+        "cursor": "#933609",
+        "link": "#254F89",
+        "selection": "#93360930",
+        "ansi": [
+          "#10253D",
+          "#8D283E",
+          "#1C5D49",
+          "#775100",
+          "#254F89",
+          "#68457D",
+          "#205C70",
+          "#42556B",
+          "#4D6177",
+          "#953048",
+          "#26654C",
+          "#815307",
+          "#33568D",
+          "#744885",
+          "#2E6374",
+          "#10253D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#081727",
+        "surface": "#102135",
+        "surfaceRaised": "#192E45",
+        "border": "#3D546D",
+        "borderStrong": "#809AB1",
+        "text": "#F4F8FC",
+        "textMuted": "#CFDBE7",
+        "textSubtle": "#B7C9DB",
+        "textDisabled": "#7C95AC",
+        "primary": "#FFBD87",
+        "onPrimary": "#2C1A0F",
+        "primarySubtle": "#FFBD8714",
+        "danger": "#FFB5C2",
+        "dangerSubtle": "#FFB5C214",
+        "success": "#A7DFC5",
+        "warning": "#F3D69B",
+        "info": "#B5D5FA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.94
+      },
+      "terminal": {
+        "background": "#081727",
+        "backgroundOpacity": 0.96,
+        "foreground": "#F4F8FC",
+        "cursor": "#FFBD87",
+        "link": "#B5D5FA",
+        "selection": "#FFBD8730",
+        "ansi": [
+          "#B3C6D9",
+          "#FFB5C2",
+          "#A7DFC5",
+          "#F3D69B",
+          "#B5D5FA",
+          "#D8C1EC",
+          "#ACDDE8",
+          "#CFDBE7",
+          "#BFCFDF",
+          "#FFD0D8",
+          "#C0EAD7",
+          "#FCE5B8",
+          "#CFE3FC",
+          "#E7D7F4",
+          "#C7EBF2",
+          "#F4F8FC"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "586de9fdf368cef4d80620d66633ef394c570ba57db8ffd4fb44bfec59fb2808"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "bcf858460eff6c21c0b1b6c5465c551dbccfa740489f3f67bcd92d76089d1ab6"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "1c2700ce0a4ca14eb4be05bc8b523baf2e065592359b5fc92a65b0d3ab1dbd6e"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "c41d50d129751aa858ad82154a1a232d22c69b53ed4125e58496ca7122064ed0"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "168363f90df4fa90bce79157d71dfaf0fb1fe0cffe3497989169456b9769ee68"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "28d880d7ffde7fb99d30774aa711e938cd68495b493a62830f697f239fa74aa9"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "21fc80b7eecad9e8b2ba2d4153c2fe377f1b97c112493674ca007ef1c79ea32a"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "0b7c5aecf432b06a80895cb2e0dd32a4ecf66a828c5216a88670c81600ad5330"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "65fc5c2e5aaf19355c434cc726566c5833648b885ea5131b08f08973536081fa"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    }
+  },
+  "description": "Aerospace white, midnight navy and safety orange frame sculptural orbital hardware. Ceramic modules, docking rings and solar wings leave a clear center, with spacecraft-inspired template icons and a complete terminal palette.",
+  "tags": [
+    "space",
+    "orbital",
+    "aerospace",
+    "industrial",
+    "navy",
+    "orange"
+  ],
+  "preview": "preview"
+}
