@@ -25,4 +25,3 @@ Original square isolated illustration of an elegant small ceramic circuit module
 ## preview
 
 Dedicated theme gallery cover 1024x640 aspect ratio 8:5. Exact split vertical center: LEFT half pale celadon daylight based on reference1, RIGHT half near-black charcoal based on reference2. Elegant sparse circuit traces and node details from these two artworks, subtle phosphor green accents, large quiet center. No text no labels no UI mockups no devices no controls. Display the theme's two modes as a harmonious precise material diptych.
-
