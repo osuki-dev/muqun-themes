@@ -1,0 +1,267 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "harvest-and-starlight",
+  "name": "Harvest & Starlight",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection (AI-assisted fan art)",
+  "license": "Unofficial fan art; underlying game rights reserved",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF2D3",
+        "surface": "#FFF9E8",
+        "surfaceRaised": "#EEE3CB",
+        "border": "#C1AF8A",
+        "borderStrong": "#827458",
+        "text": "#30263E",
+        "textMuted": "#50425C",
+        "textSubtle": "#594760",
+        "textDisabled": "#958994",
+        "primary": "#385185",
+        "onPrimary": "#FFF8E3",
+        "primarySubtle": "#38518510",
+        "danger": "#8B302B",
+        "dangerSubtle": "#8B302B10",
+        "success": "#355A31",
+        "warning": "#72500E",
+        "info": "#3A5080"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#FFF2D3",
+        "backgroundOpacity": 0.97,
+        "foreground": "#30263E",
+        "cursor": "#385185",
+        "link": "#3A5080",
+        "selection": "#38518530",
+        "ansi": [
+          "#30263E",
+          "#8B302B",
+          "#355A31",
+          "#72500E",
+          "#385185",
+          "#74426F",
+          "#275C62",
+          "#594760",
+          "#614F68",
+          "#913C34",
+          "#3D6038",
+          "#76501D",
+          "#445687",
+          "#7A4774",
+          "#306169",
+          "#30263E"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#241B35",
+        "surface": "#30243F",
+        "surfaceRaised": "#3C2D4D",
+        "border": "#71617F",
+        "borderStrong": "#B2A0C2",
+        "text": "#FFF3CF",
+        "textMuted": "#E6D8E7",
+        "textSubtle": "#D4C6DF",
+        "textDisabled": "#9485A1",
+        "primary": "#B8D0FF",
+        "onPrimary": "#242A44",
+        "primarySubtle": "#B8D0FF12",
+        "danger": "#FFBBB1",
+        "dangerSubtle": "#FFBBB112",
+        "success": "#BFDEA8",
+        "warning": "#F1CF86",
+        "info": "#BCD5FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#241B35",
+        "backgroundOpacity": 0.97,
+        "foreground": "#FFF3CF",
+        "cursor": "#B8D0FF",
+        "link": "#BCD5FF",
+        "selection": "#B8D0FF30",
+        "ansi": [
+          "#D4C6DF",
+          "#FFBBB1",
+          "#BFDEA8",
+          "#F1CF86",
+          "#B8D0FF",
+          "#E1BCE9",
+          "#ACE0DE",
+          "#E6D8E7",
+          "#DCCDE8",
+          "#FFD3C8",
+          "#D2EABD",
+          "#FFE0A8",
+          "#D2E0FF",
+          "#F0D4F4",
+          "#C4EEEA",
+          "#FFF3CF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid"
+  },
+  "assets": {
+    "wide-light": {
+      "path": "assets/wide-light.webp",
+      "sha256": "176390e8d1d585b4ceaff3dabbe47b2bac22930298e9a2ee3e96bb9abce3ca80"
+    },
+    "wide-dark": {
+      "path": "assets/wide-dark.webp",
+      "sha256": "2fce8ddb3dbb923d93ff9ee9e5903301d2d4458c54796ce4f009237344876169"
+    },
+    "portrait-light": {
+      "path": "assets/portrait-light.webp",
+      "sha256": "d5e5b83a5222b202fc1099bc4aebcbd35245befd55f242d28ab2ae8482decfe7"
+    },
+    "portrait-dark": {
+      "path": "assets/portrait-dark.webp",
+      "sha256": "dedd84db318b09ac62c3b8f9696329c676aada1a41def6c0f4af84457d4b7388"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "dc7d42eb9de5a5451040312cfbb885920099ed7270b276fc37048be3600e4105"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "f71e6b6874b888f85a4582046b665575c9497178d5088f906195053e2f96c579"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "2ff996d504fc6bd6865675d809601cb547f1407cc3f56d4aa79b9f520abae5ea"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "68d3e7bacb3feebe0d007f73382cfb2e82b0f1fcb5f2c612cae41084048dec38"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "a212f858c607ed6fbcd3ccedb04f1ffa3399867a9ec2f656ee9b7e82077e6b13"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "6edf113c93172ae09f107eff6c67bec15b1ce9e8b746dbea10cf75e2a70ec106"
+    }
+  },
+  "decoration": {
+    "emptyState.illustration": {
+      "asset": "empty",
+      "fit": "contain"
+    },
+    "home.hero": {
+      "asset": "hero",
+      "fit": "contain"
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "opacity": 0.18
+      },
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "opacity": 0.5,
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.5
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.5
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.18
+        },
+        "opacity": 0.18
+      },
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "opacity": 0.5,
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover",
+          "opacity": 0.5
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.5
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  },
+  "description": "Unofficial Stardew Valley fan art. Honey-lit crops, cornflower skies and a cozy chicken-and-Junimo farm vignette in crafted 2D pixel art. Plum starlight, quiet reading surfaces and harvest-inspired glyphs.",
+  "tags": [
+    "stardew-valley",
+    "fan-art",
+    "pixel-art",
+    "farm",
+    "honey",
+    "starlight"
+  ],
+  "preview": "preview"
+}
