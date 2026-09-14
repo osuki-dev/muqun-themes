@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "2dfd389ded70312aa6bb6fe19e3d691e310b8a21d6377f78f9e6b56c6248959a"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "e22ba24b351d45ea893bb8f754a8df4609a7f329059c612805ff5ebfa31e2fe6"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

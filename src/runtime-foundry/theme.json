@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "runtime-foundry",
   "name": "Runtime Foundry",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Community; Go Gopher: Renee French; Python: PSF; Rust: Rust Foundation",
   "license": "CC-BY-4.0; Python logo under PSF trademark terms; see source CREDITS.md",
   "preview": "preview",
@@ -167,6 +167,14 @@
     "credits": {
       "path": "assets/credits.png",
       "sha256": "6ee99b49e6f7c2bf1e206324c9b6d9e054d08d1f21e501c8e86748e8be45cfd2"
+    },
+    "home-scene-light": {
+      "path": "assets/home-scene-light.png",
+      "sha256": "e618f96a63785721c6eff57a03f1b8e74e4966db4e6ec18f879d48c7ba4bee6c"
+    },
+    "home-scene-dark": {
+      "path": "assets/home-scene-dark.png",
+      "sha256": "f5fee6c9b522e38afd0e79bd6a5e7dfbfe7eb8d216156f3020378caeb7b22e54"
     }
   },
   "decoration": {},
@@ -227,7 +235,7 @@
         "opacity": 1
       },
       "home.hero": {
-        "asset": "empty-light",
+        "asset": "home-scene-light",
         "fit": "contain",
         "opacity": 1
       }
@@ -274,7 +282,7 @@
         "opacity": 1
       },
       "home.hero": {
-        "asset": "empty-dark",
+        "asset": "home-scene-dark",
         "fit": "contain",
         "opacity": 1
       }

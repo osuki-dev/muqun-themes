@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aperture-afterhours",
   "name": "Aperture Afterhours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "Unofficial fan art; underlying rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "wide-light": {
       "path": "assets/wide-light.webp",
       "sha256": "4e421212e7844537272deacfaeea61b9d5e6b0417da90628856cf4b11ab5651f"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "2dd32d344aba5819aa5a42de8625b8d1721c3fcffb64ac8763d99b206733efd0"
     }
   },
   "decoration": {
@@ -155,8 +159,19 @@
       "fit": "contain"
     },
     "home.hero": {
-      "asset": "hero",
-      "fit": "contain"
+      "asset": "home-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "compact": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      }
     }
   },
   "icons": {
@@ -201,6 +216,21 @@
           "asset": "wide-light",
           "fit": "cover"
         }
+      },
+      "home.hero": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     },
     "dark": {
@@ -229,6 +259,21 @@
         "regular": {
           "asset": "wide-dark",
           "fit": "cover"
+        }
+      },
+      "home.hero": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         }
       }
     }

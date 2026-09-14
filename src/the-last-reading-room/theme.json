@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "United Kingdom / London. An oak-lined reading room in tobacco, parchment and brass, with Arts and Crafts foliage, rain-lit windows and original book-inspired glyphs.",
@@ -156,6 +156,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "d2f263dac58047943cd6d0dbc21912033471d71abb1b5f85ecce9060c13d8b77"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "d9053cfbd57ed1e0edf1c6177f80f493291562e65377324ed0f174855c43e8da"
     }
   },
   "decoration": {
@@ -183,7 +187,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -205,7 +209,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

@@ -9,3 +9,5 @@ Independent wide and portrait compositions keep detail near the edges. A contain
 CLI 1.8.1 validation, contrast, package round trip and package validation passed with nine assets. Shared interface and terminal contrast floors are 91%; authored opacity is 96%. All six illustrations and 17px/34px tinted glyphs were inspected locally.
 
 Browser screenshots confirmed the dark Phone Home, Conversation and Terminal views. Dark tablet views were partially inspected. Light mode loaded, but screenshot capture and subsequent browser interaction failed; full light and tablet visual review remains pending.
+
+The dedicated Home hero presents a porcelain research pod beneath luminous mushroom canopies. It is a separate transparent composition from the preserved empty-state illustration and is used in both modes and responsive sizes.

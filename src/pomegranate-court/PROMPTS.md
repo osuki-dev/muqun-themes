@@ -37,3 +37,7 @@ Use case: logo-brand. Asset: original Muqun Spain theme icon-send. 1024x1024 tra
 ## icon-attach
 
 Use case: logo-brand. Asset: original Muqun Spain theme icon-attach. 1024x1024 transparent. A single bold black silhouette glyph: paperclip whose upper loop is a pointed horseshoe arch, clear long U-shaped inner transparent gap, thick stroke, subtle tiled angular shoulders. Unmistakably a paperclip attachment symbol, legible at 17px. Actual alpha transparency; black shapes only, no backdrop, no shadow, no lettering. Centered with 12% margins. No text.
+
+## home-hero
+
+Create one original standalone app Home hero illustration. A Granada courtyard garden with two delicate terracotta horseshoe arches framing a slender turquoise fountain jet and aubergine-leaf climbing vine, patterned mosaic paving forming a contained foreground island. No pomegranate or fruit bowl. Sophisticated ceramic-inspired gouache with hand-painted tile geometry, terracotta, aubergine and turquoise. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.

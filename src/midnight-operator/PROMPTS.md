@@ -25,3 +25,7 @@ Original square isolated illustration of an elegant small ceramic circuit module
 ## preview
 
 Dedicated theme gallery cover 1024x640 aspect ratio 8:5. Exact split vertical center: LEFT half pale celadon daylight based on reference1, RIGHT half near-black charcoal based on reference2. Elegant sparse circuit traces and node details from these two artworks, subtle phosphor green accents, large quiet center. No text no labels no UI mockups no devices no controls. Display the theme's two modes as a harmonious precise material diptych.
+
+## Home illustration
+
+Create a new standalone Home illustration, square 1024x1024, true transparent background. An original sculptural electronic relay garden: three vertical charcoal ceramic fins of different heights connected by delicate luminous phosphor-green etched circuit tracks on a low pale celadon hexagonal plinth, one small floating green orb between fins. Understated precision industrial art, matte ceramic, restrained glow. NOT a folded ribbon or loop. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.

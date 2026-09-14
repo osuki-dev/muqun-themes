@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "3dea869e616da506398266837e330437ef50d321a28fcc9d8a0d49fddbad5554"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "42fa48633d65525273544b15374ff1e878a611cf51acc3b6083748dfd8fad316"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

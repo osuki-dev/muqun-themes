@@ -37,3 +37,7 @@ Use case: logo-brand. One small aerospace-theme send icon, black silhouette on g
 ## icon-attach
 
 Use case: logo-brand. One small aerospace-theme attachment icon, black silhouette on genuinely transparent PNG. A clearly recognizable paperclip loop constructed as a chamfered docking clamp, squared rounded corners and a single open gap, bold continuous shape and broad hollow center. Clean precise industrial geometry, readable at17px. Centered square,12percent margins. No extra elements, no texture, no text, no fine detail, no glow, no shadow, no background.
+
+## Home illustration
+
+Create a new standalone Home illustration, square 1024x1024, true transparent background. An original miniature orbital observatory: large open segmented white ceramic torus standing diagonally, orange docking bridge crossing its opening, two short navy solar fins around a small central spherical sensor, elegant aerospace hardware. Distinct station silhouette, not a cylindrical satellite with two rectangular wings. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.

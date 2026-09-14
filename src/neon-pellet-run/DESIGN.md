@@ -9,3 +9,5 @@ The back glyph combines a maze chevron and pellet, send uses a directional open-
 CLI 1.9.0 validation, contrast and package round trip passed with nine assets. Shared interface and terminal floors are 89% and 88%; authored opacity is 97%. Artwork and glyphs were inspected locally, including 17px and 34px tint checks.
 
 Browser preview loaded theme and device labels, including the home.hero declaration. Screenshot capture and interaction were unavailable, so device appearance and gallery hero rendering remain unverified.
+
+The dedicated Home hero presents Pac-Man and two ghosts circling a violet maze arc. It is a separate transparent composition from the preserved empty-state illustration and is used in both modes and responsive sizes.

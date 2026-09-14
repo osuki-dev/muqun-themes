@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aegean-paperlight",
   "name": "Aegean Paperlight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "6432c48c5bb3967b95920775649587d8e5cb43a8094b38fa1810f7bc1bba4d6d"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "5c7402e4ab087cdbf9086a858859f1ce819b1649f98a99ec8eda33b7a6c075ae"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

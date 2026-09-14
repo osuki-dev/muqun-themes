@@ -11,3 +11,7 @@ Four dedicated wallpapers support portrait and wide layouts in both modes. The e
 CLI1.8.1 validation, contrast, package round trip, packaged validation and full source check passed; all nine assets are present and this theme has no warnings. Shared opacity floors are91% for interface and90% for terminal; authored opacity is96%.
 
 All four wallpapers, transparent sculpture, split cover and three glyphs were visually inspected. Glyphs were tinted at17px and34px on both palettes. The approved browser preview was inspected in both modes: Phone Home, Conversation and Terminal, and Tablet Home and Terminal. No clipping, unreadable text or missing artwork was observed in those gallery renderings. This does not claim a native device import test.
+
+## Home illustration
+
+A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.

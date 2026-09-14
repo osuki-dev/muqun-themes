@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "midnight-operator",
   "name": "Midnight Operator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d5aa859aee4bac5cdaf55cf45dda54c14777f4ef9557fc3b0b9e1cdb19a3892f"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "ace73e36a9d6a2be657dcaae75ecd28a3ce57d3ad8d448c0c2550cf38ff96240"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

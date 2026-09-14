@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "one-piece-grand-voyage",
   "name": "One Piece — Grand Voyage",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Muqun custom theme · AI-assisted fan art",
   "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
-  "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Chopper Home illustration and nautical rope-and-sail glyphs.",
+  "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Luffy Home illustration and nautical rope-and-sail glyphs.",
   "tags": [
     "one-piece",
     "anime",
@@ -176,6 +176,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "a1a1d55de923eb813bd8f58c229f8bf48be7b642026dccf6cc0d60c32a3497e4"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "f7fe7fb14c378298887d150763b78b1779076b928e823b6ff566efbc1a19aae6"
     }
   },
   "variantDecorations": {
@@ -239,15 +243,18 @@
         "fit": "contain"
       },
       "home.hero": {
-        "asset": "empty-light",
+        "asset": "home-hero",
         "fit": "contain",
+        "opacity": 1,
         "compact": {
-          "asset": "empty-light",
-          "fit": "contain"
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
-          "asset": "empty-light",
-          "fit": "contain"
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         }
       }
     },
@@ -311,15 +318,18 @@
         "fit": "contain"
       },
       "home.hero": {
-        "asset": "empty-dark",
+        "asset": "home-hero",
         "fit": "contain",
+        "opacity": 1,
         "compact": {
-          "asset": "empty-dark",
-          "fit": "contain"
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
-          "asset": "empty-dark",
-          "fit": "contain"
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         }
       }
     }
@@ -349,6 +359,23 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    }
+  },
+  "decoration": {
+    "home.hero": {
+      "asset": "home-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "compact": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1
+      }
     }
   }
 }

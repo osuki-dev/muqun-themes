@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -151,6 +151,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "5580fa4f9b980b15be9f889353997e92d26fa2e54621350545a97695c506903b"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "f703e55745d1379adf395c8fc4dbedfb161db4d6f1cdad3b319a5d19e254b2c7"
     }
   },
   "decoration": {
@@ -207,7 +211,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -240,7 +244,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

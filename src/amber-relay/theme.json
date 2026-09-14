@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "description": "Analog signal craft in amber, bakelite brown and warm bone. Screenprinted oscilloscopes, copper coils and glass valves pair with cable, transmission and connector glyphs across daylight and late-night workspaces.",
@@ -190,6 +190,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d7a0fbdf4d1b35b90600b057eaf2c11714048f333f059ab5da7777f2e3be8100"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "963f90a572fbf7371dd6ab02e6c3fd83cd9aaae9054006b3cf1d14a2d082b33c"
     }
   },
   "decoration": {
@@ -225,7 +229,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-valve",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -255,7 +259,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty-valve",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

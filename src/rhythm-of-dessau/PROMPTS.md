@@ -37,3 +37,7 @@ Use case: logo-brand. Single small UI template icon, solid opaque black silhouet
 ## icon-attach
 
 Use case: logo-brand. Single small UI template icon, solid opaque black silhouette on genuinely transparent background. A thick squared paperclip formed from two nested rectangular U shapes with rounded inner corners, Bauhaus tubular steel furniture inspiration, clear open inner channel, unmistakable attachment paperclip. Centered square canvas with 12 percent transparent margin. Extremely clear at 17px, thick forms, no shading, no texture, no text, no white background, no thin lines.
+
+## Home illustration
+
+Create a new standalone Home illustration, square 1024x1024, true transparent background. An original modernist screenprint-style architectural sculpture: three staggered concrete-white terraces linked by a graphite external staircase, a vermilion cylinder on the lowest terrace and a small yellow cantilever canopy projecting left. Crisp screenprint grain, geometric architectural rhythm. Not a glass cube crossed by red semicircle and yellow panel. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.

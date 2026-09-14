@@ -45,3 +45,7 @@ Use case: logo-brand. Amber Relay UI attachment icon. Black opaque bold silhouet
 ## preview
 
 Use case: ads-marketing. Amber Relay gallery preview, landscape8:5 final1024x640. Equal vertical light-left and dark-right halves. Left half uses reference1's warm bone/bakelite/amber analog laboratory screenprint; right half uses reference2's deep bakelite/amber night laboratory screenprint. Bring each oscilloscope, coils and glowing valves visibly into its half with thoughtful cropped composition; emphasize matching physical hardware and halftone craft, preserve exact style. No text, no titles, no labels, no mock phones, no fake UI controls, no logos. The only instrument screen mark is an abstract amber sinewave. Clear center split, crisp premium restrained screenprint.
+
+## Standalone Home illustration
+
+Create a NEW standalone square Home illustration for a Muqun theme. Reference image is only for matching original identity, material and palette; do not crop, reuse or reproduce its pose. Amber Relay: an entirely new analog radio receiver with a large circular tuning dial, copper antenna loop and curled bakelite headphones resting beside it. Amber glowing glass, dark brown bakelite, warm bone screenprint grain. Do NOT make a lone glass valve. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration.

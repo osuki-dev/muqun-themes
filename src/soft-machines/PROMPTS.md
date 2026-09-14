@@ -37,3 +37,7 @@ Original single black template UI attachment glyph on transparent background. A 
 ## Preview
 
 Original wide light and dark artworks supplied as references. Equal left-light/right-dark cover, title "Soft Machines" in rounded contemporary sans serif, sculptural mint silicone, pearl resin and frosted lilac forms below quiet title area. No UI, device frames or logos. Output1024x640 PNG.
+
+## Home illustration
+
+Create a new standalone Home illustration, square 1024x1024, true transparent background. An original soft 2.5D kinetic sculpture: three pearl-resin rounded paddles orbit a small mint silicone sphere on a low smoky-lilac glass crescent cradle, asymmetrical mobile-like balance with frosted refraction and broad soft highlights. No torus threaded by horizontal capsule, no stacked donut forms. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.

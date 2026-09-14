@@ -43,3 +43,9 @@ Square 1024x1024 UI glyph on genuinely TRANSPARENT background. Single solid BLAC
 Edit this cover. Keep the gorgeous ceramic artwork, layout, colors and the exact main title 'Atlantic in Azulejo' with 'PORTUGAL' unchanged. Remove ALL other lettering entirely: the Portuguese wall plaque at left should instead contain a painted blue swallow with no text; the bottom cartouche should contain painted blue waves with no text; the tram destination should show only number 28, no LISBOA. No new text anywhere. Preserve all other art.
 
 Icon rasters were trimmed to their alpha bounds, fitted within 110 pixels and centered on a 128-pixel transparent canvas.
+
+## home-hero
+
+Lisbon Portugal, a charming lemon-yellow vintage tram turning on a short curved cobalt-and-white azulejo tile street, tiny ceramic streetlamp, elegant glazed porcelain hand-painted textures. No bird, no numbers, no lettering. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
+
+Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.

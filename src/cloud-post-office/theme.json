@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun · AI-assisted original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "preview": {
       "path": "assets/preview.webp",
       "sha256": "02907dc766455433f4635321556689d331ba3f04446f9bfe2742540e4b7ce6fb"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "b0eafa23166f7af969b32c6995e70346c2b0aed15ef33bb2fdd49807ac4430a2"
     }
   },
   "decoration": {
@@ -182,7 +186,7 @@
         }
       },
       "home.hero": {
-        "asset": "paper-courier",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -212,7 +216,7 @@
         }
       },
       "home.hero": {
-        "asset": "paper-courier",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "66f32afcd2dd04784bde326340081c0f98eb9fe2cd09fe886da497d9eb818c49"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "c85d7867d2ce8db7dca09a61f20c0f371604e9c4fafde59fc881781a3099c255"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection (AI-assisted)",
   "license": "All rights reserved",
   "variants": {
@@ -147,6 +147,10 @@
     "icon-attach": {
       "path": "assets/icon-attach.png",
       "sha256": "a4e9f8e7d84cde5cc5c39ec38b8bc321341e78a6b4c5dc4dfd05a4b8502652c6"
+    },
+    "home-hero": {
+      "path": "assets/home-hero.png",
+      "sha256": "4a57f546c822fb8343a70e0f2092b967512fd77269d15d8b456852d29aeeadc1"
     }
   },
   "decoration": {
@@ -184,7 +188,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     },
@@ -202,7 +206,7 @@
         }
       },
       "home.hero": {
-        "asset": "empty",
+        "asset": "home-hero",
         "fit": "contain"
       }
     }

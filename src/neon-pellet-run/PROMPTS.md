@@ -25,3 +25,7 @@ Original abstract retro-vector arcade still life on a genuinely transparent squa
 ## preview
 
 Create a gallery cover1024x640 ratio8:5 based on these two original arcade wallpapers. Exact center vertical split: light pale lemon half on LEFT, dark midnight ink half on RIGHT. Retain violet edge maze paths, little yellow wedge-mouth circle and cyan coral ghost motifs from each reference at bottom. Large quiet center; no text no score no HUD. Clean equal split, original composition.
+
+## Dedicated Home hero
+
+Original unofficial Pac-Man fan art, graphic vector arcade Home illustration. Recognizable yellow Pac-Man open wedge mouth dashing around a curved violet miniature maze arc, followed by cyan and pink ghosts with white eyes, three tiny yellow pellets. Flat crisp luminous vector edges, playful complete centered scene square768 actual transparent background,15percent clear margins all sides. No text numbers HUD logo or rectangle background.

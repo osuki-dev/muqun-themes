@@ -11,3 +11,7 @@ Four independently generated wallpapers cover light/dark phone and tablet layout
 Original artwork, the diptych cover and transparent edges were inspected. All three icons were reviewed in both theme tints at 17 px and 34 px.
 
 The browser preview was visually inspected in both modes: phone Home, Conversation and Terminal, plus tablet Home and Terminal. Labels and controls remained legible, the artwork loaded, and the terminal background remained subdued. The gallery does not expose a separate tablet Conversation view. This is browser gallery verification, not an on-device import test.
+
+## Home illustration
+
+A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.

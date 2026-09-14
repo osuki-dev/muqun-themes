@@ -35,3 +35,7 @@ An original geometric palette diagram: equal light/dark halves, actual theme sur
 ## Garden illustration
 
 Create a single square transparent-background pixel-art illustration for Mushroom Daybreak, a warm classic platform-game inspired theme. A tiny floating grassy brick garden with two charming red-and-cream mushrooms, a small golden star hovering above, and a little blue cloud accent. Restrained 16-bit pixel art with crisp square pixels, rust red, warm cream, grass green, muted blue and honey gold. Centered complete silhouette with generous transparent margins; no text, no UI, no frame, no characters. Designed as a contained empty-state and Home illustration, readable on both cream and navy backgrounds. Save a real transparent PNG.
+
+## Dedicated Home hero
+
+Original playful pixel-art Home illustration: a tiny whimsical cream stone castle with bright red conical roofs and a winding blue moat, floating on a grassy brick island, small gold coin and cloud beside tallest tower. Sophisticated crisp 2D pixel clusters, warm brick red, skyblue and butteryellow palette. No characters, no mushrooms. Square image isolated on genuine transparent background, complete centered scene with generous15percent margin each side. No text no logo no HUD no background.
