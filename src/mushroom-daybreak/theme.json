@@ -197,10 +197,6 @@
         },
         "opacity": 0.24
       },
-      "home.decoration": {
-        "asset": "wide-light",
-        "fit": "contain"
-      },
       "emptyState.illustration": {
         "asset": "garden",
         "fit": "contain",
@@ -241,10 +237,6 @@
           "opacity": 0.24
         },
         "opacity": 0.24
-      },
-      "home.decoration": {
-        "asset": "wide-dark",
-        "fit": "contain"
       },
       "emptyState.illustration": {
         "asset": "garden",

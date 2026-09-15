@@ -216,18 +216,6 @@
           "fit": "cover"
         }
       },
-      "home.decoration": {
-        "asset": "banner-light",
-        "fit": "contain",
-        "compact": {
-          "asset": "banner-light",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "banner-light",
-          "fit": "contain"
-        }
-      },
       "home.hero": {
         "asset": "home-hero",
         "fit": "contain"
@@ -244,18 +232,6 @@
         "regular": {
           "asset": "wide-dark",
           "fit": "cover"
-        }
-      },
-      "home.decoration": {
-        "asset": "banner-dark",
-        "fit": "contain",
-        "compact": {
-          "asset": "banner-dark",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "banner-dark",
-          "fit": "contain"
         }
       },
       "home.hero": {
