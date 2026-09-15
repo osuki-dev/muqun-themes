@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.0.2",
-  "author": "Muqun Theme Collection (AI-assisted)",
+  "version": "1.0.3",
+  "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
     "light": {

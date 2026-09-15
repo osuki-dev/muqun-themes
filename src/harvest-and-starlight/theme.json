@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "harvest-and-starlight",
   "name": "Harvest & Starlight",
-  "version": "1.0.0",
-  "author": "Muqun Theme Collection (AI-assisted fan art)",
+  "version": "1.0.1",
+  "author": "Muqun Theme Collection (fan art)",
   "license": "Unofficial fan art; underlying game rights reserved",
   "variants": {
     "light": {

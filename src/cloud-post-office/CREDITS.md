@@ -1,6 +1,6 @@
 # Cloud Post Office — Credits
 
-Author: Muqun · AI-assisted original artwork. License: All rights reserved.
+Author: Muqun · original artwork. License: All rights reserved.
 
 All illustrations and current icons were generated for this theme with the built-in image_gen tool. No third-party artwork was used as a visual input. Full prompts and processing provenance are in PROMPTS.md.
 

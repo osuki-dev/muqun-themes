@@ -7,7 +7,7 @@
 - Country: France
 - Place: Paris
 - Version: 1.1.0
-- Author / attribution label: Muqun Theme Collection (AI-assisted)
+- Author / attribution label: Muqun Theme Collection
 - Created: 2026-09-13
 - License: All rights reserved. See LICENSE.md.
 
