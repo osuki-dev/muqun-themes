@@ -224,11 +224,6 @@
           "opacity": 0.75
         }
       },
-      "home.decoration": {
-        "asset": "banner-light",
-        "fit": "contain",
-        "opacity": 1
-      },
       "emptyState.illustration": {
         "asset": "empty-light",
         "fit": "contain",
@@ -270,11 +265,6 @@
           "fit": "cover",
           "opacity": 0.75
         }
-      },
-      "home.decoration": {
-        "asset": "banner-dark",
-        "fit": "contain",
-        "opacity": 1
       },
       "emptyState.illustration": {
         "asset": "empty-dark",

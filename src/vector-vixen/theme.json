@@ -198,10 +198,6 @@
         },
         "opacity": 0.32
       },
-      "home.decoration": {
-        "asset": "banner-light",
-        "fit": "contain"
-      },
       "home.hero": {
         "asset": "home-hero",
         "fit": "contain"
@@ -222,10 +218,6 @@
           "opacity": 0.32
         },
         "opacity": 0.32
-      },
-      "home.decoration": {
-        "asset": "banner-dark",
-        "fit": "contain"
       },
       "home.hero": {
         "asset": "home-hero",

@@ -161,10 +161,6 @@
     "emptyState.illustration": {
       "asset": "empty",
       "fit": "contain"
-    },
-    "home.decoration": {
-      "asset": "peek",
-      "fit": "contain"
     }
   },
   "icons": {
