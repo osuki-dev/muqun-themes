@@ -1,0 +1,233 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "hydrangea-window",
+  "name": "紫陽花の窓辺",
+  "version": "1.0.0",
+  "author": "OpenAI",
+  "license": "CC-BY-4.0",
+  "description": "梅雨の窓辺に咲く紫陽花と柔らかな光を閉じ込めた静謐なテーマ。",
+  "tags": [
+    "japan",
+    "youth",
+    "illustration",
+    "hydrangea-window"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EEF0F8",
+        "surface": "#FAFAFE",
+        "surfaceRaised": "#DFE2F1",
+        "border": "#C8CDE2",
+        "borderStrong": "#858EAD",
+        "text": "#23253A",
+        "textMuted": "#626984",
+        "textSubtle": "#626984",
+        "textDisabled": "#858EAD",
+        "primary": "#5A68A8",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#5A68A81A",
+        "danger": "#A32622",
+        "dangerSubtle": "#A3262214",
+        "success": "#176B4D",
+        "warning": "#8A5A12",
+        "info": "#2E5EAA"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#EEF0F8",
+        "backgroundOpacity": 1,
+        "foreground": "#23253A",
+        "cursor": "#5A68A8",
+        "link": "#2E5EAA",
+        "selection": "#5A68A838",
+        "ansi": [
+          "#EEF0F8",
+          "#A32622",
+          "#176B4D",
+          "#8A5A12",
+          "#2E5EAA",
+          "#956FBA",
+          "#31959A",
+          "#626984",
+          "#858EAD",
+          "#CF4941",
+          "#32916A",
+          "#AF7A25",
+          "#4E7CC6",
+          "#D1A9F2",
+          "#74DCE0",
+          "#23253A"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#11152D",
+        "surface": "#1A2040",
+        "surfaceRaised": "#252B50",
+        "border": "#394064",
+        "borderStrong": "#6B7397",
+        "text": "#F4F2FF",
+        "textMuted": "#C8C6E6",
+        "textSubtle": "#C8C6E6",
+        "textDisabled": "#6B7397",
+        "primary": "#A9A4F4",
+        "onPrimary": "#17142F",
+        "primarySubtle": "#A9A4F41A",
+        "danger": "#FF8A80",
+        "dangerSubtle": "#FF8A8014",
+        "success": "#70D2A5",
+        "warning": "#F2BE63",
+        "info": "#8DB9FF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#11152D",
+        "backgroundOpacity": 1,
+        "foreground": "#F4F2FF",
+        "cursor": "#A9A4F4",
+        "link": "#9DC5FF",
+        "selection": "#A9A4F438",
+        "ansi": [
+          "#11152D",
+          "#FF8A80",
+          "#70D2A5",
+          "#F2BE63",
+          "#8DB9FF",
+          "#956FBA",
+          "#31959A",
+          "#C8C6E6",
+          "#6B7397",
+          "#CF4941",
+          "#32916A",
+          "#AF7A25",
+          "#4E7CC6",
+          "#D1A9F2",
+          "#74DCE0",
+          "#F4F2FF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "background-light": {
+      "path": "assets/background-light.png"
+    },
+    "background-dark": {
+      "path": "assets/background-dark.png"
+    },
+    "hero-light": {
+      "path": "assets/hero-light.png"
+    },
+    "hero-dark": {
+      "path": "assets/hero-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.background": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.16
+      },
+      "home.background": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.62
+      },
+      "home.hero": {
+        "asset": "hero-light",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
+    },
+    "dark": {
+      "shell.background": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "home.background": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.68
+      },
+      "home.hero": {
+        "asset": "hero-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "雨に咲く"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "hero": {
+      "mode": "default"
+    }
+  }
+}
