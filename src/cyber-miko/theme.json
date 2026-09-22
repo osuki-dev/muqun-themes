@@ -90,6 +90,10 @@
       "surfaces": {
         "backgroundOpacity": 1
       },
+      "effects": {
+        "ambient": "particles",
+        "intensity": 0.7
+      },
       "terminal": {
         "background": "#0C0816",
         "backgroundOpacity": 1,

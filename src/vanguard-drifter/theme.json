@@ -90,6 +90,10 @@
       "surfaces": {
         "backgroundOpacity": 1
       },
+      "effects": {
+        "ambient": "rain",
+        "intensity": 0.6
+      },
       "terminal": {
         "background": "#090B10",
         "backgroundOpacity": 1,
