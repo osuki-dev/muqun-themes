@@ -1,0 +1,180 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "scene-voyager",
+  "name": "Scene Voyager",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EF5841",
+        "surface": "#FFF5DE",
+        "surfaceRaised": "#F4E6C8",
+        "border": "#E0DAD1",
+        "borderStrong": "#C2B9AE",
+        "text": "#11110F",
+        "textMuted": "#221711",
+        "textSubtle": "#221711",
+        "textDisabled": "#A7ADB8",
+        "primary": "#151719",
+        "onPrimary": "#FFF5DE",
+        "primarySubtle": "#15171910",
+        "danger": "#31100C",
+        "dangerSubtle": "#31100C12",
+        "success": "#10291C",
+        "warning": "#342108",
+        "info": "#101D38"
+      },
+      "terminal": {
+        "background": "#FFF5DE",
+        "foreground": "#151719",
+        "cursor": "#C54337",
+        "link": "#3455DC",
+        "selection": "#FF5A4A24",
+        "ansi": [
+          "#050B12",
+          "#D93025",
+          "#027A48",
+          "#B54708",
+          "#3538CD",
+          "#6941C6",
+          "#0E7090",
+          "#475467",
+          "#6A7281",
+          "#B42318",
+          "#027A48",
+          "#B54708",
+          "#3E63FF",
+          "#7F56D9",
+          "#0E7090",
+          "#050B12"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0C2457",
+        "surface": "#122D5F",
+        "surfaceRaised": "#1C396D",
+        "border": "#304E7D",
+        "borderStrong": "#677FAB",
+        "text": "#FFF5DE",
+        "textMuted": "#D9DCCF",
+        "textSubtle": "#BDCCE6",
+        "textDisabled": "#6B7585",
+        "primary": "#F7D777",
+        "onPrimary": "#10204B",
+        "primarySubtle": "#F7D77720",
+        "danger": "#FFABA3",
+        "dangerSubtle": "#FFABA314",
+        "success": "#34C08B",
+        "warning": "#F0A93C",
+        "info": "#A4BCFD"
+      },
+      "terminal": {
+        "background": "#0A1B3C",
+        "foreground": "#FFF5DE",
+        "cursor": "#F7D777",
+        "link": "#A4BCFD",
+        "selection": "#F7D77735",
+        "ansi": [
+          "#0C121A",
+          "#F2554A",
+          "#34C08B",
+          "#F0A93C",
+          "#7DA2FF",
+          "#C7A0FF",
+          "#67E3F9",
+          "#B6BDC8",
+          "#6B7585",
+          "#FDA29B",
+          "#6CE9A6",
+          "#FEC84B",
+          "#A4BCFD",
+          "#D6BBFB",
+          "#A5F0FC",
+          "#FCFBFA"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "preview": {
+      "path": "assets/preview.png"
+    },
+    "artwork-light": {
+      "path": "assets/artwork-light.png"
+    },
+    "artwork-dark": {
+      "path": "assets/artwork-dark.png"
+    }
+  },
+  "decoration": {},
+  "icons": {},
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "artwork-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "artwork-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "MUQUN"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "From vermilion city streets to indigo orbit. Two original manga collage illustrations, cream work surfaces, and one foreground artwork shared by Classic and Editorial Home.",
+  "tags": [
+    "manga",
+    "city",
+    "space",
+    "vermilion",
+    "indigo",
+    "editorial"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  }
+}
