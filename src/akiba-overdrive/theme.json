@@ -2,7 +2,7 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "akiba-overdrive",
-  "name": "秋葉原 Overdrive",
+  "name": "Akiba Overdrive",
   "version": "1.0.0",
   "author": "Muqun",
   "license": "CC0-1.0",
@@ -191,6 +191,15 @@
           "x": 0.5,
           "y": 0.5
         }
+      },
+      "shell.background": {
+        "asset": "artwork-light",
+        "fit": "cover",
+        "opacity": 0.15,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.4
+        }
       }
     },
     "dark": {
@@ -201,6 +210,15 @@
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
+        }
+      },
+      "shell.background": {
+        "asset": "artwork-dark",
+        "fit": "cover",
+        "opacity": 0.22,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.4
         }
       }
     }
