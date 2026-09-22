@@ -90,10 +90,6 @@
       "surfaces": {
         "backgroundOpacity": 1
       },
-      "effects": {
-        "ambient": "rain",
-        "intensity": 0.6
-      },
       "terminal": {
         "background": "#090B10",
         "backgroundOpacity": 1,
@@ -164,7 +160,7 @@
     }
   },
   "decoration": {
-    "empty.artwork": {
+    "emptyState.illustration": {
       "asset": "empty",
       "fit": "contain"
     }
@@ -202,7 +198,7 @@
           "y": 0.5
         }
       },
-      "shell.wallpaper": {
+      "shell.background": {
         "asset": "wallpaper-light",
         "fit": "cover",
         "opacity": 0.25,
@@ -222,7 +218,7 @@
           "y": 0.5
         }
       },
-      "shell.wallpaper": {
+      "shell.background": {
         "asset": "wallpaper-dark",
         "fit": "cover",
         "opacity": 0.35,

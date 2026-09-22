@@ -5,3 +5,5 @@ Original illustrations generated for this theme on 2026-09-22. Released by the a
 - `assets/artwork-light.png`: anime cyber shrine maiden (miko) with fiber-optic cords and floating holographic talismans on a high-tech shrine pavilion overlooking Neo-Tokyo at dawn.
 - `assets/artwork-dark.png`: the same cyber miko standing before a colossal glowing neon vermilion Torii gate at midnight under a massive holographic moon.
 - `assets/preview.png`: split-palette gallery composition derived from those two illustrations (1024 × 640).
+- `assets/empty.png`: square 1:1 portrait vignette of the cyber miko.
+- `assets/icon-*.png`: custom cyber-shrine talisman and circuitry vector icons created for this theme.
