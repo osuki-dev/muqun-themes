@@ -17,3 +17,7 @@ Back, send, and attach are custom monochrome template icons matched to the theme
 ## Validation
 
 CLI validation, contrast, package round trip and the 60-theme source check with required previews pass. The current published CLI reports the newer `homePresentation` field as an ignored compatibility warning. The package contains eight assets and packs to 2.17 MiB. Shared interface and terminal opacity floors are both 99%.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

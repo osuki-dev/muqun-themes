@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun · original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -246,7 +246,7 @@
   },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "description": "Send your thoughts beyond the clouds. An original anime-inspired post office with cloud-sea railways by day, starlit letters by night, and a paper-bird courier. Separate artwork for phone and wide-screen layouts.",
   "tags": [

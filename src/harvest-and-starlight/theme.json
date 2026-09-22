@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harvest-and-starlight",
   "name": "Harvest & Starlight",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun Theme Collection (fan art)",
   "license": "Unofficial fan art; underlying game rights reserved",
   "variants": {
@@ -280,7 +280,7 @@
   },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "description": "Unofficial Stardew Valley fan art. Honey-lit crops, cornflower skies and a cozy chicken-and-Junimo farm vignette in crafted 2D pixel art. Plum starlight, quiet reading surfaces and harvest-inspired glyphs.",
   "tags": [

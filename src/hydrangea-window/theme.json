@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "hydrangea-window",
   "name": "紫陽花の窓辺",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "梅雨の窓辺に咲く紫陽花と柔らかな光を閉じ込めた静謐なテーマ。",
@@ -232,6 +232,6 @@
   },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   }
 }
