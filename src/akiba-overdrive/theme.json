@@ -1,0 +1,180 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "akiba-overdrive",
+  "name": "秋葉原 Overdrive",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "description": "Cyberpunk Akihabara tech bazaar. Vibrant light-mode hardware workshop with cyan & amber accents; midnight rain back-alley hacker den with neon magenta & electric teal.",
+  "tags": [
+    "anime",
+    "cyberpunk",
+    "akihabara",
+    "neon",
+    "hacker",
+    "japan"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EAF0F3",
+        "surface": "#F6F9FA",
+        "surfaceRaised": "#DDE5EB",
+        "border": "#BDCBD5",
+        "borderStrong": "#778A99",
+        "text": "#0A1319",
+        "textMuted": "#374854",
+        "textSubtle": "#485D6C",
+        "textDisabled": "#8295A3",
+        "primary": "#005E6B",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#005E6B14",
+        "danger": "#A6143C",
+        "dangerSubtle": "#A6143C14",
+        "success": "#0B6646",
+        "warning": "#824D00",
+        "info": "#1254A8"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#EAF0F3",
+        "backgroundOpacity": 1,
+        "foreground": "#0A1319",
+        "cursor": "#A6143C",
+        "link": "#1254A8",
+        "selection": "#005E6B2E",
+        "ansi": [
+          "#0A1319",
+          "#A6143C",
+          "#0B6646",
+          "#824D00",
+          "#1254A8",
+          "#70258B",
+          "#005E6B",
+          "#485D6C",
+          "#627887",
+          "#B81B44",
+          "#0D7550",
+          "#8A5200",
+          "#1B64C4",
+          "#822CA0",
+          "#007382",
+          "#0A1319"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#090D16",
+        "surface": "#101624",
+        "surfaceRaised": "#182236",
+        "border": "#263654",
+        "borderStrong": "#4A6594",
+        "text": "#F2F6FC",
+        "textMuted": "#B0C1DC",
+        "textSubtle": "#899EBF",
+        "textDisabled": "#576B8C",
+        "primary": "#00E5FF",
+        "onPrimary": "#06101E",
+        "primarySubtle": "#00E5FF20",
+        "danger": "#FF6B99",
+        "dangerSubtle": "#FF6B9920",
+        "success": "#00E699",
+        "warning": "#FFB800",
+        "info": "#75AFFF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#070A12",
+        "backgroundOpacity": 1,
+        "foreground": "#F2F6FC",
+        "cursor": "#00E5FF",
+        "link": "#75AFFF",
+        "selection": "#00E5FF38",
+        "ansi": [
+          "#0E1422",
+          "#FF6B99",
+          "#00E699",
+          "#FFB800",
+          "#75AFFF",
+          "#EA75FF",
+          "#00E5FF",
+          "#B0C1DC",
+          "#687E9E",
+          "#FF85AB",
+          "#33EBB0",
+          "#FFC733",
+          "#94C2FF",
+          "#EF94FF",
+          "#33EBFF",
+          "#FFFFFF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "preview": {
+      "path": "assets/preview.png"
+    },
+    "artwork-light": {
+      "path": "assets/artwork-light.png"
+    },
+    "artwork-dark": {
+      "path": "assets/artwork-dark.png"
+    }
+  },
+  "decoration": {},
+  "icons": {},
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "artwork-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "artwork-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "AKIBA OVERDRIVE"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  }
+}
