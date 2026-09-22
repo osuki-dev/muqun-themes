@@ -163,7 +163,7 @@
     }
   },
   "decoration": {
-    "emptyState.illustration": {
+    "empty.artwork": {
       "asset": "empty",
       "fit": "contain"
     },
@@ -182,7 +182,7 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "focalPoint": {
@@ -199,7 +199,7 @@
         },
         "opacity": 0.2
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "focalPoint": {
@@ -218,7 +218,7 @@
       }
     },
     "dark": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "portrait-dark",
         "fit": "cover",
         "focalPoint": {
@@ -235,7 +235,7 @@
         },
         "opacity": 0.2
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "portrait-dark",
         "fit": "cover",
         "focalPoint": {

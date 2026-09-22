@@ -136,7 +136,7 @@
   "icons": {},
   "variantDecorations": {
     "light": {
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "courier-light",
         "fit": "contain",
         "opacity": 1,
@@ -210,7 +210,7 @@
       }
     },
     "dark": {
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "courier-dark",
         "fit": "contain",
         "opacity": 1,

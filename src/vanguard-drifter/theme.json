@@ -90,6 +90,10 @@
       "surfaces": {
         "backgroundOpacity": 1
       },
+      "effects": {
+        "ambient": "rain",
+        "intensity": 0.6
+      },
       "terminal": {
         "background": "#090B10",
         "backgroundOpacity": 1,
@@ -134,8 +138,14 @@
     "artwork-dark": {
       "path": "assets/artwork-dark.png"
     },
-    "empty-state": {
-      "path": "assets/empty-state.png"
+    "empty": {
+      "path": "assets/empty.png"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
     },
     "icon-back": {
       "path": "assets/icon-back.png"
@@ -154,8 +164,8 @@
     }
   },
   "decoration": {
-    "emptyState.illustration": {
-      "asset": "empty-state",
+    "empty.artwork": {
+      "asset": "empty",
       "fit": "contain"
     }
   },
@@ -192,10 +202,10 @@
           "y": 0.5
         }
       },
-      "shell.background": {
-        "asset": "artwork-light",
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.15,
+        "opacity": 0.25,
         "focalPoint": {
           "x": 0.5,
           "y": 0.35
@@ -212,10 +222,10 @@
           "y": 0.5
         }
       },
-      "shell.background": {
-        "asset": "artwork-dark",
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.22,
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
           "y": 0.35

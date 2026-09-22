@@ -197,14 +197,14 @@
     }
   },
   "decoration": {
-    "emptyState.illustration": {
+    "empty.artwork": {
       "asset": "empty-bird",
       "fit": "contain"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "compact": {
@@ -222,7 +222,7 @@
       }
     },
     "dark": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "portrait-dark",
         "fit": "cover",
         "compact": {
