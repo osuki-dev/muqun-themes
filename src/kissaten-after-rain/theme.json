@@ -150,12 +150,12 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
         "opacity": 0.16
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
         "opacity": 0.62
@@ -177,12 +177,12 @@
       }
     },
     "dark": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
         "opacity": 0.2
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
         "opacity": 0.68

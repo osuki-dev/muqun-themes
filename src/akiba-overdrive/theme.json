@@ -138,8 +138,8 @@
     "artwork-dark": {
       "path": "assets/artwork-dark.png"
     },
-    "empty-state": {
-      "path": "assets/empty-state.png"
+    "empty": {
+      "path": "assets/empty.png"
     },
     "icon-back": {
       "path": "assets/icon-back.png"
@@ -158,8 +158,8 @@
     }
   },
   "decoration": {
-    "emptyState.illustration": {
-      "asset": "empty-state",
+    "empty.artwork": {
+      "asset": "empty",
       "fit": "contain"
     }
   },
@@ -196,7 +196,7 @@
           "y": 0.5
         }
       },
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "artwork-light",
         "fit": "cover",
         "opacity": 0.15,
@@ -216,7 +216,7 @@
           "y": 0.5
         }
       },
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "artwork-dark",
         "fit": "cover",
         "opacity": 0.22,

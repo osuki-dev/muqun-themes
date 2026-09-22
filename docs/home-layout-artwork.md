@@ -10,7 +10,7 @@ preview compositions.
 | Manifest path | Role |
 | --- | --- |
 | `decoration["home.artwork"]` | The single Home foreground in either layout. |
-| `decoration["home.background"]` | Wallpaper behind Home content. |
+| `decoration["home.wallpaper"]` | Wallpaper behind Home content. |
 | `decoration["launch.artwork"]` | Optional distinct startup composition; otherwise startup reuses Home artwork. |
 | `homeIdentity.artwork` | `default` or `hidden` author preference for Home artwork visibility. |
 | `homeIdentity.name` | Custom, default, or hidden Home title. |

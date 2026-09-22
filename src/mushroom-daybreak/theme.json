@@ -182,7 +182,7 @@
   },
   "variantDecorations": {
     "light": {
-      "home.background": {
+      "home.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "compact": {
@@ -197,7 +197,7 @@
         },
         "opacity": 0.24
       },
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "compact": {
@@ -212,7 +212,7 @@
         },
         "opacity": 0.24
       },
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "garden",
         "fit": "contain",
         "opacity": 1
@@ -234,7 +234,7 @@
       }
     },
     "dark": {
-      "home.background": {
+      "home.wallpaper": {
         "asset": "wide-dark",
         "fit": "cover",
         "compact": {
@@ -253,7 +253,7 @@
         },
         "opacity": 0.24
       },
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "wide-dark",
         "fit": "cover",
         "compact": {
@@ -272,7 +272,7 @@
         },
         "opacity": 0.24
       },
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "garden",
         "fit": "contain",
         "opacity": 1

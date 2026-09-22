@@ -168,14 +168,14 @@
     }
   },
   "decoration": {
-    "emptyState.illustration": {
+    "empty.artwork": {
       "asset": "vignette",
       "fit": "contain"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "scene-light",
         "fit": "cover",
         "focalPoint": {
@@ -205,7 +205,7 @@
       }
     },
     "dark": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "scene-dark",
         "fit": "cover",
         "focalPoint": {

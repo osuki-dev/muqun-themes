@@ -182,7 +182,7 @@
   },
   "variantDecorations": {
     "light": {
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "empty-light",
         "fit": "contain",
         "compact": {
@@ -200,7 +200,7 @@
       }
     },
     "dark": {
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "empty-dark",
         "fit": "contain",
         "compact": {

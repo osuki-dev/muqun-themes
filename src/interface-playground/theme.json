@@ -186,7 +186,7 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "light-phone",
         "fit": "cover",
         "opacity": 0.22,
@@ -201,7 +201,7 @@
           "opacity": 0.22
         }
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "light-phone",
         "fit": "cover",
         "opacity": 1,
@@ -216,7 +216,7 @@
           "opacity": 1
         }
       },
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "illustration-light",
         "fit": "contain",
         "opacity": 1
@@ -238,7 +238,7 @@
       }
     },
     "dark": {
-      "shell.background": {
+      "shell.wallpaper": {
         "asset": "dark-phone",
         "fit": "cover",
         "opacity": 0.22,
@@ -253,7 +253,7 @@
           "opacity": 0.22
         }
       },
-      "home.background": {
+      "home.wallpaper": {
         "asset": "dark-phone",
         "fit": "cover",
         "opacity": 1,
@@ -268,7 +268,7 @@
           "opacity": 1
         }
       },
-      "emptyState.illustration": {
+      "empty.artwork": {
         "asset": "illustration-dark",
         "fit": "contain",
         "opacity": 1
