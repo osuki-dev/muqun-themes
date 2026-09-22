@@ -9,3 +9,7 @@ Editorial Home uses the cover header and reuses the transparent pavilion, moon g
 CLI validation, contrast, package round trip and the 60-theme source check with required previews pass. The current published CLI reports the newer `homePresentation` field as an ignored compatibility warning. This theme has ten assets and packs to 1.50 MiB. Shared opacity floors are 88% for UI and 84% for terminal, below the authored 92% and 94% values.
 
 Illustrations and glyph silhouettes were inspected locally. The preview server runs on port 4176. Actual browser review remains pending because the browser tool cannot verify the administrator policy for muqun.dev; server startup is not a visual pass. PR submission remains pending that review.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

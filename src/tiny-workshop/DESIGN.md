@@ -7,3 +7,7 @@ Light surfaces resemble pale concrete with dark blue lettering and copper action
 Editorial Home uses a cover composition with the native “TINY WORKSHOP” title over the existing quiet workshop scenery. The transparent clockwork bench becomes a separate foreground layer, while the toolbar keeps its native glyphs without filled button surfaces. Classic Home continues to use the same wordless bench as its contained hero, and the default Muqun logo remains visible in both layouts. Compact and regular widths retain their dedicated portrait and landscape backgrounds.
 
 The template glyphs use a wrench-arrow for back, a spring-driven dart for send and a nut-ended paperclip for attachments. The gallery cover combines daylight on the left and lamp-lit night on the right.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

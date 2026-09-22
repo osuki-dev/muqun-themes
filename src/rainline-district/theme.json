@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rainline-district",
   "name": "Rainline District",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -277,5 +277,9 @@
     "petrol",
     "cinematic"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  }
 }

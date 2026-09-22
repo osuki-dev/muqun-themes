@@ -18,4 +18,8 @@ A dedicated contained Home composition now accompanies the server list. The orig
 
 ## Editorial Home
 
-Editorial uses the cover header with a bare utility row. Its 2:1 transparent foreground preserves the approved pearl, mint, and lilac mobile from the square Classic hero, shifted right to leave a quiet title field. Classic's square hero, startup wallpaper, default identity, palette, and compact/regular wallpaper choices remain unchanged.
+Editorial uses the cover header with a theme-colored utility row. Its 2:1 transparent foreground preserves the approved pearl, mint, and lilac mobile from the square Classic hero, shifted right to leave a quiet title field. Classic's square hero, startup wallpaper, default identity, palette, and compact/regular wallpaper choices remain unchanged.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

@@ -5,3 +5,7 @@ Tobacco, parchment and brass frame an oak-lined library with original Arts and C
 Editorial Home uses the cover header over the existing day or night reading room, with the transparent armchair-and-bookcase vignette as its foreground and unfilled native toolbar controls. Compact and regular widths retain their portrait and wide compositions. Classic Home keeps the same contained vignette, default identity, palette, and startup behavior.
 
 Actual browser review and an individual PR remain pending.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

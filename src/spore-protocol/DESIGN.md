@@ -14,4 +14,8 @@ The dedicated Home hero presents a porcelain research pod beneath luminous mushr
 
 ## Editorial Home
 
-Editorial uses the cover header with a bare utility row. Its 2:1 transparent foreground preserves that approved porcelain settlement, shifted toward the right so the native title keeps a clear field. Classic's square hero, startup wallpaper, default identity, palette, and explicit light/dark compact/regular behavior remain unchanged.
+Editorial uses the cover header with a theme-colored utility row. Its 2:1 transparent foreground preserves that approved porcelain settlement, shifted toward the right so the native title keeps a clear field. Classic's square hero, startup wallpaper, default identity, palette, and explicit light/dark compact/regular behavior remain unchanged.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

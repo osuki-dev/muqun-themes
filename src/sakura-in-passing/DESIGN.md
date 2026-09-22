@@ -9,3 +9,7 @@ The Editorial Home uses the cover presentation: a transparent 2:1 Himeji foregro
 The back glyph suggests a folded fan, the send glyph a heron in flight, and attachment a loop of mizuhiki cord. Template alpha lets each palette supply the tint. The square empty-state vignette is a resting heron and blossom twig; the dedicated gallery cover carries the English title. The Home identity uses the theme title and hides the default logo so the cover reads as a coherent editorial masthead.
 
 CLI validation passes without warnings. Contrast floors remain 90% interface / 84% terminal in light mode and 89% / 78% in dark mode; authored opacities exceed both. The local package passes its round trip at 2.13 MiB. Browser and device visual validation remain pending; a running preview server alone is not evidence of either.
+
+## Toolbar surfaces
+
+Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.

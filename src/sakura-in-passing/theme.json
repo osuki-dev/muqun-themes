@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sakura-in-passing",
   "name": "Sakura, in Passing",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Japan / Himeji. Cherry blossoms and a white castle in blush, crimson and ink indigo. Original woodblock-inspired day and moonlit illustrations, with folding-fan, heron and mizuhiki glyphs.",
@@ -17,7 +17,7 @@
   "preview": "preview",
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "variants": {
     "light": {
