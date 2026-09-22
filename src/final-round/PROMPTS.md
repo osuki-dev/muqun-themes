@@ -2,6 +2,8 @@
 
 Original images generated with OpenAI image generation, then resized and encoded for the theme. No existing game artwork was copied or used as a reference image.
 
+## Editorial reuse
+
 ## wide-light
 
 Original unofficial Street Fighter fan art, kinetic brush and screenprint fighting poster aesthetic. Vermilion red, mustard gold, charcoal ink and warm newsprint; torn paper diagonals, expressive dry-brush marks, halftone texture. No text, lettering, logos, scores, health bars, gore, fake interface or watermark. Landscape 1536x1024 app wallpaper, an empty weathered Japanese training courtyard, worn stone floor, red cloth banner and ink-swept roofline at far right and bottom. Huge calm warm newsprint reading space across upper and middle 70%. No character. Elegant restrained dynamic brush energy only at edges.
@@ -41,3 +43,8 @@ Original UI template glyph, black solid silhouette genuinely transparent backgro
 ## icon-attach
 
 Original UI template glyph, black solid silhouette genuinely transparent background. An unmistakable rounded oblong paperclip made from a thick tied martial-arts headband ribbon, one large open paperclip center with a small two-tail knot at bottom. Minimal bold silhouette, square centered 15% margin, no text, no grayscale, no shadow, readable at 17px.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

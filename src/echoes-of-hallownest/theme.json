@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "echoes-of-hallownest",
   "name": "Echoes of Hallownest",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying game rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -158,9 +162,17 @@
       "asset": "empty",
       "fit": "contain"
     },
-    "home.hero": {
+    "home.artwork": {
       "asset": "hero",
-      "fit": "contain"
+      "fit": "contain",
+      "compact": {
+        "asset": "hero",
+        "fit": "contain"
+      },
+      "regular": {
+        "asset": "hero",
+        "fit": "contain"
+      }
     }
   },
   "icons": {
@@ -242,18 +254,19 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "Unofficial Hollow Knight fan art. A tiny Knight crosses silver mist and ink-dark caverns, with engraved arches, bone-white surfaces, cold steel blue and pale aqua light.",
+  "description": "Unofficial Hollow Knight fan art. A tiny Knight crosses silver mist and ink-dark caverns, with a transparent character scene composed for Classic and Editorial Home.",
   "tags": [
     "hollow-knight",
     "fan-art",
     "gothic",
     "ink",
     "cavern",
-    "silver"
+    "silver",
+    "editorial"
   ],
   "preview": "preview"
 }

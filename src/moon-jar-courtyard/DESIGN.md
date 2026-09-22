@@ -4,4 +4,6 @@ Korea is expressed through the quietly imperfect white moon jar, hanok roofline 
 
 Four independent wallpaper compositions support light/dark and compact/regular layouts. A transparent moon-jar vignette and dedicated gallery cover complete the set. Default Muqun identity is preserved. UI opacity is 92%, terminal opacity 94%.
 
+Editorial Home uses the existing responsive hanji courtyard wallpaper as its cover background and reuses the transparent hanok-gate Home illustration as a separate foreground. Classic Home keeps the gate in its established contained hero slot. The light/dark palette, width-specific compositions and default Muqun identity remain intact.
+
 Validation: CLI 1.7.1 validate, contrast, pack round trip and check --sources passed. No warnings for this theme. Shared UI and terminal opacity floors are both 88%. All illustrations and template glyphs at 17px were visually inspected locally. Browser inspection: pending; browser policy verification has previously been unavailable.

@@ -3,17 +3,22 @@
   "schemaVersion": 1,
   "id": "final-round",
   "name": "Final Round",
-  "version": "1.0.1",
-  "author": "Muqun Theme Collection \u00b7 fan art",
+  "version": "1.1.1",
+  "author": "Muqun Theme Collection · fan art",
   "license": "Unofficial fan art; underlying rights remain with CAPCOM",
-  "description": "Street Fighter fan art in kinetic brushwork and screenprint: Ryu, vermilion ribbons, mustard ink and warm newsprint by day, oxblood after dark. A contained character hero anchors Home while quiet courtyard artwork frames conversations.",
+  "description": "Street Fighter fan art in kinetic brushwork and screenprint: Ryu, vermilion ribbons, mustard ink and warm newsprint by day, oxblood after dark. The transparent fighter scene anchors Classic and Editorial Home.",
   "tags": [
     "game",
     "street-fighter",
     "fan-art",
     "screenprint",
-    "vermilion"
+    "vermilion",
+    "editorial"
   ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "preview": "preview",
   "variants": {
     "light": {
@@ -167,9 +172,17 @@
       "asset": "empty",
       "fit": "contain"
     },
-    "home.hero": {
+    "home.artwork": {
       "asset": "hero",
-      "fit": "contain"
+      "fit": "contain",
+      "compact": {
+        "asset": "hero",
+        "fit": "contain"
+      },
+      "regular": {
+        "asset": "hero",
+        "fit": "contain"
+      }
     }
   },
   "variantDecorations": {
@@ -261,7 +274,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

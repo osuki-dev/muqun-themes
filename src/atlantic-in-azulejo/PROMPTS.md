@@ -49,3 +49,10 @@ Icon rasters were trimmed to their alpha bounds, fitted within 110 pixels and ce
 Lisbon Portugal, a charming lemon-yellow vintage tram turning on a short curved cobalt-and-white azulejo tile street, tiny ceramic streetlamp, elegant glazed porcelain hand-painted textures. No bird, no numbers, no lettering. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+Version 1.1.0 reuses this transparent asset without modification for Editorial `home.artwork`. No additional image generation was used.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

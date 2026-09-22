@@ -42,6 +42,8 @@ Use case: compositing. Original Ribbon Reverie contained Home banner, landscape 
 
 Use case: compositing. Ribbon Reverie gallery cover1024x640 landscape8:5. Exactly equal split with peach daylight theatre from image1 LEFT and deep mulberry nighttime theatre from image2 RIGHT. Put the same original adult female ribbon performer from image3 gracefully in each half, smaller full costume or three-quarter figure, preserve dark rose bob/peachdress/star charms. Exquisite anime celshading, swooping satin ribbons unify composition. No text no logos no fake UI. Balanced celebratory theatrical portrait.
 
-## Standalone Home illustration
+## Standalone Home illustration and Editorial cover foreground
 
 Create a NEW standalone square Home illustration for a Muqun theme. Ribbon Reverie: original chestnut-bob peach-costumed adult ribbon performer , entirely new composition kneeling gracefully beside a miniature raspberry theatre chest, arranging a champagne star ornament, ribbon folded in a heartlike loop behind her. Modest satin costume and delicate anime painting. Not the airborne dance pose. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration. Output a transparent PNG sticker with an actual alpha channel, not a checkerboard illustration. Do not depict transparency checker pattern.
+
+This wordless transparent asset is intentionally reused for Classic Home, the launch overlay, and Editorial's cover foreground. The responsive theatre wallpaper supplies the cover background; native title and controls remain outside the artwork.

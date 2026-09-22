@@ -49,3 +49,9 @@ Use case: ads-marketing. Amber Relay gallery preview, landscape8:5 final1024x640
 ## Standalone Home illustration
 
 Create a NEW standalone square Home illustration for a Muqun theme. Reference image is only for matching original identity, material and palette; do not crop, reuse or reproduce its pose. Amber Relay: an entirely new analog radio receiver with a large circular tuning dial, copper antenna loop and curled bakelite headphones resting beside it. Amber glowing glass, dark brown bakelite, warm bone screenprint grain. Do NOT make a lone glass valve. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration.
+
+## Editorial Home decoration
+
+Use case: stylized-concept. Muqun Editorial Home transparent foreground decoration, exact 2:1 landscape. A handsome 1950s technical-screenprint vignette with one compact bakelite oscilloscope showing an abstract amber sine wave, copper induction coil, two glass vacuum tubes, braided cables and connector hardware. Equipment concentrated center-right, upper-left utility area quiet, lower silhouette orderly for native work cards. Amber glow, copper, bakelite brown, warm bone and charcoal, readable on light bone and dark brown. Genuine transparent alpha; no rectangular backdrop, tabletop field, text, labels, logo, watermark, UI or clipped equipment.
+
+Generated with the built-in image generation tool and downsampled without cropping to 1024 × 512 with genuine transparency.

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pomegranate-court",
   "name": "Pomegranate Court",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Spain / Granada. Terracotta arcades, aubergine evenings and turquoise water, with pomegranate gardens, ceramic geometry and courtyard-inspired glyphs.",
@@ -15,6 +15,10 @@
     "ceramic"
   ],
   "preview": "preview",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -186,7 +190,7 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -208,7 +212,7 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -221,7 +225,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

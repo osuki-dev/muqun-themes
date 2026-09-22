@@ -2,6 +2,8 @@
 
 Generated with OpenAI image generation as original unofficial fan art.
 
+## Editorial reuse
+
 ## wide-light
 
 Original Hollow Knight unofficial fan art, refined hand-inked gothic underground fairytale illustration. Silver bone, ink black, cold steel blue, restrained pale aqua. Delicate etched stone and narrow filigree roots, elegant atmosphere. No text, logos, HUD, scores, frames or fake controls. Wide1536x1024 wallpaper. Pale bone mist underground cathedral cavern, delicate dark arch roots only at edges, distant carved insect city along bottom, huge quiet silver central space. Tiny Knight at lower left gazing across pale lake, white two-horn mask, black eyes, dark cloak and slender nail. Clean readability, intricate scene detail confined to outer edges.
@@ -41,3 +43,8 @@ Single bold black silhouette app paperclip icon actual transparent background, s
 ## Preview
 
 Create an original theme gallery cover using the supplied original Hollow Knight fan art wide light, wide dark and hero illustrations as source references. 1024x640 landscape. Exactly equal vertical halves: left light silver-bone cavern, right dark ink-black cold-blue cavern. Preserve fine hand-inked architecture. Show recognizable small Knight centered in each half, white two-horn mask, dark cloak. Calm elegant image, no words no logo no border no UI. Beautiful paired light and dark theme cover.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

@@ -6,6 +6,11 @@ Light mode combines pale titanium surfaces and dark lime actions. Dark mode comb
 
 Four responsive wallpapers cover phone and tablet in both modes. Their 32% authored opacity keeps conversation text prominent. Full-color contained Home banners present the character directly; a transparent chibi courier fills the empty state. The gallery preview is 1024 × 640, light left and dark right. Default Muqun home identity is preserved.
 
+Editorial Home uses the transparent courier-and-robot hero as a contained
+foreground at compact and regular widths. The standard Editorial header keeps
+native controls clear of the tall silhouette; Classic and startup retain their
+existing independent hero behavior.
+
 The back glyph is a sharp fin arrow, send is a split courier dart and attach is an angular carabiner loop. All three are alpha templates reviewed at 17 px and 34 px in both palette tints.
 
 ## Review

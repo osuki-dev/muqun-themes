@@ -43,3 +43,7 @@ Single original app template icon black silhouette on true transparent backgroun
 ## home-hero
 
 Create one original standalone app Home hero illustration. A Nordic fishing skiff with two long oars resting beside a russet circular lifebuoy, surrounded by a contained crescent of slate-blue fjord water and jagged distant snow-peaked island silhouettes. No cabins. Tactile Nordic woodcut, carved ink hatching, rust-red, storm slate, pale peach afterglow. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

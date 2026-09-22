@@ -98,3 +98,23 @@ Create one exquisite standalone theme gallery cover, landscape 3:2, for "Cloud P
 ## Distinct Home hero
 
 Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. Original anime illustration of a cheerful young adult sky-postwoman with ink-blue bob haircut, cream cape, coral ribbon, small brass goggles and blue satchel, seated on a crescent-shaped cloud sorting three sealed letters beside a tiny brass mailbox. Airy sky blue and cream with coral accents. Full contained character composition. No paper bird. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.
+
+## Editorial Home foreground, version 1.2.0
+
+Generated with the built-in image generation tool as a transparent 1536×1024 source. It was center-cropped to 1536×768 and resized to 1024×512 with alpha preserved for the final 2:1 `home.artwork` asset. No other image edits were made.
+
+### home-decoration.png
+
+```text
+Use case: stylized-concept
+Asset type: transparent foreground artwork for the Muqun Editorial Home cover, wide 2:1 banner.
+Primary request: Create a NEW original anime illustration for the established Cloud Post Office theme: a cheerful young adult sky-postwoman with short ink-blue bob hair, cream cape jacket, coral ribbon, small brass goggles and deep blue postal satchel, standing beside a tiny brass cloud-mailbox while releasing three folded envelopes that become origami swallows. Match the existing theme's refined hand-painted Japanese anime look, airy powder blue, warm ivory, brass gold, restrained coral, and ink-blue outlines.
+Composition/framing: one cohesive contained foreground silhouette across a wide 2:1 canvas. Place the character and mailbox primarily in the right-middle 55 percent, with the character's face away from the upper-left utility controls. Let paper birds arc gently through the upper center. Keep the left 30 percent mostly open transparent space. Keep the entire bottom 22 percent sparse and quiet so native action cards can overlap it. All artwork must fit within the canvas with generous transparent margins; no crop at head, hands, feet, birds, mailbox, or satchel.
+Style/medium: polished original 2D anime illustration, delicate cel shading, subtle paper and watercolor texture, strong readable silhouette at phone size, sophisticated rather than chibi.
+Constraints: genuinely transparent alpha background; no scenery, no sky rectangle, no white backdrop, no checkerboard, no frame. No text, letters, signage, logos, watermark, buttons, interface elements, or baked UI. No paper courier bird matching the empty-state asset; use simple folded-envelope swallows. Must remain legible over both pale cloud daylight and deep midnight cloud backgrounds.
+```
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

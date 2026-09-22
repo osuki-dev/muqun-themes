@@ -43,3 +43,9 @@ Use case: logo-brand. Single black template UI icon on genuinely transparent bac
 Greek Cyclades, a small traditional white windmill with complete radial wooden sails and a cobalt fishing skiff resting beside a tiny sea-glass inlet, coral buoy accents. Exquisite torn-paper collage sculptural relief. No stairs, doorway or flowers. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+## home-decoration
+
+Use case: illustration-story. Muqun Editorial Home transparent foreground decoration, exact 2:1 landscape. A luminous torn-paper Cycladic vignette with a white windmill, cobalt sail spars, blue fishing boat, coral bougainvillea, pale rocks and layered turquoise wave strips. Visual weight center-right, upper-left utility area quiet, lower edge calm for native work cards. Readable on pale mint and deep marine surfaces. Genuine transparent alpha; no rectangular backdrop, sky field, text, logo, watermark, UI or clipped subjects.
+
+Generated with the built-in image generation tool and downsampled without cropping to 1024 × 512 with genuine transparency.

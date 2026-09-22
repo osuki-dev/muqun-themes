@@ -22,6 +22,8 @@ Original unofficial Stardew Valley fan art, beautifully crafted 2D pixel art far
 
 Original unofficial Stardew Valley fan art. Crafted crisp 2D pixel-art farm vignette: cheerful white round farm chicken with red comb beside blue watering can, a plump pumpkin, tiny sprouting plant, and friendly green Junimo with little arms and a leaf on head. Warm honey, cornflower blue and lavender accent. Contained square isolated composition, generous15% transparent padding, genuinely transparent alpha background. Readable at180px height. Flat pixel-art sprites with deliberate square pixels, NOT voxel or3D. No letters, logo, UI, badges or border.
 
+The existing transparent hero is also reused unchanged as the Editorial cover foreground. No additional generated artwork was needed.
+
 ## empty
 
 Original unofficial Stardew Valley inspired crisp2D pixel-art empty-state vignette. A blue watering can beside a small wooden seed tray with one tiny green sprout and one golden seed, a single white chicken feather. Honey-gold wood, cornflower blue, plum outlines. Square isolated object group on genuine transparent alpha, generous20% clear margin. No ground rectangle, backdrop, text, logo, UI, border. Visible crisp square pixels, not3D.

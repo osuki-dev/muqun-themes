@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "tetromino-atelier",
   "name": "Tetromino Atelier",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -158,7 +162,7 @@
       "asset": "empty",
       "fit": "contain"
     },
-    "home.hero": {
+    "home.artwork": {
       "asset": "home-hero",
       "fit": "contain",
       "opacity": 1,
@@ -217,19 +221,16 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
-        "opacity": 1,
         "compact": {
           "asset": "home-hero",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         },
         "regular": {
           "asset": "home-hero",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         }
       }
     },
@@ -261,19 +262,16 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
-        "opacity": 1,
         "compact": {
           "asset": "home-hero",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         },
         "regular": {
           "asset": "home-hero",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         }
       }
     }
@@ -285,7 +283,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

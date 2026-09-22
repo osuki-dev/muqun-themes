@@ -14,6 +14,8 @@ An independent DevOps theme by Muqun Theme Collection. The featured marks identi
 
 `assets/wide-light.png`, `assets/wide-dark.png`, `assets/portrait-light.png`, `assets/portrait-dark.png`, `assets/hero.png` and `assets/preview.png` contain all three official marks listed above. Marks were uniformly scaled and, where applicable, rasterized from SVG; their proportions, colors and internal shapes were preserved. The node panels, sparse dot fields and orthogonal connecting lines are new layout work by Muqun Theme Collection.
 
+Editorial Home reuses the existing `assets/hero.png` composition as contained artwork. No marks were regenerated, altered or replaced for this adaptation.
+
 These composed artwork files are distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), retaining the source notices above. Jenkins' CC BY-SA 3.0 permits later-version adaptations; Free Art License 1.3 is [compatible with CC BY-SA 4.0](https://creativecommons.org/compatible-licenses/). The original source marks remain available at their direct links under their stated original licenses.
 
 `assets/empty.png`, `assets/icon-back.png`, `assets/icon-send.png` and `assets/icon-attach.png` are original geometric artwork by Muqun Theme Collection, also under CC BY-SA 4.0. No generated replacement logos or third-party icon library were used.

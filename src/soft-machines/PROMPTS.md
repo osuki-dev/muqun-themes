@@ -41,3 +41,7 @@ Original wide light and dark artworks supplied as references. Equal left-light/r
 ## Home illustration
 
 Create a new standalone Home illustration, square 1024x1024, true transparent background. An original soft 2.5D kinetic sculpture: three pearl-resin rounded paddles orbit a small mint silicone sphere on a low smoky-lilac glass crescent cradle, asymmetrical mobile-like balance with frosted refraction and broad soft highlights. No torus threaded by horizontal capsule, no stacked donut forms. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.
+
+## editorial-foreground
+
+Adapted locally from the approved transparent `home-hero.png`; no new image-generation prompt was used. The complete cutout is scaled into a 1024 × 512 transparent canvas and aligned to the right for Editorial's native cover title.

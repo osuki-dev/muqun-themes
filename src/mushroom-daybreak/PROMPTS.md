@@ -39,3 +39,7 @@ Create a single square transparent-background pixel-art illustration for Mushroo
 ## Dedicated Home hero
 
 Original playful pixel-art Home illustration: a tiny whimsical cream stone castle with bright red conical roofs and a winding blue moat, floating on a grassy brick island, small gold coin and cloud beside tallest tower. Sophisticated crisp 2D pixel clusters, warm brick red, skyblue and butteryellow palette. No characters, no mushrooms. Square image isolated on genuine transparent background, complete centered scene with generous15percent margin each side. No text no logo no HUD no background.
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

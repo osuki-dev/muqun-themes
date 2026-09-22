@@ -17,3 +17,7 @@ Create a transparent neon umbrella as a complete centered object, transparent ba
 ## Hero — Dark
 
 Create a separately lit night variant of a transparent neon umbrella, transparent background, complete silhouette, no words, generous padding.
+
+## Editorial Home reuse
+
+Version 1.1.0 reuses the two transparent umbrella assets as mode-specific Editorial cover foregrounds. The existing rainy Shibuya art remains the cover background at compact and regular widths. No new generated artwork was required, and native copy and controls remain outside the images.

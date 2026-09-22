@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
-  "description": "Analog signal craft in amber, bakelite brown and warm bone. Screenprinted oscilloscopes, copper coils and glass valves pair with cable, transmission and connector glyphs across daylight and late-night workspaces.",
+  "description": "Analog signal craft in amber, bakelite brown and warm bone. Screenprinted oscilloscopes, copper coils and glass valves now include a transparent Editorial cover vignette.",
   "tags": [
     "retrocyber",
     "amber",
@@ -121,6 +121,10 @@
   "materials": {
     "default": "solid"
   },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "homeIdentity": {
     "name": {
       "mode": "default"
@@ -128,7 +132,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
@@ -163,14 +167,6 @@
       "path": "assets/portrait-dark.webp",
       "sha256": "38e4fca6e014a97ccbc4543d2abb234b746c014a9bf303737e844f5624369240"
     },
-    "banner-light": {
-      "path": "assets/banner-light.webp",
-      "sha256": "b751d11477553536fbb185d2466d2c5bd5765dea8e41b639bfbdd4f0493be813"
-    },
-    "banner-dark": {
-      "path": "assets/banner-dark.webp",
-      "sha256": "cfd0669d92dd8b87db26870a7ae19014e85619e0423c06c528bfb7a740486bd7"
-    },
     "empty-valve": {
       "path": "assets/empty-valve.png",
       "sha256": "2256f16fed07632a36154ae4e7e4fa91f938d350e47da787acc188f38973f9cb"
@@ -194,6 +190,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "963f90a572fbf7371dd6ab02e6c3fd83cd9aaae9054006b3cf1d14a2d082b33c"
+    },
+    "home-decoration": {
+      "path": "assets/home-decoration.png",
+      "sha256": "e36287757a2094f3a8b31c340a049d97368ec9c936edfbee4cbdb1c241764285"
     }
   },
   "decoration": {
@@ -216,9 +216,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -234,9 +246,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     }
   }

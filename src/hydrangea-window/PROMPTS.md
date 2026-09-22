@@ -17,3 +17,5 @@ Create a transparent hydrangea vase as a complete centered object, transparent b
 ## Hero — Dark
 
 Create a separately lit night variant of a transparent hydrangea vase, transparent background, complete silhouette, no words, generous padding.
+
+The two existing transparent heroes are reused unchanged as the matching Editorial cover foregrounds. No additional generated artwork was needed.

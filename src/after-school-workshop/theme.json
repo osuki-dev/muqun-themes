@@ -1,0 +1,216 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "after-school-workshop",
+  "name": "After School Workshop",
+  "version": "1.1.1",
+  "author": "Muqun Project",
+  "license": "All rights reserved",
+  "description": "A blue hour neighborhood workshop with a quiet bicycle, warm windows, and a place to begin.",
+  "tags": [
+    "blue",
+    "illustration",
+    "workshop",
+    "neighborhood"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F8F5ED",
+        "surface": "#FFFDF8",
+        "surfaceRaised": "#E9E1D3",
+        "border": "#D3C8B7",
+        "borderStrong": "#A8977F",
+        "text": "#142D50",
+        "textMuted": "#425978",
+        "textSubtle": "#425978",
+        "textDisabled": "#8997A9",
+        "primary": "#1751B8",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#DDE8FF",
+        "danger": "#B42318",
+        "dangerSubtle": "#FDE4E2",
+        "success": "#006B4A",
+        "warning": "#754C00",
+        "info": "#1751B8"
+      },
+      "terminal": {
+        "background": "#F8F5ED",
+        "foreground": "#142D50",
+        "cursor": "#1751B8",
+        "link": "#1751B8",
+        "selection": "#B9CCF2",
+        "ansi": [
+          "#142D50",
+          "#B42318",
+          "#006B4A",
+          "#754C00",
+          "#1751B8",
+          "#5B2FA8",
+          "#006A77",
+          "#425978",
+          "#425978",
+          "#A8261C",
+          "#006B4A",
+          "#754C00",
+          "#2C63C8",
+          "#5B2FA8",
+          "#006A77",
+          "#142D50"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101B2B",
+        "surface": "#18263A",
+        "surfaceRaised": "#223650",
+        "border": "#2B4568",
+        "borderStrong": "#52719A",
+        "text": "#F3F7FF",
+        "textMuted": "#C2D0E2",
+        "textSubtle": "#C2D0E2",
+        "textDisabled": "#7588A5",
+        "primary": "#A8CAFF",
+        "onPrimary": "#10213A",
+        "primarySubtle": "#294C7F",
+        "danger": "#FF8D86",
+        "dangerSubtle": "#321E23",
+        "success": "#64D5A6",
+        "warning": "#FFD27A",
+        "info": "#A8CAFF"
+      },
+      "terminal": {
+        "background": "#101B2B",
+        "foreground": "#F3F7FF",
+        "cursor": "#A8CAFF",
+        "link": "#A8CAFF",
+        "selection": "#31588F",
+        "ansi": [
+          "#101B2B",
+          "#FFB4AE",
+          "#9CEBC8",
+          "#FFE0A6",
+          "#A8CAFF",
+          "#E3D3FF",
+          "#A8F3F7",
+          "#C2D0E2",
+          "#A8BAD4",
+          "#FFB4AE",
+          "#9CEBC8",
+          "#FFE0A6",
+          "#C5D9FF",
+          "#E3D3FF",
+          "#A8F3F7",
+          "#F3F7FF"
+        ]
+      }
+    }
+  },
+  "assets": {
+    "hero-light": {
+      "path": "assets/hero-light.png"
+    },
+    "hero-dark": {
+      "path": "assets/hero-dark.png"
+    },
+    "editorial-decoration": {
+      "path": "assets/editorial-decoration.png",
+      "sha256": "eb3697dd86436a5b74adbfaf21ce6b6a1c7a09d05c99fc8028f6913722e36315"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "emptyState.illustration": {
+        "asset": "hero-light",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero-light",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "hero-light",
+          "fit": "contain"
+        }
+      },
+      "launch.artwork": {
+        "asset": "hero-light",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero-light",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "hero-light",
+          "fit": "contain"
+        }
+      },
+      "home.artwork": {
+        "asset": "editorial-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-decoration",
+          "fit": "contain"
+        }
+      }
+    },
+    "dark": {
+      "emptyState.illustration": {
+        "asset": "hero-dark",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero-dark",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "hero-dark",
+          "fit": "contain"
+        }
+      },
+      "launch.artwork": {
+        "asset": "hero-dark",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero-dark",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "hero-dark",
+          "fit": "contain"
+        }
+      },
+      "home.artwork": {
+        "asset": "editorial-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-decoration",
+          "fit": "contain"
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "After School Workshop"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  }
+}

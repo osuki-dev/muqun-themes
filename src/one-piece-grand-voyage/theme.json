@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "one-piece-grand-voyage",
   "name": "One Piece — Grand Voyage",
-  "version": "1.1.2",
+  "version": "1.2.1",
   "author": "Muqun custom theme · fan art",
   "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
   "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Luffy Home illustration and nautical rope-and-sail glyphs.",
@@ -208,6 +208,30 @@
           }
         }
       },
+      "home.background": {
+        "asset": "scene-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.45,
+          "y": 0.78
+        },
+        "regular": {
+          "asset": "scene-wide-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "compact": {
+          "asset": "scene-light",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.78
+          }
+        }
+      },
       "navigation.background": {
         "asset": "panel-light",
         "fit": "cover",
@@ -242,7 +266,7 @@
         "asset": "empty-light",
         "fit": "contain"
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -260,6 +284,30 @@
     },
     "dark": {
       "shell.background": {
+        "asset": "scene-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.45,
+          "y": 0.78
+        },
+        "regular": {
+          "asset": "scene-wide-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "compact": {
+          "asset": "scene-dark",
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.78
+          }
+        }
+      },
+      "home.background": {
         "asset": "scene-dark",
         "fit": "cover",
         "focalPoint": {
@@ -317,7 +365,7 @@
         "asset": "empty-dark",
         "fit": "contain"
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -342,7 +390,7 @@
     "logo": {
       "mode": "hidden"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
@@ -362,7 +410,7 @@
     }
   },
   "decoration": {
-    "home.hero": {
+    "home.artwork": {
       "asset": "home-hero",
       "fit": "contain",
       "opacity": 1,

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -194,8 +194,12 @@
         },
         "opacity": 0.32
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
+        "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "banner",
         "fit": "contain"
       }
     },
@@ -215,8 +219,12 @@
         },
         "opacity": 0.32
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
+        "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "banner",
         "fit": "contain"
       }
     }
@@ -228,11 +236,11 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "An original peach-haired arcade heroine in a candy-plastic cyber world. Raspberry, ice cyan and milk-white surfaces meet bold cel shading, capsule tunnels and playful candy-shaped controls.",
+  "description": "An original peach-haired arcade heroine in a candy-plastic cyber world, with a transparent editorial masthead and separate Classic hero framed by raspberry, ice cyan and milk-white surfaces.",
   "tags": [
     "anime",
     "cyber",

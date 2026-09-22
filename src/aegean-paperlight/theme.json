@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aegean-paperlight",
   "name": "Aegean Paperlight",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -111,6 +111,10 @@
   "materials": {
     "default": "solid"
   },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "assets": {
     "wide-light": {
       "path": "assets/wide-light.webp",
@@ -151,6 +155,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "5c7402e4ab087cdbf9086a858859f1ce819b1649f98a99ec8eda33b7a6c075ae"
+    },
+    "home-decoration": {
+      "path": "assets/home-decoration.png",
+      "sha256": "8f681fae6521cdcb3907229f311d42417dbf0b4a5c3f09c460c32dc8420fdb4c"
     }
   },
   "decoration": {
@@ -187,9 +195,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -205,9 +225,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -218,11 +250,11 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "Greece / Cyclades. Chalk stairways, coral bougainvillea and quiet island water shaped from torn paper. Sea-glass aqua and cobalt shadows carry the sunlight into a deep marine evening.",
+  "description": "Greece / Cyclades. Chalk stairways, coral bougainvillea and quiet island water shaped from torn paper. A transparent windmill-and-harbor vignette gives Editorial Home a luminous cover.",
   "tags": [
     "greece",
     "cyclades",

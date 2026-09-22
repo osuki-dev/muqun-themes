@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "author": "Muqun",
   "license": "CC-BY-4.0; third-party marks: see CREDITS.md",
   "preview": "preview",
@@ -221,10 +221,20 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-scene-light",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "compact": {
+          "asset": "home-scene-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-scene-light",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     },
     "dark": {
@@ -263,10 +273,20 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-scene-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "compact": {
+          "asset": "home-scene-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-scene-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
@@ -277,9 +297,13 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
   },
   "description": "A luminous frontend canvas with official HTML5, CSS and JSConf JavaScript marks at the perimeter, ultramarine actions and coral details.",
   "tags": [

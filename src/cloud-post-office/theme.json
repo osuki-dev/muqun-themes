@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.1.3",
+  "version": "1.2.1",
   "author": "Muqun · original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -151,12 +151,24 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "b0eafa23166f7af969b32c6995e70346c2b0aed15ef33bb2fdd49807ac4430a2"
+    },
+    "home-decoration": {
+      "path": "assets/home-decoration.png",
+      "sha256": "b838ad225ea32603279789a159bb0b80963d5df070f327de1b3f5defd242c613"
     }
   },
   "decoration": {
     "emptyState.illustration": {
       "asset": "paper-courier",
       "fit": "contain"
+    },
+    "home.artwork": {
+      "asset": "home-decoration",
+      "fit": "contain",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.42
+      }
     }
   },
   "variantDecorations": {
@@ -185,7 +197,7 @@
           }
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -215,7 +227,7 @@
           }
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -228,9 +240,13 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
   },
   "description": "Send your thoughts beyond the clouds. An original anime-inspired post office with cloud-sea railways by day, starlit letters by night, and a paper-bird courier. Separate artwork for phone and wide-screen layouts.",
   "tags": [

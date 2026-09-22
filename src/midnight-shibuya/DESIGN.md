@@ -6,7 +6,7 @@ Rainy Shibuya at midnight. The interface uses rain-polished neon, midnight blue,
 
 ## Home
 
-The home identity uses a short Japanese slogan. The hero is a transparent neon umbrella, composed with generous transparent padding for both the home view and the app launch screen. No home decoration layer is used.
+The home identity uses a short Japanese slogan. The hero is a transparent neon umbrella, composed with generous transparent padding for both the home view and the app launch screen. Editorial Home reuses the matching light or dark umbrella as a separate cover foreground over the existing rainy city background. Classic Home keeps the established contained hero. Compact and regular overrides are explicit in both modes.
 
 ## Chrome
 

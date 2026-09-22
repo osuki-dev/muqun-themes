@@ -44,3 +44,7 @@ The send and attachment glyphs were authored as original geometric silhouettes a
 ## home-hero
 
 Create one original standalone app Home hero illustration. A Moroccan artisan market still life: a sculptural indigo glazed water jug with brass neck, two saffron and clay-pink spice mounds in shallow woven trays, a small brass pierced lantern and folded striped textile. No building, palm tree or carpet tower. Exquisite tactile woven-tapestry illustration, visibly interlaced fibers, saffron, clay pink, midnight indigo. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.
+
+## editorial-foreground
+
+Adapted locally from the approved transparent `home-hero.png`; no new image-generation prompt was used. The complete cutout is scaled into a 1024 × 512 transparent canvas and aligned to the right, preserving the source artwork while leaving space for Editorial's native cover title.

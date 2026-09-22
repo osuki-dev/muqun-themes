@@ -9,3 +9,5 @@ Default Muqun home identity is preserved. Solid planes use 94% authored opacity,
 ## Home illustration
 
 A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.
+
+Editorial Home reuses this transparent architectural sculpture as its contained foreground at compact and regular widths. Classic keeps the established hero, identity, and responsive wallpapers unchanged.

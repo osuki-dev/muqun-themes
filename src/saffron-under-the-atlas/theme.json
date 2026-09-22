@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "saffron-under-the-atlas",
   "name": "Saffron under the Atlas",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -151,6 +155,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "703675d5d1969b9f56fcd4ac4c1d7d94f2c0b85b8aacf1f9f5573deef148f708"
+    },
+    "editorial-foreground": {
+      "path": "assets/editorial-foreground.png",
+      "sha256": "859aa570c8e44b290c0c0451444042f4a0551aab2f7f8c7e13d24958702fec56"
     }
   },
   "decoration": {
@@ -187,9 +195,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -205,9 +225,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -218,7 +250,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "riso-matsuri",
   "name": "リソグラフの夏祭り",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "朱、群青、生成りの版ずれで夏祭りの熱気を描くリソグラフテーマ。",
@@ -160,7 +160,7 @@
         "fit": "cover",
         "opacity": 0.62
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-light",
         "fit": "contain",
         "opacity": 1,
@@ -187,7 +187,7 @@
         "fit": "cover",
         "opacity": 0.68
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-dark",
         "fit": "contain",
         "opacity": 1,
@@ -226,7 +226,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   }

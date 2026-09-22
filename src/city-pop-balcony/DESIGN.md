@@ -6,7 +6,7 @@ a breezy 1980s seaside balcony. The interface uses sunset coral, pool aqua, warm
 
 ## Home
 
-The home identity uses a short Japanese slogan. The hero is a transparent cassette player with headphones, composed with generous transparent padding for both the home view and the app launch screen. No home decoration layer is used.
+The home identity uses a short Japanese slogan. The hero is a transparent cassette player with headphones, composed with generous transparent padding for both the home view and the app launch screen. Classic keeps it as the square Home hero. Editorial reuses the independently lit light and dark cutouts as contained top artwork, preserving the entire silhouette at compact and regular widths without changing startup or the Classic composition.
 
 ## Chrome
 

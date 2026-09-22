@@ -10,3 +10,8 @@ A trail sign supplies Back, a folded alpine glider supplies Send, and a climbing
 - Ebenalp, alpine gentian: https://ebenalp.ch/en/summer/alps-garden/berg-enzian
 
 These references informed subject choice only. The illustrations are original interpretations, not exact landmark reconstructions.
+
+
+## Unified Home artwork
+
+Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.background` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.

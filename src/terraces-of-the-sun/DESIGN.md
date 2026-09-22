@@ -6,4 +6,6 @@ Four separately composed wallpapers support compact and regular layouts. The cen
 
 Template glyphs use terrace steps for back, a soaring directional condor for send, and a stepped paperclip for attachments. Alpha supplies their shape; the active palette supplies color.
 
+Editorial Home uses the cover header over the existing day or night woven landscape, with the transparent alpaca-and-terraces vignette as its foreground and unfilled native toolbar controls. Compact and regular widths retain their portrait and wide compositions. Classic Home keeps the same contained vignette, default identity, palette, and startup behavior.
+
 The 1024x640 gallery cover presents light artwork on the left and dark artwork on the right. Artwork and transparent glyphs were inspected, including template tinting at 17px and 34px. CLI 1.8.0 validates all nine assets and package round-trip; the source catalogue check passes. The shared interface opacity floor is 90% and terminal floor 93%, below the authored 96%.

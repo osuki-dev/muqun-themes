@@ -2,7 +2,7 @@
 
 Thailand / Chiang Mai. Lanna timber houses, jasmine and woven silk inform a quiet embroidered garden. Pale ivory grounds, peacock teal foliage, mulberry silk and restrained old gold give the collection a textile character.
 
-Four dedicated wallpapers support light/dark and compact/regular layouts. The 1024 x 640 preview shows light on the left and dark on the right, based on the theme artwork. The transparent jasmine vignette accompanies empty states. Template glyphs use a returning ribbon, a pointed folded petal and a weaving-shuttle paperclip. Default Muqun home identity is retained.
+Four dedicated wallpapers support light/dark and compact/regular layouts. Editorial Home uses the responsive wallpaper as a cover and reuses the transparent Lanna garden house as its contained foreground at both widths. Classic Home keeps the same artwork in its established hero role, and startup behavior is unchanged. The 1024 x 640 preview shows light on the left and dark on the right, based on the theme artwork. The transparent jasmine vignette accompanies empty states. Template glyphs use a returning ribbon, a pointed folded petal and a weaving-shuttle paperclip. Default Muqun home identity is retained.
 
 Solid materials and 96% UI/terminal opacity support readability.
 

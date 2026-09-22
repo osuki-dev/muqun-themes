@@ -9,3 +9,5 @@ Folded-paper back arrow, origami courier send, and add-envelope attachment. All 
 Version 1.1.0, authored for CLI 1.7.0 / skill v1.3.0.
 
 `assets/home-hero.png`: new original AI-generated Home illustration by Muqun Theme Collection, created with the built-in image generation tool. See PROMPTS.md.
+
+`assets/home-decoration.png`: original AI-generated Editorial Home foreground by Muqun Theme Collection, created with the built-in image generation tool for version 1.2.0. See PROMPTS.md for the exact prompt and processing notes.
