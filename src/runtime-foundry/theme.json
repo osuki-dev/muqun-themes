@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "runtime-foundry",
   "name": "Runtime Foundry",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "Muqun Community; Go Gopher: Renee French; Python: PSF; Rust: Rust Foundation",
   "license": "CC-BY-4.0; Python logo under PSF trademark terms; see source CREDITS.md",
   "preview": "preview",
@@ -229,10 +229,20 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-scene-light",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "compact": {
+          "asset": "home-scene-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-scene-light",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     },
     "dark": {
@@ -271,10 +281,20 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-scene-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "compact": {
+          "asset": "home-scene-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-scene-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
@@ -290,7 +310,7 @@
   ],
   "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/runtime-foundry/CREDITS.md",
   "homeIdentity": {
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   }

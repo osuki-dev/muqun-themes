@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mist-above-alishan",
   "name": "Mist above Alishan",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Alishan landscape. Layered tea terraces, cypress forests and a winding mountain railway in tea olive, mist white and apricot. Original paper-cut day and night scenes with tea-leaf and railway-ticket glyphs.",
@@ -187,9 +187,33 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -209,9 +233,33 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.65
+        },
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -222,7 +270,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

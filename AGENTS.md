@@ -25,17 +25,17 @@ The CLI needs Bun 1.4 or newer and nothing installed; run it from the
 repository root and it knows the layout, so a bare id is enough:
 
 ```sh
-bunx @osuki-dev/muqun-theme init <id>          # writes src/<id>/, a complete scaffold with placeholder art
-bunx @osuki-dev/muqun-theme contrast <id>      # opacity floor and the pairs that set it
-bunx @osuki-dev/muqun-theme validate <id>      # what the app checks on import
-bunx @osuki-dev/muqun-theme check --sources --require-preview   # what CI runs on the PR; must pass before you finish
+bunx @osuki-dev/muqun-theme@2 init <id>          # writes src/<id>/, a complete scaffold with placeholder art
+bunx @osuki-dev/muqun-theme@2 contrast <id>      # opacity floor and the pairs that set it
+bunx @osuki-dev/muqun-theme@2 validate <id>      # what the app checks on import
+bunx @osuki-dev/muqun-theme@2 check --sources --require-preview   # what CI runs on the PR; must pass before you finish
 ```
 
 - `<id>` is lowercase letters, digits and dashes, starting with a letter. It is
   the directory name and the theme's `id`; they must agree.
 - Your deliverable is `src/<id>/` only. Do not commit anything under `dist/`
   or an `index.json`; both are gitignored here and built by CI.
-  `bunx @osuki-dev/muqun-theme pack <id>` is fine for a local look at the
+  `bunx @osuki-dev/muqun-theme@2 pack <id>` is fine for a local look at the
   package.
 - Replace every placeholder image from `init` with real artwork, or delete the
   slot. `validate` names the placeholders still in place.
@@ -52,5 +52,5 @@ bunx @osuki-dev/muqun-theme check --sources --require-preview   # what CI runs o
 
 ## Before finishing
 
-`bunx @osuki-dev/muqun-theme check --sources --require-preview` must pass.
+`bunx @osuki-dev/muqun-theme@2 check --sources --require-preview` must pass.
 Submit one theme per pull request.

@@ -9,3 +9,5 @@ The back glyph references parallel rail tracks; send uses a streamlined train-ar
 ## Home illustration
 
 A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.
+
+Editorial Home reuses this transparent rail miniature as its contained foreground in both responsive modes. Classic keeps the existing hero, wallpaper, identity, and startup treatment unchanged.

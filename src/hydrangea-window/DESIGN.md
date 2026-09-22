@@ -6,8 +6,14 @@ a calm hydrangea window in tsuyu season. The interface uses hydrangea blue, lave
 
 ## Home
 
-The home identity uses a short Japanese slogan. The hero is a transparent hydrangea vase, composed with generous transparent padding for both the home view and the app launch screen. No home decoration layer is used.
+The home identity uses a short Japanese slogan. The hero is a transparent hydrangea vase, composed with generous transparent padding for both the Classic home view and the app launch screen.
+
+Editorial Home uses the cover header and reuses the separately lit light and dark vase art as its foreground at compact and regular widths. The original heroes remain in place for Classic and startup. The toolbar background is removed over the cover so the native controls sit lightly above the flowers while preserving the theme's palette and identity.
 
 ## Chrome
 
 Back, send, and attach are custom monochrome template icons matched to the theme's line weight.
+
+## Validation
+
+CLI validation, contrast, package round trip and the 60-theme source check with required previews pass. The current published CLI reports the newer `homePresentation` field as an ignored compatibility warning. The package contains eight assets and packs to 2.17 MiB. Shared interface and terminal opacity floors are both 99%.

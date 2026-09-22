@@ -17,3 +17,8 @@ The Department of Conservation describes Fiordland's ice-carved fiords, rainfore
 CLI 1.8.0 validation, contrast, package round trip, and source checks pass. The shared interface opacity floor is 94%; terminal is 93%, below the authored 96% values. This theme has no validation warnings. Artwork and transparent glyphs were inspected, including tinted glyphs at 17px and 34px in both modes.
 
 The CLI browser preview loaded the theme and exposed the dark device previews in its accessibility tree. Browser screenshot capture failed and input commands timed out, so the full device visual review remains unverified.
+
+
+## Unified Home artwork
+
+Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.background` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.

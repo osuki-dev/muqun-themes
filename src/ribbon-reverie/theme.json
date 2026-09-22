@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -206,9 +210,17 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -239,20 +251,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "RIBBON REVERIE"
     },
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

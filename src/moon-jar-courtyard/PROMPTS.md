@@ -41,3 +41,5 @@ Single UI template icon, black opaque silhouette on genuinely transparent backgr
 ## home-hero
 
 Create one original standalone app Home hero illustration. An elegant traditional Korean hanok courtyard gate with sweeping tiled eaves, a stepping-stone path and a low flower bed of pale lilac irises. No vase or jar. Exquisite layered hanji paper collage, visible fibrous handmade paper, porcelain white, dusky lilac and deep aubergine. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.
+
+Version 1.1.0 reuses this transparent, wordless gate illustration as Editorial Home's foreground. The existing light/dark portrait and landscape wallpapers supply the responsive cover background; native identity and controls remain separate.

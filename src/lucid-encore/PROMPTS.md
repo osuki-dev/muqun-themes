@@ -46,3 +46,5 @@ Original wide light and dark artworks supplied as references. Equal left-light/r
 ## Standalone Home illustration
 
 Create a NEW standalone square Home illustration for a Muqun theme. Lucid Encore: original purple-bob star DJ character and rose-gold star headphones , newly composed standing at a small floating periwinkle turntable, both hands conducting two curled holographic sound ribbons. Full body modest stage costume, both feet visible, eyes open and focused, no seated pose. Crisp delicate anime art. Genuinely transparent alpha background. One centered compact silhouette, generous 15% transparent margins, all extremities within canvas, clear at 180px. No text, logos, watermark, UI, environmental rectangle or background. High-quality finished illustration. Output a transparent PNG sticker with an actual alpha channel, not a checkerboard illustration. Do not depict transparency checker pattern.
+
+This wordless transparent asset is intentionally reused for Classic Home, the launch overlay, and Editorial's cover foreground. The mode- and width-specific dream-stage wallpaper supplies the cover background; native identity and controls remain outside the artwork.

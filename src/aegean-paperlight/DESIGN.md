@@ -6,6 +6,8 @@ The light palette combines pale aqua planes and deep marine text. The dark palet
 
 The back glyph is a curling wave arrow; send is a paper-cut swallow; attach is a nautical rope loop. All three use transparent template rendering so their color follows the active palette.
 
+Editorial Home uses the cover header with transparent toolbar surfaces and a dedicated 2:1 windmill-and-harbor foreground. The contained collage is wired explicitly for light and dark, compact and regular widths; its chalk, cobalt and sea-glass edges remain readable on both palettes. Classic keeps the original square windmill hero and startup flow unchanged.
+
 ## Cultural reference
 
 [Visit Greece: Cyclades](https://www.visitgreece.gr/islands/cyclades) describes the islands' light, white-and-blue architecture and rugged landscapes. [Visit Greece: Folegandros](https://www.visitgreece.gr/en/islands/Cyclades/Folegandros) describes white houses, colorful shutters and bougainvillea courtyards. These factual references informed the composition; no source images were copied.

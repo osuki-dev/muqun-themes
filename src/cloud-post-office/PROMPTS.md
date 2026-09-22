@@ -101,7 +101,7 @@ Create a NEW standalone square Home hero illustration, 1024x1024, intended to re
 
 ## Editorial Home foreground, version 1.2.0
 
-Generated with the built-in image generation tool as a transparent 1536×1024 source. It was center-cropped to 1536×768 and resized to 1024×512 with alpha preserved for the final 2:1 `home.decoration` asset. No other image edits were made.
+Generated with the built-in image generation tool as a transparent 1536×1024 source. It was center-cropped to 1536×768 and resized to 1024×512 with alpha preserved for the final 2:1 `home.artwork` asset. No other image edits were made.
 
 ### home-decoration.png
 
@@ -113,3 +113,8 @@ Composition/framing: one cohesive contained foreground silhouette across a wide 
 Style/medium: polished original 2D anime illustration, delicate cel shading, subtle paper and watercolor texture, strong readable silhouette at phone size, sophisticated rather than chibi.
 Constraints: genuinely transparent alpha background; no scenery, no sky rectangle, no white backdrop, no checkerboard, no frame. No text, letters, signage, logos, watermark, buttons, interface elements, or baked UI. No paper courier bird matching the empty-state asset; use simple folded-envelope swallows. Must remain legible over both pale cloud daylight and deep midnight cloud backgrounds.
 ```
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

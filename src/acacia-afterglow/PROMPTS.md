@@ -43,3 +43,9 @@ Use the two original wide wallpapers to compose a 1024 × 640 gallery diptych. G
 Kenyan savanna, a graceful giraffe mother and calf walking on a low curved island of golden grass, small layered sunset sun behind. Textured hand-carved linocut pigment, acacia gold, burnt umber, dusty mauve. No tree or seed pods. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+## home-decoration
+
+Use case: illustration-story. Muqun Editorial Home transparent foreground decoration, exact 2:1 landscape. A refined hand-printed linocut vignette of a graceful umbrella acacia with a small giraffe pair and sparse savanna grasses. Visual weight from center to right, upper-left utility area quiet, lower edge calm for native work cards. Acacia gold, burnt umber, dusty mauve, dark cocoa and cream highlights, readable on both parchment and plum-brown. Genuine transparent alpha; no rectangular backdrop, sky field, text, logo, watermark, UI or clipped subjects.
+
+Generated with the built-in image generation tool and downsampled without cropping to 1024 × 512 with genuine transparency.

@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "gentian-above-the-clouds",
   "name": "Gentian above the Clouds",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -157,6 +161,18 @@
     "emptyState.illustration": {
       "asset": "empty",
       "fit": "contain"
+    },
+    "home.artwork": {
+      "asset": "home-hero",
+      "fit": "contain",
+      "compact": {
+        "asset": "home-hero",
+        "fit": "contain"
+      },
+      "regular": {
+        "asset": "home-hero",
+        "fit": "contain"
+      }
     }
   },
   "icons": {
@@ -187,7 +203,19 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -205,7 +233,19 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain"
       }
@@ -218,18 +258,19 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "Switzerland / Alps. Snow peaks and cable cars rise above a sea of clouds in fine cut-paper relief. Snow ivory, alpine slate and gentian violet frame original day and moonlit landscapes, with trail-sign, alpine-glider and carabiner glyphs.",
+  "description": "Switzerland / Alps. Snow peaks and cable cars rise above clouds in cut-paper relief, with a transparent mountain railway scene for Classic and Editorial Home.",
   "tags": [
     "switzerland",
     "alps",
     "gentian",
     "cut-paper",
     "mountains",
-    "violet"
+    "violet",
+    "editorial"
   ],
   "preview": "preview"
 }

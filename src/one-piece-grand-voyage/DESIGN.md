@@ -1,6 +1,6 @@
 # One Piece — Grand Voyage
 
-Version 1.1.0 preserves the original fan-art scenes and ocean-adventure palette: turquoise daylight, moonlit navy, burgundy accents and straw-hat gold. The existing Grand Voyage Home name and hidden logo remain unchanged.
+Version 1.2.0 preserves the original fan-art scenes and ocean-adventure palette: turquoise daylight, moonlit navy, burgundy accents and straw-hat gold. The existing Grand Voyage Home name and hidden logo remain unchanged.
 
 The contained Home hero depicts Luffy on a ship's bow; each mode's Chopper illustration remains dedicated to the empty state. Hero content is hidden by the app when the empty state is active. The four existing phone/tablet wallpapers retain their original compositions and focal points. Nautical map and woven action textures remain at restrained opacity. UI planes use 88% opacity and terminal planes 94% for steadier reading over the detailed seascapes.
 
@@ -8,6 +8,8 @@ Three template glyphs add a rope-arrow back control, a sailboat send control and
 
 ## Verification
 
-CLI 1.9.0 validation, contrast and required-preview source checks passed without warnings for this theme. Artwork and template glyphs were visually inspected, including 17px and 34px tints in both modes. The browser's light phone preview was inspected; a complete final device/mode review was not completed after browser operations stalled. The gallery recognized the home.hero slot but did not visibly render it, so the new hero's runtime appearance remains unverified. No native-device import test is claimed.
-
 The dedicated Home hero presents Luffy standing on a ship bow above curling turquoise waves. It is a separate transparent composition from the preserved empty-state illustration and is used in both modes and responsive sizes.
+
+## Unified Home artwork
+
+Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.background` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.

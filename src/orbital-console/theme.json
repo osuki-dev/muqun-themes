@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "orbital-console",
   "name": "Orbital Console",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -187,9 +187,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -205,9 +225,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "home.background": {
+        "asset": "portrait-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-dark",
+          "fit": "cover"
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover"
+        }
+      },
+      "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -218,7 +258,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

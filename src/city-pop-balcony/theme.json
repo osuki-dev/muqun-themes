@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "city-pop-balcony",
   "name": "シティポップ・バルコニー",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
@@ -160,20 +160,10 @@
         "fit": "cover",
         "opacity": 0.62
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-light",
         "fit": "contain",
-        "opacity": 1,
-        "compact": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
-        }
+        "opacity": 1
       }
     },
     "dark": {
@@ -187,20 +177,10 @@
         "fit": "cover",
         "opacity": 0.68
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-dark",
         "fit": "contain",
-        "opacity": 1,
-        "compact": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
-        }
+        "opacity": 1
       }
     }
   },
@@ -226,7 +206,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   }

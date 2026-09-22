@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mushroom-daybreak",
   "name": "Mushroom Daybreak",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Muqun Theme Collection · fan art",
   "license": "Unofficial fan art; underlying IP rights reserved",
   "variants": {
@@ -150,7 +150,7 @@
     }
   },
   "decoration": {
-    "home.hero": {
+    "home.artwork": {
       "asset": "home-hero",
       "fit": "contain",
       "opacity": 1,
@@ -182,6 +182,21 @@
   },
   "variantDecorations": {
     "light": {
+      "home.background": {
+        "asset": "portrait-light",
+        "fit": "cover",
+        "compact": {
+          "asset": "portrait-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "regular": {
+          "asset": "wide-light",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "opacity": 0.24
+      },
       "shell.background": {
         "asset": "portrait-light",
         "fit": "cover",
@@ -202,7 +217,7 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -219,6 +234,25 @@
       }
     },
     "dark": {
+      "home.background": {
+        "asset": "wide-dark",
+        "fit": "cover",
+        "compact": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.83,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wide-dark",
+          "fit": "cover",
+          "opacity": 0.24
+        },
+        "opacity": 0.24
+      },
       "shell.background": {
         "asset": "wide-dark",
         "fit": "cover",
@@ -243,7 +277,7 @@
         "fit": "contain",
         "opacity": 1
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -267,18 +301,19 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "Unofficial Super Mario fan art. Original pixel landscapes in brick red, sky blue and butter cream, with midnight cobalt evenings, a cheerful castle Home illustration and chunky platform-inspired glyphs.",
+  "description": "Unofficial Super Mario fan art. Pixel landscapes in brick red, sky blue and butter cream, with midnight cobalt evenings and a transparent castle hero composed for Classic and Editorial Home.",
   "tags": [
     "fan-art",
     "super-mario",
     "pixel-art",
     "brick-red",
     "platformer",
-    "illustrated"
+    "illustrated",
+    "editorial"
   ],
   "preview": "preview"
 }

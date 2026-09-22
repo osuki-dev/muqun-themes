@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "kissaten-after-rain",
   "name": "雨上がりの喫茶店",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "濡れた窓、琥珀色の珈琲、深緑のソファを映す静かな喫茶店テーマ。",
@@ -160,7 +160,7 @@
         "fit": "cover",
         "opacity": 0.62
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-light",
         "fit": "contain",
         "opacity": 1,
@@ -187,7 +187,7 @@
         "fit": "cover",
         "opacity": 0.68
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-dark",
         "fit": "contain",
         "opacity": 1,
@@ -226,7 +226,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   }

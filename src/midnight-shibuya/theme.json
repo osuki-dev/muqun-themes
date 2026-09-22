@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "midnight-shibuya",
   "name": "渋谷、午前零時",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "ネオンと雨粒が交差する、午前零時の渋谷を描いた夜景テーマ。",
@@ -153,26 +153,43 @@
       "shell.background": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.16
+        "opacity": 0.16,
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.16
+        },
+        "regular": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.16
+        }
       },
       "home.background": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.62
+        "opacity": 0.62,
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.62
+        },
+        "regular": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.62
+        }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-light",
         "fit": "contain",
-        "opacity": 1,
         "compact": {
           "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         },
         "regular": {
           "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         }
       }
     },
@@ -180,26 +197,43 @@
       "shell.background": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.2
+        "opacity": 0.2,
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.2
+        },
+        "regular": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.2
+        }
       },
       "home.background": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.68
+        "opacity": 0.68,
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.68
+        },
+        "regular": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.68
+        }
       },
-      "home.hero": {
+      "home.artwork": {
         "asset": "hero-dark",
         "fit": "contain",
-        "opacity": 1,
         "compact": {
           "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         },
         "regular": {
           "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
+          "fit": "contain"
         }
       }
     }
@@ -226,7 +260,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   }

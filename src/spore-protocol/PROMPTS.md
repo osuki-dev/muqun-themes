@@ -29,3 +29,7 @@ Theme gallery cover1024x640 ratio8:5, exact vertical center split with LIGHT por
 ## Dedicated Home hero
 
 Original biotech macro-world Home illustration, a tiny porcelain research pod sheltered under three broad sculptural mushroom caps, delicate chartreuse luminous mycelium bridges connecting pod to lavender stems, small clear spherical spore satellites, refined surreal3D botanical porcelain. New complete miniature settlement scene not an oval cocoon. Square768 actual transparent background complete centered silhouette15percent clear margin every edge, no words letters logos panel or background.
+
+## editorial-foreground
+
+Adapted locally from the approved transparent `home-hero.png`; no new image-generation prompt was used. The complete cutout is scaled into a 1024 × 512 transparent canvas and aligned to the right for Editorial's native cover title.

@@ -39,3 +39,10 @@ Create 1024x640 landscape fullbleed theme preview. Precise vertical split center
 ## Dedicated Home hero
 
 Original unofficial Portal fan art, pristine industrial 3D miniature: two friendly testing robots ATLAS and P-body stand together on one small broken chalk-white test-platform tile, complete bodies, blue and orange optical eyes, playful subtle greeting. Distinct Home illustration, no companion cube. Square768 transparent background, full centered silhouette with15percent clear margin every side. Elegant white ceramic, graphite joints, coldblue and restrained orange. No letters no logo no backdrop.
+
+Version 1.1.0 reuses this transparent asset without modification for Editorial `home.artwork`. No additional image generation was used.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

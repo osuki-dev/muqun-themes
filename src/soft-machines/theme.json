@@ -3,9 +3,13 @@
   "schemaVersion": 1,
   "id": "soft-machines",
   "name": "Soft Machines",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -151,6 +155,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "40aa6d912b22995fb54a34a35bac9adf06d594ebd9535eff554c708beccea813"
+    },
+    "editorial-foreground": {
+      "path": "assets/editorial-foreground.png",
+      "sha256": "0c753622b2eaa090f356026745ba29624673b7b321ee4c64339b1690bdeef3ae"
     }
   },
   "decoration": {
@@ -187,9 +195,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -205,9 +225,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -218,7 +250,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

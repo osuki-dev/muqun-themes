@@ -4,6 +4,6 @@ Russet timber cabins meet storm-slate fjords and pale peach afterglow. Carved wo
 
 Warm paper surfaces carry dark slate text and russet actions in light mode. Dark mode uses blue-grey planes, warm ivory text and peach actions. Independent semantic and ANSI colors keep terminal output legible. Surface opacity is 94%; terminal opacity is 96%.
 
-The back glyph echoes a timber paddle, send combines a boat and forward sail, and attachment takes the form of a rope paperclip. These use template alpha so the application supplies each mode's action color. The home identity remains Muqun.
+The back glyph echoes a timber paddle, send combines a boat and forward sail, and attachment takes the form of a rope paperclip. These use template alpha so the application supplies each mode's action color. Editorial Home places the existing transparent skiff and island scene over the responsive fjord wallpaper as a contained foreground at both widths. Classic Home and startup retain the same established hero behavior, and the home identity remains Muqun.
 
 The gallery cover presents light artwork on the left and dark artwork on the right. The compact cabin illustration is reserved for empty states.

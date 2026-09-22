@@ -5,7 +5,7 @@ The ten original scene, panel, action and Chopper images were generated on
 provenance states that no official artwork was traced, edited or composited.
 Those images were converted to WebP for the original release.
 
-Version 1.1.0 retains that artwork. Six supporting assets are resized to 768px;
+Version 1.2.0 retains that artwork. Six supporting assets are resized to 768px;
 the existing split preview is converted to PNG. Three new nautical template
 glyphs were generated with OpenAI image generation on 2026-09-14. Their prompts
 are recorded in PROMPTS.md. The original release says its illustration prompts

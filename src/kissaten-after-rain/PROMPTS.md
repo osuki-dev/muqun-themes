@@ -17,3 +17,7 @@ Create a transparent siphon coffee service as a complete centered object, transp
 ## Hero — Dark
 
 Create a separately lit night variant of a transparent siphon coffee service, transparent background, complete silhouette, no words, generous padding.
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

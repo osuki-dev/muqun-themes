@@ -41,3 +41,7 @@ Use case: stylized-concept. One original UI glyph for a Russian winter engraving
 ## Distinct Home hero
 
 Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. A silver-engraving miniature of an elegant small arched Saint Petersburg river bridge carrying frosted balustrades over two sculptural cobalt-blue ice floes, with a tiny pale blue skiff moored beneath. Fine etched silver lines, icy cyan highlights, dark cobalt shadows. Architectural bridge composition, no streetlamp or scarf. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.
+
+## editorial-foreground
+
+Adapted locally from the approved transparent `home-hero.png`; no new image-generation prompt was used. The complete cutout is scaled into a 1024 × 512 transparent canvas and aligned to the right for Editorial's native cover title.

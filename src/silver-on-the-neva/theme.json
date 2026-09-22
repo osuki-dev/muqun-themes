@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "silver-on-the-neva",
   "name": "Silver on the Neva",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Russia / Saint Petersburg. Frosted ironwork and Neva river ice rendered in silver engraving, icy cyan and deep cobalt. Day and moonlit illustrations with crystalline navigation and wrought-iron attachment glyphs.",
@@ -15,6 +15,10 @@
     "cobalt"
   ],
   "preview": "preview",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -160,6 +164,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "5ba4bc76ca6586f77199d9843b555e35d12e11e514a8245ccb5f45f782c613de"
+    },
+    "editorial-foreground": {
+      "path": "assets/editorial-foreground.png",
+      "sha256": "6efd3cbf85dd56c9a364eb21b4f7cad549f0dd1e7269b95cfe236a1cd57293a0"
     }
   },
   "decoration": {
@@ -186,9 +194,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -208,9 +228,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "compact": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "editorial-foreground",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -221,7 +253,7 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

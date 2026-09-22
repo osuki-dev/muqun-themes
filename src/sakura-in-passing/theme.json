@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sakura-in-passing",
   "name": "Sakura, in Passing",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Japan / Himeji. Cherry blossoms and a white castle in blush, crimson and ink indigo. Original woodblock-inspired day and moonlit illustrations, with folding-fan, heron and mizuhiki glyphs.",
@@ -15,6 +15,10 @@
     "crimson"
   ],
   "preview": "preview",
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "variants": {
     "light": {
       "colors": {
@@ -143,7 +147,7 @@
     },
     "preview": {
       "path": "assets/preview.webp",
-      "sha256": "a71c439365fae24eec088992f3a468bfd8123a2b799b80080de3398987542b29"
+      "sha256": "403c078773a0c6147864b0a98c4515603d8f18492b8c24414b474cfbf68a9cdb"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -160,6 +164,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "c845f3f97febfe700d4f15da649897009ccb3d0e2f693b045859394f3336885f"
+    },
+    "editorial-foreground": {
+      "path": "assets/editorial-foreground.png",
+      "sha256": "11cea8e8857f6a1c581e0ad79b44899b653035941b1a24a173f1c20cf18d911d"
     }
   },
   "decoration": {
@@ -186,9 +194,17 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0.5
+        }
       }
     },
     "dark": {
@@ -208,20 +224,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "editorial-foreground",
+        "fit": "contain",
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0.5
+        }
       }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Sakura, in Passing"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },

@@ -45,3 +45,7 @@ Square1024x1024 template UI glyph genuinely transparent background. Single BLACK
 Chiang Mai Thailand, a small traditional Lanna teak garden house with a graceful tiered roof beside a silk parasol and stepping stones, stylized embroidered silk garden vignette. Peacock teal, soft ivory, old gold and small mulberry details. No flower bouquet, no words or flags. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

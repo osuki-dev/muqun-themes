@@ -44,10 +44,10 @@ jobs:
           fi
 
       - name: Pack changed sources and regenerate the catalogue
-        run: bunx @osuki-dev/muqun-theme@1 build
+        run: bunx @osuki-dev/muqun-theme@2 build
 
       - name: Verify the result the way a full check would
-        run: bunx @osuki-dev/muqun-theme@1 check
+        run: bunx @osuki-dev/muqun-theme@2 check
 
       - name: Mirror what changed to R2
         # Keys match the release branch exactly, so the `package` and

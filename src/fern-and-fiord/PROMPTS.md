@@ -2,6 +2,8 @@
 
 Generated with OpenAI built-in image generation. Final assets are resized and encoded for the theme package; transparency is preserved for cutouts and template glyphs.
 
+## Editorial reuse
+
 ## preview
 
 Create a premium theme gallery cover 1024x640, a balanced two-panel diptych using these two own artworks. LEFT HALF must present reference1 pale daytime Fiordland mist and fern lake. RIGHT HALF must present reference2 dark moonlit Fiordland cliff and silver reflection. Preserve their beautiful carved-pigment realism and distinctive palettes. Clear straight centered vertical divide. Full bleed, no frames, no phone/device UI. Add only exact title 'Fern and Fiord' in elegant restrained light serif letters centered across a quiet dark band near lower edge, with small 'NEW ZEALAND' above it. Both halves equally important; no other text. Do not blend away the light/dark difference.
@@ -43,3 +45,8 @@ A single bold black UI attachment glyph on truly transparent background, square1
 New Zealand Fiordland, a red-orange kayak with paddle on a glacier-mint fjord inlet beneath two sheer greenstone cliff faces and a silver waterfall; small cool-mist cloud. Original rich carved-pigment illustration. No giant fern or stream-rock stilllife. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

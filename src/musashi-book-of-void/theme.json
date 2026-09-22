@@ -1,0 +1,233 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "musashi-book-of-void",
+  "name": "宮本武蔵｜空の巻",
+  "version": "1.1.1",
+  "author": "OpenAI",
+  "license": "CC-BY-4.0",
+  "description": "『五輪書』と二天一流をモチーフに、和紙、松煙墨、錆朱、夜藍で静かな緊張と余白を描く宮本武蔵テーマ。",
+  "tags": [
+    "musashi",
+    "samurai",
+    "niten-ichiryu",
+    "wabi-sabi",
+    "ink",
+    "japan"
+  ],
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F3EBDD",
+        "surface": "#FBF7EE",
+        "surfaceRaised": "#E7DCC9",
+        "border": "#D2C3AD",
+        "borderStrong": "#9B866B",
+        "text": "#211C18",
+        "textMuted": "#62564A",
+        "textSubtle": "#6D5F50",
+        "textDisabled": "#A69A8B",
+        "primary": "#7B2018",
+        "onPrimary": "#FFF9EF",
+        "primarySubtle": "#7B20181A",
+        "danger": "#811B17",
+        "dangerSubtle": "#811B1717",
+        "success": "#286242",
+        "warning": "#81520E",
+        "info": "#31566F"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#F3EBDD",
+        "backgroundOpacity": 1,
+        "foreground": "#211C18",
+        "cursor": "#7B2018",
+        "link": "#254F6A",
+        "selection": "#7B20182E",
+        "ansi": [
+          "#211C18",
+          "#811B17",
+          "#286242",
+          "#81520E",
+          "#31566F",
+          "#69467A",
+          "#216568",
+          "#62564A",
+          "#6E6256",
+          "#9A2E24",
+          "#327853",
+          "#986514",
+          "#3E6A88",
+          "#805A92",
+          "#2B797D",
+          "#FBF7EE"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#111313",
+        "surface": "#191C1B",
+        "surfaceRaised": "#242725",
+        "border": "#363935",
+        "borderStrong": "#626358",
+        "text": "#F2EBDD",
+        "textMuted": "#C1B6A5",
+        "textSubtle": "#AAA08F",
+        "textDisabled": "#716D65",
+        "primary": "#FF927D",
+        "onPrimary": "#25110D",
+        "primarySubtle": "#FF927D14",
+        "danger": "#FF9E91",
+        "dangerSubtle": "#FF9E9112",
+        "success": "#7FCB9B",
+        "warning": "#E8B65D",
+        "info": "#94BED9"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#111514",
+        "backgroundOpacity": 1,
+        "foreground": "#E9DFCF",
+        "cursor": "#FF927D",
+        "link": "#A8D2EC",
+        "selection": "#FF927D38",
+        "ansi": [
+          "#111514",
+          "#FF9E91",
+          "#7FCB9B",
+          "#E8B65D",
+          "#94BED9",
+          "#C9A3D8",
+          "#80CFCA",
+          "#C1B6A5",
+          "#817A6F",
+          "#FFB1A5",
+          "#9DDFB3",
+          "#F4C978",
+          "#AED6EF",
+          "#D9B9E5",
+          "#9CE1DC",
+          "#F2EBDD"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "background-light": {
+      "path": "assets/background-light.png"
+    },
+    "background-dark": {
+      "path": "assets/background-dark.png"
+    },
+    "hero-light": {
+      "path": "assets/hero-light.png"
+    },
+    "hero-dark": {
+      "path": "assets/hero-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.background": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.32,
+        "focalPoint": {
+          "x": 0.72,
+          "y": 0.5
+        }
+      },
+      "home.artwork": {
+        "asset": "hero-light",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
+    },
+    "dark": {
+      "home.background": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.72,
+          "y": 0.5
+        }
+      },
+      "home.artwork": {
+        "asset": "hero-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "空の巻"
+    },
+    "logo": {
+      "mode": "default"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  }
+}

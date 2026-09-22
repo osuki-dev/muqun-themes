@@ -41,7 +41,7 @@ and say where the result goes:
 
 > Create a Muqun theme with id `grand-voyage` from the attached references.
 > Author it in `src/grand-voyage`, including the 1024×640 preview cover, and
-> make `bunx @osuki-dev/muqun-theme check --sources --require-preview` pass.
+> make `bunx @osuki-dev/muqun-theme@2 check --sources --require-preview` pass.
 
 Review what comes back the same way you would a human's: run the check, look at
 the artwork, read the PR. The skill makes an agent produce a valid theme; it
@@ -55,7 +55,7 @@ Nothing to install; `bunx` fetches it, and it knows this repository's layout:
 run from the repository root, a bare id is enough.
 
 ```sh
-bunx @osuki-dev/muqun-theme --help
+bunx @osuki-dev/muqun-theme@2 --help
 ```
 
 ## Making a theme by hand
@@ -69,7 +69,7 @@ contract you are working to.
 discover the format by editing and deleting rather than by reading the schema.
 
 ```sh
-bunx @osuki-dev/muqun-theme init grand-voyage      # writes src/grand-voyage/
+bunx @osuki-dev/muqun-theme@2 init grand-voyage      # writes src/grand-voyage/
 ```
 
 **2. Edit.** Open `src/grand-voyage/theme.json`. Set `name`, `author` and
@@ -82,8 +82,8 @@ in place.
 **3. Check as you go.** Neither command needs a packed file.
 
 ```sh
-bunx @osuki-dev/muqun-theme contrast grand-voyage  # what the palette costs in translucency
-bunx @osuki-dev/muqun-theme validate grand-voyage  # everything the app checks on import
+bunx @osuki-dev/muqun-theme@2 contrast grand-voyage  # what the palette costs in translucency
+bunx @osuki-dev/muqun-theme@2 validate grand-voyage  # everything the app checks on import
 ```
 
 `validate` exits `0` when the theme is usable. Warnings are advice; errors mean
@@ -98,12 +98,12 @@ there; replace it and keep it named in the manifest's `preview` field.
 **5. Run what CI runs.**
 
 ```sh
-bunx @osuki-dev/muqun-theme check --sources --require-preview
+bunx @osuki-dev/muqun-theme@2 check --sources --require-preview
 ```
 
 That validates every source, packs it in memory to prove it can be, and
 refuses a theme without a cover. If you
-want to see the package itself, `bunx @osuki-dev/muqun-theme pack grand-voyage`
+want to see the package itself, `bunx @osuki-dev/muqun-theme@2 pack grand-voyage`
 writes `dist/grand-voyage.muqun-theme`; it is gitignored, so pack as much as
 you like.
 
@@ -117,7 +117,7 @@ Themes arrive as pull requests, one theme per PR.
 1. Branch from `main`: `git switch -c theme/grand-voyage`.
 2. Add `src/grand-voyage/`. Nothing else: `dist/` and `index.json` are built
    by CI and are ignored by git on `main`.
-3. Run `bunx @osuki-dev/muqun-theme check --sources --require-preview` from
+3. Run `bunx @osuki-dev/muqun-theme@2 check --sources --require-preview` from
    the repository root. It is exactly what CI runs on the PR.
 4. Open the pull request. The template lists what a reviewer looks for.
 
@@ -165,8 +165,8 @@ merged, however good the theme looks.
 Browse the themes on the website, or list them from a terminal:
 
 ```sh
-bunx @osuki-dev/muqun-theme list
-bunx @osuki-dev/muqun-theme list --search sea
+bunx @osuki-dev/muqun-theme@2 list
+bunx @osuki-dev/muqun-theme@2 list --search sea
 ```
 
 Download the `.muqun-theme` file from the
@@ -180,3 +180,8 @@ The format itself, every field and every limit, is documented in the toolchain's
 [README](https://github.com/osuki-dev/muqun-theme-cli#the-muqun-theme-format).
 Where the two disagree, the app is right and the tool has drifted; please open
 an issue there.
+
+For this workspace's local first-release Classic/Editorial separation and Home
+artwork guidance, see [Home layout artwork](docs/home-layout-artwork.md). It
+covers the existing `home.*` and `homeIdentity` slots, compact/regular
+inheritance, and the no-art fallback without adding a layout field to a theme.

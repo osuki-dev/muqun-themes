@@ -6,7 +6,7 @@ a quiet kissaten after rainfall. The interface uses coffee amber, bottle green, 
 
 ## Home
 
-The home identity uses a short Japanese slogan. The hero is a transparent siphon coffee service, composed with generous transparent padding for both the home view and the app launch screen. No home decoration layer is used.
+The home identity uses a short Japanese slogan. The mode-specific transparent siphon coffee service keeps its established Classic hero and app launch roles. Editorial Home reuses the same light or dark cutout as a contained foreground over the existing rain-washed cover, with explicit compact and regular mappings. Native content and controls remain separate from the artwork.
 
 ## Chrome
 

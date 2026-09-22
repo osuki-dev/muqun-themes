@@ -43,3 +43,5 @@ Use case: stylized-concept. One original app UI glyph for an ink wash Jiangnan t
 Jiangnan China, an elegant whitewashed waterside pavilion with black-tile upturned roof beside a round moon gate and tiny lotus pond, one cinnabar hanging lantern. Refined original ink-wash painting in rice-paper ivory, charcoal and restrained cinnabar. No boat, umbrella or writing. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
 
 Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
+
+The existing transparent Home hero is also reused unchanged as the Editorial cover foreground. No additional generated artwork was needed.

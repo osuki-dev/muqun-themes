@@ -1,6 +1,6 @@
 # Runtime Foundry
 
-A backend workshop with warm ivory work surfaces, aubergine and graphite depth, and precise copper connections. Official Python and Rust logos and Renee French's original Go Gopher occupy separate modules around a clear reading field. A contained Home banner displays the three together.
+A backend workshop with warm ivory work surfaces, aubergine and graphite depth, and precise copper connections. Official Python and Rust logos and Renee French's original Go Gopher occupy separate modules around a clear reading field. The transparent mode-specific Home scene remains the Classic hero and now serves as Editorial Home's contained foreground at compact and regular widths.
 
 Phone and tablet wallpapers are composed independently in both modes. Home uses stronger artwork; conversation uses a subdued shared background. Three original template glyphs preserve familiar back, send and attachment functions. All UI and sixteen terminal color roles are supplied in both modes. The package preserves Muqun's default name and logo.
 

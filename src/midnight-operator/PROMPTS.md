@@ -29,3 +29,5 @@ Dedicated theme gallery cover 1024x640 aspect ratio 8:5. Exact split vertical ce
 ## Home illustration
 
 Create a new standalone Home illustration, square 1024x1024, true transparent background. An original sculptural electronic relay garden: three vertical charcoal ceramic fins of different heights connected by delicate luminous phosphor-green etched circuit tracks on a low pale celadon hexagonal plinth, one small floating green orb between fins. Understated precision industrial art, matte ceramic, restrained glow. NOT a folded ribbon or loop. Entire object visible with generous transparent margins on every side, premium detailed illustration, readable at 180dp tall, no text, logos, watermark, border, scenery background or interface. Complete silhouette, no cropping. Distinct new composition, not an empty-state icon.
+
+Version 1.1.0 reuses this transparent, wordless asset for Editorial Home's foreground. The existing mode- and width-specific wallpapers supply the cover background; native identity and controls remain outside the artwork.

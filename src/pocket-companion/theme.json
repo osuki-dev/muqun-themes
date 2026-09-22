@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pocket-companion",
   "name": "Pocket Companion",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -191,9 +191,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "peek",
+          "fit": "contain"
+        }
+      },
+      "home.artwork": {
+        "asset": "peek",
+        "fit": "contain",
+        "compact": {
+          "asset": "peek",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "peek",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -209,9 +229,29 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "peek",
+          "fit": "contain"
+        }
+      },
+      "home.artwork": {
+        "asset": "peek",
+        "fit": "contain",
+        "compact": {
+          "asset": "peek",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "peek",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -222,11 +262,11 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "An original little otter companion in oat, cocoa and apricot. Tactile paper illustrations, a contained pocket greeting and soft rounded glyphs make a quiet place for everyday conversations.",
+  "description": "An original little otter companion in oat, cocoa and apricot. Responsive Home artwork, tactile paper illustrations and soft rounded glyphs make a quiet place for everyday conversations.",
   "tags": [
     "otter",
     "cozy",

@@ -43,3 +43,8 @@ Original app template glyph, solid black on actual transparent background, squar
 ## icon-attach
 
 Original app template glyph, solid black on actual transparent background, square. A chunky squared-off paperclip formed like two interlocking mine rails with stepped rectangular corners, diagonal up-right orientation, clear transparent inner opening and one open return stroke. Minecraft-inspired angular geometry, unmistakable attach paperclip at 17px. Flat strong silhouette no texture, shading, tiny details, words, border; generous margins.
+
+
+## Current artwork mapping
+
+Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.

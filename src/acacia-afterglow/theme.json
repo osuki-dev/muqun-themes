@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -111,6 +111,10 @@
   "materials": {
     "default": "solid"
   },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": false
+  },
   "assets": {
     "wide-light": {
       "path": "assets/wide-light.webp",
@@ -151,6 +155,10 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "4a57f546c822fb8343a70e0f2092b967512fd77269d15d8b456852d29aeeadc1"
+    },
+    "home-decoration": {
+      "path": "assets/home-decoration.png",
+      "sha256": "bcddb925ef3de321e97fd284da21b78b429eb299ae8f6542d825f9bcbf9a22f2"
     }
   },
   "decoration": {
@@ -187,9 +195,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     },
     "dark": {
@@ -205,9 +225,21 @@
           "fit": "cover"
         }
       },
-      "home.hero": {
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain"
+      },
+      "home.artwork": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "compact": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        },
+        "regular": {
+          "asset": "home-decoration",
+          "fit": "contain"
+        }
       }
     }
   },
@@ -218,11 +250,11 @@
     "logo": {
       "mode": "default"
     },
-    "hero": {
+    "artwork": {
       "mode": "default"
     }
   },
-  "description": "Kenya. Umbrella acacias and open savanna in textured linocut, with acacia gold, burnt umber and dusty mauve. Golden afternoon and quiet dusk landscapes, with twig, bird and seed-pod glyphs.",
+  "description": "Kenya. Umbrella acacias and open savanna in textured linocut, with acacia gold, burnt umber and dusty mauve. Golden afternoon and quiet dusk landscapes, with a transparent Editorial cover vignette.",
   "tags": [
     "kenya",
     "savanna",
