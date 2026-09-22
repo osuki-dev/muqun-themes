@@ -141,6 +141,12 @@
     "empty": {
       "path": "assets/empty.png"
     },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
+    },
     "icon-back": {
       "path": "assets/icon-back.png"
     },
@@ -197,9 +203,9 @@
         }
       },
       "shell.wallpaper": {
-        "asset": "artwork-light",
+        "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.15,
+        "opacity": 0.25,
         "focalPoint": {
           "x": 0.5,
           "y": 0.35
@@ -217,9 +223,9 @@
         }
       },
       "shell.wallpaper": {
-        "asset": "artwork-dark",
+        "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.22,
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
           "y": 0.35
