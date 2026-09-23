@@ -1,9 +1,10 @@
 # Artwork provenance
 
-Original illustrations generated for this theme on 2026-09-22. Released by the author under CC0-1.0. No external photographs, branded marks, fonts, or interface screenshots are bundled.
+The foreground and two architectural wallpapers were newly generated for Muqun on 2026-09-23 using OpenAI image generation and released by the author under CC0-1.0. No external character franchise, photography, branded marks, fonts, or interface screenshots are bundled.
 
-- `assets/artwork-light.png`: anime cyber shrine maiden (miko) with fiber-optic cords and floating holographic talismans on a high-tech shrine pavilion overlooking Neo-Tokyo at dawn.
-- `assets/artwork-dark.png`: the same cyber miko standing before a colossal glowing neon vermilion Torii gate at midnight under a massive holographic moon.
-- `assets/preview.png`: split-palette gallery composition derived from those two illustrations (1024 × 640).
-- `assets/empty.png`: square 1:1 portrait vignette of the cyber miko.
-- `assets/icon-*.png`: custom cyber-shrine talisman and circuitry vector icons created for this theme.
+- `assets/figure.png`: original wordless watercolor character, transparent alpha; shared between light and dark modes.
+- `assets/wallpaper-light.png` and `assets/wallpaper-dark.png`: original quiet architectural scenery without people or writing.
+- `assets/preview.png`: 1024 × 640 light/dark gallery composition rendered from this theme's own assets and palette.
+Control icons use the app-native glyphs, preserving familiar scan, settings, navigation, and send semantics.
+
+The previous poster lettering, foreground duplication, and old character/empty-state images have been removed. Native Home layout renders the theme title once; no words are baked into illustrations.

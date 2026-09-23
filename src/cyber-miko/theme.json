@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "cyber-miko",
   "name": "Cyber Miko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
-  "description": "Sacred tradition meets cybernetic elegance. Shinto shrine maiden in futuristic vermilion robes, glowing fiber-optic tassels, holographic torii gates, and digital cherry blossom particles.",
+  "description": "A welcoming shrine attendant in ivory and vermilion watercolor, quiet garden scenery, and restrained midnight lantern bloom. Separate wordless artwork and wallpaper for both Home layouts.",
   "tags": [
     "anime",
     "cyberpunk",
@@ -65,22 +65,27 @@
           "#108076",
           "#1A120E"
         ]
+      },
+      "effects": {
+        "ambient": "none",
+        "intensity": 0,
+        "speed": 0.35
       }
     },
     "dark": {
       "colors": {
-        "background": "#0F0A1C",
-        "surface": "#17112A",
-        "surfaceRaised": "#21183A",
-        "border": "#3B2C61",
-        "borderStrong": "#6952A6",
-        "text": "#F7F2FF",
-        "textMuted": "#C5B8DE",
-        "textSubtle": "#9D8DC0",
-        "textDisabled": "#665585",
-        "primary": "#FF596C",
-        "onPrimary": "#15050A",
-        "primarySubtle": "#FF596C22",
+        "background": "#0B1420",
+        "surface": "#121F2D",
+        "surfaceRaised": "#1D2C3D",
+        "border": "#304255",
+        "borderStrong": "#60778D",
+        "text": "#FAF4E9",
+        "textMuted": "#C8CCCE",
+        "textSubtle": "#A6B0B7",
+        "textDisabled": "#76848E",
+        "primary": "#FF9A83",
+        "onPrimary": "#27120C",
+        "primarySubtle": "#FF9A8318",
         "danger": "#FF708D",
         "dangerSubtle": "#FF708D20",
         "success": "#00E5A3",
@@ -115,6 +120,11 @@
           "#33EBFF",
           "#FFFFFF"
         ]
+      },
+      "effects": {
+        "ambient": "bloom",
+        "intensity": 0.12,
+        "speed": 0.35
       }
     }
   },
@@ -128,98 +138,112 @@
     "preview": {
       "path": "assets/preview.png"
     },
-    "artwork-light": {
-      "path": "assets/artwork-light.png"
+    "figure": {
+      "path": "assets/figure.png"
     },
-    "artwork-dark": {
-      "path": "assets/artwork-dark.png"
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
     },
-    "empty": {
-      "path": "assets/empty.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
     }
   },
-  "decoration": {
-    "emptyState.illustration": {
-      "asset": "empty",
-      "fit": "contain"
-    }
-  },
-  "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    }
-  },
+  "decoration": {},
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "artwork-light",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
-        "asset": "artwork-light",
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.15,
+        "opacity": 0.65,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
       "home.artwork": {
-        "asset": "artwork-dark",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
-        "asset": "artwork-dark",
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.22,
+        "opacity": 0.7,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
