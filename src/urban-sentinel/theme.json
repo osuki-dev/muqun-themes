@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "urban-sentinel",
   "name": "Urban Sentinel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
-  "description": "Silver-haired youth in contemporary anime fashion illustration style. Features electric cobalt and ice-cyan modular webbing, sleek glass-city surfaces, and futuristic vector icons.",
+  "description": "Sage technical outerwear and warm graphite ink above peaceful botanical rooftops. One natural watercolor portrait, quiet independent scenery, and subtle evening particles.",
   "tags": [
     "anime",
     "techwear",
@@ -19,18 +19,18 @@
   "variants": {
     "light": {
       "colors": {
-        "background": "#EDF2F7",
-        "surface": "#F7FAFC",
-        "surfaceRaised": "#E2E8F0",
-        "border": "#CBD5E1",
-        "borderStrong": "#7E90A6",
-        "text": "#0F172A",
-        "textMuted": "#334155",
-        "textSubtle": "#475569",
+        "background": "#F1F0E7",
+        "surface": "#FAFAF4",
+        "surfaceRaised": "#E3E8DB",
+        "border": "#CDD5C6",
+        "borderStrong": "#7D8B73",
+        "text": "#142016",
+        "textMuted": "#3D503D",
+        "textSubtle": "#53634F",
         "textDisabled": "#94A3B8",
-        "primary": "#005BA6",
+        "primary": "#315C3F",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#005BA615",
+        "primarySubtle": "#315C3F14",
         "danger": "#B51234",
         "dangerSubtle": "#B5123414",
         "success": "#0B6E44",
@@ -41,10 +41,10 @@
         "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#EDF2F7",
+        "background": "#F1F0E7",
         "backgroundOpacity": 1,
-        "foreground": "#0F172A",
-        "cursor": "#B51234",
+        "foreground": "#142016",
+        "cursor": "#315C3F",
         "link": "#0C5CB2",
         "selection": "#005BA628",
         "ansi": [
@@ -65,24 +65,29 @@
           "#006ABF",
           "#0F172A"
         ]
+      },
+      "effects": {
+        "ambient": "none",
+        "intensity": 0,
+        "speed": 0.35
       }
     },
     "dark": {
       "colors": {
-        "background": "#0A0F1D",
-        "surface": "#11182B",
-        "surfaceRaised": "#19233D",
-        "border": "#27385E",
-        "borderStrong": "#4B66A3",
-        "text": "#F1F5F9",
-        "textMuted": "#AEBFD9",
-        "textSubtle": "#869BBF",
+        "background": "#091511",
+        "surface": "#11231A",
+        "surfaceRaised": "#1B3024",
+        "border": "#304B39",
+        "borderStrong": "#66836B",
+        "text": "#F4F6ED",
+        "textMuted": "#C1CFBC",
+        "textSubtle": "#A0B39B",
         "textDisabled": "#576B8C",
-        "primary": "#00E5FF",
-        "onPrimary": "#05101F",
-        "primarySubtle": "#00E5FF20",
-        "danger": "#FF708D",
-        "dangerSubtle": "#FF708D20",
+        "primary": "#BAD99E",
+        "onPrimary": "#10200D",
+        "primarySubtle": "#BAD99E18",
+        "danger": "#FF98A2",
+        "dangerSubtle": "#FF98A214",
         "success": "#00E6A0",
         "warning": "#FFB833",
         "info": "#70A5FF"
@@ -91,10 +96,10 @@
         "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#080C17",
+        "background": "#09130F",
         "backgroundOpacity": 1,
-        "foreground": "#F1F5F9",
-        "cursor": "#00E5FF",
+        "foreground": "#E6EFDC",
+        "cursor": "#BAD99E",
         "link": "#70A5FF",
         "selection": "#00E5FF38",
         "ansi": [
@@ -115,6 +120,11 @@
           "#33EBFF",
           "#FFFFFF"
         ]
+      },
+      "effects": {
+        "ambient": "particles",
+        "intensity": 0.08,
+        "speed": 0.35
       }
     }
   },
@@ -128,111 +138,119 @@
     "preview": {
       "path": "assets/preview.png"
     },
-    "artwork-light": {
-      "path": "assets/artwork-light.png"
-    },
-    "artwork-dark": {
-      "path": "assets/artwork-dark.png"
-    },
-    "empty": {
-      "path": "assets/empty.png"
+    "figure": {
+      "path": "assets/figure.png"
     },
     "wallpaper-light": {
       "path": "assets/wallpaper-light.png"
     },
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
     }
   },
-  "decoration": {
-    "emptyState.illustration": {
-      "asset": "empty",
-      "fit": "contain"
-    }
-  },
-  "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    }
-  },
+  "decoration": {},
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "artwork-light",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
+      "home.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.25,
+        "opacity": 0.65,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
       "home.artwork": {
-        "asset": "artwork-dark",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
+      "home.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.35,
+        "opacity": 0.7,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "URBAN SENTINEL"
+      "text": "SENTINEL"
     },
     "logo": {
       "mode": "hidden"
