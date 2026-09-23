@@ -86,8 +86,8 @@
         "primary": "#BAD99E",
         "onPrimary": "#10200D",
         "primarySubtle": "#BAD99E18",
-        "danger": "#FF708D",
-        "dangerSubtle": "#FF708D20",
+        "danger": "#FF98A2",
+        "dangerSubtle": "#FF98A214",
         "success": "#00E6A0",
         "warning": "#FFB833",
         "info": "#70A5FF"
