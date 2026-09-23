@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
-  "description": "Modern urban techwear youth illustration in the spirit of contemporary Japanese fashion manga. Features tactical orange webbing, utilitarian monochrome surfaces, and custom stencil icons.",
+  "description": "Ivory technical outerwear and burnt-orange details over quiet architectural paper. One expressive watercolor foreground, independent rail-city scenery, and calm solid work surfaces.",
   "tags": [
     "anime",
     "techwear",
@@ -65,6 +65,11 @@
           "#0C7572",
           "#141210"
         ]
+      },
+      "effects": {
+        "ambient": "none",
+        "intensity": 0,
+        "speed": 0.35
       }
     },
     "dark": {
@@ -115,6 +120,11 @@
           "#33EBFF",
           "#FFFFFF"
         ]
+      },
+      "effects": {
+        "ambient": "none",
+        "intensity": 0,
+        "speed": 0.35
       }
     }
   },
@@ -128,111 +138,119 @@
     "preview": {
       "path": "assets/preview.png"
     },
-    "artwork-light": {
-      "path": "assets/artwork-light.png"
-    },
-    "artwork-dark": {
-      "path": "assets/artwork-dark.png"
-    },
-    "empty": {
-      "path": "assets/empty.png"
+    "figure": {
+      "path": "assets/figure.png"
     },
     "wallpaper-light": {
       "path": "assets/wallpaper-light.png"
     },
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
     }
   },
-  "decoration": {
-    "emptyState.illustration": {
-      "asset": "empty",
-      "fit": "contain"
-    }
-  },
-  "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    }
-  },
+  "decoration": {},
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "artwork-light",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
+      "home.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.25,
+        "opacity": 0.65,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
       "home.artwork": {
-        "asset": "artwork-dark",
-        "fit": "contain",
+        "asset": "figure",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
+          "x": 0.58,
+          "y": 0.35
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.58,
+            "y": 0.35
+          }
         }
       },
-      "shell.background": {
+      "home.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.35,
+        "opacity": 0.7,
         "focalPoint": {
-          "x": 0.5,
-          "y": 0.35
+          "x": 0.7,
+          "y": 0.6
         }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.2
+      },
+      "empty.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "VANGUARD DRIFTER"
+      "text": "VANGUARD"
     },
     "logo": {
       "mode": "hidden"
