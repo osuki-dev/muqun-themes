@@ -1,12 +1,10 @@
 # Artwork provenance
 
-Original illustrations generated for this theme on 2026-09-22. Released by the author under CC0-1.0. No external photographs, branded marks, fonts, or interface screenshots are bundled.
+The foreground and two architectural wallpapers were newly generated for Muqun on 2026-09-23 using OpenAI image generation and released by the author under CC0-1.0. No external character franchise, photography, branded marks, fonts, or interface screenshots are bundled.
 
-- `assets/artwork-light.png`: handsome anime young man with messy black hair, wearing an oversized techwear jacket with bright vermilion-orange tactical backpack straps and industrial carabiners on a Tokyo street at daytime.
-- `assets/artwork-dark.png`: the same handsome youth walking down a rainy midnight Tokyo street with illuminated neon orange straps and wet asphalt reflections.
-- `assets/wallpaper-light.png`: wide Tokyo urban street intersection with elevated walkways, traffic signage and warm daylight scenery without human figures.
-- `assets/wallpaper-dark.png`: wide Tokyo urban street intersection at midnight with glowing orange street signs and wet asphalt reflections without human figures.
-- `assets/empty.png`: square 1:1 tactical portrait vignette of the young man with his orange modular gear.
-- `assets/preview.png`: split-palette gallery composition derived from those two illustrations (1024 × 640).
-- `assets/icon-*.png`: custom utilitarian tactical stencil icons created for this theme.
+- `assets/figure.png`: original wordless watercolor character, transparent alpha; shared between light and dark modes.
+- `assets/wallpaper-light.png` and `assets/wallpaper-dark.png`: original quiet architectural scenery without people or writing.
+- `assets/preview.png`: 1024 × 640 light/dark gallery composition rendered from this theme's own assets and palette.
+Control icons use the app-native glyphs, preserving familiar scan, settings, navigation, and send semantics.
 
+The previous poster lettering, foreground duplication, and old character/empty-state images have been removed. Native Home layout renders the theme title once; no words are baked into illustrations.
