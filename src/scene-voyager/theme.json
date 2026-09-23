@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "scene-voyager",
   "name": "Scene Voyager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -125,42 +125,27 @@
     "artwork-dark": {
       "path": "assets/artwork-dark.png"
     },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
     "icon-attach": {
       "path": "assets/icon-attach.png"
     },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
+    "icon-create": {
+      "path": "assets/icon-create.png"
     },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
+    "launch-light": {
+      "path": "assets/launch-light.png"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.png"
     }
   },
   "decoration": {},
   "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
     },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
+    "chrome.create": {
+      "asset": "icon-create",
       "render": "template"
     }
   },
@@ -174,6 +159,11 @@
           "x": 0.5,
           "y": 0.5
         }
+      },
+      "launch.artwork": {
+        "asset": "launch-light",
+        "fit": "contain",
+        "opacity": 1
       }
     },
     "dark": {
@@ -185,6 +175,11 @@
           "x": 0.5,
           "y": 0.5
         }
+      },
+      "launch.artwork": {
+        "asset": "launch-dark",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
@@ -200,7 +195,7 @@
       "mode": "default"
     }
   },
-  "description": "From vermilion city streets to indigo orbit. Two original manga collage illustrations, cream work surfaces, and one foreground artwork shared by Classic and Editorial Home.",
+  "description": "Vermilion city streets and indigo orbit. Large manga Home artwork, complete bicycle and astronaut launch compositions, cream work surfaces, and familiar semantic controls.",
   "tags": [
     "manga",
     "city",
