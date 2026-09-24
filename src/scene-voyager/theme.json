@@ -3,16 +3,16 @@
   "schemaVersion": 1,
   "id": "scene-voyager",
   "name": "Scene Voyager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#EF5841",
+        "background": "#F7EEDC",
         "surface": "#FFF5DE",
-        "surfaceRaised": "#F4E6C8",
+        "surfaceRaised": "#F1E3C8",
         "border": "#E0DAD1",
         "borderStrong": "#C2B9AE",
         "text": "#11110F",
@@ -36,18 +36,18 @@
         "selection": "#FF5A4A24",
         "ansi": [
           "#050B12",
-          "#D93025",
+          "#D42F24",
           "#027A48",
           "#B54708",
           "#3538CD",
           "#6941C6",
           "#0E7090",
           "#475467",
-          "#6A7281",
+          "#69707F",
           "#B42318",
           "#027A48",
           "#B54708",
-          "#3E63FF",
+          "#3C60F9",
           "#7F56D9",
           "#0E7090",
           "#050B12"
@@ -85,7 +85,7 @@
         "link": "#A4BCFD",
         "selection": "#F7D77735",
         "ansi": [
-          "#0C121A",
+          "#818589",
           "#F2554A",
           "#34C08B",
           "#F0A93C",
@@ -93,7 +93,7 @@
           "#C7A0FF",
           "#67E3F9",
           "#B6BDC8",
-          "#6B7585",
+          "#7C8593",
           "#FDA29B",
           "#6CE9A6",
           "#FEC84B",
@@ -136,6 +136,33 @@
     },
     "launch-dark": {
       "path": "assets/launch-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png"
     }
   },
   "decoration": {},
@@ -146,6 +173,26 @@
     },
     "chrome.create": {
       "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
       "render": "template"
     }
   },
@@ -164,6 +211,35 @@
         "asset": "launch-light",
         "fit": "contain",
         "opacity": 1
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.9
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.72
+      },
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "empty.artwork": {
+        "asset": "artwork-light",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -180,6 +256,35 @@
         "asset": "launch-dark",
         "fit": "contain",
         "opacity": 1
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.9
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.72
+      },
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "empty.artwork": {
+        "asset": "artwork-dark",
+        "fit": "contain"
       }
     }
   },
@@ -207,5 +312,17 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "effects": {
+    "ambient": "particles",
+    "intensity": 0.16,
+    "speed": 0.45,
+    "density": 0.18,
+    "size": 0.9,
+    "palette": [
+      "primary",
+      "warning"
+    ],
+    "direction": "down-left"
   }
 }

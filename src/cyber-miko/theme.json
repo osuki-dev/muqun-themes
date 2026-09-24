@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cyber-miko",
   "name": "Cyber Miko",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "A welcoming shrine attendant in ivory and vermilion watercolor, quiet garden scenery, and restrained midnight lantern bloom. Separate wordless artwork and wallpaper for both Home layouts.",
@@ -62,23 +62,30 @@
           "#945400",
           "#1A5ECA",
           "#86259C",
-          "#108076",
+          "#0F7A71",
           "#1A120E"
         ]
       },
       "effects": {
-        "ambient": "none",
-        "intensity": 0,
-        "speed": 0.35
+        "ambient": "particles",
+        "intensity": 0.09,
+        "speed": 0.3,
+        "density": 0.15,
+        "size": 0.9,
+        "palette": [
+          "warning",
+          "primary"
+        ],
+        "direction": "up"
       }
     },
     "dark": {
       "colors": {
-        "background": "#0B1420",
-        "surface": "#121F2D",
-        "surfaceRaised": "#1D2C3D",
-        "border": "#304255",
-        "borderStrong": "#60778D",
+        "background": "#1A1416",
+        "surface": "#241B1D",
+        "surfaceRaised": "#302224",
+        "border": "#553C3E",
+        "borderStrong": "#846061",
         "text": "#FAF4E9",
         "textMuted": "#C8CCCE",
         "textSubtle": "#A6B0B7",
@@ -96,14 +103,14 @@
         "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#0C0816",
+        "background": "#1A1416",
         "backgroundOpacity": 1,
         "foreground": "#F7F2FF",
         "cursor": "#FF596C",
         "link": "#80ACFF",
         "selection": "#FF596C38",
         "ansi": [
-          "#140E24",
+          "#817E89",
           "#FF708D",
           "#00E5A3",
           "#FFB833",
@@ -111,7 +118,7 @@
           "#E678FF",
           "#00E5FF",
           "#C5B8DE",
-          "#665585",
+          "#87799F",
           "#FF859C",
           "#33EBB6",
           "#FFC759",
@@ -123,8 +130,11 @@
       },
       "effects": {
         "ambient": "bloom",
-        "intensity": 0.12,
-        "speed": 0.35
+        "intensity": 0.16,
+        "palette": [
+          "primary",
+          "warning"
+        ]
       }
     }
   },
@@ -146,6 +156,33 @@
     },
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png"
     }
   },
   "decoration": {},
@@ -196,6 +233,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
       }
     },
     "dark": {
@@ -244,6 +300,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
       }
     }
   },
@@ -262,5 +337,35 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   }
 }

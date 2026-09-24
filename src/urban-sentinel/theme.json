@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "urban-sentinel",
   "name": "Urban Sentinel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Sage technical outerwear and warm graphite ink above peaceful botanical rooftops. One natural watercolor portrait, quiet independent scenery, and subtle evening particles.",
@@ -56,7 +56,7 @@
           "#70228C",
           "#005BA6",
           "#475569",
-          "#64748B",
+          "#5E6E83",
           "#C21738",
           "#107B4C",
           "#8C5400",
@@ -67,9 +67,16 @@
         ]
       },
       "effects": {
-        "ambient": "none",
-        "intensity": 0,
-        "speed": 0.35
+        "ambient": "particles",
+        "intensity": 0.08,
+        "speed": 0.25,
+        "density": 0.16,
+        "size": 0.8,
+        "palette": [
+          "success",
+          "textMuted"
+        ],
+        "direction": "up-right"
       }
     },
     "dark": {
@@ -103,7 +110,7 @@
         "link": "#70A5FF",
         "selection": "#00E5FF38",
         "ansi": [
-          "#10162A",
+          "#797D88",
           "#FF708D",
           "#00E6A0",
           "#FFB833",
@@ -111,7 +118,7 @@
           "#E870FF",
           "#00E5FF",
           "#AEBFD9",
-          "#576B8C",
+          "#6C7E9A",
           "#FF859C",
           "#33EBB4",
           "#FFCA4D",
@@ -123,8 +130,15 @@
       },
       "effects": {
         "ambient": "particles",
-        "intensity": 0.08,
-        "speed": 0.35
+        "intensity": 0.12,
+        "speed": 0.25,
+        "density": 0.16,
+        "size": 0.8,
+        "palette": [
+          "success",
+          "textMuted"
+        ],
+        "direction": "up-right"
       }
     }
   },
@@ -146,6 +160,33 @@
     },
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png"
     }
   },
   "decoration": {},
@@ -196,6 +237,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
       }
     },
     "dark": {
@@ -244,6 +304,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
       }
     }
   },
@@ -262,5 +341,35 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   }
 }

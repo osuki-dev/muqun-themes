@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "hydrangea-window",
   "name": "紫陽花の窓辺",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "梅雨の窓辺に咲く紫陽花と柔らかな光を閉じ込めた静謐なテーマ。",
@@ -146,6 +146,24 @@
     },
     "preview": {
       "path": "assets/preview.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png"
     }
   },
   "variantDecorations": {
@@ -174,6 +192,29 @@
           "fit": "contain",
           "opacity": 1
         }
+      },
+      "launch.artwork": {
+        "asset": "hero-light",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "empty.artwork": {
+        "asset": "hero-light",
+        "fit": "contain"
       }
     },
     "dark": {
@@ -201,6 +242,29 @@
           "fit": "contain",
           "opacity": 1
         }
+      },
+      "launch.artwork": {
+        "asset": "hero-dark",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "empty.artwork": {
+        "asset": "hero-dark",
+        "fit": "contain"
       }
     }
   },
@@ -215,6 +279,22 @@
     },
     "chrome.attach": {
       "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
       "render": "template"
     }
   },
@@ -233,5 +313,17 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "effects": {
+    "ambient": "rain",
+    "intensity": 0.18,
+    "speed": 0.38,
+    "density": 0.19,
+    "size": 0.8,
+    "palette": [
+      "info",
+      "primary"
+    ],
+    "direction": "down"
   }
 }
