@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "akiba-overdrive",
   "name": "Akiba Overdrive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Violet streetwear, turquoise headphones, and delicate electronics-district watercolor. Wordless foreground art, separate quiet architecture, and restrained midnight light.",
@@ -56,7 +56,7 @@
           "#70258B",
           "#005E6B",
           "#485D6C",
-          "#627887",
+          "#5A6F7D",
           "#B81B44",
           "#0D7550",
           "#8A5200",
@@ -67,9 +67,14 @@
         ]
       },
       "effects": {
-        "ambient": "none",
-        "intensity": 0,
-        "speed": 0.35
+        "ambient": "scanlines",
+        "intensity": 0.08,
+        "density": 0.24,
+        "size": 0.7,
+        "palette": [
+          "primary",
+          "info"
+        ]
       }
     },
     "dark": {
@@ -103,7 +108,7 @@
         "link": "#75AFFF",
         "selection": "#00E5FF38",
         "ansi": [
-          "#0E1422",
+          "#767A81",
           "#FF6B99",
           "#00E699",
           "#FFB800",
@@ -123,8 +128,11 @@
       },
       "effects": {
         "ambient": "bloom",
-        "intensity": 0.1,
-        "speed": 0.35
+        "intensity": 0.15,
+        "palette": [
+          "primary",
+          "info"
+        ]
       }
     }
   },
@@ -146,6 +154,33 @@
     },
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png"
     }
   },
   "decoration": {},
@@ -196,6 +231,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
       }
     },
     "dark": {
@@ -244,6 +298,25 @@
         "asset": "figure",
         "fit": "contain",
         "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "figure",
+        "fit": "contain"
+      },
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
       }
     }
   },
@@ -262,5 +335,35 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   }
 }
