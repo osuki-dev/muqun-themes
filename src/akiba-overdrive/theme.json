@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "akiba-overdrive",
   "name": "Akiba Overdrive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Violet streetwear, turquoise headphones, and delicate electronics-district watercolor. Wordless foreground art, separate quiet architecture, and restrained midnight light.",
@@ -365,5 +365,8 @@
       "asset": "icon-arrow",
       "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cyber-miko",
   "name": "Cyber Miko",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "A welcoming shrine attendant in ivory and vermilion watercolor, quiet garden scenery, and restrained midnight lantern bloom. Separate wordless artwork and wallpaper for both Home layouts.",
@@ -367,5 +367,8 @@
       "asset": "icon-arrow",
       "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

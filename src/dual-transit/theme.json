@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "dual-transit",
   "name": "Dual Transit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -303,5 +303,8 @@
     "header": "cover",
     "toolbarBackground": true
   },
-  "minAppVersion": "3.0.0"
+  "minAppVersion": "3.0.0",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

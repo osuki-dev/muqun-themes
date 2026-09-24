@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "scene-voyager",
   "name": "Scene Voyager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -324,5 +324,8 @@
       "warning"
     ],
     "direction": "down-left"
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }
