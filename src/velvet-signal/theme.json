@@ -1,0 +1,469 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "velvet-signal",
+  "name": "Velvet Signal",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5EBE5",
+        "surface": "#FFF8F1",
+        "surfaceRaised": "#ECDDD7",
+        "border": "#D2B6B6",
+        "borderStrong": "#967879",
+        "text": "#261925",
+        "textMuted": "#503442",
+        "textSubtle": "#593E4C",
+        "textDisabled": "#9B7F8A",
+        "primary": "#732B4D",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#732B4D12",
+        "danger": "#8A252C",
+        "dangerSubtle": "#8A252C10",
+        "success": "#285D45",
+        "warning": "#755017",
+        "info": "#50477D"
+      },
+      "terminal": {
+        "background": "#F5EBE5",
+        "foreground": "#261925",
+        "cursor": "#732B4D",
+        "link": "#50477D",
+        "selection": "#A7742730",
+        "ansi": [
+          "#211A16",
+          "#922019",
+          "#20522E",
+          "#713E09",
+          "#343484",
+          "#654078",
+          "#185367",
+          "#3F4147",
+          "#4E4C4B",
+          "#942D24",
+          "#235832",
+          "#783D0B",
+          "#333C8C",
+          "#674181",
+          "#205769",
+          "#211A16"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#191219",
+        "surface": "#271C28",
+        "surfaceRaised": "#352636",
+        "border": "#553F54",
+        "borderStrong": "#97778B",
+        "text": "#FFF0E0",
+        "textMuted": "#DAC0D0",
+        "textSubtle": "#D0B6C8",
+        "textDisabled": "#9E8193",
+        "primary": "#EFB68D",
+        "onPrimary": "#25121C",
+        "primarySubtle": "#EFB68D16",
+        "danger": "#FFAFB2",
+        "dangerSubtle": "#FFAFB212",
+        "success": "#A8D3B8",
+        "warning": "#F5D08E",
+        "info": "#D2B9EF"
+      },
+      "terminal": {
+        "background": "#191219",
+        "foreground": "#FFF0E0",
+        "cursor": "#EFB68D",
+        "link": "#D2B9EF",
+        "selection": "#EEC57035",
+        "ansi": [
+          "#AEA49B",
+          "#FF9A8E",
+          "#8FDCAD",
+          "#FFD18B",
+          "#B4C9FF",
+          "#E0B8FF",
+          "#A0E3D9",
+          "#D6CDBF",
+          "#B8ABA0",
+          "#FFB1A5",
+          "#ADECC1",
+          "#FFE1AA",
+          "#CDD9FF",
+          "#EBD0FF",
+          "#BDF5E9",
+          "#FFF4E3"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "8bd446fb4cef25e4198e14f3a4fed42d105d4d62a7c1f3651eff040e04f981e6"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "66bd2c57dc35868528d9381b3fae38e84d0c9d435d398165cec9a36302368b30"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "218ced485ef82721d11fb4ce7619ff413a50e4497f9334106a83791599ac2df6"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "b216e30316835d99cd7f4fdc1cba3177b13701b77d32d82589b73edd304d0917"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e524b1c9864a30a90f2e5468be2174d682646f5d2b4d04e81d09ed7f434a4442"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "89d5c7a8945ca10fc6cf72b43fd095c26ab3db11fb3c1ce87578a565d5340d50"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "695eeaf825b1756131458c99df3472d8341ef4dadf6217c2738084df96b8b1ea"
+    },
+    "home-light": {
+      "path": "assets/home-light.webp",
+      "sha256": "4bf1202bd79f547f968968e6f2c93e69d9f7a6f198150c271e13b23496a13546"
+    },
+    "home-dark": {
+      "path": "assets/home-dark.webp",
+      "sha256": "38d3738e6ce898c9d30fd8348f51fb8652bfa0caaca9be97cebfb03525b6b255"
+    },
+    "launch-light": {
+      "path": "assets/launch-light.webp",
+      "sha256": "057d3cf2aab6b4f34a5511e714b6ef19e44cfc8f52efe29d81b49edbaaf0e831"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.webp",
+      "sha256": "0d4a5b569f08f105f29f3d65905e372c966af80f03f4b9301e85babad95e8721"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.webp",
+      "sha256": "608fee4ec7a5713e013550fbd9952d48355fee2723dc25039075f67f6a52143e"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.webp",
+      "sha256": "85b760ce3e033990fe09101f600e0fc63ed262ca95f4f1297608946c0b36288b"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "726ddb78add1661c7b8a2aecc443fa63224e86a12212f4c727844bdef8a7d2e4"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "VELVET"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "A sharp-eyed noir detective in a monumental Art Deco rain city. Bold Western comic ink, plum tailoring and copper signals meet rose-ivory daylight and amber night. Independent transparent launch art and seven original Deco icons.",
+  "tags": [
+    "comic",
+    "noir",
+    "art-deco",
+    "detective",
+    "plum"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "minAppVersion": "3.0.0",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  },
+  "effects": {
+    "ambient": "rain",
+    "intensity": 0.1,
+    "speed": 0.3,
+    "density": 0.15,
+    "size": 0.6,
+    "palette": [
+      "textMuted",
+      "primary"
+    ],
+    "direction": "down-left"
+  }
+}
