@@ -1,0 +1,455 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "last-inning",
+  "name": "Last Inning",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F3F1E6",
+        "surface": "#FFFDF4",
+        "surfaceRaised": "#E4E6D9",
+        "border": "#C8CEC0",
+        "borderStrong": "#728477",
+        "text": "#13251A",
+        "textMuted": "#344D3D",
+        "textSubtle": "#405844",
+        "textDisabled": "#7A897C",
+        "primary": "#165637",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#16563712",
+        "danger": "#881F23",
+        "dangerSubtle": "#881F2310",
+        "success": "#26633D",
+        "warning": "#7B4E08",
+        "info": "#64487D"
+      },
+      "terminal": {
+        "background": "#F3F1E6",
+        "foreground": "#13251A",
+        "cursor": "#165637",
+        "link": "#64487D",
+        "selection": "#A7742730",
+        "ansi": [
+          "#211A16",
+          "#922019",
+          "#20522E",
+          "#713E09",
+          "#343484",
+          "#654078",
+          "#185367",
+          "#3F4147",
+          "#4E4C4B",
+          "#942D24",
+          "#235832",
+          "#783D0B",
+          "#333C8C",
+          "#674181",
+          "#205769",
+          "#211A16"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101612",
+        "surface": "#19231D",
+        "surfaceRaised": "#24322A",
+        "border": "#374C3E",
+        "borderStrong": "#738579",
+        "text": "#FFF6DF",
+        "textMuted": "#CDD8C8",
+        "textSubtle": "#BDCDBE",
+        "textDisabled": "#7A9080",
+        "primary": "#B5DDA5",
+        "onPrimary": "#122317",
+        "primarySubtle": "#B5DDA51F",
+        "danger": "#FFC0B9",
+        "dangerSubtle": "#FFC0B910",
+        "success": "#9BD2A1",
+        "warning": "#F6CA79",
+        "info": "#D3B4EB"
+      },
+      "terminal": {
+        "background": "#101612",
+        "foreground": "#FFF6DF",
+        "cursor": "#B5DDA5",
+        "link": "#D3B4EB",
+        "selection": "#EEC57035",
+        "ansi": [
+          "#AEA49B",
+          "#FF9A8E",
+          "#8FDCAD",
+          "#FFD18B",
+          "#B4C9FF",
+          "#E0B8FF",
+          "#A0E3D9",
+          "#D6CDBF",
+          "#B8ABA0",
+          "#FFB1A5",
+          "#ADECC1",
+          "#FFE1AA",
+          "#CDD9FF",
+          "#EBD0FF",
+          "#BDF5E9",
+          "#FFF4E3"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "home-light": {
+      "path": "assets/home-light.webp"
+    },
+    "home-dark": {
+      "path": "assets/home-dark.webp"
+    },
+    "launch-light": {
+      "path": "assets/launch-light.webp"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.webp"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.webp"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.webp"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.7,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "INNING"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An original anime pitcher under immense stadium skies. Emerald, terracotta and ivory daylight becomes charcoal green beneath warm floodlights. Independent transparent portrait and full-length launch art, with diamond-inspired icons.",
+  "tags": [
+    "anime",
+    "baseball",
+    "sports",
+    "stadium",
+    "cinematic"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "minAppVersion": "3.0.0",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  },
+  "effects": {
+    "ambient": "dust",
+    "intensity": 0.1,
+    "speed": 0.2,
+    "density": 0.15,
+    "size": 0.5,
+    "palette": [
+      "primary",
+      "warning"
+    ],
+    "direction": "up"
+  }
+}
