@@ -1,135 +1,111 @@
 {
   "format": "muqun-theme",
   "schemaVersion": 1,
-  "id": "obsidian-titan",
-  "name": "Obsidian Titan",
-  "version": "1.0.1",
+  "id": "harbor-nocturne",
+  "name": "Harbor Nocturne",
+  "version": "1.0.0",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F5EDDF",
+        "background": "#F7EFE2",
         "surface": "#FFF9EE",
-        "surfaceRaised": "#E9DFD0",
-        "border": "#E0DAD1",
-        "borderStrong": "#C2B9AE",
-        "text": "#1C1714",
-        "textMuted": "#55453A",
-        "textSubtle": "#605044",
-        "textDisabled": "#A7ADB8",
-        "primary": "#922E16",
+        "surfaceRaised": "#EEDFCC",
+        "border": "#D6BDA5",
+        "borderStrong": "#93775B",
+        "text": "#241A16",
+        "textMuted": "#49362B",
+        "textSubtle": "#503A2A",
+        "textDisabled": "#987D65",
+        "primary": "#7B2919",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#922E1614",
-        "danger": "#9E1F14",
-        "dangerSubtle": "#9E1F140F",
-        "success": "#24633C",
-        "warning": "#795011",
-        "info": "#3B587D"
+        "primarySubtle": "#7B291910",
+        "danger": "#881F23",
+        "dangerSubtle": "#881F2310",
+        "success": "#26633D",
+        "warning": "#7B4E08",
+        "info": "#64487D"
       },
       "terminal": {
-        "background": "#F5EDDF",
-        "foreground": "#1C1714",
-        "cursor": "#922E16",
-        "link": "#243B85",
-        "selection": "#A7352030",
+        "background": "#F7EFE2",
+        "foreground": "#241A16",
+        "cursor": "#7B2919",
+        "link": "#64487D",
+        "selection": "#A7742730",
         "ansi": [
-          "#171512",
-          "#8F271D",
-          "#235836",
-          "#775014",
-          "#34367D",
-          "#653774",
-          "#175264",
-          "#514B42",
-          "#62594D",
-          "#9D2E25",
-          "#265E3D",
-          "#7B5014",
-          "#2B468F",
-          "#693C82",
-          "#1E596B",
-          "#171512"
+          "#211A16",
+          "#922019",
+          "#20522E",
+          "#713E09",
+          "#343484",
+          "#654078",
+          "#185367",
+          "#3F4147",
+          "#4E4C4B",
+          "#942D24",
+          "#235832",
+          "#783D0B",
+          "#333C8C",
+          "#674181",
+          "#205769",
+          "#211A16"
         ],
         "backgroundOpacity": 1
       },
       "surfaces": {
         "backgroundOpacity": 1
-      },
-      "effects": {
-        "ambient": "embers",
-        "intensity": 0.18,
-        "speed": 0.3,
-        "density": 0.35,
-        "size": 0.7,
-        "palette": [
-          "primary",
-          "warning"
-        ],
-        "direction": "up"
       }
     },
     "dark": {
       "colors": {
-        "background": "#100F0E",
-        "surface": "#1B1714",
-        "surfaceRaised": "#29211C",
-        "border": "#3C3833",
-        "borderStrong": "#655A4D",
-        "text": "#FFF4E4",
-        "textMuted": "#D1BFA9",
-        "textSubtle": "#BDA993",
-        "textDisabled": "#6B7585",
-        "primary": "#FFAE74",
-        "onPrimary": "#211209",
-        "primarySubtle": "#FFAE7420",
-        "danger": "#FFABA3",
-        "dangerSubtle": "#FFABA314",
-        "success": "#8FC497",
-        "warning": "#F0BA6C",
-        "info": "#AFC7D9"
+        "background": "#181311",
+        "surface": "#251C18",
+        "surfaceRaised": "#34261F",
+        "border": "#50392B",
+        "borderStrong": "#896447",
+        "text": "#FFF2DF",
+        "textMuted": "#D7C1A5",
+        "textSubtle": "#DEC5A6",
+        "textDisabled": "#977B63",
+        "primary": "#F5B675",
+        "onPrimary": "#271509",
+        "primarySubtle": "#F5B67520",
+        "danger": "#FFC0B9",
+        "dangerSubtle": "#FFC0B910",
+        "success": "#9BD2A1",
+        "warning": "#F6CA79",
+        "info": "#D3B4EB"
       },
       "terminal": {
-        "background": "#100F0E",
-        "foreground": "#FFF4E4",
-        "cursor": "#FFAE74",
-        "link": "#A4BCFD",
-        "selection": "#F1A15E35",
+        "background": "#181311",
+        "foreground": "#FFF2DF",
+        "cursor": "#F5B675",
+        "link": "#D3B4EB",
+        "selection": "#EEC57035",
         "ansi": [
-          "#B5A99E",
-          "#E68576",
-          "#34C08B",
-          "#F0A93C",
-          "#7DA2FF",
-          "#C7A0FF",
-          "#67E3F9",
-          "#B6BDC8",
-          "#A79B88",
-          "#FDA29B",
-          "#6CE9A6",
-          "#FEC84B",
-          "#A4BCFD",
-          "#D6BBFB",
-          "#A5F0FC",
-          "#FCFBFA"
+          "#AEA49B",
+          "#FF9A8E",
+          "#8FDCAD",
+          "#FFD18B",
+          "#B4C9FF",
+          "#E0B8FF",
+          "#A0E3D9",
+          "#D6CDBF",
+          "#B8ABA0",
+          "#FFB1A5",
+          "#ADECC1",
+          "#FFE1AA",
+          "#CDD9FF",
+          "#EBD0FF",
+          "#BDF5E9",
+          "#FFF4E3"
         ],
         "backgroundOpacity": 1
       },
       "surfaces": {
         "backgroundOpacity": 1
-      },
-      "effects": {
-        "ambient": "embers",
-        "intensity": 0.18,
-        "speed": 0.3,
-        "density": 0.35,
-        "size": 0.7,
-        "palette": [
-          "primary",
-          "warning"
-        ],
-        "direction": "up"
       }
     }
   },
@@ -140,26 +116,8 @@
     "actions": "solid"
   },
   "assets": {
-    "artwork": {
-      "path": "assets/artwork.webp"
-    },
-    "launch": {
-      "path": "assets/launch.webp"
-    },
-    "wallpaper-light": {
-      "path": "assets/wallpaper-light.webp"
-    },
-    "wallpaper-dark": {
-      "path": "assets/wallpaper-dark.webp"
-    },
-    "preview": {
-      "path": "assets/preview.png"
-    },
     "icon-back": {
       "path": "assets/icon-back.png"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png"
     },
     "icon-send": {
       "path": "assets/icon-send.png"
@@ -175,6 +133,30 @@
     },
     "icon-settings": {
       "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "home-light": {
+      "path": "assets/home-light.webp"
+    },
+    "home-dark": {
+      "path": "assets/home-dark.webp"
+    },
+    "launch-light": {
+      "path": "assets/launch-light.webp"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.webp"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.webp"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.webp"
+    },
+    "preview": {
+      "path": "assets/preview.png"
     }
   },
   "decoration": {},
@@ -211,7 +193,7 @@
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "artwork",
+        "asset": "home-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -219,16 +201,18 @@
           "y": 0
         },
         "compact": {
-          "asset": "artwork",
+          "asset": "home-light",
           "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.7,
             "y": 0
           }
         },
         "regular": {
-          "asset": "artwork",
+          "asset": "home-light",
           "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.7,
             "y": 0
@@ -236,33 +220,53 @@
         }
       },
       "launch.artwork": {
-        "asset": "launch",
+        "asset": "launch-light",
         "fit": "contain",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "launch",
-          "fit": "contain"
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "launch",
-          "fit": "contain"
+          "asset": "launch-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.45,
-            "y": 0.3
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -273,17 +277,23 @@
         "asset": "wallpaper-light",
         "fit": "cover",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.45,
-            "y": 0.3
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -293,7 +303,7 @@
     },
     "dark": {
       "home.artwork": {
-        "asset": "artwork",
+        "asset": "home-dark",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -301,16 +311,18 @@
           "y": 0
         },
         "compact": {
-          "asset": "artwork",
+          "asset": "home-dark",
           "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.7,
             "y": 0
           }
         },
         "regular": {
-          "asset": "artwork",
+          "asset": "home-dark",
           "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.7,
             "y": 0
@@ -318,33 +330,53 @@
         }
       },
       "launch.artwork": {
-        "asset": "launch",
+        "asset": "launch-dark",
         "fit": "contain",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "launch",
-          "fit": "contain"
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "launch",
-          "fit": "contain"
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.45,
-            "y": 0.3
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -355,17 +387,23 @@
         "asset": "wallpaper-dark",
         "fit": "cover",
         "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.45,
-            "y": 0.3
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -377,7 +415,7 @@
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "TITAN"
+      "text": "HARBOR"
     },
     "logo": {
       "mode": "hidden"
@@ -386,14 +424,13 @@
       "mode": "default"
     }
   },
-  "description": "An original silver-haired pilot and colossal volcanic guardian. Basalt armor, vivid caldera landscapes, ember accents and complete angular controls.",
+  "description": "An original anime cellist at a cinematic working harbor. Vermilion, ivory and amber daylight become copper lights over warm charcoal at night. Complete transparent character art and an independent launch vignette.",
   "tags": [
     "anime",
-    "mecha",
-    "volcanic",
+    "harbor",
+    "music",
     "cinematic",
-    "obsidian",
-    "editorial"
+    "warm"
   ],
   "homePresentation": {
     "header": "cover",
@@ -402,5 +439,17 @@
   "minAppVersion": "3.0.0",
   "iconDirections": {
     "home.arrow": "up-right"
+  },
+  "effects": {
+    "ambient": "dust",
+    "intensity": 0.12,
+    "speed": 0.25,
+    "density": 0.2,
+    "size": 0.55,
+    "palette": [
+      "primary",
+      "warning"
+    ],
+    "direction": "up"
   }
 }

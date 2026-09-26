@@ -1,110 +1,110 @@
 {
   "format": "muqun-theme",
   "schemaVersion": 1,
-  "id": "eclipse-archivist",
-  "name": "Eclipse Archivist",
-  "version": "1.0.1",
+  "id": "tidal-observatory",
+  "name": "Tidal Observatory",
+  "version": "1.0.0",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F4EFF3",
-        "surface": "#FFFBFF",
-        "surfaceRaised": "#E8DFE8",
-        "border": "#D6CBD7",
-        "borderStrong": "#9D8EA1",
-        "text": "#211824",
-        "textMuted": "#594B5D",
-        "textSubtle": "#655569",
-        "textDisabled": "#9E90A2",
-        "primary": "#683F73",
+        "background": "#EDF3ED",
+        "surface": "#FAFCF6",
+        "surfaceRaised": "#DFEAE0",
+        "border": "#C6D8CE",
+        "borderStrong": "#88A494",
+        "text": "#142D27",
+        "textMuted": "#334E43",
+        "textSubtle": "#3B554A",
+        "textDisabled": "#91A49B",
+        "primary": "#11543F",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#683F7314",
-        "danger": "#A12842",
-        "dangerSubtle": "#A1284214",
-        "success": "#22643F",
-        "warning": "#7A520D",
-        "info": "#655083"
-      },
-      "terminal": {
-        "background": "#F4EFF3",
-        "foreground": "#211824",
-        "cursor": "#683F73",
-        "link": "#655083",
-        "selection": "#683F7330",
-        "ansi": [
-          "#211824",
-          "#962C49",
-          "#22643F",
-          "#7A520D",
-          "#55417E",
-          "#794580",
-          "#276269",
-          "#534857",
-          "#65586B",
-          "#A02E48",
-          "#22683D",
-          "#76500A",
-          "#58458B",
-          "#814986",
-          "#276771",
-          "#211824"
-        ],
-        "backgroundOpacity": 1
+        "primarySubtle": "#11543F0C",
+        "danger": "#92252B",
+        "dangerSubtle": "#92252B0C",
+        "success": "#236442",
+        "warning": "#79540C",
+        "info": "#2C6078"
       },
       "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#EDF3ED",
+        "foreground": "#142D27",
+        "cursor": "#11543F",
+        "link": "#2C6078",
+        "selection": "#17634D30",
+        "ansi": [
+          "#142D27",
+          "#872630",
+          "#1A5738",
+          "#684706",
+          "#294E70",
+          "#6F4262",
+          "#1B535A",
+          "#334E43",
+          "#3B554A",
+          "#902833",
+          "#1B5A39",
+          "#694608",
+          "#294F6F",
+          "#70445F",
+          "#20575D",
+          "#142D27"
+        ],
         "backgroundOpacity": 1
       }
     },
     "dark": {
       "colors": {
-        "background": "#151117",
-        "surface": "#211A25",
-        "surfaceRaised": "#2C2331",
-        "border": "#3E3144",
-        "borderStrong": "#726078",
-        "text": "#FAF3FA",
-        "textMuted": "#D1BFD5",
-        "textSubtle": "#BCA7C1",
-        "textDisabled": "#86708D",
-        "primary": "#D9ACEA",
-        "onPrimary": "#211126",
-        "primarySubtle": "#D9ACEA24",
-        "danger": "#FFA7B6",
-        "dangerSubtle": "#FFA7B61A",
-        "success": "#A3D3AC",
-        "warning": "#EBC987",
-        "info": "#C6B4E7"
-      },
-      "terminal": {
-        "background": "#151117",
-        "foreground": "#FAF3FA",
-        "cursor": "#D9ACEA",
-        "link": "#C6B4E7",
-        "selection": "#D9ACEA30",
-        "ansi": [
-          "#A294A7",
-          "#F395AF",
-          "#A3D3AC",
-          "#EBC987",
-          "#B4A1DA",
-          "#D3A2DE",
-          "#A5CECC",
-          "#D1BFD5",
-          "#A595AD",
-          "#FFA7B6",
-          "#B7E6BD",
-          "#F5D799",
-          "#CCB7F0",
-          "#E6BBED",
-          "#B9E5E0",
-          "#FAF3FA"
-        ],
-        "backgroundOpacity": 1
+        "background": "#111A18",
+        "surface": "#1A2924",
+        "surfaceRaised": "#24362F",
+        "border": "#354A40",
+        "borderStrong": "#658474",
+        "text": "#F0F8EC",
+        "textMuted": "#C3D8C8",
+        "textSubtle": "#ACC6B5",
+        "textDisabled": "#769284",
+        "primary": "#A2DEC0",
+        "onPrimary": "#102B21",
+        "primarySubtle": "#A2DEC024",
+        "danger": "#FFAAA0",
+        "dangerSubtle": "#FFAAA01A",
+        "success": "#A4D9A8",
+        "warning": "#E8C683",
+        "info": "#A8D6DD"
       },
       "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#111A18",
+        "foreground": "#F0F8EC",
+        "cursor": "#A2DEC0",
+        "link": "#A8D6DD",
+        "selection": "#A2DEC030",
+        "ansi": [
+          "#A5B6AC",
+          "#F8A5A0",
+          "#A4D9A8",
+          "#E8C683",
+          "#A7C9E6",
+          "#D7B1D1",
+          "#A8D6DD",
+          "#C3D8C8",
+          "#A5BDAE",
+          "#FFBAB1",
+          "#B5EAB7",
+          "#F3D598",
+          "#B7DBF1",
+          "#EAC3E0",
+          "#BAE8E8",
+          "#F0F8EC"
+        ],
         "backgroundOpacity": 1
       }
     }
@@ -129,7 +129,7 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.webp"
+      "path": "assets/preview.png"
     },
     "icon-back": {
       "path": "assets/icon-back.png"
@@ -151,6 +151,12 @@
     },
     "icon-arrow": {
       "path": "assets/icon-arrow.png"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.webp"
+    },
+    "figure-dark": {
+      "path": "assets/figure-dark.webp"
     }
   },
   "decoration": {
@@ -293,13 +299,58 @@
           "fit": "cover",
           "opacity": 1
         }
+      },
+      "launch.artwork": {
+        "asset": "launch-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "home.artwork": {
+        "asset": "figure-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "figure-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "figure-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "empty.artwork": {
+        "asset": "figure-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "figure-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "figure-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "ECLIPSE"
+      "text": "TIDAL"
     },
     "logo": {
       "mode": "hidden"
@@ -308,31 +359,33 @@
       "mode": "default"
     }
   },
-  "description": "A silver-winged celestial archivist beneath a monumental eclipsed ringworld. Pearl and plum daylight, charcoal and silver night, complete semantic icons and restrained stars.",
+  "description": "An original ocean researcher listens for luminous sky whales above a sea-glass observatory. Cinematic anime, pearl daylight and evergreen night, complete foreground silhouettes and quiet ocean air.",
   "tags": [
     "anime",
-    "celestial",
-    "eclipse",
-    "plum",
-    "editorial"
+    "ocean",
+    "observatory",
+    "mint",
+    "cinematic"
   ],
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
   },
   "effects": {
-    "ambient": "stars",
-    "intensity": 0.18,
-    "density": 0.16,
-    "speed": 0.25,
-    "size": 0.7,
+    "ambient": "particles",
+    "intensity": 0.12,
+    "density": 0.12,
+    "speed": 0.2,
+    "size": 0.65,
     "palette": [
       "primary",
-      "textMuted",
-      "warning"
-    ]
+      "warning",
+      "textMuted"
+    ],
+    "direction": "up"
   },
   "iconDirections": {
     "home.arrow": "up-right"
-  }
+  },
+  "minAppVersion": "3.0.0"
 }

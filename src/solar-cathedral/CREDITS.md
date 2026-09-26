@@ -6,13 +6,13 @@ The seven semantic control glyphs were independently drawn as a coherent angular
 
 ## Art direction and prompts
 
-- Home: original adult celestial knight with chestnut hair, sun crown, ivory and antique-gold armor, burgundy silk and a sun spear. A powerful waist-up transparent foreground, head upper-right, full crown and spear tip within the frame, quiet upper-left space, no lettering.
+- Home: original adult celestial knight with chestnut hair, sun crown, ivory and antique-gold armor, burgundy silk and a sun spear. A powerful waist-up transparent foreground, head upper-right at the original prominent scale, full crown and spear tip within the frame, repaired outer sleeve and cape edges, softly feathered lower torso, quiet upper-left space, no lettering.
 - Light wallpaper: colossal ivory celestial cathedral suspended above sunlit amber clouds, immense flying buttresses and sun observatory, rich cinematic anime architecture, no characters and no lettering.
 - Dark wallpaper: charcoal and bronze cathedral above black storm clouds beneath a golden eclipse, warm amber windows, dark quiet left-middle region, no blue, no characters and no lettering.
-- Launch, light: the complete knight, spear and boots on a cathedral balcony, the full character framed with monumental sunlight architecture behind her.
-- Launch, dark: the same complete knight in an obsidian cathedral, golden eclipse and warm amber illumination; identity and framing preserved.
+- Launch, light: an independent full-body knight cutout, complete crown, spear, cloak and boots isolated on genuine transparent alpha. The original cathedral, balcony, floor and reflection were removed; physical edges remain inside the canvas.
+- Launch, dark: an independent full-body knight cutout with burgundy cloak and warm gold illumination, isolated on genuine transparent alpha. Cathedral, eclipse, floor and reflections were removed; identity and complete equipment were preserved.
 - Preview: equal-width light and dark halves displaying the same knight and respective cathedral environments, no text.
 
 ## Implementation
 
-The Home foreground and launch scenes are independent files. The wallpaper contains no duplicate foreground character. Both layouts share the foreground, and all supported image slots define compact and regular behavior. The wallpaper remains at full opacity; opaque functional surfaces maintain readable controls. The dust effect is deliberately sparse and slow and uses theme palette roles.
+The Home foreground and transparent launch figures are independent files. Scenery is confined to wallpaper and the gallery preview. Version 1.0.1 replaces opaque launch scenes and repairs the Home silhouette. The wallpaper contains no duplicate foreground character. Both layouts share the foreground, and all supported image slots define compact and regular behavior. The wallpaper remains at full opacity; opaque functional surfaces maintain readable controls. The dust effect is deliberately sparse and slow and uses theme palette roles.
