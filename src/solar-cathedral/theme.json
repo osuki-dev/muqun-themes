@@ -1,0 +1,452 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "solar-cathedral",
+  "name": "Solar Cathedral",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4ECD9",
+        "surface": "#FFF9ED",
+        "surfaceRaised": "#EDE1C8",
+        "border": "#D5C3A0",
+        "borderStrong": "#8B7757",
+        "text": "#21190F",
+        "textMuted": "#55462F",
+        "textSubtle": "#665237",
+        "textDisabled": "#978A76",
+        "primary": "#75500C",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#75500C16",
+        "danger": "#A52829",
+        "dangerSubtle": "#A5282915",
+        "success": "#26633D",
+        "warning": "#7B4E08",
+        "info": "#5B467F"
+      },
+      "terminal": {
+        "background": "#F4ECD9",
+        "foreground": "#21190F",
+        "cursor": "#75500C",
+        "link": "#5B467F",
+        "selection": "#A7742730",
+        "ansi": [
+          "#050b12",
+          "#c92015",
+          "#007644",
+          "#b14304",
+          "#3538cd",
+          "#6941c6",
+          "#0d6f8f",
+          "#475467",
+          "#5f6776",
+          "#b42318",
+          "#007644",
+          "#b14304",
+          "#3055f1",
+          "#754ccf",
+          "#0d6f8f",
+          "#050b12"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#15120E",
+        "surface": "#211C15",
+        "surfaceRaised": "#30271C",
+        "border": "#463823",
+        "borderStrong": "#756040",
+        "text": "#FFF4DC",
+        "textMuted": "#D2C3A7",
+        "textSubtle": "#C4AF8A",
+        "textDisabled": "#8F7C5E",
+        "primary": "#EEC570",
+        "onPrimary": "#211607",
+        "primarySubtle": "#EEC57020",
+        "danger": "#FFA39C",
+        "dangerSubtle": "#FFA39C18",
+        "success": "#9BD2A1",
+        "warning": "#F6CA79",
+        "info": "#D3B4EB"
+      },
+      "terminal": {
+        "background": "#15120E",
+        "foreground": "#FFF4DC",
+        "cursor": "#EEC570",
+        "link": "#D3B4EB",
+        "selection": "#EEC57035",
+        "ansi": [
+          "#7c828a",
+          "#f2554a",
+          "#34c08b",
+          "#f0a93c",
+          "#7da2ff",
+          "#c7a0ff",
+          "#67e3f9",
+          "#b6bdc8",
+          "#788292",
+          "#fda29b",
+          "#6ce9a6",
+          "#fec84b",
+          "#a4bcfd",
+          "#d6bbfb",
+          "#a5f0fc",
+          "#fcfbfa"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "home": {
+      "path": "assets/home.webp"
+    },
+    "launch": {
+      "path": "assets/launch.webp"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.webp"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.webp"
+    },
+    "preview": {
+      "path": "assets/preview.webp"
+    },
+    "launch-dark": {
+      "path": "assets/launch-dark.webp"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.66,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.66,
+          "y": 0
+        },
+        "compact": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.66,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.66,
+          "y": 0
+        },
+        "compact": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "launch-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.66,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "SOLAR"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An original celestial knight above a monumental sunlit cathedral. Ivory and antique gold by day, charcoal and eclipse gold by night. Independent launch art and transparent Home foreground.",
+  "tags": [
+    "anime",
+    "fantasy",
+    "gold",
+    "cathedral",
+    "epic"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "minAppVersion": "3.0.0",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  },
+  "effects": {
+    "ambient": "dust",
+    "intensity": 0.18,
+    "speed": 0.3,
+    "density": 0.25,
+    "size": 0.65,
+    "palette": [
+      "primary",
+      "warning"
+    ],
+    "direction": "up"
+  }
+}
