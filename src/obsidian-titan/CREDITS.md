@@ -15,3 +15,7 @@ Premium original anime illustration; silver hair, amber eyes, basalt segmented a
 ## Effect
 
 Restrained rising embers at intensity 0.18, speed 0.3, density 0.35 and size 0.7. Palette uses primary and warning roles. Uses the App's existing bounded effect renderer; no shaders or scripts are bundled.
+
+## Version 1.0.1 framing correction
+
+Home and launch were outpainted with the built-in image tool to complete the physical silhouette instead of hiding canvas cuts with layout changes. Home retains the close-up pilot and titan as a complete pointed armored bust, with all scarf tips enclosed. Launch preserves the boots and finishes the entire volcanic ledge. Opaque light and dark review composites verify the canvas boundaries.

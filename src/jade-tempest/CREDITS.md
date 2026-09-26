@@ -10,3 +10,7 @@ All character and scenery artwork was newly created for this theme using OpenAI 
 - `icon-*.png`: original geometric semantic glyph family, drawn for this theme.
 
 Art direction: original anime key visual; jade emerald, bronze and ivory; monumental mountains and wind-driven robes. No baked-in lettering, interface controls, or external marks.
+
+## Version 1.0.1
+
+The Home foreground was outpainted with OpenAI image generation to complete the dragon horns, right silhouette and flowing garments. The original face, palette and pose are preserved. The separate launch illustration is unchanged. Boundary proofs composite the actual transparent assets over solid light and dark backgrounds.
