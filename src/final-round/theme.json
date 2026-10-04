@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "final-round",
   "name": "Final Round",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Muqun Theme Collection · fan art",
   "license": "Unofficial fan art; underlying rights remain with CAPCOM",
   "description": "Street Fighter fan art in kinetic brushwork and screenprint: Ryu, vermilion ribbons, mustard ink and warm newsprint by day, oxblood after dark. The transparent fighter scene anchors Classic and Editorial Home.",
@@ -272,7 +272,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "city-pop-balcony",
   "name": "シティポップ・バルコニー",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
@@ -204,7 +204,7 @@
       "text": "夏はまだ終わらない"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

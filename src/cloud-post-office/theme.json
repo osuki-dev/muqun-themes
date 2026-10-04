@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Muqun · original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -238,7 +238,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

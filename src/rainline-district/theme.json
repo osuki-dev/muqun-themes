@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rainline-district",
   "name": "Rainline District",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -262,7 +262,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

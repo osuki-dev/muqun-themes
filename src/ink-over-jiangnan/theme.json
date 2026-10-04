@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ink-over-jiangnan",
   "name": "Ink over Jiangnan",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "China / Jiangnan. Willow-lined canals and whitewashed water towns in rice-paper ivory, charcoal ink and cinnabar. Original ink-wash day and moonlit scenes, with brush, kite and scroll glyphs.",
@@ -235,7 +235,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"
