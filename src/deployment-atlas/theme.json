@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "deployment-atlas",
   "name": "Deployment Atlas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun Theme Collection",
   "license": "CC BY-SA 4.0 composition; third-party logo licenses apply",
   "variants": {
@@ -246,7 +246,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "raincoat-courier",
   "name": "レインコート・クーリエ",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "黄色いレインコートで雨の街を駆ける、軽快なアーバンテーマ。",
@@ -308,7 +308,7 @@
       "text": "雨の先へ"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

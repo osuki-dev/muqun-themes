@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -234,7 +234,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

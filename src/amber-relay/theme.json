@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Analog signal craft in amber, bakelite brown and warm bone. Screenprinted oscilloscopes, copper coils and glass valves now include a transparent Editorial cover vignette.",
@@ -130,7 +130,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

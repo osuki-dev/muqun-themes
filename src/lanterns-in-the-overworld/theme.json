@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lanterns-in-the-overworld",
   "name": "Lanterns in the Overworld",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying Minecraft rights reserved",
   "description": "Unofficial Minecraft fan art. A mossy voxel forest and lantern-lit timber shelter, with warm clay, amber and smoky woodland palettes. Steve and a friendly wolf welcome you home.",
@@ -259,7 +259,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "riso-matsuri",
   "name": "リソグラフの夏祭り",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "朱、群青、生成りの版ずれで夏祭りの熱気を描くリソグラフテーマ。",
@@ -224,7 +224,7 @@
       "text": "夏の灯、祭の夜"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

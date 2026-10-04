@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aperture-afterhours",
   "name": "Aperture Afterhours",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying rights reserved",
   "variants": {
@@ -283,7 +283,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

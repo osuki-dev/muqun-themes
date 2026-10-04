@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -271,7 +271,7 @@
       "text": "RIBBON REVERIE"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"

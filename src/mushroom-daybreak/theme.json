@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mushroom-daybreak",
   "name": "Mushroom Daybreak",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun Theme Collection · fan art",
   "license": "Unofficial fan art; underlying IP rights reserved",
   "variants": {
@@ -299,7 +299,7 @@
       "mode": "default"
     },
     "logo": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "artwork": {
       "mode": "default"
