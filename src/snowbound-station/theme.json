@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "snowbound-station",
   "name": "Snowbound Station",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "3.1.0",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
@@ -193,7 +193,7 @@
     },
     "launch-artwork": {
       "path": "assets/launch-artwork.png",
-      "sha256": "89855c738431e840bc4b4aaef73a7f4c261dc993f65ced040b73b4384261c6f2"
+      "sha256": "edcc0ff8ff5d034e547257416a453498ab57e0d150ea109b8a5244c213a5203b"
     },
     "navigation": {
       "path": "assets/navigation.png",
@@ -201,7 +201,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "891daf029554aa9c797ed7e2ef475e3d9529f667b5ef30c2c1b292fa0c1c0de8"
+      "sha256": "ac68a3fdf88e1b1012b5bf57fe91ddd8fda7811c0b5ce9c632db93e8f7885d95"
     },
     "tabs": {
       "path": "assets/tabs.png",
@@ -340,28 +340,28 @@
       },
       "launch.artwork": {
         "asset": "launch-artwork",
-        "fit": "cover",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.65,
-          "y": 0.48
+          "x": 0.5,
+          "y": 0.5
         },
         "compact": {
           "asset": "launch-artwork",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.65,
-            "y": 0.48
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "launch-artwork",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.65,
-            "y": 0.48
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
@@ -639,28 +639,28 @@
       },
       "launch.artwork": {
         "asset": "launch-artwork",
-        "fit": "cover",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.65,
-          "y": 0.48
+          "x": 0.5,
+          "y": 0.5
         },
         "compact": {
           "asset": "launch-artwork",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.65,
-            "y": 0.48
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "launch-artwork",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.65,
-            "y": 0.48
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },

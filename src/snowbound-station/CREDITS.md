@@ -32,10 +32,22 @@ Prompt: Use case illustration-story. Original transparent foreground vignette fo
 
 ## Independent startup
 
-File: launch-artwork.png. Original: exec-c019ae9d-0af5-4025-a1b3-301055510b54.png.
-Creator/source: OpenAI image generation, original independent scene.
+File: launch-artwork.png.
+Original: exec-c4783e5b-c966-4f26-a8c2-feffedeea7b0.png.
+Creator/source: OpenAI image generation, new transparent output with the original
+Home foreground and startup scene as style references. Actual alpha is preserved.
+The original opaque portrait was replaced to fit the native launch artwork slot.
 
-Prompt: Use case illustration-story. Create separate original portrait 1024x1536 Japanese anime snowy railway station startup illustration, clean exquisite thin linework, delicate youthful anime cel shading, NOT thick oilpaint. Camera close to a snow-buried little wooden station entrance and window glowing amber at blue hour, winter blue snow and dense layers of falling white flakes. The building fills right 2/3, depth through narrow snowy passage into snowy woods at left. A small friendly youthful ADULT woman age22 with short navy bob, orange knitted scarf, pale blue puffer and mittens holding closed book is viewed in three-quarter back at lower right, looking up at snow, only 1/5 image height. Two beautiful icicle-lined eaves, huge fluffy snow pillows, lamp, tiny bench, footprints. Composition scene dominates, character small to establish human scale. Upper quarter dark blue softly snowy sky quiet for native launch title, no essential text. Luminous heavy-snow atmosphere and warm refuge. No text, labels, logos, UI, frame, watermarks, famous characters, dominant pinup.
+Prompt:
+
+Use case: illustration-story.
+Asset type: square transparent PNG launch illustration for Snowbound Station, read clearly in a 200–300 point app startup slot.
+Input images: Image 1 (launch-artwork.png) is a style and winter-station atmosphere reference ONLY; Image 2 (home-artwork.png) is a character and drawing-style reference ONLY. Create ONE NEW original composition, not the home scene.
+Primary request: an exquisite youthful Japanese anime winter girl with short navy-blue bob, gentle blue eyes, pale icy-blue quilted coat, rust-orange knitted scarf, cream mittens, holding a small dark book to her chest. Faithfully match the reference character and refined illustrated texture. She stands centrally, smiling softly and glancing up at a few snowflakes.
+Scene/backdrop: isolated compact winter station vignette; a small snow-capped wooden station door fragment with a single glowing warm amber window slightly behind her, and a short snow-covered wooden bench alongside her. Restrained snow at their feet forms an uneven small island. Station structure must terminate naturally as a fragment with irregular silhouette, not a full wall or solid rectangle. The girl is the clear main subject; station elements secondary.
+Style/medium: polished Japanese anime illustration, delicate linework, painterly detailed snow and fabric, soft warm light against icy-blue winter hues matching the references.
+Composition/framing: 1024x1024 square, centrally balanced, entire figure and scene visible with generous transparent margin on all four sides. Girl occupies about 65% of image height, architectural fragment smaller than figure, bench lower side balances the scene. Cohesive rounded but irregular cutout silhouette. Designed for square contain-fit placement.
+Constraints: genuinely transparent background with actual alpha channel outside the entire isolated vignette and in openings; no opaque rectangular backdrop, no sky, no landscape, no horizon, no full-frame ground, no background color, no checkerboard drawn into artwork, no border, no text, no watermark. Preserve crisp clean alpha edges and subtle standalone snowflakes. All outer canvas corners transparent.
 
 ## Graphic assets
 
