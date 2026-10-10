@@ -10,8 +10,9 @@ The wallpaper is the world: distant snowy houses, receding rails, buried platfor
 and three depths of falling flakes. It contains no person. The transparent Home
 vignette adds a small scarf-wrapped adult, snow-covered bench, rail and lantern
 on the right, leaving the title side quiet. Classic and Editorial share this one
-foreground. The independent startup illustration moves closer to the warm station
-door, with its own snowfall and camera framing.
+foreground. The independent startup illustration is a centered transparent cutout of the
+traveler, station doorway and snowy bench. Its irregular alpha silhouette fits
+the native square contain-fit launch slot without an opaque rectangular backdrop.
 
 Both modes explicitly fill all 11 decoration slots. Compact wallpapers preserve
 the station shelter and bookshop window; regular wallpapers retain the panorama.
