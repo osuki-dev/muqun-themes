@@ -1,0 +1,431 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "lunar-aquarium",
+  "name": "Lunar Aquarium",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F1F5FA",
+        "surface": "#FAFCFF",
+        "surfaceRaised": "#E8EEF6",
+        "border": "#CFD9E8",
+        "borderStrong": "#8798B1",
+        "text": "#1F2D46",
+        "textMuted": "#45566F",
+        "textSubtle": "#52627B",
+        "textDisabled": "#8491A5",
+        "primary": "#43569A",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#43569A12",
+        "danger": "#A23F5A",
+        "dangerSubtle": "#A23F5A12",
+        "success": "#216A61",
+        "warning": "#825F21",
+        "info": "#286580"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#F1F5FA",
+        "backgroundOpacity": 1,
+        "foreground": "#1F2D46",
+        "cursor": "#43569A",
+        "link": "#286580",
+        "selection": "#43569A30",
+        "ansi": [
+          "#1F2D46",
+          "#A23F5A",
+          "#216A61",
+          "#825F21",
+          "#43569A",
+          "#75549A",
+          "#286580",
+          "#52627B",
+          "#5C6E89",
+          "#B04763",
+          "#247369",
+          "#896220",
+          "#4A5BA5",
+          "#80569E",
+          "#247188",
+          "#1F2D46"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101B30",
+        "surface": "#17253D",
+        "surfaceRaised": "#21314C",
+        "border": "#354763",
+        "borderStrong": "#607694",
+        "text": "#EDF4FF",
+        "textMuted": "#BBCBE2",
+        "textSubtle": "#A3B7D1",
+        "textDisabled": "#72859F",
+        "primary": "#BCC5FF",
+        "onPrimary": "#19233F",
+        "primarySubtle": "#BCC5FF18",
+        "danger": "#F1A9BC",
+        "dangerSubtle": "#F1A9BC18",
+        "success": "#93D8C9",
+        "warning": "#EBD097",
+        "info": "#9AD3E7"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#101B30",
+        "backgroundOpacity": 1,
+        "foreground": "#EDF4FF",
+        "cursor": "#BCC5FF",
+        "link": "#9AD3E7",
+        "selection": "#BCC5FF30",
+        "ansi": [
+          "#9AAAC4",
+          "#E5A0B4",
+          "#88CDBD",
+          "#DBC28D",
+          "#ABB9F4",
+          "#C7ADE9",
+          "#8AC8DC",
+          "#BBCBE2",
+          "#8095B3",
+          "#F5B7C8",
+          "#A2E2D3",
+          "#F3DBAB",
+          "#C7D0FF",
+          "#DBC5F6",
+          "#ADE3EE",
+          "#EDF4FF"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "aquarium-keeper": {
+      "path": "assets/aquarium-keeper.png"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "navigation-orbit": {
+      "path": "assets/navigation-orbit.png"
+    },
+    "composer-orbit": {
+      "path": "assets/composer-orbit.png"
+    },
+    "actions-orbit": {
+      "path": "assets/actions-orbit.png"
+    },
+    "cards-orbit": {
+      "path": "assets/cards-orbit.png"
+    },
+    "buttons-orbit": {
+      "path": "assets/buttons-orbit.png"
+    },
+    "tabs-orbit": {
+      "path": "assets/tabs-orbit.png"
+    },
+    "empty-globe": {
+      "path": "assets/empty-globe.png"
+    },
+    "launch-keeper": {
+      "path": "assets/launch-keeper.png"
+    }
+  },
+  "decoration": {
+    "navigation.background": {
+      "asset": "navigation-orbit",
+      "fit": "cover",
+      "opacity": 0.16,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "composer.background": {
+      "asset": "composer-orbit",
+      "fit": "cover",
+      "opacity": 0.16,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "actions.background": {
+      "asset": "actions-orbit",
+      "fit": "cover",
+      "opacity": 0.16,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "cards.decoration": {
+      "asset": "cards-orbit",
+      "fit": "cover",
+      "opacity": 0.16,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "buttons.primary.background": {
+      "asset": "buttons-orbit",
+      "fit": "cover",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "tabs.background": {
+      "asset": "tabs-orbit",
+      "fit": "cover",
+      "opacity": 0.16,
+      "focalPoint": {
+        "x": 1,
+        "y": 0.5
+      }
+    },
+    "empty.artwork": {
+      "asset": "empty-globe",
+      "fit": "contain",
+      "opacity": 0.8
+    }
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "aquarium-keeper",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.78,
+          "y": 0
+        },
+        "compact": {
+          "asset": "aquarium-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "aquarium-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "launch-keeper",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "aquarium-keeper",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.78,
+          "y": 0
+        },
+        "compact": {
+          "asset": "aquarium-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "aquarium-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "launch-keeper",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-keeper",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An aquarium astronomer watches moonlit jellyfish: silver lavender, porcelain day surfaces and calm ink-blue nights.",
+  "tags": [
+    "anime",
+    "aquarium",
+    "moon",
+    "lavender",
+    "aqua",
+    "quiet"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "right",
+    "chrome.back": "left",
+    "chrome.send": "right"
+  }
+}
