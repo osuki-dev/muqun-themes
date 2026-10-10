@@ -1,0 +1,446 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "mint-soda-interlude",
+  "name": "Mint Soda Interlude",
+  "version": "1.0.0",
+  "author": "Muqun",
+  "license": "CC0-1.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F4FAF5",
+        "surface": "#FFFEF8",
+        "surfaceRaised": "#E8F3EB",
+        "border": "#CEDFD5",
+        "borderStrong": "#8EA89B",
+        "text": "#163B32",
+        "textMuted": "#3C6255",
+        "textSubtle": "#496A5D",
+        "textDisabled": "#82988A",
+        "primary": "#17604A",
+        "onPrimary": "#FFFEF8",
+        "primarySubtle": "#17604A14",
+        "danger": "#AC3F42",
+        "dangerSubtle": "#AC3F4214",
+        "success": "#206543",
+        "warning": "#80501D",
+        "info": "#275E83"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#F4FAF5",
+        "backgroundOpacity": 1,
+        "foreground": "#163B32",
+        "cursor": "#17604A",
+        "link": "#275E83",
+        "selection": "#17604A28",
+        "ansi": [
+          "#183B31",
+          "#A63E42",
+          "#25613D",
+          "#805019",
+          "#305D91",
+          "#79527E",
+          "#17646A",
+          "#496357",
+          "#5A715F",
+          "#B7464B",
+          "#2A6C43",
+          "#8A5922",
+          "#376A9C",
+          "#825489",
+          "#207078",
+          "#173A30"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#101F1B",
+        "surface": "#172B24",
+        "surfaceRaised": "#21382F",
+        "border": "#355348",
+        "borderStrong": "#668D7A",
+        "text": "#F5FAEF",
+        "textMuted": "#BED5C5",
+        "textSubtle": "#A9C6B2",
+        "textDisabled": "#718C7B",
+        "primary": "#A6E4C6",
+        "onPrimary": "#10291E",
+        "primarySubtle": "#A6E4C61C",
+        "danger": "#FFADB0",
+        "dangerSubtle": "#FFADB01A",
+        "success": "#ACE1B0",
+        "warning": "#F1C893",
+        "info": "#A9D8F4"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#101F1B",
+        "backgroundOpacity": 1,
+        "foreground": "#F5FAEF",
+        "cursor": "#A6E4C6",
+        "link": "#A9D8F4",
+        "selection": "#A6E4C628",
+        "ansi": [
+          "#819589",
+          "#F29E9C",
+          "#A2D6A9",
+          "#E6C188",
+          "#95BDE5",
+          "#D1B2DC",
+          "#96D8D4",
+          "#C4D8C8",
+          "#8CA698",
+          "#FFC0BA",
+          "#B8ECC0",
+          "#F7D8A6",
+          "#B3D5F8",
+          "#E8CFF0",
+          "#B7EEEA",
+          "#F6FAF0"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "barista": {
+      "path": "assets/mint-soda-barista.png"
+    },
+    "preview": {
+      "path": "assets/preview.png"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "paper-light": {
+      "path": "assets/paper-light.png"
+    },
+    "rail-light": {
+      "path": "assets/rail-light.png"
+    },
+    "stationery-light": {
+      "path": "assets/stationery-light.png"
+    },
+    "card-light": {
+      "path": "assets/card-light.png"
+    },
+    "button-light": {
+      "path": "assets/button-light.png"
+    },
+    "paper-dark": {
+      "path": "assets/paper-dark.png"
+    },
+    "rail-dark": {
+      "path": "assets/rail-dark.png"
+    },
+    "stationery-dark": {
+      "path": "assets/stationery-dark.png"
+    },
+    "card-dark": {
+      "path": "assets/card-dark.png"
+    },
+    "button-dark": {
+      "path": "assets/button-dark.png"
+    },
+    "empty": {
+      "path": "assets/empty.png"
+    },
+    "launch": {
+      "path": "assets/mint-soda-launch.png"
+    }
+  },
+  "decoration": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "barista",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.56,
+          "y": 0.1
+        },
+        "compact": {
+          "asset": "barista",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.56,
+            "y": 0.1
+          }
+        },
+        "regular": {
+          "asset": "barista",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.05
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "paper-light",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "home.wallpaper": {
+        "asset": "paper-light",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "navigation.background": {
+        "asset": "rail-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "actions.background": {
+        "asset": "rail-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "composer.background": {
+        "asset": "stationery-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "tabs.background": {
+        "asset": "stationery-light",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "cards.decoration": {
+        "asset": "card-light",
+        "fit": "cover",
+        "opacity": 0.15
+      },
+      "buttons.primary.background": {
+        "asset": "button-light",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "launch.artwork": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.2
+        },
+        "compact": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.2
+          }
+        },
+        "regular": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.05
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      }
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "barista",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.56,
+          "y": 0.1
+        },
+        "compact": {
+          "asset": "barista",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.56,
+            "y": 0.1
+          }
+        },
+        "regular": {
+          "asset": "barista",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.05
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "paper-dark",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "home.wallpaper": {
+        "asset": "paper-dark",
+        "fit": "cover",
+        "opacity": 1
+      },
+      "navigation.background": {
+        "asset": "rail-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "actions.background": {
+        "asset": "rail-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "composer.background": {
+        "asset": "stationery-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "tabs.background": {
+        "asset": "stationery-dark",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "cards.decoration": {
+        "asset": "card-dark",
+        "fit": "cover",
+        "opacity": 0.15
+      },
+      "buttons.primary.background": {
+        "asset": "button-dark",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "launch.artwork": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.2
+        },
+        "compact": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.2
+          }
+        },
+        "regular": {
+          "asset": "launch",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.05
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "default"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An afternoon cafe in mint, cream and peach, with an original adult barista and sparkling soda artwork, fresh light surfaces and deep teal nighttime colors.",
+  "tags": [
+    "anime",
+    "mint",
+    "cafe",
+    "pastel",
+    "original"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "right",
+    "chrome.back": "left",
+    "chrome.send": "right"
+  }
+}
