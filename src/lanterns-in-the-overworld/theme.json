@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lanterns-in-the-overworld",
   "name": "Lanterns in the Overworld",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying Minecraft rights reserved",
   "description": "Unofficial Minecraft fan art. A mossy voxel forest and lantern-lit timber shelter, with warm clay, amber and smoky woodland palettes. Steve and a friendly wolf welcome you home.",
@@ -151,7 +151,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "410666626417264191f75b2785b58111b584f3e530e3bc851b645fd590971435"
+      "sha256": "8f1fbc809b6526d3c031da36d05ae5a4e3c803fd0e2cd61d8da309c152e471e8"
     },
     "wide-dark": {
       "path": "assets/wide-dark.webp",
@@ -160,23 +160,77 @@
     "wide-light": {
       "path": "assets/wide-light.webp",
       "sha256": "395396754c5412e93f832038d1d705687ac5d70dc9996035ba573816dc9e49a0"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "aee5c573f9f94a8568bd0c42a4115d737163a77b3e9e4e15c3ff8eaf2e1a4035"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "5f22005aeb4b8636dc396a71489001ae35d6a27235e942b91823a545502a589f"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "275eb216907c04f90c310ef0395b8b7805d942ecbc5e86c636dce494d0beee05"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "5a92a0898af448f5dd75a40c7ec475e9018d4a73d8a6dda81545cd4d4a99930f"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "home.artwork": {
       "asset": "hero",
       "fit": "contain",
       "compact": {
         "asset": "hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       },
       "regular": {
         "asset": "hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       }
     }
   },
@@ -191,11 +245,21 @@
         },
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.2
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.2
         },
         "opacity": 0.2
       },
@@ -208,13 +272,50 @@
         },
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.78
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.78
         },
         "opacity": 0.78
+      },
+      "launch.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     },
     "dark": {
@@ -227,11 +328,21 @@
         },
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.2
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.2
         },
         "opacity": 0.2
       },
@@ -244,13 +355,50 @@
         },
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.78
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 0.78
         },
         "opacity": 0.78
+      },
+      "launch.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     }
   },
@@ -277,6 +425,25 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

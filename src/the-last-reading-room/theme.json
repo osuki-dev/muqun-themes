@@ -3,270 +3,447 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "author": "Muqun Theme Collection",
-  "license": "All rights reserved",
-  "homePresentation": {
-    "header": "cover",
-    "toolbarBackground": true
-  },
-  "description": "United Kingdom / London. An oak-lined reading room in tobacco, parchment and brass, with Arts and Crafts foliage, rain-lit windows and original book-inspired glyphs.",
-  "tags": [
-    "britain",
-    "london",
-    "library",
-    "arts-and-crafts",
-    "tobacco"
-  ],
+  "license": "CC-BY-4.0",
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F4EDDE",
-        "surface": "#FCF7EA",
-        "surfaceRaised": "#E6DDCA",
-        "border": "#C9B99A",
-        "borderStrong": "#8E7758",
-        "text": "#30271C",
-        "textMuted": "#4B3D2A",
-        "textSubtle": "#554733",
-        "textDisabled": "#A5967D",
-        "primary": "#69421F",
-        "onPrimary": "#FFF8E9",
-        "primarySubtle": "#69421F10",
-        "danger": "#873629",
-        "dangerSubtle": "#87362910",
-        "success": "#405233",
-        "warning": "#70501C",
-        "info": "#3B5265"
-      },
-      "surfaces": {
-        "backgroundOpacity": 0.94
+        "background": "#F1F2E8",
+        "surface": "#FAFCF3",
+        "surfaceRaised": "#DEE4D6",
+        "text": "#10212B",
+        "textMuted": "#2F4650",
+        "textSubtle": "#354A54",
+        "textDisabled": "#8F918F",
+        "primary": "#345C42",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#345C4210",
+        "border": "#BDCDD2",
+        "borderStrong": "#6C818B",
+        "danger": "#932F25",
+        "dangerSubtle": "#932F2510",
+        "success": "#175A42",
+        "warning": "#70480B",
+        "info": "#075971"
       },
       "terminal": {
-        "background": "#F4EDDE",
-        "backgroundOpacity": 0.95,
-        "foreground": "#30271C",
-        "cursor": "#69421F",
-        "link": "#3B5265",
-        "selection": "#69421F30",
+        "background": "#F1F2E8",
+        "foreground": "#10212B",
+        "cursor": "#345C42",
+        "link": "#075971",
+        "selection": "#345C4228",
         "ansi": [
-          "#30271C",
-          "#873629",
-          "#405233",
-          "#70501C",
-          "#3B5265",
-          "#69465C",
-          "#355954",
-          "#554733",
-          "#5B4C38",
-          "#8A3326",
-          "#3D512D",
-          "#714B17",
-          "#374F69",
-          "#6D405D",
-          "#315650",
-          "#30271C"
-        ]
+          "#10212B",
+          "#932F25",
+          "#175A42",
+          "#70480B",
+          "#68412D",
+          "#663B80",
+          "#075971",
+          "#344151",
+          "#455363",
+          "#A13329",
+          "#185C40",
+          "#76500A",
+          "#2B448C",
+          "#6A4088",
+          "#0B5E70",
+          "#10212B"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
       }
     },
     "dark": {
       "colors": {
-        "background": "#231B14",
-        "surface": "#2C2218",
-        "surfaceRaised": "#362A1D",
-        "border": "#66523A",
-        "borderStrong": "#AB926C",
-        "text": "#FBF1DA",
-        "textMuted": "#E7D8B8",
-        "textSubtle": "#D8C9AB",
-        "textDisabled": "#A59578",
-        "primary": "#EDCE91",
-        "onPrimary": "#31210E",
-        "primarySubtle": "#EDCE9112",
-        "danger": "#FFC5B1",
-        "dangerSubtle": "#FFC5B112",
-        "success": "#CFDDB0",
-        "warning": "#F4D5A1",
-        "info": "#C6D7E6"
-      },
-      "surfaces": {
-        "backgroundOpacity": 0.94
+        "background": "#141D25",
+        "surface": "#1C2930",
+        "surfaceRaised": "#293B40",
+        "text": "#F4F9EE",
+        "textMuted": "#D4E3DC",
+        "textSubtle": "#BDCFCC",
+        "textDisabled": "#768396",
+        "primary": "#BFD8B5",
+        "onPrimary": "#1B2E22",
+        "primarySubtle": "#BFD8B512",
+        "border": "#3B535F",
+        "borderStrong": "#7795A0",
+        "danger": "#FFC0AA",
+        "dangerSubtle": "#FFC0AA10",
+        "success": "#A6DDC3",
+        "warning": "#F4CF96",
+        "info": "#A3DFEA"
       },
       "terminal": {
-        "background": "#231B14",
-        "backgroundOpacity": 0.95,
-        "foreground": "#FBF1DA",
-        "cursor": "#EDCE91",
-        "link": "#C6D7E6",
-        "selection": "#EDCE9130",
+        "background": "#141D25",
+        "foreground": "#F4F9EE",
+        "cursor": "#BFD8B5",
+        "link": "#A3DFEA",
+        "selection": "#BFD8B528",
         "ansi": [
-          "#CAB99A",
-          "#FFC5B1",
-          "#CFDDB0",
-          "#F4D5A1",
-          "#C6D7E6",
-          "#E0C5D5",
-          "#BFDED1",
-          "#E9DFC8",
-          "#D3C3A4",
-          "#FFD5C4",
-          "#DFE9C6",
-          "#FBE6BD",
-          "#D9E4EF",
-          "#EED9E4",
-          "#D1EBDD",
-          "#FBF1DA"
-        ]
+          "#A6B8C7",
+          "#FFC0AA",
+          "#A6DDC3",
+          "#F4CF96",
+          "#B9D3E3",
+          "#DAC5EF",
+          "#A3DFEA",
+          "#D1D8E2",
+          "#91A7BB",
+          "#FFD1BF",
+          "#B4EACD",
+          "#FFE0AF",
+          "#C4DCFF",
+          "#E4D1F7",
+          "#B9F0F4",
+          "#F4F9EE"
+        ],
+        "backgroundOpacity": 1
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
       }
     }
   },
   "materials": {
-    "default": "solid"
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "6f0371c1088384081f24841cfffc3ac80acda61c8c05e0d40ec54787dce4a1c4"
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png",
+      "sha256": "5d77b242ec068ac6c658b60b9f5e59883393bdeef4843fd61e5609b0abd0494e"
     },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "7ee91eff13e3fd0ea36c2a58871e1b781b51904dd7eacf2ee3d1a65c8c8b6c17"
+    "home-paper-light": {
+      "path": "assets/home-paper-light.png",
+      "sha256": "5d77b242ec068ac6c658b60b9f5e59883393bdeef4843fd61e5609b0abd0494e"
     },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "836bb473fdfd8caec94cd452e52dfe9457770f3394f63ae4ef18dbba8862251f"
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png",
+      "sha256": "c7835a10e6f03cad6ea4f9c373fa7068b81584f5b57795443d5e5d08ba4c7936"
     },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "f3425ec5f3f5a76904b9770da0266e293779a5d9881ccf237793c60deaec5adf"
+    "home-paper-dark": {
+      "path": "assets/home-paper-dark.png",
+      "sha256": "c7835a10e6f03cad6ea4f9c373fa7068b81584f5b57795443d5e5d08ba4c7936"
     },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "ccc0bed27cd1b0fae34161e58815e3410bedc66b613403aac5386e0338de2bef"
+    "navigation": {
+      "path": "assets/navigation.png",
+      "sha256": "b4ab09755114afa68c351b8e09fdf3acb5037b49793ca8678ad46c016f27c2de"
     },
-    "preview": {
-      "path": "assets/preview.webp",
-      "sha256": "3c145b19a4b52e8b3d0cc1a63609983cf47a04234acf6619c053ef7a0431c3df"
+    "composer": {
+      "path": "assets/composer.png",
+      "sha256": "b6882d73c170585703f1dbf63110b51b4f3b37d1ff1825616ac0e29915da4083"
+    },
+    "actions": {
+      "path": "assets/actions.png",
+      "sha256": "8523d370a1afec65d8d3855582ce70b2d35231b80a33511bdaf302511574f5af"
+    },
+    "cards": {
+      "path": "assets/cards.png",
+      "sha256": "59e8bf4a0a1cb6c09444945808bdae2606b3da7f659918b0ef1737b916037b8a"
+    },
+    "buttons": {
+      "path": "assets/buttons.png",
+      "sha256": "d90df9b90bf49e322323f95680da642c7464cbfc4eb0cb5e6487dce49d5cdc61"
+    },
+    "tabs": {
+      "path": "assets/tabs.png",
+      "sha256": "0a1e3d7a77e933f628ad9abd10693c19e7e678f542f7abed45119dfcb00a1cbe"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "1d0f740cb4499e58ba5e94c6049aa6bea548dcd5d24eb1875c43d404a9a8f875"
+      "sha256": "396a85eb072095a45866d7b9198f08b35024c4c7d8084ab02d05b760f48364ec"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "5a88f046a6eb48c6a658511d197bc3a984e282a7c32e51a469fbbc7b0850e8c3"
+      "sha256": "f5cd87f6183047de61f95d0fb9996d84cf19bb81bfb4350156b3612719ff5d68"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "d2f263dac58047943cd6d0dbc21912033471d71abb1b5f85ecce9060c13d8b77"
+      "sha256": "892fc8d6196eebf0c56b9a6019450e8c60c3b1a0e3aa6d770c24321fa7a85a2a"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "d9053cfbd57ed1e0edf1c6177f80f493291562e65377324ed0f174855c43e8da"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "af9493a7c5e57feb5255f47bbdf8b0eeb2a21fdf0f20f837a9c82af6615a21a2"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e877c63693efa1e4cac475cab096d0e560e9062d304e8ca7d5b0c92df1a7ea54"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "d43cd974c89b37220210107bb1be059bb1848b16d8aaf2ea965a8f056f8e0d8b"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "51857fcd288411ff7ed703d8a2b3069a7a613d3bae4dbf1299188a3450dc9a92"
+    },
+    "launch": {
+      "path": "assets/launch.png",
+      "sha256": "f276c449e1ff675876d2c951656fcdf277d089a829e3987b8933e1f1a3bce348"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "9414d81cc9205ad8ddd4c41c1d33717c5a33d70e824eeec8aba6f5f2d4264871"
+    },
+    "home-artwork": {
+      "path": "assets/home-artwork.png",
+      "sha256": "00430e7b6be56aca68d9f85d7406d472d3d0f35733e249f8e41edf97728c9b64"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "a1c43d856f7ae9abb8fa035815139cff524e3395f676d53b124a220ebfd99541"
     }
   },
   "decoration": {
+    "navigation.background": {
+      "asset": "navigation",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "navigation",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "navigation",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "composer.background": {
+      "asset": "composer",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "composer",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "composer",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "actions",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "actions",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "actions",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "cards.decoration": {
+      "asset": "cards",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "buttons.primary.background": {
+      "asset": "buttons",
+      "fit": "cover",
+      "opacity": 0.1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "buttons",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "buttons",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "tabs.background": {
+      "asset": "tabs",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
-    }
-  },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
+          "y": 0.5
         }
       },
-      "home.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
+      "regular": {
+        "asset": "empty",
         "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
+    "home.artwork": {
+      "asset": "home-artwork",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.08
+      },
+      "compact": {
+        "asset": "home-artwork",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
+          "y": 0.08
         }
       },
-      "home.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
+      "regular": {
+        "asset": "home-artwork",
         "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.08
         }
       }
-    }
-  },
-  "homeIdentity": {
-    "name": {
-      "mode": "default"
-    },
-    "logo": {
-      "mode": "hidden"
-    },
-    "artwork": {
-      "mode": "default"
     }
   },
   "icons": {
@@ -281,6 +458,163 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-paper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-paper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-paper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-paper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "Pages"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "A thoughtful young adult reading beside window light, in cream, sage and contemporary ink tones.",
+  "tags": [
+    "editorial",
+    "illustration",
+    "reading"
+  ],
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "right"
   }
 }

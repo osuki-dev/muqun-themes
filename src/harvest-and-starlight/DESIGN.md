@@ -21,3 +21,7 @@ Classic and Editorial resolve one `home.artwork` foreground, using the manifestâ
 ## Toolbar surfaces
 
 Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+
+## Native adaptation 1.1.4
+
+Complete seven-glyph template suite; new create/scan/settings/arrow shapes match the existing icon weight and theme motif. Every existing image slot now declares independent compact and regular objects including fit, opacity and focal point. Transparent contained Home art is explicitly reused for launch when no standalone override already exists. Original palette, illustration and identity choices are preserved. No optional chrome artwork was added. Gallery composition shows one contained foreground, native actions and the seven tinted glyphs. Classic and Editorial consume the same foreground; actual device checks remain outstanding.

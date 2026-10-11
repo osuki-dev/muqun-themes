@@ -1,7 +1,9 @@
-# Fern and Fiord
+# Fern and Fiord artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. Palette and composition by Muqun Theme Collection. All rights reserved.
+All rights reserved. Original assets created for Muqun Theme Collection.
 
-See PROMPTS.md for artwork prompts. No third-party images are included.
+Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is original AI-generated story illustration, and `assets/launch-character.png` is separately generated startup character art. Both used OpenAI built-in image generation with genuine transparent output; deterministic trim, resize and transparent padding only. Full prompts are in PROMPTS.md.
 
-Home hero (`assets/home-hero.png`): original AI-generated artwork created with the built-in image generation tool for Muqun Theme Collection. New Zealand Fiordland, a red-orange kayak with paddle on a glacier-mint fjord inlet beneath two sheer greenstone cliff faces and a silver waterfall; small cool-mist cloud. The scene is an imaginative illustration, not a precise location reconstruction. Covered by this theme’s existing license.
+`assets/paper-light.png`, `assets/paper-dark.png`, and edge textures are original geometric artwork authored for this theme. Seven native line glyphs reuse the original Muqun Theme Collection geometric family authored during the 2026 Clockwork Harlequin redraw, under the same ownership and rights. Directions: left back, up send, up-right Home arrow.
+
+`assets/preview.png` is an original gallery composition of the final theme art and UI palette, not a device screenshot. No old machinery, diorama or miniature prop art is retained. No external stock image or third-party brand assets are bundled.

@@ -1,7 +1,17 @@
-# Clockwork Harlequin
+# Clockwork Harlequin artwork credits
 
-Original character and AI-generated artwork created with OpenAI image generation for Muqun Theme Collection. All rights reserved. See PROMPTS.md for the art briefs.
+All rights reserved. Original assets authored for Muqun Theme Collection.
 
-The standalone Home illustration in assets/home-hero.png is newly generated with OpenAI image generation, from a text brief describing the existing original identity and style. The empty-state artwork remains separate.
+## Full contemporary redraw — 2026-10-11
 
-Editorial Home reuses the same original transparent `assets/home-hero.png`; no additional source artwork or third-party material was introduced.
+`assets/home-compact.png` and `assets/home-regular.png`: original adult anime performer with cream diamond tailoring and coral mechanical ribbons, created with OpenAI built-in image generation. The two responsive canvases use deterministic top crops and resizing of the same new portrait; no old theatre artwork is reused.
+
+`assets/launch-songbird.png`: independently generated original mechanical songbird with ink/cream/coral panels and a small brass winding key, created with OpenAI built-in image generation. Genuine RGBA transparency was inspected on both generated illustrations.
+
+`assets/paper-light.png`, `assets/paper-dark.png`, `assets/chrome-edge.png`, `assets/card-edge.png`, and `assets/button-edge.png`: original quiet geometric paper and diamond-edge artwork, authored for this theme.
+
+All seven `assets/icon-*.png` files: original geometric line glyphs with consistent template alpha; observed source directions are back left, send up, Home arrow up-right.
+
+`assets/preview.png`: original gallery UI composition of final artwork and palettes, not a device screenshot.
+
+No external stock assets, logos, typefaces or third-party illustrations are bundled. Full art prompts are in PROMPTS.md.

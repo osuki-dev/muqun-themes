@@ -2,11 +2,11 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "riso-matsuri",
-  "name": "リソグラフの夏祭り",
-  "version": "1.0.4",
+  "name": "\u30ea\u30bd\u30b0\u30e9\u30d5\u306e\u590f\u796d\u308a",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC-BY-4.0",
-  "description": "朱、群青、生成りの版ずれで夏祭りの熱気を描くリソグラフテーマ。",
+  "description": "\u6731\u3001\u7fa4\u9752\u3001\u751f\u6210\u308a\u306e\u7248\u305a\u308c\u3067\u590f\u796d\u308a\u306e\u71b1\u6c17\u3092\u63cf\u304f\u30ea\u30bd\u30b0\u30e9\u30d5\u30c6\u30fc\u30de\u3002",
   "tags": [
     "japan",
     "youth",
@@ -145,7 +145,24 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "4c144c56dea40004c3f5964503d95982e145245a0ce814d408a3b0c20276c4c3"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "8e88e5836dde642bcd601413d6e25ffd82fce4bc180ad80772b55e0076553282"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
     }
   },
   "variantDecorations": {
@@ -153,14 +170,49 @@
       "shell.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.16
+        "opacity": 0.16,
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.16
+        },
+        "regular": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.16
+        }
       },
       "home.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.62
+        "opacity": 0.62,
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.62
+        },
+        "regular": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.62
+        }
       },
       "home.artwork": {
+        "asset": "hero-light",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "launch.artwork": {
         "asset": "hero-light",
         "fit": "contain",
         "opacity": 1,
@@ -180,14 +232,49 @@
       "shell.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.2
+        "opacity": 0.2,
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.2
+        },
+        "regular": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.2
+        }
       },
       "home.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.68
+        "opacity": 0.68,
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.68
+        },
+        "regular": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.68
+        }
       },
       "home.artwork": {
+        "asset": "hero-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "hero-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "launch.artwork": {
         "asset": "hero-dark",
         "fit": "contain",
         "opacity": 1,
@@ -216,12 +303,28 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "夏の灯、祭の夜"
+      "text": "\u590f\u306e\u706f\u3001\u796d\u306e\u591c"
     },
     "logo": {
       "mode": "hidden"
@@ -229,5 +332,9 @@
     "artwork": {
       "mode": "default"
     }
-  }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
+  },
+  "decoration": {}
 }

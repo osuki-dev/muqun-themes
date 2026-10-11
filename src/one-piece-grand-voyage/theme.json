@@ -2,9 +2,9 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "one-piece-grand-voyage",
-  "name": "One Piece — Grand Voyage",
-  "version": "1.2.1",
-  "author": "Muqun custom theme · fan art",
+  "name": "One Piece \u2014 Grand Voyage",
+  "version": "1.2.2",
+  "author": "Muqun custom theme \u00b7 fan art",
   "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
   "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Luffy Home illustration and nautical rope-and-sail glyphs.",
   "tags": [
@@ -163,7 +163,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "293401bfe8b081970309d9a842096bc37019acf0cfa0ef54de27e3ffb81a0985"
+      "sha256": "6ec9e3477ffda551a12641cb1ecf26e1f31e2a1579ecc274f478738aa1a42359"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -180,6 +180,22 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "f7fe7fb14c378298887d150763b78b1779076b928e823b6ff566efbc1a19aae6"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "8e88e5836dde642bcd601413d6e25ffd82fce4bc180ad80772b55e0076553282"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "1fefab66e6274d842931b08d8d9600d323a48443757dc743f0548a4c474109fb"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
     }
   },
   "variantDecorations": {
@@ -197,7 +213,8 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
+          },
+          "opacity": 1
         },
         "compact": {
           "asset": "scene-light",
@@ -205,8 +222,10 @@
           "focalPoint": {
             "x": 0.45,
             "y": 0.78
-          }
-        }
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.wallpaper": {
         "asset": "scene-light",
@@ -221,7 +240,8 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
+          },
+          "opacity": 1
         },
         "compact": {
           "asset": "scene-light",
@@ -229,44 +249,132 @@
           "focalPoint": {
             "x": 0.45,
             "y": 0.78
-          }
-        }
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "navigation.background": {
         "asset": "panel-light",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "composer.background": {
         "asset": "panel-light",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "actions.background": {
         "asset": "panel-light",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "cards.decoration": {
         "asset": "panel-light",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "buttons.primary.background": {
         "asset": "action-light",
         "fit": "cover",
-        "opacity": 0.25
+        "opacity": 0.25,
+        "compact": {
+          "asset": "action-light",
+          "fit": "cover",
+          "opacity": 0.25
+        },
+        "regular": {
+          "asset": "action-light",
+          "fit": "cover",
+          "opacity": 0.25
+        }
       },
       "tabs.background": {
         "asset": "panel-light",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "empty.artwork": {
         "asset": "empty-light",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "empty-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "empty-light",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -296,7 +404,8 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
+          },
+          "opacity": 1
         },
         "compact": {
           "asset": "scene-dark",
@@ -304,8 +413,10 @@
           "focalPoint": {
             "x": 0.45,
             "y": 0.78
-          }
-        }
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.wallpaper": {
         "asset": "scene-dark",
@@ -320,7 +431,8 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
+          },
+          "opacity": 1
         },
         "compact": {
           "asset": "scene-dark",
@@ -328,44 +440,132 @@
           "focalPoint": {
             "x": 0.45,
             "y": 0.78
-          }
-        }
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "navigation.background": {
         "asset": "panel-dark",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "composer.background": {
         "asset": "panel-dark",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "actions.background": {
         "asset": "panel-dark",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "cards.decoration": {
         "asset": "panel-dark",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "buttons.primary.background": {
         "asset": "action-dark",
         "fit": "cover",
-        "opacity": 0.25
+        "opacity": 0.25,
+        "compact": {
+          "asset": "action-dark",
+          "fit": "cover",
+          "opacity": 0.25
+        },
+        "regular": {
+          "asset": "action-dark",
+          "fit": "cover",
+          "opacity": 0.25
+        }
       },
       "tabs.background": {
         "asset": "panel-dark",
         "fit": "cover",
-        "opacity": 0.22
+        "opacity": 0.22,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.22
+        }
       },
       "empty.artwork": {
         "asset": "empty-dark",
-        "fit": "contain"
+        "fit": "contain",
+        "compact": {
+          "asset": "empty-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "empty-dark",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        }
+      },
+      "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "opacity": 1,
@@ -407,6 +607,22 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "decoration": {
@@ -425,5 +641,8 @@
         "opacity": 1
       }
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

@@ -1,17 +1,5 @@
-# Rainline District
+# Rainline District — Contemporary native design
 
-A cinematic cyber-noir city of elevated tracks, rain-soaked concrete and distant coral signal lights. Atmospheric painterly realism gives the imagined district weight and scale. Dedicated portrait and landscape compositions frame the interface with architecture and wet reflections.
+An adult commuter at a real-scale city rail platform, with controlled electric-blue and coral light.
 
-Light mode uses mist-grey surfaces, deep petrol text and muted coral actions. Dark mode uses wet-asphalt petrol surfaces and luminous coral actions. Distinct semantic colors and a complete ANSI palette remain legible on solid materials with restrained translucency. Default Muqun identity is preserved.
-
-The back glyph references parallel rail tracks; send uses a streamlined train-arrow; attach uses an industrial carabiner. Transparent template rendering adapts all three to either mode. A contained transit-shelter illustration supports empty states. The gallery cover pairs dawn at left with midnight at right.
-
-## Home illustration
-
-A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.
-
-Editorial Home reuses this transparent rail miniature as its contained foreground in both responsive modes. Classic keeps the existing hero, wallpaper, identity, and startup treatment unchanged.
-
-## Toolbar surfaces
-
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+An independent young-adult character startup illustration replaces the tiny scenery handoff. This square startup asset also serves the optional empty illustration. Scenic wallpaper is deliberately omitted; quiet palette surfaces separate artwork from native labels. The standard header is preserved with a small English title above the generous wide scene. Classic intentionally overlays the decorative lower third; no speculative shrinking is used to avoid that overlap. Tablet remains Editorial. All three image roles declare complete compact/regular objects. Seven matching line glyphs preserve clear native action meanings and use template tint. Optional chrome imagery remains absent. Gallery layout is a fictional composition using final resources; CLI checks and actual native QA are separately recorded.

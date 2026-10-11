@@ -7,3 +7,7 @@ Rights-holder reference: https://tetris.com/news/the-tetris-company-celebrates-a
 See PROMPTS.md for generated artwork briefs.
 
 `assets/home-hero.png`: newly generated with OpenAI image generation for this theme; an architectural tetromino arch and stair pavilion. Existing franchise notices remain applicable.
+
+## Native control glyphs
+
+`assets/native-create.png`, `assets/native-scan.png`, `assets/native-settings.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: Unofficial fan art; underlying rights reserved. Transparent template marks preserve native light/dark tinting.

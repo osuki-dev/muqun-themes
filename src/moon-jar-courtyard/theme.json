@@ -3,116 +3,118 @@
   "schemaVersion": 1,
   "id": "moon-jar-courtyard",
   "name": "Moon Jar Courtyard",
-  "version": "1.1.2",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
-  "description": "Korea. A white porcelain moon jar in a quiet hanok courtyard, rendered as layered hanji paper collage in porcelain, lilac and aubergine. Day and moonlit artwork with roof-eave, folded-crane and knot-paperclip glyphs.",
+  "description": "Calm contemporary anime courtyard reading nook, hand-ink outlines and flat lavender/cream planes, with a young reader and natural-scale moon jar.",
   "tags": [
-    "korea",
-    "hanji",
-    "porcelain",
-    "lilac",
-    "illustrated"
+    "korean",
+    "moon-jar",
+    "editorial",
+    "periwinkle",
+    "illustrated",
+    "light",
+    "dark"
   ],
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F5F1F7",
-        "surface": "#FFFBFF",
-        "surfaceRaised": "#EAE2EF",
-        "border": "#D1C5D9",
-        "borderStrong": "#97859F",
-        "text": "#2A1C35",
-        "textMuted": "#4D3D59",
-        "textSubtle": "#594764",
-        "textDisabled": "#AA9CB2",
-        "primary": "#654278",
-        "onPrimary": "#FFFAFF",
-        "primarySubtle": "#65427812",
-        "danger": "#7C2944",
-        "dangerSubtle": "#7C29440C",
-        "success": "#3A624E",
-        "warning": "#755622",
-        "info": "#405B83"
+        "background": "#F7F4ED",
+        "surface": "#FFFDFA",
+        "surfaceRaised": "#EAE8F0",
+        "border": "#C8C8D8",
+        "borderStrong": "#8E91B0",
+        "text": "#202941",
+        "textMuted": "#4C526A",
+        "textSubtle": "#525970",
+        "textDisabled": "#989BA9",
+        "primary": "#525B92",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#525B9210",
+        "danger": "#963A51",
+        "dangerSubtle": "#963A5110",
+        "success": "#326251",
+        "warning": "#785B2D",
+        "info": "#405E87"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#F5F1F7",
-        "backgroundOpacity": 0.94,
-        "foreground": "#2A1C35",
-        "cursor": "#654278",
-        "link": "#405B83",
-        "selection": "#65427830",
+        "background": "#F7F4ED",
+        "backgroundOpacity": 1,
+        "foreground": "#202941",
+        "cursor": "#525B92",
+        "link": "#405E87",
+        "selection": "#525B9230",
         "ansi": [
-          "#2A1C35",
-          "#963D56",
-          "#3A624E",
-          "#755622",
-          "#405B83",
-          "#654278",
-          "#3F626A",
-          "#594764",
-          "#4D3D59",
-          "#963D56",
-          "#3A624E",
-          "#755622",
-          "#405B83",
-          "#654278",
-          "#3F626A",
-          "#2A1C35"
+          "#525970",
+          "#963A51",
+          "#326251",
+          "#785B2D",
+          "#405E87",
+          "#525B92",
+          "#326251",
+          "#4C526A",
+          "#525970",
+          "#963A51",
+          "#326251",
+          "#785B2D",
+          "#405E87",
+          "#525B92",
+          "#326251",
+          "#202941"
         ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#23172C",
-        "surface": "#2C2036",
-        "surfaceRaised": "#382B42",
-        "border": "#62516E",
-        "borderStrong": "#AD96BC",
-        "text": "#FBF4FF",
-        "textMuted": "#E4D5EE",
-        "textSubtle": "#D1BEDD",
-        "textDisabled": "#96849F",
-        "primary": "#DBB8F0",
-        "onPrimary": "#2D1938",
-        "primarySubtle": "#DBB8F012",
-        "danger": "#FFB7CE",
-        "dangerSubtle": "#FFB7CE12",
-        "success": "#BCE3CA",
-        "warning": "#F2D49C",
-        "info": "#BBD2F5"
+        "background": "#121A2D",
+        "surface": "#1A253C",
+        "surfaceRaised": "#25324B",
+        "border": "#455578",
+        "borderStrong": "#8C9BC3",
+        "text": "#FFF8E9",
+        "textMuted": "#D4D9ED",
+        "textSubtle": "#BCC7E1",
+        "textDisabled": "#8592AC",
+        "primary": "#CAD1FF",
+        "onPrimary": "#202941",
+        "primarySubtle": "#CAD1FF14",
+        "danger": "#F4BBC8",
+        "dangerSubtle": "#F4BBC814",
+        "success": "#ADE0C9",
+        "warning": "#F2D7A3",
+        "info": "#B6D2F5"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#23172C",
-        "backgroundOpacity": 0.94,
-        "foreground": "#FBF4FF",
-        "cursor": "#DBB8F0",
-        "link": "#BBD2F5",
-        "selection": "#DBB8F030",
+        "background": "#121A2D",
+        "backgroundOpacity": 1,
+        "foreground": "#FFF8E9",
+        "cursor": "#CAD1FF",
+        "link": "#B6D2F5",
+        "selection": "#CAD1FF30",
         "ansi": [
-          "#BAA9C5",
-          "#FFB7CE",
-          "#BCE3CA",
-          "#F2D49C",
-          "#BBD2F5",
-          "#DBB8F0",
-          "#B8E1E6",
-          "#D1BEDD",
-          "#E4D5EE",
-          "#FFB7CE",
-          "#BCE3CA",
-          "#F2D49C",
-          "#BBD2F5",
-          "#DBB8F0",
-          "#B8E1E6",
-          "#FBF4FF"
+          "#BCC7E1",
+          "#F4BBC8",
+          "#ADE0C9",
+          "#F2D7A3",
+          "#B6D2F5",
+          "#CAD1FF",
+          "#ADE0C9",
+          "#D4D9ED",
+          "#BCC7E1",
+          "#F4BBC8",
+          "#ADE0C9",
+          "#F2D7A3",
+          "#B6D2F5",
+          "#CAD1FF",
+          "#ADE0C9",
+          "#FFF8E9"
         ]
       }
     }
@@ -121,150 +123,144 @@
     "default": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "d6722caaf083a9ef4b37f1e4d078fbdaf5ba2e2df8d2e6bb5367fc0efe2fb1e2"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "8eb0cb4b1c86a90d617730b9d0e916f7599a597ff0d3a1a8e401504986ca321c"
-    },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "b78574913c1eea013a7412485e54f1ca742104ba0c3abc8d07a9ec7ec418157d"
-    },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "49480ab740f8bbe54a78d7d1f7cba55963445e7588dac1882eb719883595efaa"
-    },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "119734080817b06e5633ec857a7f6a5a31bef1d6537c27dd3e17fb51f0c77ebc"
-    },
     "preview": {
-      "path": "assets/preview.webp",
-      "sha256": "7262ef281a5064a6a3baa37950f394dc78c03cf4423a9708de290ee1caf661b7"
+      "path": "assets/preview.png",
+      "sha256": "531ec7dc51baaa0e822c0c27298ea44b7adf2a7d1d041facb2facd5c4436b815"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "4f5a7a54fc10df00d5b86499e726bafb722cead3841fb538e96a2d4526eea5a8"
+      "sha256": "da59090ff97c968d552fce3677832d69302bdb657b4b9000dae2beb4bfccb8b5"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "dc7a8cda2354136c1cdd425ff5adf840798b9d3619ca612ebcbbb6faad423df0"
+      "sha256": "a5a4d029f2675b063f4c78ce59e9ac286ffdc7734db51c46081a603ee640d710"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "58d0d72277683ee236638d234061fe27964287f66a19c20beb47e644d67b711c"
+      "sha256": "3d6402c28da1cb8597e44dd1a8c2dcd84b6175c46dc93306c645c5571caf9951"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "1013e0d5dccfbc047524e05513ac6ac22ac62db074dfe66729dc96b2dd0a368e"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "4bd3064cb1c6c6a12a997cab2fef9e9c15e263babe5d71d974e45e4127d5aaf9"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
+    },
+    "home-modern": {
+      "path": "assets/home-modern.png",
+      "sha256": "c278850d3e991c84c1771be7bbb079b49e1fe13245333efa465baebe63e84a87"
+    },
+    "launch-modern": {
+      "path": "assets/launch-modern.png",
+      "sha256": "5ba2677666bcb831880b497339a38651582dae857eb981bf539ed101deba4d59"
     }
   },
   "decoration": {
+    "home.artwork": {
+      "asset": "home-modern",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch-modern",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
     "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain"
+      "asset": "launch-modern",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
+      "home.wallpaper": null,
+      "shell.wallpaper": null
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
+      "home.wallpaper": null,
+      "shell.wallpaper": null
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Moon Jar"
     },
     "logo": {
       "mode": "hidden"
@@ -285,6 +281,31 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "up-right"
+  },
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
   }
 }

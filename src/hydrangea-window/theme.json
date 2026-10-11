@@ -2,117 +2,110 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "hydrangea-window",
-  "name": "紫陽花の窓辺",
-  "version": "1.1.5",
-  "author": "Muqun",
+  "name": "\u7d2b\u967d\u82b1\u306e\u7a93\u8fba",
+  "version": "1.2.0",
+  "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
-  "description": "梅雨の窓辺に咲く紫陽花と柔らかな光を閉じ込めた静謐なテーマ。",
-  "tags": [
-    "japan",
-    "youth",
-    "illustration",
-    "hydrangea-window"
-  ],
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#EEF0F8",
-        "surface": "#FAFAFE",
-        "surfaceRaised": "#DFE2F1",
-        "border": "#C8CDE2",
-        "borderStrong": "#858EAD",
-        "text": "#23253A",
-        "textMuted": "#5C627C",
-        "textSubtle": "#5C627C",
-        "textDisabled": "#858EAD",
-        "primary": "#515D97",
+        "background": "#F1F2F8",
+        "surface": "#FCFCFF",
+        "surfaceRaised": "#E1E4F0",
+        "text": "#182130",
+        "textMuted": "#344151",
+        "textSubtle": "#3B4556",
+        "textDisabled": "#8F918F",
+        "primary": "#304F86",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#515D9704",
-        "danger": "#A32622",
-        "dangerSubtle": "#A3262214",
-        "success": "#176B4D",
-        "warning": "#8A5A12",
-        "info": "#2E5EAA"
+        "primarySubtle": "#304F8610",
+        "border": "#BDC8DC",
+        "borderStrong": "#7483A8",
+        "danger": "#932F25",
+        "dangerSubtle": "#932F2510",
+        "success": "#175A42",
+        "warning": "#70480B",
+        "info": "#304F86"
+      },
+      "terminal": {
+        "background": "#F1F2F8",
+        "foreground": "#182130",
+        "cursor": "#304F86",
+        "link": "#304F86",
+        "selection": "#304F8628",
+        "ansi": [
+          "#182130",
+          "#932F25",
+          "#175A42",
+          "#70480B",
+          "#68412D",
+          "#663B80",
+          "#075971",
+          "#344151",
+          "#455363",
+          "#A13329",
+          "#185C40",
+          "#76500A",
+          "#2B448C",
+          "#6A4088",
+          "#0B5E70",
+          "#182130"
+        ],
+        "backgroundOpacity": 1
       },
       "surfaces": {
         "backgroundOpacity": 1
-      },
-      "terminal": {
-        "background": "#EEF0F8",
-        "backgroundOpacity": 1,
-        "foreground": "#23253A",
-        "cursor": "#515D97",
-        "link": "#2E5EAA",
-        "selection": "#515D9738",
-        "ansi": [
-          "#23253A",
-          "#A32622",
-          "#176B4D",
-          "#8A5A12",
-          "#2E5EAA",
-          "#7D5D9D",
-          "#27767A",
-          "#626984",
-          "#646B82",
-          "#BB423B",
-          "#2A7858",
-          "#8E631E",
-          "#446BAB",
-          "#7A628D",
-          "#3D7476",
-          "#23253A"
-        ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#11152D",
-        "surface": "#1A2040",
-        "surfaceRaised": "#252B50",
-        "border": "#394064",
-        "borderStrong": "#6B7397",
-        "text": "#F4F2FF",
-        "textMuted": "#C8C6E6",
-        "textSubtle": "#C8C6E6",
-        "textDisabled": "#6B7397",
-        "primary": "#A9A4F4",
-        "onPrimary": "#17142F",
-        "primarySubtle": "#A9A4F41A",
-        "danger": "#FF8A80",
-        "dangerSubtle": "#FF8A8014",
-        "success": "#70D2A5",
-        "warning": "#F2BE63",
-        "info": "#8DB9FF"
+        "background": "#151B2B",
+        "surface": "#1E283B",
+        "surfaceRaised": "#2D3B50",
+        "text": "#F4F3FF",
+        "textMuted": "#D1D8E2",
+        "textSubtle": "#C5CEDB",
+        "textDisabled": "#768396",
+        "primary": "#CABDFC",
+        "onPrimary": "#231C39",
+        "primarySubtle": "#CABDFC12",
+        "border": "#3B465A",
+        "borderStrong": "#778298",
+        "danger": "#FFC0AA",
+        "dangerSubtle": "#FFC0AA10",
+        "success": "#A6DDC3",
+        "warning": "#F4CF96",
+        "info": "#BAD7F8"
+      },
+      "terminal": {
+        "background": "#151B2B",
+        "foreground": "#F4F3FF",
+        "cursor": "#CABDFC",
+        "link": "#BAD7F8",
+        "selection": "#CABDFC28",
+        "ansi": [
+          "#A6B8C7",
+          "#FFC0AA",
+          "#A6DDC3",
+          "#F4CF96",
+          "#B9D3E3",
+          "#DAC5EF",
+          "#A3DFEA",
+          "#D1D8E2",
+          "#91A7BB",
+          "#FFD1BF",
+          "#B4EACD",
+          "#FFE0AF",
+          "#C4DCFF",
+          "#E4D1F7",
+          "#B9F0F4",
+          "#FFF7E9"
+        ],
+        "backgroundOpacity": 1
       },
       "surfaces": {
         "backgroundOpacity": 1
-      },
-      "terminal": {
-        "background": "#11152D",
-        "backgroundOpacity": 1,
-        "foreground": "#F4F2FF",
-        "cursor": "#A9A4F4",
-        "link": "#9DC5FF",
-        "selection": "#A9A4F438",
-        "ansi": [
-          "#C8C6E6",
-          "#FF8A80",
-          "#70D2A5",
-          "#F2BE63",
-          "#8DB9FF",
-          "#9772BB",
-          "#31959A",
-          "#C8C6E6",
-          "#7981A1",
-          "#D45C54",
-          "#33926B",
-          "#AF7A25",
-          "#5782C9",
-          "#D1A9F2",
-          "#74DCE0",
-          "#F4F2FF"
-        ]
       }
     }
   },
@@ -123,148 +116,333 @@
     "actions": "solid"
   },
   "assets": {
-    "background-light": {
-      "path": "assets/background-light.png"
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png",
+      "sha256": "18989718f5b26d95ca66dbd3f4b484170c9a59b647429e69f76abe098990c5bc"
     },
-    "background-dark": {
-      "path": "assets/background-dark.png"
+    "home-paper-light": {
+      "path": "assets/home-paper-light.png",
+      "sha256": "18989718f5b26d95ca66dbd3f4b484170c9a59b647429e69f76abe098990c5bc"
     },
-    "hero-light": {
-      "path": "assets/hero-light.png"
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png",
+      "sha256": "f6e9fbe07a96ed96a6d3e04f1b44ad59c7ef220f59630f9ed7a14efb0192efd1"
     },
-    "hero-dark": {
-      "path": "assets/hero-dark.png"
+    "home-paper-dark": {
+      "path": "assets/home-paper-dark.png",
+      "sha256": "f6e9fbe07a96ed96a6d3e04f1b44ad59c7ef220f59630f9ed7a14efb0192efd1"
+    },
+    "navigation": {
+      "path": "assets/navigation.png",
+      "sha256": "1d64135b88e1c0b0209b58df1b3fa6d53ebcce5a25ea03b2d4bf6b80fd04ce78"
+    },
+    "composer": {
+      "path": "assets/composer.png",
+      "sha256": "12779868e231d101fc579e62ba1c71aa213ea34e6e69adb033d6882c2dca3bfa"
+    },
+    "actions": {
+      "path": "assets/actions.png",
+      "sha256": "aad8d6814bf34714881decc4917dd9542972470f813c33b9a73db5bfe4084ffd"
+    },
+    "cards": {
+      "path": "assets/cards.png",
+      "sha256": "eae9200327fb5be94614ded4ace387007bb7e26a99c56c2829033f5c904355ff"
+    },
+    "buttons": {
+      "path": "assets/buttons.png",
+      "sha256": "e4924ff19ccf9d3289948f7f4f0e081421c678c8e24e2f93cfd9a502cde5b21f"
+    },
+    "tabs": {
+      "path": "assets/tabs.png",
+      "sha256": "3848e574d26256613341a31f36314aedd2565e91095d607bc1eef0b56cf4f86f"
     },
     "icon-back": {
-      "path": "assets/icon-back.png"
+      "path": "assets/icon-back.png",
+      "sha256": "396a85eb072095a45866d7b9198f08b35024c4c7d8084ab02d05b760f48364ec"
     },
     "icon-send": {
-      "path": "assets/icon-send.png"
+      "path": "assets/icon-send.png",
+      "sha256": "f5cd87f6183047de61f95d0fb9996d84cf19bb81bfb4350156b3612719ff5d68"
     },
     "icon-attach": {
-      "path": "assets/icon-attach.png"
-    },
-    "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/icon-attach.png",
+      "sha256": "892fc8d6196eebf0c56b9a6019450e8c60c3b1a0e3aa6d770c24321fa7a85a2a"
     },
     "icon-create": {
-      "path": "assets/icon-create.png"
+      "path": "assets/icon-create.png",
+      "sha256": "af9493a7c5e57feb5255f47bbdf8b0eeb2a21fdf0f20f837a9c82af6615a21a2"
     },
     "icon-scan": {
-      "path": "assets/icon-scan.png"
+      "path": "assets/icon-scan.png",
+      "sha256": "e877c63693efa1e4cac475cab096d0e560e9062d304e8ca7d5b0c92df1a7ea54"
     },
     "icon-settings": {
-      "path": "assets/icon-settings.png"
+      "path": "assets/icon-settings.png",
+      "sha256": "d43cd974c89b37220210107bb1be059bb1848b16d8aaf2ea965a8f056f8e0d8b"
     },
     "icon-arrow": {
-      "path": "assets/icon-arrow.png"
+      "path": "assets/icon-arrow.png",
+      "sha256": "51857fcd288411ff7ed703d8a2b3069a7a613d3bae4dbf1299188a3450dc9a92"
     },
-    "chrome-light": {
-      "path": "assets/chrome-light.png"
+    "launch": {
+      "path": "assets/launch.png",
+      "sha256": "c41d4d643b698a4d8ee0a2107368dd8ab1d11a7cf4639882aeae901f75f06bc3"
     },
-    "chrome-dark": {
-      "path": "assets/chrome-dark.png"
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "1450486181c77a4451bea361255cc93db2a64c58de77d159d17d2e6f15cdba1e"
+    },
+    "home-artwork": {
+      "path": "assets/home-artwork.png",
+      "sha256": "7f256cfa3745486870001d28b8ccee29dfae1e42fe285e78f98f83e22a264113"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "5258e44edabd75cff98f946772b9c1ed1bf828a83ae53572397048007ebf7246"
     }
   },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "background-light",
-        "fit": "cover",
-        "opacity": 0.16
+  "decoration": {
+    "navigation.background": {
+      "asset": "navigation",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       },
-      "home.wallpaper": {
-        "asset": "background-light",
+      "compact": {
+        "asset": "navigation",
         "fit": "cover",
-        "opacity": 0.62
-      },
-      "home.artwork": {
-        "asset": "hero-light",
-        "fit": "contain",
-        "opacity": 1,
-        "compact": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       },
-      "launch.artwork": {
-        "asset": "hero-light",
-        "fit": "contain"
-      },
-      "navigation.background": {
-        "asset": "chrome-light",
+      "regular": {
+        "asset": "navigation",
         "fit": "cover",
-        "opacity": 0.55
-      },
-      "composer.background": {
-        "asset": "chrome-light",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "actions.background": {
-        "asset": "chrome-light",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "empty.artwork": {
-        "asset": "hero-light",
-        "fit": "contain"
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "background-dark",
-        "fit": "cover",
-        "opacity": 0.2
+    "composer.background": {
+      "asset": "composer",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       },
-      "home.wallpaper": {
-        "asset": "background-dark",
+      "compact": {
+        "asset": "composer",
         "fit": "cover",
-        "opacity": 0.68
-      },
-      "home.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain",
-        "opacity": 1,
-        "compact": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       },
-      "launch.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain"
-      },
-      "navigation.background": {
-        "asset": "chrome-dark",
+      "regular": {
+        "asset": "composer",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "actions",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       },
-      "composer.background": {
-        "asset": "chrome-dark",
+      "compact": {
+        "asset": "actions",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       },
-      "actions.background": {
-        "asset": "chrome-dark",
+      "regular": {
+        "asset": "actions",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "cards.decoration": {
+      "asset": "cards",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       },
-      "empty.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain"
+      "compact": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "buttons.primary.background": {
+      "asset": "buttons",
+      "fit": "cover",
+      "opacity": 0.1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "buttons",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "buttons",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "tabs.background": {
+      "asset": "tabs",
+      "fit": "cover",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "empty",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.artwork": {
+      "asset": "home-artwork",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.08
+      },
+      "compact": {
+        "asset": "home-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.08
+        }
+      },
+      "regular": {
+        "asset": "home-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.08
+        }
       }
     }
   },
@@ -298,10 +476,124 @@
       "render": "template"
     }
   },
+  "variantDecorations": {
+    "light": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-paper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-paper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-paper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-paper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "雨に咲く"
+      "text": "Bloom"
     },
     "logo": {
       "mode": "hidden"
@@ -310,23 +602,19 @@
       "mode": "default"
     }
   },
+  "description": "A hopeful young adult beside a rainy window and hydrangea garden, in blue, cream and soft lavender.",
+  "tags": [
+    "editorial",
+    "illustration",
+    "flowers"
+  ],
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
   },
-  "effects": {
-    "ambient": "rain",
-    "intensity": 0.18,
-    "speed": 0.38,
-    "density": 0.19,
-    "size": 0.8,
-    "palette": [
-      "info",
-      "primary"
-    ],
-    "direction": "down"
-  },
   "iconDirections": {
-    "home.arrow": "up-right"
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "right"
   }
 }

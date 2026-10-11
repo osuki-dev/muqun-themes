@@ -2,110 +2,102 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "runtime-foundry",
-  "name": "Runtime Foundry",
-  "version": "1.0.5",
-  "author": "Muqun Community; Go Gopher: Renee French; Python: PSF; Rust: Rust Foundation",
-  "license": "CC-BY-4.0; Python logo under PSF trademark terms; see source CREDITS.md",
+  "name": "Night Drive",
+  "version": "1.2.1",
+  "author": "Muqun Community",
+  "license": "CC-BY-4.0",
   "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F4EEE5",
-        "surface": "#FAF6F0",
-        "surfaceRaised": "#E9DFD5",
-        "border": "#CBB5A7",
-        "borderStrong": "#927D70",
-        "text": "#382433",
-        "textMuted": "#65525A",
-        "textSubtle": "#66515C",
-        "textDisabled": "#93828A",
-        "primary": "#773A24",
-        "onPrimary": "#FFFFFF",
-        "primarySubtle": "#88462912",
-        "danger": "#982C36",
-        "dangerSubtle": "#982C360C",
-        "success": "#286044",
-        "warning": "#855006",
-        "info": "#4356A3"
+        "background": "#F2F3EC",
+        "surface": "#FFFEF5",
+        "surfaceRaised": "#E3E9E5",
+        "border": "#B4C8CA",
+        "borderStrong": "#678895",
+        "text": "#122A38",
+        "textMuted": "#3C5563",
+        "textSubtle": "#3C5563",
+        "textDisabled": "#A7ADB8",
+        "primary": "#85371C",
+        "onPrimary": "#FFFEF5",
+        "primarySubtle": "#85371C0C",
+        "danger": "#982D24",
+        "dangerSubtle": "#982D240C",
+        "success": "#276444",
+        "warning": "#78511B",
+        "info": "#215D75"
       },
       "terminal": {
-        "background": "#F4EEE5",
-        "foreground": "#382433",
-        "cursor": "#884629",
-        "link": "#5443A0",
-        "selection": "#94533925",
+        "background": "#F2F3EC",
+        "foreground": "#122A38",
+        "cursor": "#85371C",
+        "link": "#245674",
+        "selection": "#85371C30",
         "ansi": [
-          "#302632",
-          "#9D303B",
-          "#285F3E",
-          "#795116",
-          "#3D4FA0",
-          "#754086",
-          "#236270",
-          "#655461",
-          "#6B5661",
-          "#AC3C46",
-          "#316B4B",
-          "#855500",
-          "#4758AD",
-          "#805094",
-          "#296B79",
-          "#302632"
-        ],
-        "backgroundOpacity": 0.99
-      },
-      "surfaces": {
-        "backgroundOpacity": 0.96
+          "#050B12",
+          "#B8291F",
+          "#026F42",
+          "#A54107",
+          "#3538CD",
+          "#6941C6",
+          "#0D6987",
+          "#475467",
+          "#5A616E",
+          "#B42318",
+          "#026F42",
+          "#A54107",
+          "#3453D6",
+          "#6D4ABB",
+          "#0D6987",
+          "#050B12"
+        ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#201A23",
-        "surface": "#28212C",
-        "surfaceRaised": "#342C38",
-        "border": "#695044",
-        "borderStrong": "#8C7267",
-        "text": "#F3E9DF",
-        "textMuted": "#CFBFCB",
-        "textSubtle": "#B4A1AF",
-        "textDisabled": "#81717E",
-        "primary": "#E9AC82",
-        "onPrimary": "#251A20",
-        "primarySubtle": "#E9AC8220",
-        "danger": "#FFADA5",
-        "dangerSubtle": "#FFADA512",
-        "success": "#95D4AC",
-        "warning": "#EDC27B",
-        "info": "#B4C8FF"
+        "background": "#081625",
+        "surface": "#112538",
+        "surfaceRaised": "#183449",
+        "border": "#3D6376",
+        "borderStrong": "#82B6C9",
+        "text": "#F5F3E6",
+        "textMuted": "#C2DCE5",
+        "textSubtle": "#C2DCE5",
+        "textDisabled": "#6B7585",
+        "primary": "#FFC193",
+        "onPrimary": "#112A38",
+        "primarySubtle": "#FFC1930C",
+        "danger": "#FFAAA0",
+        "dangerSubtle": "#FFAAA00C",
+        "success": "#8DD7B8",
+        "warning": "#F5CB81",
+        "info": "#9DE5EC"
       },
       "terminal": {
-        "background": "#201A23",
-        "foreground": "#F3E9DF",
-        "cursor": "#E9AC82",
-        "link": "#C3B2FF",
-        "selection": "#DFA37935",
+        "background": "#081625",
+        "foreground": "#F5F3E6",
+        "cursor": "#FFC193",
+        "link": "#9CDFF2",
+        "selection": "#FFC19330",
         "ansi": [
-          "#A092A3",
-          "#F5A29C",
-          "#9ED1A9",
-          "#E8C386",
-          "#ADBCF0",
-          "#D8A8E7",
-          "#97CDD5",
-          "#D2C4CE",
-          "#A697A7",
-          "#FFC2B9",
-          "#B8E6BD",
-          "#F9D9A6",
-          "#C4D0FF",
-          "#EBC6F5",
-          "#BCE6EA",
-          "#F6EEE5"
-        ],
-        "backgroundOpacity": 0.99
-      },
-      "surfaces": {
-        "backgroundOpacity": 0.96
+          "#8D9093",
+          "#F35C51",
+          "#34C08B",
+          "#F0A93C",
+          "#7DA2FF",
+          "#C7A0FF",
+          "#67E3F9",
+          "#B6BDC8",
+          "#878F9C",
+          "#FDA29B",
+          "#6CE9A6",
+          "#FEC84B",
+          "#A4BCFD",
+          "#D6BBFB",
+          "#A5F0FC",
+          "#FCFBFA"
+        ]
       }
     }
   },
@@ -116,68 +108,154 @@
     "actions": "solid"
   },
   "assets": {
-    "banner-dark": {
-      "path": "assets/banner-dark.png",
-      "sha256": "5a0bdf15e7c07c0c2d4bd29f755a2fd5d1e6ac3a622a6fa14c3ee9dec951ae69"
+    "home-compact": {
+      "path": "assets/home-compact.png",
+      "sha256": "402db3ad352d307a0e5e07322a977cc44167ed38fdc9e229485b16649610bf88"
     },
-    "banner-light": {
-      "path": "assets/banner-light.png",
-      "sha256": "4da68bdbc9ef6ac4e621de81771531fde56cff6cbd5d48bb2df50737f6f3653a"
+    "home-regular": {
+      "path": "assets/home-regular.png",
+      "sha256": "402db3ad352d307a0e5e07322a977cc44167ed38fdc9e229485b16649610bf88"
     },
-    "empty-dark": {
-      "path": "assets/empty-dark.png",
-      "sha256": "f67d498c0ed59cf170557dbd53a083ff9fe03d628f17fea7f6a67b49f5752fa0"
+    "launch": {
+      "path": "assets/launch.png",
+      "sha256": "6241e0418625d0dce289a5fc6e90eb48845aa57629f2dc7853d3cdb5da362c4f"
     },
-    "empty-light": {
-      "path": "assets/empty-light.png",
-      "sha256": "2508e4a240f0448fa9d9a7ffda4fffc35c358e2564693e80ebf29a95bbaf5b26"
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "7005d8ae8d4b35d0ae802a9df2344357919c9ae559f9b1e5c45196259901dc89"
     },
-    "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "157fc00db319091502886274f36794fc34027f1737d8bedb46773f8436f9fd41"
+    "wall-light": {
+      "path": "assets/wall-light.png",
+      "sha256": "d59ccb8d48e9850e9347cfac67502842df96615a7830e96682ebc46a507939f8"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png",
+      "sha256": "4df1bfeac15f13a19ce4b69cb2cdc7df94265c7b77e1ffc78ca32c3f5eac4864"
+    },
+    "wall-dark": {
+      "path": "assets/wall-dark.png",
+      "sha256": "46be1e67385fc0a5c18d8ed48dcde88f323507ce6ce463c7abe96b0f4ab862d7"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png",
+      "sha256": "2e7d9d4e6db1fa58e9071965e3879cb528586e65cc2d15725f39c111df3d75f3"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "586e9fbc57efdd6e0d73026278b24224e1a439987f4c62a9014f3bf5e266322d"
+      "sha256": "18c3aa3daeeebbe8b526cc14ff8f7d1e00670c2783490f906838ff0cb3fd6d96"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "d0efe3f156d84f38f2d1dc5ed7d753a1d8bd1bb6b43566d789a490dffba8aa1d"
+      "sha256": "42fc1e21807349c437126ae3b0dfb826c3559dfa4bb4b07e1605b52609e23b8d"
     },
-    "phone-dark": {
-      "path": "assets/phone-dark.png",
-      "sha256": "b5b0a4860606f6d7fee9732e4ccfe1e42410059fe3a015cca04d8da8e80b5191"
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "03bbdffe5b2c8b2232f54e9cf41861e80a4d3e686eef945d6791df8e65d1c153"
     },
-    "phone-light": {
-      "path": "assets/phone-light.png",
-      "sha256": "ea989b32d84bfc9e20f6a13ca07afa43b71ff64d8496e565615d6dcf1e9a3c62"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "77b3290fbe7543df391ac56663292e8f39a6a3f7ece22ff4066c39460c456cac"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "9f1ae37d01d1a86ba113d35b33096c0b4e2a63122a4fda72ecc8c00ce4e13a8c"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "41f72842bcada4059e5bccd2cfca09094fb2402f25198a533522656770cd0f16"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "448832cefe384b60e1c476c5825f056c031ceacec078240b47e62c4339917e61"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "05e19cb91c648a2fe690192659c8f90bc27e48259db28d6b872dc190a70ddc5b"
-    },
-    "tablet-dark": {
-      "path": "assets/tablet-dark.png",
-      "sha256": "2b81013db3d438c8fe74f07bbaa05e415cb27e44f400e240f6fcc3f23c97bdaa"
-    },
-    "tablet-light": {
-      "path": "assets/tablet-light.png",
-      "sha256": "8555180122fc78840f6a8dc8e1839a46353e01752f8b55db86eaf901618ddacf"
-    },
-    "credits": {
-      "path": "assets/credits.png",
-      "sha256": "6ee99b49e6f7c2bf1e206324c9b6d9e054d08d1f21e501c8e86748e8be45cfd2"
-    },
-    "home-scene-light": {
-      "path": "assets/home-scene-light.png",
-      "sha256": "e618f96a63785721c6eff57a03f1b8e74e4966db4e6ec18f879d48c7ba4bee6c"
-    },
-    "home-scene-dark": {
-      "path": "assets/home-scene-dark.png",
-      "sha256": "f5fee6c9b522e38afd0e79bd6a5e7dfbfe7eb8d216156f3020378caeb7b22e54"
+      "sha256": "b355f5138bb5ceb5476d46cb5e493b3c67c1b91530bd9084ffb3c335304cfed2"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-compact",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.35
+      },
+      "compact": {
+        "asset": "home-compact",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.35
+        }
+      },
+      "regular": {
+        "asset": "home-regular",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.35
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "empty",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "icons": {
     "chrome.back": {
       "asset": "icon-back",
@@ -190,131 +268,489 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "phone-light",
+        "asset": "wall-light",
         "fit": "cover",
-        "opacity": 0.34,
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "phone-light",
+          "asset": "wall-light",
           "fit": "cover",
-          "opacity": 0.34
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "tablet-light",
+          "asset": "wall-light",
           "fit": "cover",
-          "opacity": 0.34
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
       "home.wallpaper": {
-        "asset": "phone-light",
+        "asset": "wall-light",
         "fit": "cover",
-        "opacity": 0.75,
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "phone-light",
+          "asset": "wall-light",
           "fit": "cover",
-          "opacity": 0.75
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "tablet-light",
+          "asset": "wall-light",
           "fit": "cover",
-          "opacity": 0.75
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
-      "empty.artwork": {
-        "asset": "empty-light",
-        "fit": "contain",
-        "opacity": 1
-      },
-      "home.artwork": {
-        "asset": "home-scene-light",
-        "fit": "contain",
-        "opacity": 1,
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "home-scene-light",
-          "fit": "contain",
-          "opacity": 1
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "home-scene-light",
-          "fit": "contain",
-          "opacity": 1
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.13,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.13,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.13,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "tabs.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "cards.decoration": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.09,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.09,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.09,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "buttons.primary.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.08,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.08,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.08,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "phone-dark",
+        "asset": "wall-dark",
         "fit": "cover",
-        "opacity": 0.34,
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "phone-dark",
+          "asset": "wall-dark",
           "fit": "cover",
-          "opacity": 0.34
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "tablet-dark",
+          "asset": "wall-dark",
           "fit": "cover",
-          "opacity": 0.34
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
       "home.wallpaper": {
-        "asset": "phone-dark",
+        "asset": "wall-dark",
         "fit": "cover",
-        "opacity": 0.75,
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "phone-dark",
+          "asset": "wall-dark",
           "fit": "cover",
-          "opacity": 0.75
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "tablet-dark",
+          "asset": "wall-dark",
           "fit": "cover",
-          "opacity": 0.75
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
-      "empty.artwork": {
-        "asset": "empty-dark",
-        "fit": "contain",
-        "opacity": 1
-      },
-      "home.artwork": {
-        "asset": "home-scene-dark",
-        "fit": "contain",
-        "opacity": 1,
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "home-scene-dark",
-          "fit": "contain",
-          "opacity": 1
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "home-scene-dark",
-          "fit": "contain",
-          "opacity": 1
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.13,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.13,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.13,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "tabs.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "cards.decoration": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.09,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.09,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.09,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "buttons.primary.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.08,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.08,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.08,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     }
   },
-  "description": "A warm backend workshop: Python, the Go Gopher and Rust on precisely spaced ivory modules, with aubergine planes and copper connections.",
-  "tags": [
-    "developer",
-    "backend",
-    "python",
-    "rust",
-    "go",
-    "aubergine",
-    "copper"
-  ],
-  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/runtime-foundry/CREDITS.md",
   "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "Night Drive"
+    },
     "logo": {
       "mode": "hidden"
     },
     "artwork": {
       "mode": "default"
     }
+  },
+  "description": "A coastal night run with an original anime driver and copper-orange performance coupe, layered cyan road light and quiet ink-blue skies.",
+  "tags": [
+    "anime",
+    "coastal",
+    "night-drive",
+    "orange",
+    "cyan"
+  ],
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "right"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
   }
 }

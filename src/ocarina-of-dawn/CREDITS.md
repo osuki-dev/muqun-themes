@@ -1,7 +1,9 @@
-# Ocarina of Dawn
+# Credits
 
-Unofficial The Legend of Zelda-inspired fan art. The Legend of Zelda and its underlying game intellectual property belong to Nintendo. This theme is not affiliated with or endorsed by Nintendo, and grants no rights to the underlying franchise.
+Current illustrations are original AI-generated work made with the built-in OpenAI image generation tool for Muqun Theme Collection on 2026-10-11. No third-party reference images. All rights reserved.
 
-The packaged forest scenes, still lifes and glyphs are newly AI-generated compositions made with OpenAI image generation, then resized and encoded locally. No game screenshot or existing game artwork is packaged. See PROMPTS.md for the artwork briefs.
+`assets/home-modern.png` is a contemporary 2D hand-ink and cel-shaded anime story environment. `assets/launch-modern.png` is an independently generated matching full character silhouette on a transparent square canvas, reused for empty states. Generated real RGBA alpha is preserved; packaging removes unused outer transparent canvas and adds narrow margins. No subject is painted by geometry processing. Fictional subjects; no real individual portrayed. Older miniature ornament illustrations have been retired. Current briefs are in PROMPTS.md.
 
-Franchise reference: [Nintendo: The Legend of Zelda](https://zelda.nintendo.com/about/).
+All seven `assets/icon-*.png` images are original geometric glyph drawings by Muqun Theme Collection under the theme license, shared with the collection's contemporary line family. Template tint preserves native readability; back source left, send and Home arrow up-right.
+
+`assets/preview.png` is a 1024×640 light/dark fictional source UI composition built from final assets/palette, not a device screenshot.

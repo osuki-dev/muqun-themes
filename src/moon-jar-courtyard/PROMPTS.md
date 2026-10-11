@@ -1,45 +1,11 @@
-# Moon Jar Courtyard — Artwork prompts
+# Moon Jar Courtyard — current original illustration prompts
 
-Generated with OpenAI image generation. No third-party reference images. Resized and encoded for the theme package.
+Built-in OpenAI image generation, 2026-10-11. No third-party reference images. Transparent RGBA preserved; tightly cropped outer canvas with narrow transparent border. Earlier rejected material-realism generations are not packaged.
 
-## wide-light
+## home-modern.png
 
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Landscape 1536x1024. Dawn ivory sky with large quiet upper center, courtyard arranged along lower third, white moon jar foreground right, roof sweeping in from left, lilac mountain silhouettes. Soft daylight.
+Strictly two-dimensional hand-drawn anime editorial illustration: contemporary youthful Korean courtyard reading nook. Young adult in oversized cream sweater and ink-blue loose trousers sits cross-legged on a simple lavender bench reading a book. One small matte white Korean moon jar at realistic human scale beside the bench, holding a delicate twig. Minimal modern plaster courtyard wall, graphic window opening, lavender foliage, simple tiled eave as clean angular strip. Restrained hand-ink outlines, flat cel shading, broad solid lavender/cream planes, modern manga/artbook drawing. Full figure and entire bench visible, balanced wide slice-of-life composition with tight alpha padding. No photoreal rendering, 3D, realistic materials, glossy porcelain, woodgrain, architectural model, miniature diorama, temple ornament or giant vase. Actual transparent RGBA around artwork silhouette. No text, logo, UI, watermark or painted checkerboard.
 
-## wide-dark
+## launch-modern.png
 
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Landscape 1536x1024. Moonlit deep aubergine sky with large quiet upper center, courtyard arranged along lower third, luminous ivory moon jar foreground right, roof sweeping in from left, lilac mountain silhouettes. Small silver moon. No bright sun.
-
-## portrait-light
-
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Portrait 1024x1536, composed specifically vertical. Dawn quiet ivory upper half for app UI, layered hanok eaves lower left, round white moon jar lower right, lavender plum branch upper corner, hazy pale mountains.
-
-## portrait-dark
-
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Portrait 1024x1536, composed specifically vertical. Night quiet aubergine upper half for app UI, layered hanok eaves lower left, round luminous white moon jar lower right, lavender plum branch upper corner, hazy lilac mountains and silver moon.
-
-## empty
-
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Square isolated vignette on genuinely transparent alpha background: one beautifully imperfect round white moon jar with short neck, a delicate lilac plum twig, small folded ivory paper sheet under it. No environmental background, no rectangle, wide transparent margins.
-
-## preview
-
-Original Korean hanji torn-paper collage illustration for Muqun theme Moon Jar Courtyard. Refined tactile fibrous paper layers, asymmetrical white porcelain moon jar with subtle seam, elegant hanok courtyard eaves and wooden lattice, sparse plum blossoms. Distinct palette porcelain ivory, dusty lilac, deep aubergine. No lettering, symbols, logo, border or watermark. Calm editorial art, exquisite subtle shadows between paper layers, NOT photograph, NOT Japanese architecture. Landscape 1536x1024 gallery cover. A large white moon jar in central foreground, flowing plum branch, collage hanok roof and layered paper moon behind. Transition ivory daylight left to deep aubergine moonlight right. A polished collectible art print with generous central crop-safe composition, no text.
-
-## icon-back
-
-Single UI template icon, black opaque silhouette on genuinely transparent background. A bold left arrow whose short tail has the subtle upward sweep of Korean hanok roof eaves. Clearly recognizable back arrow, simple thick shape, one generous cutout if needed. Square, centered with 15% padding, no fine detail, no grayscale, no shadows, no text. Readable at 17 pixels.
-
-## icon-send
-
-Single UI template icon, black opaque silhouette on genuinely transparent background. A Korean folded paper crane in flight pointing diagonally upper right, sharply triangular beak and raised wing forming clear send arrow direction. Minimal bold geometry with one broad transparent fold opening. Square centered 15% padding. No fine lines, no text, no shadows, no grayscale. Readable at 17 pixels.
-
-## icon-attach
-
-Single UI template icon, black opaque silhouette on genuinely transparent background. A bold rounded paperclip loop with a small simplified Korean knot tied at its bottom, one unmistakable large paperclip opening and minimal knot lobes. Square centered 15% padding. Strong thick shape readable at 17 pixels, no fine decoration, no text, no shadows, no grayscale.
-
-## home-hero
-
-Create one original standalone app Home hero illustration. An elegant traditional Korean hanok courtyard gate with sweeping tiled eaves, a stepping-stone path and a low flower bed of pale lilac irises. No vase or jar. Exquisite layered hanji paper collage, visible fibrous handmade paper, porcelain white, dusky lilac and deep aubergine. One coherent compact scene, not a collection of unrelated objects. Square PNG with genuinely transparent alpha background. Complete contained silhouette, every detail inside the canvas, generous transparent margins of at least 12 percent on every side. Beautiful polished illustration readable at 180 pixels high. No text, lettering, logos, border, frame, background rectangle, checkerboard, cast shadow outside scene or cropped elements. This is a new distinct Home scene, not an empty-state icon.
-
-Version 1.1.0 reuses this transparent, wordless gate illustration as Editorial Home's foreground. The existing light/dark portrait and landscape wallpapers supply the responsive cover background; native identity and controls remain separate.
+Strictly 2D contemporary hand-ink anime editorial illustration, flat cel shading, graphic lavender, warm cream and ink-blue planes. Standalone calm young adult with short dark hair, oversized cream sweater and ink-blue trousers sitting cross-legged reading lavender book, one small matte white Korean moon jar beside knee with tiny lavender twig. Full uncut figure, youthful slice-of-life artbook style, natural linework and flat shading. No photorealism, 3D, realistic materials, glossy giant vase, antique wood temple, miniature diorama or platform. Actual transparent RGBA, no environment backdrop, painted checkerboard or rectangle. Subject fills about90% of image. No text, logo, UI or watermark.

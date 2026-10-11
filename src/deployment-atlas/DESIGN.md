@@ -1,22 +1,11 @@
-# Deployment Atlas
+# Native adaptation notes
 
-A precise DevOps blueprint: official Git, Jenkins and GNU Bash marks sit on generously separated perimeter nodes. Fine orthogonal routes and sparse registration dots frame a deliberately empty reading field. Marks retain their original aspect ratios and colors on pale panels in both modes.
+Standard Editorial header keeps the title outside foreground overlap. Classic always contains Home art inside its 180pt compact / 132pt regular band; both assets are intentionally landscape. Home assets are trimmed to their complete alpha bounds plus24px transparent margins; compact and regular share the complete composition at up to1024px width, avoiding the formerly oversized regular canvas. Editorial standard also contains art in min(280,width/2). Alpha silhouettes are nonessential; disabling art removes the band. Long identity names and large text remain native App responsibilities.
 
-Light mode uses pale steel, petrol text and restrained olive-lime actions. Dark mode uses deep petrol, cool steel text and pale lime actions. Distinct semantic and terminal ANSI colors preserve meaning. Shared wallpaper is restrained to 28%; Home has its own stronger perimeter illustration and a contained deployment-map hero. Default Muqun name and logo remain unchanged.
+Launch is an independent 1024-square centered alpha illustration. No launch fit or opacity assumption is made because native launch consumes asset URI only.
 
-Classic retains the contained deployment-map Home hero. Editorial presents the same verified composition as contained top artwork: all three official marks keep their exact source shapes, colors and proportions, while the diagram's pale field remains a deliberate panel in both modes. Compact and regular widths inherit the same complete map, and the reader's layout choice does not change startup behavior.
+Wallpapers contain only a sparse bottom/right contour or coastal glaze accent; no baked title, repeated foreground or software-logo cards. The 6 chrome/control slots use quiet transparent edge/rail motifs with empty label centers and authored opacity0.08–0.14. Native attenuation may reduce them further. Seven transparent template glyphs use consistent7px strokes; arrows visually inspected: back left, send up, Home arrow up-right.
 
-Responsive compositions are independently laid out for phone and tablet. The preview uses its own two half-width layouts, preserving logo proportions. The original controls use an orthogonal back route, a forward routing arrow and an open link shape; none repurposes a technology logo as a button. The empty-state parcel is original circuit geometry.
+Gallery preview uses final source art and palette; it is a deterministic UI composition, not a native screenshot. CLI validate/contrast/pack were run; actual device import, launch handoff and interactions were not tested in this task.
 
-The official SVG marks were rasterized and composed deterministically. No image generation was used for logos or layout. Credits and direct source links are in CREDITS.md and reachable through the manifest's source field.
-
-## Verification
-
-CLI 1.9.0 validates the source and packed round trip without warnings. The full source check with required previews passes. Shared contrast floors are 88% interface and 89% terminal; authored planes are 96% and 97%. Compositions and 17px/34px tinted control glyphs were visually inspected.
-
-An offline credits card is deliberately declared without a decoration slot. Its 1600 × 1200 size preserves readable source and license URLs. The resulting unused-asset and size advisories are intentional; the optimized packed card was extracted and visually checked.
-
-
-## Unified Home artwork
-
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
+Editorial scale refinement: previous extra canvas reduced Alpha occupancy to about69%/46% (Atlas compact/regular) and80%/53% (Atlantic). Trim-plus24pxmargin preserves complete silhouettes and raises artwork scale within actual measured Editorial geometry. Standard header remains intentional: title stays outside art; Classic bottom-third overlap is accepted App behavior, not reason to shrink foreground. Independent launch unchanged.

@@ -35,3 +35,7 @@ The seven supported roles are `chrome.back`, `chrome.send`, `chrome.attach`, `ch
 The final Home and independent launch variants were inspected composited against pale rose and dark plum. No opaque scenic rectangle or external glow plane remains. Launch has a complete silhouette and Home has an intentional soft coat fade. Enlarged launch-hand crops were checked: notebook grip shows one thumb and four fingers, flashlight grip retains a visible thumb with fingers wrapping behind the cylinder. Coherent notebook edges, flashlight perspective, coat layers, belt buckles, brooch, eyes and matching facial identity were inspected. Occluded fingers are not artificially drawn through props.
 
 Compact and regular slots explicitly contain the foreground. Native UI surfaces remain opaque by default. The existing bounded rain effect is deliberately subdued: intensity 0.1, density 0.15, speed 0.3. CLI 2.3.1 validation and contrast passed. Native App installation is not claimed by this artwork source review.
+
+## Native control glyphs
+
+`assets/native-create.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: CC0-1.0. Transparent template marks preserve native light/dark tinting.

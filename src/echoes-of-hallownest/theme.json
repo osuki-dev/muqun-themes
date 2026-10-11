@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "echoes-of-hallownest",
   "name": "Echoes of Hallownest",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying game rights reserved",
   "homePresentation": {
@@ -138,7 +138,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "aedfa97cd14ba2dbee62855bf50875126706a617ff32f02e7519efa05b17126f"
+      "sha256": "09241d89b9acdfc320d5099d89e9c7fef911c5b20b83d85e6e5efd2c6b13e1c6"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -155,23 +155,77 @@
     "hero": {
       "path": "assets/hero.png",
       "sha256": "c08150b5f4ee2bbd02441e1e245a88cb8acc498e5036e93c21d1af9fd047a9f9"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "067d41173ce5fee3e70dbeb7105f7b0da2b1e8e9b8dac3d3cf4ba5fcb8018598"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "d34cc0e1be1cebb78cc28b6e1b1e97bb082576497de58ed4fbc98daaafbee2d6"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "bbb2449a692bc08142988a35507a8ef30eb7921b914f8b427067aebe1a6f9de8"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "8d1db3909e15fe6acd19c91d43887d2e27db0ade042ec52f33d26d7184937deb"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "home.artwork": {
       "asset": "hero",
       "fit": "contain",
       "compact": {
         "asset": "hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       },
       "regular": {
         "asset": "hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
       }
     }
   },
@@ -187,6 +241,22 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -196,26 +266,81 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
-        "opacity": 0.22
+        "opacity": 0.22,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       },
       "home.wallpaper": {
         "asset": "portrait-light",
         "fit": "cover",
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
-        "opacity": 0.48
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "launch.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     },
     "dark": {
@@ -224,26 +349,81 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
-        "opacity": 0.22
+        "opacity": 0.22,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       },
       "home.wallpaper": {
         "asset": "portrait-dark",
         "fit": "cover",
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
-        "opacity": 0.48
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "launch.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "compact": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     }
   },
@@ -268,5 +448,9 @@
     "silver",
     "editorial"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
+  }
 }

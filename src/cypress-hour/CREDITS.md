@@ -1,9 +1,7 @@
-# Cypress Hour
+# Cypress Hour — artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. All rights reserved.
+All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.
 
-Cultural reference: [Visit Tuscany — Val d’Orcia](https://www.visittuscany.com/en/areas/val-dorcia/) describes the rolling hills, cypress avenues and hilltop hamlets that informed this original interpretation. No third-party artwork is included.
+License: All rights reserved.
 
-Home hero (`assets/home-hero.png`): original AI-generated artwork created with the built-in image generation tool for Muqun Theme Collection. Tuscany Italy, an arched peach-plaster farmhouse beside a small terracotta olive-oil jug and one low rolling olive hill, handmade fresco gouache with warm peach, olive dusk and espresso shadows. The scene is an imaginative illustration, not a precise location reconstruction. Covered by this theme’s existing license.
-
-Editorial Home reuses this original transparent Home hero without additional source artwork or third-party material.
+Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.

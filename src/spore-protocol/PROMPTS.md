@@ -1,35 +1,11 @@
-# Artwork briefs
+# Original artwork prompts
 
-Six original illustrations were generated using built-in OpenAI image generation, then resized and encoded for the package. The three organic template glyphs are original geometric designs rasterized to transparent PNG.
+Built-in OpenAI image generation, 2026-10-11. No external reference images.
 
-## wide-light
+## Home explorer
 
-Original premium sculptural alien biocyber macro-world for Spore Protocol theme. Delicate luminous chartreuse mycelium threads integrated into smooth porcelain ceramic biotech structures, ultraviolet violet cavities and tiny glowing spore pearls. Elegant organic architecture, polished editorial 3D illustration with microscopic textures and soft volumetric light. No body horror, no flesh, no people, no text no logos no screens no controls. Central space stays tranquil and uncluttered; sculptures mostly bottom third and outer edge. Landscape1536x1024. Porcelain daylight with pale lavender atmosphere. Broad hollow ceramic arches at lower right, branching chartreuse filaments in lower left and distant violet spore grove. Large bright quiet center.
+Use case: stylized-concept. Asset: original transparent foreground illustration for botanical anime app theme Spore. Modern 2D anime young adult female botanical field explorer, short dark blue hair, calm curious expression, sage lichen-green light utility jacket, ivory shirt, charcoal trousers, simple small periwinkle backpack, holding a small field notebook. Walking naturally along a short moss path with a few elegant natural blue-violet mushrooms around her feet and one sparse fern. Fully visible complete body and shoes, confident clear silhouette. Flat editorial anime linework and matte watercolor color planes, not 3D, not specimen boxes, not miniature diorama, no laboratory props, no ornate fantasy filigree. Lichen, misty periwinkle, ink and warm ivory palette. Composition wide 3:2 with explorer toward right, foreground path low and sparse, entire top left and outer margins transparent for native title. Genuine transparent background, no scenery wall, no floating particles, no text, logo, watermark.
 
-## wide-dark
+## Independent startup explorer
 
-Original premium sculptural alien biocyber macro-world for Spore Protocol theme. Delicate luminous chartreuse mycelium threads integrated into smooth porcelain ceramic biotech structures, ultraviolet violet cavities and tiny glowing spore pearls. Elegant organic architecture, polished editorial 3D illustration with microscopic textures and soft volumetric light. No body horror, no flesh, no people, no text no logos no screens no controls. Central space stays tranquil and uncluttered; sculptures mostly bottom third and outer edge. Landscape1536x1024. Deep ultraviolet cavern with chartreuse bioluminescent threads, ivory hollow pod structures at lower left, distant floating spores and sculptural arch lower right. Large quiet dark violet center.
-
-## portrait-light
-
-Original premium sculptural alien biocyber macro-world for Spore Protocol theme. Delicate luminous chartreuse mycelium threads integrated into smooth porcelain ceramic biotech structures, ultraviolet violet cavities and tiny glowing spore pearls. Elegant organic architecture, polished editorial 3D illustration with microscopic textures and soft volumetric light. No body horror, no flesh, no people, no text no logos no screens no controls. Central space stays tranquil and uncluttered; sculptures mostly bottom third and outer edge. Portrait1024x1536. Pale porcelain/lavender daylight, tall macro hollow ceramic mushroom cap with chartreuse gills rising at lower right, delicate filaments lower left, quiet upper two thirds.
-
-## portrait-dark
-
-Original premium sculptural alien biocyber macro-world for Spore Protocol theme. Delicate luminous chartreuse mycelium threads integrated into smooth porcelain ceramic biotech structures, ultraviolet violet cavities and tiny glowing spore pearls. Elegant organic architecture, polished editorial 3D illustration with microscopic textures and soft volumetric light. No body horror, no flesh, no people, no text no logos no screens no controls. Central space stays tranquil and uncluttered; sculptures mostly bottom third and outer edge. Portrait1024x1536. Deep ultraviolet night, spiral ceramic seed pod lower left and a curved mycelium fan lower right illuminated chartreuse, tiny spores against calm dark upper two thirds.
-
-## empty
-
-Original square isolated sculptural ceramic biotech seed pod cutout, an ivory hollow shell suspended over a small cluster of violet branching stems, luminous chartreuse mycelium filaments connecting two porcelain spore beads. Elegant organic macro sculpture, refined 3D editorial art, no flesh no horror no text no logo, genuine transparent background, clean contained silhouette.
-
-## preview
-
-Theme gallery cover1024x640 ratio8:5, exact vertical center split with LIGHT porcelain/lavender world on LEFT half and DARK ultraviolet world on RIGHT half. Based on the two original reference artworks: sculptural hollow ceramic biotech arches, luminous chartreuse mycelium, tiny purple spores, refined alien macro-world. Showcase each mode equally. No text no logo no interface mockup. Precise clean split at center, elegant material diptych.
-
-## Dedicated Home hero
-
-Original biotech macro-world Home illustration, a tiny porcelain research pod sheltered under three broad sculptural mushroom caps, delicate chartreuse luminous mycelium bridges connecting pod to lavender stems, small clear spherical spore satellites, refined surreal3D botanical porcelain. New complete miniature settlement scene not an oval cocoon. Square768 actual transparent background complete centered silhouette15percent clear margin every edge, no words letters logos panel or background.
-
-## editorial-foreground
-
-Adapted locally from the approved transparent `home-hero.png`; no new image-generation prompt was used. The complete cutout is scaled into a 1024 × 512 transparent canvas and aligned to the right for Editorial's native cover title.
+Use case: stylized-concept. Asset: independent centered transparent startup illustration for Spore botanical anime app theme. Original modern 2D anime young adult female botanical explorer, short dark blue hair, curious calm face, lichen-green light utility jacket, ivory shirt, charcoal trousers, simple periwinkle small backpack, holding a small cream field notebook to chest. Complete standing figure including both shoes, centered balanced silhouette, generous transparent margin, absolutely no scenery, mushroom pile, equipment box or miniature props. Refined anime linework, matte watercolor planes, restrained sage/periwinkle/ink/ivory. Friendly outdoors field researcher identity, normal human proportions. Genuine transparent alpha background, no floor or halo, no text/logo/watermark. 2:3 vertical composition.

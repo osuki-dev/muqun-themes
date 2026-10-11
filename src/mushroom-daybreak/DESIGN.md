@@ -1,20 +1,7 @@
-# Mushroom Daybreak
+# Composition and native adaptation
 
-Original pixel-art landscapes reinterpret the Mushroom Kingdom as a calm panorama of red-brick platforms, rounded hills and green pipes. Cream and brick-red controls accompany the sky-blue daylight artwork; midnight cobalt surfaces and butter-yellow controls accompany the night scene.
+An optimistic anime adventurer explores a sunrise mushroom forest, with mossy roots, amber caps, cream traveling clothes and layered golden woodland light.
 
-Light compact layouts use their own portrait illustration. Dark compact and regular layouts share the night panorama, with a right-side focal point retaining Mario in compact framing. The shared wallpaper uses 24% strength to protect conversation text. Default Muqun identity remains intact.
+Large Editorial cover preserves the complete human-led scene using contain geometry. The upper-left alpha region leaves breathing room for the native Daybreak title; the adult character is upper-center/right. Compact and regular explicitly reuse the full painting with only a modest clear outer edge. Classic intentionally overlaps the lower environmental scene rather than requiring a shrunken safety canvas. Startup/lock uses an independent centered square cutout padded with genuine transparency on every edge. Quiet wallpapers never repeat the person or main scene. Chrome markings stay low opacity under labels. Seven recognizable alpha template icons have source direction metadata.
 
-The control glyphs reinterpret a pipe mouth as a back arrow, a moving shell as send and a pipe loop as attachment. The 1024 x 640 gallery cover diagrams the actual light and dark surfaces and accent palettes, with light on the left and dark on the right. A contained pixel garden supplies the empty-state illustration; a separate castle-and-moat composition supplies the Home hero. Both use transparent margins and complete centered silhouettes.
-
-## Checks
-
-CLI 1.9.0 validation, contrast, package round trip and full source checks pass. This theme has no warnings. Shared interface opacity floor is 95%; terminal is 89%, below the authored 96% surface opacity. The three template icons were inspected tinted at 17px and 34px in both modes.
-
-The official browser preview was visually reviewed for light and dark Phone Home, Conversation and Terminal, plus Tablet Home and Terminal. Text and controls remain readable over the subdued wallpaper, and the contained Home scene appears above cards without covering controls. Native-device import was not tested.
-
-Version 1.0.4 wires the existing transparent castle and moat scene into both Classic and Editorial Home, with explicit compact and regular mappings in each mode. It also gives Home explicit wallpaper mappings that preserve the established light portrait, light landscape, and dark focal treatments. The palette, identity, materials, and opacity remain unchanged; the mushroom garden remains the separate empty-state illustration.
-
-
-## Unified Home artwork
-
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
+The 1024×640 preview contains final package pixels and palette roles, light left/dark right. It is an authored gallery composition. Native phone and tablet Editorial, both modes and launch handoff need acceptance on the confirmed current p1-companion App.

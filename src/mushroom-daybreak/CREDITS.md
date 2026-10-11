@@ -1,11 +1,3 @@
-# Mushroom Daybreak
+# Artwork credits
 
-Unofficial Super Mario fan art. Mario, Super Mario and related characters and game elements belong to Nintendo. Not affiliated with or endorsed by Nintendo; no underlying franchise rights are granted.
-
-The three landscape images and three glyphs are newly AI-generated illustrations made with OpenAI image generation. No game screenshots or downloaded artwork are included. The preview is an original palette diagram made from this theme's colors. See PROMPTS.md.
-
-Franchise reference: https://mario.nintendo.com/characters/
-
-`assets/garden.png` is original pixel artwork created with OpenAI image generation: a mushroom garden, grassy brick island, golden star and blue cloud. It supplies the contained empty-state illustration. Existing franchise attribution remains applicable.
-
-`assets/home-hero.png`: newly generated whimsical pixel castle and moat scene by OpenAI image generation. Existing franchise notices remain applicable.
+Home and independent startup images were generated as original 2D anime artwork with the OpenAI built-in imagegen tool on 2026-10-11; genuine transparent background was requested and verified. No third-party characters, logos or branded game designs are included. Wallpaper geometry, chrome patterns, template glyphs and gallery composition are original code-authored raster artwork. Attribution: Muqun Community. Distribution: CC-BY-4.0. Previous theme artwork has been replaced.

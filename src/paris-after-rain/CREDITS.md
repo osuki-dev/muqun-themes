@@ -1,11 +1,9 @@
-# Paris, After the Rain — Credits
+# Credits
 
-Author: Muqun Theme Collection. License: All rights reserved.
+Current illustrations are original AI-generated work made with the built-in OpenAI image generation tool for Muqun Theme Collection on 2026-10-11. No third-party reference images. All rights reserved.
 
-All illustrations and current icons were generated for this theme with the built-in image_gen tool. No third-party artwork was used as a visual input. Full prompts and processing provenance are in PROMPTS.md.
+`assets/home-modern.png` is a contemporary 2D hand-ink and cel-shaded anime story environment. `assets/launch-modern.png` is an independently generated matching full character silhouette on a transparent square canvas, reused for empty states. Generated real RGBA alpha is preserved; packaging removes unused outer transparent canvas and adds narrow margins. No subject is painted by geometry processing. Fictional subjects; no real individual portrayed. Older miniature ornament illustrations have been retired. Current briefs are in PROMPTS.md.
 
-Botanical back arrow, quill send, and leaf-clipped stationery attachment. All three icons use transparent PNG alpha and template rendering; colors follow the theme.
+All seven `assets/icon-*.png` images are original geometric glyph drawings by Muqun Theme Collection under the theme license, shared with the collection's contemporary line family. Template tint preserves native readability; back source left, send and Home arrow up-right.
 
-Version 1.1.0, authored for CLI 1.7.0 / skill v1.3.0.
-
-The standalone Home hero is original AI-generated artwork created with OpenAI image generation. It is a separate composition from the preserved empty-state illustration. Its creative brief is recorded in PROMPTS.md.
+`assets/preview.png` is a 1024×640 light/dark fictional source UI composition built from final assets/palette, not a device screenshot.

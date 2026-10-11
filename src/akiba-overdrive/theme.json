@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "akiba-overdrive",
   "name": "Akiba Overdrive",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Violet streetwear, turquoise headphones, and delicate electronics-district watercolor. Wordless foreground art, separate quiet architecture, and restrained midnight light.",
@@ -56,13 +56,13 @@
           "#70258B",
           "#005E6B",
           "#485D6C",
-          "#5A6F7D",
+          "#526572",
           "#B81B44",
-          "#0D7550",
+          "#0D714E",
           "#8A5200",
-          "#1B64C4",
+          "#1A61BE",
           "#822CA0",
-          "#007382",
+          "#006D7C",
           "#0A1319"
         ]
       },
@@ -108,7 +108,7 @@
         "link": "#75AFFF",
         "selection": "#00E5FF38",
         "ansi": [
-          "#767A81",
+          "#80838A",
           "#FF6B99",
           "#00E699",
           "#FFB800",
@@ -116,7 +116,7 @@
           "#EA75FF",
           "#00E5FF",
           "#B0C1DC",
-          "#687E9E",
+          "#7084A3",
           "#FF85AB",
           "#33EBB0",
           "#FFC733",
@@ -143,7 +143,8 @@
   },
   "assets": {
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "62bde9bc9f58ae77c808c7312e25c85ee04ad3202b68a41a114df9dd93d3224d"
     },
     "figure": {
       "path": "assets/figure.png"
@@ -187,27 +188,27 @@
     "light": {
       "home.artwork": {
         "asset": "figure",
-        "fit": "cover",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.58,
+          "x": 0.62,
           "y": 0.35
         },
         "compact": {
           "asset": "figure",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
+            "x": 0.62,
             "y": 0.35
           }
         },
         "regular": {
           "asset": "figure",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
+            "x": 0.62,
             "y": 0.35
           }
         }
@@ -219,57 +220,186 @@
         "focalPoint": {
           "x": 0.7,
           "y": 0.6
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.65,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.6
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.65,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.6
+          }
         }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 0.2
+        "opacity": 0.2,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.2,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.2,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "empty.artwork": {
         "asset": "figure",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "launch.artwork": {
         "asset": "figure",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "composer.background": {
         "asset": "chrome-light",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.55,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "actions.background": {
         "asset": "chrome-light",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.55,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-light",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       }
     },
     "dark": {
       "home.artwork": {
         "asset": "figure",
-        "fit": "cover",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.58,
+          "x": 0.62,
           "y": 0.35
         },
         "compact": {
           "asset": "figure",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
+            "x": 0.62,
             "y": 0.35
           }
         },
         "regular": {
           "asset": "figure",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
+            "x": 0.62,
             "y": 0.35
           }
         }
@@ -281,31 +411,160 @@
         "focalPoint": {
           "x": 0.7,
           "y": 0.6
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.7,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.6
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.7,
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.6
+          }
         }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 0.2
+        "opacity": 0.2,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.2,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.2,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "empty.artwork": {
         "asset": "figure",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "launch.artwork": {
         "asset": "figure",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "composer.background": {
         "asset": "chrome-dark",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.55,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "actions.background": {
         "asset": "chrome-dark",
         "fit": "cover",
-        "opacity": 0.55
+        "opacity": 0.55,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "chrome-dark",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       }
     }
   },

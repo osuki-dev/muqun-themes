@@ -3,40 +3,40 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F8F5EB",
-        "surface": "#FFFCF2",
-        "surfaceRaised": "#EBE7D9",
-        "border": "#C8C5B7",
-        "borderStrong": "#828B83",
-        "text": "#12363A",
-        "textMuted": "#385054",
-        "textSubtle": "#3B5559",
-        "textDisabled": "#8C9992",
-        "primary": "#713252",
-        "onPrimary": "#FFF8EB",
-        "primarySubtle": "#71325210",
-        "danger": "#8D342A",
-        "dangerSubtle": "#8D342A10",
-        "success": "#23583B",
-        "warning": "#725115",
-        "info": "#165969"
+        "background": "#F7F8EF",
+        "surface": "#FDFDF5",
+        "surfaceRaised": "#E6EDDF",
+        "border": "#C8D7BD",
+        "borderStrong": "#889B75",
+        "text": "#243D2B",
+        "textMuted": "#425D42",
+        "textSubtle": "#4B6549",
+        "textDisabled": "#8A9D84",
+        "primary": "#70407E",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#70407E14",
+        "danger": "#A13347",
+        "dangerSubtle": "#A1334712",
+        "success": "#2F6243",
+        "warning": "#765318",
+        "info": "#355B78"
       },
       "surfaces": {
-        "backgroundOpacity": 0.96
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#F8F5EB",
-        "backgroundOpacity": 0.96,
-        "foreground": "#12363A",
-        "cursor": "#713252",
-        "link": "#165969",
-        "selection": "#71325230",
+        "background": "#F7F8EF",
+        "backgroundOpacity": 1,
+        "foreground": "#243D2B",
+        "cursor": "#70407E",
+        "link": "#355B78",
+        "selection": "#70407E30",
         "ansi": [
           "#12363A",
           "#8D342A",
@@ -59,34 +59,34 @@
     },
     "dark": {
       "colors": {
-        "background": "#092B31",
-        "surface": "#10363D",
-        "surfaceRaised": "#19424A",
-        "border": "#456770",
-        "borderStrong": "#91B4B6",
-        "text": "#FFF8E7",
-        "textMuted": "#E4E8DA",
-        "textSubtle": "#CDDCD2",
-        "textDisabled": "#91ABA7",
-        "primary": "#F1C4D9",
-        "onPrimary": "#302036",
-        "primarySubtle": "#F1C4D912",
-        "danger": "#FFC7AE",
-        "dangerSubtle": "#FFC7AE12",
-        "success": "#C1E4B8",
-        "warning": "#EAD29A",
-        "info": "#BCE3E9"
+        "background": "#14251C",
+        "surface": "#1D3527",
+        "surfaceRaised": "#2A4633",
+        "border": "#4E6B53",
+        "borderStrong": "#91AE86",
+        "text": "#F8FAEA",
+        "textMuted": "#D6E5C7",
+        "textSubtle": "#BDCEA9",
+        "textDisabled": "#859D79",
+        "primary": "#DDACEB",
+        "onPrimary": "#2B2533",
+        "primarySubtle": "#DDACEB1A",
+        "danger": "#FFB3C3",
+        "dangerSubtle": "#FFB3C315",
+        "success": "#B4DEBE",
+        "warning": "#F1D59A",
+        "info": "#B8D9EF"
       },
       "surfaces": {
-        "backgroundOpacity": 0.96
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#092B31",
-        "backgroundOpacity": 0.96,
-        "foreground": "#FFF8E7",
-        "cursor": "#F1C4D9",
-        "link": "#BCE3E9",
-        "selection": "#F1C4D930",
+        "background": "#14251C",
+        "backgroundOpacity": 1,
+        "foreground": "#F8FAEA",
+        "cursor": "#DDACEB",
+        "link": "#B8D9EF",
+        "selection": "#DDACEB30",
         "ansi": [
           "#C2D8D1",
           "#FFC7AE",
@@ -112,51 +112,128 @@
     "default": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "80ab4e26e7ff934fe09e4c1725a54c4912b43f94cbd6fdc9f9bc9cee65b7ca94"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "cae5ff43b289c7251c1e118a7eda755276e259592e991820d360f72636eb5b05"
-    },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "05841231d71c124f6d805e77838be4888682ad47c479e5c40f315f74223bc9b6"
-    },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "8d6c920dd1453f80519d0c66f8b88d42a962eb0737a4341e73cb849c34282ec7"
-    },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "2316b6a74bc1b997e52bc07c70d5062d6b7dd2af41d5ffedcbfc52cdcd3fe7fa"
-    },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "1a207eab1ebc69e3adf7a6fe865dc8df495ab6c9e7750f054d3054b5fd26d7be"
+      "sha256": "5e8e277df6cf1b1122efd568ecf7dc1eb5da2b59cbe2bbac12cd37dc16aef5c6"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "0d421b531aae4a42b2c077d9c08db628178f417578a7ca5a9295274dc0402e94"
+      "sha256": "0da803544818ef060cba470b31fc211ed188b9135ef43f11c0cdec22a0798cc1"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "01b015b7a883b79507a5ac4967814c43c9010cf41486d7a4454fc35351b9a044"
+      "sha256": "353ec9b62546ff51a5cddcc0a1b047293afbd903116462726da1a1cc9a4b991c"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "2dfd389ded70312aa6bb6fe19e3d691e310b8a21d6377f78f9e6b56c6248959a"
+      "sha256": "afdfa41771e817508ddfa4a1ea593ac26311a93de00dff20c88b3fc2e7cb4ba1"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "e22ba24b351d45ea893bb8f754a8df4609a7f329059c612805ff5ebfa31e2fe6"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "cb047621eff62e04b706b98e002f0ff2296a92e441ab2962faca0fbc30c9cd38"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "878c1e9f398b016e72a825859ead86d2d9b886f3e3a745284d795882436e5637"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "b938180be85dc1cd22ba8487d418bc98b20e0c498e4acbfdc170ff82546865a9"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "186ff05bd07160ce5001c3d8001ed2b3776e9fc5a790d6960c6079d444798420"
+    },
+    "home-scene": {
+      "path": "assets/home-scene.png",
+      "sha256": "9ba1153ece593654ebb4a323c41fe3f070bd8f0e962cf8058de660f6caf7916c"
+    },
+    "launch-traveler": {
+      "path": "assets/launch-traveler.png",
+      "sha256": "a7bf3fd91ac4536cbef086ddc2f01543a23cc42aa644604f3b9eba14dc77d613"
     }
   },
   "decoration": {
+    "home.artwork": {
+      "asset": "home-scene",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "home-scene",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "home-scene",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
     "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain"
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     }
   },
   "icons": {
@@ -171,89 +248,28 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
-    }
-  },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Jasmine at Dusk"
     },
     "logo": {
       "mode": "hidden"
@@ -262,7 +278,7 @@
       "mode": "default"
     }
   },
-  "description": "Thailand / Chiang Mai. Lanna teak houses, ivory jasmine and mulberry silk woven into an embroidered garden. Peacock teal, soft ivory and old gold frame a quiet evening, with ribbon and weaving-inspired glyphs.",
+  "description": "An adult traveler enjoys a tropical evening food courtyard. Orchid, cream and forest-green cel artwork pairs with clear controls and independent character startup art.",
   "tags": [
     "thailand",
     "chiang-mai",
@@ -271,5 +287,12 @@
     "silk",
     "embroidery"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  },
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  }
 }

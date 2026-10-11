@@ -1,7 +1,7 @@
-# Atlantic in Azulejo
+# Atlantic in Azulejo — artwork credits
 
-Original AI-generated artwork created for Muqun Theme Collection using OpenAI image generation. All rights reserved. No third-party artwork is included.
+All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.
 
-See PROMPTS.md for the generation prompts.
+License: All rights reserved.
 
-Home hero (`assets/home-hero.png`): original AI-generated artwork created with the built-in image generation tool for Muqun Theme Collection. Lisbon Portugal, a charming lemon-yellow vintage tram turning on a short curved cobalt-and-white azulejo tile street, tiny ceramic streetlamp, elegant glazed porcelain hand-painted textures. The scene is an imaginative illustration, not a precise location reconstruction. Covered by this theme’s existing license.
+Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.

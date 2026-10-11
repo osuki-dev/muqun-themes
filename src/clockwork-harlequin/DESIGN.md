@@ -1,9 +1,5 @@
 # Clockwork Harlequin
 
-An original adult stage magician with chestnut hair and a brass clockwork songbird inhabits a miniature toy theatre. Cream, peacock blue and brass carry the daylight palette; midnight teal and warm star accents define the dark variant. Crisp diamond ornaments, paper moons and mechanical carousel details connect the illustrations and controls.
+The 2026 redraw replaces the ornate navy and gold miniature theatre with an adult editorial performer, clean diamond tailoring and mechanical coral ribbons. Cream paper and charcoal planes leave reading areas quiet. Brass is a small material accent, rather than the surrounding structure.
 
-Dedicated portrait and wide wallpapers leave reading space, while contained Home banners present the magician and bird clearly. The transparent empty-state bird is a small independent vignette. Default Muqun home identity is preserved. UI planes use 94% opacity and terminal planes 97%.
-
-Classic retains the standalone square theatre-box Home hero. Editorial uses that same transparent theatre, hat and clockwork-bird vignette as contained top artwork, keeping the full silhouette readable over both palettes and at both width classes. The layout preference remains reader-controlled, and startup behavior is unchanged.
-
-The template glyphs depict a star-tipped back wand, a flying songbird for send, and a winding-key paperclip for attachment. Both palettes retain distinct semantic ANSI families. The gallery cover presents light mode on the left and dark mode on the right.
+The compact Home uses a 900 by 1024 top-cropped portrait; the regular variant retains more coat and ribbon at 800 by 1024. Both use contain geometry and a cover header, preserving the face and hands in the taller p1-companion Editorial pane. Classic uses its shorter contain band. Startup is a separate transparent songbird, also reused for empty states. Native phone/tablet acceptance is recorded separately after device review.

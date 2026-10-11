@@ -1,9 +1,9 @@
-# Last Light in Lofoten
+# Last Light in Lofoten — Native design
 
-Russet timber cabins meet storm-slate fjords and pale peach afterglow. Carved woodcut textures connect the coastal architecture, water and nautical controls. Four individually composed wallpapers support compact and regular layouts in both modes.
+## Contemporary redraw 1.0.8
 
-Warm paper surfaces carry dark slate text and russet actions in light mode. Dark mode uses blue-grey planes, warm ivory text and peach actions. Independent semantic and ANSI colors keep terminal output legible. Surface opacity is 94%; terminal opacity is 96%.
+A clear winter coastal scene pairs large rust-red cabin shapes with glacier blue waves and snow peaks. Cool blue-white surfaces and a coral accent replace the sepia miniature-boat mood.
 
-The back glyph echoes a timber paddle, send combines a boat and forward sail, and attachment takes the form of a rope paperclip. These use template alpha so the application supplies each mode's action color. Editorial Home places the existing transparent skiff and island scene over the responsive fjord wallpaper as a contained foreground at both widths. Classic Home and startup retain the same established hero behavior, and the home identity remains Muqun.
+The Home scene is a tightly composed wide transparent illustration in standard Editorial geometry; contained fit preserves all primary objects. Classic intentionally overlaps its lower third, where secondary water/foliage resides. Tablet remains Editorial. Independent square startup artwork also serves the optional empty illustration. Scenic wallpaper is deliberately omitted so foreground, native title, actions and Continue stay distinct. Every declared image slot has complete compact/regular objects. Seven tinted glyphs and the up-right Home-arrow source direction are preserved. No chrome artwork was added.
 
-The gallery cover presents light artwork on the left and dark artwork on the right. The compact cabin illustration is reserved for empty states.
+The gallery uses the final standard Home band proportions and includes startup separately. CLI and packaging checks are recorded outside the source directory. Native Editorial phone/tablet acceptance is coordinated separately against the exact current p1-companion APK.

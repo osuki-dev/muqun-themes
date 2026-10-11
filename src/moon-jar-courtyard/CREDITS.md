@@ -1,5 +1,12 @@
 # Credits
 
-Original AI-generated artwork for Muqun Theme Collection. All rights reserved. See PROMPTS.md for the generation prompts.
+The current Moon Jar Courtyard illustrations are original AI-generated artwork made with the built-in OpenAI image generation tool for Muqun Theme Collection on 2026-10-11, with no third-party reference images. All rights reserved.
 
-The standalone Home hero is original AI-generated artwork created with OpenAI image generation. It is a separate composition from the preserved empty-state illustration. Its creative brief is recorded in PROMPTS.md.
+- `assets/home-modern.png`: newly drawn contemporary 2D anime courtyard reading nook: young adult, lavender bench, clean plaster walls, natural-scale white Korean moon jar and lavender foliage. Hand-ink outlines and flat cel shading.
+- `assets/launch-modern.png`: independently generated matching 2D seated young reader and small matte jar silhouette, reused for empty states.
+
+The generated transparent alpha is preserved. Packaging crops unused transparent outer canvas and adds a narrow transparent border. No subject is repainted by geometry processing. Current generation briefs are recorded in PROMPTS.md. Earlier miniature courtyard artwork and the rejected realistic material rendering have been retired.
+
+All seven `assets/icon-*.png` resources are original geometric glyph drawings by Muqun Theme Collection under the theme license. They use transparent alpha for native tinting; back points left, send and Home arrow point up-right.
+
+`assets/preview.png` is a 1024×640 light/dark source UI composition using the final artwork and palette, not a device screenshot.

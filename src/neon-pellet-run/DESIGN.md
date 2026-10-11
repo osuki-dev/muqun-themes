@@ -1,16 +1,7 @@
-# Neon Pellet Run
+# Composition and native adaptation
 
-The back glyph combines a maze chevron and pellet, send uses a directional open-chevron shape, and attachment uses a loop with a pellet end. All use template tinting.
+A lively anime rollerskater glides through an evening arcade district, with coral streetwear, lemon skates, cyan lights and layered wet-street reflections.
 
-## Validation
+Large Editorial cover preserves the complete human-led scene using contain geometry. The upper-left alpha region leaves breathing room for the native Neon title; the adult character is upper-center/right. Compact and regular explicitly reuse the full painting with only a modest clear outer edge. Classic intentionally overlaps the lower environmental scene rather than requiring a shrunken safety canvas. Startup/lock uses an independent centered square cutout padded with genuine transparency on every edge. Quiet wallpapers never repeat the person or main scene. Chrome markings stay low opacity under labels. Seven recognizable alpha template icons have source direction metadata.
 
-CLI validation, contrast and package round trip passed with ten assets. Shared interface and terminal floors are 89% and 88%; authored opacity is 97%. Artwork and glyphs were inspected locally, including 17px and 34px tint checks.
-
-Browser preview previously loaded the theme and device labels, including the Classic Home hero declaration. The Editorial declaration is contract-validated but has not been claimed as device-tested.
-
-The dedicated Home artwork presents Pac-Man and two ghosts circling a violet maze arc. It is a separate transparent composition from the preserved empty-state illustration and is used in both modes and responsive sizes. Editorial contains the whole image instead of cropping it, so the native masthead, actions, and long labels remain app-rendered and unobstructed.
-
-
-## Unified Home artwork
-
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
+The 1024×640 preview contains final package pixels and palette roles, light left/dark right. It is an authored gallery composition. Native phone and tablet Editorial, both modes and launch handoff need acceptance on the confirmed current p1-companion App.

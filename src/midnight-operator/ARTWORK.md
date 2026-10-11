@@ -1,0 +1,5 @@
+# Illustration prompt
+
+Generated with the OpenAI built-in image generation tool on 2026-10-10. No input reference images were used. Native theme palettes, icons, wallpaper and preview are authored separately.
+
+Use case: illustration-story. Asset type: transparent Home foreground for youthful night-city operator mobile theme. Original contemporary graphic illustration of a young gender-neutral messenger in slate oversized jacket with tiny restrained lime accents and a crossbody signal bag, sitting on one low slate equipment case beside a compact portable cyan radio and folded city map with abstract lines only. Confident relaxed pose, friendly original face, clean ink outlines with sophisticated limited flat shading, tasteful urban editorial poster aesthetic. A single compact wide 3:2 grouping isolated on genuinely transparent background, generous alpha margins. Ink/slate gray, small lime/cyan details, cream highlights. No neon aura, no circuit border, no skyline backdrop, no scene rectangle, no words, no logos, no UI. Keep full figure and gear inside frame, low composition readable in a short phone Home band.

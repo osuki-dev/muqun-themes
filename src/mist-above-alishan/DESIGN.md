@@ -1,11 +1,9 @@
-# Mist above Alishan
+# Mist above Alishan — Native design
 
-Tea terraces become layered paper contours, with cypress silhouettes, valley mist and a small terracotta forest train. Tea olive, mist white and apricot give this theme a restrained botanical identity. Night uses olive charcoal and pale tea-leaf highlights, retaining warm train windows.
+## Contemporary redraw 1.1.4
 
-Dedicated portrait and landscape illustrations preserve quiet space behind the interface. Light and dark have separate artwork. The gallery cover is a standalone illustration; it is not an app screenshot. The empty-state miniature combines a train, hillside and tea sprig.
+A large coral train runs through layered cedar forest and mint dawn mist. Clean cream/mint surfaces, deep teal text and a coral accent replace the brown miniature-pavilion mood.
 
-Editorial Home uses those existing portrait and landscape scenes as its responsive cover background and reuses the transparent tea-pavilion Home illustration as a separate foreground. Classic Home continues to render that illustration in its contained hero slot. The native Muqun identity remains unchanged.
+The Home scene is a tightly composed wide transparent illustration in standard Editorial geometry; contained fit preserves all primary objects. Classic intentionally overlaps its lower third, where secondary water/foliage resides. Tablet remains Editorial. Independent square startup artwork also serves the optional empty illustration. Scenic wallpaper is deliberately omitted so foreground, native title, actions and Continue stay distinct. Every declared image slot has complete compact/regular objects. Seven tinted glyphs and the up-right Home-arrow source direction are preserved. No chrome artwork was added.
 
-The back glyph is a tea-twig arrow, send is a northeast-pointing tea leaf, and attach is a punched railway ticket with a plus sign. All use transparent template rendering to inherit the current theme color. Default Muqun home name and logo are retained.
-
-Surface opacity is 94%; terminal opacity is 95%. Artwork remains decorative. Preview review status is recorded separately from command validation; generated images do not prove app rendering.
+The gallery uses the final standard Home band proportions and includes startup separately. CLI and packaging checks are recorded outside the source directory. Native Editorial phone/tablet acceptance is coordinated separately against the exact current p1-companion APK.

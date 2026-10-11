@@ -3,168 +3,234 @@
   "schemaVersion": 1,
   "id": "deployment-atlas",
   "name": "Deployment Atlas",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": "Muqun Theme Collection",
-  "license": "CC BY-SA 4.0 composition; third-party logo licenses apply",
+  "license": "CC BY-SA 4.0",
+  "preview": "preview",
   "variants": {
     "light": {
       "colors": {
-        "background": "#EDF4F6",
-        "surface": "#F8FCFD",
-        "surfaceRaised": "#DFE9ED",
-        "border": "#BACCD3",
-        "borderStrong": "#627E89",
-        "text": "#102F3C",
-        "textMuted": "#35505C",
-        "textSubtle": "#405862",
-        "textDisabled": "#8699A1",
-        "primary": "#405516",
-        "onPrimary": "#F6FFDF",
-        "primarySubtle": "#40551610",
-        "danger": "#842D3B",
-        "dangerSubtle": "#842D3B10",
-        "success": "#2A5841",
-        "warning": "#6B4D0D",
-        "info": "#254F7C"
+        "background": "#F4F7F9",
+        "surface": "#FFFFFF",
+        "surfaceRaised": "#E8EEF3",
+        "border": "#C5D2DC",
+        "borderStrong": "#617C91",
+        "text": "#102738",
+        "textMuted": "#344B5E",
+        "textSubtle": "#3C5264",
+        "textDisabled": "#82929E",
+        "primary": "#174C86",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#174C860C",
+        "danger": "#962D40",
+        "dangerSubtle": "#962D400B",
+        "success": "#256047",
+        "warning": "#775017",
+        "info": "#174C86"
       },
       "surfaces": {
-        "backgroundOpacity": 0.96
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#EDF4F6",
-        "backgroundOpacity": 0.97,
-        "foreground": "#102F3C",
-        "cursor": "#405516",
-        "link": "#254F7C",
-        "selection": "#40551630",
+        "background": "#F4F7F9",
+        "backgroundOpacity": 1,
+        "foreground": "#102738",
+        "cursor": "#174C86",
+        "link": "#174C86",
+        "selection": "#174C8630",
         "ansi": [
-          "#102F3C",
-          "#842D3B",
-          "#2A5841",
-          "#6B4D0D",
-          "#254F7C",
-          "#70446D",
-          "#245B63",
-          "#405862",
-          "#4A616C",
-          "#8B3543",
-          "#315F48",
-          "#725317",
-          "#315883",
-          "#7A4A77",
-          "#306168",
-          "#102F3C"
+          "#152C3D",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#394F60",
+          "#44596A",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#152C3D"
         ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#092B36",
-        "surface": "#103541",
-        "surfaceRaised": "#173E4B",
-        "border": "#436672",
-        "borderStrong": "#91B2BD",
-        "text": "#EFF8FA",
-        "textMuted": "#D5E4E8",
-        "textSubtle": "#C6D9DF",
-        "textDisabled": "#829EA9",
-        "primary": "#D0E994",
-        "onPrimary": "#263510",
-        "primarySubtle": "#D0E99410",
-        "danger": "#FBBFC6",
-        "dangerSubtle": "#FBBFC610",
-        "success": "#AFE1CA",
-        "warning": "#EFD59A",
-        "info": "#B9D8F7"
+        "background": "#0B1520",
+        "surface": "#122230",
+        "surfaceRaised": "#1C3041",
+        "border": "#3C566B",
+        "borderStrong": "#7290A5",
+        "text": "#F2F7FA",
+        "textMuted": "#CDDFEB",
+        "textSubtle": "#BCD2E2",
+        "textDisabled": "#8093A3",
+        "primary": "#A8D4FF",
+        "onPrimary": "#102638",
+        "primarySubtle": "#A8D4FF0C",
+        "danger": "#FFB6C2",
+        "dangerSubtle": "#FFB6C20C",
+        "success": "#9BDDC0",
+        "warning": "#F7D39A",
+        "info": "#A8D4FF"
       },
       "surfaces": {
-        "backgroundOpacity": 0.96
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#092B36",
-        "backgroundOpacity": 0.97,
-        "foreground": "#EFF8FA",
-        "cursor": "#D0E994",
-        "link": "#B9D8F7",
-        "selection": "#D0E99430",
+        "background": "#0B1520",
+        "backgroundOpacity": 1,
+        "foreground": "#F2F7FA",
+        "cursor": "#A8D4FF",
+        "link": "#A8D4FF",
+        "selection": "#A8D4FF30",
         "ansi": [
-          "#C6D9DF",
-          "#FBBFC6",
-          "#AFE1CA",
-          "#EFD59A",
-          "#B9D8F7",
-          "#DFBEE4",
-          "#ACE2E7",
-          "#D5E4E8",
-          "#D5E6EA",
-          "#FFD2D8",
-          "#C5EFDB",
-          "#FBE5B4",
-          "#D1E6FB",
-          "#F0D4F1",
-          "#C5F0F2",
-          "#EFF8FA"
+          "#B4CADA",
+          "#FFB6C2",
+          "#9BDDC0",
+          "#F7D39A",
+          "#A8D4FF",
+          "#DABDF1",
+          "#A2DFE6",
+          "#CDDFEB",
+          "#B4CADA",
+          "#FFD1D9",
+          "#BCEDD5",
+          "#FFE2B8",
+          "#C8E4FF",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#F2F7FA"
         ]
       }
     }
   },
   "materials": {
-    "default": "solid"
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
   },
   "assets": {
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "d405e5161e17bb94472e62f0a91a109636bd902bff2a9d52e84d1f5763bf1ac6"
+    "home-compact": {
+      "path": "assets/home-compact.png"
     },
-    "hero": {
-      "path": "assets/hero.png",
-      "sha256": "6ef32974828a22599aed8b756bc7801162e8e76d77e518618cf8fd398e2d132e"
+    "home-regular": {
+      "path": "assets/home-regular.png"
     },
-    "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "1742823b03f41922fff77c012b61ba372c070eeab69843f97dfd63cb0c28944f"
+    "launch": {
+      "path": "assets/launch.png"
+    },
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
+    },
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
+    },
+    "edge": {
+      "path": "assets/edge.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
     },
     "icon-back": {
-      "path": "assets/icon-back.png",
-      "sha256": "25d7e3128099ca124150e1f4e36fcbff9d121113f088ebfd3145d5df7f41128a"
+      "path": "assets/icon-back.png"
     },
     "icon-send": {
-      "path": "assets/icon-send.png",
-      "sha256": "f9ff60a25ad9dc6366d77249069c01971ebbcafe4eaec9ba9a37dc843bef3971"
+      "path": "assets/icon-send.png"
     },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.png",
-      "sha256": "f081183799ab49a5e1ef9465a6624369276792bac4b3883d99619d229df58a55"
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
     },
-    "portrait-light": {
-      "path": "assets/portrait-light.png",
-      "sha256": "5c032f7ce881c318eccd6d42a6f24667877d1bcc93df83c6a0751cfc83bb333a"
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
     },
     "preview": {
-      "path": "assets/preview.png",
-      "sha256": "181c1b9cf5f1d39d849f374eb80a25c5df9cfc95a937d7b9e65a079db1b64ee1"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.png",
-      "sha256": "fc382bf6e1e53c9e9582cdba6e202ed126c9ee45be6bbccd42c0496fe7bdaaa2"
-    },
-    "wide-light": {
-      "path": "assets/wide-light.png",
-      "sha256": "9425222471a3a3eeda4718f9dcb49bb960c906118705a90cc4b870c01c8ecc6b"
-    },
-    "credits": {
-      "path": "assets/credits.png",
-      "sha256": "7ad01aade6d178df840ed9e180289d88a23e7004a2d1a2ed5781ca75edc54030"
+      "path": "assets/preview.png"
     }
   },
   "decoration": {
-    "empty.artwork": {
-      "asset": "empty",
+    "home.artwork": {
+      "asset": "home-compact",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.35
+      },
+      "compact": {
+        "asset": "home-compact",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.35
+        }
+      },
+      "regular": {
+        "asset": "home-regular",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.35
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch",
       "fit": "contain"
     },
-    "home.artwork": {
-      "asset": "hero",
-      "fit": "contain"
+    "empty.artwork": {
+      "asset": "launch",
+      "fit": "contain",
+      "opacity": 0.85
+    },
+    "navigation.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.14
+    },
+    "composer.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.12
+    },
+    "actions.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "cards.decoration": {
+      "asset": "tile",
+      "fit": "contain",
+      "opacity": 0.13
+    },
+    "buttons.primary.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.08
+    },
+    "tabs.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
     }
   },
   "icons": {
@@ -179,71 +245,126 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "portrait-light",
+        "asset": "wallpaper-light",
         "fit": "cover",
+        "opacity": 0.5,
         "compact": {
-          "asset": "portrait-light",
+          "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 0.28
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "wide-light",
+          "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 0.28
-        },
-        "opacity": 0.28
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "home.wallpaper": {
-        "asset": "portrait-light",
+        "asset": "wallpaper-light",
         "fit": "cover",
+        "opacity": 0.8,
         "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "portrait-dark",
+        "asset": "wallpaper-dark",
         "fit": "cover",
+        "opacity": 0.5,
         "compact": {
-          "asset": "portrait-dark",
+          "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 0.28
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "wide-dark",
+          "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 0.28
-        },
-        "opacity": 0.28
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "home.wallpaper": {
-        "asset": "portrait-dark",
+        "asset": "wallpaper-dark",
         "fit": "cover",
+        "opacity": 0.8,
         "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Atlas"
     },
     "logo": {
       "mode": "hidden"
@@ -252,15 +373,21 @@
       "mode": "default"
     }
   },
-  "description": "A DevOps blueprint with official Git, Jenkins and Bash marks on sparse perimeter nodes. Pale steel, deep petrol and lime guide a clear central workspace. Independent theme; not endorsed by the featured projects.",
+  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/deployment-atlas/CREDITS.md",
+  "description": "Layered ink and ice deployment cartography with quiet native surfaces.",
   "tags": [
-    "devops",
-    "blueprint",
-    "git",
-    "jenkins",
-    "bash",
-    "petrol"
+    "editorial",
+    "blue",
+    "light",
+    "dark"
   ],
-  "preview": "preview",
-  "source": "https://github.com/osuki-dev/muqun-themes/blob/main/src/deployment-atlas/CREDITS.md"
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "up"
+  }
 }
