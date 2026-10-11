@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sakura-in-passing",
   "name": "Sakura, in Passing",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -162,7 +162,8 @@
       "path": "assets/icon-settings.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "a24d6578cc73b85bb5bd737015d7a8feb2f6bc8214c0745e2ac9f2d75097c577"
     }
   },
   "decoration": {

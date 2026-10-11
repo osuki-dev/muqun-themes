@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "briar-oath",
   "name": "Briar Oath",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "91f9e6501bceaa85626ad5d5ed963e6583c1bc54714694e6fcff260be99988ed"
     }
   },
   "decoration": {},

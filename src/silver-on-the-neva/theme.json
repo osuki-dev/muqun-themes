@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "silver-on-the-neva",
   "name": "Silver on the Neva",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A drawn winter riverside in Saint Petersburg: coral tram lights, cobalt skating motion and icy Neva reflections. Spacious anime editorial scenery pairs with cool readable surfaces and an independent skater startup.",
@@ -143,7 +143,7 @@
     },
     "preview": {
       "path": "assets/preview.webp",
-      "sha256": "964b71d0a8facfdd4eb75a14661448cd6180b7b7ff3a56a4867c54ca78d961bb"
+      "sha256": "7de12d7e6e8a1243d18c46fd3a8dd92b4e0d5ca0ada1d5e4efe7e4d0c59acdbe"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

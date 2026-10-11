@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "clockwork-harlequin",
   "name": "Clockwork Harlequin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A contemporary adult harlequin in ink tailoring, cream diamonds and coral mechanical ribbons. Quiet paper and charcoal surfaces frame a large Editorial character, with an independent clockwork songbird startup.",
@@ -230,7 +230,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "db3580c31f1f948a3b925b530d01341105232165ed9ea486ad58f38d7c1d25b2"
+      "sha256": "dc17a7df66ec84ab9292c84cc6c1298f6dcab2344019ffdb360075579ea368a9"
     }
   },
   "decoration": {

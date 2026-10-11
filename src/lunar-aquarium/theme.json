@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lunar-aquarium",
   "name": "Lunar Aquarium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -126,7 +126,8 @@
       "path": "assets/wallpaper-dark.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "c0422b50bc4d0c936f0de9a0cb6e99987ece66ed7e1a347f65369c97d5022a1d"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

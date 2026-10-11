@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "brasswing-skies",
   "name": "Brasswing Skies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "052c11921148406e25b184bca53b936159eaa88b9d5ef2bfc783e88951928815"
     }
   },
   "decoration": {},

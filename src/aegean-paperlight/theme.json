@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aegean-paperlight",
   "name": "Aegean Paperlight",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -162,7 +162,8 @@
       "path": "assets/icon-settings.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "23b422df1dfcc07a02039dc860e1d9497830894bc772dfedac34b52efa6c3a9a"
     }
   },
   "decoration": {

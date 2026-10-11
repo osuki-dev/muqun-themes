@@ -2,8 +2,8 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "kissaten-after-rain",
-  "name": "\u96e8\u4e0a\u304c\u308a\u306e\u55ab\u8336\u5e97",
-  "version": "1.1.0",
+  "name": "雨上がりの喫茶店",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -198,7 +198,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "396a43ebd014ce2a72f6d793e68c857008b5f99d84035954f69465d8005221b1"
+      "sha256": "d74720abdeba0e45f61f6256a0c70c48afca6bca92b27a1cb27ef354e0cfa200"
     }
   },
   "decoration": {

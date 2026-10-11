@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sky-letter-atelier",
   "name": "Sky Letter Atelier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -120,7 +120,8 @@
       "path": "assets/cloud-courier.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "44183925a95cbd5d6f4374301128f99e34863406e21e100a4e4b6cc5c5be400f"
     },
     "wallpaper-light": {
       "path": "assets/wallpaper-light.png"

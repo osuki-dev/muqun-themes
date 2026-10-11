@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pocket-companion",
   "name": "Pocket Companion",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -150,7 +150,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "406914df196d0ab4ee8be9db7f9f3709ec435453229e93fff1ee4c218c569d4a"
+      "sha256": "dc0e05db110ec1e98e82606608996d4258bbec1817b6930c92bb6884a578cd5f"
     },
     "home-hero": {
       "path": "assets/home-hero.png",

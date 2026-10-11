@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A youthful rooftop music listener under an apricot city dusk, with warm paper and plum-charcoal reading surfaces.",
@@ -228,7 +228,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "d1f0321a3c435a5a25518bd8027bc2fbf63f9c68711ec100b8af3463b94880b0"
+      "sha256": "b02bde91375b4b75efa12e5e198539f3741d6c0dfa878df7bb700cd881ba3004"
     }
   },
   "decoration": {

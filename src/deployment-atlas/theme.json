@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "deployment-atlas",
   "name": "Deployment Atlas",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "CC BY-SA 4.0",
   "preview": "preview",
@@ -162,7 +162,8 @@
       "path": "assets/icon-settings.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "764c4169615429128096e6b8fc04b0a731db64e1e5338510baaa40aa0967be31"
     }
   },
   "decoration": {

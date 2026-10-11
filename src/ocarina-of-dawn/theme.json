@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ocarina-of-dawn",
   "name": "Ocarina of Dawn",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying IP belongs to Nintendo",
   "variants": {
@@ -114,7 +114,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "a999d2542f978d8eb8aa10b5d96f9e42f0ea1dcb4379d09eb037617bb40f9cf7"
+      "sha256": "05771740d71627466a115c00e2b570490cdfb0a7e062e792fe265896f69ec2d6"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

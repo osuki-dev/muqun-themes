@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Contemporary anime street photographer outside a rainy Paris cafe, with coral rainwear, quiet navy architecture and warm cream native surfaces.",
@@ -140,7 +140,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "467cc4c17dc1eb578c67617346c24f5ff15741ff8582bdee8f9c4d3bd3862e9c"
+      "sha256": "4c843dc980ee2e51f32914aac4642f8c81ec32738b476df3cdaed2adf48bad9d"
     },
     "icon-create": {
       "path": "assets/icon-create.png",

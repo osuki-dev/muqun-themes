@@ -2,8 +2,8 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "hydrangea-window",
-  "name": "\u7d2b\u967d\u82b1\u306e\u7a93\u8fba",
-  "version": "1.2.0",
+  "name": "紫陽花の窓辺",
+  "version": "1.2.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -198,7 +198,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "5258e44edabd75cff98f946772b9c1ed1bf828a83ae53572397048007ebf7246"
+      "sha256": "bc1362661ee43a2d5c16737dc41a9fc4353025a7419dbf1f967cf32a70675437"
     }
   },
   "decoration": {

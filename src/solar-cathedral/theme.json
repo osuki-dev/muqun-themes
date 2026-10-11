@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "solar-cathedral",
   "name": "Solar Cathedral",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -150,7 +150,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.webp"
+      "path": "assets/preview.webp",
+      "sha256": "2b2ad796cf287f7a192ccad5b6eb850becb6a0331a7b6b28cf2ef3a43d70974f"
     },
     "launch-dark": {
       "path": "assets/launch-dark.webp"

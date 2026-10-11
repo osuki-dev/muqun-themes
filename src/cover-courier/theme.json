@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cover-courier",
   "name": "Cover Courier",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -118,7 +118,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "8fdb1fa2ef55897fa1831667907e4ba2a0f5aca59ff491bef7354140867709d8"
+      "sha256": "f314a80e1d0e4d4a6ab02ff2b355928009e49a1d782e56e096e47ff512653e58"
     },
     "paper-light": {
       "path": "assets/paper-light.webp"

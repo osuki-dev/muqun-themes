@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "akiba-overdrive",
   "name": "Akiba Overdrive",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Violet streetwear, turquoise headphones, and delicate electronics-district watercolor. Wordless foreground art, separate quiet architecture, and restrained midnight light.",
@@ -144,7 +144,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "62bde9bc9f58ae77c808c7312e25c85ee04ad3202b68a41a114df9dd93d3224d"
+      "sha256": "b6ba358438c40f8cbf7dd24fbd7a8c329b000f824330a544c69afaf483f35a6c"
     },
     "figure": {
       "path": "assets/figure.png"
@@ -181,6 +181,18 @@
     },
     "chrome-dark": {
       "path": "assets/chrome-dark.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "994746b0f33a76e29f782cb52d9b9b0a17b368f1d34fbdce91d7ae236bcbb260"
+    },
+    "composer-edge-compact": {
+      "path": "assets/composer-edge-compact.png",
+      "sha256": "32d096f21f03d7c3d7c9447ee066d709555d2bd75eed73ba8c5a351876d5c24c"
+    },
+    "composer-edge-regular": {
+      "path": "assets/composer-edge-regular.png",
+      "sha256": "c9aec559af0b2bc5a1094d1b856e3a83a5f2244a6bf449f51578f25d38eed840"
     }
   },
   "decoration": {},
@@ -374,7 +386,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-edge-compact",
+        "fit": "cover",
+        "opacity": 0.88,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-edge-compact",
+          "fit": "cover",
+          "opacity": 0.88,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-edge-regular",
+          "fit": "cover",
+          "opacity": 0.88,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "home.artwork": {
@@ -565,7 +620,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-edge-compact",
+        "fit": "cover",
+        "opacity": 0.8,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-edge-compact",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-edge-regular",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {
@@ -611,6 +709,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

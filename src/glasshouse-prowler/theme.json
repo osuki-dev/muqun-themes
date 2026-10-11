@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "glasshouse-prowler",
   "name": "Glasshouse Prowler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "d509f5e7c2893beb9c50ca6b61da5c161e0398e1834add0864c4fc78ea5bef1e"
     }
   },
   "decoration": {},

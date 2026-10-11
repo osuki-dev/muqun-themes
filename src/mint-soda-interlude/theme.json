@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mint-soda-interlude",
   "name": "Mint Soda Interlude",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -120,7 +120,8 @@
       "path": "assets/mint-soda-barista.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "15491e0ce09cc7cadbef23854cdcef7d68f9f85e786e3b4bd6cebc4cd9b16318"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "dual-transit",
   "name": "Dual Transit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -141,7 +141,8 @@
   },
   "assets": {
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "d339fb25613570b79398c1cf913e0bb15d87dbfde6ac5c549e83900f484033e6"
     },
     "launch-light": {
       "path": "assets/launch-light.webp"

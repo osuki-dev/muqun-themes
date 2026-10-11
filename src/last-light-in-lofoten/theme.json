@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Rust-red fishing cabins meet luminous winter sea and glacier peaks. A fresh coastal scene with independent cabin startup artwork and clear nautical controls.",
@@ -135,7 +135,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "1ef0d8101fd57dfe78988504b133d8d9b2a23e700275cde8020600c933e69c70"
+      "sha256": "8413db5653800aeb9a30efee555f08fefda7f20a4ae0131b654c9cfed97d672b"
     },
     "icon-create": {
       "path": "assets/icon-create.png",

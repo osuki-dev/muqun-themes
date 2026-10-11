@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pine-and-parchment",
   "name": "Pine & Parchment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -177,7 +177,8 @@
       "path": "assets/wallpaper-light.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "99d6ccbc8aea81700bb38346486c44ea9ea1dde3a166695caec24451e4bd88ab"
     }
   },
   "decoration": {

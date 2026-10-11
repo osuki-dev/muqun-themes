@@ -1,0 +1,402 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "neon-window-study",
+  "name": "Neon Window Study",
+  "version": "1.0.3",
+  "author": "Muqun Theme Collection",
+  "license": "All rights reserved",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#EFF3F5",
+        "surface": "#F7FCFB",
+        "surfaceRaised": "#E4EDF0",
+        "border": "#CEDADD",
+        "borderStrong": "#71828B",
+        "text": "#172D36",
+        "textMuted": "#354D58",
+        "textSubtle": "#445562",
+        "textDisabled": "#82929E",
+        "primary": "#176354",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#17635412",
+        "danger": "#962D40",
+        "dangerSubtle": "#962D400B",
+        "success": "#256047",
+        "warning": "#775017",
+        "info": "#31598D"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#EFF3F5",
+        "backgroundOpacity": 1,
+        "foreground": "#172D36",
+        "cursor": "#176354",
+        "link": "#31598D",
+        "selection": "#17635430",
+        "ansi": [
+          "#152C3D",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#394F60",
+          "#44596A",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#152C3D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#171D2C",
+        "surface": "#232D3D",
+        "surfaceRaised": "#303C50",
+        "border": "#455366",
+        "borderStrong": "#8C9AAE",
+        "text": "#F1F8F7",
+        "textMuted": "#D2DEEA",
+        "textSubtle": "#BECDDF",
+        "textDisabled": "#8093A3",
+        "primary": "#B1E6D7",
+        "onPrimary": "#16332C",
+        "primarySubtle": "#B1E6D712",
+        "danger": "#FFB6C2",
+        "dangerSubtle": "#FFB6C20C",
+        "success": "#9BDDC0",
+        "warning": "#F7D39A",
+        "info": "#C0CFFF"
+      },
+      "surfaces": {
+        "backgroundOpacity": 0.96
+      },
+      "terminal": {
+        "background": "#171D2C",
+        "backgroundOpacity": 1,
+        "foreground": "#F1F8F7",
+        "cursor": "#B1E6D7",
+        "link": "#C0CFFF",
+        "selection": "#B1E6D730",
+        "ansi": [
+          "#B4CADA",
+          "#FFB6C2",
+          "#9BDDC0",
+          "#F7D39A",
+          "#A8D4FF",
+          "#DABDF1",
+          "#A2DFE6",
+          "#CDDFEB",
+          "#B4CADA",
+          "#FFD1D9",
+          "#BCEDD5",
+          "#FFE2B8",
+          "#C8E4FF",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#F2F7FA"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "scene-compact": {
+      "path": "assets/scene-compact.webp",
+      "sha256": "afd9084f4174b2c1e4d4005014cb365db9de948c4ac0fe550f962f50d3424e06"
+    },
+    "scene-regular": {
+      "path": "assets/scene-regular.webp"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "3455c1b9fd1b65cf0f9be87e0e0ecb5ef22b34dcaf2c7f6675d75606ff626d93"
+    },
+    "console-compact-dark": {
+      "path": "assets/console-compact-dark.webp",
+      "sha256": "49b12d3468e8996ad92b976515278f1b8f3dd574d760ca17fe3a953c94713811"
+    },
+    "console-regular-dark": {
+      "path": "assets/console-regular-dark.webp",
+      "sha256": "372f9d5a901d81263b9d80698397bd3bdacb65b800f12b4931599a82783c4352"
+    },
+    "console-compact-light": {
+      "path": "assets/console-compact-light.webp",
+      "sha256": "3b189d21c4002dc23ad362203cd2a6b103da077cbd935949238bb66ad4fc3135"
+    },
+    "console-regular-light": {
+      "path": "assets/console-regular-light.webp",
+      "sha256": "c25aceb6badc04beb5d898b8b42d901c34256d4c4f43cf89c93d64e9d4620b09"
+    }
+  },
+  "decoration": {
+    "home.artwork": null,
+    "home.composer.background": {
+      "asset": "console-compact-light",
+      "fit": "cover",
+      "opacity": 0.52,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 1
+      },
+      "outset": {
+        "left": 12,
+        "right": 12,
+        "bottom": 8
+      },
+      "regular": {
+        "asset": "console-regular-light",
+        "fit": "cover",
+        "opacity": 0.52,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        }
+      }
+    },
+    "home.composer.decoration": null
+  },
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.wallpaper": {
+        "asset": "scene-compact",
+        "fit": "cover",
+        "opacity": 0.55,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "regular": {
+          "asset": "scene-regular",
+          "fit": "cover",
+          "opacity": 0.55,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "scene-compact",
+        "fit": "cover",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "regular": {
+          "asset": "scene-regular",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "console-compact-light",
+        "fit": "cover",
+        "opacity": 0.52,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "regular": {
+          "asset": "console-regular-light",
+          "fit": "cover",
+          "opacity": 0.52,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.wallpaper": {
+        "asset": "scene-compact",
+        "fit": "cover",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "regular": {
+          "asset": "scene-regular",
+          "fit": "cover",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "scene-compact",
+        "fit": "cover",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "regular": {
+          "asset": "scene-regular",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "console-compact-dark",
+        "fit": "cover",
+        "opacity": 0.72,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "regular": {
+          "asset": "console-regular-dark",
+          "fit": "cover",
+          "opacity": 0.72,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "hidden"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "hidden"
+    }
+  },
+  "description": "A full-scene anime cafe at blue hour, mint glass and lilac city lights, with a coordinated horizontal glass-console input ledge.",
+  "tags": [
+    "anime",
+    "city",
+    "night",
+    "mint",
+    "full-scene"
+  ],
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "up"
+  },
+  "effects": {
+    "ambient": "none"
+  }
+}
