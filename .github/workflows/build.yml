@@ -44,18 +44,17 @@ jobs:
           fi
 
       - name: Pack changed sources and regenerate the catalogue
-        run: bunx @osuki-dev/muqun-theme@2.4.0 build
+        run: bunx @osuki-dev/muqun-theme@2.4.1 build
 
       - name: Verify the result the way a full check would
-        run: bunx @osuki-dev/muqun-theme@2.4.0 check
+        run: bunx @osuki-dev/muqun-theme@2.4.1 check
 
       - name: Mirror what changed to R2
         # Keys match the release branch exactly, so the `package` and
         # `preview` fields in index.json are the object keys. The old and new
         # index are diffed by sha256: changed and new packages go up first,
-        # then the previews, then the index, and only then are packages and
-        # previews whose source is gone removed -- so the index in the bucket
-        # never names a file that is not there.
+        # then the previews, then the index. Retain earlier objects so cached
+        # catalogues can still resolve their package and preview URLs.
         if: env.R2_ACCESS_KEY_ID != ''
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -72,11 +71,7 @@ jobs:
             .themes[] as $t
             | select(([$old[0].themes[] | select(.id == $t.id and .sha256 == $t.sha256)] | length) == 0)
             | $t.package' index.json > changed.txt
-          jq -r --slurpfile new index.json '
-            .themes[] as $t
-            | select(([$new[0].themes[] | select(.id == $t.id)] | length) == 0)
-            | $t.package' previous-index.json > removed.txt
-          echo "changed:"; cat changed.txt; echo "removed:"; cat removed.txt
+          echo "changed:"; cat changed.txt
 
           while read -r key; do
             [ -n "$key" ] || continue
@@ -84,14 +79,13 @@ jobs:
               --content-type application/zip --cache-control "public, max-age=3600"
           done < changed.txt
 
-          # Preview images: `build` writes dist/previews/<id>.<ext> for every
-          # theme whose manifest declares a `preview`, and index.json names
-          # each as its `preview` field, so the same key convention holds.
+          # Preview images: `build` names each file with its content hash and
+          # records the path in index.json, so updated artwork has a new URL.
           # They are small and few, so the directory is synced whole rather
           # than diffed -- one call per extension, because a content type is
           # set per call and R2 serves whatever type an object was stored
-          # with. New and changed images go up before the index, like the
-          # packages; removals wait until after it, below.
+          # with. New images go up before the index, like the packages. Do not
+          # delete older preview URLs: readers may still have a cached index.
           mkdir -p dist/previews
           for ext in webp png jpg; do
             case "$ext" in
@@ -107,18 +101,8 @@ jobs:
           aws s3 cp index.json "$BUCKET/index.json" --endpoint-url "$ENDPOINT" \
             --content-type "application/json; charset=utf-8" --cache-control "public, max-age=60"
 
-          while read -r key; do
-            [ -n "$key" ] || continue
-            aws s3 rm "$BUCKET/$key" --endpoint-url "$ENDPOINT"
-          done < removed.txt
-
-          # Previews the index no longer names. Everything local is already in
-          # the bucket and newer there, so this pass only deletes.
-          aws s3 sync dist/previews "$BUCKET/dist/previews" --endpoint-url "$ENDPOINT" \
-            --delete --exclude ".gitkeep" --cache-control "public, max-age=3600"
-
-          echo "uploaded $(grep -c . changed.txt || true) package(s), removed $(grep -c . removed.txt || true), synced $(ls dist/previews | grep -c . || true) preview(s), index refreshed"
-          rm -f changed.txt removed.txt previous-index.json
+          echo "uploaded $(grep -c . changed.txt || true) package(s), synced $(ls dist/previews | grep -c . || true) preview(s), index refreshed"
+          rm -f changed.txt previous-index.json
 
       - name: Publish dist/ and index.json to the release branch
         run: |
