@@ -23,3 +23,8 @@ These composed artwork files are distributed under [CC BY-SA 4.0](https://creati
 The theme manifest's `source` points to this attribution document so credits remain discoverable from a packed theme. Trademarks remain with their respective owners; the artwork license does not grant trademark rights.
 
 `assets/credits.png` is a readable attribution card declared in the manifest so it is included in offline packages (the pack optimizer may encode it as WebP). It records the attribution and license information above without changing the interface.
+
+
+## 2026 refresh
+
+The retired logo/poster compositions are no longer included in this package. New Home and launch illustrations are original artwork generated with OpenAI built-in image generation for Muqun Theme Collection. No third-party marks are present in the refreshed assets. Geometric alpha icons and quiet contour/glaze patterns are original deterministic artwork. The theme retains its existing license; Deployment Atlas refreshed artwork is CC BY-SA 4.0. See PROMPTS.md.

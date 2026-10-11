@@ -1,21 +1,9 @@
-# Gentian above the Clouds
+# Gentian above the Clouds — Contemporary native design
 
-Fine cut-paper relief joins snow ivory, alpine slate and gentian violet. Four original landscape compositions support phone and tablet in light and dark modes. The gallery cover pairs day on the left and night on the right. Default Muqun identity is preserved.
+A seated adult traveler and generous alpine window view, drawn in cream, blue and plum.
 
-A trail sign supplies Back, a folded alpine glider supplies Send, and a climbing carabiner supplies Attach. Template alpha allows each mode to tint the glyphs. UI and terminal surfaces use 96% opacity.
+An independent young-adult character startup illustration replaces the tiny scenery handoff. This square startup asset also serves the optional empty illustration. Scenic wallpaper is deliberately omitted; quiet palette surfaces separate artwork from native labels. The existing cover header is preserved with the short English title `Alps` and contained artwork; native checks must judge actual top title overlap. Classic intentionally overlays the decorative lower third; no speculative shrinking is used to avoid that overlap. Tablet remains Editorial. All three image roles declare complete compact/regular objects. Seven matching line glyphs preserve clear native action meanings and use template tint. Optional chrome imagery remains absent. Gallery layout is a fictional composition using final resources; CLI checks and actual native QA are separately recorded.
 
-## Inspiration
+## Cover title refinement 1.1.6
 
-- Switzerland Tourism, cable-car journeys: https://www.myswitzerland.com/en-us/destinations/attractions/railway-experiences/spectacular-journeys-search/cablecarrides/
-- Ebenalp, alpine gentian: https://ebenalp.ch/en/summer/alps-garden/berg-enzian
-
-These references informed subject choice only. The illustrations are original interpretations, not exact landmark reconstructions.
-
-
-## Unified Home artwork
-
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
-
-## Toolbar surfaces
-
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+The native Home cover title is `Alps`; the full catalogue theme name is unchanged. This short word leaves the primary figure and umbrella more space in the measured phone/Pad cover. No font-size field or App change is used. Gallery preview and package were rebuilt from this final manifest.

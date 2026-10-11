@@ -1,5 +1,3 @@
-# Neon Pellet Run
+# Artwork credits
 
-Unofficial Pac-Man fan art. New illustrations generated with OpenAI image generation for this theme; control glyphs are original rasterized designs. Pac-Man and related characters belong to Bandai Namco Entertainment. No affiliation or endorsement is implied, and no rights to the underlying game are granted.
-
-`assets/home-hero.png`: generated with OpenAI image generation for this theme; Pac-Man and two ghosts circling a violet maze arc. Reused unchanged for the Classic Home hero and Editorial top artwork. Existing franchise notices remain applicable.
+Home and independent startup images were generated as original 2D anime artwork with the OpenAI built-in imagegen tool on 2026-10-11; genuine transparent background was requested and verified. No third-party characters, logos or branded game designs are included. Wallpaper geometry, chrome patterns, template glyphs and gallery composition are original code-authored raster artwork. Attribution: Muqun Community. Distribution: CC-BY-4.0. Previous theme artwork has been replaced.

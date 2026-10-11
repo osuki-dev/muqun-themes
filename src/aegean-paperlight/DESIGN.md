@@ -1,17 +1,7 @@
-# Aegean Paperlight
+# Native artwork design
 
-A Cycladic island interpreted through hand-cut paper: chalk stairways, sea-glass water, cobalt shutters and coral bougainvillea. Broad torn-paper planes and sculptural shadows distinguish this theme from painted ceramic decoration. The scenes are imagined compositions rather than exact landmark reconstructions.
+Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.
 
-The light palette combines pale aqua planes and deep marine text. The dark palette uses deep marine planes, chalk lettering and luminous sea-glass actions. Coral, cobalt, herb green and amber keep semantic and terminal roles distinct. Dedicated vertical and horizontal scenes support compact and regular layouts. The default Muqun name and logo remain intact.
+Independent launch is a1024-square genuinely transparent character composition; launch uses assetURI only. Quiet wallpaper carries sparse bottom/right contour/glaze marks, never repeated hero. Chrome uses low-opacity label-safe edge/rail accents. Missing optionaltaskglyphs use nativefallback. Backleft/sendup/Homeup-right directions match inspected glyphs.
 
-The back glyph is a curling wave arrow; send is a paper-cut swallow; attach is a nautical rope loop. All three use transparent template rendering so their color follows the active palette.
-
-Editorial Home uses the cover header with normal theme-colored toolbar surfaces and a dedicated 2:1 windmill-and-harbor foreground. The contained collage is wired explicitly for light and dark, compact and regular widths; its chalk, cobalt and sea-glass edges remain readable on both palettes. Classic keeps the original square windmill hero and startup flow unchanged.
-
-## Cultural reference
-
-[Visit Greece: Cyclades](https://www.visitgreece.gr/islands/cyclades) describes the islands' light, white-and-blue architecture and rugged landscapes. [Visit Greece: Folegandros](https://www.visitgreece.gr/en/islands/Cyclades/Folegandros) describes white houses, colorful shutters and bougainvillea courtyards. These factual references informed the composition; no source images were copied.
-
-## Toolbar surfaces
-
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+Final palette/pack/alpha checks are recorded under ignoredtmp/theme-refresh/a. Correctworktree native QA queued on emulator5560; no fictional gallery preview is claimed as native screenshot.

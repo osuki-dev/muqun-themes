@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "solar-cathedral",
   "name": "Solar Cathedral",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -246,7 +246,7 @@
       "shell.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.14,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -254,7 +254,7 @@
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -263,7 +263,7 @@
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -273,7 +273,7 @@
       "home.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.14,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -281,7 +281,7 @@
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -290,7 +290,7 @@
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -356,7 +356,7 @@
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.14,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -364,7 +364,7 @@
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -373,7 +373,7 @@
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -383,7 +383,7 @@
       "home.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.14,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -391,7 +391,7 @@
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -400,7 +400,7 @@
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.14,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5

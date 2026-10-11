@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "velvet-signal",
   "name": "Velvet Signal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -128,10 +128,6 @@
       "path": "assets/icon-attach.png",
       "sha256": "218ced485ef82721d11fb4ce7619ff413a50e4497f9334106a83791599ac2df6"
     },
-    "icon-create": {
-      "path": "assets/icon-create.png",
-      "sha256": "b216e30316835d99cd7f4fdc1cba3177b13701b77d32d82589b73edd304d0917"
-    },
     "icon-scan": {
       "path": "assets/icon-scan.png",
       "sha256": "e524b1c9864a30a90f2e5468be2174d682646f5d2b4d04e81d09ed7f434a4442"
@@ -139,10 +135,6 @@
     "icon-settings": {
       "path": "assets/icon-settings.png",
       "sha256": "89d5c7a8945ca10fc6cf72b43fd095c26ab3db11fb3c1ce87578a565d5340d50"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png",
-      "sha256": "695eeaf825b1756131458c99df3472d8341ef4dadf6217c2738084df96b8b1ea"
     },
     "home-light": {
       "path": "assets/home-light.webp",
@@ -170,7 +162,15 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "726ddb78add1661c7b8a2aecc443fa63224e86a12212f4c727844bdef8a7d2e4"
+      "sha256": "817e9be596ed7f30fa6ee97a647704a208bc2b62ebb53940d3ee5d9dfdb233f5"
+    },
+    "native-create": {
+      "path": "assets/native-create.png",
+      "sha256": "5fc88e4c3da973bd7f08e09654eac1c5cf13a17d0bfcecd6f97dafec1654a04a"
+    },
+    "native-arrow": {
+      "path": "assets/native-arrow.png",
+      "sha256": "6a8049c624f166a194c87e150ea09fd649a1816cd65da216cbf3128f76100f86"
     }
   },
   "decoration": {},
@@ -188,7 +188,7 @@
       "render": "template"
     },
     "chrome.create": {
-      "asset": "icon-create",
+      "asset": "native-create",
       "render": "template"
     },
     "chrome.scan": {
@@ -200,7 +200,7 @@
       "render": "template"
     },
     "home.arrow": {
-      "asset": "icon-arrow",
+      "asset": "native-arrow",
       "render": "template"
     }
   },
@@ -263,7 +263,7 @@
       "shell.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -271,7 +271,7 @@
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -280,7 +280,7 @@
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -290,7 +290,7 @@
       "home.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -298,7 +298,7 @@
         "compact": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -307,7 +307,7 @@
         "regular": {
           "asset": "wallpaper-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -373,7 +373,7 @@
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -381,7 +381,7 @@
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -390,7 +390,7 @@
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -400,7 +400,7 @@
       "home.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -408,7 +408,7 @@
         "compact": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -417,7 +417,7 @@
         "regular": {
           "asset": "wallpaper-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5

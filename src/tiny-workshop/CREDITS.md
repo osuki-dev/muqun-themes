@@ -1,5 +1,9 @@
-# Tiny Workshop
+# Tiny Workshop artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. All rights reserved. No third-party artwork is included. See PROMPTS.md for art briefs.
+All rights reserved. Original assets created for Muqun Theme Collection.
 
-`assets/home-hero.png`: new original AI-generated Home illustration by Muqun Theme Collection, created with the built-in image generation tool. See PROMPTS.md.
+Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is original AI-generated story illustration, and `assets/launch-character.png` is separately generated startup character art. Both used OpenAI built-in image generation with genuine transparent output; deterministic trim, resize and transparent padding only. Full prompts are in PROMPTS.md.
+
+`assets/paper-light.png`, `assets/paper-dark.png`, and edge textures are original geometric artwork authored for this theme. Seven native line glyphs reuse the original Muqun Theme Collection geometric family authored during the 2026 Clockwork Harlequin redraw, under the same ownership and rights. Directions: left back, up send, up-right Home arrow.
+
+`assets/preview.png` is an original gallery composition of the final theme art and UI palette, not a device screenshot. No old machinery, diorama or miniature prop art is retained. No external stock image or third-party brand assets are bundled.

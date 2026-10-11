@@ -47,3 +47,34 @@ Create one original standalone app Home hero illustration. A Nordic fishing skif
 ## Current artwork mapping
 
 Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.
+
+## Contemporary redraw 1.0.8
+
+### Home
+
+```text
+Use case: stylized-concept. Asset: final transparent PNG foreground for a youthful contemporary anime travel theme in a native mobile app. Create one beautifully art-directed wide coastal scene, 1536x1024 landscape transparent canvas: two bold rust-red Norwegian fishing cabins on a clean layered rocky shore, blue winter sea with broad luminous wave ribbons, one dramatic snow-tipped mountain ridge behind. Contemporary premium anime background painting with crisp expressive clean shapes, soft sophisticated light, restrained detailing, cool glacier blue and warm coral-red. NOT a tiny toy model or enclosed round museum diorama. The scene itself must dominate 90% of canvas width and 82% of height, tightly composed with modest transparent breathing margins. Broad irregular transparent silhouette around cabins, mountains and sea, no rectangular sky backdrop, no sky fill. Cabins and mountains clearly recognizable at phone size. Scene lower edge simple and soft, no critical object in bottom 20% because native controls feather that edge. No people, no text, no logo, no watermark, no pedestal, no old wooden boat. Actual RGBA transparent surroundings. Render a polished vivid scene with a purposeful large foreground presence.
+```
+
+### Launch
+
+```text
+Use case: stylized-concept. Asset: independent transparent startup illustration for contemporary anime Norwegian winter coastal theme, square 1024x1024. A single large charming rust-red timber fishing cabin with pale icy-blue roof, one little coastal pier and one stylized curling turquoise wave below; clean recognizable silhouette with a snow-capped triangular mountain shape immediately behind. Modern premium anime illustration, refined cel-shaded layered shapes, warm coral walls, cool glacier blue sea, luminous cream accents. Strong graphic simplicity, generous readable shape, fills 82% square width and height with transparent edge breathing room. Not a photo, not a tiny complex diorama, no museum base, no circular frame, no long panorama, no boat. Full object edges preserved. No text, signage, logo, people, or watermark. Genuine RGBA transparency surrounding the entire standalone scene. Purpose is a confident startup mark on both light and dark backgrounds.
+```
+
+
+## Final cel artwork revision
+
+The first new scene drafts had too much photographic texture and were rejected. The final assets below are built-in image_gen style-transfer redraws using those original AI-generated drafts as their only visual inputs, retaining scene composition while replacing textures with drawn outlines and flat cel values.
+
+### Home
+
+```text
+Use case: style-transfer. Redraw this entire image in a visibly different, bold contemporary 2D ANIME CEL ANIMATION art style. Preserve the scene composition and main subjects: coastal scene with two rust-red cabins, white-blue mountain peaks and winter sea. Keep the original wide landscape canvas and genuine transparent alpha surroundings. This is NOT a photo filter. Completely replace every photographic/microtexture detail with hand-drawn design: decisive dark blue-teal INK OUTLINES around the major shapes; only TWO OR THREE FLAT COLOR VALUES per surface; enormous clean graphic color planes; crisp silhouette; bold saturated but tasteful coral, ice-blue or mint; sophisticated anime-film lighting shown as flat warm highlight planes. Water must be just 4–6 sweeping flat wave shapes and a few smooth white curves, NO realistic foam. Rocks become simple faceted polygon shapes, NO granules. Mountains become simple jagged outlined blue planes with broad white snow shapes. Cedars become large layered teal triangular graphic silhouettes, NO thousands of needles. Train and cabins use clear geometric line art and flat colored panels. All small photographic details are discarded; retain only meaningful large structure. Think premium hand-painted animation key art, genuinely drawn, youthful and graphic. NO photorealism, NO PBR materials, NO rendered3D, NO stock-photo texture, NO woodgrain, NO realistic reflections, NO gritty antique watercolor, NO tiny museum diorama. No text, numbers, logos, signs, borders or watermark. Generous foreground scale and full main subjects remain contained. The resulting image must immediately read as a drawn animation cel rather than a photograph. Transparent RGBA background.
+```
+
+### Launch
+
+```text
+Use case: style-transfer. Redraw this entire image in a visibly different, bold contemporary 2D ANIME CEL ANIMATION art style. Preserve the scene composition and main subjects: standalone coral fishing cabin, single triangular snowy peak and curling blue wave. Keep the original square canvas and genuine transparent alpha surroundings. This is NOT a photo filter. Completely replace every photographic/microtexture detail with hand-drawn design: decisive dark blue-teal INK OUTLINES around the major shapes; only TWO OR THREE FLAT COLOR VALUES per surface; enormous clean graphic color planes; crisp silhouette; bold saturated but tasteful coral, ice-blue or mint; sophisticated anime-film lighting shown as flat warm highlight planes. Water must be just 4–6 sweeping flat wave shapes and a few smooth white curves, NO realistic foam. Rocks become simple faceted polygon shapes, NO granules. Mountains become simple jagged outlined blue planes with broad white snow shapes. Cedars become large layered teal triangular graphic silhouettes, NO thousands of needles. Train and cabins use clear geometric line art and flat colored panels. All small photographic details are discarded; retain only meaningful large structure. Think premium hand-painted animation key art, genuinely drawn, youthful and graphic. NO photorealism, NO PBR materials, NO rendered3D, NO stock-photo texture, NO woodgrain, NO realistic reflections, NO gritty antique watercolor, NO tiny museum diorama. No text, numbers, logos, signs, borders or watermark. Generous foreground scale and full main subjects remain contained. The resulting image must immediately read as a drawn animation cel rather than a photograph. Transparent RGBA background.
+```

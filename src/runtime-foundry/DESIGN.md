@@ -1,0 +1,5 @@
+# Night Drive composition
+
+The complete car, clearly adult driver, coastal road and shoreline details form one genuine RGBA scene. Large Editorial cover uses contain fitting and a quiet upper-left region for the native Night Drive title; the driver is on the right. Compact and regular declare the full scene rather than a shrunken safety canvas. Classic intentionally overlaps the lower road edge according to the current p1-companion contract. The startup image is an independent complete full-body driver silhouette with both sneakers and a copper key fob, centered on a square with transparent padding on every edge. Wallpapers contain only low quiet coastal geometry, never a duplicated car or person. Chrome uses sparse lane markings beneath labels. Seven familiar template glyphs retain shape-based native tint and declared directions.
+
+The 1024×640 preview uses final package art and palettes, light left/dark right. Native phone and tablet Editorial review must verify title, complete car/driver, actions and launch handoff on the confirmed current App. No App changes are included.

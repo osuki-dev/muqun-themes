@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Muqun · original artwork",
   "license": "All rights reserved",
   "variants": {
@@ -145,8 +145,8 @@
       "sha256": "3b07d0cf53d29970f8b5b4d383935e7c9d8dac813d3121d195ec75db76294e74"
     },
     "preview": {
-      "path": "assets/preview.webp",
-      "sha256": "02907dc766455433f4635321556689d331ba3f04446f9bfe2742540e4b7ce6fb"
+      "path": "assets/preview.png",
+      "sha256": "069caf6fdb6dc516d543e32e23334a24012452f0ae2d76233b51243caf0a7aee"
     },
     "home-hero": {
       "path": "assets/home-hero.png",
@@ -155,12 +155,51 @@
     "home-decoration": {
       "path": "assets/home-decoration.png",
       "sha256": "b838ad225ea32603279789a159bb0b80963d5df070f327de1b3f5defd242c613"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "0ecf5454feae0fd241ba910def924e1fd1dfa794fa26f3ed6a2b2bfc79e10344"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "a66b1d5247e48e9a54a20f489d4715020a858eac89cc0dad03b2bbf3166551d1"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "6c6f1763bf237b3da02a0fd39da09998e44bedc76edbd22de137488146545951"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "cb5d0e121184f7fd1236718a055ec29c11feea5234d1abb6499160ce39a13bb0"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "paper-courier",
-      "fit": "contain"
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "paper-courier",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "paper-courier",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "home.artwork": {
       "asset": "home-decoration",
@@ -168,6 +207,25 @@
       "focalPoint": {
         "x": 0.68,
         "y": 0.42
+      },
+      "opacity": 1,
+      "compact": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.42
+        }
+      },
+      "regular": {
+        "asset": "home-decoration",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.68,
+          "y": 0.42
+        }
       }
     }
   },
@@ -183,6 +241,7 @@
         "compact": {
           "asset": "scene-light",
           "fit": "cover",
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.64,
             "y": 0.72
@@ -191,15 +250,67 @@
         "regular": {
           "asset": "scene-wide-light",
           "fit": "cover",
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.67,
             "y": 0.55
           }
-        }
+        },
+        "opacity": 0.18
       },
       "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       }
     },
     "dark": {
@@ -213,6 +324,7 @@
         "compact": {
           "asset": "scene-dark",
           "fit": "cover",
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.64,
             "y": 0.72
@@ -221,15 +333,67 @@
         "regular": {
           "asset": "scene-wide-dark",
           "fit": "cover",
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.67,
             "y": 0.55
           }
-        }
+        },
+        "opacity": 0.18
       },
       "home.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       }
     }
   },
@@ -269,6 +433,26 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
   }
 }

@@ -1,13 +1,9 @@
-# Sugar Circuit
+# Theme design, version 1.1.0
 
-A peach-haired adult arcade heroine explores an original candy-plastic world. Bold cel shading, chunky capsules and clear cyan rings establish the visual language. Light mode uses milk-white and raspberry; dark mode uses deep berry shadow, raspberry-pink controls and ice-cyan information accents.
+A calm confection-tech atelier: matte blush anime artwork, sorbet accents, ink controls and quiet cream surfaces.
 
-Four original wallpapers serve compact and regular layouts in both modes. The 2:1 transparent banner supplies Editorial's top artwork and remains a contained banner in Classic, while a separate full-body illustration supplies the Classic Home hero and a chibi illustration serves empty states. Default Muqun identity remains visible in both Home layouts. Decorative art is static and does not supply functional controls.
+The Home uses the native cover header with a custom title, hidden logo and a single tightly composed transparent foreground. Compact and regular overrides repeat the entire image object. Compact and regular use the complete 640x448 illustration with contain geometry. The short Home title Sugar preserves the full gallery name Sugar Circuit. Native phone/tablet Editorial screenshots verified clear title and controls with the full seated figure. Launch is a separately centered 768x768 transparent composition. No identity labels are baked into artwork.
 
-The three template glyphs are a wrapped-candy back arrow, a capsule rocket for send, and a candy-tube paperclip for attachment. The gallery cover is 1024 x 640 with light on the left and dark on the right.
+All eleven current native slots are declared. Shell and Home wallpaper are quiet, mode-specific fields, with no repeated subject. Navigation, composer, actions, cards, primary buttons and tabs use purpose-drawn sparse alpha marks at low authored opacity. The seven template glyphs keep recognizable control silhouettes at 17-20pt. Source directions: back left, send up-right, Home arrow up-right.
 
-## Validation
-
-CLI validation, contrast, package round trip and full source checks pass without warnings for this theme. Shared opacity floors are 92% for the interface and 90% for the terminal; both use 96% authored surface opacity. Wallpaper decoration uses 32% strength to keep conversation text clear while the contained Home banner retains full character detail.
-
-The Editorial treatment uses the same mode palettes and width-specific wallpapers as Classic; its transparent banner inherits at compact and regular widths without baking in labels or controls. The source artwork keeps the character and offered token inside the banner, and all three template glyphs retain transparent, tintable silhouettes. Native-device import and an Editorial browser-preview pass were not run for this update.
+The 1024x640 gallery preview composes final art and palette into native-style reading surfaces; it is an illustration of appearance, not a native screenshot or runtime acceptance claim. Validate, contrast and pack round-trip completed. Native Editorial phone/tablet light-mode screenshots verified title, figure and control balance; remaining modes and long-label/no-art interactions are integration checks.

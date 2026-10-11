@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sulfur-and-silence",
   "name": "Sulfur and Silence",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -22,14 +22,14 @@
         "textMuted": "#484943",
         "textSubtle": "#53544D",
         "textDisabled": "#94958C",
-        "primary": "#514F07",
-        "onPrimary": "#FFFFFF",
-        "primarySubtle": "#514F0712",
+        "primary": "#185C5A",
+        "onPrimary": "#FCFBF5",
+        "primarySubtle": "#185C5A12",
         "danger": "#80322F",
         "dangerSubtle": "#80322F12",
         "success": "#365F45",
         "warning": "#785114",
-        "info": "#59517F"
+        "info": "#286075"
       },
       "surfaces": {
         "backgroundOpacity": 0.95
@@ -38,8 +38,8 @@
         "background": "#F4F2EB",
         "backgroundOpacity": 0.96,
         "foreground": "#262723",
-        "cursor": "#514F07",
-        "link": "#59517F",
+        "cursor": "#185C5A",
+        "link": "#286075",
         "selection": "#514F0730",
         "ansi": [
           "#262723",
@@ -72,14 +72,14 @@
         "textMuted": "#D2D1CB",
         "textSubtle": "#C0BFC6",
         "textDisabled": "#85858E",
-        "primary": "#E4DC61",
-        "onPrimary": "#27260D",
-        "primarySubtle": "#E4DC6115",
+        "primary": "#8DDEDA",
+        "onPrimary": "#132E30",
+        "primarySubtle": "#8DDEDA12",
         "danger": "#F3AEA4",
         "dangerSubtle": "#F3AEA415",
         "success": "#B9D9B2",
         "warning": "#E7C47C",
-        "info": "#CBC2EB"
+        "info": "#9BD9EB"
       },
       "surfaces": {
         "backgroundOpacity": 0.95
@@ -88,8 +88,8 @@
         "background": "#1B1C20",
         "backgroundOpacity": 0.96,
         "foreground": "#F6F4E9",
-        "cursor": "#E4DC61",
-        "link": "#CBC2EB",
+        "cursor": "#8DDEDA",
+        "link": "#9BD9EB",
         "selection": "#E4DC6130",
         "ansi": [
           "#BCC0BC",
@@ -116,148 +116,287 @@
     "default": "solid"
   },
   "assets": {
-    "scene-wide-light": {
-      "path": "assets/scene-wide-light.webp",
-      "sha256": "cfef7157d794e36e860d959a97abfb57c735fae0b22aae389266747f816d74c7"
-    },
-    "scene-wide-dark": {
-      "path": "assets/scene-wide-dark.webp",
-      "sha256": "20b5467fb01311c9d00a051214f74b472e053832cddbabe8402c7fcd83880190"
-    },
-    "scene-portrait-light": {
-      "path": "assets/scene-portrait-light.webp",
-      "sha256": "1d9d1b49e9d722c11e264f84a954fd4cb57bd2ad45dde72452337afa3cdebc65"
-    },
-    "scene-portrait-dark": {
-      "path": "assets/scene-portrait-dark.webp",
-      "sha256": "6a5c9a9f19f0127625570bae0a5aa97432c7844bc08d718f098eaf993b72fde7"
-    },
-    "empty-geode": {
-      "path": "assets/empty-geode.png",
-      "sha256": "c6e6b72327bc2b8a7fcf26391c6c2360aa083fe222d8f4d74122973ca3345cd0"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png",
-      "sha256": "8218abb433912f4292c539fd2542136de0cfca581d6d6bb88d9ce9f4f680d089"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png",
-      "sha256": "40269918f24bfa97464317972d47215d4dd9be25a3ef134f25e5fb759488690b"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "f0acaadca645c1830dcd8864200aafff1bc90e6d47a9dae88be0d598b0ce6cb0"
-    },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "adf8cd00f05c7d66573f4b8b5a01894b24502a90408435921fad40b06a15986c"
+      "sha256": "9c4fc5bdd23f952d610c9a726da331843e0b34d4438c178da37a1a460e565ec1"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "5ece7b079570f62156b7157480a787d742b95ac64fb6b76fcba62acc6d8afb5b"
+    "native-create": {
+      "path": "assets/native-create.png",
+      "sha256": "7af9f7461915c60f029efddbf3677942e3b1edc6a381c428cd08d8783a09479d"
+    },
+    "native-scan": {
+      "path": "assets/native-scan.png",
+      "sha256": "1102c98182e5ab9ddbd7c902145824f36d0bfb6331c87512d2fd02807f9532e7"
+    },
+    "native-settings": {
+      "path": "assets/native-settings.png",
+      "sha256": "56acc2aa9e7db1aa8bb48f127e146b741687ac33dc139b0dc4361f36171a1ddc"
+    },
+    "native-arrow": {
+      "path": "assets/native-arrow.png",
+      "sha256": "8525bb79fca765c19aa593c1f825bc951053e6559c91ae1f17d5700916f63a78"
+    },
+    "home-scene": {
+      "path": "assets/home-scene.png",
+      "sha256": "ed20cd98064706483f697d493c3587cd428c23d51b864641ef2549d218ce849e"
+    },
+    "launch-artwork": {
+      "path": "assets/launch-artwork.png",
+      "sha256": "0bbea2e968bc1246daab420a71de3f3e522cfef11ca3e7f3c4b49c53734154ff"
+    },
+    "native-wallpaper-light": {
+      "path": "assets/native-wallpaper-light.png",
+      "sha256": "8dec71ba17205889463e8c8787942f999825520b4b32f4025e1be96191952e37"
+    },
+    "native-wallpaper-dark": {
+      "path": "assets/native-wallpaper-dark.png",
+      "sha256": "19228b00f45420b387e8b1395ba6d4e9b13422613fb35942d0b794cfc0c44c91"
+    },
+    "native-back": {
+      "path": "assets/native-back.png",
+      "sha256": "b6478b46249614ae371cfcfc96a3efd47dd1ce35b23d6583e3cf6c1c7fb26c68"
+    },
+    "native-send": {
+      "path": "assets/native-send.png",
+      "sha256": "d865d235bad7bbe43efa7d5e9ec8df87dd5d90dfd4b635a0f5a11981045dedb0"
+    },
+    "native-attach": {
+      "path": "assets/native-attach.png",
+      "sha256": "8b03c03519dbe42f1b731ee0f746d83cf19bc69b09b37cf1c592e857260b2199"
     }
   },
   "decoration": {
     "empty.artwork": {
-      "asset": "empty-geode",
-      "fit": "contain"
+      "asset": "launch-artwork",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     }
   },
   "icons": {
     "chrome.back": {
-      "asset": "icon-back",
+      "asset": "native-back",
       "render": "template"
     },
     "chrome.send": {
-      "asset": "icon-send",
+      "asset": "native-send",
       "render": "template"
     },
     "chrome.attach": {
-      "asset": "icon-attach",
+      "asset": "native-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "native-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "native-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "native-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "native-arrow",
       "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "scene-portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "scene-portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "scene-wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "scene-portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "scene-portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "scene-wide-light",
-          "fit": "cover"
-        }
-      },
       "home.artwork": {
-        "asset": "home-hero",
+        "asset": "home-scene",
         "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
+          "asset": "home-scene",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+          "asset": "home-scene",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-artwork",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-artwork",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "native-wallpaper-light",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "native-wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "native-wallpaper-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "scene-portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "scene-portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "scene-wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.wallpaper": {
-        "asset": "scene-portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "scene-portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "scene-wide-dark",
-          "fit": "cover"
-        }
-      },
       "home.artwork": {
-        "asset": "home-hero",
+        "asset": "home-scene",
         "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
+          "asset": "home-scene",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+          "asset": "home-scene",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "launch.artwork": {
+        "asset": "launch-artwork",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-artwork",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-artwork",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "native-wallpaper-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "native-wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "native-wallpaper-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -266,7 +405,7 @@
       "mode": "default"
     }
   },
-  "description": "Iceland imagined as a mineral monotype: basalt columns, sulfur shores and lilac geothermal steam. Chalk daylight gives way to volcanic charcoal, with faceted stone and rising-steam glyphs.",
+  "description": "A youthful hiker explores a turquoise geothermal valley in contemporary drawn anime scenery. Slate rock planes, aqua steam and ivory surfaces replace the old crater miniature; startup is an independent hiker silhouette.",
   "tags": [
     "iceland",
     "geothermal",
@@ -275,5 +414,10 @@
     "monotype",
     "sulfur"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "up-right"
+  }
 }

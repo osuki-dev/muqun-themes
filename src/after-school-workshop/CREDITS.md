@@ -1,21 +1,9 @@
-# Credits
+# After School Workshop artwork credits
 
-The original images in `assets/` were generated with the OpenAI image
-generation tool for the Muqun After School Workshop theme:
+All rights reserved. Original assets created for Muqun Theme Collection.
 
-- `hero-light.png` — original light illustration.
-- `hero-dark.png` — original dark illustration.
-- `preview.png` — original light/dark comparison cover.
-- `editorial-decoration.png` — original transparent Editorial Home workshop vignette, generated on 2026-09-22.
+Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is original AI-generated story illustration, and `assets/launch-character.png` is separately generated startup character art. Both used OpenAI built-in image generation with genuine transparent output; deterministic trim, resize and transparent padding only. Full prompts are in PROMPTS.md.
 
-No external artwork, references, marks, or source images were used.
+`assets/paper-light.png`, `assets/paper-dark.png`, and edge textures are original geometric artwork authored for this theme. Seven native line glyphs reuse the original Muqun Theme Collection geometric family authored during the 2026 Clockwork Harlequin redraw, under the same ownership and rights. Directions: left back, up send, up-right Home arrow.
 
-Prompt and generation provenance for the Editorial decoration is recorded in
-`PROMPTS.md`. Earlier artwork provenance remains recorded in the workspace
-document `../../../docs/home-layouts-2026-09-20/editorial-artwork-generation.md`.
-
-## 2026-09-24 interface extension
-
-The new `icon-*.png` files are original vector drawings exported to transparent template PNGs, with details tailored to this pack. `chrome-light.png` and `chrome-dark.png` are original geometric vector chrome accents. No outside source art was used for these additions.
-
-The separate `wallpaper-light.png` and `wallpaper-dark.png` are original OpenAI-generated companion streetscapes, prompted from the theme's existing woodcut style and paired by a night lighting edit on 2026-09-24. They contain no people, brand marks, or lettering.
+`assets/preview.png` is an original gallery composition of the final theme art and UI palette, not a device screenshot. No old machinery, diorama or miniature prop art is retained. No external stock image or third-party brand assets are bundled.

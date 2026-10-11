@@ -1,15 +1,7 @@
-# Sakura, in Passing
+# Native artwork design
 
-Japan / Himeji, interpreted through cherry-blossom woodblock prints: blush paper, deep crimson and ink indigo. Fine carved contours and softly graded ink make the white keep and passing heron feel like a fleeting spring impression.
+Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.
 
-Light mode uses blush surfaces and crimson actions; dark mode uses ink-indigo surfaces and pale blossom actions. The wallpaper is composed separately for compact portrait and regular landscape layouts. Interface planes use 92% opacity and terminal planes 94% to preserve reading comfort.
+Independent launch is a1024-square genuinely transparent character composition; launch uses assetURI only. Quiet wallpaper carries sparse bottom/right contour/glaze marks, never repeated hero. Chrome uses low-opacity label-safe edge/rail accents. Missing optionaltaskglyphs use nativefallback. Backleft/sendup/Homeup-right directions match inspected glyphs.
 
-The Editorial Home uses the cover presentation: a transparent 2:1 Himeji foreground sits over the existing light or moonlit scenery, while the native title reads “Sakura, in Passing.” Its castle and blossom canopy stay to the right, leaving the left utility area open, and the lower edge remains calm beneath native work cards. Toolbar backgrounds are removed for a lighter print-like composition. The same foreground is inherited on compact and regular widths; `contain` preserves the whole silhouette. Classic retains its separate square bridge hero.
-
-The back glyph suggests a folded fan, the send glyph a heron in flight, and attachment a loop of mizuhiki cord. Template alpha lets each palette supply the tint. The square empty-state vignette is a resting heron and blossom twig; the dedicated gallery cover carries the English title. The Home identity uses the theme title and hides the default logo so the cover reads as a coherent editorial masthead.
-
-CLI validation passes without warnings. Contrast floors remain 90% interface / 84% terminal in light mode and 89% / 78% in dark mode; authored opacities exceed both. The local package passes its round trip at 2.13 MiB. Browser and device visual validation remain pending; a running preview server alone is not evidence of either.
-
-## Toolbar surfaces
-
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+Final palette/pack/alpha checks are recorded under ignoredtmp/theme-refresh/a. Correctworktree native QA queued on emulator5560; no fictional gallery preview is claimed as native screenshot.

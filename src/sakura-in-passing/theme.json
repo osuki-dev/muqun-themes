@@ -3,251 +3,234 @@
   "schemaVersion": 1,
   "id": "sakura-in-passing",
   "name": "Sakura, in Passing",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
-  "description": "Japan / Himeji. Cherry blossoms and a white castle in blush, crimson and ink indigo. Original woodblock-inspired day and moonlit illustrations, with folding-fan, heron and mizuhiki glyphs.",
-  "tags": [
-    "japan",
-    "himeji",
-    "sakura",
-    "woodblock",
-    "crimson"
-  ],
   "preview": "preview",
-  "homePresentation": {
-    "header": "cover",
-    "toolbarBackground": true
-  },
   "variants": {
     "light": {
       "colors": {
-        "background": "#FAF0F1",
-        "surface": "#FFF8F7",
-        "surfaceRaised": "#F0E2E6",
-        "border": "#D6BAC4",
-        "borderStrong": "#92727F",
-        "text": "#242338",
-        "textMuted": "#494052",
-        "textSubtle": "#554656",
-        "textDisabled": "#A48D99",
-        "primary": "#922346",
-        "onPrimary": "#FFF8F7",
-        "primarySubtle": "#92234610",
-        "danger": "#992A24",
-        "dangerSubtle": "#992A2410",
-        "success": "#325844",
-        "warning": "#715021",
-        "info": "#364C7A"
+        "background": "#FAF3F2",
+        "surface": "#FFFAF8",
+        "surfaceRaised": "#EEE0E1",
+        "border": "#C5D2DC",
+        "borderStrong": "#617C91",
+        "text": "#322631",
+        "textMuted": "#59404F",
+        "textSubtle": "#624958",
+        "textDisabled": "#82929E",
+        "primary": "#81405A",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#81405A0C",
+        "danger": "#962D40",
+        "dangerSubtle": "#962D400B",
+        "success": "#256047",
+        "warning": "#775017",
+        "info": "#3E5479"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#FAF0F1",
-        "backgroundOpacity": 0.94,
-        "foreground": "#242338",
-        "cursor": "#922346",
-        "link": "#364C7A",
-        "selection": "#92234630",
+        "background": "#FAF3F2",
+        "backgroundOpacity": 1,
+        "foreground": "#322631",
+        "cursor": "#81405A",
+        "link": "#81405A",
+        "selection": "#81405A30",
         "ansi": [
-          "#242338",
-          "#922346",
-          "#325844",
-          "#715021",
-          "#364C7A",
-          "#713D72",
-          "#285B68",
-          "#554656",
-          "#5B5265",
-          "#982441",
-          "#315837",
-          "#725017",
-          "#354C82",
-          "#763B70",
-          "#285A65",
-          "#242338"
+          "#152C3D",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#394F60",
+          "#44596A",
+          "#963044",
+          "#286047",
+          "#775017",
+          "#244E8D",
+          "#704A87",
+          "#256371",
+          "#152C3D"
         ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#171B30",
-        "surface": "#20243B",
-        "surfaceRaised": "#292F48",
-        "border": "#4C5573",
-        "borderStrong": "#919ABB",
-        "text": "#FFF2F4",
-        "textMuted": "#DDD5E7",
-        "textSubtle": "#CBC3D9",
-        "textDisabled": "#8A8FA9",
-        "primary": "#F4AEC3",
-        "onPrimary": "#301829",
-        "primarySubtle": "#F4AEC312",
-        "danger": "#FFB9AA",
-        "dangerSubtle": "#FFB9AA12",
-        "success": "#BBDABD",
-        "warning": "#EDD0A0",
-        "info": "#B9CFF7"
+        "background": "#201B28",
+        "surface": "#2A2334",
+        "surfaceRaised": "#382E44",
+        "border": "#3C566B",
+        "borderStrong": "#7290A5",
+        "text": "#FFF4F3",
+        "textMuted": "#E6CDD6",
+        "textSubtle": "#DEC3D0",
+        "textDisabled": "#8093A3",
+        "primary": "#F1BDCE",
+        "onPrimary": "#352435",
+        "primarySubtle": "#A8D4FF0C",
+        "danger": "#FFB6C2",
+        "dangerSubtle": "#FFB6C20C",
+        "success": "#9BDDC0",
+        "warning": "#F7D39A",
+        "info": "#BCD1F2"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#171B30",
-        "backgroundOpacity": 0.94,
-        "foreground": "#FFF2F4",
-        "cursor": "#F4AEC3",
-        "link": "#B9CFF7",
-        "selection": "#F4AEC330",
+        "background": "#201B28",
+        "backgroundOpacity": 1,
+        "foreground": "#FFF4F3",
+        "cursor": "#F1BDCE",
+        "link": "#F1BDCE",
+        "selection": "#F1BDCE30",
         "ansi": [
-          "#BAC0D4",
-          "#F4AEC3",
-          "#BBDABD",
-          "#EDD0A0",
-          "#B9CFF7",
-          "#DCC0ED",
-          "#A9DBDE",
-          "#E1DBEB",
-          "#CDD1E4",
-          "#FFD0DE",
-          "#D1EACD",
-          "#FBE5B9",
-          "#D1E1FF",
-          "#ECD9F8",
-          "#CAECED",
-          "#FFF2F4"
+          "#B4CADA",
+          "#FFB6C2",
+          "#9BDDC0",
+          "#F7D39A",
+          "#A8D4FF",
+          "#DABDF1",
+          "#A2DFE6",
+          "#CDDFEB",
+          "#B4CADA",
+          "#FFD1D9",
+          "#BCEDD5",
+          "#FFE2B8",
+          "#C8E4FF",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#F2F7FA"
         ]
       }
     }
   },
   "materials": {
-    "default": "solid"
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "236ebd9e6c76caad5e418e8d2ae36aa7224f4fb3c4d5dca011b4de8bbac0ce2e"
+    "home-compact": {
+      "path": "assets/home-compact.png"
     },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "632bfe399b151fa96fa1a96469dd5cc22aa1994f2f270362f5c1a8b9cc01247f"
+    "home-regular": {
+      "path": "assets/home-regular.png"
     },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "eb68b5efd17f7b116d2d52917cf1998310a00ddd7e1db7dc5af54dedabeb5207"
+    "launch": {
+      "path": "assets/launch.png"
     },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "25d4e2d46e80723553f4603b3d42ed6ae21d5ba23c2dee5d8927a99fcd86781a"
+    "wallpaper-light": {
+      "path": "assets/wallpaper-light.png"
     },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "483c56241052122a20ecd4bd1ccb5a1c42d5065088fb493bba45e64197297ff3"
+    "wallpaper-dark": {
+      "path": "assets/wallpaper-dark.png"
     },
-    "preview": {
-      "path": "assets/preview.webp",
-      "sha256": "403c078773a0c6147864b0a98c4515603d8f18492b8c24414b474cfbf68a9cdb"
+    "edge": {
+      "path": "assets/edge.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
     },
     "icon-back": {
-      "path": "assets/icon-back.png",
-      "sha256": "317779ba32a27dcee359ea92bf3754259b37485c4f84839fd17ae901a5101374"
+      "path": "assets/icon-back.png"
     },
     "icon-send": {
-      "path": "assets/icon-send.png",
-      "sha256": "a4d3895fda737c2c12eb37df683355bc24abe748eba3576c4898b6de57efdbe2"
+      "path": "assets/icon-send.png"
     },
     "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "da246c17e7b5347cb35c248dc0d7c427c9327958d9f6b337a5aa1411c711eba6"
+      "path": "assets/icon-attach.png"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "c845f3f97febfe700d4f15da649897009ccb3d0e2f693b045859394f3336885f"
+    "icon-create": {
+      "path": "assets/icon-create.png"
     },
-    "editorial-foreground": {
-      "path": "assets/editorial-foreground.png",
-      "sha256": "11cea8e8857f6a1c581e0ad79b44899b653035941b1a24a173f1c20cf18d911d"
+    "icon-scan": {
+      "path": "assets/icon-scan.png"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png"
+    },
+    "preview": {
+      "path": "assets/preview.png"
     }
   },
   "decoration": {
-    "empty.artwork": {
-      "asset": "empty",
+    "home.artwork": {
+      "asset": "home-compact",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.15
+      },
+      "compact": {
+        "asset": "home-compact",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.15
+        }
+      },
+      "regular": {
+        "asset": "home-regular",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.15
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch",
       "fit": "contain"
-    }
-  },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "launch.artwork": {
-        "asset": "home-hero",
-        "fit": "contain"
-      },
-      "home.artwork": {
-        "asset": "editorial-foreground",
-        "fit": "contain",
-        "focalPoint": {
-          "x": 0.7,
-          "y": 0.5
-        }
-      }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "launch.artwork": {
-        "asset": "home-hero",
-        "fit": "contain"
-      },
-      "home.artwork": {
-        "asset": "editorial-foreground",
-        "fit": "contain",
-        "focalPoint": {
-          "x": 0.7,
-          "y": 0.5
-        }
-      }
-    }
-  },
-  "homeIdentity": {
-    "name": {
-      "mode": "custom",
-      "text": "Sakura, in Passing"
+    "empty.artwork": {
+      "asset": "launch",
+      "fit": "contain",
+      "opacity": 0.85
     },
-    "logo": {
-      "mode": "hidden"
+    "navigation.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.14
     },
-    "artwork": {
-      "mode": "default"
+    "composer.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.12
+    },
+    "actions.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "cards.decoration": {
+      "asset": "tile",
+      "fit": "contain",
+      "opacity": 0.13
+    },
+    "buttons.primary.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.08
+    },
+    "tabs.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
     }
   },
   "icons": {
@@ -262,6 +245,149 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
     }
+  },
+  "variantDecorations": {
+    "light": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.5,
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.8,
+        "compact": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-light",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    },
+    "dark": {
+      "shell.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.5,
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.8,
+        "compact": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "wallpaper-dark",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "custom",
+      "text": "Sakura"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An illustrated spring riverside cycling walk in cream, blush and slate.",
+  "tags": [
+    "anime",
+    "editorial",
+    "travel",
+    "light",
+    "dark"
+  ],
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "up"
   }
 }

@@ -1,19 +1,17 @@
 # Midnight Operator
 
-Phosphor green accents sit on charcoal in dark mode and pale celadon in light mode. Fine etched circuit routes stay near the edges and leave the central field quiet. The electronic character comes from restrained routing geometry and ceramic material, without simulated controls or illegible code.
+Version 1.2.0 replaces the previous visual system with original transparent illustration, quiet wallpaper, purposeful edge details and seven legible template glyphs. The theme uses the Editorial Cover header and an intentional custom title. Compact and regular slots explicitly preserve contain geometry for the foreground; wallpaper is a separate quiet surface. Native Classic and Editorial remain the reader's choice.
 
-Independently composed wide and portrait artwork supports tablets and phones. The contained empty illustration is a folded ceramic circuit module. Circuit-node back, northeast send and cable-loop attachment glyphs use template tinting. The default Muqun home name and logo remain. UI and terminal planes use 97% opacity.
+The centered transparent launch resource is a separate original graphic symbol. It contains no embedded UI or title. The 1024x640 preview uses final package assets and palette, light on the left and dark on the right, and presents representative Editorial Home and composer surfaces. It is an authored composition, not a native screenshot.
 
-Editorial Home uses the existing responsive circuit wallpaper as its cover background and reuses the transparent relay garden as a separate foreground. Classic Home keeps the same relay garden in its established contained hero slot. Both compact and regular resolutions are explicit, so phones retain the portrait art while wider layouts retain the landscape composition.
+## Verification
 
-## Validation
+Local CLI 2.3.0 validation and contrast pass. Both themes use 21 assets and 11 canonical decoration slots. Shared interface and terminal opacity floors are 90% and 87%; authored planes use 100%. All seven icons are transparent template glyphs. Source arrow points up-right, back points left, and send points right, with explicit direction metadata.
 
-CLI 1.8.1 source validation, contrast, package round trip and package validation passed. Shared contrast floors are 87% for interface surfaces and 88% for terminal backgrounds; authored opacity is 97%. All six illustrations were inspected locally. Template glyphs were reviewed at 17px and 34px in both palettes.
+Package round trips pass. Native artwork safety calculation preserves the requested 18% chrome opacity in both modes, except Midnight Operator dark mode is safely bounded to approximately 17.92%. Bounded native screenshot evidence was inspected for the larger Editorial treatment; this does not establish every device or state.
 
-The browser preview was visually reviewed in both light and dark modes: Phone Home, Conversation and Terminal, plus Tablet Home and Terminal. Artwork and glyphs loaded, labels remained readable, and no clipping was observed. This is gallery rendering verification, not a native-device import test.
+See CREDITS.md and ARTWORK.md for provenance and the exact illustration prompt.
 
-## Home illustration
+The larger Editorial Cover presentation uses the original complete composition on both compact and regular widths. An earlier bounded p1-companion light-mode comparison confirmed the larger artwork treatment on phone and cold-start tablet: the full subject appears at a stronger scale, the title stays readable with slight intentional magazine-style overlap, and utility controls and work cards remain clear. The initial post-apply tablet image can retain the previous layout; cold restart was used to verify that header. Dark palettes pass CLI contrast and their authored previews were inspected, but this bounded larger-scale native pass did not cover every mode, window size or state.
 
-A dedicated contained Home composition now accompanies the server list. The original empty-state illustration remains separate. The new 768 × 768 PNG retains transparent edges for both palettes.
-
-For version 1.1.0, the same wordless transparent illustration is also used as Editorial's cover foreground; no new generated artwork was needed.
+The Home title is intentionally shortened to “Night” to keep the latest native Cover title clear of the full-size figure. The catalogue name remains Midnight Operator. Artwork and native control scale are unchanged.

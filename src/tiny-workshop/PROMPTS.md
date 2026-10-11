@@ -1,43 +1,11 @@
-# Artwork prompts
+# Tiny Workshop generation briefs
 
-Generated with the built-in OpenAI image generation tool. Wallpapers encoded as WebP; transparent illustration and glyphs preserve PNG alpha.
+Full redraw on 2026-10-11 using OpenAI built-in image generation, no external reference images.
 
-## wide-light
+## Home story
 
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Landscape1536x1024 daylight. Bottom right corner: miniature isometric workbench with tiny blue toolbox, copper robot with one round optical eye and chunky useful hands repairing a gear; concrete floor stretches calmly through center and left two thirds. Warm daylight, pale concrete background. High-end miniature handcrafted isometric diorama, matte painted metal, concrete, tool blue and copper orange, exquisite but restrained craft, not spacecraft, not glossy abstract blobs. No text, no logos, no watermark, no fake UI, no borrowed character.
+Use case: illustration-story. Asset type: modern youthful 2D anime editorial Home scene with genuinely transparent outer edges. Tiny Workshop: original adult woman age25 with short dark bob hair, bright confident expression, warm ivory cropped-length work jacket over blue-gray tee and comfortable slate trousers, standing beside and customizing a contemporary matte coral commuter bicycle in a clean sunlit urban cycle studio. Large half/three-quarter body character dominates scene; hands applying a small geometric handlebar wrap, bike front wheel and frame integrated beside her, only one simple hex tool on minimal nearby surface. Refined contemporary Japanese editorial anime illustration with clean ink outlines, flat color planes and subtle cel shading. Slate-blue, warm cream and coral palette, one broad pale skylight plane and sparse geometric studio shelving fade into genuine transparency at edges; not a vignette diorama, no tiny model scene, no steampunk, brass, antique workbench, machinery collection, toy look, ornate frame, lettering, logos, watermark. Face and hands large legible, generous only 5 percent outer margin, subject fills canvas. Portrait 4:5 composition, fully contain head, hands, and main bicycle wheel.
 
-## wide-dark
+## Independent startup character
 
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Landscape1536x1024 night. Lower left corner: miniature isometric blue steel repair bench under small copper task lamp, tiny original boxy robot on wheeled stool inspecting mechanical arm; deep tool-blue workshop walls and dark concrete floor, large calm center and right two thirds. Warm amber pools only near bench. High-end miniature handcrafted isometric diorama, matte painted metal, concrete, tool blue and copper orange, exquisite but restrained craft, not spacecraft, not glossy abstract blobs. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## portrait-light
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Portrait1024x1536 daylight. Bottom quarter contains lovingly detailed tiny isometric repair island: blue cabinet, copper cable spool, one small original one-eyed robot holding a wrench, concrete base. Upper three quarters pale concrete with very faint shadows, no busy detail. Fresh daylight. High-end miniature handcrafted isometric diorama, matte painted metal, concrete, tool blue and copper orange, exquisite but restrained craft, not spacecraft, not glossy abstract blobs. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## portrait-dark
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Portrait1024x1536 night. Bottom right quarter tiny isometric tool-blue workshop nook, original chunky copper repair robot beside warm desk lamp and gear tray, tiny drawers. Upper three quarters uninterrupted quiet dark blue-grey atmosphere. Rich warm copper accents, gentle lamp glow. High-end miniature handcrafted isometric diorama, matte painted metal, concrete, tool blue and copper orange, exquisite but restrained craft, not spacecraft, not glossy abstract blobs. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## empty
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Square transparent isolated original miniature isometric robot mechanic sitting on blue toolbox holding small copper wrench, one round optical eye, compact charming proportions, tactile painted metal and tiny believable joints. True transparent background generous margins, no floor rectangle. High-end miniature handcrafted isometric diorama, matte painted metal, concrete, tool blue and copper orange, exquisite but restrained craft, not spacecraft, not glossy abstract blobs. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## back
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Square transparent black monochrome template UI icon: bold left arrow formed by a wrench handle, clear broad left chevron head and short shaft ending in simple open spanner jaw. Minimal chunky silhouette, readable17px, centered18% margins. No texture. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## send
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Square transparent black monochrome template UI icon: bold right-up arrow formed as a compact mechanical spring-launch dart, triangular arrowhead with one short stepped mechanical tail. Unmistakable send direction, no tiny details, readable17px, centered18% margins. No texture. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## attach
-
-Use case: stylized-concept. Original Tiny Workshop theme artwork. Square transparent black monochrome template UI icon: unmistakable paperclip with a small hexagonal nut outline integrated at lower bend. Bold clean strokes, transparent open interior, mechanical workshop character, readable17px, centered18% margins. No texture. No text, no logos, no watermark, no fake UI, no borrowed character.
-
-## Preview
-
-Use case: compositing. Create Tiny Workshop gallery cover landscape8:5. Use first reference for exact left daylight half, second reference for exact right night half, equal split at center. Recompose miniature original robot workshops so a lovingly crafted copper/blue robot repair bench is visible in each half. Preserve handmade miniature diorama detail, concrete/toolblue/copper palette. Full bleed no text no fake UI no border. Output1024x640.
-
-## Distinct Home hero
-
-Create a NEW standalone square Home hero illustration, 1024x1024, intended to resize to768px. Handcrafted miniature diorama of a compact repair workbench with open clockwork mechanism, copper gears, tiny vise, hanging blue wrench board and a warm copper task light. Concrete gray, tool blue and warm copper. Tilt-shift miniature sculpted clay and metal realism. No robot character or closed toolbox. One cohesive central composition fitting within80% of canvas, generous transparent margins on all four sides. GENUINELY TRANSPARENT background with real alpha, no checkerboard texture, no colored rectangular backdrop, no white paper backdrop, no frame, no text, no logo. Beautiful readable contained illustration at180px display height. Subtle dark and light outlines keep subject legible on both light and dark app surfaces.
+Use case: illustration-story. Asset type: independent genuinely transparent square native startup illustration. Original adult woman age25 short dark bob, bright confident expression, ivory modern work jacket over slate-blue tee, half-body casual pose holding a simple coral bicycle helmet close to hip and lifting other hand to tie hair, youthful contemporary cycle-studio identity. Premium 2D Japanese editorial anime linework, flat cream/slate/coral shapes with delicate cel shading. Large expressive face, waist-up silhouette fills 80 percent of canvas, complete hands and head, real transparent RGBA background. No workbench, bicycle, tools, gear collection, steampunk, brass, background rectangle, 3D figurine, lettering, logos, border or watermark.

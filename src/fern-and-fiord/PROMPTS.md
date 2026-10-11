@@ -1,52 +1,11 @@
-# Artwork prompts
+# Fern and Fiord generation briefs
 
-Generated with OpenAI built-in image generation. Final assets are resized and encoded for the theme package; transparency is preserved for cutouts and template glyphs.
+Full redraw on 2026-10-11 using OpenAI built-in image generation, no external reference images.
 
-## Editorial reuse
+## Home story
 
-## preview
+Use case: illustration-story. Asset type: youthful contemporary 2D anime editorial kayak journey scene, square-to-portrait composition with genuine transparent outer edges. Fern and Fiord: original adult man age25 with windswept dark hair, calm alert eyes, seafoam lightweight jacket and charcoal life vest, seated in a sleek coral kayak gliding through cool teal fjord water. Character large and prominent from waist up, one hand resting across simple graphite paddle, looking toward a pine forest shore. Layered graphic teal water ribbons with clear reflections fill lower third, deep pine-green forest silhouettes and cool mist-blue cliffs appear as broad understated side planes, open airy center behind face. Contemporary Japanese 2D anime magazine illustration, precise expressive ink contours, flat scenic layers and soft cel shading. Human journey/story first, no miniature souvenir cutout, tourism diorama, isolated prop kayak, ornate design, 3D toy, photo montage, text, logo, watermark. Head, paddle grip and coral hull readable; whole composition fills canvas with 5 percent outer breathing room and irregular edge foliage/reflections fading to transparent alpha. Do not make a full rectangular scenic backdrop.
 
-Create a premium theme gallery cover 1024x640, a balanced two-panel diptych using these two own artworks. LEFT HALF must present reference1 pale daytime Fiordland mist and fern lake. RIGHT HALF must present reference2 dark moonlit Fiordland cliff and silver reflection. Preserve their beautiful carved-pigment realism and distinctive palettes. Clear straight centered vertical divide. Full bleed, no frames, no phone/device UI. Add only exact title 'Fern and Fiord' in elegant restrained light serif letters centered across a quiet dark band near lower edge, with small 'NEW ZEALAND' above it. Both halves equally important; no other text. Do not blend away the light/dark difference.
+## Independent startup character
 
-## wide-light
-
-Original premium carved-pigment landscape illustration for a New Zealand Fiordland theme. Rich tactile gouache pigment with fine incised rock strata and botanical fern detail, elegant editorial landscape art, no text, no logos, no border, no buildings. Huge steep glacial fiord cliffs, slender waterfalls, wet rainforest, calm mirror water. Palette deep greenstone, glacier mint, cool silver mist; avoid tropical turquoise or generic blue mountains. Landscape 1536x1024. Early overcast morning, pale mist opens between towering forested cliffs. Foreground fern fronds frame lower corners, long lake channel leads centrally to distant mountain. Light silver mint sky occupies upper third. Beautiful restrained composition, center quiet for UI.
-
-## wide-dark
-
-Original premium carved-pigment landscape illustration for a New Zealand Fiordland theme. Rich tactile gouache pigment with fine incised rock strata and botanical fern detail, elegant editorial landscape art, no text, no logos, no border, no buildings. Huge steep glacial fiord cliffs, slender waterfalls, wet rainforest, calm mirror water. Palette deep greenstone, glacier mint, cool silver mist; avoid tropical turquoise or generic blue mountains. Landscape 1536x1024. Blue-hour moonrise after rain, silver lunar reflections on deep black-green water, softly luminous thin waterfall at right, fern fronds silhouetted lower left, cliff mass left and receding peaks right. Deep greenstone darkness, mint silver highlights, quiet center.
-
-## portrait-light
-
-Original premium carved-pigment landscape illustration for a New Zealand Fiordland theme. Rich tactile gouache pigment with fine incised rock strata and botanical fern detail, elegant editorial landscape art, no text, no logos, no border, no buildings. Huge steep glacial fiord cliffs, slender waterfalls, wet rainforest, calm mirror water. Palette deep greenstone, glacier mint, cool silver mist; avoid tropical turquoise or generic blue mountains. Portrait 1024x1536. Looking from fern-rich shore upward to massive angular cliff rising at right, waterfall and mirrored glacial inlet in middle, pale mist in upper half, layered rainforest lower third. Early cool morning mint light. Quiet upper center for UI.
-
-## portrait-dark
-
-Original premium carved-pigment landscape illustration for a New Zealand Fiordland theme. Rich tactile gouache pigment with fine incised rock strata and botanical fern detail, elegant editorial landscape art, no text, no logos, no border, no buildings. Huge steep glacial fiord cliffs, slender waterfalls, wet rainforest, calm mirror water. Palette deep greenstone, glacier mint, cool silver mist; avoid tropical turquoise or generic blue mountains. Portrait 1024x1536. Moonlit secluded fiord, immense cliff at left, two fine waterfalls catching silver moonlight, crescent high at right through mist, dark ferns and smooth shore rocks at bottom, reflective narrow water running vertically. Quiet upper center for UI.
-
-## empty
-
-Original premium botanical cutout illustration, square 1024x1024 transparent background. A small island of polished greenstone pebbles supporting three graceful New Zealand rainforest fern fronds, a tiny silver waterfall ribbon threading between stones into a small reflective pool. Carved-pigment gouache textures, deep greenstone and glacier mint silver, crisp elegant silhouette. No text, no frame, no background scenery, isolated alpha.
-
-## icon-back
-
-A single bold black UI glyph on truly transparent background, square 1024. Strong left-pointing navigation arrow formed from a gently angular fern stem with just two broad paired leaflets on shaft. Arrowhead unmistakably points left, one cohesive simple silhouette, generous transparent padding, no fine veins no texture no shadow. Must read at17px. Original botanical shape.
-
-## icon-send
-
-A single bold black UI send glyph on truly transparent background, square1024. A sleek pointed kayak seen from above oriented diagonally toward upper right, with one simple narrow negative-space cockpit and a short central paddle crossbar. Strong forward arrow-like hull silhouette conveying send across a fiord. Thick shapes legible at17px, generous padding, no texture shadow words.
-
-## icon-attach
-
-A single bold black UI attachment glyph on truly transparent background, square1024. A recognizable open paperclip loop shaped like a long curved unfurling fern stem, one broad leaf on its outer lower bend. Clear open channel and inner loop, thick clean silhouette legible at17px, generous padding, no texture shadow text.
-
-## home-hero
-
-New Zealand Fiordland, a red-orange kayak with paddle on a glacier-mint fjord inlet beneath two sheer greenstone cliff faces and a silver waterfall; small cool-mist cloud. Original rich carved-pigment illustration. No giant fern or stream-rock stilllife. Create one brand-new standalone Home hero illustration. Square transparent PNG with real alpha; no background rectangle, checkerboard or colored backdrop. Complete centered silhouette as one cohesive little scene, all objects fully visible and contained within central 75% of canvas with generous clear margins on all four sides. Premium art, beautifully crafted tactile detail, readable at small size. No words, logos, lettering, labels, frame or UI. Target 768x768.
-
-Generated as an independent image with the built-in image generation tool. Downsampled and padded without cropping to a 768 × 768 transparent PNG.
-
-
-## Current artwork mapping
-
-Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.
+Use case: illustration-story. Asset type: independent genuinely transparent square native startup character for Fern and Fiord. Original youthful adult man age25 with windswept dark hair, seafoam lightweight outdoor jacket and charcoal life vest, half-body portrait holding a simple graphite paddle diagonally close to torso, calm friendly expression and confident journey energy. Refined contemporary 2D Japanese anime editorial illustration, clean ink lines, teal/seafoam/coral small accent, soft flat cel shading. Centered waist-up silhouette fills 80 percent of square, head and hands complete, real transparent RGBA background. No kayak, forest, cliffs, landscape rectangle, diorama, miniature tourism souvenir, 3D figurine, labels, text, logo, watermark or border.

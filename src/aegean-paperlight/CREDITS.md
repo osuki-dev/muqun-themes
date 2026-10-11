@@ -1,7 +1,7 @@
-# Aegean Paperlight
+# Aegean Paperlight — artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. All rights reserved. No third-party artwork is included. See PROMPTS.md for the artwork prompts.
+All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.
 
-Home hero (`assets/home-hero.png`): original AI-generated artwork created with the built-in image generation tool for Muqun Theme Collection. Greek Cyclades, a small traditional white windmill with complete radial wooden sails and a cobalt fishing skiff resting beside a tiny sea-glass inlet, coral buoy accents. The scene is an imaginative illustration, not a precise location reconstruction. Covered by this theme’s existing license.
+License: All rights reserved.
 
-Editorial Home decoration (`assets/home-decoration.png`): original AI-generated transparent torn-paper artwork created with the built-in image generation tool for Muqun Theme Collection. It is an imagined Cycladic windmill and harbor vignette; no third-party artwork is included. Covered by this theme's existing license.
+Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.

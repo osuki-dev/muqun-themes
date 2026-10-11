@@ -3,107 +3,107 @@
   "schemaVersion": 1,
   "id": "ocarina-of-dawn",
   "name": "Ocarina of Dawn",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying IP belongs to Nintendo",
   "variants": {
     "light": {
       "colors": {
-        "background": "#F1F3E8",
-        "surface": "#FAFCF3",
-        "surfaceRaised": "#E1E7D9",
-        "border": "#BDC8B6",
-        "borderStrong": "#7A8D78",
-        "text": "#203A31",
-        "textMuted": "#3D5546",
-        "textSubtle": "#475C4D",
-        "textDisabled": "#8C9A85",
-        "primary": "#2E5344",
+        "background": "#F4F4E6",
+        "surface": "#FFFCF6",
+        "surfaceRaised": "#E4E9D6",
+        "border": "#C8C8D8",
+        "borderStrong": "#8E91B0",
+        "text": "#23392F",
+        "textMuted": "#4D535F",
+        "textSubtle": "#565B65",
+        "textDisabled": "#989BA9",
+        "primary": "#315F49",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#2E534410",
-        "danger": "#882F3A",
-        "dangerSubtle": "#882F3A10",
-        "success": "#2B5941",
-        "warning": "#78531A",
-        "info": "#2F536F"
+        "primarySubtle": "#315F4914",
+        "danger": "#963D52",
+        "dangerSubtle": "#963A5110",
+        "success": "#326253",
+        "warning": "#775B2C",
+        "info": "#375D80"
       },
       "surfaces": {
-        "backgroundOpacity": 0.95
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#F1F3E8",
-        "backgroundOpacity": 0.97,
-        "foreground": "#203A31",
-        "cursor": "#2E5344",
-        "link": "#2F536F",
-        "selection": "#2E534430",
+        "background": "#F4F4E6",
+        "backgroundOpacity": 1,
+        "foreground": "#23392F",
+        "cursor": "#315F49",
+        "link": "#375D80",
+        "selection": "#315F4930",
         "ansi": [
-          "#203A31",
-          "#882F3A",
-          "#2B5941",
-          "#78531A",
-          "#2F536F",
-          "#674968",
-          "#285B59",
-          "#475C4D",
-          "#53664F",
-          "#943743",
-          "#34624B",
-          "#805921",
-          "#3C5A78",
-          "#755273",
-          "#376562",
-          "#203A31"
+          "#565B65",
+          "#963D52",
+          "#326253",
+          "#775B2C",
+          "#375D80",
+          "#315F49",
+          "#326253",
+          "#4D535F",
+          "#565B65",
+          "#963D52",
+          "#326253",
+          "#775B2C",
+          "#375D80",
+          "#315F49",
+          "#326253",
+          "#23392F"
         ]
       }
     },
     "dark": {
       "colors": {
-        "background": "#14271F",
-        "surface": "#1D3127",
-        "surfaceRaised": "#293E31",
-        "border": "#526750",
-        "borderStrong": "#90A48A",
-        "text": "#F6F6DE",
-        "textMuted": "#DCE3CB",
-        "textSubtle": "#C8D3B8",
-        "textDisabled": "#8FA184",
-        "primary": "#E7D7A1",
-        "onPrimary": "#2D301C",
-        "primarySubtle": "#E7D7A110",
-        "danger": "#F6BCC1",
-        "dangerSubtle": "#F6BCC110",
-        "success": "#B7DCB6",
-        "warning": "#EEDA9F",
-        "info": "#BED9DD"
+        "background": "#122B29",
+        "surface": "#122B29",
+        "surfaceRaised": "#29433E",
+        "border": "#455578",
+        "borderStrong": "#8C9BC3",
+        "text": "#FFF7E8",
+        "textMuted": "#D5DFE7",
+        "textSubtle": "#BCCCD8",
+        "textDisabled": "#8592AC",
+        "primary": "#D5E7A7",
+        "onPrimary": "#23392F",
+        "primarySubtle": "#D5E7A714",
+        "danger": "#FFC1CA",
+        "dangerSubtle": "#F4BBC814",
+        "success": "#B3E1CE",
+        "warning": "#F0D89E",
+        "info": "#B4DDF0"
       },
       "surfaces": {
-        "backgroundOpacity": 0.95
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#14271F",
-        "backgroundOpacity": 0.97,
-        "foreground": "#F6F6DE",
-        "cursor": "#E7D7A1",
-        "link": "#BED9DD",
-        "selection": "#E7D7A130",
+        "background": "#122B29",
+        "backgroundOpacity": 1,
+        "foreground": "#FFF7E8",
+        "cursor": "#D5E7A7",
+        "link": "#B4DDF0",
+        "selection": "#D5E7A730",
         "ansi": [
-          "#BED1B4",
-          "#F6BCC1",
-          "#B7DCB6",
-          "#EEDA9F",
-          "#BED9DD",
-          "#D9C3DD",
-          "#BADBD1",
-          "#DCE3CB",
-          "#CCD9BE",
-          "#FFD3D6",
-          "#CDE9C9",
-          "#F6E8BC",
-          "#D2E7E8",
-          "#E8D8E9",
-          "#D0ECE1",
-          "#F6F6DE"
+          "#BCCCD8",
+          "#FFC1CA",
+          "#B3E1CE",
+          "#F0D89E",
+          "#B4DDF0",
+          "#D5E7A7",
+          "#B3E1CE",
+          "#D5DFE7",
+          "#BCCCD8",
+          "#FFC1CA",
+          "#B3E1CE",
+          "#F0D89E",
+          "#B4DDF0",
+          "#D5E7A7",
+          "#B3E1CE",
+          "#FFF7E8"
         ]
       }
     }
@@ -112,62 +112,127 @@
     "default": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "0375ceec44cfec535a08eea435365053b681c41e9f635a4105b0076cd84b440a"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "8c8870211fa272a09a9d20f69b5de4d41b86e6a85db1bdfd027a114526725431"
-    },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "520d63cd217c9debcd9ac66cd8d91e2f98337aaca6f11f0fab8852a825da3b84"
-    },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "7033bcdfd0b58e137d19364589f2cb0e54ed107ffcd3417a83e5e3ae3917f822"
-    },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "241b8bb6a0b6d0339bdafcdde97528722b41ca06cb14a13139b5ae8bf5cb3e3c"
-    },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "4c53ce23aeb87ed14527af722fc7e83050dc390f03f27d38fddf519024518ec8"
+      "sha256": "a999d2542f978d8eb8aa10b5d96f9e42f0ea1dcb4379d09eb037617bb40f9cf7"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "125a084f825f58eb6db5d0dc115f576ab70692bbc5c3fe5abf37371c33416a66"
+      "sha256": "da59090ff97c968d552fce3677832d69302bdb657b4b9000dae2beb4bfccb8b5"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "51ab414e17b7d56b9b704bb324bd19d0d1cb4dfb99c2ae39f58a5a70952702bb"
+      "sha256": "a5a4d029f2675b063f4c78ce59e9ac286ffdc7734db51c46081a603ee640d710"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "092f9f1f5f6128c281ac5e081db86f8728d57525efcbbefe531b9d2c1395c1d7"
+      "sha256": "3d6402c28da1cb8597e44dd1a8c2dcd84b6175c46dc93306c645c5571caf9951"
     },
-    "hero": {
-      "path": "assets/hero.png",
-      "sha256": "504c5b51828e16c617a714ee6f341a8d04689f3d9e7ac6bb2732cf019e83e278"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "4bd3064cb1c6c6a12a997cab2fef9e9c15e263babe5d71d974e45e4127d5aaf9"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
+    },
+    "home-modern": {
+      "path": "assets/home-modern.png",
+      "sha256": "507d0e417d0a1f15c84950c014f377a358171f059a2117b1cab72ef18fc0d75c"
+    },
+    "launch-modern": {
+      "path": "assets/launch-modern.png",
+      "sha256": "c7b3189e93971245cb29fabc19e560b09d86532d99aba60c38a71e4d012e00e4"
     }
   },
   "decoration": {
-    "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain"
-    },
     "home.artwork": {
-      "asset": "hero",
+      "asset": "home-modern",
       "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
       "compact": {
-        "asset": "hero",
-        "fit": "contain"
+        "asset": "home-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
       },
       "regular": {
-        "asset": "hero",
-        "fit": "contain"
+        "asset": "home-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch-modern",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "launch-modern",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "launch-modern",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
       }
     }
   },
@@ -183,77 +248,38 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover",
-          "opacity": 0.28
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover",
-          "opacity": 0.28
-        },
-        "opacity": 0.28
-      },
-      "home.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover",
-          "opacity": 0.82
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover",
-          "opacity": 0.82
-        },
-        "opacity": 0.82
-      }
+      "shell.wallpaper": null,
+      "home.wallpaper": null
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover",
-          "opacity": 0.28
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover",
-          "opacity": 0.28
-        },
-        "opacity": 0.28
-      },
-      "home.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover",
-          "opacity": 0.82
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover",
-          "opacity": 0.82
-        },
-        "opacity": 0.82
-      }
+      "shell.wallpaper": null,
+      "home.wallpaper": null
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Dawn"
     },
     "logo": {
       "mode": "hidden"
@@ -262,14 +288,23 @@
       "mode": "default"
     }
   },
-  "description": "Unofficial Zelda-inspired fan art: a blue ocarina and mossy sword pedestal among watercolor forest ruins. Mist, sage and pale gold meet deep woodland surfaces, with leaf-and-hook glyphs and a calm day/night terminal palette.",
+  "description": "Original anime fantasy traveler playing an ocarina in a pale-gold dawn meadow, forest green and sky-blue story art on quiet native surfaces.",
   "tags": [
-    "zelda",
-    "fan-art",
-    "watercolor",
-    "forest",
-    "ocarina",
-    "sage"
+    "anime",
+    "editorial",
+    "slice-of-life",
+    "illustrated",
+    "light",
+    "dark"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "up-right"
+  },
+  "homePresentation": {
+    "header": "standard",
+    "toolbarBackground": true
+  }
 }

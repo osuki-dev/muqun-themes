@@ -1,9 +1,7 @@
-# Sakura, in Passing
+# Sakura, in Passing — artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. All rights reserved. Exact prompts are recorded in PROMPTS.md.
+All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.
 
-The Himeji setting and spring blossom direction were informed by [Japan National Tourism Organization](https://www.japan.travel/en/spot/1028/). No reference photographs or third-party artwork are bundled. This is an independent artistic interpretation, not an official Himeji Castle product.
+License: All rights reserved.
 
-The standalone Home hero is original AI-generated artwork created with OpenAI image generation. It is a separate composition from the preserved empty-state illustration. Its creative brief is recorded in PROMPTS.md.
-
-The transparent Editorial Home foreground is original AI-generated artwork created with OpenAI image generation. Its creative brief is recorded in PROMPTS.md; no third-party reference image was used.
+Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.

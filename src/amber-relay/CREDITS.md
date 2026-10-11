@@ -1,7 +1,9 @@
-# Amber Relay
+# Amber Relay artwork credits
 
-Original AI-generated artwork created with OpenAI image generation for Muqun Theme Collection. All rights reserved. See PROMPTS.md for the art briefs.
+All rights reserved. Original assets created for Muqun Theme Collection.
 
-The standalone Home illustration in assets/home-hero.png is newly generated with OpenAI image generation, using the existing original theme illustration only as an identity and style reference. The empty-state artwork remains separate.
+Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is original AI-generated story illustration, and `assets/launch-character.png` is separately generated startup character art. Both used OpenAI built-in image generation with genuine transparent output; deterministic trim, resize and transparent padding only. Full prompts are in PROMPTS.md.
 
-The Editorial Home decoration in `assets/home-decoration.png` is original AI-generated transparent artwork created with the built-in image generation tool for Muqun Theme Collection. It contains an imagined oscilloscope, induction coil, vacuum tubes and connectors and is covered by the theme's existing license.
+`assets/paper-light.png`, `assets/paper-dark.png`, and edge textures are original geometric artwork authored for this theme. Seven native line glyphs reuse the original Muqun Theme Collection geometric family authored during the 2026 Clockwork Harlequin redraw, under the same ownership and rights. Directions: left back, up send, up-right Home arrow.
+
+`assets/preview.png` is an original gallery composition of the final theme art and UI palette, not a device screenshot. No old machinery, diorama or miniature prop art is retained. No external stock image or third-party brand assets are bundled.

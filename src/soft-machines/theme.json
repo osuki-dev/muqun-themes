@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "soft-machines",
   "name": "Soft Machines",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -150,7 +150,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "defbfaf3558cac3e5d4d6e6f2f6eea3e57f18b8f81a32c412d85d7afcfdf69d8"
+      "sha256": "a05fd3b62a29f70f51d592c8479bb2538d0c5a4a08d5828f73cabcd6bcb5baa2"
     },
     "home-hero": {
       "path": "assets/home-hero.png",
@@ -158,13 +158,48 @@
     },
     "editorial-foreground": {
       "path": "assets/editorial-foreground.png",
-      "sha256": "0c753622b2eaa090f356026745ba29624673b7b321ee4c64339b1690bdeef3ae"
+      "sha256": "3785ea3e67edd12f70cf62a35c5263dd9bb54d02d4ffecf5e3c40b3558436d47"
+    },
+    "native-create": {
+      "path": "assets/native-create.png"
+    },
+    "native-scan": {
+      "path": "assets/native-scan.png"
+    },
+    "native-settings": {
+      "path": "assets/native-settings.png"
+    },
+    "native-arrow": {
+      "path": "assets/native-arrow.png"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     }
   },
   "icons": {
@@ -179,6 +214,22 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "native-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "native-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "native-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "native-arrow",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -188,29 +239,83 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       },
       "launch.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "home.artwork": {
         "asset": "editorial-foreground",
         "fit": "contain",
         "compact": {
           "asset": "editorial-foreground",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0.88
+          }
         },
         "regular": {
           "asset": "editorial-foreground",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0.88
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.88,
+          "y": 0.88
         }
-      }
+      },
+      "home.wallpaper": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -218,29 +323,83 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       },
       "launch.artwork": {
         "asset": "home-hero",
-        "fit": "contain"
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
       },
       "home.artwork": {
         "asset": "editorial-foreground",
         "fit": "contain",
         "compact": {
           "asset": "editorial-foreground",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0.88
+          }
         },
         "regular": {
           "asset": "editorial-foreground",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.88,
+            "y": 0.88
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.88,
+          "y": 0.88
         }
-      }
+      },
+      "home.wallpaper": null
     }
   },
   "homeIdentity": {
@@ -263,5 +422,8 @@
     "sculpture",
     "frosted"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

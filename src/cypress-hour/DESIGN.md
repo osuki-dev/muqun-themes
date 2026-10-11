@@ -1,19 +1,7 @@
-# Cypress Hour
+# Native artwork design
 
-## Direction
+Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.
 
-An original Tuscan hill-town landscape in chalky fresco gouache. Olive silhouettes and peach plaster distinguish the palette from postcard blue or flag-colored treatments. Light mode uses warm plaster planes and espresso lettering; dark mode uses olive-brown planes with pale peach text and moonlit olive actions.
+Independent launch is a1024-square genuinely transparent character composition; launch uses assetURI only. Quiet wallpaper carries sparse bottom/right contour/glaze marks, never repeated hero. Chrome uses low-opacity label-safe edge/rail accents. Missing optionaltaskglyphs use nativefallback. Backleft/sendup/Homeup-right directions match inspected glyphs.
 
-## Artwork and controls
-
-Four separately composed wallpapers support light/dark and portrait/landscape layouts. Quiet upper fields preserve readable interface space. A potted cypress and letter form the empty-state vignette. The back glyph is an olive-twig arrow; send is an olive-wing paper glider; attach is a cypress-shaped paperclip. Template alpha lets each glyph follow the theme tint. Default Muqun identity and typography remain intact; theme data does not replace app fonts.
-
-Classic keeps the square farmhouse Home hero. Editorial reuses the same transparent farmhouse, olive grove and hill-town cutout as contained top artwork, preserving the full fresco silhouette on phone and tablet while the reader's layout choice and startup behavior remain unchanged.
-
-## Validation
-
-CLI 1.9.0 contrast: light interface 87%, terminal 90%; dark interface 90%, terminal 80%. Both shared opacity floors are 90%; authored surfaces are 96%. Four wallpapers, the transparent vignette and the day/night preview cover were visually inspected. Glyphs are inspected tinted at 17px and 34px on both palettes.
-
-The approved browser loaded the theme and exposed the dark Phone Home, Conversation and Terminal plus Tablet Home and Terminal previews. Screenshot capture failed, and switching to Light timed out. This is partial browser evidence, not a completed visual device review.
-
-CLI 1.9.0 validation and package round trip passed with all ten assets and no warnings for this theme. The repository-wide `check --sources --require-preview` gate also passed.
+Final palette/pack/alpha checks are recorded under ignoredtmp/theme-refresh/a. Correctworktree native QA queued on emulator5560; no fictional gallery preview is claimed as native screenshot.

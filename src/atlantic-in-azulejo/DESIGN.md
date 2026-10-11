@@ -1,20 +1,7 @@
-# Atlantic in Azulejo
+# Native artwork design
 
-Portugal / Lisbon. Painted ceramic tilework connects coastal waves, stepped facades and lemon-yellow trams. The palette pairs warm porcelain with saturated cobalt; dark mode uses a deep glazed blue and lemon actions. This sunny, ornamental ceramic treatment is distinct from the cold engraved winter of Silver on the Neva.
+Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.
 
-Solid materials, 94% UI planes and 96% terminal backgrounds support legibility above detailed tilework.
+Independent launch is a1024-square genuinely transparent character composition; launch uses assetURI only. Quiet wallpaper carries sparse bottom/right contour/glaze marks, never repeated hero. Chrome uses low-opacity label-safe edge/rail accents. Missing optionaltaskglyphs use nativefallback. Backleft/sendup/Homeup-right directions match inspected glyphs.
 
-## Verification
-
-CLI 1.9.0 validation and packing passed. Contrast floors remain light 91% and dark 86% for interface surfaces, and light 88% and dark 75% for terminal surfaces. Authored opacity exceeds these floors.
-
-The official preview at https://muqun.dev/themes/preview/?source=http://127.0.0.1:4184/ was visually inspected in both modes on 2026-09-14: Phone Home, Conversation and Terminal, plus Tablet Home and Terminal. Wallpaper crops, text, cards and template icons rendered without clipping or missing assets. Icons were separately reviewed at 17px and 34px on light/dark surfaces. The independent cover and transparent vignette were inspected locally. These are browser gallery checks, not a native-device import test.
-
-Cultural references (research only; no source artwork reused):
-- https://www.visitportugal.com/en/content/country-tiles
-- https://www.visitportugal.com/en/content/top-10-lisbon
-
-
-## Unified Home artwork
-
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
+Final palette/pack/alpha checks are recorded under ignoredtmp/theme-refresh/a. Correctworktree native QA queued on emulator5560; no fictional gallery preview is claimed as native screenshot.

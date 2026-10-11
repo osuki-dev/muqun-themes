@@ -1,11 +1,11 @@
 # The Last Reading Room
 
-Tobacco, parchment and brass frame an oak-lined library with original Arts and Crafts foliage. Page-fold navigation, an oak-leaf letter and a binding clasp echo its literary character. Separate day/night portrait and wide paintings, a transparent book-and-lamp vignette and dedicated cover are included. Home identity stays default. Dense interior art uses 94% UI and 95% terminal surfaces to preserve reading clarity.
+A thoughtful young adult reading beside window light, in cream, sage and contemporary ink tones.
 
-Editorial Home uses the cover header over the existing day or night reading room, with the transparent armchair-and-bookcase vignette as its foreground and unfilled native toolbar controls. Compact and regular widths retain their portrait and wide compositions. Classic Home keeps the same contained vignette, default identity, palette, and startup behavior.
+The Editorial Cover presentation uses a large human foreground with proportional contain fit on compact and regular widths, focal point (0.5, 0.08), an intentional custom title and readable native utility controls. Classic keeps the same illustration and its intentional lower-card overlap; no padding workaround shrinks Editorial. Wallpaper is separate quiet color paper, never a repeated subject. Seven transparent template icons preserve native labels and hit targets. Optional chrome graphics stay subtle, and all canonical roles are declared.
 
-Actual browser review and an individual PR remain pending.
+Home and launch artwork are independently generated, original fictional adult illustrations. The centered transparent launch portrait does not rely on Home opacity or UI placement. The gallery preview is an authored 1024x640 composition, light left and dark right, built from the final assets and palettes; it is not a native screenshot.
 
-## Toolbar surfaces
+CLI validation, contrast and package checks are recorded in the work report. Bounded native QA must use a cold restart after a header change to verify this App binary's final Editorial composition; no unrun device claim is made here.
 
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+The Home Cover title is intentionally shortened to “Pages” to keep the large figure clear of the native wordmark. The catalogue name and artwork remain unchanged.

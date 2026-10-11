@@ -1,15 +1,9 @@
-# Ink over Jiangnan
+# Ink over Jiangnan — Contemporary native design
 
-Rice-paper ivory and charcoal surfaces carry cinnabar actions. Ink-wash canals, willow and curved roofs distinguish this theme from the other country palettes.
+Washed gray and jade canal life, with a prominent adult woman and poppy-red umbrella.
 
-The back glyph uses brush strokes; send uses a swallow kite; attach uses an add-document scroll. Template alpha supplies the shape in both modes. Separate portrait and wide day/night paintings support phone and tablet. The gallery has its own cover. Home identity stays default.
+An independent young-adult character startup illustration replaces the tiny scenery handoff. This square startup asset also serves the optional empty illustration. Scenic wallpaper is deliberately omitted; quiet palette surfaces separate artwork from native labels. The existing cover header is preserved with the short English title `Ink` and contained artwork; native checks must judge actual top title overlap. Classic intentionally overlays the decorative lower third; no speculative shrinking is used to avoid that overlap. Tablet remains Editorial. All three image roles declare complete compact/regular objects. Seven matching line glyphs preserve clear native action meanings and use template tint. Optional chrome imagery remains absent. Gallery layout is a fictional composition using final resources; CLI checks and actual native QA are separately recorded.
 
-Editorial Home uses the cover header and reuses the transparent pavilion, moon gate, and lotus vignette as its foreground at compact and regular widths. The same art remains the Classic Home hero and startup image, preserving those established surfaces. The toolbar stays visually open over the cover; native controls retain the cinnabar palette and normal hit targets.
+## Cover title refinement 1.1.6
 
-CLI validation, contrast, package round trip and the 60-theme source check with required previews pass. The current published CLI reports the newer `homePresentation` field as an ignored compatibility warning. This theme has ten assets and packs to 1.50 MiB. Shared opacity floors are 88% for UI and 84% for terminal, below the authored 92% and 94% values.
-
-Illustrations and glyph silhouettes were inspected locally. The preview server runs on port 4176. Actual browser review remains pending because the browser tool cannot verify the administrator policy for muqun.dev; server startup is not a visual pass. PR submission remains pending that review.
-
-## Toolbar surfaces
-
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+The native Home cover title is `Ink`; the full catalogue theme name is unchanged. This short word leaves the primary figure and umbrella more space in the measured phone/Pad cover. No font-size field or App change is used. Gallery preview and package were rebuilt from this final manifest.

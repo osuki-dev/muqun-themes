@@ -48,3 +48,17 @@ Generated as an independent image with the built-in image generation tool. Downs
 ## Current artwork mapping
 
 Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.
+
+## Contemporary character redraw 1.1.5
+
+### Home
+
+```text
+Use case: stylized-concept. Final native Home foreground, landscape1536x1024 PNG with GENUINE TRANSPARENT RGBA surroundings. Draw a bold contemporary 2D ANIME scene: decisive dark ink contour lines, 2–3flat cel-shaded values per surface, enormous clean color planes, sophisticated warm/cool film lighting. It must immediately look drawn, never photographic. No PBR, no3D, no microtexture, no weathered woodgrain, no tiny museum miniature, no tourist souvenir, no ornate temple, no borders. All principal subjects remain completely contained. Scene fills about92%width and88%height, only modest transparent margins. Irregular scene silhouette, no rectangular sky or background panel. Main face/upperbody above68%of canvas; lower20%secondary paths/shadows only because native UI feathers that area. No typography, signs, numbers, logo or watermark. Scene: A contemporary young adult male traveler mid20s seated beside a large alpine train window during a bright mountain journey. Adult anime character with tousled short dark hair, PLUM PURPLE modern jacket over cream sweater, navy trousers, simple white sneakers, relaxed upright posture and a small sketchbook, about70%scene height; thoughtful gentle expression, face visible. Clean cream-and-blue modern seat and train window frame, through the wide window broad outlined snow mountains and blue alpine lake form clean2–3value color shapes. A tiny gentian-blue flower motif on the travel bag, no ornate decor. Clean airy cream, icy alpine blue and PLUM accents. Window and seat give the silhouette structure but no full rectangle filling the image. No external miniature train, no stone viaduct ornament, no tower, no brass antiques, no realistic pine texture. Elegant crisp drawn contemporary travel scene, generous scale, transparent irregular perimeter around window/seat/mountain view.
+```
+
+### Launch
+
+```text
+Use case: identity-preserve. Use attached original anime Home art as only visual reference. NEW INDEPENDENT square1024x1024 transparent startup character: same adult young male traveler mid20s with tousled dark hair, plum-purple modern jacket, cream knit sweater, navy trousers and white sneakers. Fresh standing three-quarter pose with a small closed sketchbook in one hand and travel bag over shoulder, thoughtful gentle smile; full body, adult proportions and face consistent. NO train window, seat, mountains or rectangular landscape. Character and one simple blue gentian blossom beside bag fill88%height and70%width with modest transparent margin. Bold dark ink contours,2–3flat cel-shaded values, cream/icyblue/plum palette, clean broad drawn planes. No photographic texture, PBR,3D. Genuine RGBA alpha background. No text, logo, signs, numbers, groundrectangle, pedestal or watermark.
+```

@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "ink-over-jiangnan",
   "name": "Ink over Jiangnan",
-  "version": "1.1.3",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
-  "description": "China / Jiangnan. Willow-lined canals and whitewashed water towns in rice-paper ivory, charcoal ink and cinnabar. Original ink-wash day and moonlit scenes, with brush, kite and scroll glyphs.",
+  "description": "A modern canal walk follows an adult traveler beneath a poppy-red umbrella. Ink-gray and jade planes, confident cel linework, and independent traveler startup art.",
   "tags": [
     "china",
     "jiangnan",
@@ -18,34 +18,34 @@
   "variants": {
     "light": {
       "colors": {
-        "background": "#F4F1E8",
-        "surface": "#FCFAF3",
-        "surfaceRaised": "#E7E3D9",
-        "border": "#CCC6B9",
-        "borderStrong": "#8C8375",
-        "text": "#252724",
-        "textMuted": "#424640",
-        "textSubtle": "#4B5047",
-        "textDisabled": "#9A9C92",
-        "primary": "#8B3027",
-        "onPrimary": "#FFF9EF",
-        "primarySubtle": "#8B302710",
-        "danger": "#882B3B",
-        "dangerSubtle": "#882B3B10",
-        "success": "#34543D",
-        "warning": "#69501D",
-        "info": "#34546A"
+        "background": "#F0F5F3",
+        "surface": "#FAFCFA",
+        "surfaceRaised": "#DFEAE6",
+        "border": "#BDD0C9",
+        "borderStrong": "#77938A",
+        "text": "#1A3536",
+        "textMuted": "#3C5755",
+        "textSubtle": "#46615E",
+        "textDisabled": "#849994",
+        "primary": "#9D3731",
+        "onPrimary": "#FFFFFF",
+        "primarySubtle": "#9D373114",
+        "danger": "#A0354B",
+        "dangerSubtle": "#A0354B12",
+        "success": "#286149",
+        "warning": "#75501C",
+        "info": "#2F6075"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#F4F1E8",
-        "backgroundOpacity": 0.94,
-        "foreground": "#252724",
-        "cursor": "#8B3027",
-        "link": "#34546A",
-        "selection": "#8B302730",
+        "background": "#F0F5F3",
+        "backgroundOpacity": 1,
+        "foreground": "#1A3536",
+        "cursor": "#9D3731",
+        "link": "#2F6075",
+        "selection": "#9D373130",
         "ansi": [
           "#252724",
           "#8B3027",
@@ -68,34 +68,34 @@
     },
     "dark": {
       "colors": {
-        "background": "#191D1C",
-        "surface": "#222725",
-        "surfaceRaised": "#2B322E",
-        "border": "#515C52",
-        "borderStrong": "#92A092",
-        "text": "#F7F2E6",
-        "textMuted": "#DDDCCE",
-        "textSubtle": "#CDCFBF",
-        "textDisabled": "#8C998D",
-        "primary": "#F5B49D",
-        "onPrimary": "#291C17",
-        "primarySubtle": "#F5B49D12",
-        "danger": "#FFC0CD",
-        "dangerSubtle": "#FFC0CD12",
-        "success": "#BBDCB7",
-        "warning": "#ECD5A1",
-        "info": "#BCD9E9"
+        "background": "#142421",
+        "surface": "#1D312C",
+        "surfaceRaised": "#294139",
+        "border": "#456356",
+        "borderStrong": "#82AA99",
+        "text": "#F2FAF3",
+        "textMuted": "#C8DFD2",
+        "textSubtle": "#B2D0BE",
+        "textDisabled": "#7F9E8D",
+        "primary": "#FFAEA1",
+        "onPrimary": "#173228",
+        "primarySubtle": "#FFAEA11A",
+        "danger": "#FFB2C0",
+        "dangerSubtle": "#FFB2C015",
+        "success": "#AEDDC4",
+        "warning": "#EED4A0",
+        "info": "#B0DADF"
       },
       "surfaces": {
-        "backgroundOpacity": 0.92
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#191D1C",
-        "backgroundOpacity": 0.94,
-        "foreground": "#F7F2E6",
-        "cursor": "#F5B49D",
-        "link": "#BCD9E9",
-        "selection": "#F5B49D30",
+        "background": "#142421",
+        "backgroundOpacity": 1,
+        "foreground": "#F2FAF3",
+        "cursor": "#FFAEA1",
+        "link": "#B0DADF",
+        "selection": "#FFAEA130",
         "ansi": [
           "#B8C0B5",
           "#F5B49D",
@@ -121,118 +121,134 @@
     "default": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "ba0897a47bcb09fe09106080ef7e1684b8ed1df3e1b1425109511d9b2d44f1c2"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "8a46ad9f4db22e5c5d13f351d1403b6ca4bf0fa8e2abf90a0fd5bc3446c15aef"
-    },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "6cac9bd22c302a8170c7efe10bdcaa28441047a312cdab0dbc722c910240078b"
-    },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "077819dd88319bc1a44ad605acd46d52e40b41c398813a7b174aa936fcc69194"
-    },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "e9128cfa8fd69f49e7c549a298ca524183bf0c2a24a833772d71545bab14f0ca"
-    },
     "preview": {
       "path": "assets/preview.webp",
-      "sha256": "e0c265fc0b79b421975003e4008225c94ec26040b4627edbba834e1c50c11569"
+      "sha256": "449aec2d8f04b78a2aa42f69e7c66028abeed676b2562dcca0dbc4622ac72683"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "e7c3f7202bcf319c5c90266601d2dbd8dfa577b4e553fa6b10eb06a4a94c027f"
+      "sha256": "0da803544818ef060cba470b31fc211ed188b9135ef43f11c0cdec22a0798cc1"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "79b17257e0b578b827d91229ff5629d412c15e4305dc0936018d363d26990245"
+      "sha256": "353ec9b62546ff51a5cddcc0a1b047293afbd903116462726da1a1cc9a4b991c"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "a2e1af6ba9e030b70d52f6f2687a43570a2edd6e1f5bb22dcbd3e912b9da2e18"
+      "sha256": "afdfa41771e817508ddfa4a1ea593ac26311a93de00dff20c88b3fc2e7cb4ba1"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "afa059472f523de0dc0bddcbbd7f44c1a8b5dfa0213216364b054ec691384915"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "cb047621eff62e04b706b98e002f0ff2296a92e441ab2962faca0fbc30c9cd38"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "5dfb27b0756b03e8c05167e84be9bcb1eaeac2afe4a5f4949125c422e2a51264"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "b938180be85dc1cd22ba8487d418bc98b20e0c498e4acbfdc170ff82546865a9"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "186ff05bd07160ce5001c3d8001ed2b3776e9fc5a790d6960c6079d444798420"
+    },
+    "home-scene": {
+      "path": "assets/home-scene.png",
+      "sha256": "5c3f78bb0b6c06bfe25e4dae489789dfd73b21061dbfa12740268a9bd6374e83"
+    },
+    "launch-traveler": {
+      "path": "assets/launch-traveler.png",
+      "sha256": "5cfbf7a12017aec6106986c1ce69d21c8376394563c43f93eefb701e374f1b79"
     }
   },
   "decoration": {
-    "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain"
-    }
-  },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
+    "home.artwork": {
+      "asset": "home-scene",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "home-scene",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
+          "y": 0.5
         }
       },
-      "home.artwork": {
-        "asset": "home-hero",
+      "regular": {
+        "asset": "home-scene",
         "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
+    "launch.artwork": {
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
-        },
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
+          "y": 0.5
         }
       },
-      "home.artwork": {
-        "asset": "home-hero",
+      "regular": {
+        "asset": "launch-traveler",
         "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
         }
       }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Ink"
     },
     "logo": {
       "mode": "hidden"
@@ -257,6 +273,25 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

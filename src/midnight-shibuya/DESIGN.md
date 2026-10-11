@@ -11,3 +11,7 @@ The home identity uses a short Japanese slogan. The hero is a transparent neon u
 ## Chrome
 
 Back, send, and attach are custom monochrome template icons matched to the theme's line weight.
+
+## Native adaptation 1.1.3
+
+Complete seven-glyph template suite; new create/scan/settings/arrow shapes match the existing icon weight and theme motif. Every existing image slot now declares independent compact and regular objects including fit, opacity and focal point. Transparent contained Home art is explicitly reused for launch when no standalone override already exists. Original palette, illustration and identity choices are preserved. No optional chrome artwork was added. Gallery composition shows one contained foreground, native actions and the seven tinted glyphs. Classic and Editorial consume the same foreground; actual device checks remain outstanding.

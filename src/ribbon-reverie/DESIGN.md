@@ -1,11 +1,11 @@
 # Ribbon Reverie
 
-An original adult ribbon performer with a dark rose bob, peach stage costume and champagne star charms welcomes the reader into a miniature fairy-tale theatre. Satin ribbons, scalloped curtains and suspended stars define a soft anime carnival atmosphere.
+A joyful adult street-fashion dancer with flowing ribbons, in blush, coral, cream and ink.
 
-Dedicated horizontal and vertical theatre scenery leaves a broad quiet center. Editorial Home uses the cover composition: the large native “RIBBON REVERIE” title sits over the themed paper while the transparent performer and miniature theatre chest remain a separate foreground layer. Toolbar glyphs stay native and unobstructed, with their button surfaces removed for the cleaner cover treatment. Classic Home and the launch overlay reuse the same contained, wordless hero. A separate transparent full-figure illustration supports empty states. The split gallery cover shows peach daylight at left and mulberry night at right.
+The Editorial Cover presentation uses a large human foreground with proportional contain fit on compact and regular widths, focal point (0.5, 0.08), an intentional custom title and readable native utility controls. Classic keeps the same illustration and its intentional lower-card overlap; no padding workaround shrinks Editorial. Wallpaper is separate quiet color paper, never a repeated subject. Seven transparent template icons preserve native labels and hit targets. Optional chrome graphics stay subtle, and all canonical roles are declared.
 
-Peach and raspberry light surfaces pair with deep mulberry night surfaces. Complete semantic and ANSI colors retain distinct readable roles. Template back, send and attach glyphs take the shapes of a folded ribbon arrow, shooting star and bow-tied paperclip.
+Home and launch artwork are independently generated, original fictional adult illustrations. The centered transparent launch portrait does not rely on Home opacity or UI placement. The gallery preview is an authored 1024x640 composition, light left and dark right, built from the final assets and palettes; it is not a native screenshot.
 
-## Toolbar surfaces
+CLI validation, contrast and package checks are recorded in the work report. Bounded native QA must use a cold restart after a header change to verify this App binary's final Editorial composition; no unrun device claim is made here.
 
-Toolbar controls use the normal theme surface. This theme does not force a transparent or specially translucent toolbar; readers can adjust surface opacity in the app.
+The Home Cover title is intentionally shortened to “Motion” to keep the large figure clear of the native wordmark. The catalogue name and artwork remain unchanged.

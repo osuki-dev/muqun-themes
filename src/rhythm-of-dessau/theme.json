@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rhythm-of-dessau",
   "name": "Rhythm of Dessau",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Germany / Dessau. Glass grids and architectural rhythm in concrete white, graphite, vermilion and signal yellow. Original modernist screenprints with stepped navigation, a triangular glider and tubular-steel attachment glyphs.",
@@ -142,8 +142,8 @@
       "sha256": "3f70c36243fd5438f0ab58ece92ea495fededae2fe714ede07710947679db4a7"
     },
     "preview": {
-      "path": "assets/preview.webp",
-      "sha256": "ffe967a1c397c93bf3cbde7993726b24f749c5255b53107e6c69ddc353709bb0"
+      "path": "assets/preview.png",
+      "sha256": "8e9f4185ce7db12c1909f0a553850fa25835750fc2f36bd29a5f74ed28dcd7e3"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -160,12 +160,39 @@
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "3b77416a4477d8bc56c91b3e791fa6a333ab9b4175ef3a33b553ad63f730ff78"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "c3ae3ae9b46c53df3ec660c16430d70a5f7e09f1824d3635fa134d7e24e10d78"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "1cb2530f37c6f23fb36dd441ee415fffc92ce59b648a5d0bbdc5c23dae676150"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "adaa6f97a4fc12d05ecfd9a75ba7605a3e6f15fa298cb39783e997eebc51d176"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "80b223861888220fef84bcf53476bde869290a866731e2f08a6bcc25e299a605"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
+      "fit": "contain",
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "opacity": 1
     }
   },
   "variantDecorations": {
@@ -179,23 +206,52 @@
         },
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 1
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
-        }
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "compact": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         }
       }
     },
@@ -209,23 +265,52 @@
         },
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 1
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
-        }
+          "fit": "cover",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.65
+          },
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "compact": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
+      },
+      "launch.artwork": {
+        "asset": "home-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "compact": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
+        },
+        "regular": {
+          "asset": "home-hero",
+          "fit": "contain",
+          "opacity": 1
         }
       }
     }
@@ -253,6 +338,25 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

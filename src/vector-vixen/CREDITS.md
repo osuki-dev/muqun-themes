@@ -5,3 +5,7 @@ Original character and artwork created for Muqun Theme Collection with OpenAI im
 All packaged images are original generated artwork. The first wide illustration established the character design and served as a reference for its other compositions. Local processing resized and encoded the assets. See PROMPTS.md.
 
 The standalone Home illustration in assets/home-hero.png is newly generated with OpenAI image generation, from a text brief describing the existing original identity and style. The empty-state artwork remains separate.
+
+## Native control glyphs
+
+`assets/native-create.png`, `assets/native-scan.png`, `assets/native-settings.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: All rights reserved. Transparent template marks preserve native light/dark tinting.

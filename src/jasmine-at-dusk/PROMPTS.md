@@ -49,3 +49,23 @@ Generated as an independent image with the built-in image generation tool. Downs
 ## Current artwork mapping
 
 Generated assets above retain their original filenames and provenance. The current manifest resolves a single `home.artwork` in both Classic and Editorial; `launch.artwork`, when present, is a separate startup composition. No additional image generation was performed for this slot migration.
+
+## Contemporary character redraw 1.0.8
+
+### Home
+
+```text
+Use case: stylized-concept. Final native Home foreground, landscape1536x1024 PNG with GENUINE TRANSPARENT RGBA surroundings. Draw a bold contemporary 2D ANIME scene: decisive dark ink contour lines, 2–3flat cel-shaded values per surface, enormous clean color planes, sophisticated warm/cool film lighting. It must immediately look drawn, never photographic. No PBR, no3D, no microtexture, no weathered woodgrain, no tiny museum miniature, no tourist souvenir, no ornate temple, no borders. All principal subjects remain completely contained. Scene fills about92%width and88%height, only modest transparent margins. Irregular scene silhouette, no rectangular sky or background panel. Main face/upperbody above68%of canvas; lower20%secondary paths/shadows only because native UI feathers that area. No typography, signs, numbers, logo or watermark. Scene: A warm contemporary tropical evening street-food courtyard with a stylish young adult woman mid20s enjoying takeaway food at a simple outdoor counter. Adult expressive anime character in an orchid-lavender relaxed shirt over a cream top, dark green trousers, short curly dark hair; confident friendly pose holding one small paper takeaway bowl, about68%scene height, face clear and large. A clean minimalist food cart with no lettering, a single broad-leaf tropical plant and a few warm hanging bulbs frame the scene, with two oversized jasmine flowers subtly integrated at edge. Lush green, luminous cream and rich ORCHID PURPLE color scheme. Contemporary urban courtyard and youthful after-work mood, not palace, not gilded Thai roof, not antique pagoda, not floral miniature. Big flat painted shapes, simple warmly-lit canopy fragments and leaf silhouettes, no detailed market crowd or clutter. Full coherent scene, genuinely transparent perimeter.
+```
+
+### Launch
+
+```text
+Use case: identity-preserve. Use attached original anime Home art as only visual reference. NEW INDEPENDENT square1024x1024 transparent startup character: same adult woman mid20s, short curly dark hair, golden hoop earrings, orchid-lavender overshirt, cream top and forest-green trousers, cheerful smile. New relaxed standing three-quarter pose enjoying one small takeaway bowl with chopsticks. Frame from upper thighs to full head, completely contained hair and elbows, one large stylized jasmine blossom by side as small supporting motif. Character dominates88%height/78%width, no market, cart, plant jungle or scene backdrop. Bold ink contour,2–3flat cel values, clean green/cream/orchid planes, warm anime lighting as color shapes. No realistic textures or photo materials. Genuine RGBA transparent surroundings, no rectangular groundplane, no frame, text, logo, watermark or numbers.
+```
+
+### LaunchFinal
+
+```text
+Use case: identity-preserve. Create a NEW square1024x1024 RGBA transparent independent startup CHARACTER, using this original woman image only as identity/outfit reference. Same adult woman mid20s with short curly dark hair, golden hoop earrings, orchid-lavender overshirt, cream top, forest-green trousers and simple cream sneakers; cheerful smile enjoying a small takeaway bowl with chopsticks. Now show FULL BODY, including both complete shoes, all hair and elbows, no cut clothing edge. She stands casually with one knee relaxed. Character must occupy only80%canvas height and65%width, leaving at least10%genuinely transparent margin at TOP and BOTTOM and generous side margin; nothing touches any frame edge. One small jasmine flower near one shoe as simple supporting motif, no cart/market/backdrop. Bold clean anime ink contours and2–3flat cel values, sophisticated green/cream/orchid color planes, expressive adult face. Preserve identity and adult proportions, no photographic texture, no3D. Transparent background, no sky, pedestal, rectangular groundshape, text, numbers, logos or watermark.
+```

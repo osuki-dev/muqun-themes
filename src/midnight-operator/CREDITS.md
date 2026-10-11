@@ -1,7 +1,9 @@
-# Midnight Operator
+# Asset provenance
 
-Original AI-generated illustrations created with OpenAI image generation for Muqun Theme Collection. Original geometric circuit-node glyphs authored and rasterized to transparent PNG. All rights reserved.
+All assets in this refreshed package are original and distributed under CC-BY-4.0.
 
-## Home illustration
+- `assets/home-artwork.png`: generated specifically for this theme with OpenAI built-in image generation on 2026-10-10, commissioned by Muqun Theme Collection; no external reference artwork, third-party logos or source images used. Exact prompt is recorded in `ARTWORK.md`.
+- `assets/launch.png`, `assets/empty.png`, seven `assets/icon-*.png`, four wallpaper resources, and six chrome decorations: original deterministic vector drawings authored for Muqun Theme Collection and rasterized with librsvg.
+- `assets/preview.png`: original composition using the final package artwork and theme tokens.
 
-assets/home-hero.png is a newly generated original Home composition created with the built-in image-generation tool.
+Superseded third-party technology marks and previous illustrations are not included.

@@ -14,3 +14,9 @@ COVER character reference. Prompts requested subdued ivory/graphite railway
 paper, an isolated courier with real alpha, a silver-haired dark variant, and
 a two-mode gallery composition. Encoding and resizing preserve alpha. Previous
 flattened banners remain local source alternatives and are not packaged.
+
+## Native adaptation (2026)
+
+Original native template glyphs: `assets/icon-create.png`, `assets/icon-arrow.png`. Created for this theme in 2026 using geometric linework; retain the theme license. Existing back/send/attach artwork is unchanged.
+
+The 2026 `assets/preview.png` is an original palette and UI composition rendered from this theme’s declared artwork. It is a gallery illustration, not a native device screenshot.

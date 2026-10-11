@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pocket-companion",
   "name": "Pocket Companion",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -150,17 +150,48 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "f538f8f7b5b708bc79c8764be971c08291599cc703e9bb87c71853712de825df"
+      "sha256": "406914df196d0ab4ee8be9db7f9f3709ec435453229e93fff1ee4c218c569d4a"
     },
     "home-hero": {
       "path": "assets/home-hero.png",
       "sha256": "04593041ffe94f582ecf6ae32c225af63718d3a9286f9e57115b453f4f15ec71"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "8e88e5836dde642bcd601413d6e25ffd82fce4bc180ad80772b55e0076553282"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
+    },
+    "home-focus": {
+      "path": "assets/home-focus.png",
+      "sha256": "3791f2288ea3484e42aa0ce0e26f5dfe6fdc82fed0e1b03ff73288e1a986f189"
     }
   },
   "decoration": {
     "empty.artwork": {
       "asset": "empty",
-      "fit": "contain"
+      "fit": "contain",
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      },
+      "opacity": 1
     }
   },
   "icons": {
@@ -175,6 +206,22 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -184,37 +231,59 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-light",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1
         },
         "regular": {
           "asset": "wide-light",
-          "fit": "cover"
-        }
+          "fit": "cover",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "compact": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
           "asset": "peek",
-          "fit": "contain"
-        }
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
-        "asset": "peek",
+        "asset": "home-focus",
         "fit": "contain",
         "compact": {
-          "asset": "peek",
-          "fit": "contain"
+          "asset": "home-focus",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "peek",
-          "fit": "contain"
+          "asset": "home-focus",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
         }
-      }
+      },
+      "home.wallpaper": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -222,37 +291,59 @@
         "fit": "cover",
         "compact": {
           "asset": "portrait-dark",
-          "fit": "cover"
+          "fit": "cover",
+          "opacity": 1
         },
         "regular": {
           "asset": "wide-dark",
-          "fit": "cover"
-        }
+          "fit": "cover",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "launch.artwork": {
         "asset": "home-hero",
         "fit": "contain",
         "compact": {
           "asset": "home-hero",
-          "fit": "contain"
+          "fit": "contain",
+          "opacity": 1
         },
         "regular": {
           "asset": "peek",
-          "fit": "contain"
-        }
+          "fit": "contain",
+          "opacity": 1
+        },
+        "opacity": 1
       },
       "home.artwork": {
-        "asset": "peek",
+        "asset": "home-focus",
         "fit": "contain",
         "compact": {
-          "asset": "peek",
-          "fit": "contain"
+          "asset": "home-focus",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "peek",
-          "fit": "contain"
+          "asset": "home-focus",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
         }
-      }
+      },
+      "home.wallpaper": null
     }
   },
   "homeIdentity": {
@@ -275,5 +366,8 @@
     "illustrated",
     "companion"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

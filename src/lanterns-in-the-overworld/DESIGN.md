@@ -5,3 +5,7 @@ A miniature voxel forest connects mossy blocks, terracotta banks, timber shelter
 Light mode pairs warm limestone paper with deep moss actions; night uses smoky woodland surfaces and lantern-amber actions. UI opacity is 96% and terminal opacity 98%. Shared wallpaper is deliberately subdued, while Home uses stronger scenery plus a contained Steve-and-wolf hero. Editorial Home reuses that transparent voxel diorama as its contained foreground at compact and regular widths; Classic and startup retain their established hero behavior. The default Muqun name and logo remain intact.
 
 A stepped timber arrow, block-built send arrow and squared mine-rail paperclip retain familiar control shapes. The transparent lantern vignette belongs to empty states. The split gallery cover shows daylight on the left and night on the right.
+
+## Native adaptation 1.0.5
+
+Complete seven-glyph template suite; new create/scan/settings/arrow shapes match the existing icon weight and theme motif. Every existing image slot now declares independent compact and regular objects including fit, opacity and focal point. Transparent contained Home art is explicitly reused for launch when no standalone override already exists. Original palette, illustration and identity choices are preserved. No optional chrome artwork was added. Gallery composition shows one contained foreground, native actions and the seven tinted glyphs. Classic and Editorial consume the same foreground; actual device checks remain outstanding.

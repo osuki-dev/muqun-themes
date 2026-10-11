@@ -3,40 +3,40 @@
   "schemaVersion": 1,
   "id": "rainline-district",
   "name": "Rainline District",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
     "light": {
       "colors": {
-        "background": "#E7EFF0",
-        "surface": "#F5F9F8",
-        "surfaceRaised": "#D6E3E4",
-        "border": "#AABFC2",
-        "borderStrong": "#637D83",
-        "text": "#122D34",
-        "textMuted": "#37535A",
-        "textSubtle": "#3B565C",
-        "textDisabled": "#80999D",
-        "primary": "#84342F",
+        "background": "#F0F5FC",
+        "surface": "#FAFCFF",
+        "surfaceRaised": "#DEE8F6",
+        "border": "#BACDE5",
+        "borderStrong": "#7C95B5",
+        "text": "#182D49",
+        "textMuted": "#3E5371",
+        "textSubtle": "#475E7E",
+        "textDisabled": "#8698AF",
+        "primary": "#9F3C35",
         "onPrimary": "#FFFFFF",
-        "primarySubtle": "#84342F10",
-        "danger": "#853545",
-        "dangerSubtle": "#85354510",
-        "success": "#245D4D",
-        "warning": "#705019",
-        "info": "#245B70"
+        "primarySubtle": "#9F3C3514",
+        "danger": "#A0334C",
+        "dangerSubtle": "#A0334C12",
+        "success": "#2A614A",
+        "warning": "#76511C",
+        "info": "#285D96"
       },
       "surfaces": {
-        "backgroundOpacity": 0.95
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#E7EFF0",
-        "backgroundOpacity": 0.96,
-        "foreground": "#122D34",
-        "cursor": "#933D38",
-        "link": "#245B70",
-        "selection": "#933D3830",
+        "background": "#F0F5FC",
+        "backgroundOpacity": 1,
+        "foreground": "#182D49",
+        "cursor": "#9F3C35",
+        "link": "#285D96",
+        "selection": "#9F3C3530",
         "ansi": [
           "#122D34",
           "#933D38",
@@ -59,34 +59,34 @@
     },
     "dark": {
       "colors": {
-        "background": "#0C252B",
-        "surface": "#143139",
-        "surfaceRaised": "#1F4048",
-        "border": "#446970",
-        "borderStrong": "#8CB3B7",
-        "text": "#EEF8F5",
-        "textMuted": "#D2E5E3",
-        "textSubtle": "#BCD8D6",
-        "textDisabled": "#7D9FA5",
-        "primary": "#FFB6A8",
-        "onPrimary": "#372421",
-        "primarySubtle": "#FFB6A810",
-        "danger": "#F5BDD0",
-        "dangerSubtle": "#F5BDD010",
-        "success": "#B0DFC7",
-        "warning": "#EDD4A0",
-        "info": "#B1DDEB"
+        "background": "#0D192C",
+        "surface": "#15263F",
+        "surfaceRaised": "#1E3654",
+        "border": "#3C5578",
+        "borderStrong": "#7C9FC9",
+        "text": "#F3F8FF",
+        "textMuted": "#CDDCF0",
+        "textSubtle": "#B3CAE6",
+        "textDisabled": "#7996BC",
+        "primary": "#FFB5A5",
+        "onPrimary": "#172A44",
+        "primarySubtle": "#FFB5A51A",
+        "danger": "#FFB1C4",
+        "dangerSubtle": "#FFB1C415",
+        "success": "#ADDDCE",
+        "warning": "#F0D39E",
+        "info": "#A8D3FF"
       },
       "surfaces": {
-        "backgroundOpacity": 0.95
+        "backgroundOpacity": 1
       },
       "terminal": {
-        "background": "#0C252B",
-        "backgroundOpacity": 0.96,
-        "foreground": "#EEF8F5",
-        "cursor": "#FFB6A8",
-        "link": "#B1DDEB",
-        "selection": "#FFB6A830",
+        "background": "#0D192C",
+        "backgroundOpacity": 1,
+        "foreground": "#F3F8FF",
+        "cursor": "#FFB5A5",
+        "link": "#A8D3FF",
+        "selection": "#FFB5A530",
         "ansi": [
           "#BCD8D6",
           "#FFB6A8",
@@ -112,51 +112,128 @@
     "default": "solid"
   },
   "assets": {
-    "wide-light": {
-      "path": "assets/wide-light.webp",
-      "sha256": "eede332dcb6fe69ab3902186ee88148dffb59219655175169ca1e0bc180cb1b9"
-    },
-    "wide-dark": {
-      "path": "assets/wide-dark.webp",
-      "sha256": "69f9022f858dd7095393c5c2f9575e0b53fc80d1ca49fec5263eca1e346a68f9"
-    },
-    "portrait-light": {
-      "path": "assets/portrait-light.webp",
-      "sha256": "01564f24b8f02fff72aee0ea332dde0fef5b22964ddacd14cf9878456df17189"
-    },
-    "portrait-dark": {
-      "path": "assets/portrait-dark.webp",
-      "sha256": "f893a5e8257dc4abcc69105b49b06a4a3ab3c99374d81b7261b20d8e19a5bf75"
-    },
-    "empty": {
-      "path": "assets/empty.png",
-      "sha256": "9cd6f0abba63f2a0607824b1847e2d0d839f0b98e5cdd31cd3787f90fa593b9b"
-    },
     "icon-back": {
       "path": "assets/icon-back.png",
-      "sha256": "62a1ca86d30f5cd4a700ebfbff813d879af9c0d5acc250e2d70fdfe64cb3df90"
+      "sha256": "0da803544818ef060cba470b31fc211ed188b9135ef43f11c0cdec22a0798cc1"
     },
     "icon-send": {
       "path": "assets/icon-send.png",
-      "sha256": "6577dcd557bb1ac43b0a941a0ced9e5abffedcea5441a97b42be7864e9042b3b"
+      "sha256": "353ec9b62546ff51a5cddcc0a1b047293afbd903116462726da1a1cc9a4b991c"
     },
     "icon-attach": {
       "path": "assets/icon-attach.png",
-      "sha256": "daf56d69a5bfb395aa4a738c3b20785f4a579aaaa6554e61695298673192bc96"
+      "sha256": "afdfa41771e817508ddfa4a1ea593ac26311a93de00dff20c88b3fc2e7cb4ba1"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "9ea48ea7f1a17860d1273d8d8b288495cd01d99f65195065e641f1fe8ecd1bfd"
+      "sha256": "8e0a5b559b1c1f67d6f89e25275bee69763acf70ff4b4d3ca6d6b71006d6ae38"
     },
-    "home-hero": {
-      "path": "assets/home-hero.png",
-      "sha256": "5024d43805fcc1f033976ac2d2f2f8285685ff158923a4ad3e6696d550492424"
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "cb047621eff62e04b706b98e002f0ff2296a92e441ab2962faca0fbc30c9cd38"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "08addf9366acf507a08b1e83a190d7c9cfdd6201f41dfc563af12e2d35a3c485"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "b938180be85dc1cd22ba8487d418bc98b20e0c498e4acbfdc170ff82546865a9"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "186ff05bd07160ce5001c3d8001ed2b3776e9fc5a790d6960c6079d444798420"
+    },
+    "home-scene": {
+      "path": "assets/home-scene.png",
+      "sha256": "44d2fa022c2cef378cf4d57bf579a300365f515c498af0d4d708c3374e90d5f2"
+    },
+    "launch-traveler": {
+      "path": "assets/launch-traveler.png",
+      "sha256": "effae0224032bf50e3f96770b8ce1b46a4e9869361dad544b939a24d387e6853"
     }
   },
   "decoration": {
+    "home.artwork": {
+      "asset": "home-scene",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "home-scene",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "home-scene",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
     "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain"
+      "asset": "launch-traveler",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "launch-traveler",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     }
   },
   "icons": {
@@ -171,95 +248,28 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
-    }
-  },
-  "variantDecorations": {
-    "light": {
-      "shell.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover",
-          "opacity": 0.18
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover",
-          "opacity": 0.18
-        },
-        "opacity": 0.18
-      },
-      "home.wallpaper": {
-        "asset": "portrait-light",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-light",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-light",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
     },
-    "dark": {
-      "shell.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover",
-          "opacity": 0.38
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover",
-          "opacity": 0.38
-        },
-        "opacity": 0.38
-      },
-      "home.wallpaper": {
-        "asset": "portrait-dark",
-        "fit": "cover",
-        "compact": {
-          "asset": "portrait-dark",
-          "fit": "cover"
-        },
-        "regular": {
-          "asset": "wide-dark",
-          "fit": "cover"
-        }
-      },
-      "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain",
-        "compact": {
-          "asset": "home-hero",
-          "fit": "contain"
-        },
-        "regular": {
-          "asset": "home-hero",
-          "fit": "contain"
-        }
-      }
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "custom",
+      "text": "Rainline District"
     },
     "logo": {
       "mode": "hidden"
@@ -268,7 +278,7 @@
       "mode": "default"
     }
   },
-  "description": "Rain gathers on elevated tracks above a sleepless concrete city. Petrol haze, wet asphalt and coral signal lights shape a cinematic cyber-noir workspace from dawn to midnight.",
+  "description": "A young adult commuter waits under an electric-blue umbrella beside a city train in neon rain. Graphic navy and coral planes with independent character startup art.",
   "tags": [
     "cyber-noir",
     "rain",
@@ -281,5 +291,8 @@
   "homePresentation": {
     "header": "standard",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

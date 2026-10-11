@@ -1,0 +1,5 @@
+# Illustration prompt
+
+Generated with the OpenAI built-in image generation tool on 2026-10-10. No input reference images were used. Native theme palettes, icons, wallpaper and preview are authored separately.
+
+Use case: stylized-concept. Asset type: transparent Home foreground for a mobile creative-workshop theme. Original tactile editorial illustration: one charming asymmetrical desk composition with a folded ultramarine paper sculpture, coral pencil, small cream sketchbook showing only abstract color swatches, a wooden ruler and rounded ink ceramic tool cup. Contemporary playful design atelier, sophisticated matte clay and paper materials, subtle grain, clean bold silhouettes, muted ultramarine and terracotta coral on cream, deep ink accents. Wide 3:2 grouping entirely isolated on genuinely transparent background, generous empty alpha margins, no tabletop rectangle, no backdrop, no text, no letters, no logos, no HTML CSS JS badges, no interface panels or flowcharts. All objects form one compact centered low composition suitable for a short Home artwork band, edges completely inside frame, soft localized contact shadows only.
