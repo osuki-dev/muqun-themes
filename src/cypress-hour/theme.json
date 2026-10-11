@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -162,7 +162,8 @@
       "path": "assets/icon-settings.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "564aaa9f9b98a2f42c23ad311f9990c3d7cdcd4bc351b4205060b823282c6144"
     }
   },
   "decoration": {

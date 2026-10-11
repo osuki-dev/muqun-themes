@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jade-tempest",
   "name": "Jade Tempest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -129,7 +129,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "ecc5ad3be286dae880dfe67984ada787e1ae6554ccd969eeafb9c96ba31b3964"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

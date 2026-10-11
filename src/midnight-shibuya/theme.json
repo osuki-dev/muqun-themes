@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "midnight-shibuya",
   "name": "渋谷、午前零時",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "ネオンと雨粒が交差する、午前零時の渋谷を描いた夜景テーマ。",
@@ -145,7 +145,8 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "527ab6a789deabf58f08bf4d19eb1a498fa0aa0761dabb64eb532060cb015c9f"
     },
     "icon-create": {
       "path": "assets/icon-create.png",

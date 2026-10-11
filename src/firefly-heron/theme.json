@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "firefly-heron",
   "name": "Firefly Heron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -144,7 +144,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "9045761ba8ccafabd64fe124cf5b0ad5c37a3dc4d649f89f73dbb332ec5ef0a7"
     },
     "home": {
       "path": "assets/home.webp"

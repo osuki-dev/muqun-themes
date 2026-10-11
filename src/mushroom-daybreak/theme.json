@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mushroom-daybreak",
   "name": "Mushroom Daybreak",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Muqun Community",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -170,7 +170,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "4ea68d4a318ebb38638bcdecdb9a635c15bf06d8ffc7bf8a124ea48aaaf6aa7a"
+      "sha256": "227cf01326b9c67c2c7e8fcf8650e1751316a6dfdd4ed4f4c86b70b6419ae7f0"
     }
   },
   "decoration": {

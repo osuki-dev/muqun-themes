@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlas-foundry",
   "name": "Atlas Foundry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "2135c541394ca8d860d56af8fc0fef365cf59e8f7aca72187132d9c2f8cad9f3"
     }
   },
   "decoration": {},

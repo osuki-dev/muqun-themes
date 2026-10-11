@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rainline-district",
   "name": "Rainline District",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -126,7 +126,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "8e0a5b559b1c1f67d6f89e25275bee69763acf70ff4b4d3ca6d6b71006d6ae38"
+      "sha256": "a0372ef73c697f780775b1bcdc60a7fef230b953fedf747ef41da41cee47b95a"
     },
     "icon-create": {
       "path": "assets/icon-create.png",

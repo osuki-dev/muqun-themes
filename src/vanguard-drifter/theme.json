@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Ivory technical outerwear and burnt-orange details over quiet architectural paper. One expressive watercolor foreground, independent rail-city scenery, and calm solid work surfaces.",
@@ -150,7 +150,8 @@
   },
   "assets": {
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "31107a190bf866e91bfb71956aefebaa6be1bfec9b10fe59c2b22b21c0cf9b91"
     },
     "figure": {
       "path": "assets/figure.png"

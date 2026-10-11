@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "graphite-daydream",
   "name": "Graphite Daydream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Project",
   "license": "All rights reserved",
   "description": "An original bespectacled artist in expressive graphite contours, warm ivory sketchbook paper and sepia accents; a quiet charcoal studio after dark.",
@@ -127,7 +127,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "2ce6a32c8eed7c70c65d222f36408017cef5cdaafcacb5abc60b48ad0e7e6eeb"
+      "sha256": "7a2368fc13a9c9546876abf67a51d3e48bbd3ac75f14cc4f4a001579ec58725a"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

@@ -2,11 +2,11 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "riso-matsuri",
-  "name": "\u30ea\u30bd\u30b0\u30e9\u30d5\u306e\u590f\u796d\u308a",
-  "version": "1.0.5",
+  "name": "リソグラフの夏祭り",
+  "version": "1.0.6",
   "author": "Muqun",
   "license": "CC-BY-4.0",
-  "description": "\u6731\u3001\u7fa4\u9752\u3001\u751f\u6210\u308a\u306e\u7248\u305a\u308c\u3067\u590f\u796d\u308a\u306e\u71b1\u6c17\u3092\u63cf\u304f\u30ea\u30bd\u30b0\u30e9\u30d5\u30c6\u30fc\u30de\u3002",
+  "description": "朱、群青、生成りの版ずれで夏祭りの熱気を描くリソグラフテーマ。",
   "tags": [
     "japan",
     "youth",
@@ -146,7 +146,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "4c144c56dea40004c3f5964503d95982e145245a0ce814d408a3b0c20276c4c3"
+      "sha256": "6e6f5727309256c11bd80bf94c64e74096b518da12fa9e91d03e3e1cc82ba186"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -324,7 +324,7 @@
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "\u590f\u306e\u706f\u3001\u796d\u306e\u591c"
+      "text": "夏の灯、祭の夜"
     },
     "logo": {
       "mode": "hidden"

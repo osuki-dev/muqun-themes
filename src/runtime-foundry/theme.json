@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "runtime-foundry",
   "name": "Night Drive",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Community",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -170,7 +170,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "b355f5138bb5ceb5476d46cb5e493b3c67c1b91530bd9084ffb3c335304cfed2"
+      "sha256": "39d3c45fc5442270236192e276e57bf22e8f4d23ea5d5616f98031f91a9a4fae"
     }
   },
   "decoration": {

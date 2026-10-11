@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "fern-and-fiord",
   "name": "Fern and Fiord",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -177,7 +177,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "201d41a0c7be0abd2fef2b370348d5e10dc2cc751178930c68177070e9009a67"
+      "sha256": "596910efb0b6096ade3d710758ab117e90970f198e99505dfed8decb2089f3c6"
     }
   },
   "decoration": {

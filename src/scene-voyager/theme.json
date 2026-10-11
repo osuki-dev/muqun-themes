@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "scene-voyager",
   "name": "Scene Voyager",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -117,7 +117,8 @@
   },
   "assets": {
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "8fb45a5d76a3657daaed2705a244c40d776a8a1ece0e636447de2250001a651d"
     },
     "artwork-light": {
       "path": "assets/artwork-light.png"

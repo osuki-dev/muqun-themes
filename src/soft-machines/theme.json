@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "soft-machines",
   "name": "Soft Machines",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -150,7 +150,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "a05fd3b62a29f70f51d592c8479bb2538d0c5a4a08d5828f73cabcd6bcb5baa2"
+      "sha256": "413e734d716b022cf72715403af8b45fa5e7f2d2aa5623463bf311b31a360963"
     },
     "home-hero": {
       "path": "assets/home-hero.png",

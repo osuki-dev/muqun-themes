@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "poolside-prism",
   "name": "Poolside Prism",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -120,7 +120,8 @@
       "path": "assets/poolside-researcher.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "d0eff879477fe7f34d845c694b1cc16a73238a2d4459460a8616461560a15a05"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

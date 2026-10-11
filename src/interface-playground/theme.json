@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -198,7 +198,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "930c0787be813639330adaf049b5a92db3ab39523bc83b14d86259afba499ad0"
+      "sha256": "c40ff5d01f30434b7d2454955276ddaa5ad45820fe8ecdf82ea99acaacbdde68"
     }
   },
   "decoration": {

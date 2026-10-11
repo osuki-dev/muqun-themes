@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "reef-reverie",
   "name": "Reef Reverie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "a7af2d4f86a013ef1fffa9db9da3bb88ccf22371edd9123ad24968f3fb623315"
     }
   },
   "decoration": {},

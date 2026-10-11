@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harvest-and-starlight",
   "name": "Harvest & Starlight",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection (fan art)",
   "license": "Unofficial fan art; underlying game rights reserved",
   "variants": {
@@ -150,7 +150,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "a15e2bc96d37fdcd598954cf55c2a8d4d91d18a70e8fb556437f250c40503767"
+      "sha256": "93510e4e5bb31521a0e16770b3494b662f0202e0c3960e24a02796044d98fa13"
     },
     "icon-create": {
       "path": "assets/icon-create.png",

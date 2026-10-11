@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "thu-bon-lanterns",
   "name": "Lanterns on the Thu Bon",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A youthful night cyclist along the Thu Bon river: warm coral lantern light, ink-blue streets and teal reflections in contemporary drawn anime scenery. Separate bicycle startup art and quiet native surfaces.",
@@ -124,7 +124,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.webp",
-      "sha256": "ccad14cd4075f9470a47e1a84148324951c717de639b3222c288c8800def6e59"
+      "sha256": "0ffa69692788a10b806021f0fa22a4df2dd3da9d02bf6d0df0bc221a615bb3f7"
     },
     "native-create": {
       "path": "assets/native-create.png",

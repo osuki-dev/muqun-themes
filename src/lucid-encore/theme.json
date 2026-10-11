@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lucid-encore",
   "name": "Lucid Encore",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -142,7 +142,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "1a143e2ea3c00646afc18fd3251b598d3bc99b88f233947825a11ef4ac9fdc9c"
+      "sha256": "253fcd41fb33587c5608206373dd7f897e2ea60b9789b256db9c6852174d25e8"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

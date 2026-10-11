@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-inning",
   "name": "Last Inning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "596283eae6e9894c27131be142e73eeeaf72ecd6a0f52f1e4139d9eda695cdba"
     }
   },
   "decoration": {},

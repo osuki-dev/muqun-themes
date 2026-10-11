@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tiny-workshop",
   "name": "Tiny Workshop",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -177,7 +177,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "420da886fff71f54ef533de82ec9710994abd095822a6656df6804a16f490821"
+      "sha256": "b23bed1b79cc0e33949ec0a893de68eb338953688eb71e20f3478fb932cfe0c3"
     }
   },
   "decoration": {

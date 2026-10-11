@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tidal-observatory",
   "name": "Tidal Observatory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -129,7 +129,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "cc8e3aaedc0266e4e2f373c01fe6df012be8b016d516df58a9cc1048706399b3"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

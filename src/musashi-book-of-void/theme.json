@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "musashi-book-of-void",
   "name": "宮本武蔵｜空の巻",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "『五輪書』と二天一流をモチーフに、和紙、松煙墨、錆朱、夜藍で静かな緊張と余白を描く宮本武蔵テーマ。",
@@ -147,7 +147,8 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "5b38622b4f83eabf58596790a15a30754da58aac6280350edd2539bf4dce7d42"
     },
     "icon-create": {
       "path": "assets/icon-create.png"

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "terraces-of-the-sun",
   "name": "Terraces of the Sun",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -118,7 +118,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "9732c8d8e9adcebdf72d991abd1a34bd3a8c3bcc8145a48758166db33e7e6e8c"
+      "sha256": "81dfaec4fe5fc5d07b46e7ce07b7596d8e111962270dccfd0a143192c7ebc40e"
     },
     "native-create": {
       "path": "assets/native-create.png",

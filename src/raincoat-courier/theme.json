@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "raincoat-courier",
   "name": "レインコート・クーリエ",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "黄色いレインコートで雨の街を駆ける、軽快なアーバンテーマ。",
@@ -149,7 +149,8 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "0eb085d583f162a940b98b2a1e7665bad6e3e66e459a1045403970fb34da212e"
     },
     "icon-create": {
       "path": "assets/icon-create.png"

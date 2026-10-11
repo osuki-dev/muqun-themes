@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pomegranate-court",
   "name": "Pomegranate Court",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Contemporary anime courtyard picnic and acoustic music, a young guitarist, natural-scale pomegranates, warm rose, teal and ivory native surfaces.",
@@ -128,7 +128,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "f9ec4459a388180cd5a2275e053535a38de07e7dc37e5d3daae955b24f47dfa0"
+      "sha256": "7c89dd64d8d9b484e4960dbeab97fd84d8e4bd36ffcaf0cbc81f2987fa0a921a"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

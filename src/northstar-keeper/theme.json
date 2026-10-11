@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "northstar-keeper",
   "name": "Northstar Keeper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -144,7 +144,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "7657ebb93c299a11df8500a113ec029c4abe912cad3c07c6253e25371e82bcc8"
     },
     "home": {
       "path": "assets/home.webp"

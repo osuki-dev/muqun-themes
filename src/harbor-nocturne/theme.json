@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harbor-nocturne",
   "name": "Harbor Nocturne",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -156,7 +156,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "85584c25c07606f63c785c37bcd5a366e5a203014c476b884bf07f03d912b9e7"
     }
   },
   "decoration": {},

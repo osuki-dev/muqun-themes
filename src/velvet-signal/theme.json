@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "velvet-signal",
   "name": "Velvet Signal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -162,7 +162,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "817e9be596ed7f30fa6ee97a647704a208bc2b62ebb53940d3ee5d9dfdb233f5"
+      "sha256": "eca1def57f305bd76c2dbd413b831a2325ddb222c7095af5c57b0da18f9b769e"
     },
     "native-create": {
       "path": "assets/native-create.png",

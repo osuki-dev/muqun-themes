@@ -2,9 +2,9 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "one-piece-grand-voyage",
-  "name": "One Piece \u2014 Grand Voyage",
-  "version": "1.2.2",
-  "author": "Muqun custom theme \u00b7 fan art",
+  "name": "One Piece — Grand Voyage",
+  "version": "1.2.3",
+  "author": "Muqun custom theme · fan art",
   "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
   "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Luffy Home illustration and nautical rope-and-sail glyphs.",
   "tags": [
@@ -163,7 +163,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "6ec9e3477ffda551a12641cb1ecf26e1f31e2a1579ecc274f478738aa1a42359"
+      "sha256": "e7e4254e0105baa25f0734966a366c9fdab3153f7ec722714894c3f743439f0e"
     },
     "icon-back": {
       "path": "assets/icon-back.png",

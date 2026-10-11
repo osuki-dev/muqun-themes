@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "snowbound-station",
   "name": "Snowbound Station",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "3.1.0",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
@@ -201,7 +201,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "ac68a3fdf88e1b1012b5bf57fe91ddd8fda7811c0b5ce9c632db93e8f7885d95"
+      "sha256": "d5452075d4fee1ea86b8be3613748f3bd5a4dc776c42b08c701cd868c32b9eb2"
     },
     "tabs": {
       "path": "assets/tabs.png",

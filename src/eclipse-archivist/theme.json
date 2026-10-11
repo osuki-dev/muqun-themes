@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "eclipse-archivist",
   "name": "Eclipse Archivist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -129,7 +129,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.webp"
+      "path": "assets/preview.webp",
+      "sha256": "07d7c25081dc61c0e70469079ef8e62bd1a2555505b47eb23028e22a66f93e61"
     },
     "icon-back": {
       "path": "assets/icon-back.png"

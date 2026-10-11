@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vermilion-festival",
   "name": "Vermilion Days",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -168,7 +168,8 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "e5722a1ea078e0b82ea7dca068cf5fb935aff56ad93f85367f8c1ec6de25e724"
     },
     "launch-artwork": {
       "path": "assets/launch-artwork.png"

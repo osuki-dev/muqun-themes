@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "obsidian-titan",
   "name": "Obsidian Titan",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -153,7 +153,8 @@
       "path": "assets/wallpaper-dark.webp"
     },
     "preview": {
-      "path": "assets/preview.png"
+      "path": "assets/preview.png",
+      "sha256": "c5c84c7092c361b0b8a50f59ef2a1ed158c31d30c234fb91d137bc163fa5903e"
     },
     "icon-back": {
       "path": "assets/icon-back.png"
