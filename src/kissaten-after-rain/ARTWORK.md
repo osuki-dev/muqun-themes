@@ -19,3 +19,35 @@ Use case: illustration-story. Asset type: original transparent mobile theme Home
 ## Independent launch
 
 Use case: illustration-story. Asset type: independently composed transparent startup illustration. Original refined 2D anime editorial portrait of a fictional adult barista age 25, cream shirt and blue-gray apron, friendly gentle expression, holding one dusty coral ceramic coffee cup in both hands close to chest, small curl of coffee steam. Centered waist-up silhouette, clean distinct composition suitable for app launch, no counter, no window, no machinery, no brass coffee equipment, no room scene. Warm cream, coffee brown, dusty coral, blue gray, fine ink linework and subtle flat painterly shading. Entire head shoulders hands cup included, breathing room on all sides, genuinely transparent background, no rectangle, no text, no logos, no watermark.
+
+## Bottom windowsill, light (2026-10-12)
+
+Built-in image generation, transparent background enabled. Prompt:
+
+Use case: illustration-story. Create a genuine transparent PNG illustration asset,
+wide 3:1 canvas, 1536x512, for a mobile app input box's lower edge. Theme: Kissaten
+After Rain, elegant Japanese cafe watercolor/anime editorial linework, coffee
+brown, warm cream, muted coral ceramic, gray-blue rain reflections and soft green
+leaves. Isolated artwork only, no interface mockup, text, icons or watermark.
+Keep the upper 78 percent completely empty transparent alpha. Near the bottom
+center-right x=58–74%, y=80–96%, a tiny coral espresso cup with a saucer, quiet
+steam extending only to y=76%, a little folded cream napkin. Along the extreme
+bottom y=96–100%, a slender discontinuous watercolor wooden windowsill ledge,
+irregular feathered transparent edges, not a frame, broken at both ends. Tiny
+rain droplets and reflected blue highlights at extreme bottom margins.
+Bottom-left x=3–27%, y=75–95% and bottom-right x=82–97%, y=75–95% must stay
+transparent for controls. No filled plate, rectangle, complete outline, border,
+character portrait or large objects. Actual transparency, not white/checkerboard.
+
+## Bottom windowsill, dark (2026-10-12)
+
+Built-in image edit of the generated light image, transparent background enabled.
+Prompt: Preserve the wide dimensions and locations of cup, napkin, leaves,
+raindrops and broken wooden sill. Make an evening variant: deep blue-gray wood
+shadows, soft amber rim light on the coral cup, softly lit cream napkin, muted blue
+rainy highlights. Keep upper 74% transparent, reduce steam height and preserve
+clear bottom-left/right control areas. No background fill, frame, text, UI or
+icons. Preserve refined hand-painted anime illustration style and genuine alpha.
+
+Generation returned 2172×724 assets. Delivery only proportionally resizes them
+to 1024×341 and strips metadata; neither image is recolored or composited locally.

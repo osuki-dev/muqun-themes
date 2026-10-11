@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pine-and-parchment",
   "name": "Pine & Parchment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -179,6 +179,12 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "99d6ccbc8aea81700bb38346486c44ea9ea1dde3a166695caec24451e4bd88ab"
+    },
+    "home-composer-botanical": {
+      "path": "assets/home-composer-botanical.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -478,7 +484,50 @@
           "y": 0.5
         }
       }
-    }
+    },
+    "home.composer.background": {
+      "asset": "home-composer-botanical",
+      "fit": "contain",
+      "opacity": 0.82,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 1
+      },
+      "outset": {
+        "left": 12,
+        "right": 12,
+        "bottom": 8
+      },
+      "compact": {
+        "asset": "home-composer-botanical",
+        "fit": "contain",
+        "opacity": 0.82,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        }
+      },
+      "regular": {
+        "asset": "home-composer-botanical",
+        "fit": "contain",
+        "opacity": 0.82,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        }
+      }
+    },
+    "home.composer.decoration": null
   },
   "icons": {
     "chrome.scan": {
@@ -507,6 +556,10 @@
     },
     "chrome.attach": {
       "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -808,7 +861,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-botanical",
+        "fit": "contain",
+        "opacity": 0.82,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "home-composer-botanical",
+          "fit": "contain",
+          "opacity": 0.82,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "home-composer-botanical",
+          "fit": "contain",
+          "opacity": 0.82,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -1107,7 +1203,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-botanical",
+        "fit": "contain",
+        "opacity": 0.62,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "home-composer-botanical",
+          "fit": "contain",
+          "opacity": 0.62,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "home-composer-botanical",
+          "fit": "contain",
+          "opacity": 0.62,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

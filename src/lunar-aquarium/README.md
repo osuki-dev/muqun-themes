@@ -19,3 +19,9 @@ The artwork is wordless and nonessential. Surface/terminal opacity is 1 in both 
 | launch.artwork | Independent generated waist-up keeper composition |
 
 All seven functional icons are bundled as 96×96 alpha PNG templates. Curves use a six-pixel stroke for legibility at native 17pt sizes. Native color tinting and explicit direction metadata preserve theme and navigation state.
+
+## Home composer garden
+
+The Home field now carries a transparent moonstone and aquatic-grass edge illustration, with separate compact and regular canvases. Light/dark image opacity is 0.74/0.90. Every responsive image repeats contain fit, bottom-center alignment and 12/12/8 dp left/right/bottom outsets. A separate pair of horizontally drifting jellyfish uses the bounded 64 dp overhang, with its bottom quarter clear and left-middle alignment. Its light/dark opacity is 0.80/0.95. The eighth template icon is an orbital two-row adjustment glyph for `chrome.parameters`; it is distinct from Settings.
+
+The drafting area and toolbar regions stay transparent. Artwork does not change the field base fill, theme opacity or saved reader choices. Gallery artwork remains free of App controls. Native phone/Pad, keyboard and voice-state acceptance must be recorded separately from source/pack validation.

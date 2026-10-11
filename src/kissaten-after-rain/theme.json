@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "kissaten-after-rain",
   "name": "雨上がりの喫茶店",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -199,6 +199,18 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d74720abdeba0e45f61f6256a0c70c48afca6bca92b27a1cb27ef354e0cfa200"
+    },
+    "home-composer-light": {
+      "path": "assets/home-composer-light.png",
+      "sha256": "de2173dd9c829771d6a40efd929fd0ebe7e3550ffd381155af0446b09dd44809"
+    },
+    "home-composer-dark": {
+      "path": "assets/home-composer-dark.png",
+      "sha256": "5d30024c643fcdb4ef0c4b914fe4046c92d7a23ec5b1f144abba660b70043d6c"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "a98eba587c1a62673e7da290e651b97cf95b0fcd81aedffcce996f6324892e4b"
     }
   },
   "decoration": {
@@ -474,6 +486,10 @@
     "home.arrow": {
       "asset": "icon-arrow",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -531,7 +547,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-light",
+        "fit": "contain",
+        "opacity": 0.72,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "home-composer-light",
+          "fit": "contain",
+          "opacity": 0.72,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "home-composer-light",
+          "fit": "contain",
+          "opacity": 0.6,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -587,7 +646,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-dark",
+        "fit": "contain",
+        "opacity": 0.66,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "home-composer-dark",
+          "fit": "contain",
+          "opacity": 0.66,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "home-composer-dark",
+          "fit": "contain",
+          "opacity": 0.56,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

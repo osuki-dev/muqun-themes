@@ -9,3 +9,23 @@ Home and launch artwork are independently generated, original fictional adult il
 CLI validation, contrast and package checks are recorded in the work report. Bounded native QA must use a cold restart after a header change to verify this App binary's final Editorial composition; no unrun device claim is made here.
 
 The Home Cover title is intentionally shortened to “Cafe” to keep the large figure clear of the native wordmark. The catalogue name and artwork remain unchanged.
+
+## Home composer: rain-wet windowsill
+
+Version 1.1.2 extends the cafe into a shallow, broken wooden windowsill below the
+draft. A small coral espresso cup sits off center, away from the attachment,
+parameters and send controls. Rain droplets and sparse leaves connect it to the
+existing Home illustration. There is no background plate, enclosing frame or
+second character. The original palette, identity and surface opacity are unchanged.
+
+Both 1024×341 PNGs contain real alpha. Their upper half is completely transparent.
+Daylight uses warm wood and coral; evening uses blue-gray reflections and amber
+rim light. `contain` with bottom-center alignment preserves the objects rather
+than stretching or cropping them. Compact opacity is 0.72 light / 0.66 dark;
+regular opacity is 0.60 light / 0.56 dark. Every responsive entry repeats its own
+12 dp left/right and 8 dp bottom outset. There is no upper-rim decoration.
+
+The three-row parameters icon is a template glyph, separate from settings and
+colored by the active palette. The gallery cover remains artwork-only and does
+not simulate an input box. Native review must still cover Classic and Editorial,
+phone and Pad, long drafts, keyboard, parameter visibility and voice states.
