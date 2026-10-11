@@ -1,5 +1,9 @@
 # Artwork provenance
 
+## Home composer update
+
+The transparent `composer-edge-compact.png` and `composer-edge-regular.png` are original artwork generated for this theme with OpenAI image generation and supplied under the theme's CC0-1.0 license. Graphite rails, teal connectors and amber docking lights complement the urban architecture. Phone and tablet compositions preserve clear writing space. The parameter icon is an original template glyph matching the attachment and send controls. The gallery preview uses the theme's own artwork and palette without simulated App controls.
+
 The foreground and two architectural wallpapers were newly generated for Muqun on 2026-09-23 using OpenAI image generation and released by the author under CC0-1.0. No external character franchise, photography, branded marks, fonts, or interface screenshots are bundled.
 
 - `assets/figure.png`: original wordless watercolor character, transparent alpha; shared between light and dark modes.

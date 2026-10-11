@@ -1,5 +1,9 @@
 # Artwork provenance
 
+## Home composer update
+
+The transparent `composer-edge-compact.png` and `composer-edge-regular.png` are original artwork generated for this theme with OpenAI image generation. Rose stationery, washi tape and mint sugar-chip circuitry complement the Home illustration. Phone and tablet compositions preserve clear writing space. The parameter icon is an original template glyph matching the attachment and send controls. The gallery preview uses the theme's own artwork and palette without simulated App controls.
+
 The new character/specimen illustration was generated for this theme using OpenAI built-in image generation on 2026-10-10. It is original generated artwork, with no external reference image or third-party stock asset. Home, launch and empty-state files are transparent resizes/compositions of that illustration.
 
 The seven transparent template glyphs, quiet wallpapers, native surface linework and gallery preview were drawn/composed from project-authored code. No font files are bundled; preview lettering is rasterized. All prior artwork was replaced.

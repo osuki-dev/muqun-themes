@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -198,7 +198,19 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "6b382fbbbf2f826865816a591b1b540e9a64fa843d3776f256bdb066a766da96"
+      "sha256": "4e82d3f9f28e7a0f9047400566c6aacdae6c2c8d49cf2124beb643a97bd5ce5e"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
+    },
+    "composer-edge-compact": {
+      "path": "assets/composer-edge-compact.png",
+      "sha256": "0a6f78ab06ea9be39e8e89830b90e496c54dcb6afde1e941389f67060a93083f"
+    },
+    "composer-edge-regular": {
+      "path": "assets/composer-edge-regular.png",
+      "sha256": "5f991f2af4e7bab9900ff205ce88d37fb105dab5d0a06389f48f2106a52df046"
     }
   },
   "decoration": {
@@ -474,6 +486,10 @@
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -531,7 +547,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-edge-compact",
+        "fit": "cover",
+        "opacity": 0.88,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-edge-compact",
+          "fit": "cover",
+          "opacity": 0.88,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-edge-regular",
+          "fit": "cover",
+          "opacity": 0.88,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -587,7 +646,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-edge-compact",
+        "fit": "cover",
+        "opacity": 0.8,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-edge-compact",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-edge-regular",
+          "fit": "cover",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {
