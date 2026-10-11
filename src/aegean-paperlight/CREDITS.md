@@ -5,3 +5,10 @@ All currently declared illustrations are original fictional2D anime/editorial ar
 License: All rights reserved.
 
 Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.
+
+## Home input artwork (1.2.2)
+
+The optional `home.composer.background` slot reuses the existing light/dark
+wallpaper drawings at restrained opacity, aligned to their lower-right wave
+detail. No new artwork or image edits were introduced. Apps supporting the slot
+draw this layer inside the input field and hide it during voice-to-text.

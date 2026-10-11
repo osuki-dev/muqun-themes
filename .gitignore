@@ -10,6 +10,7 @@ dist/*
 .claude/skills/
 
 node_modules/
+__pycache__/
 tmp/
 *.log
 .DS_Store

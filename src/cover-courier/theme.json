@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cover-courier",
   "name": "Cover Courier",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -175,6 +175,10 @@
       "render": "template"
     },
     "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
       "asset": "icon-settings",
       "render": "template"
     },

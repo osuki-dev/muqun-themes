@@ -19,4 +19,11 @@ flattened banners remain local source alternatives and are not packaged.
 
 Original native template glyphs: `assets/icon-create.png`, `assets/icon-arrow.png`. Created for this theme in 2026 using geometric linework; retain the theme license. Existing back/send/attach artwork is unchanged.
 
-The 2026 `assets/preview.png` is an original palette and UI composition rendered from this theme’s declared artwork. It is a gallery illustration, not a native device screenshot.
+The 2026 `assets/preview.png` is an original artwork and palette composition rendered from this theme’s declared artwork. It is a gallery illustration, not a native device screenshot.
+
+## Composer parameters (1.0.9)
+
+`chrome.parameters` independently declares the composer task-options glyph. It
+reuses the existing two-slider `assets/icon-settings.png` drawing with template
+tinting; no new artwork was introduced. The two icon roles may be replaced
+independently. Apps without this optional slot keep their native control.
