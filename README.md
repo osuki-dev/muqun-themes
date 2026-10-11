@@ -95,6 +95,26 @@ look on the left half and the dark look on the right, made from the theme's
 own artwork or its surfaces and palette. `init` leaves a flat placeholder
 there; replace it and keep it named in the manifest's `preview` field.
 
+Gallery covers show **artwork and colour only**, with no simulated Home UI,
+session lists, input fields, toolbars, buttons or labels. The gallery already
+provides the theme name. A cover should not need replacing when the App's
+layout changes.
+
+Use the repository's deterministic compositor (Python 3 and ImageMagick 7):
+
+```sh
+python scripts/generate-preview-covers.py grand-voyage
+python scripts/generate-preview-covers.py grand-voyage --write
+```
+
+The first command writes a review image under `dist/cover-previews/`. The
+second replaces the declared preview, updates its SHA-256 and increments the
+patch version only when the image changes. Repeating it is idempotent. Use
+`--all --write` for the existing collection, or `--source-root /path/to/src`
+to work in another isolated checkout. It never generates new illustrations.
+See [the cover workflow](docs/gallery-preview-covers.md) for composition and
+review limits.
+
 **5. Run what CI runs.**
 
 ```sh
@@ -109,6 +129,28 @@ you like.
 
 To edit an existing theme, work in its `src/` directory and bump `version` in
 `theme.json`. The next build repacks it.
+
+## Optional Home input artwork
+
+`home.composer.background` supplies the image inside the Home input; it is independent
+of shared `composer.background`. Without an `outset` it remains clipped to the field.
+An image may opt into `"outset": {"left": 12, "right": 12, "bottom": 8}` in dp:
+left/right are each 0..12, bottom is 0..8, and there is no top edge. Omitted edges
+are zero; absent, empty or all-zero outsets keep the original clipping.
+
+Outsets extend only the picture into Home's existing margins, not the input/text
+area, layout height, touch/accessibility targets, base-fill opacity or voice overlay.
+The image is noninteractive and hidden during voice-to-text. Keep controls and text
+clear and inspect phone and Pad, including keyboard and voice states. Compact/regular
+image variants replace the base image completely, so each variant must declare its
+own outset when required. Other slots accept but ignore this property.
+
+`home.composer.decoration` remains the separate transparent artwork above the input
+rim, with its existing 48 dp overhang and 16 dp overlap. Do not move an existing
+character or seagull into the background just to add a left/right/bottom trim.
+Existing themes need no added fields. The outset property requires a supporting App
+and CLI: older strict image schemas may reject it. Verify the release before choosing
+`minAppVersion`, and use the current bundled muqun-theme skill for the full contract.
 
 ## Submitting a theme
 

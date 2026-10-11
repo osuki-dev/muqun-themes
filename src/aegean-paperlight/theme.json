@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aegean-paperlight",
   "name": "Aegean Paperlight",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -266,6 +266,12 @@
   },
   "variantDecorations": {
     "light": {
+      "home.composer.background": {
+        "asset": "wallpaper-light",
+        "fit": "cover",
+        "opacity": 0.16,
+        "focalPoint": { "x": 1, "y": 1 }
+      },
       "shell.wallpaper": {
         "asset": "wallpaper-light",
         "fit": "cover",
@@ -314,6 +320,12 @@
       }
     },
     "dark": {
+      "home.composer.background": {
+        "asset": "wallpaper-dark",
+        "fit": "cover",
+        "opacity": 0.16,
+        "focalPoint": { "x": 1, "y": 1 }
+      },
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
         "fit": "cover",
