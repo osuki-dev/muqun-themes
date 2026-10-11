@@ -21,3 +21,15 @@ The seven 96×96 transparent template icons are original rounded line drawings: 
 `launch-keeper.png` is a separate OpenAI built-in image-generation edit of the original keeper, with a new waist-up pose and square framing. The source portrait remains unmodified.
 
 Final launch prompt: Edit this original aquarium keeper artwork for a distinct startup illustration. Preserve her adult identity, silver lavender braid, fine oval glasses, modest white dress with navy sleeves, delicate anime watercolor cel shading, aqua/periwinkle muted palette. Create a new square waist-up composition: keeper calmly presenting the glass jellyfish specimen globe toward viewer with both hands, slight three-quarter turn and warm quiet expression. One small translucent jellyfish beside the globe and a subtle crescent orbital arc above shoulder. New pose and framing, not a crop of the old image. Generous empty transparent margins, true transparent background, no environment, no words, no UI, no neon. Face and specimen clear in central 60% for startup.
+
+## Home composer garden (1.0.2)
+
+- `assets/composer-moon-garden.png` and its separately generated 3:1 responsive variant `assets/composer-moon-garden-wide.png`: original OpenAI built-in image generation artwork, generated and refined on 2026-10-12. A sparse silver-lavender aquatic garden occupies the extreme side and bottom edges; the central drafting area is transparent.
+- `assets/composer-jellyfish-drift.png`: original OpenAI built-in image generation artwork from the same date. Two horizontally drifting moonlit jellyfish float above the input rim, independently from the field background.
+- `assets/icon-parameters.png`: original two-row orbital adjustment glyph authored as vector geometry and rasterized as a transparent template icon.
+
+Final garden prompt: Refine a wide transparent watercolor aquarium ornament in silver lavender, pale aqua and periwinkle. Keep only very narrow aquatic stems at the outer edges and intermittent small moonstones along the lowest edge. Leave the enormous central opening and attachment, parameters and send-control regions genuinely transparent. No plate, frame, background fill, tank, UI, words or character.
+
+Final drift prompt: Two small silver-lavender moonlit jellyfish drift horizontally, with pale aqua bell rims and fine tentacles curling sideways to the left. Refined anime watercolor, one larger and one smaller jellyfish, one tiny crescent waterdrop. Isolated on genuine alpha with an empty bottom quarter, no tank, waterplane, opaque glow, person, text or UI.
+
+The neutral artwork is authored explicitly for light and dark modes with separate opacity. Compact and regular widths use separate canvas compositions, contain fit and bottom alignment. Background outsets are 12 dp left/right and 8 dp bottom. The overhang stays in the separate 64 dp envelope, aligned toward the left-middle rather than the right corner. Existing palettes, terminal colors and user-adjustable interface background opacity are unchanged. These additions do not alter the artwork-only gallery cover.

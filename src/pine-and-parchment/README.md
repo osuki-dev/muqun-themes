@@ -33,3 +33,30 @@ The 1024x640 gallery image shows daylight and night, a startup inset, UI color s
 ## Local checks
 
 Created with the local CLI init scaffold after a catalogue search for pine. All placeholders were replaced. Validate and contrast pass; surfaces and terminal are authored at opacity 1. Pack creates the ignored distribution file with a successful importer round trip. The root maintainer runs the shared source/preview check with the other themes.
+
+## Home composer (1.0.2)
+
+The courier's botanical map returns as a small desk still life at the bottom of
+the Home input: folded parchment, pine needles, a pinecone and a brass drafting
+compass. It is a transparent, irregular island rather than a second input frame.
+There is no extra character on the upper-right rim and no baked background plate.
+The existing surface colors and authored background opacity remain unchanged;
+the reader's saved opacity continues to control the App's field fill.
+
+| Mode | Compact | Regular | Artwork opacity | Image outset |
+| --- | --- | --- | --- | --- |
+| Light | home-composer-botanical, contain, center/bottom | same asset, contain, center/bottom | 0.82 | left/right 12 dp, bottom 8 dp |
+| Dark | home-composer-botanical, contain, center/bottom | same asset, contain, center/bottom | 0.62 | left/right 12 dp, bottom 8 dp |
+
+All four responsive declarations repeat the full image settings. The Pad uses
+the same low central island without stretching it across the wider input. The
+outset is an image envelope, not a promise that artwork fills every margin.
+`home.composer.decoration` is explicitly disabled in both modes. The template
+`chrome.parameters` glyph uses three circular adjustment handles, consistent
+with the other rounded line icons and distinct from Settings.
+
+CLI 2.4.1 source validation, contrast analysis and package round trip are the
+local authoring checks. They do not establish native phone/Pad acceptance;
+Classic/Editorial, keyboard, long drafts and inline dictation still require the
+App's coordinated visual review. The existing gallery cover remains pure
+artwork and palette, without a simulated input field.

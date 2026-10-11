@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lunar-aquarium",
   "name": "Lunar Aquarium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -173,6 +173,18 @@
     },
     "launch-keeper": {
       "path": "assets/launch-keeper.png"
+    },
+    "composer-moon-garden": {
+      "path": "assets/composer-moon-garden.png"
+    },
+    "composer-jellyfish-drift": {
+      "path": "assets/composer-jellyfish-drift.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
+    },
+    "composer-moon-garden-wide": {
+      "path": "assets/composer-moon-garden-wide.png"
     }
   },
   "decoration": {
@@ -264,6 +276,10 @@
     "home.arrow": {
       "asset": "icon-arrow",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -331,6 +347,75 @@
             "y": 0.5
           }
         }
+      },
+      "home.composer.background": {
+        "asset": "composer-moon-garden",
+        "fit": "contain",
+        "opacity": 0.74,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-moon-garden",
+          "fit": "contain",
+          "opacity": 0.74,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-moon-garden-wide",
+          "fit": "contain",
+          "opacity": 0.74,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-jellyfish-drift",
+        "fit": "contain",
+        "opacity": 0.8,
+        "focalPoint": {
+          "x": 0.32,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-jellyfish-drift",
+          "fit": "contain",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.32,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-jellyfish-drift",
+          "fit": "contain",
+          "opacity": 0.8,
+          "focalPoint": {
+            "x": 0.38,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -395,6 +480,75 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-moon-garden",
+        "fit": "contain",
+        "opacity": 0.9,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-moon-garden",
+          "fit": "contain",
+          "opacity": 0.9,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-moon-garden-wide",
+          "fit": "contain",
+          "opacity": 0.9,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-jellyfish-drift",
+        "fit": "contain",
+        "opacity": 0.95,
+        "focalPoint": {
+          "x": 0.32,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-jellyfish-drift",
+          "fit": "contain",
+          "opacity": 0.95,
+          "focalPoint": {
+            "x": 0.32,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-jellyfish-drift",
+          "fit": "contain",
+          "opacity": 0.95,
+          "focalPoint": {
+            "x": 0.38,
+            "y": 0
           }
         }
       }

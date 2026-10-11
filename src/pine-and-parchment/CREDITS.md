@@ -21,3 +21,25 @@ Creator: Muqun theme author. Source: original mathematical paths authored in thi
 Files: wallpaper-light.png, wallpaper-dark.png, home-wallpaper-light.png, home-wallpaper-dark.png, navigation.png, composer.png, actions.png, cards.png, buttons.png, tabs.png, empty.png, icon-back.png, icon-send.png, icon-attach.png, icon-create.png, icon-scan.png, icon-settings.png, icon-arrow.png.
 
 The gallery preview.png is an original composition of these licensed theme assets, palette rectangles and English labels rendered with the system DejaVu fonts. No font file is packaged. Intermediate SVG and scripts are not included in the distributable theme.
+
+## Home composer botanical still life (1.0.2)
+
+File: `assets/home-composer-botanical.png`.
+Creator: OpenAI image generation, directed by Muqun. Source: built-in image_gen
+in the 2026-10-12 authoring session; no public source URL. License: CC-BY-4.0.
+The generated PNG is copied with its original alpha channel intact. No third-party
+reference artwork, character or typeface was used.
+
+Final prompt set: create a genuine transparent landscape botanical desk still
+life in fine-pencil, softly shaded anime style, using ivory parchment, sage pine
+and antique brass. Put a small folded botanical map, pine sprigs, one pinecone
+and a drafting compass in a low island at the bottom center. Keep the upper draft
+area empty; do not draw a panel, frame, UI or text. The final targeted edit
+removed the outer side branches and contour trails, leaving both toolbar corners
+transparent. Compact and regular layouts reuse this restrained composition with
+contain fit and bottom alignment, preserving object proportions.
+
+File: `assets/icon-parameters.png`.
+Creator: Muqun theme author. Source: original three-slider vector paths rasterized
+with ImageMagick, matching the existing 128px, 8px-stroke template icon family.
+License: CC-BY-4.0. The intermediate SVG is not distributed.
