@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "poolside-prism",
   "name": "Poolside Prism",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Muqun Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -179,6 +179,12 @@
     },
     "launch": {
       "path": "assets/poolside-launch.png"
+    },
+    "home-composer-accent": {
+      "path": "assets/home-composer-accent.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {},
@@ -209,6 +215,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -510,6 +520,75 @@
             "y": 0.5
           }
         }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-accent",
+        "fit": "contain",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "empty-buoy",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "empty-buoy",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "empty-buoy",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -807,6 +886,75 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-accent",
+        "fit": "contain",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "empty-buoy",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "empty-buoy",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "empty-buoy",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
           }
         }
       }

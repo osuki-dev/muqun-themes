@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "solar-cathedral",
   "name": "Solar Cathedral",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -155,6 +155,10 @@
     },
     "launch-dark": {
       "path": "assets/launch-dark.webp"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
     }
   },
   "decoration": {},
@@ -185,6 +189,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

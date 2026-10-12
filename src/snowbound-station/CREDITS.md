@@ -56,3 +56,11 @@ drawings rasterized for the theme format, by Muqun Theme Collection, CC-BY-4.0.
 The preview.png composition uses only this theme's own art, colors and icons;
 the startup thumbnail identifies the independent launch scene. Preview text is
 rendered with the system Noto Sans font; no font file is distributed.
+
+## Home composer local preview
+
+`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.
+
+Final parameters glyph: reused from neon-window-study in this repository, template, CC0-1.0, matching the mechanical/angular chrome family.
+
+Home responsive adaptation: original compact girl/bench composition generated with OpenAI imagegen from the existing Home/launch originals. Regular Home retains the original landscape. Updated pure-art split preview is composed from current theme assets; no UI or text is baked in.

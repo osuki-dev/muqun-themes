@@ -7,3 +7,7 @@ All assets in this refreshed package are original and distributed under CC-BY-4.
 - `assets/preview.png`: original composition using the final package artwork and theme tokens.
 
 Superseded third-party technology marks and previous illustrations are not included.
+
+## Home composer local preview
+
+`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.

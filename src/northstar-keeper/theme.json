@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "northstar-keeper",
   "name": "Northstar Keeper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -152,6 +152,9 @@
     },
     "launch": {
       "path": "assets/launch.webp"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {},
@@ -182,6 +185,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

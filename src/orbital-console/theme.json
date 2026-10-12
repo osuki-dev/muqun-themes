@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "orbital-console",
   "name": "Orbital Console",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -167,6 +167,9 @@
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
       "sha256": "80b223861888220fef84bcf53476bde869290a866731e2f08a6bcc25e299a605"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -213,6 +216,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

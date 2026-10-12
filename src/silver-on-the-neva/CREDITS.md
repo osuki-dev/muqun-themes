@@ -31,3 +31,7 @@ neva-home-v2: Neva winter riverside with coral tram and youthful adult skater, b
 neva-launch-v2: Independent youthful adult skater in cobalt coat and ivory scarf, coral rail motif, airy ice reflection. Keep graceful full-body square transparent silhouette. Render youthful face cleanly; simplify hair/clothing into confident cel-shaded shapes with three tones, flowing motion arcs.
 
 Native edge refinement: modest transparent padding protects the drawn right-edge subject in phone and Pad cover panes. Home scenic wallpaper and the default brand wordmark are explicitly hidden; native controls and the art carry identity.
+
+## Parameters glyph refresh
+
+`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

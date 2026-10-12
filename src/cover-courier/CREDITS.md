@@ -27,3 +27,15 @@ The 2026 `assets/preview.png` is an original artwork and palette composition ren
 reuses the existing two-slider `assets/icon-settings.png` drawing with template
 tinting; no new artwork was introduced. The two icon roles may be replaced
 independently. Apps without this optional slot keep their native control.
+
+## Composer parameters (1.0.10)
+
+`assets/icon-parameters.png` is an existing original Muqun template glyph reused
+from poolside-prism. Creator: Muqun. Source:
+https://github.com/osuki-dev/muqun-themes/tree/main/src/poolside-prism/assets/icon-parameters.png
+Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
+
+The three open knobs remain distinct from the application settings glyph’s two filled round knobs. This transparent sliders mask is
+independently declared as `chrome.parameters`, with template tinting in both
+light and dark modes. It does not replace or fall back to `chrome.settings`.
+No illustration, palette, surface opacity or composer decoration is changed.

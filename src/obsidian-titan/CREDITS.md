@@ -19,3 +19,7 @@ Restrained rising embers at intensity 0.18, speed 0.3, density 0.35 and size 0.7
 ## Version 1.0.1 framing correction
 
 Home and launch were outpainted with the built-in image tool to complete the physical silhouette instead of hiding canvas cuts with layout changes. Home retains the close-up pilot and titan as a complete pointed armored bust, with all scarf tips enclosed. Launch preserves the boots and finishes the entire volcanic ledge. Opaque light and dark review composites verify the canvas boundaries.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: Original Muqun Theme Collection angular adjustment tracks with hexagonal handles; vector geometry rasterized to a transparent 96×96 PNG, matching the armored mechanism family. License: CC0-1.0. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.

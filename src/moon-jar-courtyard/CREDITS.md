@@ -10,3 +10,12 @@ The generated transparent alpha is preserved. Packaging crops unused transparent
 All seven `assets/icon-*.png` resources are original geometric glyph drawings by Muqun Theme Collection under the theme license. They use transparent alpha for native tinting; back points left, send and Home arrow point up-right.
 
 `assets/preview.png` is a 1024×640 light/dark source UI composition using the final artwork and palette, not a device screenshot.
+
+## Parameters glyph (1.1.8)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Sugar Circuit (`src/sugar-circuit/assets/icon-parameters.png`).
+Creator: Muqun Theme Collection. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/sugar-circuit).
+Source artwork license: All rights reserved; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.

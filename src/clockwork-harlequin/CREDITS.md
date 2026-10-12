@@ -15,3 +15,15 @@ All seven `assets/icon-*.png` files: original geometric line glyphs with consist
 `assets/preview.png`: original gallery UI composition of final artwork and palettes, not a device screenshot.
 
 No external stock assets, logos, typefaces or third-party illustrations are bundled. Full art prompts are in PROMPTS.md.
+
+## Composer parameters (1.0.10)
+
+`assets/icon-parameters.png` is an existing original Muqun template glyph reused
+from runtime-foundry. Creator: Muqun. Source:
+https://github.com/osuki-dev/muqun-themes/tree/main/src/runtime-foundry/assets/icon-parameters.png
+Icon license: CC-BY-4.0. The rest of this theme retains its existing licensing.
+
+The hexagonal knobs complement the harlequin’s angular ornament and clockwork accents. This transparent sliders mask is
+independently declared as `chrome.parameters`, with template tinting in both
+light and dark modes. It does not replace or fall back to `chrome.settings`.
+No illustration, palette, surface opacity or composer decoration is changed.

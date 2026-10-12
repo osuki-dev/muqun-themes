@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "spore-protocol",
   "name": "Spore Protocol",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -199,6 +199,18 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "f5c81adb86346bc3b07cb76d464ead2d0ed774065c747b901935adc68b1aa56c"
+    },
+    "home-composer-compact": {
+      "path": "assets/home-composer-compact.png",
+      "sha256": "f8269f90020b7b81c6bba31e84677f7ec2aa6b60d30c3c849cbf7b803e1ef40c"
+    },
+    "home-composer-regular": {
+      "path": "assets/home-composer-regular.png",
+      "sha256": "11cae491366946a407d7774a07ecb764629cf13ff9d68d7ce580a4ea8c440eea"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "decoration": {
@@ -444,7 +456,8 @@
           "y": 0.5
         }
       }
-    }
+    },
+    "home.composer.decoration": null
   },
   "icons": {
     "chrome.scan": {
@@ -473,6 +486,10 @@
     },
     "chrome.attach": {
       "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -531,7 +548,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0,
+          "y": 0
+        },
+        "outset": {
+          "left": 6,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "outset": {
+            "left": 6,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "outset": {
+            "left": 6,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -587,7 +647,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.5,
+        "focalPoint": {
+          "x": 0,
+          "y": 0
+        },
+        "outset": {
+          "left": 6,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "outset": {
+            "left": 6,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "outset": {
+            "left": 6,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

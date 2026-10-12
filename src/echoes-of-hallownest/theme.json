@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "echoes-of-hallownest",
   "name": "Echoes of Hallownest",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying game rights reserved",
   "homePresentation": {
@@ -171,6 +171,10 @@
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
       "sha256": "8d1db3909e15fe6acd19c91d43887d2e27db0ade042ec52f33d26d7184937deb"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "66509f71be4fae9875b79358b5b3af85f0844a8a16764b905d22fce60f4fb8c3"
     }
   },
   "decoration": {
@@ -256,6 +260,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

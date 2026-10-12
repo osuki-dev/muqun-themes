@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cinder-canyon",
   "name": "Cinder Canyon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -158,6 +158,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "999d3e724ea1f5f0983ce0ce1b9880b2819fb3c3f5ff87e85108ff41c3beb2ff"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
     }
   },
   "decoration": {},
@@ -188,6 +192,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

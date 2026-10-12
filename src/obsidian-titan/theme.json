@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "obsidian-titan",
   "name": "Obsidian Titan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -176,6 +176,9 @@
     },
     "icon-settings": {
       "path": "assets/icon-settings.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {},
@@ -206,6 +209,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

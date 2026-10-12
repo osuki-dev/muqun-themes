@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "city-pop-balcony",
   "name": "シティポップ・バルコニー",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
@@ -163,6 +163,10 @@
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
       "sha256": "ba70a9fe570d1db60f911f4fd6ae60ec669a427ab77f4432a3cb86324adf3403"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "variantDecorations": {
@@ -414,6 +418,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

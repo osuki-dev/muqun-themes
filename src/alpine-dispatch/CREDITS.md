@@ -25,3 +25,15 @@ All seven roles supported by the current authoring contract are populated: `chro
 Home and launch are independent complete transparent dog illustrations. The generated RGB planes may contain unused colors under fully transparent pixels; those pixels are not visible when composited. Both light and dark figures were inspected over solid backgrounds to verify there is no scenic rectangle, ground plane or hard silhouette crop. Wallpapers own the environment.
 
 Compact and regular foregrounds explicitly use contain. The native controls retain their solid readable surfaces. Snow uses the existing bounded effect with intensity 0.12, density 0.15 and speed 0.25. Theme validation and contrast checks passed with CLI 2.3.1. Native device installation is not claimed here.
+
+## Composer parameters (1.0.2)
+
+`assets/icon-parameters.png` is an existing original Muqun template glyph reused
+from poolside-prism. Creator: Muqun. Source:
+https://github.com/osuki-dev/muqun-themes/tree/main/src/poolside-prism/assets/icon-parameters.png
+Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
+
+The three round open knobs match the rescue glyphs’ rounded strokes and compass circles. This transparent sliders mask is
+independently declared as `chrome.parameters`, with template tinting in both
+light and dark modes. It does not replace or fall back to `chrome.settings`.
+No illustration, palette, surface opacity or composer decoration is changed.

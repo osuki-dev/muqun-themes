@@ -9,3 +9,11 @@ Use case: illustration-story. Asset type: original transparent mobile theme Home
 ## Independent launch
 
 Use case: illustration-story. Asset type: independently composed transparent startup illustration. Original refined contemporary 2D anime editorial portrait of a fictional young adult reader age24 in ink navy relaxed sweatshirt and sage headphones around neck, holding one open cream book below chest, looking up with a gentle thoughtful smile. Centered waist-up silhouette, entire head shoulders hands book included, fine confident linework and soft flat painterly shading, ink navy sage cream warm skin tones. Distinct standalone composition, no bench, no shelves, no room, no old leather armchair, no diorama. Breathing room all sides, genuinely transparent background, no rectangle no text no logo no watermark.
+
+## Home composer edge artwork (2026-10-12)
+
+Built-in OpenAI image generation: wide horizontal transparent decorative edge illustration, small theme-specific motifs only at far upper corners; empty middle 75 percent and lower half, clean anime editorial outlines and cel shading, readable on cream and deep ink; no panel, border, text, icons or people. Compact canvas 1080×360; regular 2160×360 with the generated corner fragments separated by additional transparent space. No artwork is procedurally drawn. Both modes use the same colored artwork at explicit restrained opacity. No separate overhang.
+
+## Composer composition revision (2026-10-12)
+
+New independent built-in imagegen artwork: Small sage clothbound book and ivy at lower center with clear sides and upper text area. Genuine alpha; refined anime editorial cel shading, readable on cream and deep ink, no panel/frame/text/background. Proportional resizing and transparent canvas layout only; no procedural artwork.

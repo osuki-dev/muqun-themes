@@ -11,3 +11,7 @@ All character and wallpaper artwork was created specifically for Muqun with Open
 - `preview.png`: composition of this theme's own assets and palette.
 
 Generation prompts requested original premium Japanese anime art, fully contained subject silhouettes, genuine alpha for character artwork, separate underwater cathedral backgrounds, and no text or logos. Home and launch are intentionally different compositions.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: Original Muqun Theme Collection adjustment tracks with open round handles; vector geometry rasterized to a transparent PNG to match this theme’s existing stroke and corner family. The glyph is original geometry under CC0-1.0. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.

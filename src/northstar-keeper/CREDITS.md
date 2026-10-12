@@ -27,3 +27,7 @@ The seven currently replaceable icon roles are all included: back, send, attachm
 Neutral character art is shared across both color modes. Wallpapers, UI palettes and terminal colors are mode-specific. Home and launch foregrounds have true alpha and were inspected over white backgrounds, including full paws, cap, coat hem, lantern handle and glass housing. Source assets have at most a 1024-pixel edge; preview is 1024 by 640. Snow uses a low authored density and intensity with the App's existing bounded renderer. No native installation or performance measurement is claimed.
 
 CLI 2.3.1 validation, contrast and package round-trip passed.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: Original Muqun Theme Collection adjustment tracks with open round handles; vector geometry rasterized to a transparent PNG to match this theme’s existing stroke and corner family. The glyph is original geometry under CC0-1.0. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.

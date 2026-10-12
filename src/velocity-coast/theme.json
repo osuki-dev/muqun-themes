@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "velocity-coast",
   "name": "Velocity Coast",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying Sonic rights belong to SEGA",
   "variants": {
@@ -163,6 +163,10 @@
     },
     "native-arrow": {
       "path": "assets/native-arrow.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
     }
   },
   "decoration": {
@@ -248,6 +252,10 @@
     },
     "home.arrow": {
       "asset": "native-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

@@ -22,3 +22,15 @@ All artwork was created for Muqun with OpenAI's built-in image generation tool o
 The complete current replaceable icon set is included: `chrome.back`, `chrome.send`, `chrome.attach`, `chrome.create`, `chrome.scan`, `chrome.settings`, and `home.arrow`. The Home arrow's authored direction is `up-right`. Assets use template rendering so their color follows the selected theme and state. Other App glyphs are outside the current theme icon contract.
 
 Home and launch use the same neutral silver rendering in light and dark modes; wallpaper and UI palettes are mode-specific. Static artworks have a maximum edge of 1024 pixels. The source preview is 1024 by 640. Transparent Home and launch were inspected over white and dark backgrounds; no rectangular background is retained. CLI 2.3.1 validation, contrast and package round-trip passed. Native App installation is not claimed here.
+
+## Composer parameters (1.0.2)
+
+`assets/icon-parameters.png` is an existing original Muqun template glyph reused
+from lunar-aquarium. Creator: Muqun. Source:
+https://github.com/osuki-dev/muqun-themes/tree/main/src/lunar-aquarium/assets/icon-parameters.png
+Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
+
+The two open circular knobs distinguish parameters from the three rectangular settings stops and echo firefly rings. This transparent sliders mask is
+independently declared as `chrome.parameters`, with template tinting in both
+light and dark modes. It does not replace or fall back to `chrome.settings`.
+No illustration, palette, surface opacity or composer decoration is changed.

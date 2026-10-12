@@ -11,3 +11,12 @@ All character and botanical conservatory illustrations were generated specifical
 The supported replacement roles are chrome.back, chrome.send, chrome.attach, chrome.create, chrome.scan, chrome.settings, and home.arrow. Other App glyphs retain the built-in rendering. The Home arrow points up-right and declares its source direction.
 
 The kitten illustrations were regenerated as explicitly stylized Japanese-animation characters: rounded faces, expressive emerald eyes and simplified cel-shaded fur. They replace the earlier realistic cat studies, which are not shipped.
+
+## Parameters glyph (1.0.2)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
+Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
+Source artwork license: CC-BY-4.0; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.

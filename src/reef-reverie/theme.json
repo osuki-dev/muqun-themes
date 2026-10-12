@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "reef-reverie",
   "name": "Reef Reverie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -158,6 +158,9 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "a7af2d4f86a013ef1fffa9db9da3bb88ccf22371edd9123ad24968f3fb623315"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {},
@@ -188,6 +191,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

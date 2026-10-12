@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sakura-in-passing",
   "name": "Sakura, in Passing",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -117,10 +117,12 @@
   },
   "assets": {
     "home-compact": {
-      "path": "assets/home-compact.png"
+      "path": "assets/home-compact.png",
+      "sha256": "aa3107b4bbc8bc0cba482430b5b0c281d6ebf13906885725fedd8ed23c60d24c"
     },
     "home-regular": {
-      "path": "assets/home-regular.png"
+      "path": "assets/home-regular.png",
+      "sha256": "aa3107b4bbc8bc0cba482430b5b0c281d6ebf13906885725fedd8ed23c60d24c"
     },
     "launch": {
       "path": "assets/launch.png"
@@ -163,7 +165,22 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "a24d6578cc73b85bb5bd737015d7a8feb2f6bc8214c0745e2ac9f2d75097c577"
+      "sha256": "ce4c32932fe206e65b6d2f78f449d8e09dcc95a18007323c830e57095a81006a"
+    },
+    "composer-compact": {
+      "path": "assets/composer-compact.png",
+      "sha256": "b3b114c48afac46766e49e06b062f1763dfec52d8bb3afe4aef27241d70a2239"
+    },
+    "composer-regular": {
+      "path": "assets/composer-regular.png",
+      "sha256": "17dc8ff19ae1f3912f2661ed7acac90672f719da1be95a5ef953183e8213fdfa"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
+    },
+    "composer-overhang": {
+      "path": "assets/composer-overhang.png",
+      "sha256": "8072212bb3620334d4e3088010a787506829f76e0ffa230b1d844634452642e5"
     }
   },
   "decoration": {
@@ -262,6 +279,10 @@
     "chrome.settings": {
       "asset": "icon-settings",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "variantDecorations": {
@@ -311,6 +332,75 @@
             "y": 0.5
           }
         }
+      },
+      "home.composer.background": {
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -357,6 +447,75 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
           }
         }
       }

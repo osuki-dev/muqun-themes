@@ -13,3 +13,7 @@ assets/home-hero.png is a newly generated original Home composition created with
 ## Contemporary character redraw 1.0.9
 
 The previous miniature scenery and wallpaper assets were retired. `assets/home-scene.png` and `assets/launch-traveler.png` are original built-in image_gen illustrations. Home was generated from an original authored scene brief; independent startup used that original generated Home character as its only identity reference. No third-party visual inputs were used. Both packaged PNGs preserve generated RGBA alpha and are copied without crop, painting or recoloring. Original SVG control glyphs were authored for this theme and rasterized to transparent PNG: back/send/attach/create/scan/settings/arrow. Template tint follows the palette; arrow visibly points up-right and declares that source direction. Artwork and glyphs are covered by the theme’s existing license. The 1024×640 gallery preview is fictional, composed from final assets and palette, not an App screenshot. Full image prompts are in PROMPTS.md.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: The existing adjustment-track drawing is now correctly assigned to parameters. The settings control has a separately authored eight-tooth mechanism and center ring. Both glyphs are original Muqun Theme Collection transparent template geometry under the existing theme license. `icon-settings.png` is the distinct settings mechanism. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
