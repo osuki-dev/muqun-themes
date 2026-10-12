@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jade-tempest",
   "name": "Jade Tempest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -152,6 +152,10 @@
     },
     "icon-arrow": {
       "path": "assets/icon-arrow.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "dd4e802adbfce7e3609acfce0d1ed38d70f28cd034a57a89eb8c390913602428"
     }
   },
   "decoration": {},
@@ -182,6 +186,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

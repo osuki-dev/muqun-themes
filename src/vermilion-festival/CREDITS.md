@@ -19,3 +19,7 @@ Generated on2026-10-10 using the built-in image generation tool.
 ## Original code-native artwork
 
 Seven128px transparent template glyphs, four abstract wallpapers, six rounded-line chrome patterns and square notebook/headphones empty-state artwork are original vector geometry rasterized with ImageMagick. No SVG or authoring scripts are bundled. The1024x640 split preview uses this package's own artwork with locally rendered English labels; no font files are included.
+
+## Parameters glyph refresh
+
+`assets/icon-parameters.png` reuses the original Pine & Parchment control glyph by Muqun: three rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/pine-and-parchment/assets/icon-parameters.png). Asset license: CC-BY-4.0; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

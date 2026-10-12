@@ -16,3 +16,7 @@ The seven semantic control glyphs were independently drawn as a coherent angular
 ## Implementation
 
 The Home foreground and transparent launch figures are independent files. Scenery is confined to wallpaper and the gallery preview. Version 1.0.1 replaces opaque launch scenes and repairs the Home silhouette. The wallpaper contains no duplicate foreground character. Both layouts share the foreground, and all supported image slots define compact and regular behavior. The wallpaper remains at full opacity; opaque functional surfaces maintain readable controls. The dust effect is deliberately sparse and slow and uses theme palette roles.
+
+## Parameters glyph refresh
+
+`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

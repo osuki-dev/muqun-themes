@@ -2,11 +2,11 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "musashi-book-of-void",
-  "name": "宮本武蔵｜空の巻",
-  "version": "1.1.6",
+  "name": "\u5bae\u672c\u6b66\u8535\uff5c\u7a7a\u306e\u5dfb",
+  "version": "1.1.7",
   "author": "Muqun",
   "license": "CC-BY-4.0",
-  "description": "『五輪書』と二天一流をモチーフに、和紙、松煙墨、錆朱、夜藍で静かな緊張と余白を描く宮本武蔵テーマ。",
+  "description": "\u300e\u4e94\u8f2a\u66f8\u300f\u3068\u4e8c\u5929\u4e00\u6d41\u3092\u30e2\u30c1\u30fc\u30d5\u306b\u3001\u548c\u7d19\u3001\u677e\u7159\u58a8\u3001\u9306\u6731\u3001\u591c\u85cd\u3067\u9759\u304b\u306a\u7dca\u5f35\u3068\u4f59\u767d\u3092\u63cf\u304f\u5bae\u672c\u6b66\u8535\u30c6\u30fc\u30de\u3002",
   "tags": [
     "musashi",
     "samurai",
@@ -167,6 +167,10 @@
     },
     "chrome-dark": {
       "path": "assets/chrome-dark.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "variantDecorations": {
@@ -315,12 +319,16 @@
     "home.arrow": {
       "asset": "icon-arrow",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "空の巻"
+      "text": "\u7a7a\u306e\u5dfb"
     },
     "logo": {
       "mode": "hidden"

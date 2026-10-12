@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "velvet-signal",
   "name": "Velvet Signal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -171,6 +171,10 @@
     "native-arrow": {
       "path": "assets/native-arrow.png",
       "sha256": "6a8049c624f166a194c87e150ea09fd649a1816cd65da216cbf3128f76100f86"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "dd4e802adbfce7e3609acfce0d1ed38d70f28cd034a57a89eb8c390913602428"
     }
   },
   "decoration": {},
@@ -201,6 +205,10 @@
     },
     "home.arrow": {
       "asset": "native-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

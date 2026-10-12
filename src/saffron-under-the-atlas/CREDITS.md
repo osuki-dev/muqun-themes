@@ -33,3 +33,7 @@ saffron-home-v2: Moroccan rooftop garden, bold terracotta stepped architecture, 
 saffron-launch-v2: Independent Moroccan cobalt doorway and sunlit terracotta roof stairs with one curved leafy branch. Keep square alpha cutout. Reduce botanical/object detail and use graphic flat architectural blocks. No realistic masonry, no pottery stilllife.
 
 Native edge refinement: modest transparent padding protects the drawn right-edge subject in phone and Pad cover panes. Home scenic wallpaper and the default brand wordmark are explicitly hidden; native controls and the art carry identity.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: The existing adjustment-track drawing is now correctly assigned to parameters. The settings control has a separately authored eight-tooth mechanism and center ring. Both glyphs are original Muqun Theme Collection transparent template geometry under the existing theme license. `native-settings.png` is the distinct settings mechanism. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.

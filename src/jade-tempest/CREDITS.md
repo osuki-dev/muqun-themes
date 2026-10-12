@@ -14,3 +14,12 @@ Art direction: original anime key visual; jade emerald, bronze and ivory; monume
 ## Version 1.0.1
 
 The Home foreground was outpainted with OpenAI image generation to complete the dragon horns, right silhouette and flowing garments. The original face, palette and pose are preserved. The separate launch illustration is unchanged. Boundary proofs composite the actual transparent assets over solid light and dark backgrounds.
+
+## Parameters glyph (1.0.3)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Neon Window Study (`src/neon-window-study/assets/icon-parameters.png`).
+Creator: Muqun Theme Collection. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/neon-window-study).
+Source artwork license: All rights reserved; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.

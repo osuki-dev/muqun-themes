@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tetromino-atelier",
   "name": "Tetromino Atelier",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying rights reserved",
   "homePresentation": {
@@ -167,6 +167,10 @@
     },
     "native-arrow": {
       "path": "assets/native-arrow.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "994746b0f33a76e29f782cb52d9b9b0a17b368f1d34fbdce91d7ae236bcbb260"
     }
   },
   "decoration": {
@@ -252,6 +256,10 @@
     },
     "home.arrow": {
       "asset": "native-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

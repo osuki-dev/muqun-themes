@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "urban-sentinel",
   "name": "Urban Sentinel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Sage technical outerwear and warm graphite ink above peaceful botanical rooftops. One natural watercolor portrait, quiet independent scenery, and subtle evening particles.",
@@ -188,6 +188,10 @@
     },
     "chrome-dark": {
       "path": "assets/chrome-dark.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "decoration": {},
@@ -370,6 +374,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -199,6 +199,10 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "c40ff5d01f30434b7d2454955276ddaa5ad45820fe8ecdf82ea99acaacbdde68"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
     }
   },
   "decoration": {
@@ -473,6 +477,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

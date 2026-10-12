@@ -18,3 +18,12 @@ All illustrations are original artwork generated for Muqun using OpenAI's built-
 Home and launch are separate transparent illustrations; wallpapers own the environment. The Home foreground deliberately contains no scenic rectangle and the launch pose includes the entire cello, case, rope, boots and bow. Native UI text and controls remain native; the theme contains no embedded text. Compact and regular size classes use explicit contained foregrounds. The low-density dust effect uses existing bounded App rendering with intensity 0.12 and speed 0.25.
 
 The current 2.3.1 authoring contract supports seven custom icon roles: chrome.back, chrome.send, chrome.attach, chrome.create, chrome.scan, chrome.settings and home.arrow. Other UI glyphs retain the App's native rendering; this package does not pretend unsupported slots are customizable.
+
+## Parameters glyph (1.0.2)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
+Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
+Source artwork license: CC-BY-4.0; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.

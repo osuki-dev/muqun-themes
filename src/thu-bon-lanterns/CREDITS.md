@@ -27,3 +27,7 @@ Original illustration for a premium mobile theme. Unmistakable contemporary HAND
 Startup prompt:
 
 Original illustration for a premium mobile theme. Unmistakable contemporary HAND-DRAWN 2D ANIME editorial illustration: confident ink contour lines, expressive clean shapes, two or three flat cel-shaded tones, tasteful painted highlights, not photoreal or 3D/PBR, not a tiny souvenir diorama. Genuine transparent RGBA surrounds, no sky rectangle or white card, no checkerboard, no lettering/text/logo/watermark. Independent square startup silhouette: youthful adult Vietnamese man with short dark hair, coral windbreaker, casual trousers, resting one hand on a teal city bicycle handlebar, natural relaxed stance and warm smile; a single amber lantern-light arc, no building panorama. Subject occupies 85% height, complete bicycle and figure, generous tiny alpha edge; crisp navy/coral/teal cel shading. Distinct composition from Home riverfront.
+
+## Parameters glyph refresh
+
+`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

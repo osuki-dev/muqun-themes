@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "saffron-under-the-atlas",
   "name": "Saffron under the Atlas",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -167,6 +167,9 @@
     },
     "native-arrow": {
       "path": "assets/native-arrow.png"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -225,6 +228,10 @@
     },
     "home.arrow": {
       "asset": "native-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

@@ -23,3 +23,7 @@ Wallpaper: A vast emerald sea, monumental pearl cumulus clouds and an ivory ocea
 Compact and regular bindings are explicit. Home and launch assets use contain fitting. Launch is never substituted with the Home portrait. Solid UI planes preserve readability and user-controlled opacity. The restrained particles use the App's existing bounded effect engine; this package includes no animation code or runtime scripts.
 
 The seven currently supported semantic icon slots are customized. Built-in OpenCode, Sessions and Terminal glyphs are not claimed to be replaceable unless the App/CLI contract adds corresponding slots. Actual website previews cover both layouts, both modes and phone/tablet; native App installation is a separate test and is not claimed by these assets.
+
+## Parameters glyph refresh
+
+`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

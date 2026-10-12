@@ -19,3 +19,12 @@ The standalone Home hero is original AI-generated artwork created with OpenAI im
 The previous miniature Home, empty and scenic wallpaper assets were retired from this package. The two new original illustrations (`assets/home-railway.png` and `assets/launch-train.png`) were created with the built-in image_gen tool on 2026-10-11 without third-party visual inputs. Both contain genuine RGBA transparency. Covered by the theme’s existing license. Source generations were copied without crop, recoloring or painting. Full prompts are in PROMPTS.md. Startup is an independent square illustration; Home is an independent 1536×1024 landscape scene. Gallery preview is a deterministic composition of these final assets and palette, not a native screenshot.
 
 Final redraw revision: the packaged Home/startup illustrations were drawn by the built-in image_gen tool from this theme’s own original generated scene drafts. Their scene composition is retained with visibly drawn outlines, cel shading and simplified color planes. No third-party images were used. The earlier detailed drafts were rejected and are not packaged. Full final prompts are in PROMPTS.md.
+
+## Parameters glyph (1.1.6)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
+Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
+Source artwork license: CC-BY-4.0; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.

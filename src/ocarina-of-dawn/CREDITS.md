@@ -7,3 +7,7 @@ Current illustrations are original AI-generated work made with the built-in Open
 All seven `assets/icon-*.png` images are original geometric glyph drawings by Muqun Theme Collection under the theme license, shared with the collection's contemporary line family. Template tint preserves native readability; back source left, send and Home arrow up-right.
 
 `assets/preview.png` is a 1024×640 light/dark fictional source UI composition built from final assets/palette, not a device screenshot.
+
+## Parameter control update
+
+`assets/icon-parameters.png`: Adapted from Pine and Parchment’s original three-slider glyph by Muqun theme author, under CC-BY-4.0. Transparent raster resize matches this theme’s line weight; source: the collection’s `pine-and-parchment/assets/icon-parameters.png`. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.

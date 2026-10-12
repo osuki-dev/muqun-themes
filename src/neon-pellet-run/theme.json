@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "neon-pellet-run",
   "name": "After Hours",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "author": "Muqun Community",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -171,6 +171,9 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "8ec6424c8645b0d076d86689f2f66c2b6ae7fbdc6459f3f62ea52430c34b77a8"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -283,6 +286,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

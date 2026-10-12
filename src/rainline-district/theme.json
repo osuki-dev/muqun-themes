@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "rainline-district",
   "name": "Rainline District",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -138,7 +138,7 @@
     },
     "icon-settings": {
       "path": "assets/icon-settings.png",
-      "sha256": "b938180be85dc1cd22ba8487d418bc98b20e0c498e4acbfdc170ff82546865a9"
+      "sha256": "8386e99c986a856bbf129f44c5aa52f9ace6ebd96eb54ed784b808dd66a2207d"
     },
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
@@ -151,6 +151,9 @@
     "launch-traveler": {
       "path": "assets/launch-traveler.png",
       "sha256": "effae0224032bf50e3f96770b8ce1b46a4e9869361dad544b939a24d387e6853"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -263,6 +266,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

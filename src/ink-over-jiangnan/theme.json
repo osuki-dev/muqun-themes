@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ink-over-jiangnan",
   "name": "Ink over Jiangnan",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A modern canal walk follows an adult traveler beneath a poppy-red umbrella. Ink-gray and jade planes, confident cel linework, and independent traveler startup art.",
@@ -160,6 +160,10 @@
     "launch-traveler": {
       "path": "assets/launch-traveler.png",
       "sha256": "5cfbf7a12017aec6106986c1ce69d21c8376394563c43f93eefb701e374f1b79"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "decoration": {
@@ -288,6 +292,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },

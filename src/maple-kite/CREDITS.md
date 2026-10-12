@@ -5,3 +5,12 @@ All six character and wallpaper assets were generated specifically for Maple Kit
 The seven PNG icons are original Muqun vector drawings rasterized for the theme, using paper-fold diamonds and kite-string strokes. CC0-1.0. The preview is composed exclusively from this theme artwork.
 
 Home uses a close portrait; launch uses an independently generated complete red panda and kite silhouette. Dark lighting and the night canyon are separate generated variants. All four foreground assets preserve genuine alpha transparency.
+
+## Parameters glyph (1.0.2)
+
+`assets/icon-parameters.png` reuses the original transparent adjustments glyph
+from Sugar Circuit (`src/sugar-circuit/assets/icon-parameters.png`).
+Creator: Muqun Theme Collection. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/sugar-circuit).
+Source artwork license: All rights reserved; reused within the collection for this
+theme update. The packaged bytes and alpha are unchanged. This is a dedicated
+`chrome.parameters` template asset; the existing settings glyph stays separate.
