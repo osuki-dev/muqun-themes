@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lunar-aquarium",
   "name": "Lunar Aquarium",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -174,17 +174,17 @@
     "launch-keeper": {
       "path": "assets/launch-keeper.png"
     },
-    "composer-moon-garden": {
-      "path": "assets/composer-moon-garden.png"
-    },
     "composer-jellyfish-drift": {
       "path": "assets/composer-jellyfish-drift.png"
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
     },
-    "composer-moon-garden-wide": {
-      "path": "assets/composer-moon-garden-wide.png"
+    "composer-moon-ripples": {
+      "path": "assets/composer-moon-ripples.png"
+    },
+    "composer-moon-ripples-wide": {
+      "path": "assets/composer-moon-ripples-wide.png"
     }
   },
   "decoration": {
@@ -349,7 +349,7 @@
         }
       },
       "home.composer.background": {
-        "asset": "composer-moon-garden",
+        "asset": "composer-moon-ripples",
         "fit": "contain",
         "opacity": 0.74,
         "focalPoint": {
@@ -362,7 +362,7 @@
           "bottom": 8
         },
         "compact": {
-          "asset": "composer-moon-garden",
+          "asset": "composer-moon-ripples",
           "fit": "contain",
           "opacity": 0.74,
           "focalPoint": {
@@ -376,7 +376,7 @@
           }
         },
         "regular": {
-          "asset": "composer-moon-garden-wide",
+          "asset": "composer-moon-ripples-wide",
           "fit": "contain",
           "opacity": 0.74,
           "focalPoint": {
@@ -484,7 +484,7 @@
         }
       },
       "home.composer.background": {
-        "asset": "composer-moon-garden",
+        "asset": "composer-moon-ripples",
         "fit": "contain",
         "opacity": 0.9,
         "focalPoint": {
@@ -497,7 +497,7 @@
           "bottom": 8
         },
         "compact": {
-          "asset": "composer-moon-garden",
+          "asset": "composer-moon-ripples",
           "fit": "contain",
           "opacity": 0.9,
           "focalPoint": {
@@ -511,7 +511,7 @@
           }
         },
         "regular": {
-          "asset": "composer-moon-garden-wide",
+          "asset": "composer-moon-ripples-wide",
           "fit": "contain",
           "opacity": 0.9,
           "focalPoint": {
