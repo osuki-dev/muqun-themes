@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "after-school-workshop",
   "name": "After School Workshop",
-  "version": "1.1.6",
+  "version": "1.1.10",
   "author": "Muqun Project",
   "license": "All rights reserved",
   "description": "A young adult sketches in a sunlit courtyard after class, with a poppy city bicycle, quiet cobalt accents and clean ivory surfaces.",
@@ -120,7 +120,7 @@
   "assets": {
     "home-story": {
       "path": "assets/home-story.png",
-      "sha256": "1b8223cff9e3a28be8737c96915dfaec3eab902b2f42ea3e1d9e66c32b1ed1ec"
+      "sha256": "bfdb091788faeab6b511cd57d2bda89dc944946c6b20980b16c03fed0d0e0217"
     },
     "launch-character": {
       "path": "assets/launch-character.png",
@@ -176,7 +176,19 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "7cb7681773df26f3d7d829e9c6545e662f2915deba315dff521f9858c417ad3e"
+      "sha256": "3826f2cb16d2545eab1e0b57dda650d050991879fdf73b03e31bf25296aef0de"
+    },
+    "composer-accent-compact": {
+      "path": "assets/composer-accent-compact.png",
+      "sha256": "99640aad06c197208cc770c0c6ef245463951e346a9628ee2dcd52fd1c722050"
+    },
+    "composer-accent-regular": {
+      "path": "assets/composer-accent-regular.png",
+      "sha256": "d2537e74004297218bc54f27f4c835f4a56578a5e775c3d3a8b9e09ba26e1db5"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "variantDecorations": {
@@ -234,7 +246,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -290,7 +345,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {
@@ -332,6 +430,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -583,7 +685,8 @@
           "y": 0.5
         }
       }
-    }
+    },
+    "home.composer.decoration": null
   },
   "homePresentation": {
     "header": "cover",

@@ -20,3 +20,11 @@ Use case: illustration-story. Asset type: transparent foreground for Muqun anime
 ## Refinement prompt
 
 undefined
+
+## Composer preview additions
+
+`assets/composer-accent-compact.png` and `assets/composer-accent-regular.png` are original OpenAI built-in imagegen illustrations generated for this theme with real transparency. Only proportional resizing and metadata removal followed generation. Existing Home art and palette remain unchanged. `assets/icon-parameters.png` reuses the collection-owned Pine and Parchment rounded sliders template glyph, under the collection rights above. The rejected generated sliders candidate is not bundled.
+
+## Composer composition revision
+
+New original built-in imagegen artwork introduces a distinct composer arrangement. Tiny Workshop and Mint Soda Interlude add a separate transparent overhang, proportionally resized and padded so the rim is at 75% canvas height. After School Workshop and Graphite Daydream replace the corner accent with side/lower stationery. No artwork was programmatically drawn. Home repairs and launch art remain preserved.

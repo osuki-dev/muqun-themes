@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -199,6 +199,22 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "fc6eaef31d4143f72c453960d0329b0d3779cc1718f94979f744553caf45a798"
+    },
+    "home-composer-compact": {
+      "path": "assets/home-composer-compact.png",
+      "sha256": "496f0122211a281c25fc785a1a6ae44e2af4ee92fcd0e20ed6705ed47a1398cc"
+    },
+    "home-composer-regular": {
+      "path": "assets/home-composer-regular.png",
+      "sha256": "09cad47ab8e7617f2a2c31577795abe7efe13367b6ed6fdf4eaf3a317bf44758"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-composer-overhang": {
+      "path": "assets/home-composer-overhang.png",
+      "sha256": "619519aeb5b8ed87985ee6ef22810acbe1b4a1b284058ef81c222913904f47bc"
     }
   },
   "decoration": {
@@ -444,7 +460,8 @@
           "y": 0.08
         }
       }
-    }
+    },
+    "home.composer.decoration": null
   },
   "icons": {
     "chrome.back": {
@@ -473,6 +490,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -531,6 +552,75 @@
             "y": 0.5
           }
         }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.36,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "home-composer-overhang",
+        "fit": "contain",
+        "opacity": 0.9,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-composer-overhang",
+          "fit": "contain",
+          "opacity": 0.9,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-overhang",
+          "fit": "contain",
+          "opacity": 0.9,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -585,6 +675,75 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "home-composer-overhang",
+        "fit": "contain",
+        "opacity": 0.94,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-composer-overhang",
+          "fit": "contain",
+          "opacity": 0.94,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-overhang",
+          "fit": "contain",
+          "opacity": 0.94,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
           }
         }
       }

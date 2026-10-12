@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tiny-workshop",
   "name": "Tiny Workshop",
-  "version": "1.1.6",
+  "version": "1.1.11",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -121,7 +121,7 @@
   "assets": {
     "home-story": {
       "path": "assets/home-story.png",
-      "sha256": "cd4b16ebd7639cf14bbc968fedfe7dbf38bba4bdc6b81ef646928301b6afa9dd"
+      "sha256": "9c3c357bceed1cb4d8e21933878dfa5c0991a095cf7cdfd6cc89ce5de97beda4"
     },
     "launch-character": {
       "path": "assets/launch-character.png",
@@ -177,7 +177,27 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "b23bed1b79cc0e33949ec0a893de68eb338953688eb71e20f3478fb932cfe0c3"
+      "sha256": "6b5280daa3b4a65ff6a590ff7c74323d4b860f9cc7e0b8e8526cac6ca9e1befb"
+    },
+    "composer-accent-compact": {
+      "path": "assets/composer-accent-compact.png",
+      "sha256": "373c1785644beeb32993f672b8f28ed79bef2f76467154f7d5c91d7e1eafb014"
+    },
+    "composer-accent-regular": {
+      "path": "assets/composer-accent-regular.png",
+      "sha256": "f466648e6bfc4f40a6ad3ab36cfbe5a37a5e6ac23fe76be099a7eb7c90c0b939"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "composer-overhang": {
+      "path": "assets/composer-overhang.png",
+      "sha256": "184e3916374717a41206a1c0f2e682e8ba73abe2c5237ed124e600ecc6e7ec80"
+    },
+    "home-story-regular": {
+      "path": "assets/home-story-regular.png",
+      "sha256": "ca1c8f202fbccc5e6f39f58490e4ac0a736a96d635e39a6a24c1431c19cb514e"
     }
   },
   "decoration": {
@@ -199,12 +219,12 @@
         }
       },
       "regular": {
-        "asset": "home-story",
+        "asset": "home-story-regular",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0.08
         }
       }
     },
@@ -423,7 +443,8 @@
           "y": 0.5
         }
       }
-    }
+    },
+    "home.composer.decoration": null
   },
   "icons": {
     "chrome.back": {
@@ -452,6 +473,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -510,6 +535,75 @@
             "y": 0.5
           }
         }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -564,6 +658,75 @@
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
           }
         }
       }

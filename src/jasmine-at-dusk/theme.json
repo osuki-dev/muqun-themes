@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -151,6 +151,18 @@
     "launch-traveler": {
       "path": "assets/launch-traveler.png",
       "sha256": "a7bf3fd91ac4536cbef086ddc2f01543a23cc42aa644604f3b9eba14dc77d613"
+    },
+    "home-composer-compact": {
+      "path": "assets/home-composer-compact.png",
+      "sha256": "79a7a64d7e727b884140f616c2f1aa58804b2dbe0d5e51373babbb400d290a84"
+    },
+    "home-composer-regular": {
+      "path": "assets/home-composer-regular.png",
+      "sha256": "8b180c3022d6e1e14fc81abbe68bb895a68d380f0ec9d8baf8824170df112b78"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
     }
   },
   "decoration": {
@@ -234,7 +246,8 @@
           "y": 0.5
         }
       }
-    }
+    },
+    "home.composer.decoration": null
   },
   "icons": {
     "chrome.back": {
@@ -263,6 +276,10 @@
     },
     "home.arrow": {
       "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     }
   },
@@ -294,5 +311,97 @@
   "homePresentation": {
     "header": "standard",
     "toolbarBackground": true
+  },
+  "variantDecorations": {
+    "light": {
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.36,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
+    },
+    "dark": {
+      "home.composer.background": {
+        "asset": "home-composer-compact",
+        "fit": "contain",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-compact",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-regular",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
+    }
   }
 }

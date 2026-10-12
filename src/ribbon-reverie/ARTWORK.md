@@ -9,3 +9,15 @@ Use case: illustration-story. Asset type: original transparent mobile theme Home
 ## Independent launch
 
 Use case: illustration-story. Asset type: independently composed transparent startup portrait. Contemporary 2D anime fashion editorial illustration of a fictional adult dancer age25 wearing cream casual jacket and coral shirt, friendly confident smile, waist-up turning pose with a single loose coral ribbon held between hands near shoulders. Centered standalone character portrait, full head shoulders hands ribbon within frame, blush coral cream ink warm skin, fine expressive ink linework and sophisticated flat shading. Genuine transparent background, breathingroomall edges, no room no lace no giftbox no toybox no Victorian costume, no text no logo no watermark.
+
+## Home composer edge artwork (2026-10-12)
+
+Built-in OpenAI image generation: wide horizontal transparent decorative edge illustration, small theme-specific motifs only at far upper corners; empty middle 75 percent and lower half, clean anime editorial outlines and cel shading, readable on cream and deep ink; no panel, border, text, icons or people. Compact canvas 1080×360; regular 2160×360 with the generated corner fragments separated by additional transparent space. No artwork is procedurally drawn. Both modes use the same colored artwork at explicit restrained opacity. No separate overhang.
+
+## Composer composition revision (2026-10-12)
+
+New independent built-in imagegen artwork: Independent transparent coral silk ribbon bow, upper three quarters of square canvas and clear lower quarter. Genuine alpha; refined anime editorial cel shading, readable on cream and deep ink, no panel/frame/text/background. Proportional resizing and transparent canvas layout only; no procedural artwork.
+
+## Composer draft exclusion repair
+
+Built-in imagegen edit preserving right ornament and independent overhang, removing all left upper material. Spore instead repositions its small existing mushroom/fern into lower center, proportionally arranged below native first two draft lines. Original offending assets: home-composer-compact.png and regular counterpart. No app geometry, fill or opacity changed.

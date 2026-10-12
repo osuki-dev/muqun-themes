@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aegean-paperlight",
   "name": "Aegean Paperlight",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -117,10 +117,12 @@
   },
   "assets": {
     "home-compact": {
-      "path": "assets/home-compact.png"
+      "path": "assets/home-compact.png",
+      "sha256": "a9b4d718079c1f231ad151c53186064c05dde67e66386f9b9579038eba093a47"
     },
     "home-regular": {
-      "path": "assets/home-regular.png"
+      "path": "assets/home-regular.png",
+      "sha256": "a9b4d718079c1f231ad151c53186064c05dde67e66386f9b9579038eba093a47"
     },
     "launch": {
       "path": "assets/launch.png"
@@ -163,7 +165,18 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "23b422df1dfcc07a02039dc860e1d9497830894bc772dfedac34b52efa6c3a9a"
+      "sha256": "4f47507cec0be60f255f72a8ee56314ae3865f472de7bb47bbad5879c267ead0"
+    },
+    "composer-compact": {
+      "path": "assets/composer-compact.png",
+      "sha256": "b5b2b3ba30b5cb4f49be949be7a979272c202bd41183dd94aedbcd3ca9492a52"
+    },
+    "composer-regular": {
+      "path": "assets/composer-regular.png",
+      "sha256": "1ee8f831d3d3e5121d07e086e34039c5944cdaf7489e66d583c51576e60952f5"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png"
     }
   },
   "decoration": {
@@ -262,15 +275,55 @@
     "chrome.settings": {
       "asset": "icon-settings",
       "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
       "home.composer.background": {
-        "asset": "wallpaper-light",
-        "fit": "cover",
-        "opacity": 0.16,
-        "focalPoint": { "x": 1, "y": 1 }
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.72,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.72,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.72,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-light",
@@ -317,14 +370,51 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "home.composer.background": {
-        "asset": "wallpaper-dark",
-        "fit": "cover",
-        "opacity": 0.16,
-        "focalPoint": { "x": 1, "y": 1 }
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.82,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.82,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.82,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
       },
       "shell.wallpaper": {
         "asset": "wallpaper-dark",
@@ -371,7 +461,8 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

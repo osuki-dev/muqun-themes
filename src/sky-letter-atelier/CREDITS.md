@@ -21,3 +21,7 @@ All wallpaper, control decoration, empty-state and icon PNGs are original code-n
 Startup edit prompt:
 
 Edit the provided original adult cloud courier illustration into a distinctly different startup composition. Preserve her identity: age 25, dusty turquoise side ponytail, amber eyes, white beret with brass envelope pin, white windbreaker and blue linen jumpsuit. New composition: waist-up three-quarter portrait, smiling gently while opening an illustrated envelope with both hands, a small paper airplane and two fluffy clouds float beside her shoulder; sketchbook and mail satchel partially visible at waist. Delicate anime cel-shaded linework and pearl white, sky cyan and tiny gold details. Balanced landscape composition, subject slightly right of center, transparent breathing room on left, complete beret and hands inside frame. Genuine transparent background, no backdrop rectangle or gradient, no text, no logo, no UI, no existing character. This is an independent startup illustration, not the full-body pose cropped.
+
+## Home composer local preview
+
+`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.

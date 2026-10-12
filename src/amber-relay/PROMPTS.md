@@ -9,3 +9,11 @@ Use case: illustration-story. Asset type: contemporary 2D anime editorial Home s
 ## Independent startup character
 
 Use case: illustration-story. Asset type: independent transparent square native startup character. Original youthful adult man age25 with soft tousled dark brown hair, warm amber eyes, cream casual bomber jacket over charcoal tee, modern over-ear headphones resting around neck; friendly half-body pose looking over shoulder, one hand lifting headphones, calm confident smile. Contemporary premium Japanese 2D anime editorial art, clean expressive ink linework, warm apricot/cream/charcoal with muted dusk-purple accent, broad cel shaded shapes. Waist-up silhouette centered filling 80 percent of square, complete head and hand, real transparent RGBA background. No scene, radio, machines, ornate frame, scenery rectangle, lettering, logo, watermark or 3D figurine.
+
+## Composer accent preview
+
+Use case: illustration-story. Transparent full input canvas accent. Wide 1536 by 512 PNG with real alpha. Center and entire lower 65% empty transparent. No continuous border, frame, field fill, opaque backdrop, shadow in center, text, labels, UI or painted checkerboard. Sparse disconnected object cluster only. No person. Built-in imagegen generation; proportional resize and metadata removal only.
+
+A tiny amber translucent cassette tape tilted slightly with a very short looping headphone cord tucked alongside and one apricot sunset sparkle. Warm plum outlines, muted golden honey and cream details, contemporary Japanese illustrated music stationery. All objects at extreme UPPER RIGHT of canvas within rightmost 18% and top 22%.
+
+Compact: 1020×340; regular: 1536×512. Both derive from the same generated full input canvas and retain alpha. Sliders reuse the existing collection-owned template glyph rather than the rejected generated candidate.
