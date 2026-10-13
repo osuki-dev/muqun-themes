@@ -19,14 +19,6 @@ Compact and regular slot bindings are explicit. Foreground and launch use contai
 
 The built-in image generation tool removed the opaque launch scene and repaired the Home silhouette boundaries. Both assets now preserve complete physical details within transparent margins. Light and dark solid-background composites were inspected to confirm there is no rectangular background or fringe haze. Home and launch remain separate compositions. The final Home alpha bounds at a 5% threshold are 961 by 1375 at (37, 58) on a 1024 by 1536 canvas; launch bounds are 992 by 1430 at (17, 53).
 
-## Composer parameters (1.0.3)
+## Composer continuity
 
-`assets/icon-parameters.png` is an existing original Muqun template glyph reused
-from snowbound-station. Creator: Muqun. Source:
-https://github.com/osuki-dev/muqun-themes/tree/main/src/snowbound-station/assets/icon-parameters.png
-Icon license: CC-BY-4.0. The rest of this theme retains its existing licensing.
-
-The square outline knobs echo the archive’s geometric mechanism without using its settings silhouette. This transparent sliders mask is
-independently declared as `chrome.parameters`, with template tinting in both
-light and dark modes. It does not replace or fall back to `chrome.settings`.
-No illustration, palette, surface opacity or composer decoration is changed.
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

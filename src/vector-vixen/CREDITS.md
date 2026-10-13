@@ -13,3 +13,11 @@ The standalone Home illustration in assets/home-hero.png is newly generated with
 ## Parameters glyph refresh
 
 `assets/icon-parameters.png` reuses the original Sugar Circuit control glyph by Muqun Theme Collection: two adjustment tracks with hexagonal handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sugar-circuit/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.
+
+## Continuity update
+
+- `assets/environment-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/composer-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.

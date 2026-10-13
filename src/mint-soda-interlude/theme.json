@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mint-soda-interlude",
   "name": "Mint Soda Interlude",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -195,10 +195,49 @@
     "composer-overhang": {
       "path": "assets/composer-overhang.png",
       "sha256": "ee0b08b20c24cf2383658af5dfb36139830d037668f6c0299d6c750aa0d60f04"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "d54f57bd49352be690f9facff0ae044060e7f6380cfca03efab9e8397c1cc6af"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "c9b04a5196520ce9e9edde3050d6405ec547cdde17517c77fa33901c1c13eccf"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "e8a802d084f02048f096b7d4da48daece0260fb17dfdf3c535e3c8f1ab77bbda"
     }
   },
   "decoration": {
-    "home.composer.decoration": null
+    "home.composer.decoration": null,
+    "home.artwork": {
+      "asset": "home-cover-continuity",
+      "fit": "cover",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    }
   },
   "icons": {
     "chrome.back": {
@@ -237,29 +276,29 @@
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "barista",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.56,
-          "y": 0.1
+          "x": 0.5,
+          "y": 0
         },
         "compact": {
-          "asset": "barista",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.56,
-            "y": 0.1
+            "x": 0.5,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "barista",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.6,
-            "y": 0.05
+            "x": 0.5,
+            "y": 0
           }
         }
       },
@@ -269,9 +308,31 @@
         "opacity": 1
       },
       "home.wallpaper": {
-        "asset": "paper-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
-        "opacity": 1
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "navigation.background": {
         "asset": "rail-light",
@@ -407,29 +468,29 @@
     },
     "dark": {
       "home.artwork": {
-        "asset": "barista",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.56,
-          "y": 0.1
+          "x": 0.5,
+          "y": 0
         },
         "compact": {
-          "asset": "barista",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.56,
-            "y": 0.1
+            "x": 0.5,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "barista",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.6,
-            "y": 0.05
+            "x": 0.5,
+            "y": 0
           }
         }
       },
@@ -439,9 +500,31 @@
         "opacity": 1
       },
       "home.wallpaper": {
-        "asset": "paper-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
-        "opacity": 1
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "navigation.background": {
         "asset": "rail-dark",

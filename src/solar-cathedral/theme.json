@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "solar-cathedral",
   "name": "Solar Cathedral",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -440,7 +440,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "minAppVersion": "3.0.0",
   "iconDirections": {

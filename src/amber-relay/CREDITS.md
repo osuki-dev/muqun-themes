@@ -11,3 +11,11 @@ Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is orig
 ## Composer preview additions
 
 `assets/composer-accent-compact.png` and `assets/composer-accent-regular.png` are original OpenAI built-in imagegen illustrations generated for this theme with real transparency. Only proportional resizing and metadata removal followed generation. Existing Home art and palette remain unchanged. `assets/icon-parameters.png` reuses the collection-owned Pine and Parchment rounded sliders template glyph, under the collection rights above. The rejected generated sliders candidate is not bundled.
+
+## Continuity review additions
+
+`assets/scenery-light-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/scenery-dark-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

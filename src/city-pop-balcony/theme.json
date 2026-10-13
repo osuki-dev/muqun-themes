@@ -2,11 +2,11 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "city-pop-balcony",
-  "name": "シティポップ・バルコニー",
-  "version": "1.0.7",
+  "name": "\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30fb\u30d0\u30eb\u30b3\u30cb\u30fc",
+  "version": "1.0.8",
   "author": "Muqun",
   "license": "CC-BY-4.0",
-  "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
+  "description": "\u6d77\u98a8\u3001\u30ab\u30bb\u30c3\u30c8\u30c6\u30fc\u30d7\u3001\u5915\u66ae\u308c\u306e\u8272\u3092\u91cd\u306d\u305f\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30c6\u30fc\u30de\u3002",
   "tags": [
     "japan",
     "youth",
@@ -167,6 +167,18 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "b8981a96566a9729fb23518d10be069a334cbe46462c883d425fc5999dc491d8"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "7587fa8d6d5d083f708c5940249223422c78906cfa5396bb874bce8380198fd0"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "f93644de6f59d7496f821433cdaade6adf49bac55b85065ffc10e51cd6878d96"
     }
   },
   "variantDecorations": {
@@ -199,56 +211,56 @@
         }
       },
       "home.wallpaper": {
-        "asset": "background-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
-        "opacity": 0.35,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "background-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 0.35,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 0.35,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.artwork": {
-        "asset": "hero-light",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "hero-light",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "hero-light",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -309,56 +321,56 @@
         }
       },
       "home.wallpaper": {
-        "asset": "background-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
         "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "background-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
           "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
           "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "hero-dark",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "hero-dark",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -428,7 +440,7 @@
   "homeIdentity": {
     "name": {
       "mode": "custom",
-      "text": "夏はまだ終わらない"
+      "text": "\u590f\u306f\u307e\u3060\u7d42\u308f\u3089\u306a\u3044"
     },
     "logo": {
       "mode": "hidden"
@@ -440,5 +452,38 @@
   "iconDirections": {
     "home.arrow": "up-right",
     "chrome.back": "left"
+  },
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-cover-continuity",
+      "fit": "cover",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    }
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
   }
 }

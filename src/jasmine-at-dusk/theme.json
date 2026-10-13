@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -113,8 +113,7 @@
   },
   "assets": {
     "preview": {
-      "path": "assets/preview.png",
-      "sha256": "7bb2c3623ce875735f57aa047e6d3c69bcd985be5b2cbf19da9933a794b3117c"
+      "path": "assets/gallery-cover.png"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -144,52 +143,63 @@
       "path": "assets/icon-arrow.png",
       "sha256": "186ff05bd07160ce5001c3d8001ed2b3776e9fc5a790d6960c6079d444798420"
     },
-    "home-scene": {
-      "path": "assets/home-scene.png",
-      "sha256": "9ba1153ece593654ebb4a323c41fe3f070bd8f0e962cf8058de660f6caf7916c"
-    },
     "launch-traveler": {
       "path": "assets/launch-traveler.png",
       "sha256": "a7bf3fd91ac4536cbef086ddc2f01543a23cc42aa644604f3b9eba14dc77d613"
     },
-    "home-composer-compact": {
-      "path": "assets/home-composer-compact.png",
-      "sha256": "79a7a64d7e727b884140f616c2f1aa58804b2dbe0d5e51373babbb400d290a84"
-    },
-    "home-composer-regular": {
-      "path": "assets/home-composer-regular.png",
-      "sha256": "8b180c3022d6e1e14fc81abbe68bb895a68d380f0ec9d8baf8824170df112b78"
+    "composer-accent": {
+      "path": "assets/composer-accent.png"
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-paper-light-compact": {
+      "path": "assets/home-paper-light-compact.png",
+      "sha256": "b33a9fb9a4cae72441bfe86b0f7b02a92a0659083d51380d3633c26632d1a390"
+    },
+    "home-paper-light-regular": {
+      "path": "assets/home-paper-light-regular.png",
+      "sha256": "93ec14848136babc0a3b521ead730d96aec35feedfd1f96330ed44110e917b2b"
+    },
+    "home-paper-dark-compact": {
+      "path": "assets/home-paper-dark-compact.png",
+      "sha256": "2d739a477068bb6a0dc386bb44de18bbfe9150a4683fd656565b84edaf8a8df7"
+    },
+    "home-paper-dark-regular": {
+      "path": "assets/home-paper-dark-regular.png",
+      "sha256": "5f7dc5ac73fd7a6081b650b4c8100d58e2d856a26cee3dfe9526cfd47d772b15"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "4dc70993663cee27e0c79391b3657acb328d891ce1586d2ab4cd829e8725a9cc"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-scene",
-      "fit": "contain",
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
-        "y": 0.5
+        "y": 0
       },
       "compact": {
-        "asset": "home-scene",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         }
       },
       "regular": {
-        "asset": "home-scene",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         }
       }
     },
@@ -247,7 +257,60 @@
         }
       }
     },
-    "home.composer.decoration": null
+    "home.composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    }
   },
   "icons": {
     "chrome.back": {
@@ -309,99 +372,69 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "variantDecorations": {
     "light": {
-      "home.composer.background": {
-        "asset": "home-composer-compact",
-        "fit": "contain",
-        "opacity": 0.36,
+      "home.wallpaper": {
+        "asset": "home-paper-light-compact",
+        "fit": "cover",
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
-        "outset": {
-          "left": 0,
-          "right": 0,
-          "bottom": 0
-        },
         "compact": {
-          "asset": "home-composer-compact",
-          "fit": "contain",
-          "opacity": 0.36,
+          "asset": "home-paper-light-compact",
+          "fit": "cover",
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
             "y": 0
-          },
-          "outset": {
-            "left": 0,
-            "right": 0,
-            "bottom": 0
           }
         },
         "regular": {
-          "asset": "home-composer-regular",
-          "fit": "contain",
-          "opacity": 0.36,
+          "asset": "home-paper-light-regular",
+          "fit": "cover",
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
             "y": 0
-          },
-          "outset": {
-            "left": 0,
-            "right": 0,
-            "bottom": 0
           }
         }
       },
-      "home.composer.decoration": null
+      "shell.wallpaper": null
     },
     "dark": {
-      "home.composer.background": {
-        "asset": "home-composer-compact",
-        "fit": "contain",
-        "opacity": 0.48,
+      "home.wallpaper": {
+        "asset": "home-paper-dark-compact",
+        "fit": "cover",
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
-        "outset": {
-          "left": 0,
-          "right": 0,
-          "bottom": 0
-        },
         "compact": {
-          "asset": "home-composer-compact",
-          "fit": "contain",
-          "opacity": 0.48,
+          "asset": "home-paper-dark-compact",
+          "fit": "cover",
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
             "y": 0
-          },
-          "outset": {
-            "left": 0,
-            "right": 0,
-            "bottom": 0
           }
         },
         "regular": {
-          "asset": "home-composer-regular",
-          "fit": "contain",
-          "opacity": 0.48,
+          "asset": "home-paper-dark-regular",
+          "fit": "cover",
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
             "y": 0
-          },
-          "outset": {
-            "left": 0,
-            "right": 0,
-            "bottom": 0
           }
         }
       },
-      "home.composer.decoration": null
+      "shell.wallpaper": null
     }
   }
 }

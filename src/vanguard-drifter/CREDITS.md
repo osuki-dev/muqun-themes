@@ -1,5 +1,10 @@
 # Artwork provenance
 
+## Home continuity candidate 1.0.6
+
+The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+
+
 The foreground and two architectural wallpapers were newly generated for Muqun on 2026-09-23 using OpenAI image generation and released by the author under CC0-1.0. No external character franchise, photography, branded marks, fonts, or interface screenshots are bundled.
 
 - `assets/figure.png`: original wordless watercolor character, transparent alpha; shared between light and dark modes.
@@ -12,7 +17,3 @@ The previous poster lettering, foreground duplication, and old character/empty-s
 ## 2026-09-24 interface extension
 
 The new `icon-*.png` files are original vector drawings exported to transparent template PNGs, with details tailored to this pack. `chrome-light.png` and `chrome-dark.png` are original geometric vector chrome accents. No outside source art was used for these additions.
-
-## Parameters glyph refresh
-
-`assets/icon-parameters.png` reuses the original Neon Window Study control glyph by Muqun Theme Collection: two adjustment tracks with squared outlined handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/neon-window-study/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.

@@ -12,11 +12,6 @@ The supported replacement roles are chrome.back, chrome.send, chrome.attach, chr
 
 The kitten illustrations were regenerated as explicitly stylized Japanese-animation characters: rounded faces, expressive emerald eyes and simplified cel-shaded fur. They replace the earlier realistic cat studies, which are not shipped.
 
-## Parameters glyph (1.0.2)
+## Composer continuity
 
-`assets/icon-parameters.png` reuses the original transparent adjustments glyph
-from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
-Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
-Source artwork license: CC-BY-4.0; reused within the collection for this
-theme update. The packaged bytes and alpha are unchanged. This is a dedicated
-`chrome.parameters` template asset; the existing settings glyph stays separate.
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

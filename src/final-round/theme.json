@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "final-round",
   "name": "Final Round",
-  "version": "1.1.6",
-  "author": "Muqun Theme Collection · fan art",
+  "version": "1.1.7",
+  "author": "Muqun Theme Collection \u00b7 fan art",
   "license": "Unofficial fan art; underlying rights remain with CAPCOM",
   "description": "Street Fighter fan art in kinetic brushwork and screenprint: Ryu, vermilion ribbons, mustard ink and warm newsprint by day, oxblood after dark. The transparent fighter scene anchors Classic and Editorial Home.",
   "tags": [
@@ -185,6 +185,18 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "71140933c0a86f98bfe0820346e70d8b7dfa8cfb5e6b978f8a3e16f18ffdd1bf"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "07e8da00c76e3c2f7f8878e3c451762ba35ca52e3d177ec863e1f318983eada4"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "28a8ca9d3cb3231dc1a88571da0bd13afd4ea36909a82ee509129870e4656758"
     }
   },
   "decoration": {
@@ -216,30 +228,30 @@
       }
     },
     "home.artwork": {
-      "asset": "hero",
-      "fit": "contain",
-      "compact": {
-        "asset": "hero",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "hero",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
-        "y": 0.5
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
       }
     }
   },
@@ -273,31 +285,31 @@
         "opacity": 0.15
       },
       "home.wallpaper": {
-        "asset": "portrait-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
+          "y": 0
         },
         "compact": {
-          "asset": "portrait-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.65
-          },
-          "opacity": 0.65
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "wide-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.65
-          },
-          "opacity": 0.65
-        },
-        "opacity": 0.65
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "hero",
@@ -324,6 +336,33 @@
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
+        }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         }
       }
     },
@@ -356,31 +395,31 @@
         "opacity": 0.15
       },
       "home.wallpaper": {
-        "asset": "portrait-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.65
+          "y": 0
         },
         "compact": {
-          "asset": "portrait-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.65
-          },
-          "opacity": 0.65
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "wide-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.65
-          },
-          "opacity": 0.65
-        },
-        "opacity": 0.65
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "hero",
@@ -407,6 +446,33 @@
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
+        }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         }
       }
     }

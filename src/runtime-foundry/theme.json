@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "runtime-foundry",
   "name": "Night Drive",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Muqun Community",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -177,6 +177,14 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "scenery-light-continuity": {
+      "path": "assets/scenery-light-continuity.png",
+      "sha256": "b88706983e40dc5d31b4a2cbe43174e1a7da5c279e1665e30b13312e86a96054"
+    },
+    "scenery-dark-continuity": {
+      "path": "assets/scenery-dark-continuity.png",
+      "sha256": "7c4bb87160f4dab95d075b706fecdb04d4e683d88cdedb3f5484b1eb66c6d0c1"
     }
   },
   "decoration": {
@@ -299,56 +307,56 @@
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "wall-light",
+        "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "wall-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "wall-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "wall-light",
+        "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.48,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "wall-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "wall-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -560,56 +568,56 @@
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "wall-dark",
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.16,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "wall-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.16,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "wall-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.16,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "wall-dark",
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "wall-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "wall-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },

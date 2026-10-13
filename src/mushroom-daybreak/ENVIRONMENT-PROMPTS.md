@@ -1,0 +1,11 @@
+# Continuity artwork prompts
+
+Generated with OpenAI imagegen. Native output dimensions retained; no scripted raster editing.
+
+## home-environment.png
+
+Create a unique elegant full-page environmental theme wallpaper complementing the reference hero, without recreating any hero subject. Golden forest ranger setting: delicate watercolor moss, oak trunks and dappled canopy at upper far corners, small ochre woodland mushrooms and fern fronds rising from lower left, winding woodland path disappearing softly toward right. No ranger, no people, no staff, no portrait. Center65% almost transparent, low contrast surroundings through page edges, handpainted botanical detail; preserve quiet reading space and full-page environmental continuity. Portrait 2:3 tall composition, native high resolution. TRUE transparent background: artwork is sparse semi-transparent environmental lines/washes only, outer painting feathers naturally, central blank is transparent not white. This overlays either ivory or navy UI backgrounds, use balanced muted midtones with thin paper-like colored lines visible on both, no opaque white rectangle. No text, logos, UI, lettering, vignette plaque, repeated character, repeated props. Not an island floating in space; environmental detail at several heights through entire page while reading center remains calm. Preserve distinctive original theme art style.
+
+## composer-continuity.png
+
+Create a unique delicate composer INPUT BOX environmental accent for the reference theme. two little ochre mushrooms and moss tuft far left, three small golden firefly dots far right, delicate forest watercolor, no ranger. Wide 4:1 panoramic canvas. TRUE transparent background, transparent empty central76% width and lower65% height. Only very small flat low peripheral objects in far left12% and far right8%, quiet fine outlines with sparse muted colors, no opaque panels, no border frame, no vertical columns, no rectangular enclosing frame, no UI, no text, no letters, no characters. Stay out of text/attachments/parameters/send areas. The ornaments should be modest small marks, NOT a whole environment wallpaper and NOT close-up illustration. Clean edges, native high resolution. Distinct theme-specific composition, complement original artwork.

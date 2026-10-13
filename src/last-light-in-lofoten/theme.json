@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Rust-red fishing cabins meet luminous winter sea and glacier peaks. A fresh coastal scene with independent cabin startup artwork and clear nautical controls.",
@@ -164,6 +164,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "9c472daf6c63f893592856b12f991d96c51442d0838e9db3f78ef46524de1549"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "d2adbad81ad0ed05fb7cae1f068fc4eab375b624f74ebb44c7ee53a7be048d75"
     }
   },
   "decoration": {
@@ -299,7 +307,67 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "standard",
-    "toolbarBackground": true
+    "header": "cover",
+    "toolbarBackground": false
+  },
+  "variantDecorations": {
+    "light": {
+      "home.wallpaper": {
+        "asset": "home-environment-light",
+        "fit": "cover",
+        "opacity": 0.32,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-environment-light",
+          "fit": "cover",
+          "opacity": 0.32,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-environment-light",
+          "fit": "cover",
+          "opacity": 0.32,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.8
+          }
+        }
+      }
+    },
+    "dark": {
+      "home.wallpaper": {
+        "asset": "home-environment-dark",
+        "fit": "cover",
+        "opacity": 0.65,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-environment-dark",
+          "fit": "cover",
+          "opacity": 0.65,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-environment-dark",
+          "fit": "cover",
+          "opacity": 0.65,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.8
+          }
+        }
+      }
+    }
   }
 }

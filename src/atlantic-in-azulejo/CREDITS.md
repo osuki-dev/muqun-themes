@@ -6,10 +6,10 @@ License: All rights reserved.
 
 Retired miniature scenery and previous poster/diorama art are no longer distributed. See PROMPTS.md for the exact generation prompts.
 
-## Composer preview artwork
+## Integrated Home and composer update
 
-composer-compact.png and composer-regular.png: original transparent watercolor edge artwork generated with OpenAI image generation for this theme; resized and arranged from that generated raster without drawing new artwork. icon-parameters.png: reused repository sliders glyph, template tint rendering.
+The new cover/sky/composer and gallery artwork is original fictional artwork generated with the OpenAI built-in image generation tool, using this collection’s existing artwork as the reference. Exact prompts are in COVER-PROMPTS.md. No third-party source was added. License: All rights reserved.
 
-Home artwork lower completion: OpenAI image generation edit of this theme original home scene, preserving its upper composition and completing the previously clipped legs/wheels/ground. Both width assets use this finished proportional raster. Launch portrait retained unchanged.
+## 2026-10 full-page continuity
 
-Refreshed preview.png: original OpenAI imagegen pure-art diptych from completed Home illustration, light palette left/dark right, no app UI or text.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.

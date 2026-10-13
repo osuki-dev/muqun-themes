@@ -25,3 +25,14 @@ Edit the provided original adult cloud courier illustration into a distinctly di
 ## Home composer local preview
 
 `assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.
+
+## Continuity update
+
+- `assets/environment-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/launch-complete.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.
+
+- `assets/home-cover-light.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.
+- `assets/home-cover-dark.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.

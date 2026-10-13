@@ -23,3 +23,13 @@ New original built-in imagegen artwork introduces a distinct composer arrangemen
 ## Gallery refresh
 
 The gallery preview is now an original built-in imagegen pure-art composition of the complete courtyard scene and both sneakers, light left/dark right. It is1024×640, no app UI, commands, developer logs or test output. Proportional resizing and one-pixel edge padding achieved exact dimensions without stretching.
+
+## Continuity update
+
+- `assets/environment-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.
+
+- `assets/home-cover-light.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.
+- `assets/home-cover-dark.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.

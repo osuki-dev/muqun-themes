@@ -8,6 +8,10 @@ All seven `assets/icon-*.png` images are original geometric glyph drawings by Mu
 
 `assets/preview.png` is a 1024×640 light/dark fictional source UI composition built from final assets/palette, not a device screenshot.
 
-## Parameter control update
+## 2026-10 full-page continuity
 
-`assets/icon-parameters.png`: Adapted from Pine and Parchment’s original three-slider glyph by Muqun theme author, under CC-BY-4.0. Transparent raster resize matches this theme’s line weight; source: the collection’s `pine-and-parchment/assets/icon-parameters.png`. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.
+
+## Composer continuity
+
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

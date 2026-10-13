@@ -1,5 +1,10 @@
 # Deployment Atlas — artwork credits
 
+## Home continuity candidate 1.1.3
+
+The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+
+
 An independent DevOps theme by Muqun Theme Collection. The featured marks identify their respective technology projects; no sponsorship, endorsement or compatibility certification is claimed.
 
 ## Official source artwork
@@ -28,15 +33,3 @@ The theme manifest's `source` points to this attribution document so credits rem
 ## 2026 refresh
 
 The retired logo/poster compositions are no longer included in this package. New Home and launch illustrations are original artwork generated with OpenAI built-in image generation for Muqun Theme Collection. No third-party marks are present in the refreshed assets. Geometric alpha icons and quiet contour/glaze patterns are original deterministic artwork. The theme retains its existing license; Deployment Atlas refreshed artwork is CC BY-SA 4.0. See PROMPTS.md.
-
-## Composer parameters (1.1.2)
-
-`assets/icon-parameters.png` is an existing original Muqun template glyph reused
-from poolside-prism. Creator: Muqun. Source:
-https://github.com/osuki-dev/muqun-themes/tree/main/src/poolside-prism/assets/icon-parameters.png
-Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
-
-The three round open knobs match the bold rounded navigation and deployment glyphs. This transparent sliders mask is
-independently declared as `chrome.parameters`, with template tinting in both
-light and dark modes. It does not replace or fall back to `chrome.settings`.
-No illustration, palette, surface opacity or composer decoration is changed.

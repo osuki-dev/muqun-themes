@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "spore-protocol",
   "name": "Spore Protocol",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -211,33 +211,45 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "e7683d337dd518e6a1ebde3d5d60a2ffeee6bfaee00ff45a7e6aee4155abbe1b"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "9a179a58d7c2c409b8f964dc39fb483bd5e9fc9b10410799dca3914e5e765425"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "11be86581a9cfe605af72a01b40fb2b1ca4afdd6e02bff915e4adc4fb5fe8c72"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-artwork",
-      "fit": "contain",
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
-        "x": 0.72,
-        "y": 0.08
+        "x": 0.5,
+        "y": 0
       },
       "compact": {
-        "asset": "home-artwork",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.72,
-          "y": 0.08
+          "x": 0.5,
+          "y": 0
         }
       },
       "regular": {
-        "asset": "home-artwork",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.72,
-          "y": 0.08
+          "x": 0.5,
+          "y": 0
         }
       }
     },
@@ -523,29 +535,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -591,7 +603,34 @@
           }
         }
       },
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "shell.wallpaper": {
@@ -622,29 +661,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -690,7 +729,34 @@
           }
         }
       },
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {

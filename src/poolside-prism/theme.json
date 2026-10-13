@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "poolside-prism",
   "name": "Poolside Prism",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -185,6 +185,14 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "e9e3e396e9d160176dece36ce51025667344dfcb37a3a26c8f7bad790cf70f58"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "174632cf692405d9aa42bb670d27d416111ad0f70c42c95fc50bbe7e645a30c0"
     }
   },
   "decoration": {},
@@ -252,29 +260,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-light",
+        "asset": "home-environment-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.34,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.34,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.34,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -620,29 +628,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-dark",
+        "asset": "home-environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.65,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.65,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.65,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -981,7 +989,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "iconDirections": {
     "home.arrow": "right",

@@ -20,3 +20,9 @@ Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/mu
 Source artwork license: CC0-1.0; reused within the collection for this
 theme update. The packaged bytes and alpha are unchanged. This is a dedicated
 `chrome.parameters` template asset; the existing settings glyph stays separate.
+
+## Continuity review additions
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

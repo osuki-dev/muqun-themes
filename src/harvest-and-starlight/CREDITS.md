@@ -20,3 +20,10 @@ Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/mu
 Source artwork license: CC0-1.0; reused within the collection for this
 theme update. The packaged bytes and alpha are unchanged. This is a dedicated
 `chrome.parameters` template asset; the existing settings glyph stays separate.
+
+## Continuity update
+
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/composer-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.

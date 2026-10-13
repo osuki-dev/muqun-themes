@@ -18,3 +18,11 @@ Exact prompts and any targeted refinements are in ARTWORK.md. All refinement ref
 
 - `assets/home-artwork-compact.png`, `assets/home-artwork-regular.png`: independent OpenAI built-in imagegen recompositions of this commission’s completed Home on 2026-10-12; original fictional face/style preserved, transparent quiet-left phone/Pad composition, CC-BY-4.0.
 - `assets/preview.png`: original pure-art palette cover regenerated from this commission’s current completed Home using built-in OpenAI imagegen on 2026-10-12, CC-BY-4.0; light left/dark right, no simulated App UI or text.
+
+## Continuity review additions
+
+`assets/scenery-light-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/scenery-dark-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

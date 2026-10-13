@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "silver-on-the-neva",
   "name": "Silver on the Neva",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A drawn winter riverside in Saint Petersburg: coral tram lights, cobalt skating motion and icy Neva reflections. Spacious anime editorial scenery pairs with cool readable surfaces and an independent skater startup.",
@@ -180,6 +180,18 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "525bc774673070fa0c535484ebe4b08dd5d115468b6cc63095af878fa7c6dedb"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "87fd293efdecf6a886cd9ad0379476a006027342862e3a920499fd4f6247acb4"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "5873ed3b308c800db6c195bc9c4991909b8be092c51f6bf3422ae06a95b6cecc"
     }
   },
   "decoration": {
@@ -207,6 +219,33 @@
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
+        }
+      }
+    },
+    "home.artwork": {
+      "asset": "home-cover-continuity",
+      "fit": "cover",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.65,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0
         }
       }
     }
@@ -268,33 +307,59 @@
         }
       },
       "home.artwork": {
-        "asset": "editorial-foreground",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0
+        },
         "compact": {
-          "asset": "editorial-foreground",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
+            "x": 0.65,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "editorial-foreground",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
+            "x": 0.65,
+            "y": 0
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-light-continuity",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "shell.wallpaper": {
@@ -352,33 +417,59 @@
         }
       },
       "home.artwork": {
-        "asset": "editorial-foreground",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.65,
+          "y": 0
+        },
         "compact": {
-          "asset": "editorial-foreground",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
+            "x": 0.65,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "editorial-foreground",
-          "fit": "contain",
+          "asset": "home-cover-continuity",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
+            "x": 0.65,
+            "y": 0
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-dark-continuity",
+        "fit": "cover",
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {

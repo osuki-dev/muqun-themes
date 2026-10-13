@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vermilion-festival",
   "name": "Vermilion Days",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -183,6 +183,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "d7deffef1b6ff10ecbb8103709e0a4dbab4f719947c0a529ab4b1d4868067d92"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "2ceef12ea642a4ec662b7247421516c004e3ba7b4f9c2e56def474df633bf0f8"
     }
   },
   "decoration": {
@@ -350,29 +358,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-light",
+        "asset": "home-environment-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.32,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-wallpaper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -649,29 +657,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-wallpaper-dark",
+        "asset": "home-environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.6,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.6,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-wallpaper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.6,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -942,7 +950,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "iconDirections": {
     "chrome.back": "left",

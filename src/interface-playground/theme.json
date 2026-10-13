@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "interface-playground",
   "name": "Interface Playground",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -203,6 +203,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "e189819ef47d906e240389182dad9b1d3936f1c6ab895ec8df5132103fc0c3ff"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "4c1b76a7a27326f650a85346b5f0b4637f93b2c216c9a3ec8fa145e8e78b24eb"
     }
   },
   "decoration": {
@@ -422,33 +430,7 @@
         }
       }
     },
-    "home.artwork": {
-      "asset": "home-artwork",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.08
-      },
-      "compact": {
-        "asset": "home-artwork",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.08
-        }
-      },
-      "regular": {
-        "asset": "home-artwork",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.08
-        }
-      }
-    }
+    "home.artwork": null
   },
   "icons": {
     "chrome.back": {
@@ -514,32 +496,33 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-light",
+        "asset": "home-environment-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.66,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.66,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.66,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
-      }
+      },
+      "home.artwork": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -570,32 +553,33 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-dark",
+        "asset": "home-environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.8,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.8,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.8,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
-      }
+      },
+      "home.artwork": null
     }
   },
   "homeIdentity": {
@@ -607,7 +591,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "default"
+      "mode": "hidden"
     }
   },
   "description": "A playful tactile design workshop in warm paper, ink, muted ultramarine and coral.",
@@ -618,7 +602,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "iconDirections": {
     "home.arrow": "up-right",

@@ -8,11 +8,6 @@ All assets in this refreshed package are original and distributed under CC-BY-4.
 
 Superseded third-party technology marks and previous illustrations are not included.
 
-## Parameters glyph (1.2.2)
+## Full-page environment revision
 
-`assets/icon-parameters.png` reuses the original transparent adjustments glyph
-from Sugar Circuit (`src/sugar-circuit/assets/icon-parameters.png`).
-Creator: Muqun Theme Collection. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/sugar-circuit).
-Source artwork license: All rights reserved; reused within the collection for this
-theme update. The packaged bytes and alpha are unchanged. This is a dedicated
-`chrome.parameters` template asset; the existing settings glyph stays separate.
+New environment illustrations are original fictional artwork generated for Muqun Theme Collection with the OpenAI built-in image generation tool, using this theme artwork as reference. No third-party imagery or marks introduced. License: All rights reserved. See generation prompts and DESIGN-REVIEW.md for review limits.

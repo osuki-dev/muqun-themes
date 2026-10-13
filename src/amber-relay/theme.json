@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A youthful rooftop music listener under an apricot city dusk, with warm paper and plum-charcoal reading surfaces.",
@@ -245,6 +245,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "scenery-light-continuity": {
+      "path": "assets/scenery-light-continuity.png",
+      "sha256": "b2715b28196023458478ce8f0d9031f59f2cda26f338456a39da2c74f26e765b"
+    },
+    "scenery-dark-continuity": {
+      "path": "assets/scenery-dark-continuity.png",
+      "sha256": "20b5afd0c77226ffba0c616125e443726583666c96ec61740031fd8eb946c2ad"
     }
   },
   "decoration": {
@@ -496,56 +504,56 @@
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "paper-light",
+        "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 0.15,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "paper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.15,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "paper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.15,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "paper-light",
+        "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 0.2,
+        "opacity": 0.48,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "paper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "paper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -595,56 +603,56 @@
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "paper-dark",
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 0.15,
+        "opacity": 0.16,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "paper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.15,
+          "opacity": 0.16,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "paper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.15,
+          "opacity": 0.16,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "paper-dark",
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 0.2,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "paper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "paper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },

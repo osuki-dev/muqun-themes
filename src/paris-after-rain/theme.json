@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Contemporary anime street photographer outside a rainy Paris cafe, with coral rainwear, quiet navy architecture and warm cream native surfaces.",
@@ -17,7 +17,7 @@
   ],
   "preview": "preview",
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "variants": {
@@ -139,8 +139,7 @@
       "sha256": "3d6402c28da1cb8597e44dd1a8c2dcd84b6175c46dc93306c645c5571caf9951"
     },
     "preview": {
-      "path": "assets/preview.png",
-      "sha256": "4c843dc980ee2e51f32914aac4642f8c81ec32738b476df3cdaed2adf48bad9d"
+      "path": "assets/gallery-cover.png"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -158,30 +157,49 @@
       "path": "assets/icon-arrow.png",
       "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
     },
-    "home-modern": {
-      "path": "assets/home-modern.png",
-      "sha256": "713cbe130c21e12242402219c77aa95fa16defce70764bf328aac28d841de109"
-    },
     "launch-modern": {
       "path": "assets/launch-modern.png",
       "sha256": "7d232587371793c9f262bc5e95590a11137aa2f745f2911a86735570bb1bbfed"
     },
+    "composer-accent": {
+      "path": "assets/composer-accent.png"
+    },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "home-paper-light-compact": {
+      "path": "assets/home-paper-light-compact.png",
+      "sha256": "1af58457aad19bc56398d143e719df8036b1bb6a5f610373da0ef1aa10e204ad"
+    },
+    "home-paper-light-regular": {
+      "path": "assets/home-paper-light-regular.png",
+      "sha256": "859c1dd3f874b62a9b79d3e05e576694e7840b0586e5f26867798953d5523855"
+    },
+    "home-paper-dark-compact": {
+      "path": "assets/home-paper-dark-compact.png",
+      "sha256": "c524dd493fe703d6219352598646533eb2dca04dc1197623a8a5a1e844865621"
+    },
+    "home-paper-dark-regular": {
+      "path": "assets/home-paper-dark-regular.png",
+      "sha256": "e9f7bfedf5761e07b01d8413eee5b7bb473679d9d33c603bb59861c3dd406abf"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "c45edf21b56001a23b90a7715e0c293e50cb5d1734d03356bbfc46f782d86c6a"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-modern",
-      "fit": "contain",
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0
       },
       "compact": {
-        "asset": "home-modern",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -189,8 +207,8 @@
         }
       },
       "regular": {
-        "asset": "home-modern",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -251,16 +269,122 @@
           "y": 0
         }
       }
+    },
+    "home.composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
     }
   },
   "variantDecorations": {
     "light": {
       "shell.wallpaper": null,
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-light-compact",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-compact",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-regular",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "shell.wallpaper": null,
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-dark-compact",
+        "fit": "cover",
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-compact",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-regular",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {

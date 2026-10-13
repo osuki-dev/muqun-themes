@@ -11,3 +11,13 @@ All seven `assets/icon-*.png` images are original geometric glyph drawings by Mu
 ## Parameter control update
 
 `assets/icon-parameters.png`: Adapted from Pine and Parchment’s original three-slider glyph by Muqun theme author, under CC-BY-4.0. Transparent raster resize matches this theme’s line weight; source: the collection’s `pine-and-parchment/assets/icon-parameters.png`. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+
+## Continuity review additions
+
+`assets/scenery-light-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/scenery-dark-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

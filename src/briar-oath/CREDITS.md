@@ -6,14 +6,6 @@ The seven PNG icons are original Muqun vector drawings rasterized for the theme,
 
 Home uses a close three-quarter portrait. Launch is independently composed as a complete knight with shield, scabbard and both boots. Dark character lighting and the midnight forest are separately generated. Four foreground images retain true alpha transparency.
 
-## Composer parameters (1.0.2)
+## Composer continuity
 
-`assets/icon-parameters.png` is an existing original Muqun template glyph reused
-from poolside-prism. Creator: Muqun. Source:
-https://github.com/osuki-dev/muqun-themes/tree/main/src/poolside-prism/assets/icon-parameters.png
-Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
-
-The open circular knobs keep the narrow rounded thorn linework readable at composer size. This transparent sliders mask is
-independently declared as `chrome.parameters`, with template tinting in both
-light and dark modes. It does not replace or fall back to `chrome.settings`.
-No illustration, palette, surface opacity or composer decoration is changed.
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.
