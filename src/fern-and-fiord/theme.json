@@ -3,12 +3,12 @@
   "schemaVersion": 1,
   "id": "fern-and-fiord",
   "name": "Fern and Fiord",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "variants": {
     "light": {
@@ -182,6 +182,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "42943ee66730f5cf0e795ab01617218b21c529a133134425f49adae93c026e76"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "80378a66bb95c488bb37a4f18f9d9434f0fd91191459cad355f69b9d67aa6e8a"
     }
   },
   "decoration": {
@@ -493,29 +501,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "paper-light",
+        "asset": "home-environment-light",
         "fit": "cover",
-        "opacity": 0.2,
+        "opacity": 0.34,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "paper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.34,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "paper-light",
+          "asset": "home-environment-light",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.34,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       }
@@ -549,29 +557,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "paper-dark",
+        "asset": "home-environment-dark",
         "fit": "cover",
-        "opacity": 0.2,
+        "opacity": 0.7,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "paper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.7,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "paper-dark",
+          "asset": "home-environment-dark",
           "fit": "cover",
-          "opacity": 0.2,
+          "opacity": 0.7,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       }

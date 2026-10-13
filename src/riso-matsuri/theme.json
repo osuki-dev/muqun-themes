@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "riso-matsuri",
   "name": "リソグラフの夏祭り",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "朱、群青、生成りの版ずれで夏祭りの熱気を描くリソグラフテーマ。",
@@ -145,8 +145,8 @@
       "path": "assets/icon-attach.png"
     },
     "preview": {
-      "path": "assets/preview.png",
-      "sha256": "6e6f5727309256c11bd80bf94c64e74096b518da12fa9e91d03e3e1cc82ba186"
+      "path": "assets/gallery-continuity.png",
+      "sha256": "56b503d937378bf022b5f864f1d85ecd520fb49a25a329cf910d6040d7279905"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -166,6 +166,10 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png",
+      "sha256": "e6fbf3aa4f9c0c7a352fd32be4c5f8f7178744d8840f17d1808621f45ab87b38"
     }
   },
   "variantDecorations": {
@@ -229,7 +233,50 @@
           "fit": "contain",
           "opacity": 1
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.44,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -291,7 +338,50 @@
           "fit": "contain",
           "opacity": 1
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "icons": {

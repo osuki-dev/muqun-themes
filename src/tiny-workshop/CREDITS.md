@@ -8,24 +8,6 @@ Full youthful 2D editorial redraw on 2026-10-11. `assets/home-story.png` is orig
 
 `assets/preview.png` is an original gallery composition of the final theme art and UI palette, not a device screenshot. No old machinery, diorama or miniature prop art is retained. No external stock image or third-party brand assets are bundled.
 
-## Composer preview additions
+## 2026-10 full-page continuity
 
-`assets/composer-accent-compact.png` and `assets/composer-accent-regular.png` are original OpenAI built-in imagegen illustrations generated for this theme with real transparency. Only proportional resizing and metadata removal followed generation. Existing Home art and palette remain unchanged. `assets/icon-parameters.png` reuses the collection-owned Pine and Parchment rounded sliders template glyph, under the collection rights above. The rejected generated sliders candidate is not bundled.
-
-## Home lower-silhouette repair
-
-`assets/home-story.png` was subsequently edited with OpenAI built-in imagegen to complete interrupted lower anatomy and scene edges, preserving the original character/style/pose. It is a real-alpha vignette retaining a diffuse semi-transparent halo. Original launch artwork remains unchanged. The local preview remains the previous composition pending the parent review; no gallery files changed.
-
-## Composer composition revision
-
-New original built-in imagegen artwork introduces a distinct composer arrangement. Tiny Workshop and Mint Soda Interlude add a separate transparent overhang, proportionally resized and padded so the rim is at 75% canvas height. After School Workshop and Graphite Daydream replace the corner accent with side/lower stationery. No artwork was programmatically drawn. Home repairs and launch art remain preserved.
-
-## Gallery refresh
-
-The gallery preview is now an original built-in imagegen pure-art composition of the complete Home scene, light left/dark right. It is 1024×640, with no baked app UI, commands, developer logs or test output. Tiny Workshop includes the separate mechanical bird motif. Proportional resizing plus one-pixel transparent/solid edge padding achieved the exact size without stretching.
-
-## Responsive Editorial Home artwork
-
-`assets/home-story-regular.png` is an original built-in imagegen recomposition of the approved complete compact scene, preserving person/style/colors and whole bicycle wheels/shoes while composing the subject at right for regular width. It is1536×1024 with real alpha. The compact1024×1536 source is preserved. The regular contain-fit focal point is(0.5,0.08), matching parent-reviewed App geometry. No App padding or authored surface opacity changed. A separate dark-background alpha QA inspection showed no opaque white plate or broad visible halo; it is not a native screenshot.
-
-Final gallery cover: pure-art split composition of approved responsive Home sources and theme palette; regular composition on light-left, compact on dark-right. No UI, commands or logs.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.

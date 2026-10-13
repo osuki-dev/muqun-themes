@@ -23,3 +23,9 @@ Home and launch were outpainted with the built-in image tool to complete the phy
 ## Parameter control update
 
 `assets/icon-parameters.png`: Original Muqun Theme Collection angular adjustment tracks with hexagonal handles; vector geometry rasterized to a transparent 96×96 PNG, matching the armored mechanism family. License: CC0-1.0. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+
+## Continuity update
+
+- `assets/composer-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.

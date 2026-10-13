@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pocket-companion",
   "name": "Pocket Companion",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -178,6 +178,18 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "scenery-light-continuity": {
+      "path": "assets/scenery-light-continuity.png",
+      "sha256": "c052432525b86c563222d4d064b082db50dedc27b401393e1c989c445d413581"
+    },
+    "scenery-dark-continuity": {
+      "path": "assets/scenery-dark-continuity.png",
+      "sha256": "fbd742a20e03a5a5b17c295f87183b7887a3502d4b7b45b849f57af9e662e76c"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "78e7a0ae38adf058882ca3bc7634426904c671d773bdf4ff0d399392bac89d10"
     }
   },
   "decoration": {
@@ -234,19 +246,31 @@
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "portrait-light",
+        "asset": "scenery-light-continuity",
         "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
         "compact": {
-          "asset": "portrait-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "wide-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1
-        },
-        "opacity": 1
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "home-hero",
@@ -290,23 +314,104 @@
           "y": 0
         }
       },
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "scenery-light-continuity",
+        "fit": "cover",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "scenery-light-continuity",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "scenery-light-continuity",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "portrait-dark",
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
+        "opacity": 0.16,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
         "compact": {
-          "asset": "portrait-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1
+          "opacity": 0.16,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         },
         "regular": {
-          "asset": "wide-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1
-        },
-        "opacity": 1
+          "opacity": 0.16,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "home-hero",
@@ -350,7 +455,76 @@
           "y": 0
         }
       },
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "scenery-dark-continuity",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "scenery-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "scenery-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

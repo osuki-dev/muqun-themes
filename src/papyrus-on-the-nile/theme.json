@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -154,20 +154,32 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "40a33c7794e20c8d5a6e6969f6505792f9cbf30de6438364567a067f48b6f787"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "8c10dc9f698feb20016d6f063ff73745f74b12224ff0dd589e8445a46b3cc5ca"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "174cb1fc06db0afa1311e96e1a3bdf6d32677fa20a03258581ec4e5445ee218e"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-modern",
-      "fit": "contain",
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0
       },
       "compact": {
-        "asset": "home-modern",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -175,8 +187,8 @@
         }
       },
       "regular": {
-        "asset": "home-modern",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -276,11 +288,117 @@
   "variantDecorations": {
     "light": {
       "shell.wallpaper": null,
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-light-continuity",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "shell.wallpaper": null,
-      "home.wallpaper": null
+      "home.wallpaper": {
+        "asset": "home-paper-dark-continuity",
+        "fit": "cover",
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -311,7 +429,7 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   }
 }

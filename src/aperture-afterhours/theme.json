@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aperture-afterhours",
   "name": "Aperture Afterhours",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying rights reserved",
   "variants": {
@@ -171,6 +171,9 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "66509f71be4fae9875b79358b5b3af85f0844a8a16764b905d22fce60f4fb8c3"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png"
     }
   },
   "decoration": {
@@ -372,7 +375,62 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.17,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.17,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.17,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -482,7 +540,62 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {
@@ -509,5 +622,9 @@
   "iconDirections": {
     "home.arrow": "up-right",
     "chrome.back": "left"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
   }
 }

@@ -6,11 +6,6 @@ The seven monochrome icons are original code-authored diamond and seam geometry 
 
 Home portraits and full-length launch art are independent compositions with genuine alpha. Artwork is capped at 1024 pixels on its longest edge to limit decoded memory.
 
-## Parameters glyph (1.0.2)
+## Composer continuity
 
-`assets/icon-parameters.png` reuses the original transparent adjustments glyph
-from Neon Window Study (`src/neon-window-study/assets/icon-parameters.png`).
-Creator: Muqun Theme Collection. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/neon-window-study).
-Source artwork license: All rights reserved; reused within the collection for this
-theme update. The packaged bytes and alpha are unchanged. This is a dedicated
-`chrome.parameters` template asset; the existing settings glyph stays separate.
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

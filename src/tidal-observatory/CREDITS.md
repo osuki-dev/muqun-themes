@@ -27,3 +27,9 @@ The seven currently supported semantic icon slots are customized. Built-in OpenC
 ## Parameters glyph refresh
 
 `assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.
+
+## Continuity review additions
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

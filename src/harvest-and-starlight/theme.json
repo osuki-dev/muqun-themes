@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harvest-and-starlight",
   "name": "Harvest & Starlight",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Muqun Theme Collection (fan art)",
   "license": "Unofficial fan art; underlying game rights reserved",
   "variants": {
@@ -149,8 +149,8 @@
       "sha256": "a212f858c607ed6fbcd3ccedb04f1ffa3399867a9ec2f656ee9b7e82077e6b13"
     },
     "preview": {
-      "path": "assets/preview.png",
-      "sha256": "93510e4e5bb31521a0e16770b3494b662f0202e0c3960e24a02796044d98fa13"
+      "path": "assets/gallery-continuity.png",
+      "sha256": "856173dbefa2964cf97bcf3923891cac325bb6845e30f48f7bcf64b37a402e4a"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -171,6 +171,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "994746b0f33a76e29f782cb52d9b9b0a17b368f1d34fbdce91d7ae236bcbb260"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png",
+      "sha256": "0b7a3c3ea544af1809354be9b947fe45aa8c6ef975a15861ce8d3a8e58967e22"
     }
   },
   "decoration": {
@@ -372,7 +376,50 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.44,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -482,7 +529,50 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

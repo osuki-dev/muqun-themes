@@ -12,14 +12,6 @@ Original native template glyphs: `assets/icon-create.png`, `assets/icon-scan.png
 
 The 2026 `assets/preview.png` is an original palette and UI composition rendered from this theme’s declared artwork. It is a gallery illustration, not a native device screenshot.
 
-## Composer parameters (1.1.5)
+## Composer continuity
 
-`assets/icon-parameters.png` is an existing original Muqun template glyph reused
-from lunar-aquarium. Creator: Muqun. Source:
-https://github.com/osuki-dev/muqun-themes/tree/main/src/lunar-aquarium/assets/icon-parameters.png
-Icon license: CC0-1.0. The rest of this theme retains its existing licensing.
-
-The two open circular knobs echo the aperture and portal rings without duplicating the settings mechanism. This transparent sliders mask is
-independently declared as `chrome.parameters`, with template tinting in both
-light and dark modes. It does not replace or fall back to `chrome.settings`.
-No illustration, palette, surface opacity or composer decoration is changed.
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

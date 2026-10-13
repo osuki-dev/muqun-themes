@@ -20,11 +20,6 @@ The previous miniature Home, empty and scenic wallpaper assets were retired from
 
 Final redraw revision: the packaged Home/startup illustrations were drawn by the built-in image_gen tool from this theme’s own original generated scene drafts. Their scene composition is retained with visibly drawn outlines, cel shading and simplified color planes. No third-party images were used. The earlier detailed drafts were rejected and are not packaged. Full final prompts are in PROMPTS.md.
 
-## Parameters glyph (1.0.10)
+## Full-page environment revision
 
-`assets/icon-parameters.png` reuses the original transparent adjustments glyph
-from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
-Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
-Source artwork license: CC-BY-4.0; reused within the collection for this
-theme update. The packaged bytes and alpha are unchanged. This is a dedicated
-`chrome.parameters` template asset; the existing settings glyph stays separate.
+New environment illustrations are original fictional artwork generated for Muqun Theme Collection with the OpenAI built-in image generation tool, using this theme artwork as reference. No third-party imagery or marks introduced. License: All rights reserved. See generation prompts and DESIGN-REVIEW.md for review limits.

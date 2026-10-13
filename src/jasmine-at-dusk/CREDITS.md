@@ -1,5 +1,10 @@
 # Jasmine at Dusk
 
+## Home continuity candidate 1.0.11
+
+The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+
+
 Original AI-generated artwork created for Muqun Theme Collection using OpenAI image generation. All rights reserved. See PROMPTS.md for the generation prompts. No third-party artwork is included.
 
 Home hero (`assets/home-hero.png`): original AI-generated artwork created with the built-in image generation tool for Muqun Theme Collection. Chiang Mai Thailand, a small traditional Lanna teak garden house with a graceful tiered roof beside a silk parasol and stepping stones, stylized embroidered silk garden vignette. The scene is an imaginative illustration, not a precise location reconstruction. Covered by this theme’s existing license.
@@ -16,5 +21,6 @@ The previous miniature scenery and wallpaper assets were retired. `assets/home-s
 
 The final full-body startup character was regenerated from this theme’s own initial startup draft to preserve identity while completing the silhouette. The initial bust draft is not packaged; its prompt and the final corrective prompt are recorded in PROMPTS.md.
 
-- `assets/home-composer-compact.png` and `assets/home-composer-regular.png`: original transparent edge artwork generated with OpenAI built-in image generation on 2026-10-12 for this theme; proportionally resized and arranged on transparent phone/Pad canvases. CC-BY-4.0.
-- `assets/icon-parameters.png`: existing repository original sliders drawing reused from Pine and Parchment; transparent template rendering, CC-BY-4.0.
+## Integrated Home and composer update
+
+The new cover/sky/composer and gallery artwork is original fictional artwork generated with the OpenAI built-in image generation tool, using this collection’s existing artwork as the reference. Exact prompts are in COVER-PROMPTS.md. No third-party source was added. License: All rights reserved.

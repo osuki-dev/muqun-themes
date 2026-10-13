@@ -1,0 +1,11 @@
+# Home environment prompts
+
+Built-in OpenAI image generation using this theme artwork as reference. Final outputs copied directly without script image edits. Night is a lighting edit of its own day environment; no other theme assets are reused.
+
+## lightPrompt
+
+Use case: compositing. Asset type: complete opaque square 1536x1536 Home wallpaper artwork, serves phone and Pad. Reference image is STYLE and subject-context only, do not repeat its main character/objects. A quiet Norwegian fjord kayaking environment: misty bluegreen cliffs and pine forest enter from sides below y38%, broad gently rippling pale water at center, a small fern frond and wet rocks in lowerleft and right margins. Preserve source painted anime/editorial style; no person, no kayak or paddle repeated. Near #EDF5F0 mint ivory. Compose a coherent recognizable environment throughout lowerhalf with distinct side scenery, softly fading central detail for reading; at x25%-75%, y20%-85% almost uniform very pale paper with faint blended environmental washes. Upper25% quiet atmospheric light matching the source colors, icons will overlay top-right so no sharp lines/highlights there. Real fine papergrain entire image. Recognizable detailed scene on both inner side margins x22%/78% and bottom, so tall phonecrop still includes environment. Entire picture VERY subdued background print, no saturatedposter, no highcontrast outline. No people, animals, text, words, logos, UI, border or watermark. Opaque fullbleed.
+
+## darkPrompt
+
+Use case: lighting-weather. Opaque square 1536x1536 fern-and-fiord dark Home wallpaper. Edit ONLY lighting/palette of supplied new daytime environment. Preserve exact original coherent scene, lines, object placement and papergrain; no new subjects. Night palette #0F2324 midnight teal, entire center x20%-80%, y15%-90% very dark near namedhex with faint printed environmental forms for BRIGHT apptext. Outer/low margins keep softly recognizable subtle colored scenery, extreme low contrast backgroundprint not detailed brightposter. Upperquarter/top-right uniform dark for status/toolbaricons. No whitepaper/palehaze, no moon/stars/sun/brightlamps, no people, UI, letters, words, frame, logos or watermark. Opaque fullbleed.

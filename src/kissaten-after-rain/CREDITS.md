@@ -21,3 +21,13 @@ Exact prompts and any targeted refinements are in ARTWORK.md. All refinement ref
 
 Creator: Muqun Theme Collection. Source: this repository and the generation prompts
 in ARTWORK.md; no external source URL. License: CC-BY-4.0, matching this theme.
+
+## Continuity update
+
+- `assets/environment-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.
+
+- `assets/home-cover-light.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.
+- `assets/home-cover-dark.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.

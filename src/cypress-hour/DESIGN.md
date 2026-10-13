@@ -1,7 +1,20 @@
-# Native artwork design
+# Cypress Hour design review
 
-Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.
+Version: 1.1.3. Decision: repair.
 
-Independent launch is a1024-square genuinely transparent character composition; launch uses assetURI only. Quiet wallpaper carries sparse bottom/right contour/glaze marks, never repeated hero. Chrome uses low-opacity label-safe edge/rail accents. Missing optionaltaskglyphs use nativefallback. Backleft/sendup/Homeup-right directions match inspected glyphs.
+Retain the integrated scooter terrace; replace sky-only paper with vineyards, villas, cypresses and olive edges. Complete helmet in launch portrait.
 
-Final palette/pack/alpha checks are recorded under ignoredtmp/theme-refresh/a. Correctworktree native QA queued on emulator5560; no fictional gallery preview is claimed as native screenshot.
+Home uses `cover` with `toolbarBackground: false`, so native icons sit over the environment. Classic and Editorial consume the same theme slots. Original palette, material and card/border choices are preserved; the review does not impose filled or outlined cards. Latest published template `chrome.parameters` and composer overrides are retained. Wallpaper opacity softens scenery independently of the unchanged input fill.
+
+| Mode | Width | Wallpaper | Composer background | Outset | Composer overhang |
+| --- | --- | --- | --- | --- | --- |
+| light | compact | `home-environment-compact-light` / cover / 0.28 | `composer-compact` / contain / 0.72 | `{"left": 0, "right": 0, "bottom": 0}` | None |
+| light | regular | `home-environment-regular-light` / cover / 0.42 | `composer-regular` / contain / 0.72 | `{"left": 0, "right": 0, "bottom": 0}` | None |
+| dark | compact | `home-environment-compact-dark` / cover / 0.65 | `composer-compact` / contain / 0.82 | `{"left": 0, "right": 0, "bottom": 0}` | None |
+| dark | regular | `home-environment-regular-dark` / cover / 0.65 | `composer-regular` / contain / 0.82 | `{"left": 0, "right": 0, "bottom": 0}` | None |
+
+Original Home, startup/fallback and light/dark environment artwork was visually inspected. Startup action props were checked. App code resolves launch per mode/width and contains the image (`containedImageRect`, `fit="contain"`); this is code inspection, not a startup screenshot.
+
+CLI validation, contrast and isolated 19-theme source/pack check passed (`check ok 19 theme(s)`). Image-size and unused-asset warnings remain authoring notices.
+
+Native QA remains: phone/Pad, Classic/Editorial, both modes, long multiline drafts, keyboard, parameters open/closed and voice-to-text; inspect icon legibility, header seam, startup reveal and controls. No device import, apply, commit or publication is claimed.

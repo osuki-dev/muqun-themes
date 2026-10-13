@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sulfur-and-silence",
   "name": "Sulfur and Silence",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -167,6 +167,18 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
+    },
+    "scenery-light-continuity": {
+      "path": "assets/scenery-light-continuity.png",
+      "sha256": "1a32d9ef3908692117c05e764ff315f502b05b74ddb18046d01bbbdb686dfc88"
+    },
+    "scenery-dark-continuity": {
+      "path": "assets/scenery-dark-continuity.png",
+      "sha256": "13445709fb1c5450ba41c5da7f060eb1aaba57df5c36169b6175185bddba2636"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "f8c3face805c724143b84e55a702ec6c7d454cdd3c1ce54b612af784c9ed5566"
     }
   },
   "decoration": {
@@ -288,34 +300,103 @@
           }
         }
       },
-      "home.wallpaper": null,
-      "shell.wallpaper": {
-        "asset": "native-wallpaper-light",
+      "home.wallpaper": {
+        "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.48,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "native-wallpaper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "native-wallpaper-light",
+          "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
-      }
+      },
+      "shell.wallpaper": {
+        "asset": "scenery-light-continuity",
+        "fit": "cover",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "scenery-light-continuity",
+          "fit": "cover",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "scenery-light-continuity",
+          "fit": "cover",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "home.artwork": {
@@ -372,34 +453,103 @@
           }
         }
       },
-      "home.wallpaper": null,
-      "shell.wallpaper": {
-        "asset": "native-wallpaper-dark",
+      "home.wallpaper": {
+        "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "native-wallpaper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "native-wallpaper-dark",
+          "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
-      }
+      },
+      "shell.wallpaper": {
+        "asset": "scenery-dark-continuity",
+        "fit": "cover",
+        "opacity": 0.16,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "scenery-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.16,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "scenery-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.16,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

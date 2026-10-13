@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cinder-canyon",
   "name": "Cinder Canyon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -443,7 +443,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "minAppVersion": "3.0.0",
   "iconDirections": {

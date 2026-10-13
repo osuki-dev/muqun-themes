@@ -2,9 +2,9 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "one-piece-grand-voyage",
-  "name": "One Piece — Grand Voyage",
-  "version": "1.2.4",
-  "author": "Muqun custom theme · fan art",
+  "name": "One Piece \u2014 Grand Voyage",
+  "version": "1.2.5",
+  "author": "Muqun custom theme \u00b7 fan art",
   "license": "Unofficial fan art, no rights granted -- see CREDITS.md",
   "description": "Unofficial One Piece ocean-adventure fan art: turquoise seas, moonlit navy and straw-hat gold, with a contained Luffy Home illustration and nautical rope-and-sail glyphs.",
   "tags": [
@@ -145,22 +145,6 @@
       "path": "assets/panel-light.webp",
       "sha256": "385bb34c078ea7468b6994f8446a565ee9910a9c854cc0a45d52d29ba42298a3"
     },
-    "scene-dark": {
-      "path": "assets/scene-dark.webp",
-      "sha256": "19a068b13b9d45662eb09ae4c2e4760de299b537975c917ded68a1f55ed73ee9"
-    },
-    "scene-light": {
-      "path": "assets/scene-light.webp",
-      "sha256": "284db4c2d384a9dce5b0610fcd38098249eca1c07a791f776850450d520b658b"
-    },
-    "scene-wide-dark": {
-      "path": "assets/scene-wide-dark.webp",
-      "sha256": "59066c18cd52c10c7f0202a51168aaab9f5071bf348eade33ba9a4e51d3f2a0c"
-    },
-    "scene-wide-light": {
-      "path": "assets/scene-wide-light.webp",
-      "sha256": "ac350b8515b4e52da552f4f350149e51cd38ba54649f36498872314d836c7c7a"
-    },
     "preview": {
       "path": "assets/preview.png",
       "sha256": "e7e4254e0105baa25f0734966a366c9fdab3153f7ec722714894c3f743439f0e"
@@ -199,19 +183,25 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "scene-empty-light": {
+      "path": "assets/scene-empty-light.png"
+    },
+    "scene-empty-dark": {
+      "path": "assets/scene-empty-dark.png"
     }
   },
   "variantDecorations": {
     "light": {
       "shell.wallpaper": {
-        "asset": "scene-light",
+        "asset": "scene-empty-light",
         "fit": "cover",
         "focalPoint": {
           "x": 0.45,
           "y": 0.78
         },
         "regular": {
-          "asset": "scene-wide-light",
+          "asset": "scene-empty-light",
           "fit": "cover",
           "focalPoint": {
             "x": 0.5,
@@ -220,7 +210,7 @@
           "opacity": 1
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "scene-empty-light",
           "fit": "cover",
           "focalPoint": {
             "x": 0.45,
@@ -231,14 +221,14 @@
         "opacity": 1
       },
       "home.wallpaper": {
-        "asset": "scene-light",
+        "asset": "scene-empty-light",
         "fit": "cover",
         "focalPoint": {
           "x": 0.45,
           "y": 0.78
         },
         "regular": {
-          "asset": "scene-wide-light",
+          "asset": "scene-empty-light",
           "fit": "cover",
           "focalPoint": {
             "x": 0.5,
@@ -247,7 +237,7 @@
           "opacity": 1
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "scene-empty-light",
           "fit": "cover",
           "focalPoint": {
             "x": 0.45,
@@ -391,18 +381,33 @@
           "fit": "contain",
           "opacity": 1
         }
+      },
+      "home.composer.background": {
+        "asset": "panel-light",
+        "fit": "cover",
+        "opacity": 0.15,
+        "compact": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "regular": {
+          "asset": "panel-light",
+          "fit": "cover",
+          "opacity": 0.15
+        }
       }
     },
     "dark": {
       "shell.wallpaper": {
-        "asset": "scene-dark",
+        "asset": "scene-empty-dark",
         "fit": "cover",
         "focalPoint": {
           "x": 0.45,
           "y": 0.78
         },
         "regular": {
-          "asset": "scene-wide-dark",
+          "asset": "scene-empty-dark",
           "fit": "cover",
           "focalPoint": {
             "x": 0.5,
@@ -411,7 +416,7 @@
           "opacity": 1
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "scene-empty-dark",
           "fit": "cover",
           "focalPoint": {
             "x": 0.45,
@@ -422,14 +427,14 @@
         "opacity": 1
       },
       "home.wallpaper": {
-        "asset": "scene-dark",
+        "asset": "scene-empty-dark",
         "fit": "cover",
         "focalPoint": {
           "x": 0.45,
           "y": 0.78
         },
         "regular": {
-          "asset": "scene-wide-dark",
+          "asset": "scene-empty-dark",
           "fit": "cover",
           "focalPoint": {
             "x": 0.5,
@@ -438,7 +443,7 @@
           "opacity": 1
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "scene-empty-dark",
           "fit": "cover",
           "focalPoint": {
             "x": 0.45,
@@ -582,6 +587,21 @@
           "fit": "contain",
           "opacity": 1
         }
+      },
+      "home.composer.background": {
+        "asset": "panel-dark",
+        "fit": "cover",
+        "opacity": 0.15,
+        "compact": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.15
+        },
+        "regular": {
+          "asset": "panel-dark",
+          "fit": "cover",
+          "opacity": 0.15
+        }
       }
     }
   },
@@ -651,5 +671,9 @@
   },
   "iconDirections": {
     "home.arrow": "up-right"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
   }
 }

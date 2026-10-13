@@ -1,0 +1,7 @@
+# Continuity artwork prompts
+
+Generated with OpenAI imagegen. Native output dimensions retained; no scripted raster editing.
+
+## home-environment.png
+
+Create a unique elegant full-page environmental theme wallpaper complementing the reference hero, without recreating any hero subject. Cycle bicycle artisan studio atmosphere: pale architectural skylight beams upper left, soft sage hanging pothos upper right, delicate coral chalk tool sketches on far middle-left, faint wooden shelf/plant pot outline lower right and small workshop window shadows lower left. Fine airy watercolor and pencil, sea-glass/sage/coral. No woman, no character, no bicycle, no bird, no helmet duplicates. Center65% fully quiet nearly transparent, peripheral studio details down whole page, no full-width horizontal plate or border. Portrait 2:3 tall composition, native high resolution. TRUE transparent background: artwork is sparse semi-transparent environmental lines/washes only, outer painting feathers naturally, central blank is transparent not white. This overlays either ivory or navy UI backgrounds, use balanced muted midtones with thin paper-like colored lines visible on both, no opaque white rectangle. No text, logos, UI, lettering, vignette plaque, repeated character, repeated props. Not an island floating in space; environmental detail at several heights through entire page while reading center remains calm. Preserve distinctive original theme art style.

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "neon-window-study",
   "name": "Neon Window Study",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -198,7 +198,34 @@
         }
       }
     },
-    "home.composer.decoration": null
+    "home.composer.decoration": null,
+    "launch.artwork": {
+      "asset": "scene-regular",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "scene-regular",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "scene-regular",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
   },
   "icons": {
     "chrome.back": {

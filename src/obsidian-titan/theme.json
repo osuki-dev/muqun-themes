@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "obsidian-titan",
   "name": "Obsidian Titan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -179,6 +179,10 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png",
+      "sha256": "8aef406c474461a376b2f3b4f70bc15e34eb2e5103754afd5a396134b1810c90"
     }
   },
   "decoration": {},
@@ -297,7 +301,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.44,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.44,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "home.artwork": {
@@ -379,7 +426,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

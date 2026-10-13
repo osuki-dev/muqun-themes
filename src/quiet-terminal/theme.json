@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "quiet-terminal",
   "name": "Quiet Terminal",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Graphite, fog blue and soft white. A restrained terminal-inspired palette with precise return, prompt and bracket-paperclip glyphs, and a small folded-metal still life for empty states.",
@@ -225,6 +225,18 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "29eb0a382fb0acc7b389d03ccb0ebca0010ea85433d6c82482794815be640c1c"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "8bcaaa8408a4a01e1eb2cefcc952cc95ef011a8f360689243263bc65d6a3fc4d"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "9d023025b09f6a2254f3095e9a241c88e20475e944d825fc53ebfdb3ef00616a"
     }
   },
   "variantDecorations": {
@@ -242,8 +254,31 @@
         }
       },
       "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain"
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "home-hero",
@@ -254,8 +289,31 @@
         "fit": "cover"
       },
       "home.wallpaper": {
-        "asset": "wallpaper-light",
-        "fit": "cover"
+        "asset": "home-paper-light-continuity",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "navigation.background": {
         "asset": "chrome-light",
@@ -287,8 +345,31 @@
         }
       },
       "home.artwork": {
-        "asset": "home-hero",
-        "fit": "contain"
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "launch.artwork": {
         "asset": "home-hero",
@@ -299,8 +380,31 @@
         "fit": "cover"
       },
       "home.wallpaper": {
-        "asset": "wallpaper-dark",
-        "fit": "cover"
+        "asset": "home-paper-dark-continuity",
+        "fit": "cover",
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       },
       "navigation.background": {
         "asset": "chrome-dark",
@@ -330,5 +434,34 @@
   },
   "iconDirections": {
     "home.arrow": "up-right"
+  },
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-cover-continuity",
+      "fit": "cover",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    }
   }
 }

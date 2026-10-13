@@ -8,6 +8,6 @@ All assets in this refreshed package are original and distributed under CC-BY-4.
 
 Superseded third-party technology marks and previous illustrations are not included.
 
-## Home composer local preview
+## 2026-10 full-page continuity
 
-`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.

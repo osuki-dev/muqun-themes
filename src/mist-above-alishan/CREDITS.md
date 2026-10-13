@@ -1,5 +1,10 @@
 # Mist above Alishan
 
+## Home continuity candidate 1.1.7
+
+The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+
+
 Original AI-generated artwork created with OpenAI image generation for the Muqun Theme Collection. All rights reserved. Prompts are recorded in PROMPTS.md.
 
 The illustrations interpret Alishan tea terraces, cypress forests, mist and the forest railway. They are original stylized landscapes, not location photographs or maps.
@@ -20,11 +25,6 @@ The previous miniature Home, empty and scenic wallpaper assets were retired from
 
 Final redraw revision: the packaged Home/startup illustrations were drawn by the built-in image_gen tool from this theme’s own original generated scene drafts. Their scene composition is retained with visibly drawn outlines, cel shading and simplified color planes. No third-party images were used. The earlier detailed drafts were rejected and are not packaged. Full final prompts are in PROMPTS.md.
 
-## Parameters glyph (1.1.6)
+## Integrated Home and composer update
 
-`assets/icon-parameters.png` reuses the original transparent adjustments glyph
-from Pine & Parchment (`src/pine-and-parchment/assets/icon-parameters.png`).
-Creator: Muqun. Source: [Muqun Theme Collection](https://github.com/osuki-dev/muqun-themes/tree/main/src/pine-and-parchment).
-Source artwork license: CC-BY-4.0; reused within the collection for this
-theme update. The packaged bytes and alpha are unchanged. This is a dedicated
-`chrome.parameters` template asset; the existing settings glyph stays separate.
+The new cover/sky/composer and gallery artwork is original fictional artwork generated with the OpenAI built-in image generation tool, using this collection’s existing artwork as the reference. Exact prompts are in COVER-PROMPTS.md. No third-party source was added. License: All rights reserved.

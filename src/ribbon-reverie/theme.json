@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -215,6 +215,18 @@
     "home-composer-overhang": {
       "path": "assets/home-composer-overhang.png",
       "sha256": "619519aeb5b8ed87985ee6ef22810acbe1b4a1b284058ef81c222913904f47bc"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "cccb1b1813d7894ad7d6948bf097d78f620a8b88a950aeae22676bf738e5a60d"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "1fcbdd5c7c6f9decc33893d64e05dff0a430ff21e58e7ba9b86a5f6d09531633"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "a9debe3bf79ab0f63c81b9811427d610c908ecba077cc23561ffb4a1cdc09c18"
     }
   },
   "decoration": {
@@ -435,29 +447,29 @@
       }
     },
     "home.artwork": {
-      "asset": "home-artwork",
-      "fit": "contain",
+      "asset": "home-cover-continuity",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
-        "y": 0.08
+        "y": 0
       },
       "compact": {
-        "asset": "home-artwork",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.08
+          "y": 0
         }
       },
       "regular": {
-        "asset": "home-artwork",
-        "fit": "contain",
+        "asset": "home-cover-continuity",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.08
+          "y": 0
         }
       }
     },
@@ -527,29 +539,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.42,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "home-paper-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "home-paper-light",
+          "asset": "home-paper-light-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.42,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -621,6 +633,33 @@
             "y": 0
           }
         }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
       }
     },
     "dark": {
@@ -652,29 +691,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.5
+          "y": 0
         },
         "compact": {
-          "asset": "home-paper-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         },
         "regular": {
-          "asset": "home-paper-dark",
+          "asset": "home-paper-dark-continuity",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0
           }
         }
       },
@@ -743,6 +782,33 @@
           "opacity": 0.94,
           "focalPoint": {
             "x": 1,
+            "y": 0
+          }
+        }
+      },
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-cover-continuity",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
             "y": 0
           }
         }

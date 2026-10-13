@@ -13,3 +13,13 @@ The standalone Home illustration in assets/home-hero.png is newly generated with
 ## Parameter control update
 
 `assets/icon-parameters.png`: Original Muqun Theme Collection adjustment tracks with open round handles; vector geometry rasterized to a transparent PNG to match this theme’s existing stroke and corner family. The glyph is original geometry under the existing theme license; no third-party character or reference artwork is used in the control. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+
+## Continuity review additions
+
+`assets/scenery-light-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/scenery-dark-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

@@ -10,6 +10,10 @@ assets/home-hero.png is a newly generated original Home composition created with
 
 `assets/native-create.png`, `assets/native-scan.png`, `assets/native-settings.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: All rights reserved. Transparent template marks preserve native light/dark tinting.
 
-## Parameters glyph refresh
+## 2026-10 full-page continuity
 
-`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.
+
+## Composer continuity
+
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

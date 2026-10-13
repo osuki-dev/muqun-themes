@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "velocity-coast",
   "name": "Velocity Coast",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying Sonic rights belong to SEGA",
   "variants": {
@@ -167,6 +167,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "4b66c7519797542ed4aaa07903fa5e2daa44754758e0ef75f6d569cc50098cb9"
     }
   },
   "decoration": {
@@ -314,7 +318,50 @@
           "y": 0.5
         },
         "opacity": 0.16
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -370,7 +417,50 @@
           "y": 0.5
         },
         "opacity": 0.16
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

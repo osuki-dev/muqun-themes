@@ -34,6 +34,6 @@ Final generated startup source output: `exec-45c220ab-7a66-44c3-b85d-d8d636d93ed
 
 The updated preview additionally shows the seven template icons, a functional color control, and a miniature independent startup composition.
 
-## Home composer local preview
+## Full-page environment revision
 
-`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.
+New environment illustrations are original fictional artwork generated for Muqun Theme Collection with the OpenAI built-in image generation tool, using this theme artwork as reference. No third-party imagery or marks introduced. License: All rights reserved. See generation prompts and DESIGN-REVIEW.md for review limits.

@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.6",
-  "author": "Muqun · original artwork",
+  "version": "1.2.7",
+  "author": "Muqun \u00b7 original artwork",
   "license": "All rights reserved",
   "variants": {
     "light": {
@@ -175,6 +175,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "f0e45a54d18e1ddb67b241408124073b99afbd5f3ef124fee935ca44ce097bd2"
     }
   },
   "decoration": {
@@ -315,7 +319,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -398,7 +445,50 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

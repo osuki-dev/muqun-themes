@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Ivory technical outerwear and burnt-orange details over quiet architectural paper. One expressive watercolor foreground, independent rail-city scenery, and calm solid work surfaces.",
@@ -192,45 +192,103 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "dd4e802adbfce7e3609acfce0d1ed38d70f28cd034a57a89eb8c390913602428"
+    },
+    "home-cover-continuity": {
+      "path": "assets/home-cover-continuity.png",
+      "sha256": "6ebdfafa89c2ed5d8a03125252de9ad54f85f3e2c21a03a87910064cc87c9998"
+    },
+    "home-paper-light-continuity": {
+      "path": "assets/home-paper-light-continuity.png",
+      "sha256": "3302cc5a3342c1994d4cfe9d731e3f314d90694f2b21412a267742350af2f266"
+    },
+    "home-paper-dark-continuity": {
+      "path": "assets/home-paper-dark-continuity.png",
+      "sha256": "62b755d61b5c5b9f009e58383d05a755854114f84893b1ce0cb959d4d4f26f9a"
     }
   },
-  "decoration": {},
-  "variantDecorations": {
-    "light": {
-      "home.artwork": {
-        "asset": "figure",
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-cover-continuity",
+      "fit": "cover",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-cover-continuity",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.58,
-          "y": 0.35
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-cover-continuity",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
         },
         "compact": {
-          "asset": "figure",
+          "asset": "home-cover-continuity",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
-            "y": 0.35
+            "x": 0.5,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "home-cover-continuity",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
-            "y": 0.35
+            "x": 0.5,
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "wallpaper-light",
+        "asset": "home-paper-light-continuity",
         "fit": "cover",
-        "opacity": 0.65,
+        "opacity": 0.42,
         "focalPoint": {
-          "x": 0.7,
-          "y": 0.6
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-light-continuity",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         }
       },
       "shell.wallpaper": {
@@ -265,39 +323,57 @@
     },
     "dark": {
       "home.artwork": {
-        "asset": "figure",
+        "asset": "home-cover-continuity",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
-          "x": 0.58,
-          "y": 0.35
+          "x": 0.5,
+          "y": 0
         },
         "compact": {
-          "asset": "figure",
+          "asset": "home-cover-continuity",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
-            "y": 0.35
+            "x": 0.5,
+            "y": 0
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "home-cover-continuity",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.58,
-            "y": 0.35
+            "x": 0.5,
+            "y": 0
           }
         }
       },
       "home.wallpaper": {
-        "asset": "wallpaper-dark",
+        "asset": "home-paper-dark-continuity",
         "fit": "cover",
-        "opacity": 0.7,
+        "opacity": 0.35,
         "focalPoint": {
-          "x": 0.7,
-          "y": 0.6
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-paper-dark-continuity",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
         }
       },
       "shell.wallpaper": {

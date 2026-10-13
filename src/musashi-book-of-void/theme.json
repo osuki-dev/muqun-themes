@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "musashi-book-of-void",
   "name": "\u5bae\u672c\u6b66\u8535\uff5c\u7a7a\u306e\u5dfb",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "description": "\u300e\u4e94\u8f2a\u66f8\u300f\u3068\u4e8c\u5929\u4e00\u6d41\u3092\u30e2\u30c1\u30fc\u30d5\u306b\u3001\u548c\u7d19\u3001\u677e\u7159\u58a8\u3001\u9306\u6731\u3001\u591c\u85cd\u3067\u9759\u304b\u306a\u7dca\u5f35\u3068\u4f59\u767d\u3092\u63cf\u304f\u5bae\u672c\u6b66\u8535\u30c6\u30fc\u30de\u3002",
@@ -171,6 +171,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "4cf4e9fdd29faa374ee05f75f071b1ab6a50d1adf180426a9bba5283b0ea8e6d"
     }
   },
   "variantDecorations": {
@@ -230,7 +234,50 @@
       "empty.artwork": {
         "asset": "hero-light",
         "fit": "contain"
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "home.wallpaper": {
@@ -288,7 +335,50 @@
       "empty.artwork": {
         "asset": "hero-dark",
         "fit": "contain"
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "icons": {

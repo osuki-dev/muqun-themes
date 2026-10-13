@@ -23,3 +23,9 @@ The two open circular knobs match the delicate linework and concentric settings 
 independently declared as `chrome.parameters`, with template tinting in both
 light and dark modes. It does not replace or fall back to `chrome.settings`.
 No illustration, palette, surface opacity or composer decoration is changed.
+
+## Continuity review additions
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

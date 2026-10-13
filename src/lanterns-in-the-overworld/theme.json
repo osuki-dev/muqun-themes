@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lanterns-in-the-overworld",
   "name": "Lanterns in the Overworld",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying Minecraft rights reserved",
   "description": "Unofficial Minecraft fan art. A mossy voxel forest and lantern-lit timber shelter, with warm clay, amber and smoky woodland palettes. Steve and a friendly wolf welcome you home.",
@@ -180,6 +180,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "994746b0f33a76e29f782cb52d9b9b0a17b368f1d34fbdce91d7ae236bcbb260"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "1206a9a23ab7287da70818827ad367a2c159646189c762b3692198d5f106f9c4"
     }
   },
   "decoration": {
@@ -320,7 +324,50 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
       "shell.wallpaper": {
@@ -403,7 +450,50 @@
           "x": 0.5,
           "y": 0.5
         }
-      }
+      },
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

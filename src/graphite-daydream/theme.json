@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "graphite-daydream",
   "name": "Graphite Daydream",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Project",
   "license": "All rights reserved",
   "description": "An original bespectacled artist in expressive graphite contours, warm ivory sketchbook paper and sepia accents; a quiet charcoal studio after dark.",
@@ -208,6 +208,14 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+    },
+    "home-environment-light": {
+      "path": "assets/home-environment-light.png",
+      "sha256": "126bd51ea7041822e7fdc6a2ee00ef82533460a97eea98cd70a30980cca1f897"
+    },
+    "home-environment-dark": {
+      "path": "assets/home-environment-dark.png",
+      "sha256": "034f5cd279f58cefbf707fb73a2207fb995d6d0e13353bffbfe4a6f00ff20e36"
     }
   },
   "variantDecorations": {
@@ -240,29 +248,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "paper-light",
-        "fit": "tile",
-        "opacity": 0.8,
+        "asset": "home-environment-light",
+        "fit": "cover",
+        "opacity": 0.48,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "paper-light",
-          "fit": "tile",
-          "opacity": 0.8,
+          "asset": "home-environment-light",
+          "fit": "cover",
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "paper-light",
-          "fit": "tile",
-          "opacity": 0.8,
+          "asset": "home-environment-light",
+          "fit": "cover",
+          "opacity": 0.48,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -582,29 +590,29 @@
         }
       },
       "home.wallpaper": {
-        "asset": "paper-dark",
-        "fit": "tile",
-        "opacity": 0.8,
+        "asset": "home-environment-dark",
+        "fit": "cover",
+        "opacity": 0.64,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "paper-dark",
-          "fit": "tile",
-          "opacity": 0.8,
+          "asset": "home-environment-dark",
+          "fit": "cover",
+          "opacity": 0.64,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "paper-dark",
-          "fit": "tile",
-          "opacity": 0.8,
+          "asset": "home-environment-dark",
+          "fit": "cover",
+          "opacity": 0.64,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.5
+            "y": 0.8
           }
         }
       },
@@ -909,7 +917,7 @@
   },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": true
+    "toolbarBackground": false
   },
   "icons": {
     "chrome.back": {

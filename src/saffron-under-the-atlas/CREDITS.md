@@ -34,6 +34,10 @@ saffron-launch-v2: Independent Moroccan cobalt doorway and sunlit terracotta roo
 
 Native edge refinement: modest transparent padding protects the drawn right-edge subject in phone and Pad cover panes. Home scenic wallpaper and the default brand wordmark are explicitly hidden; native controls and the art carry identity.
 
-## Parameter control update
+## 2026-10 full-page continuity
 
-`assets/icon-parameters.png`: The existing adjustment-track drawing is now correctly assigned to parameters. The settings control has a separately authored eight-tooth mechanism and center ring. Both glyphs are original Muqun Theme Collection transparent template geometry under the existing theme license. `native-settings.png` is the distinct settings mechanism. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.
+
+## Composer continuity
+
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

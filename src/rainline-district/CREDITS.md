@@ -17,3 +17,13 @@ The previous miniature scenery and wallpaper assets were retired. `assets/home-s
 ## Parameter control update
 
 `assets/icon-parameters.png`: The existing adjustment-track drawing is now correctly assigned to parameters. The settings control has a separately authored eight-tooth mechanism and center ring. Both glyphs are original Muqun Theme Collection transparent template geometry under the existing theme license. `icon-settings.png` is the distinct settings mechanism. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+
+## Continuity review additions
+
+`assets/scenery-light-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/scenery-dark-continuity.png`: original scenery companion generated with OpenAI built-in image generation on 2026-10-13; theme-owned reference artwork only.
+
+`assets/composer-corner-continuity.png`: original transparent theme-specific corner ornament generated with OpenAI built-in image generation on 2026-10-13. The central draft and bottom control areas are clear.
+
+Existing character, startup, glyph, palette, and gallery artwork were retained from the current published source. New artwork was copied without scripted image modification.

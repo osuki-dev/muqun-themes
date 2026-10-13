@@ -30,6 +30,10 @@ Exact final Home edit prompt:
 
 Use case: style-transfer. Redraw the attached sunlit Andean terraces with youthful adult hiker and friendly natural llama as confidently HAND-DRAWN modern 2D anime environmental editorial art. Keep main people/animal complete, region and landscape composition, but FULLY redraw all rocks, mountains, foliage and distant landscape into broad simplified graphic planes, clearly visible confident ink contours, flat 2–3 tone CEL SHADING, sparse brush accents. Remove photographic mountain/rock/plant texture and overly intricate surface detail. A polished anime key visual that reads as DRAWING at thumbnail size, no photoreal or 3D render, no souvenir diorama. Keep slate/aqua/ivory for geothermal or sunlitgold/teal/red textile for Andes. Foreground figures occupy meaningful 65–75% image height; landscape wide highoccupancy with quiet upper-left alpha. Genuinely transparent RGBA surroundings, no opaque sky card, no baked checkerboard, no text/logos.
 
-## Parameters glyph refresh
+## 2026-10 full-page continuity
 
-`assets/icon-parameters.png` reuses the original Sea Glass Morning control glyph by Muqun Theme Collection: two rounded adjustment tracks with outlined circular handles. Source: [Muqun theme source](https://github.com/osuki-dev/muqun-themes/blob/main/src/sea-glass-morning/assets/icon-parameters.png). Asset license: All rights reserved; this attribution and license apply specifically to the reused glyph. The raster is copied unchanged with its transparent alpha intact. `chrome.parameters` uses template rendering in both appearances and remains independent of `chrome.settings`.
+Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.
+
+## Composer continuity
+
+Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.

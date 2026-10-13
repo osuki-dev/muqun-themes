@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pomegranate-court",
   "name": "Pomegranate Court",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Contemporary anime courtyard picnic and acoustic music, a young guitarist, natural-scale pomegranates, warm rose, teal and ivory native surfaces.",
@@ -17,7 +17,7 @@
   ],
   "preview": "preview",
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "variants": {
@@ -168,6 +168,12 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
+    },
+    "home-environment": {
+      "path": "assets/home-environment.png"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png"
     }
   },
   "decoration": {
@@ -255,12 +261,226 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": null,
-      "home.wallpaper": null
+      "shell.wallpaper": {
+        "asset": "home-environment",
+        "fit": "cover",
+        "opacity": 0.22,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-environment",
+          "fit": "cover",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-environment",
+          "fit": "contain",
+          "opacity": 0.22,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-environment",
+        "fit": "cover",
+        "opacity": 0.4,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-environment",
+          "fit": "cover",
+          "opacity": 0.4,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-environment",
+          "fit": "contain",
+          "opacity": 0.4,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.17,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.17,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.17,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     },
     "dark": {
-      "shell.wallpaper": null,
-      "home.wallpaper": null
+      "shell.wallpaper": {
+        "asset": "home-environment",
+        "fit": "cover",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-environment",
+          "fit": "cover",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-environment",
+          "fit": "contain",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "home-environment",
+        "fit": "cover",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-environment",
+          "fit": "cover",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-environment",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.14,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {

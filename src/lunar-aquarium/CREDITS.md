@@ -39,3 +39,13 @@ The neutral artwork is authored explicitly for light and dark modes with separat
 The garden backgrounds are replaced by `composer-moon-ripples.png` and `composer-moon-ripples-wide.png`, original OpenAI built-in image generation artwork created on 2026-10-12. Their generated alpha is preserved. A low horizontal silver-lavender waterline and small moonstones replace the upright side plants, leaving the drafting area and toolbar corners open. The separately generated responsive variant uses matching shallow water ripples. No palette, opacity, icon, gallery preview or jellyfish-overhang setting changes.
 
 Final prompt: A transparent landscape watercolor aquarium ornament, nearly all canvas empty alpha, only a low continuous horizontal moonlit-water ripple hugging the bottom with four tiny moonstones. Fine silver-lavender and pale-aqua ink, restrained periwinkle midtones, clear upper text and toolbar areas. No upright plants, side pillars, inset frame, opaque plate, text, UI or characters. The wider responsive variant keeps shallow horizontal rhythm and fading ends.
+
+## Continuity update
+
+- `assets/environment-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+- `assets/gallery-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+
+No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.
+
+- `assets/home-cover-light.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.
+- `assets/home-cover-dark.png`: original identity-preserving environment expansion and matching lighting variant with OpenAI built-in image generation, 2026-10-13, under this theme's declared license.

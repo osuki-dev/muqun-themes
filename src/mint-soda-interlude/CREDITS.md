@@ -1,5 +1,10 @@
 # Artwork and provenance
 
+## Home continuity candidate 1.0.4
+
+The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+
+
 - `assets/mint-soda-barista.png`: original AI-generated illustration created for this theme using OpenAI built-in image generation on 2026-10-10. Theme and original artwork are released under CC0-1.0. No stock assets or existing characters are included.
 - `assets/preview.png`: catalogue composition using this theme's own palette and original artwork. It is an illustrative composition, not an app capture.
 - Two user-supplied references were inspected for airy pastel atmosphere and anime linework only. Their characters, branding and images are not distributed.
@@ -21,11 +26,3 @@ All paper, rail, stationery, card, button, icon and empty-state PNGs are origina
 ### Startup edit prompt
 
 Edit this original barista illustration into a distinct startup composition for the same mint cafe theme. Preserve her adult identity, short pale teal bob, peach blossom pin, tasteful cream blouse and mint apron, delicate pencil anime linework, mint cream peach palette. Change the pose and framing: centered waist-up portrait, facing viewer, smiling gently, both hands offering the glass of sparkling mint soda forward on a small simple cream saucer, soda glass and tiny bubbles clearly visible. Complete head, arms and serving hands, generous transparent margin. New serving gesture, no full skirt or legs. Genuine transparent background, no environment, text, logo, watermark or UI.
-
-## Composer preview additions
-
-`assets/composer-accent-compact.png` and `assets/composer-accent-regular.png` are original OpenAI built-in imagegen illustrations generated for this theme with real transparency. Only proportional resizing and metadata removal followed generation. Existing Home art and palette remain unchanged. `assets/icon-parameters.png` reuses the collection-owned Pine and Parchment rounded sliders template glyph, under the collection rights above. The rejected generated sliders candidate is not bundled.
-
-## Composer composition revision
-
-New original built-in imagegen artwork introduces a distinct composer arrangement. Tiny Workshop and Mint Soda Interlude add a separate transparent overhang, proportionally resized and padded so the rim is at 75% canvas height. After School Workshop and Graphite Daydream replace the corner accent with side/lower stationery. No artwork was programmatically drawn. Home repairs and launch art remain preserved.
