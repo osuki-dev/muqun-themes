@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "moon-jar-courtyard",
   "name": "Moon Jar Courtyard",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "Calm contemporary anime courtyard reading nook, hand-ink outlines and flat lavender/cream planes, with a young reader and natural-scale moon jar.",
@@ -573,8 +573,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Moon Jar"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

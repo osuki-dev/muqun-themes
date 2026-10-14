@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "kissaten-after-rain",
   "name": "雨上がりの喫茶店",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -794,8 +794,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Cafe"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

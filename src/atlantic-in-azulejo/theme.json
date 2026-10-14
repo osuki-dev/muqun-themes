@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlantic-in-azulejo",
   "name": "Atlantic in Azulejo",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -554,8 +554,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Atlantic"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -574,7 +573,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "iconDirections": {
     "home.arrow": "up-right",

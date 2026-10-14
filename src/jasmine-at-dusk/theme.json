@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -348,8 +348,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Jasmine at Dusk"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

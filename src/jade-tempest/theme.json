@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jade-tempest",
   "name": "Jade Tempest",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -457,8 +457,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "TEMPEST"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

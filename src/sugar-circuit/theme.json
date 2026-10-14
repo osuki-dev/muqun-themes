@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -848,8 +848,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Sugar"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -868,7 +867,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "iconDirections": {
     "home.arrow": "up-right",

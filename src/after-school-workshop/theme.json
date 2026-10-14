@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "after-school-workshop",
   "name": "After School Workshop",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "author": "Muqun Project",
   "license": "All rights reserved",
   "description": "A young adult sketches in a sunlit courtyard after class, with a poppy city bicycle, quiet cobalt accents and clean ivory surfaces.",
@@ -447,8 +447,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Sketch"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -798,7 +797,7 @@
   },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "materials": {
     "default": "solid",

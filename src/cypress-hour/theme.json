@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -594,8 +594,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Cypress"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -614,7 +613,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "iconDirections": {
     "home.arrow": "up-right",
