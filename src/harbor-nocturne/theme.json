@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harbor-nocturne",
   "name": "Harbor Nocturne",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -463,8 +463,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "HARBOR"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

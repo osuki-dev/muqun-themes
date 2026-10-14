@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Ivory technical outerwear and burnt-orange details over quiet architectural paper. One expressive watercolor foreground, independent rail-city scenery, and calm solid work surfaces.",
@@ -409,8 +409,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "VANGUARD"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

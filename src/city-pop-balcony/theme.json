@@ -2,11 +2,11 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "city-pop-balcony",
-  "name": "\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30fb\u30d0\u30eb\u30b3\u30cb\u30fc",
-  "version": "1.0.8",
+  "name": "シティポップ・バルコニー",
+  "version": "1.0.9",
   "author": "Muqun",
   "license": "CC-BY-4.0",
-  "description": "\u6d77\u98a8\u3001\u30ab\u30bb\u30c3\u30c8\u30c6\u30fc\u30d7\u3001\u5915\u66ae\u308c\u306e\u8272\u3092\u91cd\u306d\u305f\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30c6\u30fc\u30de\u3002",
+  "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
   "tags": [
     "japan",
     "youth",
@@ -439,8 +439,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "\u590f\u306f\u307e\u3060\u7d42\u308f\u3089\u306a\u3044"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

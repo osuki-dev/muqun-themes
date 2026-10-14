@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "spore-protocol",
   "name": "Spore Protocol",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -761,8 +761,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Spore"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

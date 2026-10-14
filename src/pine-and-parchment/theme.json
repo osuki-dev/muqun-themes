@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pine-and-parchment",
   "name": "Pine & Parchment",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -1268,7 +1268,7 @@
   ],
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
   },
   "iconDirections": {
     "chrome.back": "left",

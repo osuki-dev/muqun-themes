@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sky-letter-atelier",
   "name": "Sky Letter Atelier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -828,7 +828,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "default"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

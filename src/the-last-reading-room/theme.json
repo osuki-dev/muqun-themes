@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -761,8 +761,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Pages"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
