@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -176,7 +176,8 @@
       "sha256": "0827bf117b3424da89f4da077c335b378579f61025b78d4bf63e08a264cb2137"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "465e0c488b5bc92dad23971a473cb9df5b994e34d9ee4b4cf6bab0ca927613a1"
     },
     "home-environment-compact-light": {
       "path": "assets/home-environment-compact-light.png",
@@ -193,6 +194,10 @@
     "home-environment-regular-dark": {
       "path": "assets/home-environment-regular-dark.png",
       "sha256": "c08c5cf4e50dbc2d09c0cbff5ad7db6b304d024a2b3c00a88481b9b78bafd2d0"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "95421d4404ac8233639e777486d62c06af8240dfe5a7a8a610320fef88e09361"
     }
   },
   "decoration": {
@@ -224,7 +229,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "launch",
+      "asset": "launch-full",
       "fit": "contain"
     },
     "empty.artwork": {

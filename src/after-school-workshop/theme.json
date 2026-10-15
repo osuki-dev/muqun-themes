@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "after-school-workshop",
   "name": "After School Workshop",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "Muqun Project",
   "license": "All rights reserved",
   "description": "A young adult sketches in a sunlit courtyard after class, with a poppy city bicycle, quiet cobalt accents and clean ivory surfaces.",
@@ -176,7 +176,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "3c6b124dd048d23a1cccf4ceaca60e85286c7da7045bfeac3c607928731dfa48"
     },
     "environment-continuity": {
       "path": "assets/environment-continuity.png",
@@ -189,6 +189,10 @@
     "home-cover-dark": {
       "path": "assets/home-cover-dark.png",
       "sha256": "437e5c6a689eac4cc5cbe57c296ca66283012503a41ca7d063fec6954c6076fd"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "1f872d4dc4c7a1c5c0bcfe9f5d0c022a4dfa56f86ca5bd74268481978a979e18"
     }
   },
   "variantDecorations": {
@@ -524,7 +528,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "launch-character",
+      "asset": "launch-full",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -532,7 +536,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "launch-character",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -541,7 +545,7 @@
         }
       },
       "regular": {
-        "asset": "launch-character",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {

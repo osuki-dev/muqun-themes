@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "fern-and-fiord",
   "name": "Fern and Fiord",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -181,7 +181,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
     },
     "home-environment-light": {
       "path": "assets/home-environment-light.png",
@@ -190,6 +190,10 @@
     "home-environment-dark": {
       "path": "assets/home-environment-dark.png",
       "sha256": "80378a66bb95c488bb37a4f18f9d9434f0fd91191459cad355f69b9d67aa6e8a"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "3b248453becb88a6db84c9e39540dbca53e1dd46917dedcb60b1b9848b23a8ea"
     }
   },
   "decoration": {
@@ -221,7 +225,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "launch-character",
+      "asset": "launch-full",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -229,7 +233,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "launch-character",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -238,7 +242,7 @@
         }
       },
       "regular": {
-        "asset": "launch-character",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {

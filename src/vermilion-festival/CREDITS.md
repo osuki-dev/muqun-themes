@@ -23,3 +23,26 @@ Seven128px transparent template glyphs, four abstract wallpapers, six rounded-li
 ## Full-page environment revision
 
 New environment illustrations are original fictional artwork generated for Muqun Theme Collection with the OpenAI built-in image generation tool, using this theme artwork as reference. No third-party imagery or marks introduced. License: All rights reserved. See generation prompts and DESIGN-REVIEW.md for review limits.
+
+## 2026-10-15 startup and parameter artwork repair
+
+Pack `vermilion-festival` version `1.0.4`.
+
+Startup artwork was completed from this theme's existing character using built-in OpenAI imagegen edits. The face, hair, upper clothing, pose and props were used as preservation constraints; the missing lower body and feet were supplied. These are original derivative assets under this theme's existing license, with no new external sources. Exact edit prompts and original inputs are recorded in [LAUNCH-COMPLETION-PROMPTS.md](LAUNCH-COMPLETION-PROMPTS.md).
+
+- `assets/launch-artwork.png`: complete transparent startup figure; replaces the incomplete launch-only image.
+
+The new full silhouettes, complete feet, clothing and props were inspected in a source contact sheet. One completed startup image is shared by both appearance modes. This is artwork inspection, not a device startup capture.
+
+`assets/icon-parameters.png` is an original transparent geometric glyph exported from a vector drawing for this theme: two adjustment rails with lantern handles. It replaces the generic glyph while keeping the parameters control recognizable at small sizes. Its existing independent `chrome.parameters` declaration and `template` tinting remain; no settings fallback or other icon was changed. Light and dark tinted source previews were inspected.
+
+Home input artwork is unchanged. Resolved mode/width declarations (responsive images replace the entire base image):
+
+| Mode | Width | Background (asset, fit, opacity, focal point, outset) | Overhang |
+| --- | --- | --- | --- |
+| light | compact | none | none |
+| light | regular | none | none |
+| dark | compact | none | none |
+| dark | regular | none | none |
+
+Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.

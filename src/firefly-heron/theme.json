@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "firefly-heron",
   "name": "Firefly Heron",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -155,7 +155,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "66509f71be4fae9875b79358b5b3af85f0844a8a16764b905d22fce60f4fb8c3"
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png",

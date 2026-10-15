@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -186,7 +186,7 @@
     },
     "launch": {
       "path": "assets/launch.png",
-      "sha256": "f276c449e1ff675876d2c951656fcdf277d089a829e3987b8933e1f1a3bce348"
+      "sha256": "db2509cc55d0b419128e310f3ec95300e7b875421875b4866352832e8693de71"
     },
     "empty": {
       "path": "assets/empty.png",
@@ -210,7 +210,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "3c6b124dd048d23a1cccf4ceaca60e85286c7da7045bfeac3c607928731dfa48"
     },
     "home-cover-continuity": {
       "path": "assets/home-cover-continuity.png",

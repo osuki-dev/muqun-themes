@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "akiba-overdrive",
   "name": "Akiba Overdrive",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Violet streetwear, turquoise headphones, and delicate electronics-district watercolor. Wordless foreground art, separate quiet architecture, and restrained midnight light.",
@@ -193,6 +193,10 @@
     "composer-edge-regular": {
       "path": "assets/composer-edge-regular.png",
       "sha256": "c9aec559af0b2bc5a1094d1b856e3a83a5f2244a6bf449f51578f25d38eed840"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "52717bf483eb3551d51600bcd6bafe268aa0e0506091016e07955a12f33a852e"
     }
   },
   "decoration": {},
@@ -307,7 +311,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -315,7 +319,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -324,7 +328,7 @@
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -541,7 +545,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -549,7 +553,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -558,7 +562,7 @@
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

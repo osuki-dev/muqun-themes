@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mint-soda-interlude",
   "name": "Mint Soda Interlude",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -178,7 +178,8 @@
       "path": "assets/empty.png"
     },
     "launch": {
-      "path": "assets/mint-soda-launch.png"
+      "path": "assets/mint-soda-launch.png",
+      "sha256": "17c97c6bb706bf387782a25867d8cdfe25b603059cb838f0da749d144b418a18"
     },
     "composer-accent-compact": {
       "path": "assets/composer-accent-compact.png",
@@ -190,7 +191,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "43f6c28fb0d985ef9284d9f5e8b987adc4e78c9a44d0d7684312461c6cf73398"
     },
     "composer-overhang": {
       "path": "assets/composer-overhang.png",

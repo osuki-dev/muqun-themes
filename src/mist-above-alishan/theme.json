@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mist-above-alishan",
   "name": "Mist above Alishan",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "description": "A coral mountain train crosses luminous cedar forest and mint dawn mist. Generous railway Home artwork, a separate train startup scene, and crisp botanical controls.",
@@ -162,7 +162,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "a4e5e88a1cea573c558eceb4225128685b9ffdc316301d6b21fa7d2ba5622192"
     },
     "home-paper-light-compact": {
       "path": "assets/home-paper-light-compact.png",

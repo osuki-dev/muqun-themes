@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "briar-oath",
   "name": "Briar Oath",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -161,7 +161,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "78b2654c8e8d8586e3cc2135211b47f3c745de0fff0245ab090ce4dbd15e267e"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png"

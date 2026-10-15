@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "poolside-prism",
   "name": "Poolside Prism",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -178,13 +178,15 @@
       "path": "assets/empty-buoy.png"
     },
     "launch": {
-      "path": "assets/poolside-launch.png"
+      "path": "assets/poolside-launch.png",
+      "sha256": "c3afaff469576ab7760ee4b12f6edd1c3cc332bb6b959750730ad9cde44fecbd"
     },
     "home-composer-accent": {
       "path": "assets/home-composer-accent.png"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "43f6c28fb0d985ef9284d9f5e8b987adc4e78c9a44d0d7684312461c6cf73398"
     },
     "home-environment-light": {
       "path": "assets/home-environment-light.png",

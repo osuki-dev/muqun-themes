@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cyber-miko",
   "name": "Cyber Miko",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "A welcoming shrine attendant in ivory and vermilion watercolor, quiet garden scenery, and restrained midnight lantern bloom. Separate wordless artwork and wallpaper for both Home layouts.",
@@ -188,6 +188,10 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "65a48da9ef095c6e194d122fa262425a4d403bc6e163a39bf46d45a1abd3ade4"
     }
   },
   "decoration": {},
@@ -302,7 +306,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -310,7 +314,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -319,7 +323,7 @@
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -520,7 +524,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -528,7 +532,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -537,7 +541,7 @@
           }
         },
         "regular": {
-          "asset": "figure",
+          "asset": "launch-full",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

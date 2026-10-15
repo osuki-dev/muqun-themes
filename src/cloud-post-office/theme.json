@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.7",
-  "author": "Muqun \u00b7 original artwork",
+  "version": "1.2.8",
+  "author": "Muqun · original artwork",
   "license": "All rights reserved",
   "variants": {
     "light": {
@@ -174,7 +174,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "652b307ab9b153e17fc4f910421e57ec0fde395b06eeb486b2be568ecd0de5bf"
     },
     "composer-corner-continuity": {
       "path": "assets/composer-corner-continuity.png",
