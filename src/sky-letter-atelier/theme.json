@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sky-letter-atelier",
   "name": "Sky Letter Atelier",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -166,7 +166,8 @@
       "path": "assets/home-composer-accent.png"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "3dce2a200e234c7ab60740f026e98646fda2ebe0adfbf95e0f59a71145fe177f"
     },
     "environment-continuity": {
       "path": "assets/environment-continuity.png",
@@ -174,7 +175,7 @@
     },
     "launch-complete": {
       "path": "assets/launch-complete.png",
-      "sha256": "301fb92fbab7efc9e19bf15e88c0c8d45b6c14f82a96c082ff02aa9aa33a03f4"
+      "sha256": "8e15d639dfbab0386384fe481b95a667169706422cac13dcc75dddc72f5a1235"
     },
     "home-cover-light": {
       "path": "assets/home-cover-light.png",

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pine-and-parchment",
   "name": "Pine & Parchment",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -153,7 +153,8 @@
       "path": "assets/icon-settings.png"
     },
     "launch-artwork": {
-      "path": "assets/launch-artwork.png"
+      "path": "assets/launch-artwork.png",
+      "sha256": "5c02c4bfc2ec9abf8a83bee1d06919c7e6a46e4f7477524808ae39084f8a53b9"
     },
     "navigation": {
       "path": "assets/navigation.png"
@@ -169,7 +170,8 @@
       "path": "assets/home-composer-botanical.png"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
     },
     "environment-continuity": {
       "path": "assets/environment-continuity.png",

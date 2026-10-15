@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "gentian-above-the-clouds",
   "name": "Gentian above the Clouds",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -158,7 +158,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "ae65a283af1db51ce58a6f8a580810ac82edcd76ebb0ed9f8a1a445475cdfd20"
     },
     "scenery-light-continuity": {
       "path": "assets/scenery-light-continuity.png",

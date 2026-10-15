@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cover-courier",
   "name": "Cover Courier",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -157,10 +157,18 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "5505fc360e9083712dd26d8ea3694e405065e9e8690f73e3b1051982b149750e"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png"
+    },
+    "launch-full-light": {
+      "path": "assets/launch-full-light.png",
+      "sha256": "fd6f6f38cf602ed9eab09437c81efed0f78de1b91818865d95cfca3a10068015"
+    },
+    "launch-full-dark": {
+      "path": "assets/launch-full-dark.png",
+      "sha256": "9cabf1692e5d40c7d83bae7e04d698685af7ada64ef3c08ba7770203ddb7d44a"
     }
   },
   "decoration": {},
@@ -309,11 +317,11 @@
         }
       },
       "launch.artwork": {
-        "asset": "courier-light",
+        "asset": "launch-full-light",
         "fit": "contain",
         "opacity": 1,
         "compact": {
-          "asset": "courier-light",
+          "asset": "launch-full-light",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -322,7 +330,7 @@
           }
         },
         "regular": {
-          "asset": "courier-light",
+          "asset": "launch-full-light",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -501,11 +509,11 @@
         }
       },
       "launch.artwork": {
-        "asset": "courier-dark",
+        "asset": "launch-full-dark",
         "fit": "contain",
         "opacity": 1,
         "compact": {
-          "asset": "courier-dark",
+          "asset": "launch-full-dark",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -514,7 +522,7 @@
           }
         },
         "regular": {
-          "asset": "courier-dark",
+          "asset": "launch-full-dark",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {

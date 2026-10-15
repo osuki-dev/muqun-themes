@@ -28,3 +28,20 @@ Final redraw revision: the packaged Home/startup illustrations were drawn by the
 ## Integrated Home and composer update
 
 The new cover/sky/composer and gallery artwork is original fictional artwork generated with the OpenAI built-in image generation tool, using this collection’s existing artwork as the reference. Exact prompts are in COVER-PROMPTS.md. No third-party source was added. License: All rights reserved.
+
+## 2026-10-15 startup and parameter artwork repair
+
+Pack `mist-above-alishan` version `1.1.9`.
+
+`assets/icon-parameters.png` is an original transparent geometric glyph exported from a vector drawing for this theme: two adjustment rails with rail handles. It replaces the generic glyph while keeping the parameters control recognizable at small sizes. Its existing independent `chrome.parameters` declaration and `template` tinting remain; no settings fallback or other icon was changed. Light and dark tinted source previews were inspected.
+
+Home input artwork is unchanged. Resolved mode/width declarations (responsive images replace the entire base image):
+
+| Mode | Width | Background (asset, fit, opacity, focal point, outset) | Overhang |
+| --- | --- | --- | --- |
+| light | compact | `{"asset":"composer-accent","fit":"contain","opacity":0.18,"focalPoint":{"x":0.5,"y":0}}` | none |
+| light | regular | `{"asset":"composer-accent","fit":"contain","opacity":0.18,"focalPoint":{"x":0.5,"y":0}}` | none |
+| dark | compact | `{"asset":"composer-accent","fit":"contain","opacity":0.18,"focalPoint":{"x":0.5,"y":0}}` | none |
+| dark | regular | `{"asset":"composer-accent","fit":"contain","opacity":0.18,"focalPoint":{"x":0.5,"y":0}}` | none |
+
+Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.

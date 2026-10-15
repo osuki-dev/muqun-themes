@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Muqun",
   "license": "CC0-1.0",
   "description": "Ivory technical outerwear and burnt-orange details over quiet architectural paper. One expressive watercolor foreground, independent rail-city scenery, and calm solid work surfaces.",
@@ -204,6 +204,10 @@
     "home-paper-dark-continuity": {
       "path": "assets/home-paper-dark-continuity.png",
       "sha256": "62b755d61b5c5b9f009e58383d05a755854114f84893b1ce0cb959d4d4f26f9a"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "d92e266b520ba1ea91fb767f1ca843542bf62093dd88ad25c5972a7950b77b15"
     }
   },
   "decoration": {
@@ -302,7 +306,7 @@
         "opacity": 1
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain"
       },
       "navigation.background": {
@@ -387,7 +391,7 @@
         "opacity": 1
       },
       "launch.artwork": {
-        "asset": "figure",
+        "asset": "launch-full",
         "fit": "contain"
       },
       "navigation.background": {

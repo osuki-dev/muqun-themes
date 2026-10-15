@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "midnight-operator",
   "name": "Midnight Operator",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -188,7 +188,8 @@
       "path": "assets/home-composer-accent.png"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "4075e5c5e8ca44f51f5c3ae5f707c4c38e15e1d9eebfdbced9a39f61a73628e3"
     },
     "home-environment": {
       "path": "assets/home-environment.png"

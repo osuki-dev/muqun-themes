@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "lunar-aquarium",
   "name": "Lunar Aquarium",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -163,13 +163,15 @@
       "path": "assets/empty-globe.png"
     },
     "launch-keeper": {
-      "path": "assets/launch-keeper.png"
+      "path": "assets/launch-keeper.png",
+      "sha256": "ff3b55f30dd5c7bf0acabf9cef453aab0b443465dc23acf48d4c828a36427d3d"
     },
     "composer-jellyfish-drift": {
       "path": "assets/composer-jellyfish-drift.png"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "29cd38e55852662bda6ec0d1f2f158765c3b43d76980d42a3bfca8bea026f5ca"
     },
     "composer-moon-ripples": {
       "path": "assets/composer-moon-ripples.png"

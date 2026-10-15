@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harbor-nocturne",
   "name": "Harbor Nocturne",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -161,7 +161,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "6dd5b30264018378bd487cde7904e56b432d7a10444db9918c16b3af681c2606"
     },
     "home-cover-continuity": {
       "path": "assets/home-cover-continuity.png",

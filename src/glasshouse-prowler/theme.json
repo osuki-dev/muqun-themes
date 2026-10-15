@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "glasshouse-prowler",
   "name": "Glasshouse Prowler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -161,7 +161,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "390bc96f0b9de2b5b1ae240ab9d06bf5a52baef945e7978d69a9f6a748b0fc4a"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png"

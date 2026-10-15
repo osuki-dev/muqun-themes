@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "aperture-afterhours",
   "name": "Aperture Afterhours",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying rights reserved",
   "variants": {
@@ -170,7 +170,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "66509f71be4fae9875b79358b5b3af85f0844a8a16764b905d22fce60f4fb8c3"
+      "sha256": "43f6c28fb0d985ef9284d9f5e8b987adc4e78c9a44d0d7684312461c6cf73398"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png"

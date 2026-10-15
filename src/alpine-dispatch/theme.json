@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "alpine-dispatch",
   "name": "Alpine Dispatch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -161,7 +161,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png",

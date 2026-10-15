@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vermilion-festival",
   "name": "Vermilion Days",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Muqun Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -172,7 +172,8 @@
       "sha256": "e5722a1ea078e0b82ea7dca068cf5fb935aff56ad93f85367f8c1ec6de25e724"
     },
     "launch-artwork": {
-      "path": "assets/launch-artwork.png"
+      "path": "assets/launch-artwork.png",
+      "sha256": "da3f44dcd8d39018cb7d11e6f7253a26d27c5afe76514a2054624030947dae3c"
     },
     "home-wallpaper-light": {
       "path": "assets/home-wallpaper-light.png"
@@ -182,7 +183,7 @@
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
-      "sha256": "f5ee00d525d5af19856ab750f01fbfdbc212a18111f71d255f901ab12b64e77e"
+      "sha256": "ee2dbedd540d199d8a16959b570f43d8f3b506f2a18556ddad000730c043ed37"
     },
     "home-environment-light": {
       "path": "assets/home-environment-light.png",

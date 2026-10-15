@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "author": "Muqun Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -176,7 +176,8 @@
       "sha256": "ccbccca607ca312bfa2709d38126a5636c7f0b4dae2f13f77e5e8a8c6a906a5e"
     },
     "icon-parameters": {
-      "path": "assets/icon-parameters.png"
+      "path": "assets/icon-parameters.png",
+      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
     },
     "composer-overhang": {
       "path": "assets/composer-overhang.png",
@@ -197,6 +198,10 @@
     "home-environment-regular-dark": {
       "path": "assets/home-environment-regular-dark.png",
       "sha256": "32f5ca63d34d101b60fea8162f61511304ad0a0f7031fe4aaa5d5200ea6bec01"
+    },
+    "launch-full": {
+      "path": "assets/launch-full.png",
+      "sha256": "7427bc244ccb78e624ed16ec5de5673d3b6d6a58f7819d3166ce3427b18a277f"
     }
   },
   "decoration": {
@@ -228,7 +233,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "launch",
+      "asset": "launch-full",
       "fit": "contain"
     },
     "empty.artwork": {
