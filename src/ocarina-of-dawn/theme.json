@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "ocarina-of-dawn",
   "name": "Ocarina of Dawn",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Muqun Theme Collection",
   "license": "Unofficial fan art; underlying IP belongs to Nintendo",
   "variants": {
@@ -114,7 +114,7 @@
   "assets": {
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "05771740d71627466a115c00e2b570490cdfb0a7e062e792fe265896f69ec2d6"
+      "sha256": "7a23882fd6d4d603447e12b94a5fbe133d8e39b2db27292acc19d589904bb408"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -146,7 +146,7 @@
     },
     "home-modern": {
       "path": "assets/home-modern.png",
-      "sha256": "507d0e417d0a1f15c84950c014f377a358171f059a2117b1cab72ef18fc0d75c"
+      "sha256": "4d6faa95eabfba0febc4b179657be0802290120ea1cea64fcc03fcd8ee7db874"
     },
     "launch-modern": {
       "path": "assets/launch-modern.png",
@@ -166,12 +166,24 @@
     "composer-corner-continuity": {
       "path": "assets/composer-corner-continuity.png",
       "sha256": "d1fdc5ef34453b81cb22b8c376f5e89cf841fb038119207128aae2e7c42d7608"
+    },
+    "home-modern-dark": {
+      "path": "assets/home-modern-dark.png",
+      "sha256": "2bfd191c9ee9a82afc21a5ad199576bddb2c0f731e48a9f3bb550b027988225e"
+    },
+    "home-wide-light": {
+      "path": "assets/home-wide-light.png",
+      "sha256": "de42c97ad294509e7b365a9d1acaab9b7edacdae1c59f1a05c9231b73524c751"
+    },
+    "home-wide-dark": {
+      "path": "assets/home-wide-dark.png",
+      "sha256": "dcabec3445202aaa71cdb757bf0330c90c3503c52036ac642bbaae9b2118cd0b"
     }
   },
   "decoration": {
     "home.artwork": {
       "asset": "home-modern",
-      "fit": "contain",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
@@ -179,7 +191,7 @@
       },
       "compact": {
         "asset": "home-modern",
-        "fit": "contain",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -187,8 +199,8 @@
         }
       },
       "regular": {
-        "asset": "home-modern",
-        "fit": "contain",
+        "asset": "home-wide-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -317,7 +329,7 @@
       "home.wallpaper": {
         "asset": "scenery-light-continuity",
         "fit": "cover",
-        "opacity": 0.48,
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0
@@ -325,7 +337,7 @@
         "compact": {
           "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.48,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0
@@ -334,7 +346,7 @@
         "regular": {
           "asset": "scenery-light-continuity",
           "fit": "cover",
-          "opacity": 0.48,
+          "opacity": 0.18,
           "focalPoint": {
             "x": 0.5,
             "y": 0
@@ -383,7 +395,34 @@
           }
         }
       },
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "home.artwork": {
+        "asset": "home-modern",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-modern",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-wide-light",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "shell.wallpaper": {
@@ -416,7 +455,7 @@
       "home.wallpaper": {
         "asset": "scenery-dark-continuity",
         "fit": "cover",
-        "opacity": 0.42,
+        "opacity": 0.2,
         "focalPoint": {
           "x": 0.5,
           "y": 0
@@ -424,7 +463,7 @@
         "compact": {
           "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.42,
+          "opacity": 0.2,
           "focalPoint": {
             "x": 0.5,
             "y": 0
@@ -433,7 +472,7 @@
         "regular": {
           "asset": "scenery-dark-continuity",
           "fit": "cover",
-          "opacity": 0.42,
+          "opacity": 0.2,
           "focalPoint": {
             "x": 0.5,
             "y": 0
@@ -482,13 +521,39 @@
           }
         }
       },
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "home.artwork": {
+        "asset": "home-modern-dark",
+        "fit": "cover",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-modern-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-wide-dark",
+          "fit": "cover",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Dawn"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -513,7 +578,7 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   }
 }
