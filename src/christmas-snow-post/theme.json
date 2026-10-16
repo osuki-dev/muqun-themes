@@ -1,0 +1,491 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "christmas-snow-post",
+  "name": "Christmas Snow Post",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection",
+  "license": "CC-BY-4.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#F5F8F1",
+        "surface": "#FFFEF8",
+        "surfaceRaised": "#E5EDE2",
+        "border": "#C9D5C8",
+        "borderStrong": "#6D8276",
+        "text": "#19332B",
+        "textMuted": "#425D51",
+        "textSubtle": "#4A6358",
+        "textDisabled": "#869A8E",
+        "primary": "#145640",
+        "onPrimary": "#FFFFFF",
+        "danger": "#9D3048",
+        "success": "#256349",
+        "warning": "#77521C",
+        "info": "#2C5683",
+        "primarySubtle": "#14564014",
+        "dangerSubtle": "#9D304812"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#F5F8F1",
+        "backgroundOpacity": 1,
+        "foreground": "#19332B",
+        "cursor": "#145640",
+        "link": "#2C5683",
+        "selection": "#14564030",
+        "ansi": [
+          "#4A6358",
+          "#9D3048",
+          "#256349",
+          "#77521C",
+          "#2C5683",
+          "#704A87",
+          "#256371",
+          "#425D51",
+          "#4A6358",
+          "#9D3048",
+          "#256349",
+          "#77521C",
+          "#2C5683",
+          "#704A87",
+          "#256371",
+          "#19332B"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#0F2420",
+        "surface": "#17342D",
+        "surfaceRaised": "#21453B",
+        "border": "#3C6556",
+        "borderStrong": "#8AB49A",
+        "text": "#F4FAEE",
+        "textMuted": "#CDE1D2",
+        "textSubtle": "#BCD4C3",
+        "textDisabled": "#789B8A",
+        "primary": "#B5DFC0",
+        "onPrimary": "#14352A",
+        "danger": "#FFB9C4",
+        "success": "#9CDBB3",
+        "warning": "#F7D397",
+        "info": "#AED7FA",
+        "primarySubtle": "#B5DFC014",
+        "dangerSubtle": "#FFB9C412"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#0F2420",
+        "backgroundOpacity": 1,
+        "foreground": "#F4FAEE",
+        "cursor": "#B5DFC0",
+        "link": "#AED7FA",
+        "selection": "#B5DFC030",
+        "ansi": [
+          "#BCD4C3",
+          "#FFB9C4",
+          "#9CDBB3",
+          "#F7D397",
+          "#AED7FA",
+          "#DABDF1",
+          "#A2DFE6",
+          "#CDE1D2",
+          "#BCD4C3",
+          "#FFB9C4",
+          "#9CDBB3",
+          "#F7D397",
+          "#AED7FA",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#F4FAEE"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "64810f93e5620aacf2188f46b904c37e34f8fd9968c6963c278f958c173ef45d"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f3cbf4c7721904b6f5dad36a1eab8364eb5f2f0a21957231475d7226ae5fafb0"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8110b05f9c7735a8df67b435b81319a2b6fc3019880617c8b19a64e50d2189a0"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "5392cbbcfea060f0cd0c418e2095e7b6e15db287e6d50ca7255a557deee331ef"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e763d96932d493702f48c59a8145ba068d03a3fb6bccf81629059949ad012b35"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "58dc06e5b07378dc6d5cf27a925705269e0a69a55431da29797b22da3a5762d1"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "e90e7c69464bf445473625bd506c3f6b3364c826baf50811429b52d22e598169"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
+    },
+    "character": {
+      "path": "assets/character.png",
+      "sha256": "9e7f0cf69c9bd4ea9d117e9529e95e934db72128a83ca015a6645d456596d47a"
+    },
+    "home-safe": {
+      "path": "assets/home-safe.png",
+      "sha256": "3917e343c4958159bf7a5d8cb8094ec05306bad0d025c5f792c3f78b250586e4"
+    },
+    "environment-light": {
+      "path": "assets/environment-light.png",
+      "sha256": "00f79307da3c1ae4f90d1586cefaa7685aee4b190b3f5fca80dbadcf6c07c40c"
+    },
+    "environment-dark": {
+      "path": "assets/environment-dark.png",
+      "sha256": "517712c04976794db12dc790b692cfaf3a9996ccc128d292d38fd611036b94b2"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "c1ba33348754167930e4e9582a1a91c7df20aee0412549861c8aef455ceb6283"
+    }
+  },
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-safe",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 0.92,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": null,
+    "home.composer.decoration": null
+  },
+  "icons": {
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "hidden"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "A warm gift-carrying polar bear in a snowy Christmas village, with evergreen and cranberry accents.",
+  "tags": [
+    "holiday",
+    "illustration",
+    "cozy",
+    "light",
+    "dark"
+  ],
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "right"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  }
+}
