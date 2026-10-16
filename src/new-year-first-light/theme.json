@@ -1,0 +1,491 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "new-year-first-light",
+  "name": "New Year First Light",
+  "version": "1.0.0",
+  "author": "Muqun Theme Collection",
+  "license": "CC-BY-4.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF7EB",
+        "surface": "#FFFDF6",
+        "surfaceRaised": "#F3E6D5",
+        "border": "#DDCBBB",
+        "borderStrong": "#937569",
+        "text": "#34242D",
+        "textMuted": "#694D51",
+        "textSubtle": "#6C5155",
+        "textDisabled": "#A38C8D",
+        "primary": "#92352F",
+        "onPrimary": "#FFFFFF",
+        "danger": "#9B3049",
+        "success": "#346047",
+        "warning": "#78521D",
+        "info": "#36567F",
+        "primarySubtle": "#92352F14",
+        "dangerSubtle": "#9B304912"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#FFF7EB",
+        "backgroundOpacity": 1,
+        "foreground": "#34242D",
+        "cursor": "#92352F",
+        "link": "#36567F",
+        "selection": "#92352F30",
+        "ansi": [
+          "#6C5155",
+          "#9B3049",
+          "#346047",
+          "#78521D",
+          "#36567F",
+          "#704A87",
+          "#256371",
+          "#694D51",
+          "#6C5155",
+          "#9B3049",
+          "#346047",
+          "#78521D",
+          "#36567F",
+          "#704A87",
+          "#256371",
+          "#34242D"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#181C31",
+        "surface": "#242943",
+        "surfaceRaised": "#323854",
+        "border": "#515B7B",
+        "borderStrong": "#A2ACCF",
+        "text": "#FFF7E9",
+        "textMuted": "#DEDCEB",
+        "textSubtle": "#CECCE0",
+        "textDisabled": "#9293B0",
+        "primary": "#F2CA8D",
+        "onPrimary": "#292035",
+        "danger": "#FFB7BF",
+        "success": "#AFDAB7",
+        "warning": "#F2CA8D",
+        "info": "#BCD5FF",
+        "primarySubtle": "#F2CA8D14",
+        "dangerSubtle": "#FFB7BF12"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#181C31",
+        "backgroundOpacity": 1,
+        "foreground": "#FFF7E9",
+        "cursor": "#F2CA8D",
+        "link": "#BCD5FF",
+        "selection": "#F2CA8D30",
+        "ansi": [
+          "#CECCE0",
+          "#FFB7BF",
+          "#AFDAB7",
+          "#F2CA8D",
+          "#BCD5FF",
+          "#DABDF1",
+          "#A2DFE6",
+          "#DEDCEB",
+          "#CECCE0",
+          "#FFB7BF",
+          "#AFDAB7",
+          "#F2CA8D",
+          "#BCD5FF",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#FFF7E9"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "64810f93e5620aacf2188f46b904c37e34f8fd9968c6963c278f958c173ef45d"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f3cbf4c7721904b6f5dad36a1eab8364eb5f2f0a21957231475d7226ae5fafb0"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8110b05f9c7735a8df67b435b81319a2b6fc3019880617c8b19a64e50d2189a0"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "5392cbbcfea060f0cd0c418e2095e7b6e15db287e6d50ca7255a557deee331ef"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e763d96932d493702f48c59a8145ba068d03a3fb6bccf81629059949ad012b35"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "58dc06e5b07378dc6d5cf27a925705269e0a69a55431da29797b22da3a5762d1"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "e90e7c69464bf445473625bd506c3f6b3364c826baf50811429b52d22e598169"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
+    },
+    "character": {
+      "path": "assets/character.png",
+      "sha256": "20aa09a82bb9e509b94715a6d178a63d4eff5a8ff4df98cc13ea6202f938ef5f"
+    },
+    "home-safe": {
+      "path": "assets/home-safe.png",
+      "sha256": "a844431889770db1475141f0ca502be8fe54feda64562684469f02890b3c2feb"
+    },
+    "environment-light": {
+      "path": "assets/environment-light.png",
+      "sha256": "da23e7714f2fb00d6b1cd04f2aea499f9ed76350da4255b127bb4071b7240ae1"
+    },
+    "environment-dark": {
+      "path": "assets/environment-dark.png",
+      "sha256": "18995a1cace60eae8644a2e00a7f21a5efc8c176532783c115335919249ca4ca"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "02bfd38462de1734d23860f2c14960d4ef8693ebaf579720d7b3a910c84a87ff"
+    }
+  },
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-safe",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 0.92,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": null,
+    "home.composer.decoration": null
+  },
+  "icons": {
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "hidden"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "A bell-carrying white rabbit welcomes the New Year among vermilion lanterns, ivory mist and indigo nights.",
+  "tags": [
+    "holiday",
+    "illustration",
+    "cozy",
+    "light",
+    "dark"
+  ],
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "right"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  }
+}
