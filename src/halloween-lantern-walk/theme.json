@@ -1,0 +1,491 @@
+{
+  "format": "muqun-theme",
+  "schemaVersion": 1,
+  "id": "halloween-lantern-walk",
+  "name": "Halloween Lantern Walk",
+  "version": "1.0.1",
+  "author": "Muqun Theme Collection",
+  "license": "CC-BY-4.0",
+  "preview": "preview",
+  "variants": {
+    "light": {
+      "colors": {
+        "background": "#FFF6E7",
+        "surface": "#FFFCF5",
+        "surfaceRaised": "#F4E4D3",
+        "border": "#DDC7B7",
+        "borderStrong": "#8B6A71",
+        "text": "#302035",
+        "textMuted": "#654958",
+        "textSubtle": "#6A4E5A",
+        "textDisabled": "#9C8690",
+        "primary": "#7B3920",
+        "onPrimary": "#FFFFFF",
+        "danger": "#973843",
+        "success": "#285C47",
+        "warning": "#78511C",
+        "info": "#394F85",
+        "primarySubtle": "#7B392014",
+        "dangerSubtle": "#97384312"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#FFF6E7",
+        "backgroundOpacity": 1,
+        "foreground": "#302035",
+        "cursor": "#7B3920",
+        "link": "#394F85",
+        "selection": "#7B392030",
+        "ansi": [
+          "#6A4E5A",
+          "#973843",
+          "#285C47",
+          "#78511C",
+          "#394F85",
+          "#704A87",
+          "#256371",
+          "#654958",
+          "#6A4E5A",
+          "#973843",
+          "#285C47",
+          "#78511C",
+          "#394F85",
+          "#704A87",
+          "#256371",
+          "#302035"
+        ]
+      }
+    },
+    "dark": {
+      "colors": {
+        "background": "#1D1425",
+        "surface": "#2A1C32",
+        "surfaceRaised": "#39263F",
+        "border": "#5C435F",
+        "borderStrong": "#AD89AC",
+        "text": "#FFF4E7",
+        "textMuted": "#EAD5D0",
+        "textSubtle": "#DCC4D4",
+        "textDisabled": "#9F819D",
+        "primary": "#FFC27C",
+        "onPrimary": "#302035",
+        "danger": "#FFB4BC",
+        "success": "#ABD8BA",
+        "warning": "#F5D58A",
+        "info": "#BDCCF8",
+        "primarySubtle": "#FFC27C14",
+        "dangerSubtle": "#FFB4BC12"
+      },
+      "surfaces": {
+        "backgroundOpacity": 1
+      },
+      "terminal": {
+        "background": "#1D1425",
+        "backgroundOpacity": 1,
+        "foreground": "#FFF4E7",
+        "cursor": "#FFC27C",
+        "link": "#BDCCF8",
+        "selection": "#FFC27C30",
+        "ansi": [
+          "#DCC4D4",
+          "#FFB4BC",
+          "#ABD8BA",
+          "#F5D58A",
+          "#BDCCF8",
+          "#DABDF1",
+          "#A2DFE6",
+          "#EAD5D0",
+          "#DCC4D4",
+          "#FFB4BC",
+          "#ABD8BA",
+          "#F5D58A",
+          "#BDCCF8",
+          "#E9D4F8",
+          "#C5EDF0",
+          "#FFF4E7"
+        ]
+      }
+    }
+  },
+  "materials": {
+    "default": "solid",
+    "navigation": "solid",
+    "composer": "solid",
+    "actions": "solid"
+  },
+  "assets": {
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "64810f93e5620aacf2188f46b904c37e34f8fd9968c6963c278f958c173ef45d"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f3cbf4c7721904b6f5dad36a1eab8364eb5f2f0a21957231475d7226ae5fafb0"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8110b05f9c7735a8df67b435b81319a2b6fc3019880617c8b19a64e50d2189a0"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "5392cbbcfea060f0cd0c418e2095e7b6e15db287e6d50ca7255a557deee331ef"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e763d96932d493702f48c59a8145ba068d03a3fb6bccf81629059949ad012b35"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "58dc06e5b07378dc6d5cf27a925705269e0a69a55431da29797b22da3a5762d1"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "e90e7c69464bf445473625bd506c3f6b3364c826baf50811429b52d22e598169"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
+    },
+    "character": {
+      "path": "assets/character.png",
+      "sha256": "946c6f6dcf0f21c729d829cf616c98d80400a3994a16ae1cf6a179fc3c4ef58f"
+    },
+    "home-safe": {
+      "path": "assets/home-safe.png",
+      "sha256": "8ddc514e02edd21209824b6caa9f8351046285e52ad31f63943cc8caa9d32bd5"
+    },
+    "environment-light": {
+      "path": "assets/environment-light.png",
+      "sha256": "4b0f550bec18a76a3c017010c686f9be12d5ed44ef37ff1957e5dda9e21a2197"
+    },
+    "environment-dark": {
+      "path": "assets/environment-dark.png",
+      "sha256": "cd280e48a7fbcc9568e127bbd956c3e9aaf29a60319e764f47f4b93c9b577590"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "cf39dbe4b973c1189e5c90022fe9b59d4206a8b6388577ad4235982600c78772"
+    }
+  },
+  "decoration": {
+    "home.artwork": {
+      "asset": "home-safe",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "character",
+      "fit": "contain",
+      "opacity": 0.92,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": null,
+    "home.composer.decoration": null
+  },
+  "icons": {
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
+  "variantDecorations": {
+    "light": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    },
+    "dark": {
+      "home.artwork": {
+        "asset": "home-safe",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "home-safe",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
+    }
+  },
+  "homeIdentity": {
+    "name": {
+      "mode": "hidden"
+    },
+    "logo": {
+      "mode": "hidden"
+    },
+    "artwork": {
+      "mode": "default"
+    }
+  },
+  "description": "An anime witch riding her broom with a black cat and pumpkin lantern, autumn day and moonlit woods.",
+  "tags": [
+    "halloween",
+    "anime",
+    "holiday",
+    "light",
+    "dark"
+  ],
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "right"
+  },
+  "homePresentation": {
+    "header": "cover",
+    "toolbarBackground": true
+  }
+}
