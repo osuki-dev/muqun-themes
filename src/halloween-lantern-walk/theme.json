@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "halloween-lantern-walk",
   "name": "Halloween Lantern Walk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -150,7 +150,7 @@
     },
     "character": {
       "path": "assets/character.png",
-      "sha256": "946c6f6dcf0f21c729d829cf616c98d80400a3994a16ae1cf6a179fc3c4ef58f"
+      "sha256": "a397834cf25fc75197a7d94838a0286c078a0a72e497efee13a7baa4abc803e0"
     },
     "home-safe": {
       "path": "assets/home-safe.png",
@@ -372,7 +372,34 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "character",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "character",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
@@ -457,7 +484,34 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "character",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "character",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "character",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     }
   },
   "homeIdentity": {

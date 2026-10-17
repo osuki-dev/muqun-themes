@@ -1,11 +1,13 @@
 # Halloween Lantern Walk
 
-Version 1.0.1. A cheerful adult witch rides a broom with a black cat and hanging pumpkin lantern. Flowing plum cloth and warm pumpkin light make a connected Halloween action scene. Refined two-dimensional anime illustration, drawn contours and painted/cel-shaded color.
+Version 1.0.2. The Home broom-riding witch and autumn wallpapers are retained. A separate compact, foreshortened broom pose now serves launch/empty. Its nearly square silhouette uses the startup box more effectively than the previous horizontal Home-style illustration; the complete hat, lantern, cat and boots remain inside the transparent canvas.
 
-Home uses a square transparent contain-fit vignette. Actual alpha bounds at 10% threshold: `993x581+143+269` on `1254x1254`. All solid subjects end before 68% of the image height, ahead of the native cover bottom feather. Top and side padding protect the hat, cape, pumpkin, reindeer and sleigh. Launch and empty states use the complete, larger square drawing. Both widths and both modes explicitly declare these assets; only the character-free wallpaper is cover-cropped.
+Launch uses explicit compact/regular contain declarations in both modes. The App startup resolver selects the asset URI and uses its own contain box, so the composition and alpha padding are authored in the actual image rather than relying on focalPoint to repair it. Measured 10% alpha bounds: `1164x1149+60+54` on `1254x1254`.
 
-Home title/logo are hidden. Light/dark × compact/regular composer background and decoration are null. Interface and terminal fill opacity remain 1. Palette, materials and all eight template glyphs remain unchanged; parameters has an independent adjustment icon.
+Home remains the existing safe-margin square contain image in both widths and modes; its bytes are unchanged. No ambient effect is added.
+
+Home title/logo remain hidden; composer background and decoration resolve to null in light/dark × compact/regular. No outset is authored. UI and terminal fill opacity stay 1. Eight template icons, independent parameters shape and icon directions are unchanged.
 
 ## Review coverage
 
-Source artwork, actual alpha margins and gallery covers were visually inspected. CLI 2.4.1 source/preview validation and packaging are checked separately. No device automation or mobile-dev was used for this revision; native layout and keyboard coverage are not claimed.
+Dedicated launch images and source Home paintings were visually inspected. Small 200px light/dark launch composites and compact/regular cover crops are source-art review, not native screenshots. CLI validation, contrast and full source packaging are checked separately. No mobile-dev, native device automation or native transition/keyboard acceptance is claimed.
