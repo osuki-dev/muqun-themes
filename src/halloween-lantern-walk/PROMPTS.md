@@ -32,3 +32,15 @@ Use case: lighting-weather. Input image is the EDIT TARGET, a theme-owned enviro
 ## preview.png
 
 Deterministic repository gallery compositor using final theme artwork and palette: light left, dark right, 1024×640, without App UI.
+
+## Version 1.0.2 launch and snow-scene artwork
+
+OpenAI built-in imagegen, 2026-10-17. Original theme-owned references only. Launch framing edit references its first launch concept. Christmas wide variants reference the matching compact snow scene.
+
+### halloween-launch-v2 (launch)
+
+Use case illustration-story. Create a completely NEW compact startup illustration of the SAME original adult anime witch shown in reference: auburn wavy hair, plum pointed hat and cape with copper leaf embroidery, charcoal dress, brown ankle boots, small black cat, warm carved pumpkin lantern. This is a dedicated launch sprite, NOT a Home header. Redesign pose: witch riding a broom steeply ascending toward upper right, view at a dynamic three-quarter angle so broom is foreshortened, cape sweeps down behind, knees bent, both boots visible, black cat securely perched behind her, one pumpkin lantern tied to broom. Complete coherent action, refined adult anatomy, hand-drawn clean 2D anime cel shading, no photorealism. COMPACT nearly square silhouette, no long horizontal spear/broom extending far sideways. Entire illustration fills central 80% width AND 85% height of a SQUARE canvas, only 7–10% clear margin, balanced optical center. Genuine transparent alpha outside silhouette, no scenic backdrop, background plate, oval, frame or large glow. Clean connected scene, no extra props, no letters, no logo, no UI. Keep all hat, broom, cat, lantern, hands and boots inside canvas.
+
+### halloween-launch-final (launch)
+
+Edit this exact artwork for reliable app startup framing. Keep the complete illustrated design and its style. Expand the genuinely TRANSPARENT square canvas around the WHOLE vignette, redraw any edge that previously touched canvas so nothing is truncated. The COMPLETE illustration must occupy about 82% of both canvas width/height maximum; keep at least 8% completely transparent margin on every side. Entire hat, lantern, broom, boots, cat / entire tree star, boughs, chalets and snow hill / entire fireworks, bridge and reflections must be inside this padding as applicable. Balanced optical center. Do not spread elements farther apart. Do not make a plate, backdrop, circle, rectangle or glow halo. This is startup art so keep the composition compact, no Home-specific huge bottom padding. Preserve genuine alpha, no text, no new props, polished hand-drawn 2D anime illustration.
