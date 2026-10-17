@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "christmas-snow-post",
   "name": "Christmas Snow Post",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -150,11 +150,11 @@
     },
     "character": {
       "path": "assets/character.png",
-      "sha256": "9e7f0cf69c9bd4ea9d117e9529e95e934db72128a83ca015a6645d456596d47a"
+      "sha256": "81a19f522fecef34f26e0ed018e4bbd6e69317b5ce2bf1f3863e9be2b4a5c3fe"
     },
     "home-safe": {
       "path": "assets/home-safe.png",
-      "sha256": "3917e343c4958159bf7a5d8cb8094ec05306bad0d025c5f792c3f78b250586e4"
+      "sha256": "046adc41d86b5b489b2b45c9255970f3d3857ed77ea91d691f71e1bdf9c010db"
     },
     "environment-light": {
       "path": "assets/environment-light.png",
@@ -166,7 +166,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "c1ba33348754167930e4e9582a1a91c7df20aee0412549861c8aef455ceb6283"
+      "sha256": "815ed3728989b60c8743a21325c11e95bc429b22c7c892e0899925c60081acb6"
     }
   },
   "decoration": {
@@ -471,11 +471,11 @@
       "mode": "default"
     }
   },
-  "description": "A warm gift-carrying polar bear in a snowy Christmas village, with evergreen and cranberry accents.",
+  "description": "Anime Santa and two reindeer delivering gifts in a red sleigh, snowy village day and Christmas night.",
   "tags": [
+    "christmas",
+    "anime",
     "holiday",
-    "illustration",
-    "cozy",
     "light",
     "dark"
   ],

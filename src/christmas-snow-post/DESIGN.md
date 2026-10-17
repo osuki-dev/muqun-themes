@@ -1,15 +1,11 @@
 # Christmas Snow Post
 
-Version 1.0.0. Original festive storybook character with matching light/night environments. Home uses one transparent, contain-fit character with generous canvas margins; the character-free wallpaper extends behind the status bar. No duplicated figure is painted into the background. Home name/logo are hidden so typography cannot cover the face. Launch and empty states use the complete standalone figure, including both feet.
+Version 1.0.1. Santa sits in a red gift-filled sleigh pulled by two reindeer. Reins, bells, runners and a thin snow crescent connect the festive action into one composition. Refined two-dimensional anime illustration, drawn contours and painted/cel-shaded color.
 
-Compact and regular resolve explicitly to the same square, contain-fit Home drawing (opacity 1, focal point 0.5,0). Only the character-free environment is cover-cropped. The square character is never stretched or cover-cropped. Both appearance modes share the character identity, with separately painted day/night environments.
+Home uses a square transparent contain-fit vignette. Actual alpha bounds at 10% threshold: `973x438+136+378` on `1254x1254`. All solid subjects end before 68% of the image height, ahead of the native cover bottom feather. Top and side padding protect the hat, cape, pumpkin, reindeer and sleigh. Launch and empty states use the complete, larger square drawing. Both widths and both modes explicitly declare these assets; only the character-free wallpaper is cover-cropped.
 
-## Input and controls
+Home title/logo are hidden. Light/dark × compact/regular composer background and decoration are null. Interface and terminal fill opacity remain 1. Palette, materials and all eight template glyphs remain unchanged; parameters has an independent adjustment icon.
 
-In light/dark and compact/regular, `home.composer.background` and `home.composer.decoration` are null: no artwork, no outset/overhang and no obstruction of text, attachment, parameters or send. Surface and terminal background opacity are 1. The parameters glyph is declared independently from settings and uses template tint.
+## Review coverage
 
-## Verification
-
-CLI 2.4.1 focused validation and package round trip passed; all 97 source themes and required previews passed the full source check. Palette opacity/contrast floors were inspected. Character, Home spacing, both environments and gallery artwork were visually inspected as source images. The generated alpha channels and declared hashes are preserved.
-
-Native acceptance was not completed; device automation was stopped at the user's direction. No claim is made for a complete phone/Pad layout matrix, long draft, keyboard, voice, iOS or live sending test. Only a disposable QA emulator was used; no user device or real paired workspace was automated.
+Source artwork, actual alpha margins and gallery covers were visually inspected. CLI 2.4.1 source/preview validation and packaging are checked separately. No device automation or mobile-dev was used for this revision; native layout and keyboard coverage are not claimed.
