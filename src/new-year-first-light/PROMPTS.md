@@ -40,3 +40,15 @@ Use case: lighting-weather. Input image is the EDIT TARGET, the theme-owned city
 ## preview.png
 
 Deterministic ImageMagick gallery composition: final square fireworks scene fills each 512×640 half with a centered cover crop; six flat palette swatches along the bottom. Light left, dark right, 1024×640, no App UI.
+
+## Version 1.0.2 launch and snow-scene artwork
+
+OpenAI built-in imagegen, 2026-10-17. Original theme-owned references only. Launch framing edit references its first launch concept. Christmas wide variants reference the matching compact snow scene.
+
+### new-year-launch-v2 (launch)
+
+Use case illustration-story. A dedicated app startup illustration: magnificent GOLD NEW YEAR FIREWORKS above a small connected riverside city silhouette and arched bridge. Refined TWO-DIMENSIONAL ANIME illustrated cutout with genuine transparent alpha outside its irregular shape. One large clear gold peony firework on top at center, one smaller coral on left and icy blue on right, just three blooms so it reads at200px. Fine hand-drawn sparkling arcs with substantial enough lines to remain legible on pale cream AND deep indigo, warm amber outlines not white-only. Short golden trails connect to a compact city riverbank and tiny arched bridge at base, tiny warm window lights, minimal reflected ribbons just beneath bridge. Nearly square vertical composition, fills central80% width and85% height, 8% clear margins all sides, optical centerbalanced. NOT a rectangular painting or a photograph, no full sky/water backdrop, no square hard edge, no frame, no circular badge. Complete city/fireworks vignette, no clock, people, animal, zodiac, lantern, Chinese motifs, text, numbers, champagne, scattered prop pile. Elegant universal New Year celebration, premium anime background drawing.
+
+### new-year-launch-final (launch)
+
+Edit this exact artwork for reliable app startup framing. Keep the complete illustrated design and its style. Expand the genuinely TRANSPARENT square canvas around the WHOLE vignette, redraw any edge that previously touched canvas so nothing is truncated. The COMPLETE illustration must occupy about 82% of both canvas width/height maximum; keep at least 8% completely transparent margin on every side. Entire hat, lantern, broom, boots, cat / entire tree star, boughs, chalets and snow hill / entire fireworks, bridge and reflections must be inside this padding as applicable. Balanced optical center. Do not spread elements farther apart. Do not make a plate, backdrop, circle, rectangle or glow halo. This is startup art so keep the composition compact, no Home-specific huge bottom padding. Preserve genuine alpha, no text, no new props, polished hand-drawn 2D anime illustration.

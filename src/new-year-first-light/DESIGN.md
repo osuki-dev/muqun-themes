@@ -1,11 +1,13 @@
 # New Year First Light
 
-Version 1.0.1. Gold, coral and blue fireworks bloom above a city waterfront. The festive scene is universal, with no mascot, person, date or zodiac imagery. Refined two-dimensional anime illustration, drawn contours and painted/cel-shaded color.
+Version 1.0.2. The mode-specific compact/regular fireworks Home covers and quiet city wallpapers are retained. Startup now has its own transparent three-bloom fireworks, riverbank and arched bridge vignette instead of displaying the rectangular Home painting. The new square cutout is also reused in empty states.
 
-Home is a full-bleed fireworks cover, with square compact and separately composed landscape regular images in each mode. The dominant gold burst remains high and central; lower water reflections can fade. The cover is the only foreground scene, with no duplicate character cutout. Quiet city dawn/night paintings remain reduced-opacity body/shell wallpapers. Launch and empty states use the mode-matched square scene with contain fit. All four Home cover crops were inspected as artwork; this is not native layout acceptance.
+Launch uses explicit compact/regular contain declarations in both modes. The App startup resolver selects the asset URI and uses its own contain box, so the composition and alpha padding are authored in the actual image rather than relying on focalPoint to repair it. Measured 10% alpha bounds: `1032x1123+112+67` on `1254x1254`.
 
-Home title/logo are hidden. Light/dark × compact/regular composer background and decoration are null. Interface and terminal fill opacity remain 1. Palette, materials and all eight template glyphs remain unchanged; parameters has an independent adjustment icon.
+Home scene, gallery and palette bytes are unchanged. No ambient effect is added.
+
+Home title/logo remain hidden; composer background and decoration resolve to null in light/dark × compact/regular. No outset is authored. UI and terminal fill opacity stay 1. Eight template icons, independent parameters shape and icon directions are unchanged.
 
 ## Review coverage
 
-Source artwork, actual alpha margins and gallery covers were visually inspected. CLI 2.4.1 source/preview validation and packaging are checked separately. No device automation or mobile-dev was used for this revision; native layout and keyboard coverage are not claimed.
+Dedicated launch images and source Home paintings were visually inspected. Small 200px light/dark launch composites and compact/regular cover crops are source-art review, not native screenshots. CLI validation, contrast and full source packaging are checked separately. No mobile-dev, native device automation or native transition/keyboard acceptance is claimed.
