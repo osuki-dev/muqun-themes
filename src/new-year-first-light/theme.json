@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "new-year-first-light",
   "name": "New Year First Light",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -148,39 +148,47 @@
       "path": "assets/icon-parameters.png",
       "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
     },
-    "character": {
-      "path": "assets/character.png",
-      "sha256": "20aa09a82bb9e509b94715a6d178a63d4eff5a8ff4df98cc13ea6202f938ef5f"
-    },
-    "home-safe": {
-      "path": "assets/home-safe.png",
-      "sha256": "a844431889770db1475141f0ca502be8fe54feda64562684469f02890b3c2feb"
-    },
     "environment-light": {
       "path": "assets/environment-light.png",
-      "sha256": "da23e7714f2fb00d6b1cd04f2aea499f9ed76350da4255b127bb4071b7240ae1"
+      "sha256": "8d760496dad7aa9388af7b4688d6c11ab81cae4144a6f459f8cf0adeac61bf5d"
     },
     "environment-dark": {
       "path": "assets/environment-dark.png",
-      "sha256": "18995a1cace60eae8644a2e00a7f21a5efc8c176532783c115335919249ca4ca"
+      "sha256": "3f9f03ed549e22f36baa43fc9dcefba4a47eb8b83ec148730da7716ce3343db4"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "02bfd38462de1734d23860f2c14960d4ef8693ebaf579720d7b3a910c84a87ff"
+      "sha256": "61d01ef6abff6f52a8d97f04b6312a284ee8bf48c6fd725bde6cb2e9e13b6456"
+    },
+    "home-cover-light": {
+      "path": "assets/home-cover-light.png",
+      "sha256": "65c8e8bec2b0a6c643c0ac02b920e0c5afea131d3fe2a543e21d4a7350cbd779"
+    },
+    "home-cover-dark": {
+      "path": "assets/home-cover-dark.png",
+      "sha256": "e9432a22af48da45ade0f88c5260ca9d6dbc4dfa575f3819c61d03b9f4c19ca1"
+    },
+    "home-wide-light": {
+      "path": "assets/home-wide-light.png",
+      "sha256": "ef1e5d981731d4dff3d736d9ed91353b6cc57ae405d222ab8a44f7e958b3f47f"
+    },
+    "home-wide-dark": {
+      "path": "assets/home-wide-dark.png",
+      "sha256": "b138523926eaffc9f77c24e54d5d73da282aaaca2bfe32a76236b64747fd81be"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-safe",
-      "fit": "contain",
+      "asset": "home-cover-light",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0
       },
       "compact": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -188,8 +196,8 @@
         }
       },
       "regular": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-wide-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -198,7 +206,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "character",
+      "asset": "home-cover-light",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -206,7 +214,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "character",
+        "asset": "home-cover-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -215,7 +223,7 @@
         }
       },
       "regular": {
-        "asset": "character",
+        "asset": "home-cover-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -225,7 +233,7 @@
       }
     },
     "empty.artwork": {
-      "asset": "character",
+      "asset": "home-cover-light",
       "fit": "contain",
       "opacity": 0.92,
       "focalPoint": {
@@ -233,7 +241,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "character",
+        "asset": "home-cover-light",
         "fit": "contain",
         "opacity": 0.92,
         "focalPoint": {
@@ -242,7 +250,7 @@
         }
       },
       "regular": {
-        "asset": "character",
+        "asset": "home-cover-light",
         "fit": "contain",
         "opacity": 0.92,
         "focalPoint": {
@@ -291,16 +299,16 @@
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
         "compact": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-cover-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -308,8 +316,8 @@
           }
         },
         "regular": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-wide-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -372,20 +380,74 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "home-cover-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-cover-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-cover-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "home-cover-light",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-cover-light",
+          "fit": "contain",
+          "opacity": 0.92,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-cover-light",
+          "fit": "contain",
+          "opacity": 0.92,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-dark",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
         "compact": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-cover-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -393,8 +455,8 @@
           }
         },
         "regular": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-wide-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -457,7 +519,61 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "home-cover-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-cover-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-cover-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "home-cover-dark",
+        "fit": "contain",
+        "opacity": 0.92,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "home-cover-dark",
+          "fit": "contain",
+          "opacity": 0.92,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "home-cover-dark",
+          "fit": "contain",
+          "opacity": 0.92,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -471,11 +587,11 @@
       "mode": "default"
     }
   },
-  "description": "A bell-carrying white rabbit welcomes the New Year among vermilion lanterns, ivory mist and indigo nights.",
+  "description": "Golden New Year fireworks over an anime city waterfront, in glowing twilight and midnight blue.",
   "tags": [
+    "new-year",
+    "anime",
     "holiday",
-    "illustration",
-    "cozy",
     "light",
     "dark"
   ],
