@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "halloween-lantern-walk",
   "name": "Halloween Lantern Walk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -150,11 +150,11 @@
     },
     "character": {
       "path": "assets/character.png",
-      "sha256": "df834c6e1ecd5b3f924d34422447f24b41a3fcb8f96006190c24526bcc23fc5e"
+      "sha256": "946c6f6dcf0f21c729d829cf616c98d80400a3994a16ae1cf6a179fc3c4ef58f"
     },
     "home-safe": {
       "path": "assets/home-safe.png",
-      "sha256": "9bb56f31df11bff78551cf082107fbdbc06103797bcb33f6fec25bd236d407c1"
+      "sha256": "8ddc514e02edd21209824b6caa9f8351046285e52ad31f63943cc8caa9d32bd5"
     },
     "environment-light": {
       "path": "assets/environment-light.png",
@@ -166,7 +166,7 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "2af46d738588da1ba09cab833d55fd526b8bbb3873db257afb8d0eeb0bd52986"
+      "sha256": "cf39dbe4b973c1189e5c90022fe9b59d4206a8b6388577ad4235982600c78772"
     }
   },
   "decoration": {
@@ -471,11 +471,11 @@
       "mode": "default"
     }
   },
-  "description": "An amber lantern walk with an original fox, autumn woods and soft plum nights.",
+  "description": "An anime witch riding her broom with a black cat and pumpkin lantern, autumn day and moonlit woods.",
   "tags": [
+    "halloween",
+    "anime",
     "holiday",
-    "illustration",
-    "cozy",
     "light",
     "dark"
   ],
