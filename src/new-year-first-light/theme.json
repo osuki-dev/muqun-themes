@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "new-year-first-light",
   "name": "New Year First Light",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -175,6 +175,10 @@
     "home-wide-dark": {
       "path": "assets/home-wide-dark.png",
       "sha256": "b138523926eaffc9f77c24e54d5d73da282aaaca2bfe32a76236b64747fd81be"
+    },
+    "launch-vignette": {
+      "path": "assets/launch-vignette.png",
+      "sha256": "f95bd1f241dbcc71cb63d919ce9b32d4492de51ba859acfbe3f06b3e4019c7da"
     }
   },
   "decoration": {
@@ -206,7 +210,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "home-cover-light",
+      "asset": "launch-vignette",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -214,7 +218,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -223,7 +227,7 @@
         }
       },
       "regular": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -233,26 +237,26 @@
       }
     },
     "empty.artwork": {
-      "asset": "home-cover-light",
+      "asset": "launch-vignette",
       "fit": "contain",
-      "opacity": 0.92,
+      "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0.5
       },
       "compact": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         }
       },
       "regular": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -382,7 +386,7 @@
       "home.composer.background": null,
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -390,7 +394,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-light",
+          "asset": "launch-vignette",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -399,7 +403,7 @@
           }
         },
         "regular": {
-          "asset": "home-cover-light",
+          "asset": "launch-vignette",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -409,26 +413,26 @@
         }
       },
       "empty.artwork": {
-        "asset": "home-cover-light",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-light",
+          "asset": "launch-vignette",
           "fit": "contain",
-          "opacity": 0.92,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-cover-light",
+          "asset": "launch-vignette",
           "fit": "contain",
-          "opacity": 0.92,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
@@ -521,7 +525,7 @@
       "home.composer.background": null,
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "home-cover-dark",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -529,7 +533,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-dark",
+          "asset": "launch-vignette",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -538,7 +542,7 @@
           }
         },
         "regular": {
-          "asset": "home-cover-dark",
+          "asset": "launch-vignette",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -548,26 +552,26 @@
         }
       },
       "empty.artwork": {
-        "asset": "home-cover-dark",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-dark",
+          "asset": "launch-vignette",
           "fit": "contain",
-          "opacity": 0.92,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-cover-dark",
+          "asset": "launch-vignette",
           "fit": "contain",
-          "opacity": 0.92,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
