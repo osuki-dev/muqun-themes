@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "christmas-snow-post",
   "name": "Christmas Snow Post",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Muqun Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -56,6 +56,17 @@
           "#256371",
           "#19332B"
         ]
+      },
+      "effects": {
+        "ambient": "snow",
+        "intensity": 0.4,
+        "speed": 0.75,
+        "density": 0.85,
+        "size": 1.2,
+        "palette": [
+          "info"
+        ],
+        "direction": "down"
       }
     },
     "dark": {
@@ -106,6 +117,17 @@
           "#C5EDF0",
           "#F4FAEE"
         ]
+      },
+      "effects": {
+        "ambient": "snow",
+        "intensity": 0.5,
+        "speed": 0.75,
+        "density": 0.85,
+        "size": 1.2,
+        "palette": [
+          "text"
+        ],
+        "direction": "down"
       }
     }
   },
@@ -148,14 +170,6 @@
       "path": "assets/icon-parameters.png",
       "sha256": "4a9086a689f0989607f89cbbb30462856d6dd8c7a5119066573b27d5567d8234"
     },
-    "character": {
-      "path": "assets/character.png",
-      "sha256": "81a19f522fecef34f26e0ed018e4bbd6e69317b5ce2bf1f3863e9be2b4a5c3fe"
-    },
-    "home-safe": {
-      "path": "assets/home-safe.png",
-      "sha256": "046adc41d86b5b489b2b45c9255970f3d3857ed77ea91d691f71e1bdf9c010db"
-    },
     "environment-light": {
       "path": "assets/environment-light.png",
       "sha256": "00f79307da3c1ae4f90d1586cefaa7685aee4b190b3f5fca80dbadcf6c07c40c"
@@ -166,21 +180,41 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "815ed3728989b60c8743a21325c11e95bc429b22c7c892e0899925c60081acb6"
+      "sha256": "574d28c1220c6b94fcb0379c7f9c61230300c7da33b3434cf164baf4cb2dbdd1"
+    },
+    "launch-vignette": {
+      "path": "assets/launch-vignette.png",
+      "sha256": "c0503ca83029bead1a679306afa6d1316fd0bce6b1140248bf210a0241a80924"
+    },
+    "home-cover-light": {
+      "path": "assets/home-cover-light.png",
+      "sha256": "1c7f6a7f1136506b4fc39fc720b660c34ee48725e17ddace0412965eb7a3b35d"
+    },
+    "home-wide-light": {
+      "path": "assets/home-wide-light.png",
+      "sha256": "6ca122343feb6b2cbb3b0205b4903d17bb8d9e87737d02ead007bf3aed6732db"
+    },
+    "home-cover-dark": {
+      "path": "assets/home-cover-dark.png",
+      "sha256": "24847c50f1cc71d9e284defadcef61d275165e0c76e80949c58e60e1c1e8aba7"
+    },
+    "home-wide-dark": {
+      "path": "assets/home-wide-dark.png",
+      "sha256": "e741dd1878b5f3a1e05fea4cee2e98fb155fd47127718a4b0b4dc2a25abf10a4"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-safe",
-      "fit": "contain",
+      "asset": "home-cover-light",
+      "fit": "cover",
       "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0
       },
       "compact": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -188,8 +222,8 @@
         }
       },
       "regular": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-wide-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
@@ -198,7 +232,7 @@
       }
     },
     "launch.artwork": {
-      "asset": "character",
+      "asset": "launch-vignette",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -206,7 +240,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "character",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -215,7 +249,7 @@
         }
       },
       "regular": {
-        "asset": "character",
+        "asset": "launch-vignette",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -225,26 +259,26 @@
       }
     },
     "empty.artwork": {
-      "asset": "character",
+      "asset": "launch-vignette",
       "fit": "contain",
-      "opacity": 0.92,
+      "opacity": 1,
       "focalPoint": {
         "x": 0.5,
         "y": 0.5
       },
       "compact": {
-        "asset": "character",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         }
       },
       "regular": {
-        "asset": "character",
+        "asset": "launch-vignette",
         "fit": "contain",
-        "opacity": 0.92,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -291,16 +325,16 @@
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-light",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
         "compact": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-cover-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -308,8 +342,8 @@
           }
         },
         "regular": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-wide-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -372,20 +406,74 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "launch-vignette",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "launch-vignette",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
-        "asset": "home-safe",
-        "fit": "contain",
+        "asset": "home-cover-dark",
+        "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         },
         "compact": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-cover-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -393,8 +481,8 @@
           }
         },
         "regular": {
-          "asset": "home-safe",
-          "fit": "contain",
+          "asset": "home-wide-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -457,7 +545,61 @@
         }
       },
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "launch-vignette",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "launch-vignette",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "launch-vignette",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -471,7 +613,7 @@
       "mode": "default"
     }
   },
-  "description": "Anime Santa and two reindeer delivering gifts in a red sleigh, snowy village day and Christmas night.",
+  "description": "A grand anime Christmas snow village with illuminated firs, alpine mountains and gentle native snowfall, plus an independent tree-and-chalet launch vignette.",
   "tags": [
     "christmas",
     "anime",
@@ -487,5 +629,17 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
-  }
+  },
+  "effects": {
+    "ambient": "snow",
+    "intensity": 0.5,
+    "speed": 0.75,
+    "density": 0.85,
+    "size": 1.2,
+    "palette": [
+      "text"
+    ],
+    "direction": "down"
+  },
+  "minAppVersion": "3.0.0"
 }
