@@ -3,17 +3,15 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.2.9",
-  "author": "Muqun Theme Collection",
+  "version": "1.2.10",
+  "author": "Theme Collection",
   "license": "All rights reserved",
-  "description": "Contemporary anime street photographer outside a rainy Paris cafe, with coral rainwear, quiet navy architecture and warm cream native surfaces.",
+  "description": "Two adult friends in camel and navy coats share a cherry umbrella on a wet Paris street in candid fashion photography.",
   "tags": [
-    "anime",
-    "editorial",
-    "slice-of-life",
-    "illustrated",
-    "light",
-    "dark"
+    "photography",
+    "friends",
+    "paris",
+    "rain"
   ],
   "preview": "preview",
   "homePresentation": {
@@ -126,265 +124,198 @@
     "default": "solid"
   },
   "assets": {
-    "icon-back": {
-      "path": "assets/icon-back.png",
-      "sha256": "da59090ff97c968d552fce3677832d69302bdb657b4b9000dae2beb4bfccb8b5"
+    "foreground": {
+      "path": "assets/foreground.webp",
+      "sha256": "31333cc3d24f40c5d9ee1fa508d3a98b26d06c05c7b8c17483aa12aa4784a781"
     },
-    "icon-send": {
-      "path": "assets/icon-send.png",
-      "sha256": "a5a4d029f2675b063f4c78ce59e9ac286ffdc7734db51c46081a603ee640d710"
+    "background-light": {
+      "path": "assets/background-light.webp",
+      "sha256": "bf8de86efddb2875a845214321230eb281b995158e2c1d312675c437e3b11f9a"
     },
-    "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "3d6402c28da1cb8597e44dd1a8c2dcd84b6175c46dc93306c645c5571caf9951"
+    "background-dark": {
+      "path": "assets/background-dark.webp",
+      "sha256": "047878f76e5df66ac23ac954a9956583c6fa69eebacfd06ac5103be33010ebfe"
     },
     "preview": {
-      "path": "assets/gallery-cover.png"
-    },
-    "icon-create": {
-      "path": "assets/icon-create.png",
-      "sha256": "4bd3064cb1c6c6a12a997cab2fef9e9c15e263babe5d71d974e45e4127d5aaf9"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png",
-      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png",
-      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png",
-      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
-    },
-    "launch-modern": {
-      "path": "assets/launch-modern.png",
-      "sha256": "7d232587371793c9f262bc5e95590a11137aa2f745f2911a86735570bb1bbfed"
-    },
-    "composer-accent": {
-      "path": "assets/composer-accent.png"
-    },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png"
-    },
-    "home-paper-light-compact": {
-      "path": "assets/home-paper-light-compact.png",
-      "sha256": "1af58457aad19bc56398d143e719df8036b1bb6a5f610373da0ef1aa10e204ad"
-    },
-    "home-paper-light-regular": {
-      "path": "assets/home-paper-light-regular.png",
-      "sha256": "859c1dd3f874b62a9b79d3e05e576694e7840b0586e5f26867798953d5523855"
-    },
-    "home-paper-dark-compact": {
-      "path": "assets/home-paper-dark-compact.png",
-      "sha256": "c524dd493fe703d6219352598646533eb2dca04dc1197623a8a5a1e844865621"
-    },
-    "home-paper-dark-regular": {
-      "path": "assets/home-paper-dark-regular.png",
-      "sha256": "e9f7bfedf5761e07b01d8413eee5b7bb473679d9d33c603bb59861c3dd406abf"
-    },
-    "home-cover-continuity": {
-      "path": "assets/home-cover-continuity.png",
-      "sha256": "c45edf21b56001a23b90a7715e0c293e50cb5d1734d03356bbfc46f782d86c6a"
+      "path": "assets/preview.png",
+      "sha256": "e4590566736b1b771660ea16c8d9d7f6b3364703ee2ed5a8fab65dd497b4bf96"
     }
   },
-  "decoration": {
-    "home.artwork": {
-      "asset": "home-cover-continuity",
-      "fit": "cover",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "launch.artwork": {
-      "asset": "launch-modern",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "empty.artwork": {
-      "asset": "launch-modern",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "home.composer.background": {
-      "asset": "composer-accent",
-      "fit": "contain",
-      "opacity": 0.18,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.18,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.18,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "composer.background": {
-      "asset": "composer-accent",
-      "fit": "contain",
-      "opacity": 0.12,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.12,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.12,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    }
-  },
+  "decoration": {},
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": null,
-      "home.wallpaper": {
-        "asset": "home-paper-light-compact",
-        "fit": "cover",
-        "opacity": 0.42,
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-light-compact",
-          "fit": "cover",
-          "opacity": 0.42,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-light-regular",
-          "fit": "cover",
-          "opacity": 0.42,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
-      }
+      },
+      "home.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.52,
+            "y": 0.56
+          }
+        }
+      },
+      "shell.wallpaper": null,
+      "launch.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     },
     "dark": {
-      "shell.wallpaper": null,
-      "home.wallpaper": {
-        "asset": "home-paper-dark-compact",
-        "fit": "cover",
-        "opacity": 0.35,
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-dark-compact",
-          "fit": "cover",
-          "opacity": 0.35,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-dark-regular",
-          "fit": "cover",
-          "opacity": 0.35,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
-      }
+      },
+      "home.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.5,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.52,
+            "y": 0.56
+          }
+        }
+      },
+      "shell.wallpaper": null,
+      "launch.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     }
   },
   "homeIdentity": {
@@ -398,43 +329,5 @@
       "mode": "default"
     }
   },
-  "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.create": {
-      "asset": "icon-create",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
-    "chrome.parameters": {
-      "asset": "icon-parameters",
-      "render": "template"
-    }
-  },
-  "iconDirections": {
-    "chrome.back": "left",
-    "chrome.send": "up-right",
-    "home.arrow": "up-right"
-  }
+  "icons": {}
 }

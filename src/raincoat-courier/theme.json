@@ -3,15 +3,16 @@
   "schemaVersion": 1,
   "id": "raincoat-courier",
   "name": "レインコート・クーリエ",
-  "version": "1.1.8",
-  "author": "Muqun",
+  "version": "1.1.9",
+  "author": "Theme contributors",
   "license": "CC-BY-4.0",
-  "description": "黄色いレインコートで雨の街を駆ける、軽快なアーバンテーマ。",
+  "description": "A silver-haired courier strides through a rainy street in a cropped yellow shell and graphite cargo skirt. Sweet-cool anime fashion meets wet cyan reflections and warm evening windows.",
   "tags": [
-    "japan",
-    "youth",
-    "illustration",
-    "raincoat-courier"
+    "anime",
+    "fashion",
+    "rain",
+    "yellow",
+    "courier"
   ],
   "preview": "preview",
   "homePresentation": {
@@ -127,305 +128,170 @@
     "actions": "solid"
   },
   "assets": {
-    "background-light": {
-      "path": "assets/background-light.png"
+    "scene-light-phone": {
+      "path": "assets/scene-light-phone.webp",
+      "sha256": "412c066e104df94a63a6343db8e21d09f5cd737dabe3e7a4ea8c0ab0d065bb32"
     },
-    "background-dark": {
-      "path": "assets/background-dark.png"
+    "scene-dark-phone": {
+      "path": "assets/scene-dark-phone.webp",
+      "sha256": "b517671d9fec8cb16361c40ac4fac5b59760f8023ce69ac84ac72d06347ed0c7"
     },
-    "hero-light": {
-      "path": "assets/hero-light.png"
+    "scene-light-pad": {
+      "path": "assets/scene-light-pad.webp",
+      "sha256": "13533ad7dd8bef93c46ea27e3d0d893948aa6a4ba90d0d1a9c4ce7e40b9e1c83"
     },
-    "hero-dark": {
-      "path": "assets/hero-dark.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
+    "scene-dark-pad": {
+      "path": "assets/scene-dark-pad.webp",
+      "sha256": "f33c9bfdd85cf91dbf25288d908f5c7fb1caeb885f8aa69582abcf075e303a8d"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "0eb085d583f162a940b98b2a1e7665bad6e3e66e459a1045403970fb34da212e"
-    },
-    "icon-create": {
-      "path": "assets/icon-create.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png"
-    },
-    "chrome-light": {
-      "path": "assets/chrome-light.png"
-    },
-    "chrome-dark": {
-      "path": "assets/chrome-dark.png"
-    },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png"
-    },
-    "composer-continuity": {
-      "path": "assets/composer-continuity.png",
-      "sha256": "307015fa2f76e712b13ef3486d05fb018a2eb6b237072425267178ca9191918d"
+      "sha256": "c6124b96d5adb48769d26f6547bdb3a2edf3db8e0c0d11c901f81f495c7175f9"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "background-light",
-        "fit": "cover",
-        "opacity": 0.16
-      },
       "home.wallpaper": {
-        "asset": "background-light",
+        "asset": "scene-light-phone",
         "fit": "cover",
-        "opacity": 0.62
-      },
-      "home.artwork": {
-        "asset": "hero-light",
-        "fit": "contain",
         "opacity": 1,
-        "compact": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1
-        }
-      },
-      "launch.artwork": {
-        "asset": "hero-light",
-        "fit": "contain"
-      },
-      "navigation.background": {
-        "asset": "chrome-light",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "composer.background": {
-        "asset": "chrome-light",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "actions.background": {
-        "asset": "chrome-light",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "empty.artwork": {
-        "asset": "hero-light",
-        "fit": "contain"
-      },
-      "home.composer.background": {
-        "asset": "composer-continuity",
-        "fit": "contain",
-        "opacity": 0.44,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "composer-continuity",
-          "fit": "contain",
-          "opacity": 0.44,
+          "asset": "scene-light-phone",
+          "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "composer-continuity",
-          "fit": "contain",
-          "opacity": 0.44,
+          "asset": "scene-light-pad",
+          "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-light-phone",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-light-phone",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-light-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
       "home.composer.decoration": null
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "background-dark",
-        "fit": "cover",
-        "opacity": 0.2
-      },
       "home.wallpaper": {
-        "asset": "background-dark",
+        "asset": "scene-dark-phone",
         "fit": "cover",
-        "opacity": 0.68
-      },
-      "home.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain",
         "opacity": 1,
-        "compact": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
-        },
-        "regular": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1
-        }
-      },
-      "launch.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain"
-      },
-      "navigation.background": {
-        "asset": "chrome-dark",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "composer.background": {
-        "asset": "chrome-dark",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "actions.background": {
-        "asset": "chrome-dark",
-        "fit": "cover",
-        "opacity": 0.55
-      },
-      "empty.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain"
-      },
-      "home.composer.background": {
-        "asset": "composer-continuity",
-        "fit": "contain",
-        "opacity": 0.58,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "composer-continuity",
-          "fit": "contain",
-          "opacity": 0.58,
+          "asset": "scene-dark-phone",
+          "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "composer-continuity",
-          "fit": "contain",
-          "opacity": 0.58,
+          "asset": "scene-dark-pad",
+          "fit": "cover",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-dark-phone",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-dark-phone",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-dark-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
       "home.composer.decoration": null
     }
   },
   "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.create": {
-      "asset": "icon-create",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
-    "chrome.parameters": {
-      "asset": "icon-parameters",
-      "render": "template"
-    }
+    "chrome.back": null,
+    "chrome.send": null,
+    "chrome.attach": null,
+    "chrome.create": null,
+    "chrome.scan": null,
+    "chrome.settings": null,
+    "chrome.parameters": null,
+    "home.arrow": null
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "雨の先へ"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "default"
+      "mode": "hidden"
     }
   },
   "effects": {
-    "ambient": "rain",
-    "intensity": 0.26,
-    "speed": 0.7,
-    "density": 0.3,
-    "size": 0.8,
-    "palette": [
-      "info",
-      "textMuted"
-    ],
-    "direction": "down-right"
-  },
-  "iconDirections": {
-    "home.arrow": "up-right"
+    "ambient": "none"
   },
   "decoration": {}
 }
