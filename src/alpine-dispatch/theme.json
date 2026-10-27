@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "alpine-dispatch",
   "name": "Alpine Dispatch",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "author": "Theme contributors",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -118,35 +118,107 @@
   "assets": {
     "scene-light-phone": {
       "path": "assets/scene-light-phone.webp",
-      "sha256": "88e726951f8909dd3613ea329f5c22c5bc454875e2dc229c541a35f540b1c004"
+      "sha256": "541ac7625a07d81191852646f5d19e295bdb6f35b153baf671b23a8c53b51b7c"
     },
     "scene-dark-phone": {
       "path": "assets/scene-dark-phone.webp",
-      "sha256": "990b8e7547cdafdb783305018e540ff69e05487c251b94bd03e007d631b2894c"
+      "sha256": "06b8ebecaf2df22083e39b24fdbc20426cef853205d4ba18c00b1ea5921adaa1"
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "9bf44d86dd9d88d99d0c44d55ca403b0fb47342e0244d5e554ed2e4c9554c098"
+      "sha256": "c99f675a075125c9f31894908d71c3b40d208369dcd69736ff4cab49cdbc34fe"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "41b87de2eb99d23430bd15463fbfba32d8a0b7f757f236ba306d20b7c8c77ab8"
+      "sha256": "a07d886ff887792afcfb74b130dbaa39fe0d21a57f3232c0c9e7e2daf0e56d12"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "62f9e452bed433e2f82bec56ba1514b7ac3006fdb1c19de1f99ddbea3c88b9d2"
+      "sha256": "53735c5892c0f55b8e1aad35ff84646ce25ab96eee8c0ad70186c087ed1b4453"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "771fdca2daf814b64dab34d22efece758c794d172fdc0e59fa0199a542467f6f"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "969ece616504cffc4efdae91554ecf58bb9fa8162df166c59f18f723a9f1488a"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "dd2435c095f8a2559b9a84a7158d63ca89fafcbc320040d1ed7dcbba24a5ceb4"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "7491a150629e68738ce4a389825debbf4f4650d105c48973f9ca4d364765809f"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "1ee84bbc94ff55fc72ffe761566c643f02d501e018d136f8c27028a29c2460ca"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "a8be1137c6d900345af39c893248ffad4a03ea388f8ee163ef3a02d15c3e9a23"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "3a8fdf202494bf1d8042340958542b6a3da1150c5caf1866095722f6acc9499c"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png",
+      "sha256": "dcc49d3e2a30ada483a89157a34eeeffa0d302e5f77d90b3070d2ec9098ec50f"
+    },
+    "hiker-light": {
+      "path": "assets/hiker-light.webp",
+      "sha256": "f197fafa3767f01f4a6455d4f36e704e2c0ab38ccbf85964ce4cfe3b34f430b9"
+    },
+    "hiker-dark": {
+      "path": "assets/hiker-dark.webp",
+      "sha256": "ba6eb23d5f2eada11e0ff6c21ba579457a623a6df0796aa7ae1a119c8d87c325"
+    },
+    "launch-hiker": {
+      "path": "assets/launch-hiker.webp",
+      "sha256": "c973ca4c1a5c78ba7db5d3747cb24367dcbbce8e17cfd7ade633b39feae59635"
     }
   },
   "decoration": {},
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "variantDecorations": {
     "light": {
@@ -177,9 +249,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "hiker-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "hiker-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "hiker-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-light-phone",
+        "asset": "launch-hiker",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -187,7 +285,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light-phone",
+          "asset": "launch-hiker",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -196,7 +294,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "launch-hiker",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -205,7 +303,48 @@
           }
         }
       },
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -236,9 +375,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "hiker-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "hiker-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "hiker-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-dark-phone",
+        "asset": "launch-hiker",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -246,7 +411,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark-phone",
+          "asset": "launch-hiker",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -255,7 +420,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "launch-hiker",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -264,7 +429,48 @@
           }
         }
       },
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 1
+        },
+        "outset": {
+          "left": 12,
+          "right": 12,
+          "bottom": 8
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 1
+          },
+          "outset": {
+            "left": 12,
+            "right": 12,
+            "bottom": 8
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
@@ -276,7 +482,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "A glacier-blue hiker adjusts his trekking strap above layered alpine peaks. Crisp outdoor fashion anime pairs daylight with moonlit scenery, framed for phone and tablet.",
@@ -294,5 +500,8 @@
   "minAppVersion": "3.0.0",
   "effects": {
     "ambient": "none"
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

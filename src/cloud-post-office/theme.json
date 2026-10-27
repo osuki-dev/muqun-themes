@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "author": "Community",
   "license": "All rights reserved",
   "variants": {
@@ -135,6 +135,46 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "1e2e7540319ac6e5bece6ba1038f8c11e627966ed30aae5ac4cace7a51b18a88"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "fef5461c29daf23ea018b0d8729e6d3c5658d10ce90a32c6fffa90b47e198eb1"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "de236cb2004e057e383a2703dc6141569817f9741d65d63b39ba619850ddf7b1"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3b07d0cf53d29970f8b5b4d383935e7c9d8dac813d3121d195ec75db76294e74"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "0ecf5454feae0fd241ba910def924e1fd1dfa794fa26f3ed6a2b2bfc79e10344"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "a66b1d5247e48e9a54a20f489d4715020a858eac89cc0dad03b2bbf3166551d1"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "6c6f1763bf237b3da02a0fd39da09998e44bedc76edbd22de137488146545951"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "cb5d0e121184f7fd1236718a055ec29c11feea5234d1abb6499160ce39a13bb0"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "652b307ab9b153e17fc4f910421e57ec0fde395b06eeb486b2be568ecd0de5bf"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "f0e45a54d18e1ddb67b241408124073b99afbd5f3ef124fee935ca44ce097bd2"
+    },
+    "empty-youth": {
+      "path": "assets/empty-youth.png",
+      "sha256": "4868208d8198ebd5dcc86737ec540312a7056a2becfb27490c760a1a2d8de624"
     }
   },
   "decoration": {
@@ -192,7 +232,11 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty-youth",
+      "fit": "contain",
+      "opacity": 0.85
+    },
     "home.composer.background": null,
     "home.composer.decoration": null
   },
@@ -253,7 +297,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -312,7 +397,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
@@ -340,13 +466,41 @@
   ],
   "preview": "preview",
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
   }
 }

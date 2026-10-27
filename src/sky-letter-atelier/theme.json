@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sky-letter-atelier",
   "name": "Sky Letter Atelier",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -139,6 +139,70 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "31867301acdf92c3e8ea5dfc065addf7adeaf864e2f34eeae55789076ab8f544"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "03ad7f0fc4fa4f4e13fae447d80b5d695051f294c5d5da316f9d74a03a092940"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "089ca9c29fc2dbe21c4adc1c56ba6ace253cd0855f1d2f2ef82d349e2a2e4af4"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "f176267c6514d97d4f834d3ef33c7a494c6e3b725c9f7441298fede9e979ea5f"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "674c361857f751bd616bf6a98dbab64974b7990b2293e7c7514bbbed322d0490"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "e12cfa6c2f23f828ad08b2d2419fe4fa98dbdfb5145ab82a2a81c0a9ec409e69"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "cacd7ad24e3b2dfd22e2fd2104fa2de811ca74c8ee6b9f665d6a5cc55725eec2"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6703f2cf1e60900a1d6933b0650a8b2c05eef64541ce39a00e7741c018810153"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "3dce2a200e234c7ab60740f026e98646fda2ebe0adfbf95e0f59a71145fe177f"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "ccd38a594fe49239eec5d5f8991489229bc125cefdf6c8e36017f8831ec7ac44"
+    },
+    "navigation": {
+      "path": "assets/navigation.png",
+      "sha256": "5c93949f03e178a2906a7bcd2cc95d3327e4aae6b2727ba21b9032ac7a18d9c9"
+    },
+    "composer": {
+      "path": "assets/composer.png",
+      "sha256": "292ffdce7832df3b9e1ea4e6614c7b55ee7acb2e15389d5ce0c857c5f3aba4b6"
+    },
+    "actions": {
+      "path": "assets/actions.png",
+      "sha256": "1b87b212346c60ce638ac180052aebf2b1ea5b73ed825c8ec19c9f1683f54ab3"
+    },
+    "cards": {
+      "path": "assets/cards.png",
+      "sha256": "7cf6c180f977d782db01e6a52217827fc092a2a7b33eff8f162bed6af77db085"
+    },
+    "button": {
+      "path": "assets/button.png",
+      "sha256": "548e9908338005eba2b57c63c7d9a7d3ecd563702181d4d50551c22b43a8eefc"
+    },
+    "tabs": {
+      "path": "assets/tabs.png",
+      "sha256": "100ec97b0438723d13c9ab41e4a6aaf7109bbaa52b308c24f44d58c7f91ed8ad"
+    },
+    "home-composer-accent": {
+      "path": "assets/home-composer-accent.png",
+      "sha256": "addea5f0449f31cf8f27c3761d103792b5fde70f588a8aead0d10a34b7bc0cac"
     }
   },
   "decoration": {
@@ -196,19 +260,231 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty",
+      "fit": "contain",
+      "opacity": 0.9,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 0.9,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 0.9,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
     "home.composer.background": null,
-    "home.composer.decoration": null
+    "home.composer.decoration": null,
+    "navigation.background": {
+      "asset": "navigation",
+      "fit": "cover",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "navigation",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "navigation",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "composer.background": {
+      "asset": "composer",
+      "fit": "cover",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "composer",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "composer",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "actions",
+      "fit": "cover",
+      "opacity": 0.1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "actions",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "actions",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "cards.decoration": {
+      "asset": "cards",
+      "fit": "cover",
+      "opacity": 0.1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "cards",
+        "fit": "cover",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "buttons.primary.background": {
+      "asset": "button",
+      "fit": "cover",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "button",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "button",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "tabs.background": {
+      "asset": "tabs",
+      "fit": "cover",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "tabs",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "variantDecorations": {
     "light": {
@@ -267,7 +543,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "home-composer-accent",
+        "fit": "contain",
+        "opacity": 0.58,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.58,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -326,7 +643,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "home-composer-accent",
+        "fit": "contain",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "home-composer-accent",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
@@ -352,5 +710,10 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "right",
+    "chrome.back": "left",
+    "chrome.send": "up-right"
   }
 }

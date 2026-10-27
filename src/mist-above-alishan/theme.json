@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mist-above-alishan",
   "name": "Mist above Alishan",
-  "version": "1.1.10",
+  "version": "1.1.12",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "Two travelers share tea on a mountain rail platform, surrounded by misty green ridges and a red heritage train. Fresh illustrated shapes and sage clothing connect daylight and warm evening scenes.",
@@ -123,23 +123,59 @@
   "assets": {
     "scene-light-phone": {
       "path": "assets/scene-light-phone.webp",
-      "sha256": "8667947e2575413598fadf64411072839038ad58b809da24a7910dcf671cb356"
+      "sha256": "ba990d37574add6b00510c1fd43b9c193f312e682b76d21f27e1b621128a9cba"
     },
     "scene-dark-phone": {
       "path": "assets/scene-dark-phone.webp",
-      "sha256": "e0bc075a93811348be2e00d93a714c17d9abdd5f561cc9524eee392df48b4e24"
+      "sha256": "d3d5885d04db7aeb88080ad3c455aaaa0ce7e8faf7662d0e28112377c9197702"
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "0e57ebfe67002f44caf6cdf0faac12f0611dc76990a37ec30cc5246976561146"
+      "sha256": "b409e4a746e17e211bfad523f8563f607eda99940debb385460fb20401a2d3ee"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "51e17745e03dd3a305672b54280fc292d81777c70b6004aab8a43a4faccc7abe"
+      "sha256": "bce3eaaa3556e374383c772aad0eeb7853557fd431f9377f01540cc156bee71e"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "1f4ab51b9bc7ea1a1ec64680c759a893913baa30c0a8dc73e90f68994361b479"
+      "sha256": "f3181d8676d363411c990e1e3b88bd869d3816c02af00b528607f01ab5ae707e"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "32b98f466fcf5226ef267dd0f321b67d2b361b48ca9d651fe93ddd7fc67a07aa"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "361234cbfa15c97bad9cdd57929d622ed00906e31c71407e5303b751fa0a9b85"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "c14b264cc81ea6dab40193a9f4110131c646a9b464a3556a181edd78c790cb25"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "d203d20b0c70db2f5f23e275b9ab6e799591b3047e94ce77351c9151aba27399"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "a4e5e88a1cea573c558eceb4225128685b9ffdc316301d6b21fa7d2ba5622192"
+    },
+    "composer-accent": {
+      "path": "assets/composer-accent.png",
+      "sha256": "35ef03c905d2bcdcbcbc7f19ce44399d8059024b8ffb3b7f36ddf660caffda8f"
+    },
+    "friends-light": {
+      "path": "assets/friends-light.webp",
+      "sha256": "b9633484e48ca3e5d176d50ed07fd39b5d169aa9aa5e4cf9a28a9ecc25c76ac9"
+    },
+    "friends-dark": {
+      "path": "assets/friends-dark.webp",
+      "sha256": "91a8d73599e8575edd77fd1b14c497d667c7882a6e951f79aa47696e9ef2323b"
+    },
+    "launch-friends": {
+      "path": "assets/launch-friends.webp",
+      "sha256": "2b06732a961834245e5b44773f18e8fee951a309b21846371655265d603e80ba"
     }
   },
   "decoration": {},
@@ -151,18 +187,33 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "icons": {
-    "chrome.back": null,
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
     "chrome.send": null,
     "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
     "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "homePresentation": {
     "header": "cover",
@@ -197,9 +248,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "friends-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "friends-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "friends-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-light-phone",
+        "asset": "launch-friends",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -207,7 +284,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light-phone",
+          "asset": "launch-friends",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -216,7 +293,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "launch-friends",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -225,7 +302,33 @@
           }
         }
       },
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -256,9 +359,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "friends-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "friends-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "friends-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-dark-phone",
+        "asset": "launch-friends",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -266,7 +395,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark-phone",
+          "asset": "launch-friends",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -275,7 +404,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "launch-friends",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -284,11 +413,40 @@
           }
         }
       },
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
   "effects": {
     "ambient": "none"
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

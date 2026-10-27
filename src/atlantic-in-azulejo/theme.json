@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlantic-in-azulejo",
   "name": "Atlantic in Azulejo",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -160,14 +160,151 @@
     "preview": {
       "path": "assets/gallery-cover.png",
       "sha256": "0bdebdf2397d51148e614b6731c03d67a092aeb57c98f720d369f5a0434ff2e0"
+    },
+    "layer-hero": {
+      "path": "assets/layer-hero.png",
+      "sha256": "4296a2240fe84286efb7b715d67a1bab18cb875da9ed95dd1c2c54ae9ae2af45"
+    },
+    "layer-environment": {
+      "path": "assets/layer-environment.png",
+      "sha256": "826345137f8c5e2547314a35b15963542fe1ae36e2ed63465c01ad4499e2c5d3"
+    },
+    "layer-environment-dark": {
+      "path": "assets/layer-environment-dark.png",
+      "sha256": "b07084544ee5ce5101065d84975b474d6d0f9f49438068df951f0c64e557533f"
+    },
+    "layer-empty": {
+      "path": "assets/layer-empty.png",
+      "sha256": "55cf1a40a8419371259b2a5da72002f789c82aa57806cefe2296ba884eaef772"
+    },
+    "edge": {
+      "path": "assets/edge.png"
+    },
+    "composer-corners": {
+      "path": "assets/composer-corners.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
     }
   },
   "decoration": {
-    "home.artwork": null,
-    "home.composer.background": null,
+    "home.artwork": {
+      "asset": "layer-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": {
+      "asset": "composer-corners",
+      "fit": "contain",
+      "opacity": 0.26,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
     "home.composer.decoration": null,
     "launch.artwork": {
       "asset": "scene-compact-light",
+      "fit": "contain",
+      "opacity": 1
+    },
+    "navigation.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.14
+    },
+    "composer.background": {
+      "asset": "composer-corners",
+      "fit": "contain",
+      "opacity": 0.14,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.14,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "cards.decoration": {
+      "asset": "tile",
+      "fit": "contain",
+      "opacity": 0.13
+    },
+    "buttons.primary.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.08
+    },
+    "tabs.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "empty.artwork": {
+      "asset": "layer-empty",
       "fit": "contain",
       "opacity": 1
     }
@@ -209,71 +346,190 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-compact-light",
+        "asset": "layer-environment",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.4
         },
         "compact": {
-          "asset": "scene-compact-light",
+          "asset": "layer-environment",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "layer-environment",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.45,
           "focalPoint": {
             "x": 0.5,
             "y": 0.4
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.artwork": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-corners",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corners",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-light",
+        "fit": "contain",
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "scene-compact-dark",
+        "asset": "layer-environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.4
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "layer-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "layer-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.45,
           "focalPoint": {
             "x": 0.5,
             "y": 0.4
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
+      "home.artwork": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-corners",
+        "fit": "contain",
+        "opacity": 0.26,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-corners",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corners",
+          "fit": "contain",
+          "opacity": 0.26,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "home.composer.decoration": null,
       "launch.artwork": {
         "asset": "scene-compact-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
@@ -285,7 +541,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "Three skate friends share a laughing plaza break in bold Western comic ink, cobalt tiles and tomato-red sportswear, with bright daytime and warm night scenes.",
@@ -300,7 +556,7 @@
     "night"
   ],
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "iconDirections": {

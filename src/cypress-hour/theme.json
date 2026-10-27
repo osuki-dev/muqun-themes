@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cypress-hour",
   "name": "Cypress Hour",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -160,16 +160,135 @@
     "preview": {
       "path": "assets/gallery-cover.png",
       "sha256": "d7eaef377962854dec35208abc5a7c6299eb6ee07ff638c49ee11b53e7778464"
+    },
+    "c-hero": {
+      "path": "assets/c-hero.png",
+      "sha256": "c0f4ef4f2fec195c5644b8955e42b6e59497842c734663f3723f238a1d8df69a"
+    },
+    "c-env": {
+      "path": "assets/c-env.png",
+      "sha256": "5590496bef2bd45f6853dea8247068547a8981855029b399e8c70e11bb06c0d1"
+    },
+    "c-env-dark": {
+      "path": "assets/c-env-dark.png",
+      "sha256": "1cdeddec81575acb8d491cd097a6f247e5e51f2cb2f8de6e5723fdbda9c90ef5"
+    },
+    "c-empty": {
+      "path": "assets/c-empty.png",
+      "sha256": "2af62dd52869477a083abd2a8003bc0dc3cf42075a8f53a179305ab78459d958"
+    },
+    "edge": {
+      "path": "assets/edge.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
+    },
+    "composer-accent": {
+      "path": "assets/composer-accent.png"
+    },
+    "composer-compact": {
+      "path": "assets/composer-compact.png",
+      "sha256": "216f3316bb8ed865921aeaa9dcc372028c53a2281883f4bd21d149adf8569ea7"
+    },
+    "composer-regular": {
+      "path": "assets/composer-regular.png",
+      "sha256": "0827bf117b3424da89f4da077c335b378579f61025b78d4bf63e08a264cb2137"
     }
   },
   "decoration": {
-    "home.artwork": null,
-    "home.composer.background": null,
+    "home.artwork": {
+      "asset": "c-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "regular": null
+    },
+    "home.composer.background": {
+      "asset": "composer-compact",
+      "fit": "contain",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "regular": {
+        "asset": "composer-regular",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
     "home.composer.decoration": null,
     "launch.artwork": {
       "asset": "scene-compact-light",
       "fit": "contain",
       "opacity": 1
+    },
+    "navigation.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.14
+    },
+    "composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "cards.decoration": {
+      "asset": "tile",
+      "fit": "contain",
+      "opacity": 0.13
+    },
+    "buttons.primary.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.08
+    },
+    "tabs.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "empty.artwork": {
+      "asset": "c-empty",
+      "fit": "contain",
+      "opacity": 0.85
     }
   },
   "icons": {
@@ -209,21 +328,12 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-compact-light",
+        "asset": "c-env",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.4,
         "focalPoint": {
           "x": 0.5,
           "y": 0.35
-        },
-        "compact": {
-          "asset": "scene-compact-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.35
-          }
         },
         "regular": {
           "asset": "scene-regular-light",
@@ -235,27 +345,36 @@
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
-    },
-    "dark": {
-      "home.wallpaper": {
-        "asset": "scene-compact-dark",
-        "fit": "cover",
+      "home.artwork": {
+        "asset": "c-hero",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.5
         },
-        "compact": {
-          "asset": "scene-compact-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.35
-          }
+        "regular": null
+      },
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-light",
+        "fit": "contain",
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
+    },
+    "dark": {
+      "home.wallpaper": {
+        "asset": "c-env-dark",
+        "fit": "cover",
+        "opacity": 0.4,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.35
         },
         "regular": {
           "asset": "scene-regular-dark",
@@ -267,13 +386,26 @@
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
+      "home.artwork": {
+        "asset": "c-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "regular": null
+      },
       "home.composer.decoration": null,
       "launch.artwork": {
         "asset": "scene-compact-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
@@ -285,7 +417,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "A sunlit olive-garden fashion moment in natural ivory, olive and bronze, with an original adult model and matching blue-hour terrace photography.",
@@ -298,7 +430,7 @@
     "terrace"
   ],
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "iconDirections": {

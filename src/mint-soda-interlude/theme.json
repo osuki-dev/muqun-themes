@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mint-soda-interlude",
   "name": "Mint Soda Interlude",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -139,6 +139,86 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "f0ed4e4d9291b12a0e07c37628315782b7a0ee645510c85a46da14e208d24ffe"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "cafc966d88e4981d3c55303c1061331c34cfbaba5c15b8fdedbc4db1a60acbb5"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "1b724a3a69240c1c9c5dc494eb980cbe6032d3bf24367de67f6d3dd3496ef775"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "092903f0008c3160e35994f4dd62d61b9d80724e684d48201c6a5b88d906327a"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "05bcd1cb63f26611c29673832e422caf8efd83a59de0f8689f03223bc9f1c604"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "0fc7a6f64f5e5db3f386585dcebe9e8e0e6f1b7758a3916dc2b8ce74ceda9d9f"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "b79371bd6f20e0aebfdeadabee963c31d318bcd7a1ea33734fcee932ae19f7e5"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "c6a9bff68dd0308a863fefb554f29c393f1dc05cb94eea64c689d3176a86a825"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "43f6c28fb0d985ef9284d9f5e8b987adc4e78c9a44d0d7684312461c6cf73398"
+    },
+    "rail-light": {
+      "path": "assets/rail-light.png",
+      "sha256": "2647cf9166c028e9fb937b20b4faa7b0ca66cbdbd124b0caee6d27356762b2de"
+    },
+    "stationery-light": {
+      "path": "assets/stationery-light.png",
+      "sha256": "8bb928e5f909de1475168ced06bbc72057df7d4479fe2a36f0e89b938211a574"
+    },
+    "card-light": {
+      "path": "assets/card-light.png",
+      "sha256": "c12e461cc9f6559a112fbcbcfed6634b76a78ec7a61749ffd8daab658f04db8c"
+    },
+    "button-light": {
+      "path": "assets/button-light.png",
+      "sha256": "eaf53e367a65adc9a75274428d542c1dc3cc4cc91c0c3b5c910cef9719c705e1"
+    },
+    "empty": {
+      "path": "assets/empty.png",
+      "sha256": "3ae9dc83f397d0c3f9d17ec0f88261bd141397f0ca2929be305dd22bf7f2d4bc"
+    },
+    "composer-accent-compact": {
+      "path": "assets/composer-accent-compact.png",
+      "sha256": "fda087321ae1fe639b2ea3eb2a42eb40df9d3ffd4686e36f936037dabfc8852d"
+    },
+    "composer-accent-regular": {
+      "path": "assets/composer-accent-regular.png",
+      "sha256": "2fe02f417e7369713193eb582e691013b41020902057c9cc782b0523b2e3296f"
+    },
+    "composer-overhang": {
+      "path": "assets/composer-overhang.png",
+      "sha256": "ee0b08b20c24cf2383658af5dfb36139830d037668f6c0299d6c750aa0d60f04"
+    },
+    "rail-dark": {
+      "path": "assets/rail-dark.png",
+      "sha256": "6517ef46434667dedffca1b61375b3b6331cf830dd13d3e1b1151fe202e81c4a"
+    },
+    "stationery-dark": {
+      "path": "assets/stationery-dark.png",
+      "sha256": "88dc92cab9bec6a1a4fafb835dba05ff02387b7bac9846e7e600e3029c3f361b"
+    },
+    "card-dark": {
+      "path": "assets/card-dark.png",
+      "sha256": "0522def51525e1dedd1ee5f71f5ee60e13692b5f37de7cd49f8edb7cdb964118"
+    },
+    "button-dark": {
+      "path": "assets/button-dark.png",
+      "sha256": "ce802590fb1613aeaa030ce07dec1d0599f4580314a1838b3009b9d5ce0babd7"
     }
   },
   "decoration": {
@@ -201,14 +281,38 @@
     "home.composer.decoration": null
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "variantDecorations": {
     "light": {
@@ -267,8 +371,110 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
+      },
+      "navigation.background": {
+        "asset": "rail-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "actions.background": {
+        "asset": "rail-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "composer.background": {
+        "asset": "stationery-light",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "tabs.background": {
+        "asset": "stationery-light",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "cards.decoration": {
+        "asset": "card-light",
+        "fit": "cover",
+        "opacity": 0.15
+      },
+      "buttons.primary.background": {
+        "asset": "button-light",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      }
     },
     "dark": {
       "home.artwork": {
@@ -326,8 +532,110 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.background": {
+        "asset": "composer-accent-compact",
+        "fit": "contain",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-accent-compact",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent-regular",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": {
+        "asset": "composer-overhang",
+        "fit": "contain",
+        "opacity": 0.85,
+        "focalPoint": {
+          "x": 1,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-overhang",
+          "fit": "contain",
+          "opacity": 0.85,
+          "focalPoint": {
+            "x": 1,
+            "y": 0
+          }
+        }
+      },
+      "navigation.background": {
+        "asset": "rail-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "actions.background": {
+        "asset": "rail-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "composer.background": {
+        "asset": "stationery-dark",
+        "fit": "cover",
+        "opacity": 0.13
+      },
+      "tabs.background": {
+        "asset": "stationery-dark",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "cards.decoration": {
+        "asset": "card-dark",
+        "fit": "cover",
+        "opacity": 0.15
+      },
+      "buttons.primary.background": {
+        "asset": "button-dark",
+        "fit": "cover",
+        "opacity": 0.12
+      },
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1
+      }
     }
   },
   "homeIdentity": {
@@ -351,5 +659,10 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "right",
+    "chrome.back": "left",
+    "chrome.send": "right"
   }
 }

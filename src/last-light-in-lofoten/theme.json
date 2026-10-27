@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "A quiet thermos break on a rocky Lofoten shore, captured in cinematic outdoor photography. Burgundy fleece and cream wool meet steel-blue water, sunset and cabin-lit evening.",
@@ -123,23 +123,55 @@
   "assets": {
     "scene-light-phone": {
       "path": "assets/scene-light-phone.webp",
-      "sha256": "096722a81fe1a89a42710d3983dfd5aeeef1f5d04828778ba2ad16a6045078e8"
+      "sha256": "31d334d26746b2541b1218922c7321852583d917e25824b19ff0a03f0a447d61"
     },
     "scene-dark-phone": {
       "path": "assets/scene-dark-phone.webp",
-      "sha256": "501a81ecd247d5ee3a1c5c5b72b2cf4ee2f25d480dcbd15184949eb79c7bed43"
+      "sha256": "5f5f094f3db5e237a7a6650869acc05e03f99c2168977e37f476a79308f1cfb9"
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "ebce95fb164e62fd0f31f44cd1ea51774a12c8523b031201138585f77150deea"
+      "sha256": "929eb15349b75b083dde28dd34d1874668cef12981c9474b702339f45b5dfdb8"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "e9c4bdf73f4f736712051a26eaa8e2a147afa63b71480fe26fcb7b19da7a6695"
+      "sha256": "7090200e01150c4f87762dd20fb426c1c4b25380ecaa29b9d37db0ac59365aec"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "28f2e8e2510e363a05bb318a39ff98aa54ce3feeea064dc2a2c2f51638a909d0"
+      "sha256": "a1621aaefbd09801906da59e8c598aab9c62c76e43d11be266a75c3c47fcdfa6"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "60e333bdc1ab953be9f2fdcdbd52f16d08b6b034dbc25762e5dfbfc794f8aa76"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8a60c1a7812cbfd8785796366dbc3dfad8f7773eb895b7fce9c780a7392e528c"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "361234cbfa15c97bad9cdd57929d622ed00906e31c71407e5303b751fa0a9b85"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "7762552ebcc83a95a480a60f44799a547653b2d620c0c45d384384f5add2cde4"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "d203d20b0c70db2f5f23e275b9ab6e799591b3047e94ce77351c9151aba27399"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "ae65a283af1db51ce58a6f8a580810ac82edcd76ebb0ed9f8a1a445475cdfd20"
+    },
+    "foreground-light": {
+      "path": "assets/foreground-light.webp",
+      "sha256": "bca0725d2895039c919717d8389d54ee6b83dd16aed7324412be4fd4a6e8c2c8"
+    },
+    "foreground-dark": {
+      "path": "assets/foreground-dark.webp",
+      "sha256": "bc1b38fda16c84fd903b112a463852d45f9d9b48001338fa1782feb4055ff50a"
     }
   },
   "decoration": {},
@@ -151,18 +183,36 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "icons": {
-    "chrome.back": null,
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
     "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
     "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "homePresentation": {
     "header": "cover",
@@ -197,9 +247,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "foreground-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "foreground-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-light-phone",
+        "asset": "foreground-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -207,7 +283,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light-phone",
+          "asset": "foreground-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -216,7 +292,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "foreground-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -256,9 +332,35 @@
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "foreground-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "foreground-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "foreground-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
       "launch.artwork": {
-        "asset": "scene-dark-phone",
+        "asset": "foreground-dark",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -266,7 +368,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark-phone",
+          "asset": "foreground-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -275,7 +377,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "foreground-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -290,5 +392,8 @@
   },
   "effects": {
     "ambient": "none"
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "urban-sentinel",
   "name": "Urban Sentinel",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Community",
   "license": "CC0-1.0",
   "description": "An androgynous model strides across a rooftop in sage cargo trousers, a cropped black jacket and citron sling bag. Restrained technical-fashion photography.",
@@ -170,6 +170,50 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "8091dafded6aa25d4311dd76b46654408191dcb0461410107dd83f44911a4f46"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "b7690b91074982ffd44f3033da69cca628264b4bfaf3b3cbc4ac01f403a6f50b"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "aa6642b599d2310a281ca216e6af3fe49513411b2c054390619a7ebce8f4b0ec"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "d3cb3eb0bed22ac23c360e6198c2642817ea085373017098ae4bbe579f10ca32"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "5681887031e9f2543fc3f150ca4343480c7e2b517c87292ff6d383abe1713932"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "06e0e77c60406d29181abdfe71d4df244c3710b3421c8c1a62d02274e19dc1ac"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "0e3d8426f7e441997fd1973d5f2e1eab24f303260d208f9b18d11b0989aa3f62"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "55d1539e2ca4ce8e9eb5b31b497470b64ad47931b595c5f98409e94fbe5ae4f1"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4075e5c5e8ca44f51f5c3ae5f707c4c38e15e1d9eebfdbced9a39f61a73628e3"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png",
+      "sha256": "097fbd5b7aef5e6963bf7fb26db7467e59c86896787fd0d2cef319b08e62d31e"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png",
+      "sha256": "7fd0c0eee1058e3d13cc14ec6c64311af37b71fb5e773013b7b04655583af75b"
+    },
+    "empty-youth": {
+      "path": "assets/empty-youth.png",
+      "sha256": "b701c54ca816cba5b81b92019eed566be7f6a98be812dbf1f5dc77eb8bb88bc5"
     }
   },
   "decoration": {
@@ -227,7 +271,11 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty-youth",
+      "fit": "contain",
+      "opacity": 0.85
+    },
     "home.composer.background": null,
     "home.composer.decoration": null
   },
@@ -289,7 +337,22 @@
       },
       "shell.wallpaper": null,
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      }
     },
     "dark": {
       "home.artwork": {
@@ -348,7 +411,22 @@
       },
       "shell.wallpaper": null,
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      }
     }
   },
   "homeIdentity": {
@@ -367,13 +445,40 @@
     "toolbarBackground": true
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

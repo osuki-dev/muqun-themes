@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "tidal-observatory",
   "name": "Tidal Observatory",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -139,6 +139,46 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "5d653eeb18ac117c0614163e3b398fbaa8ff5e11c295d4c4222078a8e87be69a"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "80a64d676c4e25c2eb211f307da0d125686804c7da31bb138ea02b631493047c"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "e2141a5fb76164d4862be3aaaa0b75e58ac81a905e72150df17d5396cb7cd70a"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "613edb1dce86f91186ea6cc801208a63406b855cbeec9a821c372f4ad1ebdac0"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "42d6cfc005537b088c91f6b913afdadc66cb84160d52e1e5260aab8c9a5e5d2e"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "17ccaa5ea972fa5cb90d15989d2b41fe8587a1de8fb4ba3835ee0cf5ed657afb"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "0b90a4f72e5fc9d119bb0cac2cea9c0ad160d8cfcb47b02a175b13301e7a1782"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "f2fa871bb514a15e4cec7a1939ad5cdf19241358599eaaf07c03ea497e7aa785"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "39a058e50e9a5117926d79a39d882bd23b6f59f5c1e72d0b3e91ec1623222208"
+    },
+    "composer-corner-continuity": {
+      "path": "assets/composer-corner-continuity.png",
+      "sha256": "28b4ce718f5363583197393d48a14bab9083f65fb6ecf746b6e316ec266428cf"
+    },
+    "empty-youth": {
+      "path": "assets/empty-youth.png",
+      "sha256": "03f2f7d05b0419fee130c67733dc90e74c9d2937ccf9764c2f8d1a73529bb287"
     }
   },
   "decoration": {
@@ -196,19 +236,47 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty-youth",
+      "fit": "contain",
+      "opacity": 0.85
+    },
     "home.composer.background": null,
     "home.composer.decoration": null
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "variantDecorations": {
     "light": {
@@ -267,7 +335,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.24,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.24,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -326,7 +435,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-corner-continuity",
+        "fit": "contain",
+        "opacity": 0.3,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-corner-continuity",
+          "fit": "contain",
+          "opacity": 0.3,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
@@ -365,5 +515,8 @@
     ],
     "direction": "up"
   },
-  "minAppVersion": "3.0.0"
+  "minAppVersion": "3.0.0",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

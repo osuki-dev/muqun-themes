@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "vanguard-drifter",
   "name": "Vanguard Drifter",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Community",
   "license": "CC0-1.0",
   "description": "A copper-curled skater adjusts a board beside a violet concrete ledge. Angular Western streetwear comic art in violet, slate and orange.",
@@ -170,6 +170,50 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "365f584a18d7fcc106587f522818989204fbc4419ff4678f1ec5fa0f7afff552"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "8b1c2be5d2b7b68ebe17b2e4e53027cf20a524a9c614967c45975811beb5dbe9"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "a526ce3da4de35683229952711d0e5278150bdcea346e6c43c444bbb74dc9c6f"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "fc9aa3fa9a0739feb73accdd7e03fac18ea4ee210b09fd08a6fbd5cd191fb47a"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "8e9d8ea732496c896cbf29c74b90dc1493437c903d242cb68d2f428dc8f56afe"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "2513be4e323e87cef33fda76d323124eaa7d07eeb48f9ac28b507ddfb3f0b951"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "74c6168b207ae92280946ce4fe15e3136c12d1508da7fc35a514e3130ddab7e6"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "7894f61dc00f7bc076b8c4a4654a62e7679e2284f50b77fa1562f7c3215d60c9"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "dd4e802adbfce7e3609acfce0d1ed38d70f28cd034a57a89eb8c390913602428"
+    },
+    "chrome-light": {
+      "path": "assets/chrome-light.png",
+      "sha256": "8cd92e38fdc62bba249213a4416921c7777ef150255e0e541636f727565a5054"
+    },
+    "chrome-dark": {
+      "path": "assets/chrome-dark.png",
+      "sha256": "f88c5957acde88b164890af0410b60aa0a8c0882abf4678faf17f629267faff2"
+    },
+    "empty-youth": {
+      "path": "assets/empty-youth.png",
+      "sha256": "da74dba7c57594ae198ce08cb0a33387d498e9de2d6d4a936dd479ab7aac663a"
     }
   },
   "decoration": {
@@ -227,7 +271,11 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty-youth",
+      "fit": "contain",
+      "opacity": 0.85
+    },
     "home.composer.background": null,
     "home.composer.decoration": null
   },
@@ -289,7 +337,22 @@
       },
       "shell.wallpaper": null,
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "navigation.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-light",
+        "fit": "cover",
+        "opacity": 0.55
+      }
     },
     "dark": {
       "home.artwork": {
@@ -348,7 +411,22 @@
       },
       "shell.wallpaper": null,
       "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.decoration": null,
+      "navigation.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "composer.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      },
+      "actions.background": {
+        "asset": "chrome-dark",
+        "fit": "cover",
+        "opacity": 0.55
+      }
     }
   },
   "homeIdentity": {
@@ -367,13 +445,40 @@
     "toolbarBackground": true
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

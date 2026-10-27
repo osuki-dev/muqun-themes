@@ -1,3 +1,3 @@
 # Rights
 
-Unofficial fan art. Underlying Portal rights remain with Valve Corporation. No rights to the underlying franchise are granted. Original generated theme artwork; no official endorsement.
+All rights reserved. Original theme artwork and geometric control glyphs created for this collection. See CREDITS.md for asset provenance. No franchise artwork or third-party icon assets are included in version 1.1.10.

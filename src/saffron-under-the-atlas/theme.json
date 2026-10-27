@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "saffron-under-the-atlas",
   "name": "Saffron under the Atlas",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "author": "Independent Artists",
   "license": "All rights reserved",
   "homePresentation": {
@@ -126,95 +126,390 @@
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "cc909cd4416941fc327d9df2399815a5f8b0fd9110c87b5f25900aefa7f47356"
+      "sha256": "d5b7b3fd03ee02db3817553436d0f32890a122d661e280238bc10f8f08471d81"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "cba7d3c74569bad6c1ed7c9359b36795ac6d6e16185af818fb5bfc7e3eb73924"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "6c9355536bc2361a699343755e21565ab565a0a52b8d2d5bcb7fcacb1a317e93"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "ccaf9badac536307c32a9a16e39a2ca088f06715dc468f520185065b2df8afba"
+    },
+    "native-create": {
+      "path": "assets/native-create.png",
+      "sha256": "f41cd3b34aac6b12fa0534bec979fe97e4dd6bc312a0b778d46e8980d4ba7d1f"
+    },
+    "native-scan": {
+      "path": "assets/native-scan.png",
+      "sha256": "8458c116a7ec30e8a78ea953afafae0fe19281d124ded9f1d8540bf48d5bebb8"
+    },
+    "native-settings": {
+      "path": "assets/native-settings.png",
+      "sha256": "1d0a9f1f71f7931834a308920b58dd573e2c922d4cd5122285a8381ccac1d440"
+    },
+    "native-arrow": {
+      "path": "assets/native-arrow.png",
+      "sha256": "82753310784d75307aacb8f4add63cb10e2c7d4f282ff5fb8e36620fa19d205d"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "1fdb83f2a2bd6ce3d475bdfeef41e258983684faeb3e16b3ac24ee3d46cbf8b8"
+    },
+    "composer-continuity": {
+      "path": "assets/composer-continuity.png",
+      "sha256": "da86416d55b77a04b47ab475a36d6d80c8d187543fc6d376a66727d6343f2b29"
+    },
+    "figure": {
+      "path": "assets/figure.webp",
+      "sha256": "16e788e3db55b336002eaae5facca13ad988806a9720af50e8b149859b7e217f"
+    },
+    "empty": {
+      "path": "assets/empty.webp",
+      "sha256": "57c2d357446d9f422cae6d53e0d82d6431614c0ba0a6ad80363cd5d91a05d28e"
+    },
+    "environment-light": {
+      "path": "assets/environment-light.webp",
+      "sha256": "e26d1d08cb65af2a5dfbf48259f2a14e034363867d8aadedd3c0a54f47f60401"
+    },
+    "environment-dark": {
+      "path": "assets/environment-dark.webp",
+      "sha256": "8ae90f0d27270ed30d9acc2be6f9519b9467c752faed0ae3e6148fd061d57c76"
     }
   },
   "decoration": {},
-  "icons": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "native-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "native-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "native-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "native-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-light",
+        "asset": "environment-light",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.35,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.3
+          "y": 0.5
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.3
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "scene-light",
+          "asset": "environment-light",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.35,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.24
+            "y": 0.5
           }
         }
       },
-      "home.artwork": null,
-      "shell.wallpaper": null,
+      "home.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-light",
+        "fit": "cover",
+        "opacity": 0.35,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.35,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "scene-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.3
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "scene-dark",
+        "asset": "environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.28,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.3
+          "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.28,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.3
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "scene-dark",
+          "asset": "environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.28,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.24
+            "y": 0.5
           }
         }
       },
-      "home.artwork": null,
-      "shell.wallpaper": null,
+      "home.artwork": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "figure",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "shell.wallpaper": {
+        "asset": "environment-dark",
+        "fit": "cover",
+        "opacity": 0.28,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.28,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "environment-dark",
+          "fit": "cover",
+          "opacity": 0.28,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "scene-dark",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.3
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       },
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.composer.background": {
+        "asset": "composer-continuity",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "composer-continuity",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "empty.artwork": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -225,7 +520,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "Two friends in saffron and cobalt linen talk over mint tea in a clay courtyard. Candid fashion photography pairs dappled sun with intimate lantern light.",
@@ -236,5 +531,8 @@
     "courtyard",
     "friends"
   ],
-  "preview": "preview"
+  "preview": "preview",
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

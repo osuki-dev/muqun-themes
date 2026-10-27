@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -160,14 +160,159 @@
     "preview": {
       "path": "assets/gallery-cover.png",
       "sha256": "2b6aa5a761f78013e4f1700ffaf45beb7a30240a955747b4b1ce0ccc56007373"
+    },
+    "layer-hero": {
+      "path": "assets/layer-hero.png",
+      "sha256": "df744ea4e878f7d9c0f3495c3a5d3efbc4a4fc05b5e9d5a275c0c79d8bc350dc"
+    },
+    "layer-environment": {
+      "path": "assets/layer-environment.png",
+      "sha256": "6fc35c5c2f9ef39712d0b3e67257014cc96a2ab572d0af8a301c0bffde7c40d3"
+    },
+    "layer-environment-dark": {
+      "path": "assets/layer-environment-dark.png",
+      "sha256": "10be125dac544a3e5b7967de0861272818b4278f3354b3cf58448ffc333c6db1"
+    },
+    "layer-empty": {
+      "path": "assets/layer-empty.png",
+      "sha256": "5d72bf1524b8d2c25ef42b22abdbbe3e2f45e96b090576b9f071f1dde3abf169"
+    },
+    "edge": {
+      "path": "assets/edge.png"
+    },
+    "composer-accent": {
+      "path": "assets/composer-accent.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
+    },
+    "composer-compact": {
+      "path": "assets/composer-compact.png",
+      "sha256": "2fa09f934b586f7c1c498519becf4d72bc9abe6dbb555881157ca10363df5317"
+    },
+    "composer-regular": {
+      "path": "assets/composer-regular.png",
+      "sha256": "ccbccca607ca312bfa2709d38126a5636c7f0b4dae2f13f77e5e8a8c6a906a5e"
     }
   },
   "decoration": {
-    "home.artwork": null,
-    "home.composer.background": null,
+    "home.artwork": {
+      "asset": "layer-hero",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.18,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
     "home.composer.decoration": null,
     "launch.artwork": {
       "asset": "scene-compact-light",
+      "fit": "contain",
+      "opacity": 1
+    },
+    "navigation.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.14
+    },
+    "composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0
+      },
+      "compact": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      },
+      "regular": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "cards.decoration": {
+      "asset": "tile",
+      "fit": "contain",
+      "opacity": 0.13
+    },
+    "buttons.primary.background": {
+      "asset": "edge",
+      "fit": "contain",
+      "opacity": 0.08
+    },
+    "tabs.background": {
+      "asset": "rail",
+      "fit": "contain",
+      "opacity": 0.1
+    },
+    "empty.artwork": {
+      "asset": "layer-empty",
       "fit": "contain",
       "opacity": 1
     }
@@ -209,71 +354,220 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-compact-light",
+        "asset": "layer-environment",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.4
         },
         "compact": {
-          "asset": "scene-compact-light",
+          "asset": "layer-environment",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "layer-environment",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.45,
           "focalPoint": {
             "x": 0.5,
             "y": 0.4
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "home.artwork": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-light",
+        "fit": "contain",
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-light",
+          "fit": "contain",
+          "opacity": 1
+        }
+      }
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "scene-compact-dark",
+        "asset": "layer-environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.4
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "layer-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "layer-environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.45,
           "focalPoint": {
             "x": 0.5,
             "y": 0.4
           }
         }
       },
-      "home.artwork": null,
-      "home.composer.background": null,
+      "home.artwork": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-compact",
+        "fit": "contain",
+        "opacity": 0.42,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "outset": {
+          "left": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "compact": {
+          "asset": "composer-compact",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-regular",
+          "fit": "contain",
+          "opacity": 0.42,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          },
+          "outset": {
+            "left": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        }
+      },
       "home.composer.decoration": null,
       "launch.artwork": {
         "asset": "scene-compact-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "regular": {
+          "asset": "scene-regular-dark",
+          "fit": "contain",
+          "opacity": 1
+        }
       }
     }
   },
@@ -285,7 +579,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "A curious fox and tiny bird consult their trail map in a rich desert adventure, with warm daylight and lantern-lit night animation.",
@@ -299,7 +593,7 @@
     "teal"
   ],
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   },
   "iconDirections": {

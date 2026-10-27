@@ -2,8 +2,8 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "midnight-shibuya",
-  "name": "\u6e0b\u8c37\u3001\u5348\u524d\u96f6\u6642",
-  "version": "1.1.8",
+  "name": "渋谷、午前零時",
+  "version": "1.1.10",
   "author": "Theme Collection",
   "license": "CC-BY-4.0",
   "description": "A confident adult woman with a blunt bob, red jacket and silver accessories brings bold night-fashion illustration to a violet city.",
@@ -138,6 +138,46 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "f12d311260f8c65ff9d3054cb7047ccc9b6d1135bc9dc24101b39a1bf9dc3154"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "f632063ec72f96f9c49b40e06242944c4f0eb2523ae05ff8da2b935826e2b04f"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f25b79263ffac9e30df1bfa2668080c0b2f13725dffcd42d701ff603c70bfebe"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "45796e91b70a4f64258931193045d7483cce773f5ce7c18f93372ccdfb79ece6"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "937ac8ae4fb5756b10e4f54c3e38970fc907396743c0352783c04181a93d4f9e"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "0fe74e3a9b7da0ff3bcb439f23307a00aa23087d17c424273460bc3bf1dd136c"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "e03735028edad88190489ce835b1f1be12d4df6c6e4d81824d3c762d5cfc3e70"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "c160420a8d28cd580e966d56cd9d17f4313a32809644f725ca78bf87b4a6d4e3"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "0245726620a6dde0202a8676af402826d39e4897337dc3973d0311f68d4becfc"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "6e0415cf177d0be7a396f9fc7435a7b4ee5a3db87212a6338415635f274aaf49"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "4617c74bd2d108dd38caf0adfac04f226dfcb6076e67ccceb3e354deffcca4fb"
     }
   },
   "variantDecorations": {
@@ -187,16 +227,42 @@
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
           "opacity": 0.38,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-light-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -274,16 +340,42 @@
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
           "opacity": 0.5,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-dark-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -316,7 +408,40 @@
       "home.composer.decoration": null
     }
   },
-  "icons": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
   "homeIdentity": {
     "name": {
       "mode": "hidden"
@@ -332,5 +457,8 @@
     "header": "cover",
     "toolbarBackground": true
   },
-  "decoration": {}
+  "decoration": {},
+  "iconDirections": {
+    "home.arrow": "up-right"
+  }
 }

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "city-pop-balcony",
   "name": "\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30fb\u30d0\u30eb\u30b3\u30cb\u30fc",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "Theme Collection",
   "license": "CC-BY-4.0",
   "description": "Two adult musicians trade cues across keyboard and bass on a peach and teal harbor balcony, rendered as a retro city-pop illustration.",
@@ -139,6 +139,46 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d46021da0cf82a93bb7a595c25528528bce4d78020d3192b1eaa3362b3bb9f5c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "b41619f7da6033063f4c2f83b05919ef6de9cc8c2a687c4da8209aebea015e10"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "2b1615f7616ffc8889a80fe5a17ebd895b4dc6656c776ec8ed8ce85b3bd4646f"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3e22ead8de30a3ed9171441f6a86d56536e4d0277f07a155aff316aef0e758aa"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "68def69d67c4c93867f0f0a1bda6e8babbf4d6557b0a0b43364fa5882a476ef5"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "da23dc8b80dcef409251252a1924ab481a7d60507a44d5f50680c0afcab32ad2"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "e2e9e978bcc726b9ed1fc1cc61608c0c686eb9042b5417508a0ebded6b77acfc"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "ba70a9fe570d1db60f911f4fd6ae60ec669a427ab77f4432a3cb86324adf3403"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4075e5c5e8ca44f51f5c3ae5f707c4c38e15e1d9eebfdbced9a39f61a73628e3"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "06048013bb78ab22e83a72a9339e593ba50e5b94a5b34fc9ee163b7ff38cd92f"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "01c547c63b8ee4f9bf03e84e4e72b8e7105e926b2fa89ff0d4b3fab8f05100a5"
     }
   },
   "variantDecorations": {
@@ -188,16 +228,42 @@
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
           "opacity": 0.38,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-light-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -275,16 +341,42 @@
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
           "opacity": 0.5,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-dark-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -317,7 +409,40 @@
       "home.composer.decoration": null
     }
   },
-  "icons": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
   "homeIdentity": {
     "name": {
       "mode": "hidden"
@@ -333,5 +458,9 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
   }
 }

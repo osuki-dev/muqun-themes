@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -162,16 +162,85 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "d236ff4e47bbe5f795cfdd8678ae77c313c65fcfd979919c83c753eff553ea03"
+    },
+    "hero": {
+      "path": "assets/hero.png",
+      "sha256": "ed29c065b2221ad69c79280428110c3cf13eceba47f471d92b23fd98d684c280"
+    },
+    "environment-light": {
+      "path": "assets/environment-light.png",
+      "sha256": "7f31befde30fcdbe924a5307b37d3a32a9d4f702e8337cad6f10a2e5c049b321"
+    },
+    "environment-dark": {
+      "path": "assets/environment-dark.png",
+      "sha256": "61340e27779e6449b53a4aaa1763f68998daf654587f5fbf8fbaa5391ef16d77"
     }
   },
   "decoration": {
-    "home.artwork": null,
+    "home.artwork": {
+      "asset": "hero",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
       "asset": "scene-compact-light",
       "fit": "contain",
-      "opacity": 1
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "scene-compact-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "scene-regular-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "hero",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
     }
   },
   "icons": {
@@ -211,71 +280,190 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-compact-light",
+        "asset": "environment-light",
         "fit": "cover",
+        "opacity": 0.36,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "environment-light",
+          "fit": "cover",
+          "opacity": 0.36,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.artwork": {
+        "asset": "hero",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-light",
-          "fit": "cover",
+          "asset": "hero",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null,
+      "empty.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "launch.artwork": {
+        "asset": "scene-compact-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-compact-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
           }
         },
         "regular": {
           "asset": "scene-regular-light",
-          "fit": "cover",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.4
+            "y": 0.5
           }
         }
-      },
-      "home.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      }
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "scene-compact-dark",
+        "asset": "environment-dark",
         "fit": "cover",
-        "opacity": 1,
+        "opacity": 0.32,
         "focalPoint": {
           "x": 0.5,
-          "y": 0.35
+          "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.35
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "environment-dark",
           "fit": "cover",
-          "opacity": 1,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
-            "y": 0.4
+            "y": 0.5
           }
         }
       },
-      "home.artwork": null,
+      "home.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "home.composer.background": null,
       "home.composer.decoration": null,
       "launch.artwork": {
         "asset": "scene-compact-dark",
         "fit": "contain",
-        "opacity": 1
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-compact-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-regular-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "empty.artwork": {
+        "asset": "hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
       }
     }
   },
@@ -287,7 +475,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "hidden"
+      "mode": "default"
     }
   },
   "description": "Two Egyptian field researchers compare sketchbooks on a riverboat in bold travel adventure comics, with ochre shores, cobalt water and warm lamplight.",
@@ -306,7 +494,7 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "standard",
+    "header": "cover",
     "toolbarBackground": true
   }
 }

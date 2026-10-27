@@ -3,9 +3,9 @@
   "schemaVersion": 1,
   "id": "aperture-afterhours",
   "name": "Aperture Afterhours",
-  "version": "1.1.8",
+  "version": "1.1.10",
   "author": "Theme Collection",
-  "license": "Unofficial fan art; underlying rights reserved",
+  "license": "All rights reserved",
   "variants": {
     "light": {
       "colors": {
@@ -127,10 +127,91 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "ac0dd58cadb00e7b2046ab9fd70a2cec664d1ef4be0d8321fff02188c8c9ee0c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "26c0f4ba806494b8df72fadc04b87fdf31dbd4ba020961848dfbcae4a898e150"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "43811b46deb825c54b82be6be0150e956b8525e594fde1b41a3cc6a1c756cc0b"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "2e3fd23c85ad921dafa52746655df785f390ffa21cce9b54b3350f04509243b3"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "ecc63cac173a50d3a978586d3b463fde0b4adad7c25e8f4691507c8942cbdd37"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "a0cee51fec272ab57e6939ba478f5367bcffce81f8122d196e104b8febad9675"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "e03735028edad88190489ce835b1f1be12d4df6c6e4d81824d3c762d5cfc3e70"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "2a97588168e001b58050b2891c9b35d730d536c10fd2ee69499cb23b2eada5fa"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "4be04c90c0bce2e86c55384fd27b2b513f7257365eee5945da2acd1ea52e5253"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "35fdee7fcc20e880957aa1766e3eb99e2255f8abcaf958b502858b28aba02d15"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "36590c9f314be84e48a6bd02f9bf3fd9922bc735442df74173dd8fbef38edfd1"
+    },
+    "aperture-composer": {
+      "path": "assets/aperture-composer.webp",
+      "sha256": "feec4bfd8e50b7a15080a082f9598bf3bd1bcf5e37bc3041ccf3684fd2f8157a"
+    },
+    "aperture-empty": {
+      "path": "assets/aperture-empty.webp",
+      "sha256": "0fb481ad10fb141e7c08cd2afedb156dfab2813fe4ad9b9914e1616ce2d209d3"
     }
   },
   "decoration": {},
-  "icons": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
   "variantDecorations": {
     "light": {
       "home.artwork": {
@@ -178,16 +259,42 @@
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
           "opacity": 0.38,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-light-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -215,9 +322,88 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "aperture-empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-empty",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-empty",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "aperture-composer",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "aperture-composer",
+        "fit": "contain",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
@@ -265,16 +451,42 @@
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
           "opacity": 0.5,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
-      "shell.wallpaper": null,
+      "shell.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-dark-regular",
+          "fit": "cover",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "launch.artwork": {
         "asset": "foreground",
         "fit": "contain",
@@ -302,9 +514,88 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "aperture-empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-empty",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-empty",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "aperture-composer",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "aperture-composer",
+        "fit": "contain",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "aperture-composer",
+          "fit": "contain",
+          "opacity": 0.1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -329,5 +620,9 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
   }
 }

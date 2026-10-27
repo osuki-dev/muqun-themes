@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "paris-after-rain",
   "name": "Paris, After the Rain",
-  "version": "1.2.10",
+  "version": "1.2.12",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "description": "Two adult friends in camel and navy coats share a cherry umbrella on a wet Paris street in candid fashion photography.",
@@ -139,6 +139,54 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "e4590566736b1b771660ea16c8d9d7f6b3364703ee2ed5a8fab65dd497b4bf96"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "da59090ff97c968d552fce3677832d69302bdb657b4b9000dae2beb4bfccb8b5"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "a5a4d029f2675b063f4c78ce59e9ac286ffdc7734db51c46081a603ee640d710"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3d6402c28da1cb8597e44dd1a8c2dcd84b6175c46dc93306c645c5571caf9951"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "4bd3064cb1c6c6a12a997cab2fef9e9c15e263babe5d71d974e45e4127d5aaf9"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "700a9e1a6775a5f477c50daef57de2dab21d6f52cc9d11ba9c4166faccf3fee7"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "f9593dc8630323ab4a600806488df7c7f80ac040f3e88adf48adf5aa016ddfcf"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "337106964182ff2f8cb6cebfc3608a4a7417fc8e2e13e256383403e66295adb2"
+    },
+    "composer-accent": {
+      "path": "assets/composer-accent.png",
+      "sha256": "c184e7e1e5a7d1bd41a4462f55b5dd2b287c703655d3d86feecc6952d6090d62"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "5a94d41c426fd06717b71b096faa2d73a9e76e2feb24e8730d3b626f93c9767f"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "bbe9518b18adf0e1ed2584460034055d143669c3e061e05ed1e9f42d675183d8"
+    },
+    "empty-square": {
+      "path": "assets/empty-square.webp",
+      "sha256": "85b3bb5314a3a256b04a5537f6a73b4948e08e49cab6e5ab2db043230e7b22ae"
     }
   },
   "decoration": {},
@@ -189,12 +237,12 @@
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
           "opacity": 0.38,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
@@ -226,9 +274,88 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "empty-square",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
@@ -276,12 +403,12 @@
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
           "opacity": 0.5,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
@@ -313,9 +440,88 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "empty-square",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
   },
   "homeIdentity": {
@@ -329,5 +535,43 @@
       "mode": "default"
     }
   },
-  "icons": {}
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
+  "iconDirections": {
+    "chrome.back": "left",
+    "chrome.send": "up-right",
+    "home.arrow": "up-right"
+  }
 }

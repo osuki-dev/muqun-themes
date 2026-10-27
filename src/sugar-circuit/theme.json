@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sugar-circuit",
   "name": "Sugar Circuit",
-  "version": "1.1.7",
+  "version": "1.1.9",
   "author": "Community",
   "license": "All rights reserved",
   "preview": "preview",
@@ -139,6 +139,74 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "fccce03933a63a32c8153a299a0620804d1a87f0a8a423d7fb1111fdda951870"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "8e5eb170a7fb1c0a35f586aa9c7d069c585d5bf091705b993f17e49dce4b84b2"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "2e0f428a101d32c9f4978e5fce8a809683db29dae21c6b967b90f3b0ab72570a"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "af8e7255eb29980c3cdee37306ef6c60c599f2ac569c67324476fc2da252ab1b"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "650c4e28dc33f2514cb6653ca898b43a093aa3d14c8c3ee201628d805ffb905a"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "8b6ba80baca2d2cfef0ebe9b0dfa7d0ea07f2ca17ffb67aa92c25a9bf95186fe"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "f1f11c9daeb527908754e9efffc4e76ca61c1e64d17f420b68eaae470b912ea3"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "4698cbb74a1212ec50733542903601e0f2be0c936986949506942a402d61bbb3"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "10c7dd847c3a33cae9efe104b6eba8acf623fde931158765fd72b1330f5acf66"
+    },
+    "navigation": {
+      "path": "assets/navigation.png",
+      "sha256": "d16de6a9a4bfc65f782ec24a0bbfcb83dee41a674982411550bbcf48914fb273"
+    },
+    "composer": {
+      "path": "assets/composer.png",
+      "sha256": "a624717ea63dfbc567d3cc4402c93e47a10445ceadba50a3cbb447c2b176d8bc"
+    },
+    "actions": {
+      "path": "assets/actions.png",
+      "sha256": "f6220bf938086b445e3dbf49504211f66a518574daa0d4bd6c12fd9ed9fead0a"
+    },
+    "cards": {
+      "path": "assets/cards.png",
+      "sha256": "31fbd5bcd9d3b9c7728b618099439667106e0f5e974d30736b2924387610a08e"
+    },
+    "buttons": {
+      "path": "assets/buttons.png",
+      "sha256": "1f85490380f5c3416a1400b5126149dcb151f1f82ab3757765c2c1b83159209c"
+    },
+    "tabs": {
+      "path": "assets/tabs.png",
+      "sha256": "2764af03352a5c347dc649647f8bcd41b5f9eacc474461693a64949b6a40c254"
+    },
+    "empty-youth": {
+      "path": "assets/empty-youth.png",
+      "sha256": "e717dbe4dbf4713b4c807aac63a6fe90e56dacf3d50051429cc3ff440653147e"
+    },
+    "composer-drink-compact": {
+      "path": "assets/composer-drink-compact.png",
+      "sha256": "f0377e44c4d23f9eda5b8424b1183878e845e68ba8b75285d92e74251129ae07"
+    },
+    "composer-drink-wide": {
+      "path": "assets/composer-drink-wide.png",
+      "sha256": "1beba90201f537e995c6eb74b1143fae2f2bea8a972baed8409d979f4e98993e"
     }
   },
   "decoration": {
@@ -196,19 +264,209 @@
         }
       }
     },
-    "empty.artwork": null,
+    "empty.artwork": {
+      "asset": "empty-youth",
+      "fit": "contain",
+      "opacity": 0.85
+    },
     "home.composer.background": null,
-    "home.composer.decoration": null
+    "home.composer.decoration": null,
+    "navigation.background": {
+      "asset": "navigation",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "navigation",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "navigation",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "composer.background": {
+      "asset": "composer",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "composer",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "composer",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "actions.background": {
+      "asset": "actions",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "actions",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "actions",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "cards.decoration": {
+      "asset": "cards",
+      "fit": "contain",
+      "opacity": 0.1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "cards",
+        "fit": "contain",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "cards",
+        "fit": "contain",
+        "opacity": 0.1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "buttons.primary.background": {
+      "asset": "buttons",
+      "fit": "contain",
+      "opacity": 0.08,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "buttons",
+        "fit": "contain",
+        "opacity": 0.08,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "buttons",
+        "fit": "contain",
+        "opacity": 0.08,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "tabs.background": {
+      "asset": "tabs",
+      "fit": "contain",
+      "opacity": 0.12,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "tabs",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "tabs",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
   },
   "icons": {
-    "chrome.back": null,
-    "chrome.send": null,
-    "chrome.attach": null,
-    "chrome.create": null,
-    "chrome.scan": null,
-    "chrome.settings": null,
-    "chrome.parameters": null,
-    "home.arrow": null
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    }
   },
   "variantDecorations": {
     "light": {
@@ -267,7 +525,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-drink-compact",
+        "fit": "contain",
+        "opacity": 0.34,
+        "focalPoint": {
+          "x": 1,
+          "y": 1
+        },
+        "outset": {
+          "left": 0,
+          "right": 6,
+          "bottom": 4
+        },
+        "compact": {
+          "asset": "composer-drink-compact",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 1,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 6,
+            "bottom": 4
+          }
+        },
+        "regular": {
+          "asset": "composer-drink-wide",
+          "fit": "contain",
+          "opacity": 0.34,
+          "focalPoint": {
+            "x": 1,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 6,
+            "bottom": 4
+          }
+        }
+      },
       "home.composer.decoration": null
     },
     "dark": {
@@ -326,7 +625,48 @@
         }
       },
       "shell.wallpaper": null,
-      "home.composer.background": null,
+      "home.composer.background": {
+        "asset": "composer-drink-compact",
+        "fit": "contain",
+        "opacity": 0.48,
+        "focalPoint": {
+          "x": 1,
+          "y": 1
+        },
+        "outset": {
+          "left": 0,
+          "right": 6,
+          "bottom": 4
+        },
+        "compact": {
+          "asset": "composer-drink-compact",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 1,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 6,
+            "bottom": 4
+          }
+        },
+        "regular": {
+          "asset": "composer-drink-wide",
+          "fit": "contain",
+          "opacity": 0.48,
+          "focalPoint": {
+            "x": 1,
+            "y": 1
+          },
+          "outset": {
+            "left": 0,
+            "right": 6,
+            "bottom": 4
+          }
+        }
+      },
       "home.composer.decoration": null
     }
   },
@@ -351,5 +691,10 @@
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left",
+    "chrome.send": "up-right"
   }
 }

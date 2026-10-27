@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "jasmine-at-dusk",
   "name": "Jasmine at Dusk",
-  "version": "1.0.14",
+  "version": "1.0.17",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -127,10 +127,91 @@
     "preview": {
       "path": "assets/preview.png",
       "sha256": "4776acff3fb7b165ac10692ee1b01f518a405728c83d7848a377287b379539c7"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "0da803544818ef060cba470b31fc211ed188b9135ef43f11c0cdec22a0798cc1"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "353ec9b62546ff51a5cddcc0a1b047293afbd903116462726da1a1cc9a4b991c"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "afdfa41771e817508ddfa4a1ea593ac26311a93de00dff20c88b3fc2e7cb4ba1"
+    },
+    "icon-create": {
+      "path": "assets/icon-create.png",
+      "sha256": "cb047621eff62e04b706b98e002f0ff2296a92e441ab2962faca0fbc30c9cd38"
+    },
+    "icon-scan": {
+      "path": "assets/icon-scan.png",
+      "sha256": "878c1e9f398b016e72a825859ead86d2d9b886f3e3a745284d795882436e5637"
+    },
+    "icon-settings": {
+      "path": "assets/icon-settings.png",
+      "sha256": "e03735028edad88190489ce835b1f1be12d4df6c6e4d81824d3c762d5cfc3e70"
+    },
+    "icon-arrow": {
+      "path": "assets/icon-arrow.png",
+      "sha256": "186ff05bd07160ce5001c3d8001ed2b3776e9fc5a790d6960c6079d444798420"
+    },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "cb53edcf25a8c48606bfca4fe041376682aebf696f1b6c24a24c35783dccbc1b"
+    },
+    "composer-accent": {
+      "path": "assets/composer-accent.png",
+      "sha256": "00bf309955979dae6d0e352aa5d055ed5f95d5e2bae677c5094757e635edb31e"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "cf4b7166364de3c3a25c75357c879d93176e501612c10ab4c0ca4725604372ac"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "c58a35d88903b39e5f493d76bee40d7f6604ab15d20cdb825e41f873414fdd64"
+    },
+    "empty-square": {
+      "path": "assets/empty-square.webp",
+      "sha256": "c95b59b1720a4c8fbb00217cdc776ca30e7b6bacb8c2cd12eae94f249009e8ee"
     }
   },
   "decoration": {},
-  "icons": {},
+  "icons": {
+    "chrome.back": {
+      "asset": "icon-back",
+      "render": "template"
+    },
+    "chrome.send": {
+      "asset": "icon-send",
+      "render": "template"
+    },
+    "chrome.attach": {
+      "asset": "icon-attach",
+      "render": "template"
+    },
+    "chrome.create": {
+      "asset": "icon-create",
+      "render": "template"
+    },
+    "chrome.scan": {
+      "asset": "icon-scan",
+      "render": "template"
+    },
+    "chrome.settings": {
+      "asset": "icon-settings",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
+      "render": "template"
+    },
+    "chrome.parameters": {
+      "asset": "icon-parameters",
+      "render": "template"
+    }
+  },
   "homeIdentity": {
     "name": {
       "mode": "hidden"
@@ -201,12 +282,12 @@
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
           "opacity": 0.38,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
@@ -238,9 +319,88 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "empty-square",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     },
     "dark": {
       "home.artwork": {
@@ -288,12 +448,12 @@
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
           "opacity": 0.5,
           "focalPoint": {
-            "x": 0.52,
-            "y": 0.56
+            "x": 0.5,
+            "y": 0.5
           }
         }
       },
@@ -325,9 +485,91 @@
           }
         }
       },
-      "empty.artwork": null,
-      "home.composer.background": null,
-      "home.composer.decoration": null
+      "empty.artwork": {
+        "asset": "empty-square",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "empty-square",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.18,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      },
+      "home.composer.decoration": null,
+      "composer.background": {
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": {
+          "asset": "composer-accent",
+          "fit": "contain",
+          "opacity": 0.12,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        }
+      }
     }
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

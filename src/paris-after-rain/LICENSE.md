@@ -1,3 +1,3 @@
-# Paris, After the Rain — License
+# Rights
 
-All rights reserved. AI-generated artwork; see CREDITS.md for attribution and PROMPTS.md for provenance. No affiliation with depicted places or cultural institutions is implied.
+All rights reserved. Original theme data and artwork by Muqun Theme Collection. See CREDITS.md for retained artwork and revision provenance.
