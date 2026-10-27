@@ -10,10 +10,6 @@ Generated images were created with the built-in image tool. Prompts and asset ch
 
 Validation: source/package and contrast checks are recorded separately. No phone, tablet, keyboard, voice, long-label or three-layout visual acceptance is claimed here.
 
-## Tablet composition correction — 1.4.5
+## Tablet composition 1.4.6
 
-Native tablet Editorial evidence showed the separated group floating above the landscape. Regular widths now use a newly authored grounded full scene with the complete group on the left and natural scenery to the right, with no second foreground. Compact slots and all existing image bytes remain unchanged. Regular wallpaper is opaque and left-aligned to protect figures during aspect-ratio crops. Phone layering remains unchanged. Native retest is pending.
-
-## Orientation-safe fit trial — 1.4.6
-
-Actual landscape evidence showed the cover-scaled group extending under the wider work column. Regular wallpaper now uses contain, left aligned and vertically centered, retaining the complete grounded portrait composition. The native theme background fills the remainder behind the work column. No image bytes, phone slots, icons or palettes changed. Native portrait and landscape light/dark retest is required; this is a candidate, not visual acceptance.
+Regular Home uses the complete group scene as an opaque, contain-fit wallpaper aligned to the left and vertically centered. The native background fills the work column in landscape. Regular foreground artwork is disabled to avoid duplication; compact artwork, icons and palettes are unchanged.

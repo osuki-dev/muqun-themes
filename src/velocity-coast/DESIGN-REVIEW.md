@@ -14,6 +14,4 @@ Version 1.1.9 changes only version/license metadata from 1.1.8; all declared art
 
 ## Compact face clearance 1.1.10
 
-Actual iOS Editorial screenshots of 1.1.9 showed the parameters button overlapping the left skater’s face in both modes. Only compact Home artwork focal y changes from 0 to 0.65, using native contain slack to lower the complete group. All artwork, semantic icon mappings, regular slots and other surfaces remain unchanged. Both-mode Editorial retest and Stage comparison are required; source geometry is not native acceptance.
-
-Actual current iOS 1.1.10 Phone Editorial/Stage light/dark captures were inspected: all three faces clear of the top actions in each state; the prior Editorial left-face collision is resolved. Stage still naturally clips the right outer arm at the viewport edge and lower skates meet the pairing card. This is scoped unpaired Phone visual evidence, not paired-state/Classic/interaction or complete Pad acceptance.
+Compact Home artwork uses contain fit with focal y = 0.65 to keep the left skater clear of the Editorial action controls. Artwork bytes, semantic icons, regular slots and other surfaces are unchanged.

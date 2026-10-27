@@ -47,6 +47,6 @@ Source validation and contrast are separate from native acceptance. Pending per-
 
 Home compact artwork now resolves to foreground-compact.webp: the unchanged full figure centered in a 2048×1024 transparent canvas, adding256px per side. This compensates for native Stage figure overscan without clipping shoes. Both modes retain contain fit, opacity1 and center focal point. Regular Home artwork, launch artwork, wallpaper and icons are unchanged. Previous phone Stage1.0.7 screenshot clipped shoe tips; native1.0.8 retest is required, including Editorial scale.
 
-## Version1.0.9 grounded Pad candidate
+## Tablet composition 1.0.9
 
-Regular Home uses a continuous generated physical scene as wallpaper, contain fit, opacity1 and focal(0,0.5), while home.artwork.regular is null to avoid duplicate subjects. Both modes share the same grounded scene; native surfaces supply their own light/dark palette. Portrait composition stays whole in either orientation, aligned left with native background fill for remaining space. All compact artwork and image bytes are unchanged. Native portrait/landscape review required.
+Regular Home uses the continuous studio scene as an opaque, contain-fit wallpaper aligned left and vertically centered, with no second foreground. Both modes share the scene and retain their own UI palettes. Compact artwork and other image bytes are unchanged.

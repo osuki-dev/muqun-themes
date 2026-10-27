@@ -1,6 +1,6 @@
 # Cinder Canyon asset provenance
 
-This inventory covers the current 1.0.6 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
+This inventory covers the current 1.0.8 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
 
 | Current file | Origin and creator | Rights |
 | --- | --- | --- |
@@ -23,6 +23,3 @@ This inventory covers the current 1.0.6 source assets. Historical descriptions o
 | `assets/figure-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
 
 Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.
-
-
-The experimental 1.0.7 grounded wallpaper was rejected and removed from the 1.0.8 inventory. Version 1.0.8 restores the listed original assets unchanged.
