@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.1.8",
-  "author": "Muqun Theme Collection",
+  "version": "1.1.9",
+  "author": "Theme Collection",
   "license": "All rights reserved",
   "variants": {
     "light": {
@@ -112,10 +112,6 @@
     "default": "solid"
   },
   "assets": {
-    "preview": {
-      "path": "assets/preview.png",
-      "sha256": "e1750a0a5d77cd12917eeccd4dc9d2cc009000b9aa86c7cb57aac29c3cb0f95b"
-    },
     "icon-back": {
       "path": "assets/icon-back.png",
       "sha256": "da59090ff97c968d552fce3677832d69302bdb657b4b9000dae2beb4bfccb8b5"
@@ -144,111 +140,38 @@
       "path": "assets/icon-arrow.png",
       "sha256": "6bc14a494acf349de457536d0f38d0782c7099fdc9453f176b5a93bb424ca140"
     },
-    "home-modern": {
-      "path": "assets/home-modern.png",
-      "sha256": "9bced32e8a02722566912567b0b04b8b5e5aae632cb6713941c286f96fe5a8ea"
-    },
-    "launch-modern": {
-      "path": "assets/launch-modern.png",
-      "sha256": "a0055dbe5c1c9642ade556cd2d41811bb07b34e3ab448256d5eae1c482d274ce"
-    },
     "icon-parameters": {
       "path": "assets/icon-parameters.png"
     },
-    "home-cover-continuity": {
-      "path": "assets/home-cover-continuity.png",
-      "sha256": "40a33c7794e20c8d5a6e6969f6505792f9cbf30de6438364567a067f48b6f787"
+    "scene-compact-light": {
+      "path": "assets/scene-compact-light.png",
+      "sha256": "e167a69b0177154fa473212830cf4a516fd5571fd141d3c6d22d296afd1a1e9d"
     },
-    "home-paper-light-continuity": {
-      "path": "assets/home-paper-light-continuity.png",
-      "sha256": "8c10dc9f698feb20016d6f063ff73745f74b12224ff0dd589e8445a46b3cc5ca"
+    "scene-regular-light": {
+      "path": "assets/scene-regular-light.png",
+      "sha256": "c44db26ae5b724dda855633a48674fce5acfd724a173323cca7be32bcb6241c6"
     },
-    "home-paper-dark-continuity": {
-      "path": "assets/home-paper-dark-continuity.png",
-      "sha256": "174cb1fc06db0afa1311e96e1a3bdf6d32677fa20a03258581ec4e5445ee218e"
+    "scene-compact-dark": {
+      "path": "assets/scene-compact-dark.png",
+      "sha256": "94426b40515b059dd041bccd6e578fd496f1f3032bd359e07ccbc5c6310f102b"
+    },
+    "scene-regular-dark": {
+      "path": "assets/scene-regular-dark.png",
+      "sha256": "5c8846d81a125d2efba490001d0742b3d54821f4f4083d812ed1142ba43a585a"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "d236ff4e47bbe5f795cfdd8678ae77c313c65fcfd979919c83c753eff553ea03"
     }
   },
   "decoration": {
-    "home.artwork": {
-      "asset": "home-cover-continuity",
-      "fit": "cover",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
+    "home.artwork": null,
+    "home.composer.background": null,
+    "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "launch-modern",
+      "asset": "scene-compact-light",
       "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "empty.artwork": {
-      "asset": "launch-modern",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "launch-modern",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
+      "opacity": 1
     }
   },
   "icons": {
@@ -287,117 +210,72 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": null,
       "home.wallpaper": {
-        "asset": "home-paper-light-continuity",
-        "fit": "cover",
-        "opacity": 0.42,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-paper-light-continuity",
-          "fit": "cover",
-          "opacity": 0.42,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-paper-light-continuity",
-          "fit": "cover",
-          "opacity": 0.42,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
+        "asset": "scene-compact-light",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.35
         },
         "compact": {
-          "asset": "home-cover-continuity",
+          "asset": "scene-compact-light",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.35
           }
         },
         "regular": {
-          "asset": "home-cover-continuity",
+          "asset": "scene-regular-light",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.4
           }
         }
-      }
+      },
+      "home.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     },
     "dark": {
-      "shell.wallpaper": null,
       "home.wallpaper": {
-        "asset": "home-paper-dark-continuity",
-        "fit": "cover",
-        "opacity": 0.35,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-paper-dark-continuity",
-          "fit": "cover",
-          "opacity": 0.35,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-paper-dark-continuity",
-          "fit": "cover",
-          "opacity": 0.35,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
+        "asset": "scene-compact-dark",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.35
         },
         "compact": {
-          "asset": "home-cover-continuity",
+          "asset": "scene-compact-dark",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.35
           }
         },
         "regular": {
-          "asset": "home-cover-continuity",
+          "asset": "scene-regular-dark",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.4
           }
         }
+      },
+      "home.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-dark",
+        "fit": "contain",
+        "opacity": 1
       }
     }
   },
@@ -409,17 +287,17 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "default"
+      "mode": "hidden"
     }
   },
-  "description": "Contemporary anime Nile riverboat sketching journey, turquoise water and golden afternoon light, with quiet ivory and ink native surfaces.",
+  "description": "Two Egyptian field researchers compare sketchbooks on a riverboat in bold travel adventure comics, with ochre shores, cobalt water and warm lamplight.",
   "tags": [
-    "anime",
-    "editorial",
-    "slice-of-life",
-    "illustrated",
-    "light",
-    "dark"
+    "comic",
+    "travel",
+    "friends",
+    "river",
+    "ochre",
+    "cobalt"
   ],
   "preview": "preview",
   "iconDirections": {
@@ -428,7 +306,7 @@
     "home.arrow": "up-right"
   },
   "homePresentation": {
-    "header": "cover",
+    "header": "standard",
     "toolbarBackground": true
   }
 }

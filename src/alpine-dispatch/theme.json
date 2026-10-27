@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "alpine-dispatch",
   "name": "Alpine Dispatch",
-  "version": "1.0.4",
-  "author": "Muqun",
+  "version": "1.0.5",
+  "author": "Theme contributors",
   "license": "CC0-1.0",
   "preview": "preview",
   "variants": {
@@ -116,178 +116,42 @@
     "actions": "solid"
   },
   "assets": {
-    "icon-back": {
-      "path": "assets/icon-back.png"
+    "scene-light-phone": {
+      "path": "assets/scene-light-phone.webp",
+      "sha256": "88e726951f8909dd3613ea329f5c22c5bc454875e2dc229c541a35f540b1c004"
     },
-    "icon-send": {
-      "path": "assets/icon-send.png"
+    "scene-dark-phone": {
+      "path": "assets/scene-dark-phone.webp",
+      "sha256": "990b8e7547cdafdb783305018e540ff69e05487c251b94bd03e007d631b2894c"
     },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
+    "scene-light-pad": {
+      "path": "assets/scene-light-pad.webp",
+      "sha256": "9bf44d86dd9d88d99d0c44d55ca403b0fb47342e0244d5e554ed2e4c9554c098"
     },
-    "icon-create": {
-      "path": "assets/icon-create.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png"
-    },
-    "home-light": {
-      "path": "assets/home-light.webp"
-    },
-    "home-dark": {
-      "path": "assets/home-dark.webp"
-    },
-    "launch-light": {
-      "path": "assets/launch-light.webp"
-    },
-    "launch-dark": {
-      "path": "assets/launch-dark.webp"
-    },
-    "wallpaper-light": {
-      "path": "assets/wallpaper-light.webp"
-    },
-    "wallpaper-dark": {
-      "path": "assets/wallpaper-dark.webp"
+    "scene-dark-pad": {
+      "path": "assets/scene-dark-pad.webp",
+      "sha256": "41b87de2eb99d23430bd15463fbfba32d8a0b7f757f236ba306d20b7c8c77ab8"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "215b53249099ba68cf71423e0a65d2a73d92ff4fd36c51b826fae527caee062e"
-    },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png",
-      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
-    },
-    "composer-continuity": {
-      "path": "assets/composer-continuity.png",
-      "sha256": "dcc49d3e2a30ada483a89157a34eeeffa0d302e5f77d90b3070d2ec9098ec50f"
+      "sha256": "62f9e452bed433e2f82bec56ba1514b7ac3006fdb1c19de1f99ddbea3c88b9d2"
     }
   },
   "decoration": {},
   "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.create": {
-      "asset": "icon-create",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
-    "chrome.parameters": {
-      "asset": "icon-parameters",
-      "render": "template"
-    }
+    "chrome.back": null,
+    "chrome.send": null,
+    "chrome.attach": null,
+    "chrome.create": null,
+    "chrome.scan": null,
+    "chrome.settings": null,
+    "chrome.parameters": null,
+    "home.arrow": null
   },
   "variantDecorations": {
     "light": {
-      "home.artwork": {
-        "asset": "home-light",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.7,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.7,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.7,
-            "y": 0
-          }
-        }
-      },
-      "launch.artwork": {
-        "asset": "launch-light",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "launch-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "launch-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
-      "shell.wallpaper": {
-        "asset": "wallpaper-light",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
       "home.wallpaper": {
-        "asset": "wallpaper-light",
+        "asset": "scene-light-phone",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
@@ -295,7 +159,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "wallpaper-light",
+          "asset": "scene-light-phone",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -304,7 +168,7 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-light",
+          "asset": "scene-light-pad",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -313,134 +177,40 @@
           }
         }
       },
-      "home.composer.background": {
-        "asset": "composer-continuity",
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-light-phone",
         "fit": "contain",
-        "opacity": 0.44,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "composer-continuity",
+          "asset": "scene-light-phone",
           "fit": "contain",
-          "opacity": 0.44,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "composer-continuity",
+          "asset": "scene-light-pad",
           "fit": "contain",
-          "opacity": 0.44,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.composer.background": null,
       "home.composer.decoration": null
     },
     "dark": {
-      "home.artwork": {
-        "asset": "home-dark",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.7,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.7,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.7,
-            "y": 0
-          }
-        }
-      },
-      "launch.artwork": {
-        "asset": "launch-dark",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "launch-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "launch-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
-      "shell.wallpaper": {
-        "asset": "wallpaper-dark",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
       "home.wallpaper": {
-        "asset": "wallpaper-dark",
+        "asset": "scene-dark-phone",
         "fit": "cover",
         "opacity": 1,
         "focalPoint": {
@@ -448,7 +218,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "wallpaper-dark",
+          "asset": "scene-dark-phone",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -457,7 +227,7 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-dark",
+          "asset": "scene-dark-pad",
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
@@ -466,89 +236,63 @@
           }
         }
       },
-      "home.composer.background": {
-        "asset": "composer-continuity",
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-dark-phone",
         "fit": "contain",
-        "opacity": 0.58,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "composer-continuity",
+          "asset": "scene-dark-phone",
           "fit": "contain",
-          "opacity": 0.58,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "composer-continuity",
+          "asset": "scene-dark-pad",
           "fit": "contain",
-          "opacity": 0.58,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.composer.background": null,
       "home.composer.decoration": null
     }
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "ALPINE"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "default"
+      "mode": "hidden"
     }
   },
-  "description": "A lovable anime Shiba rescue companion above cinematic alpine valleys. Plush cheeks, sparkling eyes and rescue vermilion meet jade moonlight and amber beacons. Complete transparent dog illustrations and seven friendly rescue icons.",
+  "description": "A glacier-blue hiker adjusts his trekking strap above layered alpine peaks. Crisp outdoor fashion anime pairs daylight with moonlit scenery, framed for phone and tablet.",
   "tags": [
     "anime",
-    "alpine",
-    "shiba",
-    "rescue",
-    "cinematic"
+    "outdoor",
+    "fashion",
+    "glacier",
+    "blue"
   ],
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
   },
   "minAppVersion": "3.0.0",
-  "iconDirections": {
-    "home.arrow": "up-right"
-  },
   "effects": {
-    "ambient": "snow",
-    "intensity": 0.12,
-    "speed": 0.25,
-    "density": 0.15,
-    "size": 0.55,
-    "palette": [
-      "text",
-      "primary"
-    ],
-    "direction": "down"
+    "ambient": "none"
   }
 }

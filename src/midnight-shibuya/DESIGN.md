@@ -1,17 +1,7 @@
-# Midnight Shibuya
+# midnight-shibuya
 
-## Direction
+A confident adult woman with a blunt bob, red jacket and silver accessories brings bold night-fashion illustration to a violet city.
 
-Rainy Shibuya at midnight. The interface uses rain-polished neon, midnight blue, signal red. Light and dark variants are separately illustrated and art-directed rather than mechanically recolored.
+One contained transparent foreground is shared by Classic, Editorial and Stage. Subject-free light and dark backgrounds use explicit compact and regular framing. Startup reuses the complete foreground. Home identity is hidden. All action icons use the native semantic glyphs, including computer navigation, scan, settings, parameters, attachment, send, back, create and arrows. Composer background and decoration are disabled in both widths and modes; no outset applies.
 
-## Home
-
-The home identity uses a short Japanese slogan. The hero is a transparent neon umbrella, composed with generous transparent padding for both the home view and the app launch screen. Editorial Home reuses the matching light or dark umbrella as a separate cover foreground over the existing rainy city background. Classic Home keeps the established contained hero. Compact and regular overrides are explicit in both modes.
-
-## Chrome
-
-Back, send, and attach are custom monochrome template icons matched to the theme's line weight.
-
-## Native adaptation 1.1.3
-
-Complete seven-glyph template suite; new create/scan/settings/arrow shapes match the existing icon weight and theme motif. Every existing image slot now declares independent compact and regular objects including fit, opacity and focal point. Transparent contained Home art is explicitly reused for launch when no standalone override already exists. Original palette, illustration and identity choices are preserved. No optional chrome artwork was added. Gallery composition shows one contained foreground, native actions and the seven tinted glyphs. Classic and Editorial consume the same foreground; actual device checks remain outstanding.
+Native phone and Pad layout acceptance remains pending. Source validation does not establish device coverage.

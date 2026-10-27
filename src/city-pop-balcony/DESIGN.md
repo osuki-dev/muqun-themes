@@ -1,13 +1,7 @@
-# City Pop Balcony
+# city-pop-balcony
 
-## Direction
+Two adult musicians trade cues across keyboard and bass on a peach and teal harbor balcony, rendered as a retro city-pop illustration.
 
-a breezy 1980s seaside balcony. The interface uses sunset coral, pool aqua, warm ivory. Light and dark variants are separately illustrated and art-directed rather than mechanically recolored.
+One contained transparent foreground is shared by Classic, Editorial and Stage. Subject-free light and dark backgrounds use explicit compact and regular framing. Startup reuses the complete foreground. Home identity is hidden. All action icons use the native semantic glyphs, including computer navigation, scan, settings, parameters, attachment, send, back, create and arrows. Composer background and decoration are disabled in both widths and modes; no outset applies.
 
-## Home
-
-The home identity uses a short Japanese slogan. The hero is a transparent cassette player with headphones, composed with generous transparent padding for both the home view and the app launch screen. Classic keeps it as the square Home hero. Editorial reuses the independently lit light and dark cutouts as contained top artwork, preserving the entire silhouette at compact and regular widths without changing startup or the Classic composition.
-
-## Chrome
-
-Back, send, and attach are custom monochrome template icons matched to the theme's line weight.
+Native phone and Pad layout acceptance remains pending. Source validation does not establish device coverage.

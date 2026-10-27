@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "sea-glass-morning",
   "name": "Sea Glass Morning",
-  "version": "1.1.0",
-  "author": "Muqun Theme Collection",
+  "version": "1.1.1",
+  "author": "Theme contributors",
   "license": "All rights reserved",
   "preview": "preview",
   "variants": {
@@ -116,241 +116,155 @@
     "actions": "solid"
   },
   "assets": {
-    "scene-compact": {
-      "path": "assets/scene-compact.png"
+    "scene-light-phone": {
+      "path": "assets/scene-light-phone.webp",
+      "sha256": "b0e1033f2afda535034ec25a63888e803fe772e980bfc0814dae8882a01c8e94"
     },
-    "scene-regular": {
-      "path": "assets/scene-regular.png"
+    "scene-dark-phone": {
+      "path": "assets/scene-dark-phone.webp",
+      "sha256": "82ebd99786cd888b8fb2c80c854b68d308ca1d4cac9c193a06f46f4d07932ee0"
+    },
+    "scene-light-pad": {
+      "path": "assets/scene-light-pad.webp",
+      "sha256": "f306a1ae8d642f66c00c441e828aa676e259569f8580ac9d6186cf4f8c25e28b"
+    },
+    "scene-dark-pad": {
+      "path": "assets/scene-dark-pad.webp",
+      "sha256": "b8e4237cc854aac4a5570c9ba5ff74f5a14c02ce4fca1ede34fe0df5b865a3c7"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "ee826c71b2e673e0fd572963ebb1b87642bc59782c8dbc45501209328f089d27"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
-    },
-    "icon-create": {
-      "path": "assets/icon-create.png"
-    },
-    "icon-scan": {
-      "path": "assets/icon-scan.png"
-    },
-    "icon-arrow": {
-      "path": "assets/icon-arrow.png"
-    },
-    "icon-settings": {
-      "path": "assets/icon-settings.png"
-    },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png"
-    },
-    "scene-dark-compact": {
-      "path": "assets/scene-dark-compact.png"
-    },
-    "scene-dark-regular": {
-      "path": "assets/scene-dark-regular.png"
-    },
-    "tide-light-compact": {
-      "path": "assets/tide-light-compact.png"
-    },
-    "tide-light-regular": {
-      "path": "assets/tide-light-regular.png"
-    },
-    "tide-dark-compact": {
-      "path": "assets/tide-dark-compact.png"
-    },
-    "tide-dark-regular": {
-      "path": "assets/tide-dark-regular.png"
+      "sha256": "9b03fb0464134ff8b3ac55901e53f9c42a506a47020be6109b38683c082f095a"
     }
   },
-  "decoration": {
-    "home.artwork": null,
-    "launch.artwork": null,
-    "shell.wallpaper": null
-  },
+  "decoration": {},
   "icons": {
-    "chrome.back": {
-      "asset": "icon-back",
-      "render": "template"
-    },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
-    "chrome.attach": {
-      "asset": "icon-attach",
-      "render": "template"
-    },
-    "chrome.create": {
-      "asset": "icon-create",
-      "render": "template"
-    },
-    "chrome.scan": {
-      "asset": "icon-scan",
-      "render": "template"
-    },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
-    "chrome.settings": {
-      "asset": "icon-settings",
-      "render": "template"
-    },
-    "chrome.parameters": {
-      "asset": "icon-parameters",
-      "render": "template"
-    }
+    "chrome.back": null,
+    "chrome.send": null,
+    "chrome.attach": null,
+    "chrome.create": null,
+    "chrome.scan": null,
+    "chrome.settings": null,
+    "chrome.parameters": null,
+    "home.arrow": null
   },
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "scene-compact",
+        "asset": "scene-light-phone",
         "fit": "cover",
-        "opacity": 0.84,
-        "focalPoint": {
-          "x": 0.35,
-          "y": 0
-        },
-        "compact": {
-          "asset": "scene-compact",
-          "fit": "cover",
-          "opacity": 0.84,
-          "focalPoint": {
-            "x": 0.35,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "scene-regular",
-          "fit": "cover",
-          "opacity": 0.84,
-          "focalPoint": {
-            "x": 0,
-            "y": 0
-          }
-        }
-      },
-      "home.composer.background": {
-        "asset": "tide-light-compact",
-        "fit": "cover",
-        "opacity": 0.4,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "tide-light-compact",
+          "asset": "scene-light-phone",
           "fit": "cover",
-          "opacity": 0.4,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "tide-light-regular",
+          "asset": "scene-light-pad",
           "fit": "cover",
-          "opacity": 0.4,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-light-phone",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-light-phone",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-light-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
       "home.composer.decoration": null
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "scene-dark-compact",
+        "asset": "scene-dark-phone",
         "fit": "cover",
-        "opacity": 0.8,
-        "focalPoint": {
-          "x": 0.35,
-          "y": 0
-        },
-        "compact": {
-          "asset": "scene-dark-compact",
-          "fit": "cover",
-          "opacity": 0.8,
-          "focalPoint": {
-            "x": 0.35,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "scene-dark-regular",
-          "fit": "cover",
-          "opacity": 0.8,
-          "focalPoint": {
-            "x": 0,
-            "y": 0
-          }
-        }
-      },
-      "home.composer.background": {
-        "asset": "tide-dark-compact",
-        "fit": "cover",
-        "opacity": 0.25,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 1
-        },
-        "outset": {
-          "left": 12,
-          "right": 12,
-          "bottom": 8
+          "y": 0.5
         },
         "compact": {
-          "asset": "tide-dark-compact",
+          "asset": "scene-dark-phone",
           "fit": "cover",
-          "opacity": 0.25,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "tide-dark-regular",
+          "asset": "scene-dark-pad",
           "fit": "cover",
-          "opacity": 0.25,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 1
-          },
-          "outset": {
-            "left": 12,
-            "right": 12,
-            "bottom": 8
+            "y": 0.5
           }
         }
       },
+      "home.artwork": null,
+      "launch.artwork": {
+        "asset": "scene-dark-phone",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "scene-dark-phone",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-dark-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
       "home.composer.decoration": null
     }
   },
@@ -365,22 +279,17 @@
       "mode": "hidden"
     }
   },
-  "description": "A complete anime coastal station from fresh daylight to moonlit teal, with transparent tide and shell details flowing around the writing surface.",
+  "description": "Two surfer friends and their sandy dog walk back from the beach, laughing with boards at their sides. Candid lifestyle photography pairs aqua and coral casualwear with morning surf and blue-hour light.",
   "tags": [
-    "anime",
-    "coast",
-    "full-scene",
-    "mint",
-    "daylight"
+    "photography",
+    "surf",
+    "friends",
+    "dog",
+    "beach"
   ],
   "homePresentation": {
     "header": "standard",
     "toolbarBackground": true
-  },
-  "iconDirections": {
-    "home.arrow": "up-right",
-    "chrome.back": "left",
-    "chrome.send": "up"
   },
   "effects": {
     "ambient": "none"
