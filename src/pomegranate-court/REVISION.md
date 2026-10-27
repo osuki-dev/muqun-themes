@@ -31,3 +31,11 @@ Edit only lighting of this exact empty environment into quiet blue nighttime wit
 ## Acceptance
 
 Source images inspected for complete bodies, genuine alpha, subject-free environments and coherent props. CLI and contrast results are reported separately. Native Classic/Editorial/Stage phone/tablet validation remains pending with the parent QA agent; source validity is not visual acceptance.
+
+## 1.1.11 compact Stage framing
+
+Native iPhone Stage review of 1.1.10 showed lateral clipping. A separate wide, genuinely transparent foreground now keeps the complete group inside compact composition. Regular foreground, empty-state artwork, wallpaper, launch and icons remain unchanged. Native revalidation of this new version is required.
+
+## 1.1.12 title clearance
+
+Hide the optional authored Home title after actual Android Classic/Editorial captures showed it intersecting the guitarist head. Theme gallery name and artwork remain unchanged.

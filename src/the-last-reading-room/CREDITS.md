@@ -38,3 +38,5 @@ Home input artwork is unchanged. Resolved mode/width declarations (responsive im
 | dark | regular | `{"asset":"home-composer-regular","fit":"contain","opacity":0.5,"focalPoint":{"x":0.5,"y":1},"outset":{"left":0,"right":0,"bottom":4}}` | none |
 
 Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.
+
+- `assets/hero-compact-wide.png`: OpenAI built-in image generation edit of this pack's original `hero.png`, 2026-10-28; original subject/style retained, centered complete composition on wide transparent canvas. Prompt: Technical reframing only; preserve complete bodies, feet, props, faces and style; wide 2:1 genuine-alpha canvas, central 48% subject width, large transparent side margins, no crop, no backdrop, no new subjects. Generated source: `exec-98b4bf3d-9267-4ae5-b58b-c5608194c197.png`.

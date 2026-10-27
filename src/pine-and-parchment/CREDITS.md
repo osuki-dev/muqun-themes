@@ -25,3 +25,5 @@ Retained original geometric chrome accents, under the same attribution and licen
 - `assets/cards.png`
 - `assets/buttons.png`
 - `assets/tabs.png`
+
+The regular light and dark modes intentionally share the same grounded daylight scene, with distinct interface palettes. Compact artwork remains mode-specific. No separate night scene is claimed for this regular-width revision.

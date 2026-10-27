@@ -26,3 +26,5 @@ Retained original geometric chrome accents, under the same attribution and licen
 Version 1.1.11 separates complete human/animal poses into transparent day/night foregrounds. Responsive scenery contains no duplicate main subjects. Startup reuses the full cutout with contain fit; gallery uses the actual foreground and scenery.
 
 Version 1.1.12 increases transparent head/boot margins for native header and composer clearance, retaining complete poses.
+
+Version 1.1.13 uses grounded, complete full scenes for regular tablet wallpaper, with its separate regular foreground disabled. Compact phone artwork and ancillary asset bytes are preserved.

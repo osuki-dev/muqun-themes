@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -174,6 +174,10 @@
     "environment-dark": {
       "path": "assets/environment-dark.png",
       "sha256": "61340e27779e6449b53a4aaa1763f68998daf654587f5fbf8fbaa5391ef16d77"
+    },
+    "hero-compact-wide": {
+      "path": "assets/hero-compact-wide.png",
+      "sha256": "b37e853d3ac37877437a21ad6360632e0885d692e83b6eceb131de833c5dab83"
     }
   },
   "decoration": {
@@ -186,7 +190,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "hero",
+        "asset": "hero-compact-wide",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -315,7 +319,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -409,7 +413,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

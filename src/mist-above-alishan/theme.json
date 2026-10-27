@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "mist-above-alishan",
   "name": "Mist above Alishan",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "Two travelers share tea on a mountain rail platform, surrounded by misty green ridges and a red heritage train. Fresh illustrated shapes and sage clothing connect daylight and warm evening scenes.",
@@ -131,11 +131,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "b409e4a746e17e211bfad523f8563f607eda99940debb385460fb20401a2d3ee"
+      "sha256": "b5c284ffbf64b66d2feb2c948aa47fcd8394f644d8c5e4e5f31c577ab26d6084"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "bce3eaaa3556e374383c772aad0eeb7853557fd431f9377f01540cc156bee71e"
+      "sha256": "b5c284ffbf64b66d2feb2c948aa47fcd8394f644d8c5e4e5f31c577ab26d6084"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -243,7 +243,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -265,15 +265,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",
@@ -354,7 +346,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -376,15 +368,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",

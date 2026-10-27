@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.2.8",
+  "version": "1.2.10",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -196,6 +196,14 @@
     "composer-regular": {
       "path": "assets/composer-regular.png",
       "sha256": "ccbccca607ca312bfa2709d38126a5636c7f0b4dae2f13f77e5e8a8c6a906a5e"
+    },
+    "pad-grounded-light": {
+      "path": "assets/pad-grounded-light.png",
+      "sha256": "1e53174f8ecfdbd63127fe902c1940b85b45977ccfea2d0831a18e0ce81b397e"
+    },
+    "pad-grounded-dark": {
+      "path": "assets/pad-grounded-dark.png",
+      "sha256": "6336e4b441da78cd57b85d367a474db341681db44248a5b401847348103beac3"
     }
   },
   "decoration": {
@@ -371,12 +379,12 @@
           }
         },
         "regular": {
-          "asset": "layer-environment",
-          "fit": "cover",
-          "opacity": 0.45,
+          "asset": "pad-grounded-light",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.4
+            "x": 0,
+            "y": 0.5
           }
         }
       },
@@ -397,15 +405,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "layer-hero",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-compact",
@@ -480,12 +480,12 @@
           }
         },
         "regular": {
-          "asset": "layer-environment-dark",
-          "fit": "cover",
-          "opacity": 0.45,
+          "asset": "pad-grounded-dark",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.4
+            "x": 0,
+            "y": 0.5
           }
         }
       },
@@ -506,15 +506,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "layer-hero",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-compact",

@@ -41,3 +41,7 @@ SHA-256: `5d72bf1524b8d2c25ef42b22abdbbe3e2f45e96b090576b9f071f1dde3abf169`
 Prompt:
 
 > A folded trail map and tiny teal hiking backpack with orange water bottle, cute polished 3D animated film prop. Small complete centered object vignette on genuine transparent background. Square1024x1024. No people, animals, text, brands or logos. Leave modest clear margin, readable silhouette.
+
+## Grounded tablet scene
+
+Built-in image generation edited the existing regular scene: preserve characters and style, place complete group on left half (Atlantic refined to left 45 percent), ground bodies and props naturally, retain continuous environment and quiet right half for cards; no blank band or UI. Dark variant changes lighting only to warm twilight with indigo sky while retaining composition. Both final sources are 1024×1536 portrait scenes, used only by regular wallpaper.

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "raincoat-courier",
   "name": "レインコート・クーリエ",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "Theme contributors",
   "license": "CC-BY-4.0",
   "description": "A silver-haired courier strides through a rainy street in a cropped yellow shell and graphite cargo skirt. Sweet-cool anime fashion meets wet cyan reflections and warm evening windows.",
@@ -138,11 +138,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "b029beef90659cb8e9d71c2f2929a5de74089e2038ed5df3cb8013da70b76d40"
+      "sha256": "729dc653f57bc6d0638390395e5f2352449518f23923bad5cf537d9801e0ba4e"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "c0c87d285a4a18b6a47c5b4dfb4dc26f022edcf8f2428b176684f8cfb6db285d"
+      "sha256": "3c27630880bb277d6be45125b7bdc76a51f67ba46ae1ea2e8cad719030a132fb"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -225,7 +225,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -247,15 +247,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "foreground-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "foreground-light",
@@ -275,11 +267,11 @@
           }
         },
         "regular": {
-          "asset": "foreground-light",
+          "asset": "scene-light-pad",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -366,7 +358,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -388,15 +380,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "foreground-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "foreground-dark",
@@ -416,11 +400,11 @@
           }
         },
         "regular": {
-          "asset": "foreground-dark",
+          "asset": "scene-dark-pad",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

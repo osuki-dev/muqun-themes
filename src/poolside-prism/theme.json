@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "poolside-prism",
   "name": "Poolside Prism",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Community",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -122,7 +122,7 @@
     },
     "youth-light-regular": {
       "path": "assets/youth-light-regular.webp",
-      "sha256": "69861fa751e8c09597f1662da091e2ed7c15c8653366d9aff64f5083a09a5122"
+      "sha256": "f552d0db91e8e211fbfdf5834dc44f1a2c118d93aefa11c1f658d961e5888dfe"
     },
     "youth-light-compact": {
       "path": "assets/youth-light-compact.webp",
@@ -130,7 +130,7 @@
     },
     "youth-dark-regular": {
       "path": "assets/youth-dark-regular.webp",
-      "sha256": "cf99d89bc5c23dfecca412aeeaedd8c25357a34887947b52460dceabcf2a5160"
+      "sha256": "f552d0db91e8e211fbfdf5834dc44f1a2c118d93aefa11c1f658d961e5888dfe"
     },
     "youth-dark-compact": {
       "path": "assets/youth-dark-compact.webp",
@@ -223,15 +223,7 @@
           "y": 0.5
         }
       },
-      "regular": {
-        "asset": "youth-foreground",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
+      "regular": null
     },
     "launch.artwork": {
       "asset": "youth-foreground",
@@ -317,15 +309,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "youth-foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "youth-light-regular",
@@ -346,10 +330,10 @@
         },
         "regular": {
           "asset": "youth-light-regular",
-          "fit": "cover",
-          "opacity": 0.32,
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -632,15 +616,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "youth-foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "youth-dark-regular",
@@ -661,10 +637,10 @@
         },
         "regular": {
           "asset": "youth-dark-regular",
-          "fit": "cover",
-          "opacity": 0.38,
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

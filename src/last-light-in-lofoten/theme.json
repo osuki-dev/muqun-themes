@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "A quiet thermos break on a rocky Lofoten shore, captured in cinematic outdoor photography. Burgundy fleece and cream wool meet steel-blue water, sunset and cabin-lit evening.",
@@ -131,11 +131,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "929eb15349b75b083dde28dd34d1874668cef12981c9474b702339f45b5dfdb8"
+      "sha256": "289096e156aa5e7d2cd4c1719272c1d2a67a8c79a5fd8de9374c002a911ea7b4"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "7090200e01150c4f87762dd20fb426c1c4b25380ecaa29b9d37db0ac59365aec"
+      "sha256": "289096e156aa5e7d2cd4c1719272c1d2a67a8c79a5fd8de9374c002a911ea7b4"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -242,7 +242,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -264,15 +264,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "foreground-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "foreground-light",
@@ -292,11 +284,11 @@
           }
         },
         "regular": {
-          "asset": "foreground-light",
+          "asset": "scene-light-pad",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -327,7 +319,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -349,15 +341,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "foreground-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "foreground-dark",
@@ -377,11 +361,11 @@
           }
         },
         "regular": {
-          "asset": "foreground-dark",
+          "asset": "scene-dark-pad",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

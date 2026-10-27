@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "fern-and-fiord",
   "name": "Fern and Fiord",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "homePresentation": {
@@ -129,11 +129,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "5f2a65b39b72333e4c39344e905baec9fd2e101aaeb04adf3e057fccaf3f85c8"
+      "sha256": "e2bf7553c067b4199c7bb0da1d058c32b9beaf584ce6c6842d5eba83e9aa70a0"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "0a49a0a05b9301dc8382b8ffb2a57545f7868dc8b9dd6483166c64bd2c5b0477"
+      "sha256": "3529ee8aa5d98e182b97f18d3d188250e42b321ed7708f704e257118d44bfe88"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -255,7 +255,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -277,15 +277,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",
@@ -502,7 +494,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -524,15 +516,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",

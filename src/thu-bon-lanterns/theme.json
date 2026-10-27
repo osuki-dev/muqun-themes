@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "thu-bon-lanterns",
   "name": "Lanterns on the Thu Bon",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "Two friends arrange flowers beside a riverside bicycle beneath golden lanterns. Peach and indigo summer clothes, warm editorial illustration and a lively riverside neighborhood glow from day into evening.",
@@ -131,11 +131,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "cb2c8b1dad7cb84de0cb810b290f09667c434dd4022110acab617ba0a9d0b296"
+      "sha256": "2c8a47369469a391226092c46af525df4e8f2d4181f707bce09cd6d6030c5df8"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "51074917dab3a6f2b56219425d205100ef4782b036f95c8926c790323b86f1ff"
+      "sha256": "2c8a47369469a391226092c46af525df4e8f2d4181f707bce09cd6d6030c5df8"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -211,7 +211,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -233,15 +233,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",
@@ -337,7 +329,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -359,15 +351,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",

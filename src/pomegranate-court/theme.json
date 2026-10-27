@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pomegranate-court",
   "name": "Pomegranate Court",
-  "version": "1.1.10",
+  "version": "1.1.12",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "description": "A bassist and drummer rehearse in a leafy courtyard, drawn in textured indie music illustration with vivid reds, greens and pale yellows.",
@@ -191,6 +191,10 @@
     },
     "composer-continuity": {
       "path": "assets/composer-continuity.png"
+    },
+    "hero-compact-wide": {
+      "path": "assets/hero-compact-wide.png",
+      "sha256": "e13e1ef9f429765e8a3b7195d85154f7018c13b0dc9c81755d177c1d884b4e6f"
     }
   },
   "decoration": {
@@ -203,7 +207,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "hero",
+        "asset": "hero-compact-wide",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -298,7 +302,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -445,7 +449,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -558,8 +562,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "Pomegranate"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"

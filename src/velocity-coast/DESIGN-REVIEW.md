@@ -11,3 +11,9 @@ The CLI 2.4.1 validate, contrast and package round-trip checks pass. Longest-edg
 The former empty-state and scene images with a recognizable franchise mascot stay removed; they conflict with the new original adult skating group.
 
 Version 1.1.9 changes only version/license metadata from 1.1.8; all declared artwork hashes remain identical.
+
+## Compact face clearance 1.1.10
+
+Actual iOS Editorial screenshots of 1.1.9 showed the parameters button overlapping the left skater’s face in both modes. Only compact Home artwork focal y changes from 0 to 0.65, using native contain slack to lower the complete group. All artwork, semantic icon mappings, regular slots and other surfaces remain unchanged. Both-mode Editorial retest and Stage comparison are required; source geometry is not native acceptance.
+
+Actual current iOS 1.1.10 Phone Editorial/Stage light/dark captures were inspected: all three faces clear of the top actions in each state; the prior Editorial left-face collision is resolved. Stage still naturally clips the right outer arm at the viewport edge and lower skates meet the pairing card. This is scoped unpaired Phone visual evidence, not paired-state/Classic/interaction or complete Pad acceptance.

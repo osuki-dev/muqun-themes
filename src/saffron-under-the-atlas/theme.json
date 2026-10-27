@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "saffron-under-the-atlas",
   "name": "Saffron under the Atlas",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "author": "Independent Artists",
   "license": "All rights reserved",
   "homePresentation": {
@@ -179,6 +179,10 @@
     "environment-dark": {
       "path": "assets/environment-dark.webp",
       "sha256": "8ae90f0d27270ed30d9acc2be6f9519b9467c752faed0ae3e6148fd061d57c76"
+    },
+    "pad-grounded-scene": {
+      "path": "assets/pad-grounded-scene.webp",
+      "sha256": "96470d75e709ac25e8f74c0985a575a7580430a17870d4c886ab9bb7ddb7a476"
     }
   },
   "decoration": {},
@@ -236,11 +240,11 @@
           }
         },
         "regular": {
-          "asset": "environment-light",
-          "fit": "cover",
-          "opacity": 0.35,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -262,15 +266,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "environment-light",
@@ -383,11 +379,11 @@
           }
         },
         "regular": {
-          "asset": "environment-dark",
-          "fit": "cover",
-          "opacity": 0.28,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -409,15 +405,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "environment-dark",

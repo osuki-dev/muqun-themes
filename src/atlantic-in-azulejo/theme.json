@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlantic-in-azulejo",
   "name": "Atlantic in Azulejo",
-  "version": "1.4.4",
+  "version": "1.4.6",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -188,6 +188,14 @@
     },
     "tile": {
       "path": "assets/tile.png"
+    },
+    "pad-grounded-light": {
+      "path": "assets/pad-grounded-light.png",
+      "sha256": "f81e7738eff5536c680acc4c18777947b2a941f3fa83c15f435a0f679d437953"
+    },
+    "pad-grounded-dark": {
+      "path": "assets/pad-grounded-dark.png",
+      "sha256": "6c06a3f2ca82698a17f02a0631bcf16e7ff80ec913581aa31264be5cbc7b7fe6"
     }
   },
   "decoration": {
@@ -363,12 +371,12 @@
           }
         },
         "regular": {
-          "asset": "layer-environment",
-          "fit": "cover",
-          "opacity": 0.45,
+          "asset": "pad-grounded-light",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.4
+            "x": 0,
+            "y": 0.5
           }
         }
       },
@@ -389,15 +397,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "layer-hero",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-corners",
@@ -457,12 +457,12 @@
           }
         },
         "regular": {
-          "asset": "layer-environment-dark",
-          "fit": "cover",
-          "opacity": 0.45,
+          "asset": "pad-grounded-dark",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.4
+            "x": 0,
+            "y": 0.5
           }
         }
       },
@@ -483,15 +483,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "layer-hero",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-corners",

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "urban-sentinel",
   "name": "Urban Sentinel",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "author": "Community",
   "license": "CC0-1.0",
   "description": "An androgynous model strides across a rooftop in sage cargo trousers, a cropped black jacket and citron sling bag. Restrained technical-fashion photography.",
@@ -153,7 +153,7 @@
     },
     "youth-light-regular": {
       "path": "assets/youth-light-regular.webp",
-      "sha256": "6e81a82c4994e38df8fbbe1d699db71334ef337fec662846c9e7f18c4687493e"
+      "sha256": "8e482d2d150b731084893288b67422def16ec612df5b21abe10b8a66369f3f49"
     },
     "youth-light-compact": {
       "path": "assets/youth-light-compact.webp",
@@ -161,7 +161,7 @@
     },
     "youth-dark-regular": {
       "path": "assets/youth-dark-regular.webp",
-      "sha256": "2383a83b4cddfac3ac82f4d61f81639d3a399681133ecf17290e323033fa73f0"
+      "sha256": "00f8263e6fc91eaf6d6a4433948761f918b7601633c31f455f9237d21819dccb"
     },
     "youth-dark-compact": {
       "path": "assets/youth-dark-compact.webp",
@@ -234,15 +234,7 @@
           "y": 0.5
         }
       },
-      "regular": {
-        "asset": "youth-foreground",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
+      "regular": null
     },
     "launch.artwork": {
       "asset": "youth-foreground",
@@ -298,15 +290,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "youth-foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "youth-light-regular",
@@ -327,10 +311,10 @@
         },
         "regular": {
           "asset": "youth-light-regular",
-          "fit": "cover",
-          "opacity": 0.32,
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -372,15 +356,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "youth-foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "youth-dark-regular",
@@ -401,10 +377,10 @@
         },
         "regular": {
           "asset": "youth-dark-regular",
-          "fit": "cover",
-          "opacity": 0.38,
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

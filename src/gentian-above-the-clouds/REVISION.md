@@ -32,3 +32,7 @@ Edit only lighting of this exact empty environment into quiet blue nighttime wit
 ## Acceptance
 
 Source images inspected for complete bodies, genuine alpha, subject-free environments and coherent props. CLI and contrast results are reported separately. Native Classic/Editorial/Stage phone/tablet validation remains pending with the parent QA agent; source validity is not visual acceptance.
+
+## 1.1.13 compact Stage framing
+
+Native iPhone Stage 1.1.12 cropped the snowboard and outer arm/boot. Compact now uses a separate 2:1 centered transparent foreground with complete figures and board. Regular art and all other slots stay unchanged. Native recheck is pending.

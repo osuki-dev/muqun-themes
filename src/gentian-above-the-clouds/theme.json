@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "gentian-above-the-clouds",
   "name": "Gentian above the Clouds",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -183,6 +183,10 @@
     "composer-corner-continuity": {
       "path": "assets/composer-corner-continuity.png",
       "sha256": "a326a1e42c2ae50167f6081a30485408eeb190bfbb470532da0695dfc4bbe1de"
+    },
+    "hero-compact-wide": {
+      "path": "assets/hero-compact-wide.png",
+      "sha256": "35854e9d2aad8dd858cc4065aa1600c9f04f3639df7f430b3e2979842ca15700"
     }
   },
   "decoration": {
@@ -195,7 +199,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "hero",
+        "asset": "hero-compact-wide",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -349,7 +353,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -484,7 +488,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

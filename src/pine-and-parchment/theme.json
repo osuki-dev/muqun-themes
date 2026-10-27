@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "pine-and-parchment",
   "name": "Pine & Parchment",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Theme contributors",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -126,11 +126,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "af3c776a8333caf0a04e5130e0d02e087884aeb8652ecd04c068ece1a3a97486"
+      "sha256": "1bafdb97d318e8c2928bc607176a8dd79609499e50ce05ff021dac72421fcf85"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "1c57eb49a3027293354d9577299b0373a7cafb8f49befd15f1f72d79698d0255"
+      "sha256": "1bafdb97d318e8c2928bc607176a8dd79609499e50ce05ff021dac72421fcf85"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -272,7 +272,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -294,15 +294,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",
@@ -587,7 +579,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -609,15 +601,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",

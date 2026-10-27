@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "author": "Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -211,6 +211,10 @@
     "home-composer-regular": {
       "path": "assets/home-composer-regular.png",
       "sha256": "60f26d6f9ad8e6304b499aac2e010aac12a8e851c0a225c6f6a3fdf48ca10d30"
+    },
+    "hero-compact-wide": {
+      "path": "assets/hero-compact-wide.png",
+      "sha256": "ae298ed57bac2503dc77f04e2fdb4c36cc264a22bd3aa648e1567868ae2eb054"
     }
   },
   "decoration": {
@@ -223,7 +227,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "hero",
+        "asset": "hero-compact-wide",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -352,7 +356,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -649,7 +653,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero",
+          "asset": "hero-compact-wide",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

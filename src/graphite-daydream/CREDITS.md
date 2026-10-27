@@ -7,3 +7,5 @@ The full-body foreground, subject-free phone/tablet day/night environments, and 
 Distribution license: All rights reserved. No third-party license exception is claimed.
 
 Version1.0.8 adds transparent side margins around the unchanged foreground drawing for phone Home layouts. No figure pixels are redrawn.
+
+The regular Pad scene is an original generated composite adaptation of this theme's own figure/environment, with physically continuous supporting furniture and floor. No new external reference was used.

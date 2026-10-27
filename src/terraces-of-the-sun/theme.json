@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "terraces-of-the-sun",
   "name": "Terraces of the Sun",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "author": "Independent Artists",
   "license": "All rights reserved",
   "homePresentation": {
@@ -179,6 +179,10 @@
     "environment-dark": {
       "path": "assets/environment-dark.webp",
       "sha256": "7db41d45083986f490707330208a56e3518a1f30aa667cc6f3dfeffb62af3324"
+    },
+    "pad-grounded-scene": {
+      "path": "assets/pad-grounded-scene.webp",
+      "sha256": "d51e0aa1986274da13abb03b5cf3efcc0cbf294d096643b51022fb2bf474febb"
     }
   },
   "decoration": {},
@@ -236,11 +240,11 @@
           }
         },
         "regular": {
-          "asset": "environment-light",
-          "fit": "cover",
-          "opacity": 0.35,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -262,15 +266,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "environment-light",
@@ -383,11 +379,11 @@
           }
         },
         "regular": {
-          "asset": "environment-dark",
-          "fit": "cover",
-          "opacity": 0.28,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -409,15 +405,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "environment-dark",

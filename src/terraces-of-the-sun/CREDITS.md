@@ -22,3 +22,7 @@ This inventory covers the current 1.1.10 source assets. Historical descriptions 
 | `assets/environment-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
 
 Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/terraces-of-the-sun/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.
+
+## Regular Home scenes, version 1.1.11
+
+`assets/pad-grounded-scene.webp`: new original integrated scenery generated with built-in image generation for this collection from its own subject artwork. The shared daylight composition preserves subject identity and adds coherent physical ground contact. Source: this authoring session, no external reference URL. Rights: All rights reserved. These additions do not replace or relicense the retained assets listed above.

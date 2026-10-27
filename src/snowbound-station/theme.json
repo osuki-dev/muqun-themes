@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "snowbound-station",
   "name": "Snowbound Station",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "minAppVersion": "3.1.0",
   "author": "Theme contributors",
   "license": "CC-BY-4.0",
@@ -149,11 +149,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "516eaee3aeef01c98f886a501bd6d7d799ecb7eef9bb535b556c26d8bf80a6f2"
+      "sha256": "9abffd219b9ebfcb79cca4cd03b6e5a74482b84b65cd89e6b39662bb9fb1f91b"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "fb7aef0a936048a527d98e717c9eb7757d29d7f0140944f04d985aa2fc03aec7"
+      "sha256": "9abffd219b9ebfcb79cca4cd03b6e5a74482b84b65cd89e6b39662bb9fb1f91b"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -295,7 +295,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -317,15 +317,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",
@@ -610,7 +602,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -632,15 +624,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "friends-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-friends",

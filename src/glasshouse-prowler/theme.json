@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "glasshouse-prowler",
   "name": "Glasshouse Prowler",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Independent Artists",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -179,6 +179,10 @@
     "wallpaper-dark": {
       "path": "assets/wallpaper-dark.webp",
       "sha256": "2649c3a8082c09566477090193a1ee590bc2349fc572a8af5f10eab6b7db5903"
+    },
+    "pad-grounded-scene": {
+      "path": "assets/pad-grounded-scene.webp",
+      "sha256": "6d4f43a50589116e5cb97f226c04eeeea7413bfd3bc83b3e4fc7b69c0e6035d6"
     }
   },
   "decoration": {},
@@ -236,11 +240,11 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
-          "opacity": 0.35,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -262,15 +266,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "wallpaper-light",
@@ -383,11 +379,11 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
-          "opacity": 0.28,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -409,15 +405,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "figure",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "shell.wallpaper": {
         "asset": "wallpaper-dark",

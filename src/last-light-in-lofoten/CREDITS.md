@@ -14,3 +14,7 @@ The following original collection assets are retained from the preceding theme r
 Prompts and internal validation records are not user-facing theme content.
 
 Version 1.0.15 separates complete human/animal poses into transparent day/night foregrounds. Responsive scenery contains no duplicate main subjects. Startup reuses the full cutout with contain fit; gallery uses the actual foreground and scenery.
+
+Version 1.0.16 uses grounded, complete full scenes for regular tablet wallpaper, with its separate regular foreground disabled. Compact phone artwork and ancillary asset bytes are preserved.
+
+The regular light and dark modes in version 1.0.16 intentionally share the same grounded sunset photograph; the interface palettes remain distinct. No separate night photograph is claimed for this regular scene.

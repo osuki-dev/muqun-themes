@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "harbor-nocturne",
   "name": "Harbor Nocturne",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Theme Collection",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -171,6 +171,10 @@
     "background-dark-regular": {
       "path": "assets/background-dark-regular.webp",
       "sha256": "4233e80a12a5e4a9b8e7f7d0f6f1fe5b8fb70114429d3f07b263fc55e9a7046e"
+    },
+    "pad-grounded-scene": {
+      "path": "assets/pad-grounded-scene.webp",
+      "sha256": "b96750e8c2877fffcc87a1002e3c5e160496ddd2e3856a3e828f270561c9e505"
     }
   },
   "decoration": {},
@@ -227,15 +231,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "background-light",
@@ -255,11 +251,11 @@
           }
         },
         "regular": {
-          "asset": "background-light-regular",
-          "fit": "cover",
-          "opacity": 0.38,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -340,15 +336,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "background-dark",
@@ -368,11 +356,11 @@
           }
         },
         "regular": {
-          "asset": "background-dark-regular",
-          "fit": "cover",
-          "opacity": 0.5,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

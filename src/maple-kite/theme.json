@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "maple-kite",
   "name": "Maple Kite",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Theme contributors",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -126,11 +126,11 @@
     },
     "scene-light-pad": {
       "path": "assets/scene-light-pad.webp",
-      "sha256": "7cf46e3bcd6706167b2ca86b7a328ba443eadb6e8fe10bc9b7e7b544cddb481c"
+      "sha256": "e3199941e9b0d92e0d213d80568da2a0ff55a8ff4714e1ac501e1c2427398f3c"
     },
     "scene-dark-pad": {
       "path": "assets/scene-dark-pad.webp",
-      "sha256": "79e186b2a1e1642cefeabfcd5d596c2243ac412422722d1bbf1342cfe293c862"
+      "sha256": "08223a80549fef9657b6102f88c718559e97287fc837d3b2b0dc1c75f3f007f7"
     },
     "preview": {
       "path": "assets/preview.png",
@@ -237,7 +237,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -259,15 +259,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-light",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",
@@ -363,7 +355,7 @@
           "fit": "cover",
           "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -385,15 +377,7 @@
             "y": 0
           }
         },
-        "regular": {
-          "asset": "group-dark",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "launch.artwork": {
         "asset": "launch-group",

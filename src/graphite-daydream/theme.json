@@ -3,10 +3,10 @@
   "schemaVersion": 1,
   "id": "graphite-daydream",
   "name": "Graphite Daydream",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Theme Collection",
   "license": "All rights reserved",
-  "description": "A curly-haired adult art student sketches unbranded sneakers on the studio floor in monochrome editorial drawing with a cobalt accent.",
+  "description": "A curly-haired adult art student sketches unbranded sneakers in a sunlit studio, in monochrome editorial drawing with a cobalt accent.",
   "tags": [
     "drawing",
     "monochrome",
@@ -214,6 +214,10 @@
     "foreground-compact": {
       "path": "assets/foreground-compact.webp",
       "sha256": "17479c7b8702491c9ff4cb798859827a2d2f3e9bd2e8b375d04844670515439f"
+    },
+    "pad-grounded-scene": {
+      "path": "assets/pad-grounded-scene.webp",
+      "sha256": "baee545182dc5d0a5d7f1267aaaa2c486b061b1490bb6e98f74dd2f22d195dca"
     }
   },
   "variantDecorations": {
@@ -235,15 +239,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "background-light",
@@ -263,11 +259,11 @@
           }
         },
         "regular": {
-          "asset": "background-light-regular",
-          "fit": "cover",
-          "opacity": 0.38,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }
@@ -577,15 +573,7 @@
             "y": 0.5
           }
         },
-        "regular": {
-          "asset": "foreground",
-          "fit": "contain",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
+        "regular": null
       },
       "home.wallpaper": {
         "asset": "background-dark",
@@ -605,11 +593,11 @@
           }
         },
         "regular": {
-          "asset": "background-dark-regular",
-          "fit": "cover",
-          "opacity": 0.5,
+          "asset": "pad-grounded-scene",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
+            "x": 0,
             "y": 0.5
           }
         }

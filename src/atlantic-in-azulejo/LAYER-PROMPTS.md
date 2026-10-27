@@ -41,3 +41,7 @@ SHA-256: `55cf1a40a8419371259b2a5da72002f789c82aa57806cefe2296ba884eaef772`
 Prompt:
 
 > A single skateboard with cobalt wheels and tomato-red deck beside a small white flower; bold Western comic linework and subtle grain. Small complete centered object vignette on genuine transparent background. Square1024x1024. No people, animals, text, brands or logos. Leave modest clear margin, readable silhouette.
+
+## Grounded tablet scene
+
+Built-in image generation edited the existing regular scene: preserve characters and style, place complete group on left half (Atlantic refined to left 45 percent), ground bodies and props naturally, retain continuous environment and quiet right half for cards; no blank band or UI. Dark variant changes lighting only to warm twilight with indigo sky while retaining composition. Both final sources are 1024×1536 portrait scenes, used only by regular wallpaper.
