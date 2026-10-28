@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "thu-bon-lanterns",
   "name": "Lanterns on the Thu Bon",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "Two friends arrange flowers beside a riverside bicycle beneath golden lanterns. Peach and indigo summer clothes, warm editorial illustration and a lively riverside neighborhood glow from day into evening.",
@@ -37,7 +37,7 @@
         "info": "#255C65"
       },
       "surfaces": {
-        "backgroundOpacity": 0.9
+        "backgroundOpacity": 1
       },
       "terminal": {
         "background": "#F4F4E8",
@@ -87,7 +87,7 @@
         "info": "#BDE4DB"
       },
       "surfaces": {
-        "backgroundOpacity": 0.9
+        "backgroundOpacity": 1
       },
       "terminal": {
         "background": "#0B211B",

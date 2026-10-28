@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cloud-post-office",
   "name": "Cloud Post Office",
-  "version": "1.2.10",
+  "version": "1.2.11",
   "author": "Community",
   "license": "All rights reserved",
   "variants": {
@@ -28,7 +28,7 @@
         "info": "#245877"
       },
       "surfaces": {
-        "backgroundOpacity": 0.88
+        "backgroundOpacity": 1
       },
       "terminal": {
         "background": "#F4F6FA",
@@ -78,7 +78,7 @@
         "info": "#B2DEEF"
       },
       "surfaces": {
-        "backgroundOpacity": 0.88
+        "backgroundOpacity": 1
       },
       "terminal": {
         "background": "#101A30",
