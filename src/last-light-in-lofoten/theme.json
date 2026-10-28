@@ -3,16 +3,16 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.12",
-  "author": "Muqun Theme Collection",
+  "version": "1.0.16",
+  "author": "Theme contributors",
   "license": "All rights reserved",
-  "description": "Rust-red fishing cabins meet luminous winter sea and glacier peaks. A fresh coastal scene with independent cabin startup artwork and clear nautical controls.",
+  "description": "A quiet thermos break on a rocky Lofoten shore, captured in cinematic outdoor photography. Burgundy fleece and cream wool meet steel-blue water, sunset and cabin-lit evening.",
   "tags": [
-    "norway",
+    "photography",
+    "outdoor",
     "lofoten",
-    "woodcut",
-    "fjord",
-    "russet"
+    "cozy",
+    "burgundy"
   ],
   "preview": "preview",
   "variants": {
@@ -121,21 +121,33 @@
     "default": "solid"
   },
   "assets": {
-    "icon-attach": {
-      "path": "assets/icon-attach.png",
-      "sha256": "8a60c1a7812cbfd8785796366dbc3dfad8f7773eb895b7fce9c780a7392e528c"
+    "scene-light-phone": {
+      "path": "assets/scene-light-phone.webp",
+      "sha256": "31d334d26746b2541b1218922c7321852583d917e25824b19ff0a03f0a447d61"
+    },
+    "scene-dark-phone": {
+      "path": "assets/scene-dark-phone.webp",
+      "sha256": "5f5f094f3db5e237a7a6650869acc05e03f99c2168977e37f476a79308f1cfb9"
+    },
+    "scene-light-pad": {
+      "path": "assets/scene-light-pad.webp",
+      "sha256": "289096e156aa5e7d2cd4c1719272c1d2a67a8c79a5fd8de9374c002a911ea7b4"
+    },
+    "scene-dark-pad": {
+      "path": "assets/scene-dark-pad.webp",
+      "sha256": "289096e156aa5e7d2cd4c1719272c1d2a67a8c79a5fd8de9374c002a911ea7b4"
+    },
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "a1621aaefbd09801906da59e8c598aab9c62c76e43d11be266a75c3c47fcdfa6"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
       "sha256": "60e333bdc1ab953be9f2fdcdbd52f16d08b6b034dbc25762e5dfbfc794f8aa76"
     },
-    "icon-send": {
-      "path": "assets/icon-send.png",
-      "sha256": "53a1268a7869c053449566f9eab9621c46a49605ac7d9dc8aa47f451d2e8e52a"
-    },
-    "preview": {
-      "path": "assets/preview.png",
-      "sha256": "8413db5653800aeb9a30efee555f08fefda7f20a4ae0131b654c9cfed97d672b"
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "8a60c1a7812cbfd8785796366dbc3dfad8f7773eb895b7fce9c780a7392e528c"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -145,122 +157,27 @@
       "path": "assets/icon-scan.png",
       "sha256": "7762552ebcc83a95a480a60f44799a547653b2d620c0c45d384384f5add2cde4"
     },
-    "icon-settings": {
-      "path": "assets/icon-settings.png",
-      "sha256": "0dc77e89e5653956bb93712dbfe198ebc628c3c4b6fe05029f4e179fabfa29c6"
-    },
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
       "sha256": "d203d20b0c70db2f5f23e275b9ab6e799591b3047e94ce77351c9151aba27399"
-    },
-    "home-coast": {
-      "path": "assets/home-coast.png",
-      "sha256": "1b581ee4d6e473562b4a95182df4ed023d40c573a16d9773af8d820ebb6010b3"
-    },
-    "launch-cabin": {
-      "path": "assets/launch-cabin.png",
-      "sha256": "0c525ab80a6d869847c467eb4ca17bf01f77cd5778125033d11baadf2971a5b2"
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "ae65a283af1db51ce58a6f8a580810ac82edcd76ebb0ed9f8a1a445475cdfd20"
     },
-    "home-environment-light": {
-      "path": "assets/home-environment-light.png",
-      "sha256": "9c472daf6c63f893592856b12f991d96c51442d0838e9db3f78ef46524de1549"
+    "foreground-light": {
+      "path": "assets/foreground-light.webp",
+      "sha256": "bca0725d2895039c919717d8389d54ee6b83dd16aed7324412be4fd4a6e8c2c8"
     },
-    "home-environment-dark": {
-      "path": "assets/home-environment-dark.png",
-      "sha256": "d2adbad81ad0ed05fb7cae1f068fc4eab375b624f74ebb44c7ee53a7be048d75"
+    "foreground-dark": {
+      "path": "assets/foreground-dark.webp",
+      "sha256": "bc1b38fda16c84fd903b112a463852d45f9d9b48001338fa1782feb4055ff50a"
     }
   },
-  "decoration": {
-    "home.artwork": {
-      "asset": "home-coast",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "home-coast",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "home-coast",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    },
-    "launch.artwork": {
-      "asset": "launch-cabin",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "launch-cabin",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "launch-cabin",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    },
-    "empty.artwork": {
-      "asset": "launch-cabin",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "launch-cabin",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "launch-cabin",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    }
-  },
+  "decoration": {},
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "LOFOTEN"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -274,10 +191,7 @@
       "asset": "icon-back",
       "render": "template"
     },
-    "chrome.send": {
-      "asset": "icon-send",
-      "render": "template"
-    },
+    "chrome.send": null,
     "chrome.attach": {
       "asset": "icon-attach",
       "render": "template"
@@ -290,21 +204,15 @@
       "asset": "icon-scan",
       "render": "template"
     },
-    "chrome.settings": {
-      "asset": "icon-settings",
+    "chrome.settings": null,
+    "chrome.parameters": {
+      "asset": "icon-parameters",
       "render": "template"
     },
     "home.arrow": {
       "asset": "icon-arrow",
       "render": "template"
-    },
-    "chrome.parameters": {
-      "asset": "icon-parameters",
-      "render": "template"
     }
-  },
-  "iconDirections": {
-    "home.arrow": "up-right"
   },
   "homePresentation": {
     "header": "cover",
@@ -313,61 +221,163 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "home-environment-light",
+        "asset": "scene-light-phone",
         "fit": "cover",
-        "opacity": 0.32,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-environment-light",
+          "asset": "scene-light-phone",
           "fit": "cover",
-          "opacity": 0.32,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-environment-light",
+          "asset": "scene-light-pad",
           "fit": "cover",
-          "opacity": 0.32,
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.8
+            "x": 0,
+            "y": 0.5
           }
         }
-      }
+      },
+      "home.artwork": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "foreground-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": null
+      },
+      "launch.artwork": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground-light",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-light-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "home-environment-dark",
+        "asset": "scene-dark-phone",
         "fit": "cover",
-        "opacity": 0.65,
+        "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "home-environment-dark",
+          "asset": "scene-dark-phone",
           "fit": "cover",
-          "opacity": 0.65,
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-environment-dark",
+          "asset": "scene-dark-pad",
           "fit": "cover",
-          "opacity": 0.65,
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0.8
+            "x": 0,
+            "y": 0.5
           }
         }
-      }
+      },
+      "home.artwork": {
+        "asset": "foreground-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0
+        },
+        "compact": {
+          "asset": "foreground-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "regular": null
+      },
+      "launch.artwork": {
+        "asset": "foreground-dark",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground-dark",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "scene-dark-pad",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0,
+            "y": 0.5
+          }
+        }
+      },
+      "home.composer.background": null,
+      "home.composer.decoration": null
     }
+  },
+  "effects": {
+    "ambient": "none"
+  },
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }

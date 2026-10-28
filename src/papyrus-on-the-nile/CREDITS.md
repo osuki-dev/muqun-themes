@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Credits
 
 ## Home continuity candidate 1.1.7
@@ -12,3 +14,5 @@ Current illustrations are original AI-generated work made with the built-in Open
 All seven `assets/icon-*.png` images are original geometric glyph drawings by Muqun Theme Collection under the theme license, shared with the collection's contemporary line family. Template tint preserves native readability; back source left, send and Home arrow up-right.
 
 `assets/preview.png` is a 1024×640 light/dark fictional source UI composition built from final assets/palette, not a device screenshot.
+
+- `assets/hero-compact-wide.png`: OpenAI built-in image generation edit of this pack's original `hero.png`, 2026-10-28; original subject/style retained, centered complete composition on wide transparent canvas. Prompt: Technical reframing only; preserve complete bodies, feet, props, faces and style; wide 2:1 genuine-alpha canvas, central 48% subject width, large transparent side margins, no crop, no backdrop, no new subjects. Generated source: `exec-1288c514-826a-4079-908b-3916b7d5bf65.png`.

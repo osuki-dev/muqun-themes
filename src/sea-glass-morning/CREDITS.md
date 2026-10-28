@@ -1,10 +1,24 @@
-# Artwork credits
+# Artwork and asset credits
 
-Sea Glass Morning is original artwork created for the Muqun Theme Collection using OpenAI image generation. No third-party photographs, stock illustrations, branded characters or interface screenshots are included. License: All rights reserved.
+The four scene images and gallery preview are original commissioned artwork for this theme. No external stock art, copied character, font, or brand mark is bundled.
 
-- `scene-*.png`: independently composed coastal tram-stop scenes for portrait and landscape, with matching daylight and moonlight treatments.
-- `tide-*.png`: transparent shoreline, foam and shell accents for the Home composer in light and dark appearances, with separate phone and tablet compositions.
-- `icon-*.png`: original geometric control glyphs rendered as transparent template images. The parameter sliders are distinct from settings.
-- `preview.png`: the theme's own scene and palette, composed into a 1024x640 light/dark cover with no simulated App controls.
+The following original collection assets are retained from the preceding theme revision (Git revision 6308985), by Muqun theme authors, under All rights reserved. Their original bytes are preserved. Source: https://github.com/osuki-dev/muqun-themes/tree/6308985/src/sea-glass-morning/assets . Attribution applies to source assets and does not add a logo or text to the interface.
 
-Image generation service: https://openai.com/index/image-generation-api/
+- `assets/icon-back.png`
+- `assets/icon-send.png`
+- `assets/icon-attach.png`
+- `assets/icon-create.png`
+- `assets/icon-scan.png`
+- `assets/icon-arrow.png`
+- `assets/icon-settings.png`
+- `assets/icon-parameters.png`
+- `assets/tide-light-compact.png`
+- `assets/tide-light-regular.png`
+- `assets/tide-dark-compact.png`
+- `assets/tide-dark-regular.png`
+
+Prompts and internal validation records are not user-facing theme content.
+
+Version 1.1.3 separates complete human/animal poses into transparent day/night foregrounds. Responsive scenery contains no duplicate main subjects. Startup reuses the full cutout with contain fit; gallery uses the actual foreground and scenery.
+
+Version 1.1.5 uses grounded, complete full scenes for regular tablet wallpaper, with its separate regular foreground disabled. Compact phone artwork and ancillary asset bytes are preserved.

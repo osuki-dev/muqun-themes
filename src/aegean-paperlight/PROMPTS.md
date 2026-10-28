@@ -1,3 +1,5 @@
+> Historical authoring record retained for provenance. Its asset and layout descriptions refer to the previous release; see REVISION.md for the current design.
+
 # Original illustration prompts
 
 Built-in OpenAI image generation with transparent_background:true; no API/CLI fallback.

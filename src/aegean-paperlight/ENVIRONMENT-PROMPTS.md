@@ -1,3 +1,5 @@
+> Historical authoring record retained for provenance. Its asset and layout descriptions refer to the previous release; see REVISION.md for the current design.
+
 # Continuity artwork prompts
 
 Generated with OpenAI imagegen. Native output dimensions retained; no scripted raster editing.

@@ -1,34 +1,23 @@
-# Northstar Keeper credits
+# Northstar Keeper asset provenance
 
-## Home continuity candidate 1.0.3
+This inventory covers the current 1.0.6 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
 
-The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
-
-
-Original artwork commissioned for Muqun with OpenAI built-in image generation on 2026-09-26. The polar bear keeper is an original character, not an existing film or game character. This theme's original artwork and icon designs are distributed under CC0-1.0.
-
-| Files | Creator and source | License |
+| Current file | Origin and creator | Rights |
 | --- | --- | --- |
-| `assets/home.webp` | Muqun / OpenAI built-in image generation, https://openai.com/index/image-generation/ | CC0-1.0 |
-| `assets/launch.webp` | Muqun / independent OpenAI built-in image generation with Home as character identity reference, https://openai.com/index/image-generation/ | CC0-1.0 |
-| `assets/wallpaper-light.webp`, `assets/wallpaper-dark.webp` | Muqun / two independent original OpenAI background paintings, https://openai.com/index/image-generation/ | CC0-1.0 |
-| `assets/icon-*.png` | Muqun / original nautical and compass-inspired geometry, rasterized to PNG | CC0-1.0 |
-| `assets/preview.png` | Muqun / composition of this theme's own artwork | CC0-1.0 |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | CC0-1.0 |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-back.png) | CC0-1.0 |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-send.png) | CC0-1.0 |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-attach.png) | CC0-1.0 |
+| `assets/icon-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-create.png) | CC0-1.0 |
+| `assets/icon-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-scan.png) | CC0-1.0 |
+| `assets/icon-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-settings.png) | CC0-1.0 |
+| `assets/icon-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-arrow.png) | CC0-1.0 |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/assets/icon-parameters.png) | CC0-1.0 |
+| `assets/figure.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/empty.webp` | Collection square adaptation of the current transparent figure | CC0-1.0 |
+| `assets/environment-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/environment-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
 
-## Generation direction
-
-Home prompt: original Western animated feature polar bear lighthouse keeper, friendly mature expression, hazel eyes, navy wool double-breasted coat with aligned brass buttons, ochre knitted muffler, navy sailor cap, brass maritime lantern naturally held by a paw. Tactile fur and tailored cloth. Transparent alpha, no scenery or floor. A targeted background extraction removed the diffuse generated backdrop while preserving fur, seams, eyes and lantern structure.
-
-Launch prompt: same original character identity and clothing in a new complete standing pose, lantern lowered beside one thigh and opposite paw waving, full feet and coat. Complete silhouette with transparent margins, no floor plane, no scenery. This is independently generated and is not a crop of Home.
-
-Day wallpaper prompt: grand arctic lighthouse coast, white stone tower and ochre lantern room, snow-clad charcoal cliffs, teal ocean, sculptural ice, luminous ivory dawn sky and warm clouds. Original Western animation matte painting, no foreground characters or lettering.
-
-Night wallpaper prompt: independent charcoal arctic coast with emerald and pale gold aurora curtains, warm lighthouse beam, dark teal sea, snow and ice forms. Original Western animation matte painting, no foreground characters or lettering.
-
-## Theme coverage
-
-The seven currently replaceable icon roles are all included: back, send, attachment, create, scan, settings and Home arrow. Icons are template-rendered and inherit the theme's current color. The Home arrow's direction is explicitly `up-right`. Other App glyphs are outside the current theme replacement contract.
-
-Neutral character art is shared across both color modes. Wallpapers, UI palettes and terminal colors are mode-specific. Home and launch foregrounds have true alpha and were inspected over white backgrounds, including full paws, cap, coat hem, lantern handle and glass housing. Source assets have at most a 1024-pixel edge; preview is 1024 by 640. Snow uses a low authored density and intensity with the App's existing bounded renderer. No native installation or performance measurement is claimed.
-
-CLI 2.3.1 validation, contrast and package round-trip passed.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/northstar-keeper/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.

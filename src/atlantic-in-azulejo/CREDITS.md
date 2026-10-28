@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Atlantic in Azulejo — artwork credits
 
 All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.

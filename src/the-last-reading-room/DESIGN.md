@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # The Last Reading Room
 
 A thoughtful young adult reading beside window light, in cream, sage and contemporary ink tones.

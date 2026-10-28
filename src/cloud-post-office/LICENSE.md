@@ -1,3 +1,3 @@
-# Cloud Post Office — License
+# License
 
-All rights reserved. AI-generated artwork; see CREDITS.md for attribution and PROMPTS.md for provenance. No affiliation with depicted places or cultural institutions is implied.
+Theme data and original artwork: All rights reserved.

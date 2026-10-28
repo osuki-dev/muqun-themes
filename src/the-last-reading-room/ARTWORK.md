@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Original illustration prompts
 
 Generated with the OpenAI built-in image generation tool on 2026-10-11. Characters are fictional adults; no external reference images, logos or licensed character designs were used. Home and launch are separately generated compositions with genuine alpha transparency.

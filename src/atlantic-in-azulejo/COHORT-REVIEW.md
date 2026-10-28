@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Theme continuity review — cohort 0
 
 All19 sources reviewed against published main `98ebc1e7a054d26c0dff9f3fa5857d61b32f56a9`. Existing current icons and composer fixes were synchronized before additional art changes. Source work remains a local candidate.

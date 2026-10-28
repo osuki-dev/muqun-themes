@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Gentian above the Clouds
 
 Original AI-generated artwork for Muqun Theme Collection. All rights reserved.
@@ -51,3 +53,5 @@ Home input artwork is unchanged. Resolved mode/width declarations (responsive im
 | dark | regular | `{"asset":"composer-corner-continuity","fit":"contain","opacity":0.3,"focalPoint":{"x":0.5,"y":0},"outset":{"left":0,"right":0,"bottom":0}}` | none |
 
 Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.
+
+- `assets/hero-compact-wide.png`: OpenAI built-in image generation edit, 2026-10-28. Prompt: Technical reframing only; preserve two snowboarder friends, complete bodies/boots/gloves/board tips, faces, poses and colors; centered central 48% width on 2:1 genuine transparent canvas with generous side margins; no crop/background/new objects. Source `exec-42279454-8d30-4f88-b801-354ec14bc86b.png`.

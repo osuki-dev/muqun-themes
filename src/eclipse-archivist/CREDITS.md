@@ -1,24 +1,24 @@
-# Eclipse Archivist artwork
+# Eclipse Archivist asset provenance
 
-All illustrations were created for Muqun with OpenAI's built-in image generation tool on September 26, 2026. The celestial archivist, costume and environment are original fictional designs; no existing franchise characters or external reference artwork were used. Released under CC0-1.0 to the extent permitted by applicable rights.
+This inventory covers the current 1.0.6 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
 
-- `assets/figure.webp`: Original silver-winged celestial archivist, plum robes, white hair and armillary sphere; generated as a portrait and refined with a transparent-background extraction pass. The resulting alpha channel is preserved.
-- `assets/launch.webp`: Independent full-body transparent launch pose of the archivist, with both silver wings, complete costume and armillary sphere; the original scenery was removed through image generation editing.
-- `assets/wallpaper-light.webp`: Pearl and plum dawn ringworld observatory, without characters.
-- `assets/wallpaper-dark.webp`: Charcoal and plum nocturnal ringworld observatory, without characters.
-- `assets/preview.webp`: HTML-rendered light/dark gallery composition of this theme's artwork, 1024 by 640 pixels.
-- `assets/icon-*.png`: Original vector-authored semantic glyphs rasterized to transparent 96 by 96 PNG; the arrow points up-right. All seven supported icon roles use template tinting.
+| Current file | Origin and creator | Rights |
+| --- | --- | --- |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | CC0-1.0 |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-back.png) | CC0-1.0 |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-send.png) | CC0-1.0 |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-attach.png) | CC0-1.0 |
+| `assets/icon-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-create.png) | CC0-1.0 |
+| `assets/icon-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-scan.png) | CC0-1.0 |
+| `assets/icon-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-settings.png) | CC0-1.0 |
+| `assets/icon-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-arrow.png) | CC0-1.0 |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/icon-parameters.png) | CC0-1.0 |
+| `assets/composer-continuity.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/composer-continuity.png) | CC0-1.0 |
+| `assets/figure.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/empty.webp` | Collection square adaptation of the current transparent figure | CC0-1.0 |
+| `assets/wallpaper-light.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/wallpaper-light.webp) | CC0-1.0 |
+| `assets/wallpaper-dark.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/assets/wallpaper-dark.webp) | CC0-1.0 |
 
-## Generation direction
-
-Premium original anime key visual, monumental celestial architecture and lunar eclipse; pearl, plum, charcoal, silver and warm gold; no blue styling, logos or baked-in text. Home figure uses a transparent silhouette; wallpaper contains no repeated character. Launch uses a complete independent transparent character pose; scenery appears only in wallpapers. Stars are a low-density, low-speed App-provided decorative effect, not bundled animation.
-
-Compact and regular slot bindings are explicit. Foreground and launch use contain fitting to preserve wings and full costume in Classic and Editorial. No layout coordinates or App behavior are overridden.
-
-## Version 1.0.1 asset correction
-
-The built-in image generation tool removed the opaque launch scene and repaired the Home silhouette boundaries. Both assets now preserve complete physical details within transparent margins. Light and dark solid-background composites were inspected to confirm there is no rectangular background or fringe haze. Home and launch remain separate compositions. The final Home alpha bounds at a 5% threshold are 961 by 1375 at (37, 58) on a 1024 by 1536 canvas; launch bounds are 992 by 1430 at (17, 53).
-
-## Composer continuity
-
-Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/eclipse-archivist/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Pomegranate Court
 
 Spain / Granada. Mineral terracotta and ivory in daylight, aubergine after dusk, with turquoise water and ceramic accents. Original imagined arcades and pomegranate gardens evoke local courtyard craft without copying a specific artwork.

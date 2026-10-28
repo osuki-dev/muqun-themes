@@ -1,13 +1,28 @@
-# City Pop Balcony
+# シティポップ・バルコニー
 
-## Direction
+Two adult musicians trade cues across keyboard and bass on a peach and teal harbor balcony, rendered as a retro city-pop illustration.
 
-a breezy 1980s seaside balcony. The interface uses sunset coral, pool aqua, warm ivory. Light and dark variants are separately illustrated and art-directed rather than mechanically recolored.
+## One pack, three Home layouts
 
-## Home
+The existing Home artwork slot supplies one complete transparent foreground in contain fit. Classic, Editorial and Stage choose their own geometry; the manifest adds no layout selector. The complete foreground is also used at launch. No characters occur in wallpaper.
 
-The home identity uses a short Japanese slogan. The hero is a transparent cassette player with headphones, composed with generous transparent padding for both the home view and the app launch screen. Classic keeps it as the square Home hero. Editorial reuses the independently lit light and dark cutouts as contained top artwork, preserving the entire silhouette at compact and regular widths without changing startup or the Classic composition.
+Compact uses the existing portrait scene. Regular now uses a separately recomposed 1536×1024 landscape scene that retains the architectural vista and foreground floor together. Light and dark have independently lit environments. Full-body foreground sources remain uncropped; native fades and control overlap need device review.
 
-## Chrome
+## Resolved decoration mapping
 
-Back, send, and attach are custom monochrome template icons matched to the theme's line weight.
+| Mode | Slot | Base | Compact | Regular |
+| --- | --- | --- | --- | --- |
+| light | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | home.wallpaper | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light-regular / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | shell.wallpaper | background-light / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light-regular / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.wallpaper | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark-regular / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | shell.wallpaper | background-dark / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark-regular / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+
+## Controls and evidence
+
+Eight themed semantic icon slots are present, with template tinting and native fallback if unavailable. Settings uses a gear independently from parameter sliders; directional arrows retain their declared direction. Computer selection retains native semantics. Restored accents preserve their original bounded placement. New camera/headphone accents use 0.18 Home input opacity; no outset is added.
+
+Source validation and contrast are separate from native acceptance. Pending per-pack acceptance: Classic/Editorial/Stage × phone/Pad × light/dark, long computer titles and drafts, keyboard, parameters, voice, user opacity and theme switching. These source notes claim no screenshots.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Current original illustration prompts
 
 Built-in OpenAI image generation, 2026-10-11. No third-party references. Strictly 2D contemporary hand-ink anime editorial drawing, natural linework, flat cel shading and broad graphic palette planes; fictional people. Genuine transparent RGBA, tight composition, no text/UI/logos/watermark, no photorealism/3D/material-realistic antique props/woodgrain/souvenir miniature diorama.

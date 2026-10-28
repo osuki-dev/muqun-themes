@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Atlantic in Azulejo
 
 Version 1.4.0 expands the coastal tram illustration into a continuous daylight

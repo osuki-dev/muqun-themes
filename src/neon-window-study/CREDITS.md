@@ -1,10 +1,9 @@
-# Artwork credits
+# Asset credits
 
-Neon Window Study is original artwork created for the Muqun Theme Collection using OpenAI image generation. No third-party photographs, stock illustrations, branded characters or interface screenshots are included. License: All rights reserved.
+All eight control glyphs are retained original collection artwork. Original creator: Muqun Theme Collection (also credited as Muqun Project in earlier records). No third-party stock or extracted artwork is included.
 
-- `scene-compact.webp` and `scene-regular.webp`: individually composed café scenes at blue hour, adapted for portrait and landscape without stretching the artwork.
-- `console-*.webp`: transparent glass-console ledges with separate phone/tablet and light/dark compositions.
-- `icon-*.png`: original geometric control glyphs rendered as transparent template images. Parameters use adjustment tracks; settings uses a separate mechanism shape.
-- `preview.png`: the theme's own scene and palette, composed into a 1024x640 light/dark cover with no simulated App controls.
+The full-body foreground, subject-free phone/tablet day/night environments, and gallery preview are original generated artwork created for this redesign. New orange-tabby and headphones ornaments, where present, are also original generated artwork. No reference images, branded characters, fonts or UI screenshots are packaged.
 
-Image generation service: https://openai.com/index/image-generation-api/
+Distribution license: All rights reserved. No third-party license exception is claimed.
+
+Version1.0.7 adds transparent phone Home side margins without redrawing the foreground.

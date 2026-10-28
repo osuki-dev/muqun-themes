@@ -1,15 +1,25 @@
-# Cinder Canyon artwork credits
+# Cinder Canyon asset provenance
 
-Original artwork commissioned for Muqun with the OpenAI image generation tool on 2026-09-26. Creator: Muqun, AI-assisted. Source: this authoring session; no external URL. Contributor dedicates theme assets under CC0-1.0. No named franchise or existing fictional character was referenced.
+This inventory covers the current 1.0.8 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
 
-- `home-light.webp`: original adult Latino trail rider close portrait in retro western comic bold brush inks, flat cel-color planes and selective crosshatching. Tan hat, rust canvas jacket, teal bandana, coiled rope and weathered leather details.
-- `home-dark.webp`: generated night-lighting variation preserving identity, wardrobe, grip and silhouette.
-- `launch-light.webp`, `launch-dark.webp`: independently composed complete full-body walking rider. Light and dark use dedicated cel-lighting variations. Genuine transparency; hat, boots and rope are fully contained.
-- `wallpaper-light.webp`: independent grand red sandstone canyon in pearl and turquoise daylight.
-- `wallpaper-dark.webp`: independent deep umber starlight canyon with warm mesa rims.
-- `icon-*.png`: seven original semantic trail-inspired vector glyphs authored by Muqun and rasterized for template rendering. The Home arrow is up-right.
-- `preview.png`: composition of this theme's own art and palette.
+| Current file | Origin and creator | Rights |
+| --- | --- | --- |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | CC0-1.0 |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-back.png) | CC0-1.0 |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-send.png) | CC0-1.0 |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-attach.png) | CC0-1.0 |
+| `assets/icon-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-create.png) | CC0-1.0 |
+| `assets/icon-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-scan.png) | CC0-1.0 |
+| `assets/icon-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-settings.png) | CC0-1.0 |
+| `assets/icon-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-arrow.png) | CC0-1.0 |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/icon-parameters.png) | CC0-1.0 |
+| `assets/scene-regular-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/wallpaper-light.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/wallpaper-light.webp) | CC0-1.0 |
+| `assets/scene-regular-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/wallpaper-dark.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/assets/wallpaper-dark.webp) | CC0-1.0 |
+| `assets/figure-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/figure-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
 
-Prompts requested western graphic-novel linework rather than anime, exact face and costume continuity, anatomically clear fingers gripping rope, cloth seams and leather buckles, genuine transparent character silhouettes, independent monumental landscapes, and no text or logos.
-
-The four character assets were redrawn during visual review to remove photographic skin and fabric texture and strengthen visibly hand-drawn American comic styling.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/cinder-canyon/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.

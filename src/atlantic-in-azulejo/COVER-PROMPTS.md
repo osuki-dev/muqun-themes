@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Atlantic in Azulejo: integrated cover prompts
 
 Original Muqun collection art was used as the edit target. These edits were generated with the built-in OpenAI image generation tool; no API/CLI fallback was used. The original launch illustration and all chrome glyphs remain unchanged. The new gallery artwork contains art only, without UI, and replaces the legacy source preview through a new asset filename. Its generated 1586×992 dimensions are retained for local review; no script image edits or resizing were used.

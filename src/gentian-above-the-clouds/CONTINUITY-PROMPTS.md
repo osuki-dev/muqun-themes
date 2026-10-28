@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Continuity artwork prompts
 
 Built-in image generation was used. Existing main illustration and startup props were preserved.

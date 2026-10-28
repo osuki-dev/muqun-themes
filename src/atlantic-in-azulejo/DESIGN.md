@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Native artwork design
 
 Original2D illustrated natural activity/environment, with explicit lightdark semantic palettes and7consistent alpha-template chrome glyphs. Standard Editorial header deliberately keeps native title outside art. Bothwidth variants use the complete foreground trimmed to alpha bounds with24pxmargin; no oversize1536canvas, no Classic safety-shrink. Editorial standard contains this complete image in min(280,width/2); the main subject is prominent within that band. Classic contains art in180/132pt and intentionally overlaps the lowerthird; heads and upper activity remain above the overlap. Tablet follows Editorial in the current p1-companion contract.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Gentian above the Clouds — Contemporary native design
 
 A seated adult traveler and generous alpine window view, drawn in cream, blue and plum.

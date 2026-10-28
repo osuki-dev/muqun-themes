@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "ribbon-reverie",
   "name": "Ribbon Reverie",
-  "version": "1.2.5",
-  "author": "Muqun Theme Collection",
+  "version": "1.2.7",
+  "author": "Community",
   "license": "CC-BY-4.0",
   "preview": "preview",
   "variants": {
@@ -116,45 +116,29 @@
     "actions": "solid"
   },
   "assets": {
-    "wallpaper-light": {
-      "path": "assets/wallpaper-light.png",
-      "sha256": "2293941462d43844892e147b95f7620165f1b1068e850e4dc21efe1c257c0899"
+    "youth-foreground": {
+      "path": "assets/youth-foreground.png",
+      "sha256": "20d5ce6825de1ed1ccc74598784c4727986d6ccc271b101d705b56e7f918e01b"
     },
-    "home-paper-light": {
-      "path": "assets/home-paper-light.png",
-      "sha256": "2293941462d43844892e147b95f7620165f1b1068e850e4dc21efe1c257c0899"
+    "youth-light-regular": {
+      "path": "assets/youth-light-regular.webp",
+      "sha256": "e0db4de81c6286785e9711a2d0475bcb003ae1be3235c34e2706fc6175dc9ff6"
     },
-    "wallpaper-dark": {
-      "path": "assets/wallpaper-dark.png",
-      "sha256": "760c9b52139f326ab0e20321e6518d8fb9df3f74ce329e8143e08d36ec2d26fe"
+    "youth-light-compact": {
+      "path": "assets/youth-light-compact.webp",
+      "sha256": "5a60bc279c16f7ea99784f494f72c15828ec26a2689afabd5fcd3b1a3c6611bc"
     },
-    "home-paper-dark": {
-      "path": "assets/home-paper-dark.png",
-      "sha256": "760c9b52139f326ab0e20321e6518d8fb9df3f74ce329e8143e08d36ec2d26fe"
+    "youth-dark-regular": {
+      "path": "assets/youth-dark-regular.webp",
+      "sha256": "ef2f84836c9b8b8081f064cfbd2b199b97ea9b9e3241b0c14a95efa1deb8c7a7"
     },
-    "navigation": {
-      "path": "assets/navigation.png",
-      "sha256": "b4ab09755114afa68c351b8e09fdf3acb5037b49793ca8678ad46c016f27c2de"
+    "youth-dark-compact": {
+      "path": "assets/youth-dark-compact.webp",
+      "sha256": "45c428d3365eeb8009c474bd5a90db62641a33f934ace3233fa54168173fe7fb"
     },
-    "composer": {
-      "path": "assets/composer.png",
-      "sha256": "b6882d73c170585703f1dbf63110b51b4f3b37d1ff1825616ac0e29915da4083"
-    },
-    "actions": {
-      "path": "assets/actions.png",
-      "sha256": "8523d370a1afec65d8d3855582ce70b2d35231b80a33511bdaf302511574f5af"
-    },
-    "cards": {
-      "path": "assets/cards.png",
-      "sha256": "59e8bf4a0a1cb6c09444945808bdae2606b3da7f659918b0ef1737b916037b8a"
-    },
-    "buttons": {
-      "path": "assets/buttons.png",
-      "sha256": "d90df9b90bf49e322323f95680da642c7464cbfc4eb0cb5e6487dce49d5cdc61"
-    },
-    "tabs": {
-      "path": "assets/tabs.png",
-      "sha256": "0a1e3d7a77e933f628ad9abd10693c19e7e678f542f7abed45119dfcb00a1cbe"
+    "preview": {
+      "path": "assets/preview.png",
+      "sha256": "b14bf0c4fe4faff4f606396367d50ea4e7fe1a9b6bfa47d4afd2ce16a5f5140a"
     },
     "icon-back": {
       "path": "assets/icon-back.png",
@@ -184,21 +168,37 @@
       "path": "assets/icon-arrow.png",
       "sha256": "51857fcd288411ff7ed703d8a2b3069a7a613d3bae4dbf1299188a3450dc9a92"
     },
-    "launch": {
-      "path": "assets/launch.png",
-      "sha256": "eb2283f80768f38cdb553ca18480b871f38b082e65ca946410251d923a89a049"
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "567f8567033c98eadd3c3d6c8f51a3064cc5d958b18da61cd84ea14a400bba1e"
+    },
+    "navigation": {
+      "path": "assets/navigation.png",
+      "sha256": "b4ab09755114afa68c351b8e09fdf3acb5037b49793ca8678ad46c016f27c2de"
+    },
+    "composer": {
+      "path": "assets/composer.png",
+      "sha256": "b6882d73c170585703f1dbf63110b51b4f3b37d1ff1825616ac0e29915da4083"
+    },
+    "actions": {
+      "path": "assets/actions.png",
+      "sha256": "8523d370a1afec65d8d3855582ce70b2d35231b80a33511bdaf302511574f5af"
+    },
+    "cards": {
+      "path": "assets/cards.png",
+      "sha256": "59e8bf4a0a1cb6c09444945808bdae2606b3da7f659918b0ef1737b916037b8a"
+    },
+    "buttons": {
+      "path": "assets/buttons.png",
+      "sha256": "d90df9b90bf49e322323f95680da642c7464cbfc4eb0cb5e6487dce49d5cdc61"
+    },
+    "tabs": {
+      "path": "assets/tabs.png",
+      "sha256": "0a1e3d7a77e933f628ad9abd10693c19e7e678f542f7abed45119dfcb00a1cbe"
     },
     "empty": {
       "path": "assets/empty.png",
       "sha256": "fe12909f33e7b3ea10fc24a49443288f99f8cca565cb6979303fe6ed7f7d254a"
-    },
-    "home-artwork": {
-      "path": "assets/home-artwork.png",
-      "sha256": "44cb93f3435d3470690e3cf10115f187359060194b8b324c20c226223a955656"
-    },
-    "preview": {
-      "path": "assets/preview.png",
-      "sha256": "fc6eaef31d4143f72c453960d0329b0d3779cc1718f94979f744553caf45a798"
     },
     "home-composer-compact": {
       "path": "assets/home-composer-compact.png",
@@ -208,28 +208,95 @@
       "path": "assets/home-composer-regular.png",
       "sha256": "09cad47ab8e7617f2a2c31577795abe7efe13367b6ed6fdf4eaf3a317bf44758"
     },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png",
-      "sha256": "567f8567033c98eadd3c3d6c8f51a3064cc5d958b18da61cd84ea14a400bba1e"
-    },
     "home-composer-overhang": {
       "path": "assets/home-composer-overhang.png",
       "sha256": "619519aeb5b8ed87985ee6ef22810acbe1b4a1b284058ef81c222913904f47bc"
-    },
-    "home-cover-continuity": {
-      "path": "assets/home-cover-continuity.png",
-      "sha256": "cccb1b1813d7894ad7d6948bf097d78f620a8b88a950aeae22676bf738e5a60d"
-    },
-    "home-paper-light-continuity": {
-      "path": "assets/home-paper-light-continuity.png",
-      "sha256": "1fcbdd5c7c6f9decc33893d64e05dff0a430ff21e58e7ba9b86a5f6d09531633"
-    },
-    "home-paper-dark-continuity": {
-      "path": "assets/home-paper-dark-continuity.png",
-      "sha256": "a9debe3bf79ab0f63c81b9811427d610c908ecba077cc23561ffb4a1cdc09c18"
     }
   },
   "decoration": {
+    "home.artwork": {
+      "asset": "youth-foreground",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "youth-foreground",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "empty",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "empty",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": null,
+    "home.composer.decoration": null,
     "navigation.background": {
       "asset": "navigation",
       "fit": "cover",
@@ -391,89 +458,7 @@
           "y": 0.5
         }
       }
-    },
-    "launch.artwork": {
-      "asset": "launch",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "launch",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "launch",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    },
-    "empty.artwork": {
-      "asset": "empty",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "empty",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "empty",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    },
-    "home.artwork": {
-      "asset": "home-cover-continuity",
-      "fit": "cover",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "home.composer.decoration": null
+    }
   },
   "icons": {
     "chrome.back": {
@@ -500,28 +485,28 @@
       "asset": "icon-settings",
       "render": "template"
     },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
     "chrome.parameters": {
       "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
       "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "wallpaper-light",
-        "fit": "cover",
+      "home.artwork": {
+        "asset": "youth-foreground",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
+          "asset": "youth-foreground",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -529,8 +514,8 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
+          "asset": "youth-foreground",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -539,32 +524,33 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-light-continuity",
+        "asset": "youth-light-regular",
         "fit": "cover",
-        "opacity": 0.42,
+        "opacity": 0.32,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-light-continuity",
+          "asset": "youth-light-compact",
           "fit": "cover",
-          "opacity": 0.42,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-light-continuity",
+          "asset": "youth-light-regular",
           "fit": "cover",
-          "opacity": 0.42,
+          "opacity": 0.32,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
       },
+      "shell.wallpaper": null,
       "home.composer.background": {
         "asset": "home-composer-compact",
         "fit": "contain",
@@ -633,47 +619,20 @@
             "y": 0
           }
         }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
       }
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "wallpaper-dark",
-        "fit": "cover",
+      "home.artwork": {
+        "asset": "youth-foreground",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
+          "asset": "youth-foreground",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -681,8 +640,8 @@
           }
         },
         "regular": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
+          "asset": "youth-foreground",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -691,32 +650,33 @@
         }
       },
       "home.wallpaper": {
-        "asset": "home-paper-dark-continuity",
+        "asset": "youth-dark-regular",
         "fit": "cover",
-        "opacity": 0.35,
+        "opacity": 0.38,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-paper-dark-continuity",
+          "asset": "youth-dark-compact",
           "fit": "cover",
-          "opacity": 0.35,
+          "opacity": 0.38,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "home-paper-dark-continuity",
+          "asset": "youth-dark-regular",
           "fit": "cover",
-          "opacity": 0.35,
+          "opacity": 0.38,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
       },
+      "shell.wallpaper": null,
       "home.composer.background": {
         "asset": "home-composer-compact",
         "fit": "contain",
@@ -785,33 +745,6 @@
             "y": 0
           }
         }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
       }
     }
   },
@@ -826,11 +759,12 @@
       "mode": "default"
     }
   },
-  "description": "A joyful adult street-fashion dancer with flowing ribbons, in blush, coral, cream and ink.",
+  "description": "A copper-bobbed woman glances back as her cream skirt catches the breeze. Romantic fashion anime with a rose bomber and floral station platform.",
   "tags": [
-    "editorial",
-    "illustration",
-    "fashion"
+    "anime",
+    "romance",
+    "fashion",
+    "spring"
   ],
   "homePresentation": {
     "header": "cover",

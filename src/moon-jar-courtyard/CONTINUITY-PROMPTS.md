@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Continuity artwork
 
 All new raster artwork was authored with OpenAI built-in image generation on 2026-10-13 from this theme collection's original art or its theme brief. Each theme keeps its own subject, scene and visual medium.

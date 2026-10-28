@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "acacia-afterglow",
   "name": "Acacia Afterglow",
-  "version": "1.2.6",
-  "author": "Muqun Theme Collection",
+  "version": "1.2.10",
+  "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
   "variants": {
@@ -116,24 +116,6 @@
     "actions": "solid"
   },
   "assets": {
-    "launch": {
-      "path": "assets/launch.png"
-    },
-    "wallpaper-light": {
-      "path": "assets/wallpaper-light.png"
-    },
-    "wallpaper-dark": {
-      "path": "assets/wallpaper-dark.png"
-    },
-    "edge": {
-      "path": "assets/edge.png"
-    },
-    "rail": {
-      "path": "assets/rail.png"
-    },
-    "tile": {
-      "path": "assets/tile.png"
-    },
     "icon-back": {
       "path": "assets/icon-back.png"
     },
@@ -155,17 +137,57 @@
     "icon-settings": {
       "path": "assets/icon-settings.png"
     },
+    "icon-parameters": {
+      "path": "assets/icon-parameters.png",
+      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
+    },
+    "scene-compact-light": {
+      "path": "assets/scene-compact-light.png",
+      "sha256": "066917829cc7b8343ee91e7fcda6d49e3a2bd6d0dd4f6fb3bc6027d667bc4bd6"
+    },
+    "scene-regular-light": {
+      "path": "assets/scene-regular-light.png",
+      "sha256": "46e7ac859724495f5cbd24575a070555a9c3d5248aaeb4474b38009131b23529"
+    },
+    "scene-compact-dark": {
+      "path": "assets/scene-compact-dark.png",
+      "sha256": "d1c347003da917060c7e5fe798780f964f08566fa27c0bad4ed70f318b500f08"
+    },
+    "scene-regular-dark": {
+      "path": "assets/scene-regular-dark.png",
+      "sha256": "caed06505a4d0180427cb939c31dbf40d89577a27416cebf5664e7ce8aa4ffe3"
+    },
     "preview": {
-      "path": "assets/gallery-cover.png"
+      "path": "assets/gallery-cover.png",
+      "sha256": "2b6aa5a761f78013e4f1700ffaf45beb7a30240a955747b4b1ce0ccc56007373"
     },
-    "home-cover-light": {
-      "path": "assets/home-cover-light.png"
+    "layer-hero": {
+      "path": "assets/layer-hero.png",
+      "sha256": "df744ea4e878f7d9c0f3495c3a5d3efbc4a4fc05b5e9d5a275c0c79d8bc350dc"
     },
-    "home-cover-dark": {
-      "path": "assets/home-cover-dark.png"
+    "layer-environment": {
+      "path": "assets/layer-environment.png",
+      "sha256": "6fc35c5c2f9ef39712d0b3e67257014cc96a2ab572d0af8a301c0bffde7c40d3"
+    },
+    "layer-environment-dark": {
+      "path": "assets/layer-environment-dark.png",
+      "sha256": "10be125dac544a3e5b7967de0861272818b4278f3354b3cf58448ffc333c6db1"
+    },
+    "layer-empty": {
+      "path": "assets/layer-empty.png",
+      "sha256": "5d72bf1524b8d2c25ef42b22abdbbe3e2f45e96b090576b9f071f1dde3abf169"
+    },
+    "edge": {
+      "path": "assets/edge.png"
     },
     "composer-accent": {
       "path": "assets/composer-accent.png"
+    },
+    "rail": {
+      "path": "assets/rail.png"
+    },
+    "tile": {
+      "path": "assets/tile.png"
     },
     "composer-compact": {
       "path": "assets/composer-compact.png",
@@ -175,71 +197,75 @@
       "path": "assets/composer-regular.png",
       "sha256": "ccbccca607ca312bfa2709d38126a5636c7f0b4dae2f13f77e5e8a8c6a906a5e"
     },
-    "icon-parameters": {
-      "path": "assets/icon-parameters.png",
-      "sha256": "7487eea00ff0140c247b83307ce4dd96cf10344302a5d383d5e9260888835a0f"
+    "pad-grounded-light": {
+      "path": "assets/pad-grounded-light.png",
+      "sha256": "1e53174f8ecfdbd63127fe902c1940b85b45977ccfea2d0831a18e0ce81b397e"
     },
-    "composer-overhang": {
-      "path": "assets/composer-overhang.png",
-      "sha256": "3d94a0ebf39aca0128d8c4ce2aabc301054918ea250c50c994c4500a672ba14f"
-    },
-    "home-environment-compact-light": {
-      "path": "assets/home-environment-compact-light.png",
-      "sha256": "b58fa595cb94fa0e3ef3cdf9ce1df23642660a956343ab760b22e2b9502a9596"
-    },
-    "home-environment-regular-light": {
-      "path": "assets/home-environment-regular-light.png",
-      "sha256": "70657fbd4466d10517ce191888244edb84c0d9a53c393dea22caa52257d4bf74"
-    },
-    "home-environment-compact-dark": {
-      "path": "assets/home-environment-compact-dark.png",
-      "sha256": "06e6dfb95fb337b6d374cff51a004d3ff440e0b4848c492b6f4b4c5f6c8c9639"
-    },
-    "home-environment-regular-dark": {
-      "path": "assets/home-environment-regular-dark.png",
-      "sha256": "32f5ca63d34d101b60fea8162f61511304ad0a0f7031fe4aaa5d5200ea6bec01"
-    },
-    "launch-full": {
-      "path": "assets/launch-full.png",
-      "sha256": "7427bc244ccb78e624ed16ec5de5673d3b6d6a58f7819d3166ce3427b18a277f"
+    "pad-grounded-dark": {
+      "path": "assets/pad-grounded-dark.png",
+      "sha256": "6336e4b441da78cd57b85d367a474db341681db44248a5b401847348103beac3"
     }
   },
   "decoration": {
     "home.artwork": {
-      "asset": "home-cover-light",
-      "fit": "cover",
+      "asset": "layer-hero",
+      "fit": "contain",
       "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "home.composer.background": {
+      "asset": "composer-accent",
+      "fit": "contain",
+      "opacity": 0.18,
       "focalPoint": {
         "x": 0.5,
         "y": 0
       },
       "compact": {
-        "asset": "home-cover-light",
-        "fit": "cover",
-        "opacity": 1,
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         }
       },
       "regular": {
-        "asset": "home-cover-light",
-        "fit": "cover",
-        "opacity": 1,
+        "asset": "composer-accent",
+        "fit": "contain",
+        "opacity": 0.18,
         "focalPoint": {
           "x": 0.5,
           "y": 0
         }
       }
     },
+    "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "launch-full",
-      "fit": "contain"
-    },
-    "empty.artwork": {
-      "asset": "launch",
+      "asset": "scene-compact-light",
       "fit": "contain",
-      "opacity": 0.85
+      "opacity": 1
     },
     "navigation.background": {
       "asset": "edge",
@@ -293,32 +319,10 @@
       "fit": "contain",
       "opacity": 0.1
     },
-    "home.composer.background": {
-      "asset": "composer-accent",
+    "empty.artwork": {
+      "asset": "layer-empty",
       "fit": "contain",
-      "opacity": 0.18,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.18,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "composer-accent",
-        "fit": "contain",
-        "opacity": 0.18,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
+      "opacity": 1
     }
   },
   "icons": {
@@ -357,82 +361,51 @@
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "wallpaper-light",
-        "fit": "cover",
-        "opacity": 0.5,
-        "compact": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
-          "opacity": 0.5,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "wallpaper-light",
-          "fit": "cover",
-          "opacity": 0.5,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
       "home.wallpaper": {
-        "asset": "home-environment-compact-light",
+        "asset": "layer-environment",
         "fit": "cover",
-        "opacity": 0.36,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.4
         },
         "compact": {
-          "asset": "home-environment-compact-light",
+          "asset": "layer-environment",
           "fit": "cover",
-          "opacity": 0.36,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "home-environment-regular-light",
-          "fit": "cover",
-          "opacity": 0.48,
+          "asset": "pad-grounded-light",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0
+            "x": 0,
+            "y": 0.5
           }
         }
       },
       "home.artwork": {
-        "asset": "home-cover-light",
-        "fit": "cover",
+        "asset": "layer-hero",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-light",
-          "fit": "cover",
+          "asset": "layer-hero",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
-        "regular": {
-          "asset": "home-cover-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-compact",
@@ -476,111 +449,64 @@
           }
         }
       },
-      "home.composer.decoration": {
-        "asset": "composer-overhang",
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-light",
         "fit": "contain",
-        "opacity": 0.85,
-        "focalPoint": {
-          "x": 1,
-          "y": 0
-        },
-        "compact": {
-          "asset": "composer-overhang",
-          "fit": "contain",
-          "opacity": 0.85,
-          "focalPoint": {
-            "x": 1,
-            "y": 0
-          }
-        },
+        "opacity": 1,
         "regular": {
-          "asset": "composer-overhang",
+          "asset": "scene-regular-light",
           "fit": "contain",
-          "opacity": 0.85,
-          "focalPoint": {
-            "x": 1,
-            "y": 0
-          }
+          "opacity": 1
         }
       }
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "wallpaper-dark",
-        "fit": "cover",
-        "opacity": 0.5,
-        "compact": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
-          "opacity": 0.5,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "wallpaper-dark",
-          "fit": "cover",
-          "opacity": 0.5,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
       "home.wallpaper": {
-        "asset": "home-environment-compact-dark",
+        "asset": "layer-environment-dark",
         "fit": "cover",
-        "opacity": 0.68,
+        "opacity": 0.55,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.4
         },
         "compact": {
-          "asset": "home-environment-compact-dark",
+          "asset": "layer-environment-dark",
           "fit": "cover",
-          "opacity": 0.68,
+          "opacity": 0.55,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.4
           }
         },
         "regular": {
-          "asset": "home-environment-regular-dark",
-          "fit": "cover",
-          "opacity": 0.68,
+          "asset": "pad-grounded-dark",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
-            "x": 0.5,
-            "y": 0
+            "x": 0,
+            "y": 0.5
           }
         }
       },
       "home.artwork": {
-        "asset": "home-cover-dark",
-        "fit": "cover",
+        "asset": "layer-hero",
+        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
-          "y": 0
+          "y": 0.5
         },
         "compact": {
-          "asset": "home-cover-dark",
-          "fit": "cover",
+          "asset": "layer-hero",
+          "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
-        "regular": {
-          "asset": "home-cover-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
+        "regular": null
       },
       "home.composer.background": {
         "asset": "composer-compact",
@@ -624,31 +550,15 @@
           }
         }
       },
-      "home.composer.decoration": {
-        "asset": "composer-overhang",
+      "home.composer.decoration": null,
+      "launch.artwork": {
+        "asset": "scene-compact-dark",
         "fit": "contain",
-        "opacity": 0.85,
-        "focalPoint": {
-          "x": 1,
-          "y": 0
-        },
-        "compact": {
-          "asset": "composer-overhang",
-          "fit": "contain",
-          "opacity": 0.85,
-          "focalPoint": {
-            "x": 1,
-            "y": 0
-          }
-        },
+        "opacity": 1,
         "regular": {
-          "asset": "composer-overhang",
+          "asset": "scene-regular-dark",
           "fit": "contain",
-          "opacity": 0.85,
-          "focalPoint": {
-            "x": 1,
-            "y": 0
-          }
+          "opacity": 1
         }
       }
     }
@@ -664,13 +574,15 @@
       "mode": "default"
     }
   },
-  "description": "An illustrated sunset savanna road trip in orange, cream and plum ink.",
+  "description": "A curious fox and tiny bird consult their trail map in a rich desert adventure, with warm daylight and lantern-lit night animation.",
   "tags": [
-    "anime",
-    "editorial",
-    "travel",
-    "light",
-    "dark"
+    "animation",
+    "cute",
+    "fox",
+    "bird",
+    "adventure",
+    "sand",
+    "teal"
   ],
   "homePresentation": {
     "header": "cover",

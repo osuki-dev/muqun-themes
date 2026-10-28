@@ -1,3 +1,5 @@
+> Historical authoring record retained for provenance. Its asset and layout descriptions refer to the previous release; see REVISION.md for the current design.
+
 # Cypress Hour — artwork credits
 
 All currently declared illustrations are original fictional2D anime/editorial artwork generated for Muqun Theme Collection with OpenAI built-in image generation. Home is an illustrated natural activity scene; launch is an independently generated transparent character composition. No third-party artwork or software marks are included. Original geometric template glyphs and subtle edge/contour patterns were authored deterministically for this collection.

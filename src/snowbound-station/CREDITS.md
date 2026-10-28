@@ -1,66 +1,29 @@
-# Artwork credits
+# Artwork and asset credits
 
-Original art direction and theme assets: Muqun Theme Collection, 2026.
-License: CC-BY-4.0. All scenery and the foreground were created for this theme
-using the built-in OpenAI image generation tool. No external stock, reference
-photo, copyrighted character or borrowed theme asset was used. Original generation
-filenames are recorded below for provenance; distribution files live in assets/.
+The two subject-free compact scenes, two grounded full-body regular scenes, two transparent full-body compact duo foregrounds, startup duo and gallery preview are original commissioned artwork for this theme. No external stock art, copied character, font, or brand mark is bundled.
 
-## Daylight scene
+The following original collection assets are retained from the preceding theme revision (Git revision 6308985), by Muqun theme authors, under CC-BY-4.0. Their original bytes are preserved. Source: https://github.com/osuki-dev/muqun-themes/tree/6308985/src/snowbound-station/assets . Attribution applies to source assets and does not add a logo or text to the interface.
 
-Files: wallpaper-light.png and its compact crop wallpaper-light-compact.png.
-Original: exec-f11df7fe-729a-4d21-aa70-7daf6f1ff811.png.
-Creator: OpenAI image generation, original Muqun Theme Collection prompt.
-Source: generated directly in this authoring session, no external URL.
+- `assets/icon-scan.png`
+- `assets/icon-settings.png`
+- `assets/icon-arrow.png`
+- `assets/icon-back.png`
+- `assets/icon-send.png`
+- `assets/icon-create.png`
+- `assets/icon-attach.png`
+- `assets/icon-parameters.png`
+- `assets/home-composer-accent.png`
+- `assets/empty.png`
 
-Prompt: Use case: illustration-story. Asset: original Muqun app snowy scenic wallpaper, landscape 1536x1024. Create an exquisitely beautiful ORIGINAL Japanese anime film background, delicate crisp linework and clean softly cel-shaded forms, youthful clear color and atmospheric depth, NOT oil painting. A tiny wooden countryside railway station beside a little bookshop in a Japanese hillside town in very heavy daytime snowfall. Scene-first, NO people. Thick pillows of snow bury roofs, bench, narrow picket fence and platform; a street recedes diagonally from foreground right into center distance, distant tiny buildings vanish in falling snow. Warm amber bookshop windows and one amber station lamp bring intimate contrast to pale icy blue and snow cream. Snow laden bare branches frame upper right. Countless small distant white snow specks, medium falling snow in the street and a few large near flakes convey three layers of depth. Upper left broad quiet soft blue snowy sky, no large foreground objects there, for native app title. Buildings and windows concentrated lower right but scene substantial across bottom 2/3. Avoid text, signs with lettering, UI, borders, watermark, copyrighted characters, mature painterly grit. Luminous peaceful anime winter, strongly recognizable deep snowfall, cinematic yet clean.
+Prompts and internal validation records are not user-facing theme content.
 
-## Blue-hour scene
+Retained original geometric chrome accents, under the same attribution and license:
 
-Files: wallpaper-dark.png and its compact crop wallpaper-dark-compact.png.
-Original: exec-163be330-3a91-46b5-9863-7d893de06604.png.
-Creator/source: OpenAI image generation edit of the original daylight scene above.
+- `assets/navigation.png`
+- `assets/composer.png`
+- `assets/actions.png`
+- `assets/cards.png`
+- `assets/buttons.png`
+- `assets/tabs.png`
 
-Prompt: Use case lighting-weather. Edit this exact original snowy anime railway/bookshop scene into BLUE HOUR EARLY NIGHT. Preserve architecture, rail perspective, framing, snow accumulation, all objects and absence of people. Keep lovely delicate anime clarity. Dark indigo and rich midnight blue sky and distant mountains, deep desaturated blue snow shadows with visible cream white snow highlights. Bookshop windows and station lamps glow soft rich warm amber, small pools reflected on snow. Make heavy snowfall equally apparent with white near flakes and delicate pale specks. Quiet upper left sky should be dark blue for bright native title legibility. No text or UI. Not merely darkened photo: coherent anime nocturnal lighting, gentle luminous snow, cinematic tranquil winter.
-
-## Transparent Home foreground
-
-File: home-artwork.png. Original: exec-23ab728e-dc05-4a8e-a0c2-384f3eb4b101.png.
-Creator/source: OpenAI image generation, original transparent output; alpha preserved.
-
-Prompt: Use case illustration-story. Original transparent foreground vignette for a snowy anime railway station app hero. Wide landscape 1536x1024 canvas with actual alpha, no background. Keep LEFT 55 percent and upper left fully transparent/empty. On RIGHT a small youthful ADULT woman age 22, delicate modern Japanese anime design, short dark navy bob, pale blue puffer coat, long muted orange knitted scarf blowing slightly left, warm mittens holding a closed small book, calm bright friendly eyes looking up at falling snow. Figure only occupies rightmost quarter, not a dominant fullbody pinup. She stands behind an elegant snow-covered wooden station bench and low blue rail across lower right 60 percent; thick fluffy snow on bench/rail, a tiny amber lantern fixed on right post, one little white snow mound. A few near white snowflakes around her. This is quiet scenery with tiny person for scale. Thin exquisite linework, youthful soft cel shading, clean pale icy blue/snow cream/warm amber, transparent everywhere between object shapes. Full silhouette intact including boots but unobtrusive. No sky, no street, no opaque ground rectangle, no titles, no text, no logos, no frame, no painterly grit. Composition feels delicate anime film foreground scenery, polished and appealing.
-
-## Independent startup
-
-File: launch-artwork.png.
-Original: exec-c4783e5b-c966-4f26-a8c2-feffedeea7b0.png.
-Creator/source: OpenAI image generation, new transparent output with the original
-Home foreground and startup scene as style references. Actual alpha is preserved.
-The original opaque portrait was replaced to fit the native launch artwork slot.
-
-Prompt:
-
-Use case: illustration-story.
-Asset type: square transparent PNG launch illustration for Snowbound Station, read clearly in a 200–300 point app startup slot.
-Input images: Image 1 (launch-artwork.png) is a style and winter-station atmosphere reference ONLY; Image 2 (home-artwork.png) is a character and drawing-style reference ONLY. Create ONE NEW original composition, not the home scene.
-Primary request: an exquisite youthful Japanese anime winter girl with short navy-blue bob, gentle blue eyes, pale icy-blue quilted coat, rust-orange knitted scarf, cream mittens, holding a small dark book to her chest. Faithfully match the reference character and refined illustrated texture. She stands centrally, smiling softly and glancing up at a few snowflakes.
-Scene/backdrop: isolated compact winter station vignette; a small snow-capped wooden station door fragment with a single glowing warm amber window slightly behind her, and a short snow-covered wooden bench alongside her. Restrained snow at their feet forms an uneven small island. Station structure must terminate naturally as a fragment with irregular silhouette, not a full wall or solid rectangle. The girl is the clear main subject; station elements secondary.
-Style/medium: polished Japanese anime illustration, delicate linework, painterly detailed snow and fabric, soft warm light against icy-blue winter hues matching the references.
-Composition/framing: 1024x1024 square, centrally balanced, entire figure and scene visible with generous transparent margin on all four sides. Girl occupies about 65% of image height, architectural fragment smaller than figure, bench lower side balances the scene. Cohesive rounded but irregular cutout silhouette. Designed for square contain-fit placement.
-Constraints: genuinely transparent background with actual alpha channel outside the entire isolated vignette and in openings; no opaque rectangular backdrop, no sky, no landscape, no horizon, no full-frame ground, no background color, no checkerboard drawn into artwork, no border, no text, no watermark. Preserve crisp clean alpha edges and subtle standalone snowflakes. All outer canvas corners transparent.
-
-## Graphic assets
-
-The seven icon PNGs, six frosted chrome PNGs, and empty.png are original vector-like
-drawings rasterized for the theme format, by Muqun Theme Collection, CC-BY-4.0.
-The preview.png composition uses only this theme's own art, colors and icons;
-the startup thumbnail identifies the independent launch scene. Preview text is
-rendered with the system Noto Sans font; no font file is distributed.
-
-## Home composer local preview
-
-`assets/home-composer-accent.png`: original theme-specific artwork generated with OpenAI imagegen, no third-party reference image. `assets/icon-parameters.png`: reused from Pine and Parchment in this repository, CC0-1.0.
-
-Final parameters glyph: reused from neon-window-study in this repository, template, CC0-1.0, matching the mechanical/angular chrome family.
-
-Home responsive adaptation: original compact girl/bench composition generated with OpenAI imagegen from the existing Home/launch originals. Regular Home retains the original landscape. Updated pure-art split preview is composed from current theme assets; no UI or text is baked in.
+The regular light and dark modes intentionally share the same grounded daylight scene, with distinct interface palettes. Compact artwork remains mode-specific. No separate night scene is claimed for this regular-width revision.

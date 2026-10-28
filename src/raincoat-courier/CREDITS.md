@@ -1,21 +1,30 @@
-# Credits
+# Artwork and asset credits
 
-- Art direction, palette, manifest, icons, and compositing: Muqun
-- Background and hero artwork: generated with OpenAI image generation
-- Preview: composed from the included light and dark artwork
+The four scene images and gallery preview are original commissioned artwork for this theme. No external stock art, copied character, font, or brand mark is bundled.
 
-No third-party images, trademarks, or fonts are included.
+The following original collection assets are retained from the preceding theme revision (Git revision 6308985), by Muqun theme authors, under CC-BY-4.0. Their original bytes are preserved. Source: https://github.com/osuki-dev/muqun-themes/tree/6308985/src/raincoat-courier/assets . Attribution applies to source assets and does not add a logo or text to the interface.
 
-## 2026-09-24 interface extension
+- `assets/icon-back.png`
+- `assets/icon-send.png`
+- `assets/icon-attach.png`
+- `assets/icon-create.png`
+- `assets/icon-scan.png`
+- `assets/icon-settings.png`
+- `assets/icon-arrow.png`
+- `assets/icon-parameters.png`
+- `assets/composer-continuity.png`
 
-The new `icon-*.png` files are original vector drawings exported to transparent template PNGs, with details tailored to this pack. `chrome-light.png` and `chrome-dark.png` are original geometric vector chrome accents. No outside source art was used for these additions.
+Prompts and internal validation records are not user-facing theme content.
 
-## Parameter control update
+Retained original geometric chrome accents, under the same attribution and license:
 
-`assets/icon-parameters.png`: Adapted from Pine and Parchment’s original three-slider glyph by Muqun theme author, under CC-BY-4.0. Transparent raster resize matches this theme’s line weight; source: the collection’s `pine-and-parchment/assets/icon-parameters.png`. The alpha shape supplies the glyph; native template tint supports both light and dark modes. Settings and parameters remain independent controls.
+- `assets/chrome-light.png`
+- `assets/chrome-dark.png`
 
-## Continuity update
+`assets/icon-parameters.png` derives from the original Pine & Parchment adjustment glyph by Muqun theme author, CC-BY-4.0. Source: https://github.com/osuki-dev/muqun-themes/tree/6308985/src/pine-and-parchment/assets .
 
-- `assets/composer-continuity.png`: original OpenAI built-in image generation for Muqun Theme Collection, 2026-10-13, under this theme's declared license.
+Version 1.1.11 separates complete human/animal poses into transparent day/night foregrounds. Responsive scenery contains no duplicate main subjects. Startup reuses the full cutout with contain fit; gallery uses the actual foreground and scenery.
 
-No third-party reference images or marks were used. See CONTINUITY-PROMPTS.md for constraints and source-review limits.
+Version 1.1.12 increases transparent head/boot margins for native header and composer clearance, retaining complete poses.
+
+Version 1.1.13 uses grounded, complete full scenes for regular tablet wallpaper, with its separate regular foreground disabled. Compact phone artwork and ancillary asset bytes are preserved.

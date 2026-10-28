@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Startup character completion
 
 Built-in OpenAI imagegen edit, 2026-10-15. The existing character image is the edit target; complete only its missing lower body while preserving the upper character, pose, clothing and props. Transparent output; no layout or App code changes.

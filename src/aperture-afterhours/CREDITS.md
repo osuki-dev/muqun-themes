@@ -1,34 +1,7 @@
-# Credits
+# Asset provenance — version 1.1.10
 
-Unofficial Portal fan art. Portal and its characters, imagery and trademarks belong to Valve Corporation. This theme is not affiliated with or endorsed by Valve.
+The foreground, phone and tablet day/night environments, camera composer ornament, camera empty-state artwork, and gallery preview are original artwork generated and composed for this theme. They depict an original photography/fashion setting without franchise characters or logos.
 
-All packaged images are original AI-generated interpretations created for this theme using OpenAI image generation, not game screenshots or extracted assets. Prompts: PROMPTS.md.
+All eight `assets/icon-*.png` controls were newly authored for this revision from geometric primitives: left arrow, send dart, hooked paperclip, plus, scan corners, cog, northeast arrow, and adjustment rails. Their alpha shapes are template-tinted by the app. The cog and parameter rails have distinct semantics; the navigation arrow's authored direction is up-right. No existing icon image or external vector path was used. The drawing source is retained in the development audit, outside the distributable theme.
 
-`assets/home-hero.png`: newly generated with OpenAI image generation for this theme; ATLAS and P-body on a compact testing platform. Existing franchise notices remain applicable.
-
-## Native adaptation (2026)
-
-Original native template glyphs: `assets/icon-create.png`, `assets/icon-scan.png`, `assets/icon-settings.png`, `assets/icon-arrow.png`. Created for this theme in 2026 using geometric linework; retain the theme license. Existing back/send/attach artwork is unchanged.
-
-The 2026 `assets/preview.png` is an original palette and UI composition rendered from this theme’s declared artwork. It is a gallery illustration, not a native device screenshot.
-
-## Composer continuity
-
-Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.
-
-## 2026-10-15 startup and parameter artwork repair
-
-Pack `aperture-afterhours` version `1.1.7`.
-
-`assets/icon-parameters.png` is an original transparent geometric glyph exported from a vector drawing for this theme: two adjustment rails with portal handles. It replaces the generic glyph while keeping the parameters control recognizable at small sizes. Its existing independent `chrome.parameters` declaration and `template` tinting remain; no settings fallback or other icon was changed. Light and dark tinted source previews were inspected.
-
-Home input artwork is unchanged. Resolved mode/width declarations (responsive images replace the entire base image):
-
-| Mode | Width | Background (asset, fit, opacity, focal point, outset) | Overhang |
-| --- | --- | --- | --- |
-| light | compact | `{"asset":"composer-continuity","fit":"contain","opacity":0.3,"focalPoint":{"x":0.5,"y":0}}` | none |
-| light | regular | `{"asset":"composer-continuity","fit":"contain","opacity":0.3,"focalPoint":{"x":0.5,"y":0}}` | none |
-| dark | compact | `{"asset":"composer-continuity","fit":"contain","opacity":0.26,"focalPoint":{"x":0.5,"y":0}}` | none |
-| dark | regular | `{"asset":"composer-continuity","fit":"contain","opacity":0.26,"focalPoint":{"x":0.5,"y":0}}` | none |
-
-Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.
+Version 1.1.10 replaces every retained icon from the earlier Portal-themed edition, including the two temporarily borrowed City Pop Balcony controls. None of those former icon bytes remain in the declared assets. The previous franchise notice and City icon attribution do not describe the replacement artwork. Theme identity and palette retain continuity with earlier revisions; this update does not claim rights over any removed third-party work.

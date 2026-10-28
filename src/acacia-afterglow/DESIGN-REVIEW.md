@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Acacia Afterglow design review
 
 Version: 1.2.4. Decision: repair.

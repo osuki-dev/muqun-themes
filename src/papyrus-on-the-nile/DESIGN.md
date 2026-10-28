@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Papyrus on the Nile
 
 Egypt / Nile Valley interpreted through papyrus-inspired gouache: lapis water, copper sandstone, ivory lateen sails and papyrus stems. The scenes are artistic compositions rather than reconstructions of a specific landmark.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Moon Jar Courtyard — current original illustration prompts
 
 Built-in OpenAI image generation, 2026-10-11. No third-party reference images. Transparent RGBA preserved; tightly cropped outer canvas with narrow transparent border. Earlier rejected material-realism generations are not packaged.

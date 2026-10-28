@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Continuity artwork prompts
 
 Generated with OpenAI imagegen. Native output dimensions retained; no scripted raster editing.

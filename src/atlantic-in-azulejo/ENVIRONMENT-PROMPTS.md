@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Continuity artwork prompts
 
 Generated with OpenAI imagegen. Native output dimensions retained; no scripted raster editing.

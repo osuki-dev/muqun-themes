@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Amber Relay generation briefs
 
 Full redraw on 2026-10-11 using OpenAI built-in image generation, no external reference images.

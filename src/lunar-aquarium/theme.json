@@ -3,8 +3,8 @@
   "schemaVersion": 1,
   "id": "lunar-aquarium",
   "name": "Lunar Aquarium",
-  "version": "1.0.6",
-  "author": "Muqun",
+  "version": "1.0.9",
+  "author": "Community",
   "license": "CC0-1.0",
   "preview": "preview",
   "variants": {
@@ -116,83 +116,165 @@
     "actions": "solid"
   },
   "assets": {
+    "youth-foreground": {
+      "path": "assets/youth-foreground.png",
+      "sha256": "e70df748e43109a5076c2b66116ca74c71a7c2fba27f7e004868771301d2036d"
+    },
+    "youth-light-regular": {
+      "path": "assets/youth-light-regular.webp",
+      "sha256": "54a6bf2c2bc45e5724db01681f9a3c80224ccbeb09f645b39681a07f82927d02"
+    },
+    "youth-light-compact": {
+      "path": "assets/youth-light-compact.webp",
+      "sha256": "f78ec11669bfbe051dd71e351e569d02dc3c7f85a4568933be3763d72e1fd868"
+    },
+    "youth-dark-regular": {
+      "path": "assets/youth-dark-regular.webp",
+      "sha256": "eec38fc391abd9f02b52aa8b57eb68eab1193c566c2b9d2507d2d2d5419ff39a"
+    },
+    "youth-dark-compact": {
+      "path": "assets/youth-dark-compact.webp",
+      "sha256": "931333df057da43c8f815f1590a6c87e218270818cb0ac7a0f58d96d00c4c6f1"
+    },
     "preview": {
-      "path": "assets/gallery-continuity.png",
-      "sha256": "a5a485c093de2eb0472bbfeea70901d4808c7ee81e5484550b56dda55ab312cf"
+      "path": "assets/preview.png",
+      "sha256": "9d6b43efa671689bccdf513dfd95f102ff00fc065456ea6a1783206c52f067ed"
     },
     "icon-back": {
-      "path": "assets/icon-back.png"
+      "path": "assets/icon-back.png",
+      "sha256": "569201bcb275010ccd7bbef6f1a8f081b546ffd36b63e9d66b360841efea2353"
     },
     "icon-send": {
-      "path": "assets/icon-send.png"
+      "path": "assets/icon-send.png",
+      "sha256": "27c6911a71cfa00e60ff8149008a91359e5eb97a2e82afa7b8bfe43d1fb3ca11"
     },
     "icon-attach": {
-      "path": "assets/icon-attach.png"
+      "path": "assets/icon-attach.png",
+      "sha256": "52f7478c1bc7d9289b2c4bba066a6934c4f19cf912a870954291cbcc234f074c"
     },
     "icon-create": {
-      "path": "assets/icon-create.png"
+      "path": "assets/icon-create.png",
+      "sha256": "dfa4045700dce4b8b5406adf32e5ad123c2e45306cee8a08b349b24340aa4769"
     },
     "icon-scan": {
-      "path": "assets/icon-scan.png"
+      "path": "assets/icon-scan.png",
+      "sha256": "70f480132f62b84978735a7cc4d82e799a904485bec218e37735513b5f3d4930"
     },
     "icon-settings": {
-      "path": "assets/icon-settings.png"
+      "path": "assets/icon-settings.png",
+      "sha256": "5e8e861e7938a86b76b14f5e341c38c5f80f5bc04854b6c10e90de95c9d45784"
     },
     "icon-arrow": {
-      "path": "assets/icon-arrow.png"
-    },
-    "navigation-orbit": {
-      "path": "assets/navigation-orbit.png"
-    },
-    "composer-orbit": {
-      "path": "assets/composer-orbit.png"
-    },
-    "actions-orbit": {
-      "path": "assets/actions-orbit.png"
-    },
-    "cards-orbit": {
-      "path": "assets/cards-orbit.png"
-    },
-    "buttons-orbit": {
-      "path": "assets/buttons-orbit.png"
-    },
-    "tabs-orbit": {
-      "path": "assets/tabs-orbit.png"
-    },
-    "empty-globe": {
-      "path": "assets/empty-globe.png"
-    },
-    "launch-keeper": {
-      "path": "assets/launch-keeper.png",
-      "sha256": "ff3b55f30dd5c7bf0acabf9cef453aab0b443465dc23acf48d4c828a36427d3d"
-    },
-    "composer-jellyfish-drift": {
-      "path": "assets/composer-jellyfish-drift.png"
+      "path": "assets/icon-arrow.png",
+      "sha256": "f7a2ee24ffc8389c4de624228b7bc86e847092f86c05478558d3d6a4ef845b49"
     },
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "29cd38e55852662bda6ec0d1f2f158765c3b43d76980d42a3bfca8bea026f5ca"
     },
+    "navigation-orbit": {
+      "path": "assets/navigation-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "composer-orbit": {
+      "path": "assets/composer-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "actions-orbit": {
+      "path": "assets/actions-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "cards-orbit": {
+      "path": "assets/cards-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "buttons-orbit": {
+      "path": "assets/buttons-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "tabs-orbit": {
+      "path": "assets/tabs-orbit.png",
+      "sha256": "8b5d81143400b4dd706d9712b2c60ffad8431e5de5e7a961bfb2b9ecda80e388"
+    },
+    "empty-globe": {
+      "path": "assets/empty-globe.png",
+      "sha256": "43afa56e76d0f667bf68185e6630e20da726cdfd46ca60fa6fe5a5edc47891d7"
+    },
     "composer-moon-ripples": {
-      "path": "assets/composer-moon-ripples.png"
+      "path": "assets/composer-moon-ripples.png",
+      "sha256": "eafcce7154c6cba0aa36542b7fb2f490f7670c4b5d18475c54b5ea00febedbd2"
     },
     "composer-moon-ripples-wide": {
-      "path": "assets/composer-moon-ripples-wide.png"
+      "path": "assets/composer-moon-ripples-wide.png",
+      "sha256": "6d18c19fcfb04f7926ff497f23fb97b5845c2ece5552b565153e446f7d5df2fe"
     },
-    "environment-continuity": {
-      "path": "assets/environment-continuity.png",
-      "sha256": "04435059d17e76c6cb0592ee8008de49fcb4cfb20abc4a225fa58815db0635f6"
-    },
-    "home-cover-light": {
-      "path": "assets/home-cover-light.png",
-      "sha256": "2f923768634b6ec92af0e641e50524573ff0346e859c9741e1a1f653ce0dfbcc"
-    },
-    "home-cover-dark": {
-      "path": "assets/home-cover-dark.png",
-      "sha256": "02d5159b407f344c951aae516432031074cc19e8d679d9ff212bd1f3e1ecaa40"
+    "composer-jellyfish-drift": {
+      "path": "assets/composer-jellyfish-drift.png",
+      "sha256": "282d9494d92365d720ad06b506b3c35aef11dd37dd270e5459678166cc076e9f"
     }
   },
   "decoration": {
+    "home.artwork": {
+      "asset": "youth-foreground",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "launch.artwork": {
+      "asset": "youth-foreground",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "youth-foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    "empty.artwork": {
+      "asset": "empty-globe",
+      "fit": "contain",
+      "opacity": 0.8
+    },
+    "home.composer.background": null,
+    "home.composer.decoration": null,
     "navigation.background": {
       "asset": "navigation-orbit",
       "fit": "cover",
@@ -246,92 +328,6 @@
         "x": 1,
         "y": 0.5
       }
-    },
-    "empty.artwork": {
-      "asset": "empty-globe",
-      "fit": "contain",
-      "opacity": 0.8
-    },
-    "home.artwork": {
-      "asset": "home-cover-light",
-      "fit": "cover",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "home-cover-light",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "home-cover-light",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "home.wallpaper": {
-      "asset": "environment-continuity",
-      "fit": "cover",
-      "opacity": 0.45,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.45,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.45,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    },
-    "shell.wallpaper": {
-      "asset": "environment-continuity",
-      "fit": "cover",
-      "opacity": 0.16,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.16,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.16,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
     }
   },
   "icons": {
@@ -359,100 +355,19 @@
       "asset": "icon-settings",
       "render": "template"
     },
-    "home.arrow": {
-      "asset": "icon-arrow",
-      "render": "template"
-    },
     "chrome.parameters": {
       "asset": "icon-parameters",
+      "render": "template"
+    },
+    "home.arrow": {
+      "asset": "icon-arrow",
       "render": "template"
     }
   },
   "variantDecorations": {
     "light": {
       "home.artwork": {
-        "asset": "home-cover-light",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-light",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "shell.wallpaper": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.16,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.16,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.16,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.wallpaper": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.45,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.45,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.45,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "launch.artwork": {
-        "asset": "launch-keeper",
+        "asset": "youth-foreground",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -460,7 +375,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "launch-keeper",
+          "asset": "youth-foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -469,7 +384,7 @@
           }
         },
         "regular": {
-          "asset": "launch-keeper",
+          "asset": "youth-foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -478,6 +393,34 @@
           }
         }
       },
+      "home.wallpaper": {
+        "asset": "youth-light-regular",
+        "fit": "cover",
+        "opacity": 0.32,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "youth-light-compact",
+          "fit": "cover",
+          "opacity": 0.32,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "youth-light-regular",
+          "fit": "cover",
+          "opacity": 0.32,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": null,
       "home.composer.background": {
         "asset": "composer-moon-ripples",
         "fit": "contain",
@@ -550,88 +493,7 @@
     },
     "dark": {
       "home.artwork": {
-        "asset": "home-cover-dark",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-dark",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "shell.wallpaper": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.12,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.12,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.12,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.wallpaper": {
-        "asset": "environment-continuity",
-        "fit": "cover",
-        "opacity": 0.32,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.32,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "environment-continuity",
-          "fit": "cover",
-          "opacity": 0.32,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "launch.artwork": {
-        "asset": "launch-keeper",
+        "asset": "youth-foreground",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -639,7 +501,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "launch-keeper",
+          "asset": "youth-foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -648,7 +510,7 @@
           }
         },
         "regular": {
-          "asset": "launch-keeper",
+          "asset": "youth-foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -657,6 +519,34 @@
           }
         }
       },
+      "home.wallpaper": {
+        "asset": "youth-dark-regular",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "youth-dark-compact",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "youth-dark-regular",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "shell.wallpaper": null,
       "home.composer.background": {
         "asset": "composer-moon-ripples",
         "fit": "contain",
@@ -739,14 +629,13 @@
       "mode": "default"
     }
   },
-  "description": "An aquarium astronomer watches moonlit jellyfish: silver lavender, porcelain day surfaces and calm ink-blue nights.",
+  "description": "Two aquarists share the wonder of a luminous jellyfish in a violet and aqua observatory, illustrated with cinematic Korean webtoon detail.",
   "tags": [
-    "anime",
+    "webtoon",
     "aquarium",
-    "moon",
-    "lavender",
-    "aqua",
-    "quiet"
+    "friends",
+    "violet",
+    "aqua"
   ],
   "homePresentation": {
     "header": "cover",

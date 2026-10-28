@@ -1,3 +1,5 @@
+> Historical authoring record retained for provenance. Its asset and layout descriptions refer to the previous release; see REVISION.md for the current design.
+
 # Cypress Hour design review
 
 Version: 1.1.3. Decision: repair.

@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Original illustration prompts
 
 Built-in OpenAI image generation with transparent_background:true; no API/CLI fallback.

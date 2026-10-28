@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Amber Relay artwork credits
 
 All rights reserved. Original assets created for Muqun Theme Collection.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # The Last Reading Room — Home continuity 1.2.3
 
 warm apartment reading alcove with connected high window panes, paper-white daylight, quiet bookcases and trailing plants; preserve adult reader, navy sweater, cream trousers, olive book and green headphones

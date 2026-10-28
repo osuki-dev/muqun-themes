@@ -1,43 +1,28 @@
-# Saffron under the Atlas
+# Saffron under the Atlas asset provenance
 
-Original AI-generated illustrations and back glyph created with OpenAI image generation for Muqun Theme Collection. The send and attachment glyphs are original rasterized geometric designs. All rights reserved.
+This inventory covers the current 1.1.9 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: All rights reserved. No broader rights in retained assets are granted here.
 
-Landscape inspiration: [Moroccan National Tourism Office — Ouarzazate, Zagora and Tinghir](https://www.visitmorocco.com/en/travel/ouarzazate-zagora-tinghir). Cultural reference only; no third-party artwork is bundled. The landscape is an imaginative interpretation, not an exact landmark reconstruction.
+| Current file | Origin and creator | Rights |
+| --- | --- | --- |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | All rights reserved |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/icon-back.png) | All rights reserved |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/icon-send.png) | All rights reserved |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/icon-attach.png) | All rights reserved |
+| `assets/native-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/native-create.png) | All rights reserved |
+| `assets/native-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/native-scan.png) | All rights reserved |
+| `assets/native-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/native-settings.png) | All rights reserved |
+| `assets/native-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/native-arrow.png) | All rights reserved |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/icon-parameters.png) | All rights reserved |
+| `assets/composer-continuity.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/assets/composer-continuity.png) | All rights reserved |
+| `assets/figure.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/empty.webp` | Collection square adaptation of the current transparent figure | All rights reserved |
+| `assets/environment-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/environment-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
 
-The standalone Home hero is original AI-generated artwork created with OpenAI image generation. It is a separate composition from the preserved empty-state illustration. Its creative brief is recorded in PROMPTS.md.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/saffron-under-the-atlas/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.
 
-## Native control glyphs
+## Regular Home scenes, version 1.1.10
 
-`assets/native-create.png`, `assets/native-scan.png`, `assets/native-settings.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: All rights reserved. Transparent template marks preserve native light/dark tinting.
-
-## Contemporary Home refresh, 2026-10-11
-
-`assets/editorial-foreground.png` and `assets/home-hero.png` replace the earlier Home/launch art listed above. Original artwork generated by OpenAI imagegen for osuki-dev, licensed under All rights reserved. No third-party reference artwork was supplied. Source: original imagegen outputs. The Home scene is independent of the transparent square startup/empty-state silhouette. Generated alpha was preserved; only proportional reduction to a 1024px maximum edge was performed.
-
-Home prompt:
-
-Use case: illustration-story. Asset type: premium mobile app Home foreground, original transparent illustration. A contemporary Moroccan rooftop garden at late afternoon: large clean terracotta architectural planes, cobalt tiled parapet, one sunlit courtyard tree, flowing stairs and quiet Atlas mountain silhouette, confident modern editorial anime environment painting, not a miniature souvenir diorama. Landscape scene with dynamic diagonal perspective; main architecture occupies 80–90% of canvas width and 75% of height, airy upper-left alpha for native title, complete edges and open transparent surround. Warm terracotta, saffron light, cobalt and ivory, restrained shadow detail. Genuine RGBA transparent background, no sky rectangle, no baked checkerboard. No collectibles pile, no teapot, no lantern pile, no text, no letters, no logo, no watermark. Art must read as a spacious place, with architectural rhythm, not an isolated tiny object.
-
-Startup prompt:
-
-Use case: illustration-story. Asset type: independent square transparent startup illustration for Moroccan roof garden theme. Original premium modern editorial anime illustration: one elegantly shaped sunlit terracotta roof stair and cobalt arched doorway, a single leafy branch curving above it, clean flat architectural planes with subtle painterly highlights, warm saffron/terracotta/cobalt/ivory palette. A standalone compact composition occupying 85% of square canvas, clearly readable silhouette, genuinely transparent surrounding alpha, no landscape background, no frame. Not the Home scene duplicated, no souvenir collection, no teapot, no lamp pile, no words or logos.
-
-### Final 2D editorial redraw
-
-The first new concept was rejected for photographic materials. Final Home and startup files are a complete 2D redraw using OpenAI imagegen, not that earlier concept. Each was redrawn with the following instruction and scene brief. Native foreground retains alpha; startup is independent.
-
-Instruction: Redraw completely as contemporary hand-drawn 2D anime editorial art: crisp ink contours, deliberate flat graphic color shapes, cel shading limited to 2–3 tones per surface, lightly painted highlights, tasteful depth. Eliminate photorealism, 3D/PBR render, finely textured surfaces and souvenir diorama styling. Preserve regional palette and genuine transparent alpha. No rectangle, checkerboard, text or watermark.
-
-saffron-home-v2: Moroccan rooftop garden, bold terracotta stepped architecture, cobalt tiles, one large tree, Atlas silhouettes. Keep landscape high occupancy and quiet upper-left alpha. Simplify structure to a few large architectural planes, graphic cobalt tile accents, expressive tree silhouette, avoid dense decorative texture.
-
-saffron-launch-v2: Independent Moroccan cobalt doorway and sunlit terracotta roof stairs with one curved leafy branch. Keep square alpha cutout. Reduce botanical/object detail and use graphic flat architectural blocks. No realistic masonry, no pottery stilllife.
-
-Native edge refinement: modest transparent padding protects the drawn right-edge subject in phone and Pad cover panes. Home scenic wallpaper and the default brand wordmark are explicitly hidden; native controls and the art carry identity.
-
-## 2026-10 full-page continuity
-
-Additional environmental wallpaper and corrected full-prop artwork generated with OpenAI imagegen from the existing theme art. Exact prompts are recorded in ENVIRONMENT-PROMPTS.md. Existing subject artwork and published icon/composer provenance are retained.
-
-## Composer continuity
-
-Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.
+`assets/pad-grounded-scene.webp`: new original integrated scenery generated with built-in image generation for this collection from its own subject artwork. The shared daylight composition preserves subject identity and adds coherent physical ground contact. Source: this authoring session, no external reference URL. Rights: All rights reserved. These additions do not replace or relicense the retained assets listed above.

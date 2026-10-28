@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Amber Relay
 
 A youthful rooftop music listener under an apricot city dusk, with warm paper and plum-charcoal reading surfaces.

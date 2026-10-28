@@ -1,19 +1,40 @@
-# Jasmine at Dusk — Contemporary native design
+# Jasmine at Dusk
 
-## Current Home continuity candidate 1.0.11
+A laughing adult woman in cream linen and a coral scarf relaxes on a jasmine rooftop, captured in natural lifestyle photography.
 
-Orchid dusk sky and high jasmine branches extend above the traveler and courtyard. The page continues into faint courtyard architecture, banana leaves and jasmine around a quiet paper center.
+## One pack, three Home layouts
 
-This section supersedes the older wallpaper-omission notes below. The new opaque 1322×1190 Home cover is painted through both upper edges. All light/dark and compact/regular Home artwork resolutions use cover fit, opacity 1 and top-center focal points. Cover presentation, toolbar surfaces, identity, launch/empty art and palettes are preserved. The nearly square source fits the phone cover band more closely than the former wide painting. Native bottom feathering blends it into the independent wallpaper.
+The existing Home artwork slot supplies one complete transparent foreground in contain fit. Classic, Editorial and Stage choose their own geometry; the manifest adds no layout selector. The complete foreground is also used at launch. No characters occur in wallpaper.
 
-Four independently generated Home wallpaper assets provide light/dark and compact/regular resolutions: 887×1774 phone sources and 1024×1536 regular sources. They use cover fit and top-center focal points, at opacity 0.42 light / 0.35 dark. Scene forms stay at the outer edges; the central 70% and the lower reading region remain quiet paper. No hero subject is repeated. The explicit null shell wallpaper is preserved; Home wallpaper may still serve the App's shell-sheet fallback.
+Compact uses the existing portrait scene. Regular now uses a separately recomposed 1536×1024 landscape scene that retains the architectural vista and foreground floor together. Light and dark have independently lit environments. Full-body foreground sources remain uncropped; native fades and control overlap need device review.
 
-Composer resolution matrix: light compact, light regular, dark compact and dark regular all resolve the existing transparent composer-accent image, contain fit, top-center focal point, Home opacity 0.18 / ordinary composer opacity 0.12, outset omitted (zero), Home overhang decoration absent. The central draft and lower controls remain transparent. These are inspected source resolutions, not native long-draft screenshots. The published chrome.parameters template glyph is restored independently of chrome.settings.
+## Resolved decoration mapping
 
-Generated heroes, all four wallpaper sources and existing composer artwork were visually inspected. The App's current Editorial artwork sizing/resolution code was read. CLI validate and contrast passed for this version; resource warnings remain for the existing gallery, launch and composer sources and the new cover exceeding 1024px. Existing gallery source is 1586×992, larger than the recommended 1024×640 export. Isolated three-theme source packaging is recorded in the final report.
+| Mode | Slot | Base | Compact | Regular |
+| --- | --- | --- | --- | --- |
+| light | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | home.wallpaper | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light-regular / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | empty.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | home.composer.background | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} |
+| light | composer.background | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} |
+| dark | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.wallpaper | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark-regular / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | empty.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.composer.background | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.18 / focal {'x': 0.5, 'y': 0} / outset {} |
+| dark | composer.background | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} | composer-accent / contain / 0.12 / focal {'x': 0.5, 'y': 0} / outset {} |
 
-Native phone/Pad, Classic/Editorial, light/dark, keyboard, long drafts, parameters open/closed, voice-to-text and landscape tablet clipping remain unverified. No device run or publication was performed. Generation briefs and provenance are recorded in SCENERY-PROMPTS.md.
+## Controls and evidence
 
-A joyful adult woman at a contemporary tropical food courtyard, drawn in orchid, cream and green.
+Eight themed semantic icon slots are present, with template tinting and native fallback if unavailable. Settings uses a gear independently from parameter sliders; directional arrows retain their declared direction. Computer selection retains native semantics. Restored accents preserve their original bounded placement. New camera/headphone accents use 0.18 Home input opacity; no outset is added.
 
-An independent young-adult character startup illustration replaces the tiny scenery handoff. This square startup asset also serves the optional empty illustration. Scenic wallpaper is deliberately omitted; quiet palette surfaces separate artwork from native labels. The standard header is preserved with a small English title above the generous wide scene. Classic intentionally overlays the decorative lower third; no speculative shrinking is used to avoid that overlap. Tablet remains Editorial. All three image roles declare complete compact/regular objects. Seven matching line glyphs preserve clear native action meanings and use template tint. Optional chrome imagery remains absent. Gallery layout is a fictional composition using final resources; CLI checks and actual native QA are separately recorded.
+Source validation and contrast are separate from native acceptance. Pending per-pack acceptance: Classic/Editorial/Stage × phone/Pad × light/dark, long computer titles and drafts, keyboard, parameters, voice, user opacity and theme switching. These source notes claim no screenshots.
+
+## Version 1.0.16 provenance correction
+
+Settings now uses the newly authored original geometric cog from Aperture 1.1.10. Template tint preserves this theme palette. Other artwork and responsive declarations are unchanged. Native review of this cog remains pending. See CREDITS.md.
+
+## Version 1.0.17 empty-state canvas correction
+
+Only empty.artwork now uses empty-square.webp: a1536×1536 transparent canvas centered around the unchanged full figure. Both light/dark, compact/regular retain contain fit and previous opacity/focal values. Home, launch, wallpaper, controls and composer declarations/asset bytes are unchanged.

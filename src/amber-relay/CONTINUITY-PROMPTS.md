@@ -1,3 +1,5 @@
+> Historical authoring record. Current composition and validation are documented in REVISION.md.
+
 # Continuity artwork prompts
 
 Built-in image generation was used. Existing main illustration and startup props were preserved.

@@ -1,34 +1,28 @@
-# Glasshouse Prowler artwork
+# Glasshouse Prowler asset provenance
 
-All character and botanical conservatory illustrations were generated specifically for this original Muqun theme with OpenAI image generation on September 26, 2026. No third-party franchise characters, photographs, or reference artwork were used. Source: this authoring session; no public source URL. Released with this theme under CC0-1.0.
+This inventory covers the current 1.0.6 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: CC0-1.0. No broader rights in retained assets are granted here.
 
-- `assets/home-light.webp`, `assets/home-dark.webp`: original cute cel-shaded silver tabby kitten portrait, preserved alpha.
-- `assets/launch-light.webp`, `assets/launch-dark.webp`: independently generated complete playful anime kitten with watering can and fern, preserved alpha. Shared neutral fur artwork is intentional across both modes.
-- `assets/wallpaper-light.webp`, `assets/wallpaper-dark.webp`: independently generated daylight and midnight botanical glasshouse paintings.
-- `assets/icon-*.png`: seven original friendly rounded botanical vector glyphs authored for this theme and rasterized to transparent PNG, CC0-1.0.
-- `assets/preview.png`: composited from this theme's own assets and palette, CC0-1.0.
+| Current file | Origin and creator | Rights |
+| --- | --- | --- |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | CC0-1.0 |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-back.png) | CC0-1.0 |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-send.png) | CC0-1.0 |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-attach.png) | CC0-1.0 |
+| `assets/icon-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-create.png) | CC0-1.0 |
+| `assets/icon-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-scan.png) | CC0-1.0 |
+| `assets/icon-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-settings.png) | CC0-1.0 |
+| `assets/icon-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-arrow.png) | CC0-1.0 |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/icon-parameters.png) | CC0-1.0 |
+| `assets/composer-continuity.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/composer-continuity.png) | CC0-1.0 |
+| `assets/figure.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | CC0-1.0 |
+| `assets/empty.webp` | Collection square adaptation of the current transparent figure | CC0-1.0 |
+| `assets/wallpaper-light.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/wallpaper-light.webp) | CC0-1.0 |
+| `assets/wallpaper-dark.webp` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/assets/wallpaper-dark.webp) | CC0-1.0 |
 
-The supported replacement roles are chrome.back, chrome.send, chrome.attach, chrome.create, chrome.scan, chrome.settings, and home.arrow. Other App glyphs retain the built-in rendering. The Home arrow points up-right and declares its source direction.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/glasshouse-prowler/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.
 
-The kitten illustrations were regenerated as explicitly stylized Japanese-animation characters: rounded faces, expressive emerald eyes and simplified cel-shaded fur. They replace the earlier realistic cat studies, which are not shipped.
+## Regular Home scenes, version 1.0.7
 
-## Composer continuity
-
-Sparse transparent theme-specific input ornaments generated with OpenAI imagegen; exact prompt is recorded in ENVIRONMENT-PROMPTS.md. No character duplication, opaque input plate, or enclosing frame.
-
-## 2026-10-15 startup and parameter artwork repair
-
-Pack `glasshouse-prowler` version `1.0.4`.
-
-`assets/icon-parameters.png` is an original transparent geometric glyph exported from a vector drawing for this theme: two adjustment rails with paw handles. It replaces the generic glyph while keeping the parameters control recognizable at small sizes. Its existing independent `chrome.parameters` declaration and `template` tinting remain; no settings fallback or other icon was changed. Light and dark tinted source previews were inspected.
-
-Home input artwork is unchanged. Resolved mode/width declarations (responsive images replace the entire base image):
-
-| Mode | Width | Background (asset, fit, opacity, focal point, outset) | Overhang |
-| --- | --- | --- | --- |
-| light | compact | `{"asset":"composer-continuity","fit":"contain","opacity":0.3,"focalPoint":{"x":0.5,"y":0}}` | none |
-| light | regular | `{"asset":"composer-continuity","fit":"contain","opacity":0.3,"focalPoint":{"x":0.5,"y":0}}` | none |
-| dark | compact | `{"asset":"composer-continuity","fit":"contain","opacity":0.26,"focalPoint":{"x":0.5,"y":0}}` | none |
-| dark | regular | `{"asset":"composer-continuity","fit":"contain","opacity":0.26,"focalPoint":{"x":0.5,"y":0}}` | none |
-
-Omitted outset edges resolve to zero. Missing background/overhang paints nothing. Classic and Editorial share these slots. Source integrity, schema/asset validation, contrast and in-memory source packing are checked separately from visual inspection. Native phone/Pad checks in both layouts and modes (long drafts, keyboard, parameters open/closed and voice-to-text) remain unperformed; no theme was imported or auto-applied.
+`assets/pad-grounded-scene.webp`: new original integrated scenery generated with built-in image generation for this collection from its own subject artwork. The shared daylight composition preserves subject identity and adds coherent physical ground contact. Source: this authoring session, no external reference URL. Rights: CC0-1.0. These additions do not replace or relicense the retained assets listed above.

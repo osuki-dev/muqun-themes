@@ -2,16 +2,17 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "city-pop-balcony",
-  "name": "シティポップ・バルコニー",
-  "version": "1.0.10",
-  "author": "Muqun",
+  "name": "\u30b7\u30c6\u30a3\u30dd\u30c3\u30d7\u30fb\u30d0\u30eb\u30b3\u30cb\u30fc",
+  "version": "1.0.12",
+  "author": "Theme Collection",
   "license": "CC-BY-4.0",
-  "description": "海風、カセットテープ、夕暮れの色を重ねたシティポップテーマ。",
+  "description": "Two adult musicians trade cues across keyboard and bass on a peach and teal harbor balcony, rendered as a retro city-pop illustration.",
   "tags": [
-    "japan",
-    "youth",
+    "retro",
+    "music",
     "illustration",
-    "city-pop-balcony"
+    "friends",
+    "teal"
   ],
   "preview": "preview",
   "variants": {
@@ -123,30 +124,33 @@
     "actions": "solid"
   },
   "assets": {
+    "foreground": {
+      "path": "assets/foreground.webp",
+      "sha256": "8c21f0a29ed702e00a6bf332aaaf4f476318b4b6132aee3778b05855e24a5383"
+    },
     "background-light": {
-      "path": "assets/background-light.png"
+      "path": "assets/background-light.webp",
+      "sha256": "ded329807f0c91c223a0c5c97a3d19276c7334e8fba48f5bf054e09e2b1ed692"
     },
     "background-dark": {
-      "path": "assets/background-dark.png"
-    },
-    "hero-light": {
-      "path": "assets/hero-light.png"
-    },
-    "hero-dark": {
-      "path": "assets/hero-dark.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
+      "path": "assets/background-dark.webp",
+      "sha256": "98b5a2a635fb96508b1f27af270beffbcf819ed45a12f93e07ea76ca1999474d"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "92b6d6bfb4e8fe833b6034d36ffbad967d9c92192e1af9d16272b44bc8c7d8c6"
+      "sha256": "d46021da0cf82a93bb7a595c25528528bce4d78020d3192b1eaa3362b3bb9f5c"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "b41619f7da6033063f4c2f83b05919ef6de9cc8c2a687c4da8209aebea015e10"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "2b1615f7616ffc8889a80fe5a17ebd895b4dc6656c776ec8ed8ce85b3bd4646f"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "3e22ead8de30a3ed9171441f6a86d56536e4d0277f07a155aff316aef0e758aa"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -168,25 +172,75 @@
       "path": "assets/icon-parameters.png",
       "sha256": "4075e5c5e8ca44f51f5c3ae5f707c4c38e15e1d9eebfdbced9a39f61a73628e3"
     },
-    "home-cover-continuity": {
-      "path": "assets/home-cover-continuity.png",
-      "sha256": "b8981a96566a9729fb23518d10be069a334cbe46462c883d425fc5999dc491d8"
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "06048013bb78ab22e83a72a9339e593ba50e5b94a5b34fc9ee163b7ff38cd92f"
     },
-    "home-paper-light-continuity": {
-      "path": "assets/home-paper-light-continuity.png",
-      "sha256": "7587fa8d6d5d083f708c5940249223422c78906cfa5396bb874bce8380198fd0"
-    },
-    "home-paper-dark-continuity": {
-      "path": "assets/home-paper-dark-continuity.png",
-      "sha256": "f93644de6f59d7496f821433cdaade6adf49bac55b85065ffc10e51cd6878d96"
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "01c547c63b8ee4f9bf03e84e4e72b8e7105e926b2fa89ff0d4b3fab8f05100a5"
     }
   },
   "variantDecorations": {
     "light": {
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-light-regular",
+          "fit": "cover",
+          "opacity": 0.38,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "shell.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.16,
+        "opacity": 0.12,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -194,78 +248,24 @@
         "compact": {
           "asset": "background-light",
           "fit": "cover",
-          "opacity": 0.16,
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
-          "opacity": 0.16,
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
-        }
-      },
-      "home.wallpaper": {
-        "asset": "home-paper-light-continuity",
-        "fit": "cover",
-        "opacity": 0.42,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-paper-light-continuity",
-          "fit": "cover",
-          "opacity": 0.42,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-paper-light-continuity",
-          "fit": "cover",
-          "opacity": 0.42,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
           }
         }
       },
       "launch.artwork": {
-        "asset": "hero-light",
+        "asset": "foreground",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -273,7 +273,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero-light",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -282,7 +282,7 @@
           }
         },
         "regular": {
-          "asset": "hero-light",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -290,13 +290,70 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     },
     "dark": {
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      "home.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.5,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "background-dark-regular",
+          "fit": "cover",
+          "opacity": 0.5,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
       "shell.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.18,
+        "opacity": 0.12,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
@@ -304,78 +361,24 @@
         "compact": {
           "asset": "background-dark",
           "fit": "cover",
-          "opacity": 0.18,
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
-          "opacity": 0.18,
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
-          }
-        }
-      },
-      "home.wallpaper": {
-        "asset": "home-paper-dark-continuity",
-        "fit": "cover",
-        "opacity": 0.35,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-paper-dark-continuity",
-          "fit": "cover",
-          "opacity": 0.35,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-paper-dark-continuity",
-          "fit": "cover",
-          "opacity": 0.35,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        },
-        "compact": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
-          }
-        },
-        "regular": {
-          "asset": "home-cover-continuity",
-          "fit": "cover",
-          "opacity": 1,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0
           }
         }
       },
       "launch.artwork": {
-        "asset": "hero-dark",
+        "asset": "foreground",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -383,7 +386,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "hero-dark",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -392,7 +395,7 @@
           }
         },
         "regular": {
-          "asset": "hero-dark",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -400,7 +403,10 @@
             "y": 0.5
           }
         }
-      }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     }
   },
   "icons": {
@@ -448,41 +454,13 @@
       "mode": "default"
     }
   },
-  "iconDirections": {
-    "home.arrow": "up-right",
-    "chrome.back": "left"
-  },
-  "decoration": {
-    "home.artwork": {
-      "asset": "home-cover-continuity",
-      "fit": "cover",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0
-      },
-      "compact": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      },
-      "regular": {
-        "asset": "home-cover-continuity",
-        "fit": "cover",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0
-        }
-      }
-    }
-  },
+  "decoration": {},
   "homePresentation": {
     "header": "cover",
     "toolbarBackground": true
+  },
+  "iconDirections": {
+    "home.arrow": "up-right",
+    "chrome.back": "left"
   }
 }

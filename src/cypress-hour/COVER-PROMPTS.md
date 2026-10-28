@@ -1,3 +1,5 @@
+> Historical authoring record retained for provenance. Its asset and layout descriptions refer to the previous release; see REVISION.md for the current design.
+
 # Integrated Home and composer artwork prompts
 
 Generated with the built-in OpenAI image generation tool. No API/CLI fallback or script image edits/resizing were used. Reference images were existing Muqun collection illustrations. All final generated images are copied directly into this theme source. Native image dimensions are retained for local review; gallery export differs from the recommended 1024×640.

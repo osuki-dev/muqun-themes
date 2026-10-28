@@ -1,38 +1,23 @@
-# Silver on the Neva
+# Silver on the Neva asset provenance
 
-## Home continuity candidate 1.1.7
+This inventory covers the current 1.1.9 source assets. Historical descriptions of replaced characters are not descriptions of the current artwork. New illustrations were generated for the collection with built-in image generation; no third-party reference artwork was supplied. New artwork follows the theme license: All rights reserved. No broader rights in retained assets are granted here.
 
-The generated home-cover-continuity and home-paper continuity images are original fictional OpenAI image-generation artwork made on 2026-10-13 for Muqun Theme Collection. Cover references are this theme's own collection illustration. Wallpaper generation uses no third-party reference. License: the existing theme license. No script image editing was used. HOME-CONTINUITY.md records source review, responsive resolution, startup props and limitations. Published parameters/composer additions retain their original collection provenance.
+| Current file | Origin and creator | Rights |
+| --- | --- | --- |
+| `assets/scene-light.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/scene-dark.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/preview.png` | Collection composition of this theme’s current declared artwork and palette | All rights reserved |
+| `assets/icon-back.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/icon-back.png) | All rights reserved |
+| `assets/icon-send.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/icon-send.png) | All rights reserved |
+| `assets/icon-attach.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/icon-attach.png) | All rights reserved |
+| `assets/native-create.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/native-create.png) | All rights reserved |
+| `assets/native-scan.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/native-scan.png) | All rights reserved |
+| `assets/native-settings.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/native-settings.png) | All rights reserved |
+| `assets/native-arrow.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/native-arrow.png) | All rights reserved |
+| `assets/icon-parameters.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/icon-parameters.png) | All rights reserved |
+| `assets/figure.webp` | Collection original, built-in image generation in this refresh; source: this authoring session (no external source URL) | All rights reserved |
+| `assets/empty.webp` | Collection square adaptation of the current transparent figure | All rights reserved |
+| `assets/home-paper-light-continuity.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/home-paper-light-continuity.png) | All rights reserved |
+| `assets/home-paper-dark-continuity.png` | Collection / osuki-dev; unchanged [repository source](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/assets/home-paper-dark-continuity.png) | All rights reserved |
 
-
-Original AI-generated artwork created for Muqun Theme Collection. All rights reserved. See PROMPTS.md for generation prompts.
-
-`assets/home-hero.png`: new original AI-generated Home illustration by Muqun Theme Collection, created with the built-in image generation tool. See PROMPTS.md.
-
-## Native control glyphs
-
-`assets/native-create.png`, `assets/native-scan.png`, `assets/native-settings.png`, `assets/native-arrow.png` are original geometric drawings by osuki-dev, created for this theme refresh. Source: this theme directory. License: All rights reserved. Transparent template marks preserve native light/dark tinting.
-
-## Contemporary Home refresh, 2026-10-11
-
-`assets/editorial-foreground.png` and `assets/home-hero.png` replace the earlier Home/launch art listed above. Original artwork generated by OpenAI imagegen for osuki-dev, licensed under All rights reserved. No third-party reference artwork was supplied. Source: original imagegen outputs. The Home scene is independent of the transparent square startup/empty-state silhouette. Generated alpha was preserved; only proportional reduction to a 1024px maximum edge was performed.
-
-Home prompt:
-
-Use case: illustration-story. Asset type: high occupancy transparent foreground painting for winter riverside mobile Home. Contemporary youthful anime environment art of Saint Petersburg Neva blue-hour embankment: an elegant coral-red tram moving along broad riverside paving, a youthful adult skater in cobalt winter coat gliding nearby, softly simplified historic riverside facades receding in confident perspective. A spacious cinematic editorial scene, mature polished linework and luminous cool winter light. Landscape composition, architecture and tram span 85% of width, lower/right focus with quiet upper-left alpha for native title. Blue grey, icy ivory and selective coral, clean silhouettes, restrained snow and crisp readable forms. Genuine transparent background around scene, no opaque sky rectangle, no tiny bridge trinket, no souvenir pedestal, no baked checkerboard, no text, no labels, no logos, no watermark.
-
-Startup prompt:
-
-Use case: illustration-story. Asset type: independent square transparent startup emblem for Neva winter riverside theme. Original contemporary anime editorial illustration of a youthful adult skater in cobalt coat and soft ivory scarf, graceful gliding pose alongside a small curved coral tram handrail motif, one restrained icy reflection beneath feet. Figure is readable and complete, large square composition occupying 85% height, cool blue-hour palette with coral accents. Transparent RGBA surrounding silhouette, no background city rectangle, no frame, no bridge object, no typography, no logo, no watermark. Polished warm face and clean controlled clothing folds, distinct from the Home cityscape.
-
-### Final 2D editorial redraw
-
-The first new concept was rejected for photographic materials. Final Home and startup files are a complete 2D redraw using OpenAI imagegen, not that earlier concept. Each was redrawn with the following instruction and scene brief. Native foreground retains alpha; startup is independent.
-
-Instruction: Redraw completely as contemporary hand-drawn 2D anime editorial art: crisp ink contours, deliberate flat graphic color shapes, cel shading limited to 2–3 tones per surface, lightly painted highlights, tasteful depth. Eliminate photorealism, 3D/PBR render, finely textured surfaces and souvenir diorama styling. Preserve regional palette and genuine transparent alpha. No rectangle, checkerboard, text or watermark.
-
-neva-home-v2: Neva winter riverside with coral tram and youthful adult skater, blue-hour historic city. Keep wide high occupancy scene, architecture receding left, skater prominent right, quiet upper-left alpha. Draw ALL environment and tram with confident anime linework, simplified facades, geometric snow shadows and sparse reflections rather than photographic architecture.
-
-neva-launch-v2: Independent youthful adult skater in cobalt coat and ivory scarf, coral rail motif, airy ice reflection. Keep graceful full-body square transparent silhouette. Render youthful face cleanly; simplify hair/clothing into confident cel-shaded shapes with three tones, flowing motion arcs.
-
-Native edge refinement: modest transparent padding protects the drawn right-edge subject in phone and Pad cover panes. Home scenic wallpaper and the default brand wordmark are explicitly hidden; native controls and the art carry identity.
+Historical creator statements and license notices remain available in the [pre-refresh credits](https://github.com/osuki-dev/muqun-themes/blob/630898562fe0c0162901d00fc4d40ccb2af124e8/src/silver-on-the-neva/CREDITS.md). The file inventory above identifies which assets remain byte-for-byte; replaced assets and old prompts in that historical record are not bundled by this inventory. Original geometric control drawings are retained independently from the replaced character art.

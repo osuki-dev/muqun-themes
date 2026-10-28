@@ -1,14 +1,38 @@
 # Aperture Afterhours
 
-Clinical industrial spatial scenes pair chalk white and chilled blue with orange portal accents. Dark mode uses deep slate and pale blue controls. Four independently composed backgrounds serve phone and tablet. Home retains full artwork and a contained Companion Cube hero; shared content wallpaper uses 35% strength to keep conversation and terminal calm. Default Muqun name and logo remain.
+A cinematic fashion portrait of an adult woman in a charcoal suit, seated in a rain-lit studio with silver and amber light.
 
-The back arrow emerges from an oval portal; Send is a dart with a portal-shaped cutout; Attach uses interlinked oval rings. All three use template alpha for mode-aware tint. The cover pairs light on the left and dark on the right.
+## One pack, three Home layouts
 
-## Verification
+The existing Home artwork slot supplies one complete transparent foreground in contain fit. Classic, Editorial and Stage choose their own geometry; the manifest adds no layout selector. The complete foreground is also used at launch. No characters occur in wallpaper.
 
-CLI 1.9.0 validation and packing passed. Contrast floors are 90% light and 87% dark for interface surfaces, and 87% light and 75% dark for terminal surfaces.
+Compact uses the existing portrait scene. Regular now uses a separately recomposed 1536×1024 landscape scene that retains the architectural vista and foreground floor together. Light and dark have independently lit environments. Full-body foreground sources remain uncropped; native fades and control overlap need device review.
 
+## Resolved decoration mapping
 
-## Unified Home artwork
+| Mode | Slot | Base | Compact | Regular |
+| --- | --- | --- | --- | --- |
+| light | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | home.wallpaper | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light-regular / cover / 0.38 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | shell.wallpaper | background-light / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-light-regular / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | empty.artwork | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | home.composer.background | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| light | composer.background | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.wallpaper | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark-regular / cover / 0.5 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | shell.wallpaper | background-dark / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} | background-dark-regular / cover / 0.12 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | launch.artwork | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | foreground / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | empty.artwork | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-empty / contain / 1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | home.composer.background | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.18 / focal {'x': 0.5, 'y': 0.5} / outset {} |
+| dark | composer.background | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} | aperture-composer / contain / 0.1 / focal {'x': 0.5, 'y': 0.5} / outset {} |
 
-Classic and Editorial resolve one `home.artwork` foreground, using the manifest’s light/dark and compact/regular overrides. `home.wallpaper` remains the independent wallpaper. The layout positions the foreground; it never stacks a second Home illustration. `homeIdentity.artwork` controls default visibility. Startup reuses the same foreground unless an explicit `launch.artwork` preserves a distinct launch composition. Existing artwork filenames are retained; they do not identify rendering slots.
+## Controls and evidence
+
+Eight themed semantic icon slots are present, with template tinting and native fallback if unavailable. Settings uses a gear independently from parameter sliders; directional arrows retain their declared direction. Computer selection retains native semantics. Restored accents preserve their original bounded placement. New camera/headphone accents use 0.18 Home input opacity; no outset is added.
+
+Source validation and contrast are separate from native acceptance. Pending per-pack acceptance: Classic/Editorial/Stage × phone/Pad × light/dark, long computer titles and drafts, keyboard, parameters, voice, user opacity and theme switching. These source notes claim no screenshots.
+
+## Version 1.1.10 icon provenance correction
+
+All eight controls now use newly authored original geometric glyphs, replacing the legacy and borrowed icons. Asset placement, palettes, background/foreground composition and responsive declarations are unchanged. See CREDITS.md. Native visual acceptance of this icon revision remains pending.

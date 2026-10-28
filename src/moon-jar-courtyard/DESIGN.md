@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Moon Jar Courtyard
 
 Korea is expressed through the quietly imperfect white moon jar, hanok roofline and fibrous hanji paper collage. Porcelain and lilac light surfaces turn to aubergine at night. The roof-eave back arrow, folded crane send glyph and knotted paperclip share substantial silhouettes for small controls.

@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Credits
 
 The current Moon Jar Courtyard illustrations are original AI-generated artwork made with the built-in OpenAI image generation tool for Muqun Theme Collection on 2026-10-11, with no third-party reference images. All rights reserved.

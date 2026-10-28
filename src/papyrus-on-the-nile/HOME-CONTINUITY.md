@@ -1,3 +1,5 @@
+> Historical design record retained for provenance. See [REVISION.md](REVISION.md) for the current artwork and validation status.
+
 # Papyrus on the Nile — Home continuity 1.1.7
 
 warm Nile river felucca with connected pale golden sunset sky, palm banks, reeds, distant sails and wood deck; preserve adult sketching traveler, white shirt, notebook and navy trousers

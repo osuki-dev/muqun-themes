@@ -1,3 +1,3 @@
 # License
 
-All rights reserved. Original AI-generated artwork for Muqun Theme Collection. See CREDITS.md.
+Theme data and original artwork: All rights reserved.

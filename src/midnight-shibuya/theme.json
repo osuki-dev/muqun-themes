@@ -3,15 +3,15 @@
   "schemaVersion": 1,
   "id": "midnight-shibuya",
   "name": "渋谷、午前零時",
-  "version": "1.1.7",
-  "author": "Muqun",
+  "version": "1.1.10",
+  "author": "Theme Collection",
   "license": "CC-BY-4.0",
-  "description": "ネオンと雨粒が交差する、午前零時の渋谷を描いた夜景テーマ。",
+  "description": "A confident adult woman with a blunt bob, red jacket and silver accessories brings bold night-fashion illustration to a violet city.",
   "tags": [
-    "japan",
-    "youth",
-    "illustration",
-    "midnight-shibuya"
+    "fashion",
+    "graphic",
+    "red",
+    "night"
   ],
   "preview": "preview",
   "variants": {
@@ -123,30 +123,33 @@
     "actions": "solid"
   },
   "assets": {
+    "foreground": {
+      "path": "assets/foreground.webp",
+      "sha256": "9cc536a573856a34e1922b477fd528e5fe1f0c42d2035b90be3d9f3cd15e47dc"
+    },
     "background-light": {
-      "path": "assets/background-light.png"
+      "path": "assets/background-light.webp",
+      "sha256": "c7ff1b4ae17847fdcd4710edfc75d45e456ad667d8d07a081a1bd7a3620e38ae"
     },
     "background-dark": {
-      "path": "assets/background-dark.png"
-    },
-    "hero-light": {
-      "path": "assets/hero-light.png"
-    },
-    "hero-dark": {
-      "path": "assets/hero-dark.png"
-    },
-    "icon-back": {
-      "path": "assets/icon-back.png"
-    },
-    "icon-send": {
-      "path": "assets/icon-send.png"
-    },
-    "icon-attach": {
-      "path": "assets/icon-attach.png"
+      "path": "assets/background-dark.webp",
+      "sha256": "5850ae3cca05a34d525d11c715784bbc0c2106a14e82c27c1f9d7add0bf8f347"
     },
     "preview": {
       "path": "assets/preview.png",
-      "sha256": "527ab6a789deabf58f08bf4d19eb1a498fa0aa0761dabb64eb532060cb015c9f"
+      "sha256": "f12d311260f8c65ff9d3054cb7047ccc9b6d1135bc9dc24101b39a1bf9dc3154"
+    },
+    "icon-back": {
+      "path": "assets/icon-back.png",
+      "sha256": "f632063ec72f96f9c49b40e06242944c4f0eb2523ae05ff8da2b935826e2b04f"
+    },
+    "icon-send": {
+      "path": "assets/icon-send.png",
+      "sha256": "f25b79263ffac9e30df1bfa2668080c0b2f13725dffcd42d701ff603c70bfebe"
+    },
+    "icon-attach": {
+      "path": "assets/icon-attach.png",
+      "sha256": "45796e91b70a4f64258931193045d7483cce773f5ce7c18f93372ccdfb79ece6"
     },
     "icon-create": {
       "path": "assets/icon-create.png",
@@ -158,7 +161,7 @@
     },
     "icon-settings": {
       "path": "assets/icon-settings.png",
-      "sha256": "6c318742aae3b509fac898aa180b1cfc1b8ccc90a5c21bad4f41b6b2c1df7c17"
+      "sha256": "e03735028edad88190489ce835b1f1be12d4df6c6e4d81824d3c762d5cfc3e70"
     },
     "icon-arrow": {
       "path": "assets/icon-arrow.png",
@@ -167,96 +170,109 @@
     "icon-parameters": {
       "path": "assets/icon-parameters.png",
       "sha256": "0245726620a6dde0202a8676af402826d39e4897337dc3973d0311f68d4becfc"
+    },
+    "background-light-regular": {
+      "path": "assets/background-light-regular.webp",
+      "sha256": "6e0415cf177d0be7a396f9fc7435a7b4ee5a3db87212a6338415635f274aaf49"
+    },
+    "background-dark-regular": {
+      "path": "assets/background-dark-regular.webp",
+      "sha256": "4617c74bd2d108dd38caf0adfac04f226dfcb6076e67ccceb3e354deffcca4fb"
     }
   },
   "variantDecorations": {
     "light": {
-      "shell.wallpaper": {
-        "asset": "background-light",
-        "fit": "cover",
-        "opacity": 0.16,
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "background-light",
-          "fit": "cover",
-          "opacity": 0.16,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-light",
-          "fit": "cover",
-          "opacity": 0.16,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
       "home.wallpaper": {
         "asset": "background-light",
         "fit": "cover",
-        "opacity": 0.62,
+        "opacity": 0.38,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "background-light",
           "fit": "cover",
-          "opacity": 0.62,
+          "opacity": 0.38,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-light",
+          "asset": "background-light-regular",
           "fit": "cover",
-          "opacity": 0.62,
+          "opacity": 0.38,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
-      "home.artwork": {
-        "asset": "hero-light",
-        "fit": "contain",
+      "shell.wallpaper": {
+        "asset": "background-light",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1,
+          "asset": "background-light",
+          "fit": "cover",
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "hero-light",
-          "fit": "contain",
-          "opacity": 1,
+          "asset": "background-light-regular",
+          "fit": "cover",
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
       "launch.artwork": {
-        "asset": "hero-light",
+        "asset": "foreground",
         "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "hero-light",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -265,108 +281,111 @@
           }
         },
         "regular": {
-          "asset": "hero-light",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
-      }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     },
     "dark": {
-      "shell.wallpaper": {
-        "asset": "background-dark",
-        "fit": "cover",
-        "opacity": 0.2,
+      "home.artwork": {
+        "asset": "foreground",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "background-dark",
-          "fit": "cover",
-          "opacity": 0.2,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-dark",
-          "fit": "cover",
-          "opacity": 0.2,
+          "asset": "foreground",
+          "fit": "contain",
+          "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
       "home.wallpaper": {
         "asset": "background-dark",
         "fit": "cover",
-        "opacity": 0.68,
+        "opacity": 0.5,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
           "asset": "background-dark",
           "fit": "cover",
-          "opacity": 0.68,
+          "opacity": 0.5,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "background-dark",
+          "asset": "background-dark-regular",
           "fit": "cover",
-          "opacity": 0.68,
+          "opacity": 0.5,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
-      "home.artwork": {
-        "asset": "hero-dark",
-        "fit": "contain",
+      "shell.wallpaper": {
+        "asset": "background-dark",
+        "fit": "cover",
+        "opacity": 0.12,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1,
+          "asset": "background-dark",
+          "fit": "cover",
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
         },
         "regular": {
-          "asset": "hero-dark",
-          "fit": "contain",
-          "opacity": 1,
+          "asset": "background-dark-regular",
+          "fit": "cover",
+          "opacity": 0.12,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
       },
       "launch.artwork": {
-        "asset": "hero-dark",
+        "asset": "foreground",
         "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
         "compact": {
-          "asset": "hero-dark",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -375,20 +394,18 @@
           }
         },
         "regular": {
-          "asset": "hero-dark",
+          "asset": "foreground",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
             "y": 0.5
           }
-        },
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
         }
-      }
+      },
+      "empty.artwork": null,
+      "home.composer.background": null,
+      "home.composer.decoration": null
     }
   },
   "icons": {
@@ -427,8 +444,7 @@
   },
   "homeIdentity": {
     "name": {
-      "mode": "custom",
-      "text": "雨の街、午前零時"
+      "mode": "hidden"
     },
     "logo": {
       "mode": "hidden"
@@ -437,11 +453,12 @@
       "mode": "default"
     }
   },
-  "iconDirections": {
-    "home.arrow": "up-right"
-  },
   "homePresentation": {
     "header": "cover",
-    "toolbarBackground": false
+    "toolbarBackground": true
+  },
+  "decoration": {},
+  "iconDirections": {
+    "home.arrow": "up-right"
   }
 }
