@@ -36,3 +36,17 @@ Source images inspected for complete bodies, genuine alpha, subject-free environ
 ## 1.1.13 compact Stage framing
 
 Native iPhone Stage 1.1.12 cropped the snowboard and outer arm/boot. Compact now uses a separate 2:1 centered transparent foreground with complete figures and board. Regular art and all other slots stay unchanged. Native recheck is pending.
+
+## 1.1.14 Home and launch composition roles
+
+Home now uses the previous launch scene, with explicit light/dark and phone/Pad
+images. Home foreground is disabled so the snowboard friends appear only once.
+The launch images deterministically combine the previous subject-free Home
+mountains and complete transparent friends, retaining the muted environment
+and full snowboard. Compact canvases remain 1024x1536; regular canvases remain
+1536x1024. Existing source images, icons, composer decoration and palettes are
+unchanged. The new composites are static WebP images; no new artwork was generated.
+
+Manifest validation, contrast, packaging and full source checks are recorded in
+the follow-up PR. Native launch and Classic/Editorial/Stage phone/Pad acceptance
+must be reported separately; source previews are not device screenshots.

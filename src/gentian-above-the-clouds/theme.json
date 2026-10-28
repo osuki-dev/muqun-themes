@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "gentian-above-the-clouds",
   "name": "Gentian above the Clouds",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -187,40 +187,30 @@
     "hero-compact-wide": {
       "path": "assets/hero-compact-wide.png",
       "sha256": "35854e9d2aad8dd858cc4065aa1600c9f04f3639df7f430b3e2979842ca15700"
+    },
+    "launch-composition-compact-light": {
+      "path": "assets/launch-composition-compact-light.webp",
+      "sha256": "fc47eb9b8528be714eede705c134a9e721c1f4b2fef76b922a14aca2ce399fd1"
+    },
+    "launch-composition-regular-light": {
+      "path": "assets/launch-composition-regular-light.webp",
+      "sha256": "07a8b0c2e9e3661afdb5c75291e84f89be2cd04b5b1f10b400671997c2589617"
+    },
+    "launch-composition-compact-dark": {
+      "path": "assets/launch-composition-compact-dark.webp",
+      "sha256": "d88580fa41c0f7d0903f205fabeec6fc97a712d183c9717fd663eb89ec6baab6"
+    },
+    "launch-composition-regular-dark": {
+      "path": "assets/launch-composition-regular-dark.webp",
+      "sha256": "c215d7e9deed838a2e7e9ead8e99f752da999725f4d5b6d4cef31c9a2e0b0048"
     }
   },
   "decoration": {
-    "home.artwork": {
-      "asset": "hero",
-      "fit": "contain",
-      "opacity": 1,
-      "focalPoint": {
-        "x": 0.5,
-        "y": 0.5
-      },
-      "compact": {
-        "asset": "hero-compact-wide",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      },
-      "regular": {
-        "asset": "hero",
-        "fit": "contain",
-        "opacity": 1,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        }
-      }
-    },
+    "home.artwork": null,
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "scene-compact-light",
+      "asset": "launch-composition-compact-light",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -228,7 +218,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "scene-compact-light",
+        "asset": "launch-composition-compact-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -237,7 +227,7 @@
         }
       },
       "regular": {
-        "asset": "scene-regular-light",
+        "asset": "launch-composition-regular-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -299,7 +289,7 @@
       "mode": "hidden"
     },
     "artwork": {
-      "mode": "default"
+      "mode": "hidden"
     }
   },
   "description": "Two snowboard friends help with their bindings in expressive sports anime, framed by violet mountains, ice-blue outerwear and lime details.",
@@ -318,43 +308,16 @@
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
-        "asset": "environment-light",
+        "asset": "scene-compact-light",
         "fit": "cover",
-        "opacity": 0.36,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "environment-light",
-          "fit": "cover",
-          "opacity": 0.36,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "environment-light",
-          "fit": "cover",
-          "opacity": 0.36,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "hero",
-        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "hero-compact-wide",
-          "fit": "contain",
+          "asset": "scene-compact-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -362,8 +325,8 @@
           }
         },
         "regular": {
-          "asset": "hero",
-          "fit": "contain",
+          "asset": "scene-regular-light",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -371,6 +334,7 @@
           }
         }
       },
+      "home.artwork": null,
       "home.composer.background": {
         "asset": "composer-corner-continuity",
         "fit": "contain",
@@ -424,7 +388,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-compact-light",
+        "asset": "launch-composition-compact-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -432,7 +396,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-light",
+          "asset": "launch-composition-compact-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -441,7 +405,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "launch-composition-regular-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -453,43 +417,16 @@
     },
     "dark": {
       "home.wallpaper": {
-        "asset": "environment-dark",
+        "asset": "scene-compact-dark",
         "fit": "cover",
-        "opacity": 0.32,
-        "focalPoint": {
-          "x": 0.5,
-          "y": 0.5
-        },
-        "compact": {
-          "asset": "environment-dark",
-          "fit": "cover",
-          "opacity": 0.32,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "regular": {
-          "asset": "environment-dark",
-          "fit": "cover",
-          "opacity": 0.32,
-          "focalPoint": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        }
-      },
-      "home.artwork": {
-        "asset": "hero",
-        "fit": "contain",
         "opacity": 1,
         "focalPoint": {
           "x": 0.5,
           "y": 0.5
         },
         "compact": {
-          "asset": "hero-compact-wide",
-          "fit": "contain",
+          "asset": "scene-compact-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -497,8 +434,8 @@
           }
         },
         "regular": {
-          "asset": "hero",
-          "fit": "contain",
+          "asset": "scene-regular-dark",
+          "fit": "cover",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
@@ -506,6 +443,7 @@
           }
         }
       },
+      "home.artwork": null,
       "home.composer.background": {
         "asset": "composer-corner-continuity",
         "fit": "contain",
@@ -550,7 +488,7 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-dark",
+        "asset": "launch-composition-compact-dark",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -558,7 +496,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "launch-composition-compact-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -567,7 +505,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "launch-composition-regular-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
