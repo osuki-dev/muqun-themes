@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "papyrus-on-the-nile",
   "name": "Papyrus on the Nile",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "variants": {
@@ -211,7 +211,7 @@
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "scene-compact-light",
+      "asset": "hero",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -219,7 +219,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "scene-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -228,7 +228,7 @@
         }
       },
       "regular": {
-        "asset": "scene-regular-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -349,7 +349,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -357,7 +357,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -366,7 +366,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -434,7 +434,7 @@
       "home.composer.background": null,
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-dark",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -442,7 +442,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -451,7 +451,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "gentian-above-the-clouds",
   "name": "Gentian above the Clouds",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "homePresentation": {
@@ -210,7 +210,7 @@
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "launch-composition-compact-light",
+      "asset": "hero",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -218,7 +218,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "launch-composition-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -227,7 +227,7 @@
         }
       },
       "regular": {
-        "asset": "launch-composition-regular-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -388,7 +388,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "launch-composition-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -396,7 +396,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "launch-composition-compact-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -405,7 +405,7 @@
           }
         },
         "regular": {
-          "asset": "launch-composition-regular-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -488,7 +488,7 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "launch-composition-compact-dark",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -496,7 +496,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "launch-composition-compact-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -505,7 +505,7 @@
           }
         },
         "regular": {
-          "asset": "launch-composition-regular-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

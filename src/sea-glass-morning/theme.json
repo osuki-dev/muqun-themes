@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "sea-glass-morning",
   "name": "Sea Glass Morning",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "preview": "preview",
@@ -193,7 +193,35 @@
       "sha256": "68c66a519768030c1f8985969607c86b1d2f51a188214acf0551b857fcf1785a"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "foreground-light",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "icons": {
     "chrome.back": {
       "asset": "icon-back",
@@ -294,11 +322,11 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "foreground-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }
@@ -412,11 +440,11 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "foreground-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }

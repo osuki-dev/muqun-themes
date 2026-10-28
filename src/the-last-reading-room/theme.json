@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "the-last-reading-room",
   "name": "The Last Reading Room",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "author": "Theme Collection",
   "license": "CC-BY-4.0",
   "preview": "preview",
@@ -248,7 +248,7 @@
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "scene-compact-light",
+      "asset": "hero",
       "fit": "contain",
       "opacity": 1,
       "focalPoint": {
@@ -256,7 +256,7 @@
         "y": 0.5
       },
       "compact": {
-        "asset": "scene-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -265,7 +265,7 @@
         }
       },
       "regular": {
-        "asset": "scene-regular-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -427,7 +427,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-compact-light",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -435,7 +435,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -444,7 +444,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -715,7 +715,7 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-dark",
+        "asset": "hero",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -723,7 +723,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-compact-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -732,7 +732,7 @@
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "hero",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "clockwork-harlequin",
   "name": "Clockwork Harlequin",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "author": "Independent Artists",
   "license": "All rights reserved",
   "description": "Two exuberant street performers exchange a ribbon baton. Checkerboard, stripes and tomato ribbons bring theatrical energy to lilac daylight and plum evening.",
@@ -234,7 +234,35 @@
       "sha256": "9f54eedcc0da61f95c6e2f6b9f5d0ac113568bb1d983fcbdd7a21937ce525aac"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "figure",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
@@ -319,7 +347,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-light",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -327,7 +355,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -336,7 +364,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -466,7 +494,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-dark",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -474,7 +502,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -483,7 +511,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

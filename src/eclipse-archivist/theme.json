@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "eclipse-archivist",
   "name": "Eclipse Archivist",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Independent Artists",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -181,7 +181,35 @@
       "sha256": "11b28f2290684aa05c28ecacc2edd6d74e3013ad2c2cdd854f564c4bbef6d007"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "figure",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "icons": {
     "chrome.back": {
       "asset": "icon-back",
@@ -300,7 +328,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-light",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -308,7 +336,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -317,7 +345,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -447,7 +475,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-dark",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -455,7 +483,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -464,7 +492,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
