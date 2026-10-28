@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "silver-on-the-neva",
   "name": "Silver on the Neva",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "author": "Independent Artists",
   "license": "All rights reserved",
   "description": "An ash-blonde dancer stretches beside the river rail in a slate cardigan and flowing ivory skirt. Cool ballet-fashion illustration pairs peach dawn with silver blue-hour light.",
@@ -186,7 +186,35 @@
       "sha256": "5873ed3b308c800db6c195bc9c4991909b8be092c51f6bf3422ae06a95b6cecc"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "figure",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "figure",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "variantDecorations": {
     "light": {
       "home.wallpaper": {
@@ -271,7 +299,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-light",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -279,7 +307,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -288,7 +316,7 @@
           }
         },
         "regular": {
-          "asset": "scene-light",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -392,7 +420,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-dark",
+        "asset": "figure",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -400,7 +428,7 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
@@ -409,7 +437,7 @@
           }
         },
         "regular": {
-          "asset": "scene-dark",
+          "asset": "figure",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {

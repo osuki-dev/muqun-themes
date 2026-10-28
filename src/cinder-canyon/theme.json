@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "cinder-canyon",
   "name": "Cinder Canyon",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "Independent Artists",
   "license": "CC0-1.0",
   "preview": "preview",
@@ -185,7 +185,35 @@
       "sha256": "95d0c671b74c69fab5092216b8dfbcaff388f5ea52050137095e42b9fc6d720a"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "figure-light",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "figure-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "figure-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "icons": {
     "chrome.back": {
       "asset": "icon-back",
@@ -304,7 +332,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-light",
+        "asset": "figure-light",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -312,21 +340,21 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-light",
+          "asset": "figure-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "scene-regular-light",
+          "asset": "figure-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
       },
@@ -416,7 +444,7 @@
         }
       },
       "launch.artwork": {
-        "asset": "scene-dark",
+        "asset": "figure-dark",
         "fit": "contain",
         "opacity": 1,
         "focalPoint": {
@@ -424,21 +452,21 @@
           "y": 0.5
         },
         "compact": {
-          "asset": "scene-dark",
+          "asset": "figure-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         },
         "regular": {
-          "asset": "scene-regular-dark",
+          "asset": "figure-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
             "x": 0.5,
-            "y": 0
+            "y": 0.5
           }
         }
       },

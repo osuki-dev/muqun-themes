@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "amber-relay",
   "name": "Amber Relay",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "description": "Two musicians compare records in a warm listening booth, captured in natural retro photography with amber lamps, burgundy upholstery and denim.",
@@ -295,9 +295,31 @@
     "home.composer.background": null,
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "scene-compact-light",
+      "asset": "layer-hero",
       "fit": "contain",
-      "opacity": 1
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "navigation.background": {
       "asset": "chrome-edge",
@@ -567,13 +589,30 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-light",
+        "asset": "layer-hero",
         "fit": "contain",
         "opacity": 1,
-        "regular": {
-          "asset": "scene-regular-light",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
           "fit": "contain",
-          "opacity": 1
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     },
@@ -676,13 +715,30 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-dark",
+        "asset": "layer-hero",
         "fit": "contain",
         "opacity": 1,
-        "regular": {
-          "asset": "scene-regular-dark",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
           "fit": "contain",
-          "opacity": 1
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     }

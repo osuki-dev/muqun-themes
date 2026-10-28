@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "last-light-in-lofoten",
   "name": "Last Light in Lofoten",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "author": "Theme contributors",
   "license": "All rights reserved",
   "description": "A quiet thermos break on a rocky Lofoten shore, captured in cinematic outdoor photography. Burgundy fleece and cream wool meet steel-blue water, sunset and cabin-lit evening.",
@@ -174,7 +174,35 @@
       "sha256": "bc1b38fda16c84fd903b112a463852d45f9d9b48001338fa1782feb4055ff50a"
     }
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "foreground-light",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "homeIdentity": {
     "name": {
       "mode": "hidden"
@@ -284,11 +312,11 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "foreground-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }
@@ -361,11 +389,11 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "foreground-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }

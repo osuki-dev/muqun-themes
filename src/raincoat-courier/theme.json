@@ -2,8 +2,8 @@
   "format": "muqun-theme",
   "schemaVersion": 1,
   "id": "raincoat-courier",
-  "name": "レインコート・クーリエ",
-  "version": "1.1.13",
+  "name": "\u30ec\u30a4\u30f3\u30b3\u30fc\u30c8\u30fb\u30af\u30fc\u30ea\u30a8",
+  "version": "1.1.14",
   "author": "Theme contributors",
   "license": "CC-BY-4.0",
   "description": "A silver-haired courier strides through a rainy street in a cropped yellow shell and graphite cargo skirt. Sweet-cool anime fashion meets wet cyan reflections and warm evening windows.",
@@ -267,11 +267,11 @@
           }
         },
         "regular": {
-          "asset": "scene-light-pad",
+          "asset": "foreground-light",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }
@@ -400,11 +400,11 @@
           }
         },
         "regular": {
-          "asset": "scene-dark-pad",
+          "asset": "foreground-dark",
           "fit": "contain",
           "opacity": 1,
           "focalPoint": {
-            "x": 0,
+            "x": 0.5,
             "y": 0.5
           }
         }
@@ -517,7 +517,35 @@
   "effects": {
     "ambient": "none"
   },
-  "decoration": {},
+  "decoration": {
+    "launch.artwork": {
+      "asset": "foreground-light",
+      "fit": "contain",
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "foreground-light",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  },
   "iconDirections": {
     "home.arrow": "up-right"
   }

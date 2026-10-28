@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "id": "atlantic-in-azulejo",
   "name": "Atlantic in Azulejo",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "author": "Theme Collection",
   "license": "All rights reserved",
   "preview": "preview",
@@ -255,9 +255,31 @@
     },
     "home.composer.decoration": null,
     "launch.artwork": {
-      "asset": "scene-compact-light",
+      "asset": "layer-hero",
       "fit": "contain",
-      "opacity": 1
+      "opacity": 1,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "compact": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "regular": {
+        "asset": "layer-hero",
+        "fit": "contain",
+        "opacity": 1,
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
     },
     "navigation.background": {
       "asset": "edge",
@@ -428,13 +450,30 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-light",
+        "asset": "layer-hero",
         "fit": "contain",
         "opacity": 1,
-        "regular": {
-          "asset": "scene-regular-light",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
           "fit": "contain",
-          "opacity": 1
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     },
@@ -514,13 +553,30 @@
       },
       "home.composer.decoration": null,
       "launch.artwork": {
-        "asset": "scene-compact-dark",
+        "asset": "layer-hero",
         "fit": "contain",
         "opacity": 1,
-        "regular": {
-          "asset": "scene-regular-dark",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "compact": {
+          "asset": "layer-hero",
           "fit": "contain",
-          "opacity": 1
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "regular": {
+          "asset": "layer-hero",
+          "fit": "contain",
+          "opacity": 1,
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
         }
       }
     }
